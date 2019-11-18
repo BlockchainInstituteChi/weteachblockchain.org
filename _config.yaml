@@ -1,0 +1,11 @@
+collections:
+  authors: 
+    output: true
+
+destination: docs/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
