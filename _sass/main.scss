@@ -1,12 +1,15 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+/* Misc */
 .content {
   font-size: $custom-font-size;
 }
-
 body {
 	font-family: "Kanit";
+}
+a {
+	text-decoration: none !important;
 }
 
 /* Nav */
@@ -31,3 +34,29 @@ nav i {
     color: #2fae9f;
 }
 
+/* Mobile Nav Toggle */
+button.navbar-toggler.collapsed, navbar-toggler-icon {
+    background-color: #47b7aa;
+}
+
+
+/* Footer */
+.container-fluid.footer {
+    background: white;
+    color: darkgrey;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.footer .col-md-6 {
+    padding: 2em;
+}
+.footer h4 {
+    text-transform: uppercase;
+}
+.footer a {
+    color: darkgrey;
+}
+.footer a:hover {
+    color: #2fae9f;
+}

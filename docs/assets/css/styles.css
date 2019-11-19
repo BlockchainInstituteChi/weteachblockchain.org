@@ -3178,9 +3178,12 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody { border-color: #dee2e6; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
 
+/* Misc */
 .content { font-size: 20px; }
 
 body { font-family: "Kanit"; }
+
+a { text-decoration: none !important; }
 
 /* Nav */
 nav { background: white; border: 0.025px solid #d3d3d359; }
@@ -3193,5 +3196,19 @@ ul.navbar-nav.ml-auto { margin-right: 1em; }
 ul.navbar-nav.flex-row { padding-left: 1em; }
 
 nav i { color: #2fae9f; }
+
+/* Mobile Nav Toggle */
+button.navbar-toggler.collapsed, navbar-toggler-icon { background-color: #47b7aa; }
+
+/* Footer */
+.container-fluid.footer { background: white; color: darkgrey; padding: 1em; padding-left: 3em; padding-right: 3em; }
+
+.footer .col-md-6 { padding: 2em; }
+
+.footer h4 { text-transform: uppercase; }
+
+.footer a { color: darkgrey; }
+
+.footer a:hover { color: #2fae9f; }
 
 /*# sourceMappingURL=styles.css.map */
