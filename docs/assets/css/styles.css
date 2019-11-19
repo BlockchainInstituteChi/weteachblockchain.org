@@ -8,7 +8,7 @@ html { font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
 
-body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #fff; text-align: left; background-color: #dc3545; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #fff; text-align: left; background-color: #fff; }
 
 [tabindex="-1"]:focus { outline: 0 !important; }
 
@@ -164,7 +164,7 @@ mark, .mark { padding: 0.2em; background-color: #fcf8e3; }
 
 .img-fluid { max-width: 100%; height: auto; }
 
-.img-thumbnail { padding: 0.25rem; background-color: #dc3545; border: 1px solid #dee2e6; border-radius: 0.25rem; max-width: 100%; height: auto; }
+.img-thumbnail { padding: 0.25rem; background-color: #fff; border: 1px solid #dee2e6; border-radius: 0.25rem; max-width: 100%; height: auto; }
 
 .figure { display: inline-block; }
 
@@ -1214,11 +1214,11 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .custom-range:focus { outline: none; }
 
-.custom-range:focus::-webkit-slider-thumb { box-shadow: 0 0 0 1px #dc3545, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+.custom-range:focus::-webkit-slider-thumb { box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
-.custom-range:focus::-moz-range-thumb { box-shadow: 0 0 0 1px #dc3545, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+.custom-range:focus::-moz-range-thumb { box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
-.custom-range:focus::-ms-thumb { box-shadow: 0 0 0 1px #dc3545, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
+.custom-range:focus::-ms-thumb { box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); }
 
 .custom-range::-moz-focus-outer { border: 0; }
 
@@ -1282,7 +1282,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 
 .nav-tabs .nav-link.disabled { color: #6c757d; background-color: transparent; border-color: transparent; }
 
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link { color: #495057; background-color: #dc3545; border-color: #dee2e6 #dee2e6 #dc3545; }
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link { color: #495057; background-color: #fff; border-color: #dee2e6 #dee2e6 #fff; }
 
 .nav-tabs .dropdown-menu { margin-top: -1px; border-top-left-radius: 0; border-top-right-radius: 0; }
 
@@ -3181,9 +3181,11 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 /* Misc */
 .content { font-size: 20px; }
 
-body { font-family: "Kanit"; }
+body { font-family: "Kanit"; color: darkgrey; }
 
 a { text-decoration: none !important; }
+
+.container img { max-width: 100%; }
 
 /* Nav */
 nav { background: white; border: 0.025px solid #d3d3d359; }
@@ -3192,10 +3194,14 @@ nav a.nav-link { color: black !important; text-transform: uppercase; font-weight
 
 ul.navbar-nav.ml-auto { margin-right: 1em; }
 
+a.nav-link:hover { color: #2fae9f !important; }
+
 /* Social Nav */
 ul.navbar-nav.flex-row { padding-left: 1em; }
 
 nav i { color: #2fae9f; }
+
+a.nav-link i:hover { color: #0d72aa; }
 
 /* Mobile Nav Toggle */
 button.navbar-toggler.collapsed, navbar-toggler-icon { background-color: #47b7aa; }
@@ -3210,5 +3216,16 @@ button.navbar-toggler.collapsed, navbar-toggler-icon { background-color: #47b7aa
 .footer a { color: darkgrey; }
 
 .footer a:hover { color: #2fae9f; }
+
+.footer ul.navbar-nav.flex-row { padding-left: 0; }
+
+/* Footer MC */
+.mc4wp-form-fields { margin-top: 10px; }
+
+.mc_signup_input { width: 75%; height: 40px; padding-left: 10px !important; }
+
+button.mc_signup { height: 40px; vertical-align: bottom; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: white; border: solid grey 1px !important; margin-left: -10px; padding-top: 5px; }
+
+.mc_signup i { font-size: 20pt; color: #aeaeae; }
 
 /*# sourceMappingURL=styles.css.map */

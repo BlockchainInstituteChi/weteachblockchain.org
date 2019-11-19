@@ -7,9 +7,13 @@
 }
 body {
 	font-family: "Kanit";
+    color: darkgrey;
 }
 a {
 	text-decoration: none !important;
+}
+.container img {
+    max-width: 100%;
 }
 
 /* Nav */
@@ -25,6 +29,9 @@ nav a.nav-link {
 ul.navbar-nav.ml-auto {
     margin-right: 1em;
 }
+a.nav-link:hover {
+    color: #2fae9f !important;
+}
 
 /* Social Nav */
 ul.navbar-nav.flex-row {
@@ -32,6 +39,9 @@ ul.navbar-nav.flex-row {
 }
 nav i {
     color: #2fae9f;
+}
+a.nav-link i:hover {
+    color: #0d72aa;
 }
 
 /* Mobile Nav Toggle */
@@ -59,4 +69,31 @@ button.navbar-toggler.collapsed, navbar-toggler-icon {
 }
 .footer a:hover {
     color: #2fae9f;
+}
+.footer ul.navbar-nav.flex-row {
+    padding-left: 0;
+}
+
+/* Footer MC */
+.mc4wp-form-fields {
+    margin-top: 10px;
+}
+.mc_signup_input {
+    width: 75%;
+    height: 40px;
+    padding-left: 10px !important;
+}
+button.mc_signup {
+    height: 40px;
+    vertical-align: bottom;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    border: solid grey 1px !important;
+    margin-left: -10px;
+    padding-top: 5px;
+}
+.mc_signup i {
+    font-size: 20pt;
+    color: #aeaeae;
 }
