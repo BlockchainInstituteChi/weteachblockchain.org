@@ -4,8 +4,16 @@ collections:
 
 destination: docs/
 
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+
+# exclude: []
+include: ["node_modules"]
