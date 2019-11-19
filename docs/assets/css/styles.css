@@ -3182,4 +3182,16 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; }
 
+/* Nav */
+nav { background: white; border: 0.025px solid #d3d3d359; }
+
+nav a.nav-link { color: black !important; text-transform: uppercase; font-weight: 500; }
+
+ul.navbar-nav.ml-auto { margin-right: 1em; }
+
+/* Social Nav */
+ul.navbar-nav.flex-row { padding-left: 1em; }
+
+nav i { color: #2fae9f; }
+
 /*# sourceMappingURL=styles.css.map */
