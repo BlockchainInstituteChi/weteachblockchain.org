@@ -3185,23 +3185,23 @@ body { font-family: "Kanit"; color: darkgrey; }
 
 a { text-decoration: none !important; }
 
-.container img { max-width: 100%; }
+.col-sm-6 img { max-width: 100%; }
 
-section.container { margin: 0; min-width: calc(100vw - 1em) !important; min-height: 50vh; }
+section.container { margin: 0; max-height: unset !important; min-width: calc(100vw - 1em) !important; height: fit-content !important; min-height: fit-content !important; }
 
-header.jumbotron { margin-bottom: 0; border-radius: 0; }
+header.jumbotron { margin-bottom: 0; border-radius: 0; max-height: unset !important; height: fit-content !important; min-height: fit-content !important; }
 
 header, section { height: 100vh; max-height: 800px; overflow: hidden; }
 
 section .row { min-height: 100%; }
 
-.col-sm-6 .container { margin-top: calc(40% - 2em); }
+.col-sm-6 h1 { margin-top: 2em; }
 
 strong { font-weight: 700; }
 
-h1 { font-weight: 600 !important; font-size: 3em; padding-left: 0.25em; }
+h1 { font-weight: 700 !important; font-size: 3.5em; padding-left: 0.25em; color: black; }
 
-p { font-size: 1.1em; padding: 1em; }
+p { font-size: 1.5em; padding: 1em; }
 
 /* Colors */
 strong.red { color: #ef444d; }
@@ -3267,7 +3267,11 @@ button.mc_signup { height: 40px; vertical-align: bottom; border-top-right-radius
 /* Jumbotron */
 .tileHeader { background: url(/assets/img/headerBackgroundTile.jpg); background-size: cover; background-position: 50% 50%; }
 
+.jumbotron h1 { margin-top: 0; }
+
 .jumbotron .col-sm-4 { color: white; }
+
+.tileHeader h1 { color: white; }
 
 .tileHeader button { background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; margin-left: 1em; }
 

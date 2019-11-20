@@ -1,0 +1,26 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+	.tileHeader {
+	    background-position: left;
+	}
+	
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+	.tileHeader {
+	    background-position: left;
+	}
+
+	/* in-person */
+	.col-sm-6.leftWhite {
+	    background: white;
+	}
+	.inPerson p {
+	    padding-right: 1em;
+	}
+	
+}

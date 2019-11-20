@@ -12,17 +12,22 @@ body {
 a {
 	text-decoration: none !important;
 }
-.container img {
+.col-sm-6 img {
     max-width: 100%;
 }
 section.container {
     margin: 0;
+    max-height: unset !important;
     min-width: calc(100vw - 1em) !important;
-    min-height: 50vh;
+    height: fit-content !important;
+    min-height: fit-content !important;
 }
 header.jumbotron {
     margin-bottom: 0;
     border-radius: 0;
+    max-height: unset !important;
+    height: fit-content !important;
+    min-height: fit-content !important;
 }
 header, section {
     height: 100vh; 
@@ -32,19 +37,20 @@ header, section {
 section .row {
     min-height: 100%;
 }
-.col-sm-6 .container {
-    margin-top: calc(40% - 2em);
+.col-sm-6 h1 {
+    margin-top: 2em;
 }
 strong {
     font-weight: 700;
 }
 h1 {
-    font-weight: 600 !important;
-    font-size: 3em;
+    font-weight: 700 !important;
+    font-size: 3.5em;
     padding-left: 0.25em;
+    color: black;
 }
 p {
-    font-size: 1.1em;
+    font-size: 1.5em;
     padding: 1em;
 }
 
