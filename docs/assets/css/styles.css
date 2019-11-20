@@ -3256,7 +3256,7 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { ba
 .footer ul.navbar-nav.flex-row { padding-left: 0; }
 
 /* Footer MC */
-.mc4wp-form-fields { margin-top: 10px; }
+.mc-field-group { margin-top: 10px; }
 
 .mc_signup_input { width: 75%; height: 40px; padding-left: 10px !important; }
 
@@ -3272,11 +3272,11 @@ button.mc_signup { height: 40px; vertical-align: bottom; border-top-right-radius
 .tileHeader button { background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; margin-left: 1em; }
 
 /* Jumbotron Mailchimp */
-div#mc_embed_signup_scroll { margin-left: 1em; }
+.tileHeader div#mc_embed_signup_scroll { margin-left: 1em; }
 
-input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
+.tileHeader input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
 
-input#mc-embedded-subscribe { width: 100%; background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
+.tileHeader input#mc-embedded-subscribe { width: 100%; background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
 
 /* In Person Section */
 .inPerson { background-image: url(/assets/img/WTBORG_InPersonCourse.jpg); background-size: cover; background-position: 50% 50%; }
