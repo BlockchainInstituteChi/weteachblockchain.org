@@ -3313,4 +3313,13 @@ section.container.bciCallToAction { background: url(/assets/img/cta_background.j
 
 .bciCallToAction p { padding-bottom: 0; padding-top: 0; font-size: 1.25em; }
 
+/* Desktop */
+@media screen and (max-width: 1000px) { .tileHeader { background-position: left; } }
+
+/* Mobile */
+@media screen and (max-width: 600px) { .tileHeader { background-position: left; }
+  /* in-person */
+  .col-sm-6.leftWhite { background: white; }
+  .inPerson p { padding-right: 1em; } }
+
 /*# sourceMappingURL=homepage.css.map */
