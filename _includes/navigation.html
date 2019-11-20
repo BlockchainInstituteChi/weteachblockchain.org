@@ -20,10 +20,14 @@
         <ul class="navbar-nav ml-auto">
         {% for item in site.data.navigation %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
+            <a class="nav-link" target="_blank" href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
             {{ item.name }}
           </a></li>
         {% endfor %}      
+        <li class="nav-item">
+            <a class="nav-link donateNow" target="_blank" href="https://donations.theblockchaininstitute.org/">
+            Donate!
+          </a></li>
         </ul>
       </div>
   </div>

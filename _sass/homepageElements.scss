@@ -1,0 +1,56 @@
+
+/* Jumbotron */
+.tileHeader {
+    background: url(/assets/img/headerBackgroundTile.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.jumbotron .col-sm-4 {
+    color: white;
+}
+.tileHeader button {
+    background: #fb443d;
+    color: white;
+    border: none;
+    font-size: 1.25em;
+    padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+
+/* Jumbotron Mailchimp */
+div#mc_embed_signup_scroll {
+    margin-left: 1em;
+}
+input#mce-EMAIL {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.45em;
+}
+input#mc-embedded-subscribe {
+    width: 100%;
+    background: #fb443d;
+    color: white;
+    border: none;
+    font-size: 1.25em;
+    padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+}
+
+/* In Person Section */
+.inPerson {
+    background-image: url(/assets/img/WTBORG_InPersonCourse.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.col-sm-6.leftWhite {
+    background: linear-gradient(to right, white 75%, #ffff0000);
+    min-height: calc(100% + 50px);
+}
+.inPerson p {
+    padding-right: 8em;
+}

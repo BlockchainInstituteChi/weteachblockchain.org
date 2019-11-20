@@ -3179,7 +3179,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
   .table .thead-dark th { color: inherit; border-color: #dee2e6; } }
 
 /* Misc */
-.content { font-size: 20px; }
+.content { font-size: 50px; }
 
 body { font-family: "Kanit"; color: darkgrey; }
 
@@ -3187,14 +3187,45 @@ a { text-decoration: none !important; }
 
 .container img { max-width: 100%; }
 
+section.container { margin: 0; min-width: calc(100vw - 1em) !important; min-height: 50vh; }
+
+header.jumbotron { margin-bottom: 0; border-radius: 0; }
+
+header, section { height: 100vh; max-height: 800px; overflow: hidden; }
+
+section .row { min-height: 100%; }
+
+.col-sm-6 .container { margin-top: calc(40% - 2em); }
+
+strong { font-weight: 700; }
+
+h1 { font-weight: 600 !important; font-size: 3em; padding-left: 0.25em; }
+
+p { font-size: 1.1em; padding: 1em; }
+
+/* Colors */
+strong.red { color: #ef444d; }
+
+strong.blue { color: #169ea6; }
+
 /* Nav */
 nav { background: white; border: 0.025px solid #d3d3d359; }
 
 nav a.nav-link { color: black !important; text-transform: uppercase; font-weight: 500; }
 
+a.nav-link.donateNow { background: #fb443d; color: white !important; font-weight: 600; padding-left: 1em !important; padding-right: 1em !important; margin-left: 1em; }
+
+a.nav-link.donateNow:hover { color: white !important; text-decoration: underline !important; }
+
+li.nav-item { margin-left: 0.5em; }
+
 ul.navbar-nav.ml-auto { margin-right: 1em; }
 
 a.nav-link:hover { color: #2fae9f !important; }
+
+.navbar-brand img { padding-left: 1em; }
+
+.nav-item { text-align: center; }
 
 /* Social Nav */
 ul.navbar-nav.flex-row { padding-left: 1em; }
@@ -3204,7 +3235,12 @@ nav i { color: #2fae9f; }
 a.nav-link i:hover { color: #0d72aa; }
 
 /* Mobile Nav Toggle */
-button.navbar-toggler.collapsed, navbar-toggler-icon { background-color: #47b7aa; }
+button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { background-color: #47b7aa; }
+
+/* Jumbotron */
+.tileHeader { background: url(/assets/img/headerBackgroundTile.jpg); background-size: cover; }
+
+.jumbotron .col-sm-6 { color: white; }
 
 /* Footer */
 .container-fluid.footer { background: white; color: darkgrey; padding: 1em; padding-left: 3em; padding-right: 3em; }
@@ -3227,5 +3263,26 @@ button.navbar-toggler.collapsed, navbar-toggler-icon { background-color: #47b7aa
 button.mc_signup { height: 40px; vertical-align: bottom; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: white; border: solid grey 1px !important; margin-left: -10px; padding-top: 5px; }
 
 .mc_signup i { font-size: 20pt; color: #aeaeae; }
+
+/* Jumbotron */
+.tileHeader { background: url(/assets/img/headerBackgroundTile.jpg); background-size: cover; background-position: 50% 50%; }
+
+.jumbotron .col-sm-4 { color: white; }
+
+.tileHeader button { background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; margin-left: 1em; }
+
+/* Jumbotron Mailchimp */
+div#mc_embed_signup_scroll { margin-left: 1em; }
+
+input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
+
+input#mc-embedded-subscribe { width: 100%; background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
+
+/* In Person Section */
+.inPerson { background-image: url(/assets/img/WTBORG_InPersonCourse.jpg); background-size: cover; background-position: 50% 50%; }
+
+.col-sm-6.leftWhite { background: linear-gradient(to right, white 75%, #ffff0000); min-height: calc(100% + 50px); }
+
+.inPerson p { padding-right: 8em; }
 
 /*# sourceMappingURL=styles.css.map */

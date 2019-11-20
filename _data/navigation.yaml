@@ -1,8 +1,8 @@
-- name: Home
-  link: /
+- name: Services
+  link: https://theblockchaininstitute.org/
+- name: Courses
+  link: https://theblockchaininstitute.org/courses/
+- name: Resources
+  link: https://theblockchaininstitute.org/resources/
 - name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html
+  link: https://theblockchaininstitute.org/team/
