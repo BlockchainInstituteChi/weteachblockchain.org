@@ -143,3 +143,7 @@ section.container {
     padding-top: 3em;
     padding-bottom: 3em;
 }
+.row {
+    max-width: calc(90% - 2em);
+    margin: auto;
+}
