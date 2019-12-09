@@ -3183,7 +3183,13 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
+.row { max-width: calc(90% - 2em); margin: auto; }
+
 a { text-decoration: none !important; }
+
+.col-sm-6 a { color: grey; }
+
+.col-sm-6 a:hover { color: #0e86a3; }
 
 .col-sm-6 img { max-width: 100%; }
 
@@ -3291,6 +3297,10 @@ button.mc_signup { height: 40px; vertical-align: bottom; border-top-right-radius
 .col-sm-6.leftWhite { background: linear-gradient(to right, white 75%, #ffff0000); min-height: calc(100% + 50px); }
 
 .inPerson p { padding-right: 8em; }
+
+.inPerson { padding-left: 0; }
+
+.inPerson .row { max-width: unset; margin: unset; }
 
 /* Call to action */
 section.container.bciCallToAction { background: url(/assets/img/cta_background.jpg); background-size: cover; color: white; }

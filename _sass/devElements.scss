@@ -147,3 +147,11 @@ section.container {
     max-width: calc(90% - 2em);
     margin: auto;
 }
+
+.bciCallToAction a {
+    font-weight: 800;
+    color: white;
+}
+.bciCallToAction a:hover {
+    color: black;
+}

@@ -61,6 +61,14 @@
     padding-right: 8em;
 }
 
+.inPerson {
+    padding-left: 0;
+}
+.inPerson .row {
+    max-width: unset;
+    margin: unset;
+}
+
 /* Call to action */
 section.container.bciCallToAction {
     background: url(/assets/img/cta_background.jpg);
