@@ -46,17 +46,36 @@
         src="https://www.facebook.com/tr?id=972018369806633&ev=PageView&noscript=1"
       /></noscript>
       <!-- End Facebook Pixel Code -->
+
+      <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
+      <script>
+        function restoreSkippedContent() {
+          var hidden = document.querySelector('.onScrollHide');
+          hidden.classList.add('unhide');
+
+        };
+      </script>
+      <style>
+        .onScrollHide {
+          display: none;
+        }
+        .unhide {
+          display: unset !important;
+        }
+      </style>
   </head>
-  <body>
-  	{% include navigation.html %}
+  <body onscroll="restoreSkippedContent()">
+    <div class="navBarContainer onScrollHide">
+    	{% include navigation.html %}
+    </div>
     {{ content }}
     {% include footer.html %}
-  <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-  <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+    <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
   </body>
 </html>

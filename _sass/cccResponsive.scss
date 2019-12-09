@@ -13,6 +13,11 @@
 	    background-position: 50% 50%;
 	    position: relative;
 	}
+
+	.curatedMap {
+		display: none;
+	}
+
 	button.learnMoreButton {
 	    margin: 0;
 	    left: 0;
@@ -20,8 +25,17 @@
 	    font-size: 2.5em;
 	    width: 50%;
 	}
+	
 	button.learnMoreButton.callToAction {
 	    left: 50%;
 	}
 	
+	#map-1 {
+		order: 2;
+	}
+
+	#map-2 {
+		order: 2;
+	}
+
 }

@@ -10,6 +10,10 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	
+	.curatedMap {
+		display: none;
+	}
 
 	.tileHeader {
 	    background-position: left;
@@ -21,6 +25,10 @@
 	}
 	.inPerson p {
 	    padding-right: 1em;
+	}
+
+	#events {
+		order: 2;
 	}
 	
 }

@@ -46,9 +46,27 @@
         src="https://www.facebook.com/tr?id=972018369806633&ev=PageView&noscript=1"
       /></noscript>
       <!-- End Facebook Pixel Code -->
+
+      <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
+      <script>
+        function restoreSkippedContent() {
+          var hidden = document.querySelector('.onScrollHide');
+          hidden.classList.add('unhide');
+
+        };
+      </script>
+      <style>
+        .onScrollHide {
+          display: none;
+        }
+        .unhide {
+          display: unset !important;
+        }
+      </style>
   </head>
-  <body>
-  	<!-- Navigation -->
+  <body onscroll="restoreSkippedContent()">
+    <div class="navBarContainer onScrollHide">
+    	<!-- Navigation -->
 <nav class="navbar-default nav-top">
   <ul class="navbar-nav flex-row">
     <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fa fa-facebook fa- "></i></a></li>
@@ -98,6 +116,7 @@
   </div>
 </nav>
 
+    </div>
     <script>
   function bic_showMailChimp () {
     console.log('display mc triggered')
@@ -149,14 +168,14 @@
     </div>
     <div class="col-sm-6">
         <h1>Group<br><strong class="blue">Training</strong></h1>
-        <p>Your team needs to be aware of how Blockchain and Decentralized Technologies are going to change the landscape of how we do business. Blockchain is no magic bullet, but what it does do, nothing else can. Contact us about specialized training for your organization.</p>       
+        <p>Your team needs to be aware of how Blockchain and Decentralized Technologies are going to change the landscape of how we do business. Blockchain is no magic bullet, but what it does do, nothing else can.</p>       
     </div>
   </div>
 </section>
 
 <section class="container">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-6" id="events">
         <h1><strong class="red">Events</strong></h1>
         <p>Do you want to get involved in Chicago's growing Crypto and Blockchain community? We've made it easy for you by collecting the best events taking place in our space and around the city. Meetups, Speakers, Networking, Socials, Hackathons, Classes, Workshops - we have it all!</p>       
     </div>
@@ -187,7 +206,7 @@
         <p>We will never ask you for money.</p>
         <p>We will make sure you become amazing!</p>
     </div>
-    <div class="col-sm-6 bciCallout">
+    <div class="col-sm-6 bciCallout" id="rsvp">
       <img src="/assets/img/logo.jpg">
       <span>Join the List</span>
       <span>Get Priority Access to our exciting new courses!</span>
@@ -252,12 +271,12 @@
   </div>
   <!-- <img class="" src="/assets/img/footerBanner.png"> -->
 </div>
-  <!-- <script src="/node_modules/jquery/dist/jquery.min.js"></script> -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="/node_modules/jquery/dist/jquery.min.js"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

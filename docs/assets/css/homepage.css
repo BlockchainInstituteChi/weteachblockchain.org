@@ -3181,7 +3181,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 /* Misc */
 .content { font-size: 50px; }
 
-body { font-family: "Kanit"; color: darkgrey; }
+body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
 a { text-decoration: none !important; }
 
@@ -3199,7 +3199,7 @@ section .row { min-height: 100%; }
 
 strong { font-weight: 700; }
 
-h1 { font-weight: 700 !important; font-size: 3.5em; padding-left: 0.25em; color: black; }
+h1 { font-weight: 700 !important; font-size: 3em; padding-left: 0.25em; color: black; }
 
 p { font-size: 1.5em; padding: 1em; }
 
@@ -3317,9 +3317,11 @@ section.container.bciCallToAction { background: url(/assets/img/cta_background.j
 @media screen and (max-width: 1000px) { .tileHeader { background-position: left; } }
 
 /* Mobile */
-@media screen and (max-width: 600px) { .tileHeader { background-position: left; }
+@media screen and (max-width: 600px) { .curatedMap { display: none; }
+  .tileHeader { background-position: left; }
   /* in-person */
   .col-sm-6.leftWhite { background: white; }
-  .inPerson p { padding-right: 1em; } }
+  .inPerson p { padding-right: 1em; }
+  #events { order: 2; } }
 
 /*# sourceMappingURL=homepage.css.map */

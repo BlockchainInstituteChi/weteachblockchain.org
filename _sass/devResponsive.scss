@@ -27,4 +27,28 @@
 	    max-width: unset;
 	    margin: unset;
 	}
+
+	/* Mobile Image Handling */
+	#curatedMap {
+		display: none;
+	}
+
+	#wallets {
+		order: 2;
+	}
+
+	#fundamentals {
+		order: 2;
+	}
+
+	#layer-2 {
+		order: 2;
+	}
+
+	#private {
+		order: 2;
+	}
+
+	
+
 }
