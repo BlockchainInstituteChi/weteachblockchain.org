@@ -3317,6 +3317,21 @@ section.container.bciCallToAction { background: url(/assets/img/cta_background.j
 
 .bciCallToAction p { padding-bottom: 0; padding-top: 0; font-size: 1.25em; }
 
+/* In Person Section */
+.inPerson { background-image: url(/assets/img/WTBORG_InPersonCourse.jpg); background-size: cover; background-position: 50% 50%; }
+
+.col-sm-6.leftWhite { background: linear-gradient(to right, white 75%, #ffff0000); min-height: calc(100% + 50px); }
+
+.inPerson p { padding-right: 9em; }
+
+.inPerson { padding-left: 0; }
+
+.inPerson .row { max-width: unset; margin: unset; }
+
+section.inPerson { padding-top: 0; padding-bottom: 0; }
+
+section.container.bciBannerImage.bciHandImage { padding-top: 0; }
+
 /* Desktop */
 /* Mobile */
 @media screen and (max-width: 600px) { header.jumbotron.text-left.tileHeader { background: url(/assets/img/ccc_mobile_banner.png); background-size: cover; background-position: 50% 50%; position: relative; }
