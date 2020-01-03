@@ -38,4 +38,20 @@
 		order: 2;
 	}
 
+	/* in-person */
+
+	section.inPerson {
+	    padding-right: 0;
+	}
+	.col-sm-6.leftWhite {
+	    background: white;
+	}
+	.inPerson p {
+	    padding-right: 1em;
+	}
+
+	#events {
+		order: 2;
+	}	
+
 }
