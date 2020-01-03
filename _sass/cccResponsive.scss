@@ -25,7 +25,16 @@
 	    font-size: 2.5em;
 	    width: 50%;
 	}
+	.row {
+	    margin: 0;
+	    max-width: 100%;
+	}
 	
+	.container-fluid.footer {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
 	button.learnMoreButton.callToAction {
 	    left: 50%;
 	}
@@ -37,5 +46,21 @@
 	#map-2 {
 		order: 2;
 	}
+
+	/* in-person */
+
+	section.inPerson {
+	    padding-right: 0;
+	}
+	.col-sm-6.leftWhite {
+	    background: white;
+	}
+	.inPerson p {
+	    padding-right: 1em;
+	}
+
+	#events {
+		order: 2;
+	}	
 
 }
