@@ -3338,6 +3338,8 @@ section.container { padding-top: 3em; padding-bottom: 3em; }
   button.learnMoreButton { margin: 0; left: 0; display: inline-block; font-size: 2.5em; width: 50%; }
   button.learnMoreButton.callToAction { left: 50%; }
   .row { max-width: unset; margin: unset; }
+  .row { margin: 0; max-width: 100%; }
+  .container-fluid.footer { padding-left: 0; padding-right: 0; }
   /* Mobile Image Handling */
   #curatedMap { display: none; }
   #wallets { order: 2; }

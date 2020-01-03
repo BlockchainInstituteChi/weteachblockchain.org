@@ -25,7 +25,16 @@
 	    font-size: 2.5em;
 	    width: 50%;
 	}
+	.row {
+	    margin: 0;
+	    max-width: 100%;
+	}
 	
+	.container-fluid.footer {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
 	button.learnMoreButton.callToAction {
 	    left: 50%;
 	}
