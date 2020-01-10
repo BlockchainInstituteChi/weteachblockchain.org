@@ -188,11 +188,11 @@ gtag('config', 'UA-148351311-1');
 	 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
 	  if ( menu.className.split('collapse').length > 1 ) {    
 	    console.log('menu click while closed, opening');
-	    menu.className.split('collapse').className = 'navbar-collapse' 
+	    menu.className.className += " show"
 
 	  } else { 
 	    console.log('menu click while opened, closing');
-	    menu.className.split('collapse').className += ' collapse' 
+	    menu.className = menu.className.replace('show', '')  
 	  } 
 	}
 </script>
