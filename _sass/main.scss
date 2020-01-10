@@ -11,6 +11,10 @@ body {
     max-width: 100vw !important;
 }
 
+a.nav-link.hideOnDesktop {
+    display: none;
+}
+
 .row {
     max-width: calc(90% - 2em);
     margin: auto;

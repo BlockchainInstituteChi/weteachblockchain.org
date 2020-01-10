@@ -1,12 +1,18 @@
 - name: Events
   link: https://theblockchaininstitute.org/events/
+  class: normal
 - name: Courses
   link: https://theblockchaininstitute.org/courses/
+  class: normal
 - name: Resources
   link: https://theblockchaininstitute.org/resources/
+  class: normal
 - name: About
   link: https://theblockchaininstitute.org/team/
+  class: normal
 - name: Developer Bootcamp
   link: /developer-toolkit/
+  class: hideOnDesktop
 - name: Crypto Curious Course
   link: /crypto-curious/
+  class: hideOnDesktop
