@@ -3,6 +3,17 @@
 
 }
 
+/* Table */
+@media screen and (max-width: 800px ) {
+	.leftWhite ul {
+	    width: calc(100% - 6em);
+	}
+	.col-sm-6.leftWhite {
+	    width: 70% !important;
+	    flex: 0 0 70%;
+	    max-width: 70% !important;
+	}
+} 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
