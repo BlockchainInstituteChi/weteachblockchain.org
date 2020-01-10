@@ -153,18 +153,24 @@
 </div>
 <script defer>
 	// fix clicks on menu in mobile
-	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+	// document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
 
 	function inst_handleMenuClick () { 
-	 console.log('menu click')
 	 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
-	  if ( menu.className.split('collapse').length > 1 ) {    
-	    console.log('menu click while closed, opening');
+	 var indicator =  menu.className.includes('show');
+	 console.log('menu click', indicator)
+
+	  if ( indicator != true ) {    
+	    
+	    console.log('menu click while closed, opening', menu.className);
 	    menu.className.className += " show"
 
 	  } else { 
-	    console.log('menu click while opened, closing');
+
+	    console.log('menu click while opened, closing', menu.className);
 	    menu.className = menu.className.replace('show', '')  
+	    console.log('menu classname: ', menu.className)
+
 	  } 
 	}
 </script>
