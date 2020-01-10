@@ -3351,4 +3351,7 @@ section.container { padding-top: 3em; padding-bottom: 3em; }
   #private { order: 2; }
   #free { order: 2; } }
 
+@media screen and (max-width: 600px) { button.learnMoreButton { font-size: 1.75em !important; }
+  .col-sm-6 h1 { font-size: 1.95em !important; margin-left: 0.3em !important; } }
+
 /*# sourceMappingURL=dev.css.map */
