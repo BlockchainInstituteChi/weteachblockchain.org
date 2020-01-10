@@ -10,7 +10,11 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+	.nav-link.donateNow {
+
+	    margin-right: 0.5em;
+
+	}
 	.curatedMap {
 		display: none;
 	}

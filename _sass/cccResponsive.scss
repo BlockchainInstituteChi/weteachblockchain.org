@@ -36,7 +36,11 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	.nav-link.donateNow {
 
+	    margin-right: 0.5em;
+
+	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/ccc_mobile_banner.png);
 	    background-size: cover;
