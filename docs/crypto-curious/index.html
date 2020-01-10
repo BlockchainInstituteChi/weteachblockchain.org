@@ -269,26 +269,28 @@
 </div>
 <script defer>
 	// fix clicks on menu in mobile
-	var isSafari = window.safari !== undefined;
-	if (isSafari) document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
 
 	function inst_handleMenuClick () { 
-	 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
-	 var indicator =  menu.className.includes('show');
-	 console.log('menu click', indicator)
+	 setTimeout( function() {	
+		 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
+		 var indicator1 =  menu.className.includes('show');
+		 var indicator2 =  menu.className.includes('collapsing');
+		 console.log('menu click', indicator1, indicator2)
 
-	  if ( indicator != true ) {    
-	    
-	    console.log('menu click while closed, opening', menu.className);
-	    menu.className = menu.className + " show"
+		  if ( ( indicator1 === false ) && ( indicator2 != true ) ) {    
+		    
+		    console.log('menu click while closed, opening', menu.className);
+		    menu.className = menu.className + " show"
 
-	  } else { 
+		  } else { 
 
-	    console.log('menu click while opened, closing', menu.className);
-	    menu.className = menu.className.replace('show', '')  
-	    console.log('menu classname: ', menu.className)
+		    console.log('menu click while opened, closing', menu.className);
+		    menu.className = menu.className.replace('show', '')  
+		    console.log('menu classname: ', menu.className)
 
-	  } 
+		  } 
+	 }, 20);
 	}
 </script>
     <!-- <script src="/node_modules/jquery/dist/jquery.min.js"></script> -->
