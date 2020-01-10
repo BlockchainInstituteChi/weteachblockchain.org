@@ -41,6 +41,13 @@
 	    margin-right: 0.5em;
 
 	}
+	.leftWhite ul {
+	    width: calc(100% - 1em);
+	    max-width: unset;
+	}
+	h1 {
+	    margin-left: 0.25em;
+	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/ccc_mobile_banner.png);
 	    background-size: cover;
@@ -105,7 +112,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 330px) {
 	button.learnMoreButton {
 		font-size: 1.75em !important;
 	}
