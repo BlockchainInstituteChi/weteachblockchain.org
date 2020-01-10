@@ -38,3 +38,20 @@
   </div>
   <!-- <img class="" src="/assets/img/footerBanner.png"> -->
 </div>
+<script defer>
+	// fix clicks on menu in mobile
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+
+	function inst_handleMenuClick () { 
+	 console.log('menu click')
+	 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
+	  if ( menu.className.split('collapse').length > 1 ) {    
+	    console.log('menu click while closed, opening');
+	    menu.className.split('collapse').className = 'navbar-collapse' 
+
+	  } else { 
+	    console.log('menu click while opened, closing');
+	    menu.className.split('collapse').className += ' collapse' 
+	  } 
+	}
+</script>

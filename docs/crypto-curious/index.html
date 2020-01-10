@@ -20,24 +20,6 @@
         gtag('config', 'UA-121231750-2');
       </script>
         <!-- Facebook Pixel Code -->
-      <script defer>
-        // fix clicks on menu in mobile
-        document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
-
-        function inst_handleMenuClick () { 
-         console.log('menu click')
-         var menu = document.getElementsByClassName('navbar-collapse')[0]; 
-          if ( menu.className.split('collapse').length > 1 ) {    
-            console.log('menu click while closed, opening');
-            menu.className.split('collapse').className = 'navbar-collapse' 
-
-          } else { 
-            console.log('menu click while opened, closing');
-            menu.className.split('collapse').className += ' collapse' 
-          } 
-        }
-      </script>
-
       <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -275,6 +257,23 @@
   </div>
   <!-- <img class="" src="/assets/img/footerBanner.png"> -->
 </div>
+<script defer>
+	// fix clicks on menu in mobile
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+
+	function inst_handleMenuClick () { 
+	 console.log('menu click')
+	 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
+	  if ( menu.className.split('collapse').length > 1 ) {    
+	    console.log('menu click while closed, opening');
+	    menu.className.split('collapse').className = 'navbar-collapse' 
+
+	  } else { 
+	    console.log('menu click while opened, closing');
+	    menu.className.split('collapse').className += ' collapse' 
+	  } 
+	}
+</script>
     <!-- <script src="/node_modules/jquery/dist/jquery.min.js"></script> -->
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"

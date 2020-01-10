@@ -171,6 +171,7 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
     width: 75%;
     height: 40px;
     padding-left: 10px !important;
+    box-shadow: 0 0 0 0.5px lightgrey;
 }
 button.mc_signup {
     height: 40px;
@@ -178,13 +179,16 @@ button.mc_signup {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: white;
-    border: solid grey 1px !important;
     margin-left: -10px;
     padding-top: 5px;
+    box-shadow: 0 0 0 1px lightgrey;
 }
 .mc_signup i {
     font-size: 20pt;
     color: #aeaeae;
+}
+button.mc_signup:hover {
+    background: #1f98a37a;
 }
 
 /* Footer alignment issues */
