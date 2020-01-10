@@ -3367,4 +3367,7 @@ section.container.bciBannerImage.bciHandImage { padding-top: 0; }
   .inPerson p { padding-right: 1em; }
   #events { order: 2; } }
 
+@media screen and (max-width: 600px) { button.learnMoreButton { font-size: 1.75em !important; }
+  .col-sm-6 h1 { font-size: 1.95em !important; margin-left: 0.3em !important; } }
+
 /*# sourceMappingURL=ccc.css.map */
