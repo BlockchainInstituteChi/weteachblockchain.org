@@ -31,6 +31,7 @@
 	.bciCallToAction h1 {
 	    padding-left: 0.4em;
 	}
+
 } 
 
 /* Mobile */
@@ -53,6 +54,11 @@
 	    display: inline-block;
 	    font-size: 2.5em;
 	    width: 50%;
+	}
+	.col-sm-6.leftWhite {
+	    flex: unset !important;
+	    width: 100% !important;
+	    max-width: unset !important;
 	}
 	.row {
 	    margin: 0;
