@@ -142,7 +142,9 @@ section.container.bciCallToAction {
 .inPerson p {
     padding-right: 9em;
 }
-
+.leftWhite ul {
+    max-width: calc(100% - 10em);
+}
 .inPerson {
     padding-left: 0;
 }
@@ -156,4 +158,9 @@ section.inPerson {
 }
 section.container.bciBannerImage.bciHandImage {
     padding-top: 0;
+}
+
+/* MapSpace */
+.mapSpace h1 {
+    margin-top: -0.3em;
 }

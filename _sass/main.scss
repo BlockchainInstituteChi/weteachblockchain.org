@@ -33,6 +33,8 @@ section.container {
     min-width: calc(100vw - 1em) !important;
     height: fit-content !important;
     min-height: fit-content !important;
+    height: -moz-fit-content;
+    min-height: -moz-fit-content;
 }
 header.jumbotron {
     margin-bottom: 0;

@@ -3193,7 +3193,7 @@ a { text-decoration: none !important; }
 
 .col-sm-6 img { max-width: 100%; }
 
-section.container { margin: 0; max-height: unset !important; min-width: calc(100vw - 1em) !important; height: fit-content !important; min-height: fit-content !important; }
+section.container { margin: 0; max-height: unset !important; min-width: calc(100vw - 1em) !important; height: fit-content !important; min-height: fit-content !important; height: -moz-fit-content; min-height: -moz-fit-content; }
 
 header.jumbotron { margin-bottom: 0; border-radius: 0; max-height: unset !important; height: fit-content !important; min-height: fit-content !important; }
 
@@ -3327,7 +3327,8 @@ section.container.bciCallToAction { background: url(/assets/img/cta_background.j
 @media screen and (max-width: 1000px) { .tileHeader { background-position: left; } }
 
 /* Mobile */
-@media screen and (max-width: 600px) { .curatedMap { display: none; }
+@media screen and (max-width: 600px) { .nav-link.donateNow { margin-right: 0.5em; }
+  .curatedMap { display: none; }
   section.container.inPerson { padding-right: 0; }
   .tileHeader { background-position: left; }
   .container-fluid.footer { padding-left: 0; padding-right: 0; }
