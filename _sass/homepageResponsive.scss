@@ -15,6 +15,9 @@
 	    margin-right: 0.5em;
 
 	}
+	h1 {
+	    margin-left: 0.25em;
+	}
 	.curatedMap {
 		display: none;
 	}
@@ -44,4 +47,15 @@
 		order: 2;
 	}
 	
+}
+
+
+@media screen and (max-width: 330px) {
+	button.learnMoreButton {
+		font-size: 1.75em !important;
+	}
+	.col-sm-6 h1 {
+	    font-size: 1.95em !important;
+	    margin-left: 0.3em !important;
+	}
 }

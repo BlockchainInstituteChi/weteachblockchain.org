@@ -3,7 +3,7 @@
 
 }
 
-/* Table */
+/* Tablet */
 @media screen and (max-width: 800px ) {
 	.leftWhite ul {
 	    width: calc(100% - 6em);
@@ -41,6 +41,9 @@
 	    margin-right: 0.5em;
 
 	}
+	h1 {
+	    margin-left: 0.25em;
+	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/ccc_mobile_banner.png);
 	    background-size: cover;
@@ -62,6 +65,11 @@
 	.col-sm-6.leftWhite {
 	    flex: unset !important;
 	    width: 100% !important;
+	    max-width: unset !important;
+	}
+	
+	.leftWhite ul {
+	    width: calc(100% - 1em);
 	    max-width: unset !important;
 	}
 	.row {
@@ -105,7 +113,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 330px) {
 	button.learnMoreButton {
 		font-size: 1.75em !important;
 	}

@@ -11,6 +11,9 @@
 	    margin-right: 0.5em;
 
 	}
+	h1 {
+	    margin-left: 0.25em;
+	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/dev_mobile_banner.png);
 	    background-size: cover;
@@ -68,7 +71,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 330px) {
 	button.learnMoreButton {
 		font-size: 1.75em !important;
 	}
