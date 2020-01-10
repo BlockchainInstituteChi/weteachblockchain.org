@@ -1,10 +1,12 @@
-/* Desktop */
-@media screen and (max-width: 1000px) {
+/* Tablet */
+@media screen and (max-width: 800px) {
 
 	.tileHeader {
 	    background-position: left;
 	}
-	
+	a.nav-link.hideOnDesktop  {
+		display: block;
+	}
 }
 
 

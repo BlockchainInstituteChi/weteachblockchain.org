@@ -3183,6 +3183,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
+a.nav-link.hideOnDesktop { display: none; }
+
 .row { max-width: calc(90% - 2em); margin: auto; }
 
 a { text-decoration: none !important; }
@@ -3334,7 +3336,9 @@ section.container { padding-top: 3em; padding-bottom: 3em; }
 
 .bciCallToAction a:hover { color: black; }
 
-/* Desktop */
+/* Tablet */
+@media screen and (max-width: 800px) { a.nav-link.hideOnDesktop { display: block; } }
+
 /* Mobile */
 @media screen and (max-width: 600px) { .nav-link.donateNow { margin-right: 0.5em; }
   h1 { margin-left: 0.25em; }
