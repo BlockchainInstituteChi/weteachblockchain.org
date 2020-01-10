@@ -3335,7 +3335,13 @@ section.container.bciBannerImage.bciHandImage { padding-top: 0; }
 /* Desktop */
 /* Table */
 @media screen and (max-width: 800px) { .leftWhite ul { width: calc(100% - 6em); }
-  .col-sm-6.leftWhite { width: 70% !important; flex: 0 0 70%; max-width: 70% !important; } }
+  .col-sm-6.leftWhite { width: 70% !important; flex: 0 0 70%; max-width: 70% !important; }
+  .row { max-width: calc(100% - 1em); }
+  #map-2 img { margin-top: 3em; }
+  .col-sm-6 h1 { margin-top: 0; }
+  .leftWhite h1 { margin-top: 0.5em; }
+  .bciCallToAction .col-sm-6 { padding-left: 0; }
+  .bciCallToAction h1 { padding-left: 0.4em; } }
 
 /* Mobile */
 @media screen and (max-width: 600px) { header.jumbotron.text-left.tileHeader { background: url(/assets/img/ccc_mobile_banner.png); background-size: cover; background-position: 50% 50%; position: relative; }
