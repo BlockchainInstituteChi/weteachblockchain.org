@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: default
 title: Events
 stylesheet: events.css
 ---
@@ -16,10 +16,12 @@ stylesheet: events.css
 <section class="eventsList">
 	{% for event in site.events %}
 
-			<div class="eventTile">
-				<img src="{{event.image}}"/>
-		        <h1>{{ event.title }}</h1>
-		        <span>{{ event.eventdate }}</span>
+			<div class="eventTile"> 
+				<a target="_blank" href="{{ event.permalink }}">
+					<img src="/assets/img/{{event.image}}"/>
+			        <h1>{{ event.title }}</h1>
+			        <span>{{ event.eventdate }}</span>
+			    </a>
 		    </div>
 
 	{% endfor %}

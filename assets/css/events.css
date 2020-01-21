@@ -30,3 +30,6 @@ section.eventsHeader {
     min-width: 100vw;
     height: auto;
 }
+.eventTile.column {
+    width: 100%;
+}
