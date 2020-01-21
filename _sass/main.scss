@@ -1,0 +1,203 @@
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+/* Misc */
+.content {
+  font-size: $custom-font-size;
+}
+body {
+	font-family: "Kanit";
+    color: darkgrey;
+    max-width: 100vw !important;
+}
+
+a.nav-link.hideOnDesktop {
+    display: none;
+}
+
+.row {
+    max-width: calc(90% - 2em);
+    margin: auto;
+}
+a {
+	text-decoration: none !important;
+}
+.col-sm-6 a {
+    color: grey;
+}
+.col-sm-6 a:hover {
+    color: #0e86a3;
+}
+.col-sm-6 img {
+    max-width: 100%;
+}
+section.container {
+    margin: 0;
+    max-height: unset !important;
+    min-width: calc(100vw - 1em) !important;
+    height: fit-content !important;
+    min-height: fit-content !important;
+    height: -moz-fit-content;
+    min-height: -moz-fit-content;
+}
+header.jumbotron {
+    margin-bottom: 0;
+    border-radius: 0;
+    max-height: unset !important;
+    height: fit-content !important;
+    min-height: fit-content !important;
+}
+header, section {
+    height: 100vh; 
+    max-height: 800px;
+    overflow: hidden;
+}
+section .row {
+    min-height: 100%;
+}
+.col-sm-6 h1 {
+    margin-top: 2em;
+}
+strong {
+    font-weight: 700;
+}
+h1 {
+    font-weight: 700 !important;
+    font-size: 3em;
+    padding-left: 0.25em;
+    color: black;
+}
+p {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+/* Colors */
+strong.red {
+    color: #ef444d;
+}
+strong.blue {
+    color: #169ea6;
+}
+
+/* Nav */
+nav {
+    background: white;
+    border: 0.025px solid #d3d3d359;
+}
+nav a.nav-link {
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+a.nav-link.donateNow {
+    background: #fb443d;
+    color: white !important;
+    font-weight: 600;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+    margin-left: 1em;
+}
+a.nav-link.donateNow:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+li.nav-item {
+    margin-left: 0.5em;
+}
+ul.navbar-nav.ml-auto {
+    margin-right: 1em;
+}
+a.nav-link:hover {
+    color: #2fae9f !important;
+}
+.navbar-brand img {
+    padding-left: 1em;
+}
+.nav-item {
+    text-align: center;
+}   
+
+/* Social Nav */
+ul.navbar-nav.flex-row {
+    padding-left: 1em;
+}
+nav i {
+    color: #2fae9f;
+}
+a.nav-link i:hover {
+    color: #0d72aa;
+}
+
+/* Mobile Nav Toggle */
+button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
+    background-color: #47b7aa;
+}
+
+/* Jumbotron */
+.tileHeader {
+    background: url(/assets/img/headerBackgroundTile.jpg);
+    background-size: cover;
+}
+.jumbotron .col-sm-6 {
+    color: white;
+}
+
+/* Footer */
+.container-fluid.footer {
+    background: white;
+    color: darkgrey;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.footer .col-md-6 {
+    padding: 2em;
+}
+.footer h4 {
+    text-transform: uppercase;
+}
+.footer a {
+    color: darkgrey;
+}
+.footer a:hover {
+    color: #2fae9f;
+}
+.footer ul.navbar-nav.flex-row {
+    padding-left: 0;
+}
+
+/* Footer MC */
+.mc-field-group {
+    margin-top: 10px;
+}
+.mc_signup_input {
+    width: 75%;
+    height: 40px;
+    padding-left: 10px !important;
+    box-shadow: 0 0 0 0.5px lightgrey;
+}
+button.mc_signup {
+    height: 40px;
+    vertical-align: bottom;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    margin-left: -10px;
+    padding-top: 5px;
+    box-shadow: 0 0 0 1px lightgrey;
+}
+.mc_signup i {
+    font-size: 20pt;
+    color: #aeaeae;
+}
+button.mc_signup:hover {
+    background: #1f98a37a;
+}
+
+/* Footer alignment issues */
+.footer .row, .footer .col-md-6, .container-fluid.footer {
+    max-height: unset !important;
+    height: fit-content !important;
+    min-height: fit-content !important;
+}

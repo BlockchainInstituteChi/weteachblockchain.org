@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="og:title" content="{{ page.ogTitle }}">
+    <meta name="og:description" content="{{ page.ogDesc }}">
+    <meta name="og:image" content="{{ page.ogImage }}">
+    <meta name="og:url" content="{{ page.ogUrl }}">
+    <meta name="og:url" content="{{ page.ogUrl }}">
+    <meta name="og:type" content="website">
+    <meta property="og:title" content="{{ page.ogTitle }}">
+    <meta property="og:description" content="{{ page.ogDesc }}">
+    <meta property="og:image" content="{{ page.ogImage }}">
+    <meta property="og:url" content="{{ page.ogUrl }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.ogTitle }}">
+    <meta name="twitter:description" content="{{ page.ogDesc }}">
+    <meta name="twitter:image" content="{{ page.ogImage }}">
+    <meta name="twitter:creator" content="@bchaininstitute">
+    <link
+    rel=stylesheet id=olympus-google-fonts-css  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100i%2C300i%2C400i%2C500i%2C700i%2C900i%7CKanit%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=cyrillic%2Cvietnamese%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Clatin%2Clatin-ext%2Cthai&#038;display=swap&#038;ver=1.9.7' type=text/css media=all>
+    {% if page.stylesheet %}<link rel=stylesheet href="/assets/css/{{ page.stylesheet }}">{% endif %}
+      <script src="https://script.crazyegg.com/pages/scripts/0073/9552.js" async="async"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121231750-2');
+      </script>
+        <!-- Facebook Pixel Code -->
+      <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '972018369806633');
+        fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=972018369806633&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
+
+      <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
+      <script>
+        function restoreSkippedContent() {
+          var hidden = document.querySelector('.onScrollHide');
+          hidden.classList.add('unhide');
+
+        };
+      </script>
+      <style>
+        .onScrollHide {
+          display: none;
+        }
+        .unhide {
+          display: unset !important;
+        }
+      </style>
+  </head>
+  <body onscroll="restoreSkippedContent()">
+    <div class="navBarContainer onScrollHide">
+    	{% include navigation.html %}
+    </div>
+    {{ content }}
+    {% include footer.html %}
+    <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  </body>
+</html>

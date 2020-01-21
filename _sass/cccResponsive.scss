@@ -1,0 +1,127 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	.leftWhite ul {
+	    width: calc(100% - 6em);
+	}
+	.col-sm-6.leftWhite {
+	    width: 70% !important;
+	    flex: 0 0 70%;
+	    max-width: 70% !important;
+	}
+	.row {
+	    max-width: calc(100% - 1em);
+	}
+	#map-2 img {
+	    margin-top: 3em;
+	}
+	.col-sm-6 h1 {
+	    margin-top: 0;
+	}
+	.leftWhite h1 {
+	    margin-top: 0.5em;
+	}
+	.bciCallToAction .col-sm-6 {
+	    padding-left: 0;
+	}
+	.bciCallToAction h1 {
+	    padding-left: 0.4em;
+	}
+
+	a.nav-link.hideOnDesktop {
+		display: block;
+	}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.nav-link.donateNow {
+
+	    margin-right: 0.5em;
+
+	}
+	h1 {
+	    margin-left: 0.25em;
+	}
+	header.jumbotron.text-left.tileHeader {
+	    background: url(/assets/img/ccc_mobile_banner.png);
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    position: relative;
+	}
+
+	.curatedMap {
+		display: none;
+	}
+
+	button.learnMoreButton {
+	    margin: 0;
+	    left: 0;
+	    display: inline-block;
+	    font-size: 2.5em;
+	    width: 50%;
+	}
+	.col-sm-6.leftWhite {
+	    flex: unset !important;
+	    width: 100% !important;
+	    max-width: unset !important;
+	}
+	
+	.leftWhite ul {
+	    width: calc(100% - 1em);
+	    max-width: unset !important;
+	}
+	.row {
+	    margin: 0;
+	    max-width: 100%;
+	}
+	
+	.container-fluid.footer {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	button.learnMoreButton.callToAction {
+	    left: 50%;
+	}
+	
+	#map-1 {
+		order: 2;
+	}
+
+	#map-2 {
+		order: 2;
+	}
+
+	/* in-person */
+
+	section.inPerson {
+	    padding-right: 0;
+	}
+	.col-sm-6.leftWhite {
+	    background: white;
+	}
+	.inPerson p {
+	    padding-right: 1em;
+	}
+
+	#events {
+		order: 2;
+	}	
+
+}
+
+
+@media screen and (max-width: 330px) {
+	button.learnMoreButton {
+		font-size: 1.75em !important;
+	}
+	.col-sm-6 h1 {
+	    font-size: 1.95em !important;
+	    margin-left: 0.3em !important;
+	}
+}

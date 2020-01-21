@@ -1,0 +1,28 @@
+collections_dir: _collections/
+
+collections:
+  events: 
+    layout: event
+    output: true  
+  courses:
+    output: true
+  modules:
+    output: false
+  lessons:
+    output: false
+
+destination: docs/
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+include: ["node_modules"]
+exclude: []

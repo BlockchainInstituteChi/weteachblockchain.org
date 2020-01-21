@@ -1,0 +1,66 @@
+<div class="container-fluid footer">
+  <div class="row">
+    <div class="col-md-6">
+    	<h4>About Us</h4>
+    	<span>The Blockchain Institute was founded to promote the adoption, development, and use of distributed ledger technology.</span>
+		<ul class="navbar-nav flex-row">
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fa fa-facebook fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fa fa-twitter fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fa fa-linkedin fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fa fa-instagram fa- "></i></a></li>
+		</ul>
+    	<br>
+    	<span>Copyright 2019 The Blockchain Institute. All Rights Reserved</span>
+    </div>
+    <div class="col-md-6">
+   		<h4>Subscribe Now</h4>
+    	<span>Join our Mailing List to stay in the loop on all things Blockchain!</span>
+    	<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup" class="mc_signup">
+		<form action="https://theblockchaininstitute.us18.list-manage.com/subscribe/post?u=ed27e0082d5f7e8d5cd3e3622&amp;id=d50da5888a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    <div id="mc_embed_signup_scroll">
+			
+		<div class="mc-field-group">
+			<input type="email" value="" name="EMAIL" class="required email mc_signup_input" id="mce-EMAIL"><button class="mc_signup" type="submit" value="Sign up"><i class="fa fa-envelope"></i></button>
+		</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ed27e0082d5f7e8d5cd3e3622_d50da5888a" tabindex="-1" value=""></div>
+		    </div>
+		</form>
+		</div>
+
+		<!--End mc_embed_signup-->
+		<br><a href="https://theblockchaininstitute.org/press-releases" target="_blank">Press</a> <a href="https://theblockchaininstitute.org/course-catalog" target="_blank">Courses</a> <a href="https://theblockchaininstitute.org/team" target="_blank">About</a> <a href="https://theblockchaininstitute.org/contact-us" target="_blank">Contact</a> <a href="https://theblockchaininstitute.org/events" target="_blank">Events</a>
+    </div>    
+  </div>
+  <!-- <img class="" src="/assets/img/footerBanner.png"> -->
+</div>
+<script defer>
+	// fix clicks on menu in mobile
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+
+	function inst_handleMenuClick () { 
+	 setTimeout( function() {	
+		 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
+		 var indicator1 =  menu.className.includes('show');
+		 var indicator2 =  menu.className.includes('collapsing');
+		 console.log('menu click', indicator1, indicator2)
+
+		  if ( ( indicator1 === false ) && ( indicator2 != true ) ) {    
+		    
+		    console.log('menu click while closed, opening', menu.className);
+		    menu.className = menu.className + " show"
+
+		  } else { 
+
+		    console.log('menu click while opened, closing', menu.className);
+		    menu.className = menu.className.replace('show', '')  
+		    console.log('menu classname: ', menu.className)
+
+		  } 
+	 }, 20);
+	}
+</script>

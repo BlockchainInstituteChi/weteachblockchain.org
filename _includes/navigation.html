@@ -1,0 +1,34 @@
+<!-- Navigation -->
+<nav class="navbar-default nav-top">
+  <ul class="navbar-nav flex-row">
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fa fa-facebook fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fa fa-twitter fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fa fa-linkedin fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fa fa-instagram fa- "></i></a></li>
+  </ul>
+  <!-- search goes here -->
+  <!-- <li class="nav-item"><a class="nav-link px-2 float-right" href="#"><i class="fa fa-search"></i></a></li> -->
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark static-top">
+      <a class="navbar-brand" href="https://theblockchaininstitute.org">
+            <img src="/assets/img/logo.jpg" width="200px" alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a class="nav-link {{ item.class }}" target="_blank" href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
+            {{ item.name }}
+          </a></li>
+        {% endfor %}      
+        <li class="nav-item">
+            <a class="nav-link donateNow" target="_blank" href="https://donations.theblockchaininstitute.org/">
+            Donate!
+          </a></li>
+        </ul>
+      </div>
+  </div>
+</nav>

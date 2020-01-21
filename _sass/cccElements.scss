@@ -1,0 +1,166 @@
+
+/* Jumbotron */
+.tileHeader {
+    background: url(/assets/img/ccc_desktop_banner.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 100vh;
+}
+header.jumbotron {
+    min-height: 100vh !important;
+}
+.tileHeader button {
+    background: #fb443d;
+    color: white;
+    border: none;
+    font-size: 1.25em;
+    padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
+button.learnMoreButton {
+    position: absolute;
+    margin: 1em;
+    height: 4em;
+    width: 10em;
+    display: inline-block;
+    left: calc(50% - 11em);
+    bottom: 0;
+    background: #e34862;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25em;
+    z-index: 10;
+}
+button.learnMoreButton.callToAction {
+    left: calc(50% + 1em);
+    background: #4bab9e;
+}
+
+/* Hand Image Bannner */
+.bciBannerImage img {
+    width: calc(100% + 2em);
+    margin: auto;
+    padding-bottom: 2em;
+    margin-left: -1em;
+}
+
+/* Body Sections */
+.col-sm-6 h1 {
+    margin-top: 1em;
+}
+.col-sm-6 img {
+    margin-bottom: 2em;
+}
+.col-sm-6 p {
+    font-size: 1.15em;
+}
+section.container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Call to action */
+section.container.bciCallToAction {
+    background: url(/assets/img/cta_background.jpg);
+    background-size: cover;
+    color: white;
+}
+.bciCallToAction h1 {
+    color: white;
+}
+.col-sm-6.bciCallout {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 0;
+    background: white;
+}
+.bciCallout img {
+    margin: 7em;
+    margin-right: 7em;
+    width: calc(100% - 14em);
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.bciCallout span {
+    font-size: 1.5em;
+    color: #1f98a3;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.25em;
+    letter-spacing: -0.01em;
+}
+
+/* CTA Mailchimp */
+/* Jumbotron Mailchimp */
+.bciCallToAction div#mc_embed_signup_scroll {
+    margin-left: 1em;
+}
+.bciCallToAction input#mce-EMAIL {
+    width: calc(100% - 2px);
+    margin-bottom: 1em;
+    padding: 0.45em;
+    box-shadow: 0 0 0 1px black;
+    margin-left: 0.5px;
+}
+.bciCallToAction input#mc-embedded-subscribe {
+    width: 100%;
+    background: #fb443d;
+    color: white;
+    border: none;
+    font-size: 1.25em;
+    padding: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.bciCallToAction p {
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 1.25em;
+}
+
+
+/* In Person Section */
+.inPerson {
+    background-image: url(/assets/img/WTBORG_InPersonCourse.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.col-sm-6.leftWhite {
+    background: linear-gradient(to right, white 75%, #ffff0000);
+    min-height: calc(100% + 50px);
+}
+.inPerson p {
+    padding-right: 9em;
+}
+.leftWhite ul {
+    max-width: calc(100% - 10em);
+}
+.inPerson {
+    padding-left: 0;
+}
+.inPerson .row {
+    max-width: unset;
+    margin: unset;
+}
+section.inPerson {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+section.container.bciBannerImage.bciHandImage {
+    padding-top: 0;
+}
+
+/* MapSpace */
+.mapSpace h1 {
+    margin-top: -0.3em;
+}
