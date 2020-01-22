@@ -11,3 +11,6 @@ git commit -m "latest jekyll build from travis $datetimestamp"
 git push -f "https://${GITHUB_TOKEN}@github.com/BlockchainInstituteChi/weteachblockchainsite" travis_build_$datetimestamp
 
 # bundle exec htmlproofer ./_site --disable-external
+# 445189ffc9dc9f436f7e5e748b0095ab7a24c6ca
+
+# git push -f "https://445189ffc9dc9f436f7e5e748b0095ab7a24c6ca@github.com/BlockchainInstituteChi/weteachblockchainsite" test
