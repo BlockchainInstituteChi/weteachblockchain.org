@@ -13,14 +13,6 @@ script:
 - bundle exec jekyll build
 # - bundle exec htmlproofer ./_site --disable-external
 
-after_success:
-- datetimestamp=$(date --rfc-3339=seconds | sed 's/ /T/'| sed -e "s/:/./g"
-)
-- git checkout -b travis_build_$datetimestamp
-- git add . 
-- git commit -m "latest jekyll build from travis $datetimestamp"
-- git push -f "https://${GITHUB_TOKEN}@github.com/BlockchainInstituteChi/weteachblockchainsite" travis_build_$datetimestamp
-
 # branch whitelist, only for GitHub Pages
 # branches:
 #   only:
