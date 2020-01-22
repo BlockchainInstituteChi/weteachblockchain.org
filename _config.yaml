@@ -25,4 +25,4 @@ defaults:
       layout: "default"
 
 include: ["node_modules"]
-exclude: []
+exclude: [vendor]
