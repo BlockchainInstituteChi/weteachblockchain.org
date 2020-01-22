@@ -3,8 +3,11 @@ set -e # halt script on error
 
 bundle exec jekyll build
 
-git checkout -b travis_build_$(date --rfc-3339=date)
+git checkout -b travis_build_$(date --rfc-3339=seconds | sed 's/ /T/'| sed -e "s/:/./g"
+)
 git add . 
-git commit -m "latest jekyll build from travis $(date --rfc-3339=date)"
-git push --set-upstream origin travis_build_$(date --rfc-3339=date)
+git commit -m "latest jekyll build from travis $(date --rfc-3339=seconds | sed 's/ /T/'| sed -e "s/:/./g"
+)"
+git push --set-upstream origin travis_build_$(date --rfc-3339=seconds | sed 's/ /T/'| sed -e "s/:/./g"
+)
 # bundle exec htmlproofer ./_site --disable-external
