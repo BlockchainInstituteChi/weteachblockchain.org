@@ -8,7 +8,7 @@ datetimestamp=$(date --rfc-3339=seconds | sed 's/ /T/'| sed -e "s/:/./g"
 git checkout -b travis_build_$datetimestamp
 git add . 
 git commit -m "latest jekyll build from travis $datetimestamp"
-git push -f "https://${GITHUB_TOKEN}@github.com/BlockchainInstituteChi/weteachblockchainsite" travis_build_$datetimestamp
+git push -f "https://github.com/BlockchainInstituteChi/weteachblockchainsite" travis_build_$datetimestamp
 
 # bundle exec htmlproofer ./_site --disable-external
 # 445189ffc9dc9f436f7e5e748b0095ab7a24c6ca
