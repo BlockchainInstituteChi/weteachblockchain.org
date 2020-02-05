@@ -101,6 +101,19 @@ The navigation menu is built as an `_includes` component, which allows it to be 
 ## Pages
 Pages are the core elements of the site and should be added to the root directory with `.html` extensions. 
 
+## Events
+Events can be added as markdown files to the directory `_collections/_events/`. Each file should have the following header:
+```
+---
+title: < insert event title here >
+layout: event
+image: < insert the name of the image file here >
+eventdate: < insert event date here >
+permalink: /events/< insert event unique name >
+---
+
+<!-- Insert HTML for the page content here -->
+```
 
 ## CSS 
 CSS is created from the `assets` directory and compiles from the `_sass` directory. Jekyll uses [SCSS](https://sass-lang.com/documentation/syntax) which is then compiled to standard CSS. 
