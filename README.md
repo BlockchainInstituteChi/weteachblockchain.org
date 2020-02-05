@@ -9,26 +9,26 @@ This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate
 Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), CSS, and raw HTML to generate pages. 
 
 ## Directory Map
-`Main Folder`
-`- _data` This directory contains data files which can represent information or provide structure and context.
-`- _includes` This directory contains injectable code components like the navbar and footer.
-`- _layouts` This directory contains the page layout formats
-`- _posts` This directory contains markdown files for blog posts
-`- _sass` This directory contains precompiled scss style code
-`- assets` This directory contains styles and image files
-`| - css` This subdirectory is where the main stylesheets should go
-`| - img` This subdirectory is where images can be added
-`- node_modules` This subdirectory stores node.js modules (mainly bootstrap) *DO NOT EDIT*
-`- vendor/` This subdirectory stores ruby vendor files *DO NOT EDIT*
-`CNAME` This file sets the URL of the github pages build
-`Gemfile` This file contains Ruby Gem configuration information *DO NOT EDIT*
-`Gemfile.lock` This is a lock file for system specific Ruby build information *DO NOT EDIT*
-`package.json` This file contains node.js library build information *DO NOT EDIT*
-`package-lock.json` This file contains system specific node.js library build information *DO NOT EDIT*
-`README.md` This is the file that creates the docs you're currently reading! *EDIT WITH CAUTION*
-`index.html` This is the home page
-`crypto-curious.html` This is the CCC landing page
-`< other root pages >` Other root pages are also stored in the top level directory and may appear here. 
+`Main Folder`<br>
+`- _data` This directory contains data files which can represent information or provide structure and context.<br>
+`- _includes` This directory contains injectable code components like the navbar and footer.<br>
+`- _layouts` This directory contains the page layout formats<br>
+`- _posts` This directory contains markdown files for blog posts<br>
+`- _sass` This directory contains precompiled scss style code<br>
+`- assets` This directory contains styles and image files<br>
+`| - css` This subdirectory is where the main stylesheets should go<br>
+`| - img` This subdirectory is where images can be added<br>
+`- node_modules` This subdirectory stores node.js modules (mainly bootstrap) *DO NOT EDIT*<br>
+`- vendor/` This subdirectory stores ruby vendor files *DO NOT EDIT*<br>
+`CNAME` This file sets the URL of the github pages build<br>
+`Gemfile` This file contains Ruby Gem configuration information *DO NOT EDIT*<br>
+`Gemfile.lock` This is a lock file for system specific Ruby build information *DO NOT EDIT*<br>
+`package.json` This file contains node.js library build information *DO NOT EDIT*<br>
+`package-lock.json` This file contains system specific node.js library build information *DO NOT EDIT*<br>
+`README.md` This is the file that creates the docs you're currently reading! *EDIT WITH CAUTION*<br>
+`index.html` This is the home page<br>
+`crypto-curious.html` This is the CCC landing page<br>
+`< other root pages >` Other root pages are also stored in the top level directory and may appear here. <br>
 
 # Instructions
 
