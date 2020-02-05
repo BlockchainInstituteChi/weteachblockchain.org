@@ -5,23 +5,23 @@ This is the staging repo for static site generation via Jekyll. This repo compil
 ## Contents
 1. [About](#about)
 2. [Directory Map](#directory-map)
-3. [Instruction](#instructions)
-* [General Structure](#about)
-* [Layouts](#layouts)
-* [Title](#title)
-* [Stylesheet](#stylesheet)
-* [Open Graph Protocol](#open-graph-protocol-og)
+3. [Instructions](#instructions)
+   * [General Structure](#general-structure)
+   * [Layouts](#layouts)
+   * [Title](#title)
+   * [Stylesheets](#stylesheet)
+   * [Open Graph Protocol](#open-graph-protocol-og)
 4. [Adding Images](#adding-images)
 5. [Navigation Header / Menu](#navigation-header)
-* [Nav Data](#nav-data)
-* [Nav Layout](#nav-data)
+   * [Nav Data](#nav-data)
+   * [Nav Layout](#nav-layout)
 6. [Pages](#pages)
 7. [Events](#events)
 8. [CSS / Styles](#css)
-* [SCSS Structure](#scss-structure)
-* [Variables](#variables)
-* [Bootstrap](#bootstrap)
-* [Responsive Design](#responsive-multi-device)
+   * [SCSS Structure](#scss-structure)
+   * [Variables](#variables)
+   * [Bootstrap](#bootstrap)
+   * [Responsive Design](#responsive-multi-device)
 
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
@@ -78,7 +78,7 @@ Layouts are a core component of Jekyll and are stored in the folder `_layouts`. 
 ### Title
 This is used to set the title as it appears in the browser tab or window. These are not crucial, but will help the user to distinguish tabs. Ideally the title should be less than 20 characters. 
 
-### Stylesheet
+### Stylesheets
 Each page should have a personalized stylesheet created and added to `assets/css/`. The goal of this is to ensure that unnecessary styles are not loaded onto pages where they are not relevant. For some layouts, such as events and lessons, the stylesheets will be predefined throughout the system, so these markdown templates will simply ignore the `stylesheet` option if it is defined.
 
 ### Open Graph Protocol (og)
