@@ -59,6 +59,10 @@ These can then be used in other .scss files like so:
 }
 ```
 
+### Bootstrap 
+Bootstrap is a CSS and HTML framework which provides easy to use responsive elements for page design. This streamlines developement for many device types, and ensures consistancy throughout the designs. In order to avoid unnecessary styles being added, please refer to (the bootstrap documentation)[https://getbootstrap.com/docs/4.0/getting-started/introduction/] and check for potential solutions before writing custom code. 
+
+*As noted in the previous section, boostrap is loaded in main.scss, so it should be available on all pages by default. If this does not appear to be the case, please contact Alex and he can troublesheet further.*
 
 
 
