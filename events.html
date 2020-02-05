@@ -1,0 +1,28 @@
+---
+layout: default
+title: Events
+stylesheet: events.css
+---
+
+<!-- events.html -->
+<section class="eventsHeaderImage">
+	<img src="/assets/img/Events-Banner.png">
+</section>
+<section class="eventsHeader">
+	<h1>EVENTS</h1>
+	<p data-ce-key="812">While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped to provide on-site education at conferences and community events nationwide. Our headquarters at the <a href="http://hackha.us" data-ce-key="813">HackHaus</a> in Chicago provides a space for collaboration for a wide range of events.</p>
+	<p data-ce-key="814"><strong data-ce-key="815">The Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener" data-ce-key="818">Blockchain.wtf!</a>&nbsp;</strong></p>
+</section>
+<section class="eventsList">
+	{% for event in site.events %}
+
+			<div class="eventTile"> 
+				<a target="_blank" href="{{ event.permalink }}">
+					<img src="/assets/img/{{event.image}}"/>
+			        <h1>{{ event.title }}</h1>
+			        <span>{{ event.eventdate }}</span>
+			    </a>
+		    </div>
+
+	{% endfor %}
+</section>

@@ -1,8 +1,15 @@
-collections:
-  authors: 
-    output: true
+collections_dir: _collections/
 
-destination: docs/
+collections:
+  events: 
+    layout: event
+    output: true  
+  courses:
+    output: true
+  modules:
+    output: false
+  lessons:
+    output: false
 
 sass:
     load_paths:
