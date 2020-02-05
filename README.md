@@ -1,12 +1,35 @@
 # Blockchain Institute
 
-## Static Site Generator
 This is the staging repo for static site generation via Jekyll. This repo compiles to the site at https://staging.weteachblockchain.org/ and the progress can be observed from the 'Environments' tab on the Github repo. Be sure to log in as a verified collaborator to see this tab.
+
+## Contents
+1. [About](#about)
+2. [Directory Map](#directory-map)
+3. [Instruction](#instructions)
+* [General Structure](#about)
+* [Layouts](#layouts)
+* [Title](#title)
+* [Stylesheet](#stylesheet)
+* [Open Graph Protocol](#open-graph-protocol-og)
+4. [Adding Images](#adding-images)
+5. [Navigation Header / Menu](#navigation-header)
+* [Nav Data](#nav-data)
+* [Nav Layout](#nav-data)
+6. [Pages](#pages)
+7. [Events](#events)
+8. [CSS / Styles](#css)
+* [SCSS Structure](#scss-structure)
+* [Variables](#variables)
+* [Bootstrap](#bootstrap)
+* [Responsive Design](#responsive-multi-device)
 
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
 
 Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), CSS, and raw HTML to generate pages. 
+
+***Commits made to the master branch of this repo will trigger a github pages build, which will go live after 2-3 minutes!***
+
 
 ## Directory Map
 `Main Folder`<br>
