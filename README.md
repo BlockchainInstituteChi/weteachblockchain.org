@@ -28,6 +28,7 @@ Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/
 `README.md` This is the file that creates the docs you're currently reading! *EDIT WITH CAUTION*<br>
 `index.html` This is the home page<br>
 `crypto-curious.html` This is the CCC landing page<br>
+`404.md` This is the 404 - not found page<br>
 `< other root pages >` Other root pages are also stored in the top level directory and may appear here. <br>
 
 # Instructions
@@ -80,7 +81,7 @@ To display an image in a page, use an HTML image tag and a relative path as show
 
 ## Navigation Header
 
-Most of the current layouts use the Navigation header structure to display a menu at the top of the page. This is a slightly complicated functionality, and uses a data file combined with a layout in order to provide an 
+Most of the current layouts use the Navigation header structure to display a menu at the top of the page. This is a slightly complicated functionality, and uses a data file combined with a layout in order to provide a solution which is both customizeable and easy to edit.
 
 ### Nav Data
 The navigation menu is defined in `_data/navigation.yaml` and can be used to add new items to the header. Each item added should follow this format:
@@ -94,7 +95,7 @@ The class should be set to either `normal` or `hideOnDesktop`. This specifies wh
 
 
 ### Nav Layout
-The navigation menu is built as an `_includes` component, which allows it to be injected into all pages. The component file can be found at `_includes/navigation.html`. 
+The navigation menu is built as an `_includes` component, which allows it to be injected into all pages. The component file can be found at `_includes/navigation.html` but generally should not be edited.
 
 
 ## Pages
@@ -102,7 +103,7 @@ Pages are the core elements of the site and should be added to the root director
 
 
 ## CSS 
-CSS is created from the `assets` directory and compiles from the `_sass` directory.
+CSS is created from the `assets` directory and compiles from the `_sass` directory. Jekyll uses [SCSS](https://sass-lang.com/documentation/syntax) which is then compiled to standard CSS. 
 
 ### SCSS Structure
 As an example, `/assets/css/homepage.css` contains the following code:
