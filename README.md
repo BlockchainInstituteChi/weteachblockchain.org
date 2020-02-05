@@ -4,10 +4,31 @@
 This is the staging repo for static site generation via Jekyll. This repo compiles to the site at https://staging.weteachblockchain.org/ and the progress can be observed from the 'Environments' tab on the Github repo. Be sure to log in as a verified collaborator to see this tab.
 
 ## About
-This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `gh-pages` branch of this repo.
+This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
 
 Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), CSS, and raw HTML to generate pages. 
 
+## Directory Map
+`Main Folder`
+`- _data` This directory contains data files which can represent information or provide structure and context.
+`- _includes` This directory contains injectable code components like the navbar and footer.
+`- _layouts` This directory contains the page layout formats
+`- _posts` This directory contains markdown files for blog posts
+`- _sass` This directory contains precompiled scss style code
+`- assets` This directory contains styles and image files
+`| - css` This subdirectory is where the main stylesheets should go
+`| - img` This subdirectory is where images can be added
+`- node_modules` This subdirectory stores node.js modules (mainly bootstrap) *DO NOT EDIT*
+`- vendor/` This subdirectory stores ruby vendor files *DO NOT EDIT*
+`CNAME` This file sets the URL of the github pages build
+`Gemfile` This file contains Ruby Gem configuration information *DO NOT EDIT*
+`Gemfile.lock` This is a lock file for system specific Ruby build information *DO NOT EDIT*
+`package.json` This file contains node.js library build information *DO NOT EDIT*
+`package-lock.json` This file contains system specific node.js library build information *DO NOT EDIT*
+`README.md` This is the file that creates the docs you're currently reading! *EDIT WITH CAUTION*
+`index.html` This is the home page
+`crypto-curious.html` This is the CCC landing page
+`< other root pages >` Other root pages are also stored in the top level directory and may appear here. 
 
 # Instructions
 
@@ -47,7 +68,7 @@ ogImage: < full https:// url to the image to display as a preview >
 ogUrl: < the url to display for users >
 ```
 
-(Full Docs Here)[https://ogp.me/]
+[Full Docs Here](https://ogp.me/)
 
 
 ## Adding Images
@@ -125,7 +146,7 @@ These can then be used in other .scss files like so:
 ```
 
 ### Bootstrap 
-Bootstrap is a CSS and HTML framework which provides easy to use responsive elements for page design. This streamlines developement for many device types, and ensures consistancy throughout the designs. In order to avoid unnecessary styles being added, please refer to (the bootstrap documentation)[https://getbootstrap.com/docs/4.0/getting-started/introduction/] and check for potential solutions before writing custom code. 
+Bootstrap is a CSS and HTML framework which provides easy to use responsive elements for page design. This streamlines developement for many device types, and ensures consistancy throughout the designs. In order to avoid unnecessary styles being added, please refer to [the bootstrap documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/) and check for potential solutions before writing custom code. 
 
 *As noted in the previous section, boostrap is loaded in main.scss, so it should be available on all pages by default. If this does not appear to be the case, please contact Alex and he can troublesheet further.*
 
