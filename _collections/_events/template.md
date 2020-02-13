@@ -14,3 +14,9 @@ permalink: /events/event-name-without-spaces
 <h2>This is another header</h2>
 
 <b>This is bold text</b>
+
+<ul>
+  <li>This is an example</li>
+  <li>Of a list</li>
+  <li>Lists sould have 3 points</li>
+</ul> 
