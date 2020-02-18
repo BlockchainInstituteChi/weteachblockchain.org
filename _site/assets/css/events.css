@@ -1,0 +1,35 @@
+section.eventsHeader {
+    text-align: center;
+    font-size: 0.75em;
+}
+section.eventsHeaderImage {
+    height: fit-content;
+}
+section.eventsHeader {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: fit-content;
+}
+.eventTile {
+    width: calc(30% - 1em);
+    display: inline-block;
+    overflow: hidden;
+    margin: 1em;
+}
+.eventTile img {
+    max-width: 100%;
+}
+.eventTile {
+    box-shadow: 0 0 1px 0 #00000094;
+}
+.eventTile h1 {
+    font-size: 1.45em;
+    text-align: center;
+}
+.eventsHeaderImage img {
+    min-width: 100vw;
+    height: auto;
+}
+.eventTile.column {
+    width: 100%;
+}
