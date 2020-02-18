@@ -86,13 +86,25 @@
         <span class="summary">{{ page.summary }}</span>
         <div class="courseBody">    
         <section>
-          {% for lesson in site.lessons %}
-              {% if lesson.course == 'blockchain101' %}
-                  <div class="courseListing"> 
-                      <a target="_blank" href="{{ lesson.permalink }}">
-                          <h1>{{ lesson.title }}</h1>
-                      </a>
+          {% for module in site.modules %}
+              {% if module.course == page.slug %}
+                <div class="moduleInfo">
+                  <h2>{{module.title}}</h2>
+                  <span>{{ module.summary }}</span>
+                  <div class="moduleChildren">
+                    {% for lesson in site.lessons %}
+                      {% if lesson.course == page.slug %}
+                        {% if lesson.module == module.number %}
+                          <div class="lessonListing"> 
+                              <a target="_blank" href="{{ lesson.permalink }}">
+                                  <h3>{{ lesson.title }}</h3>
+                              </a>
+                          </div>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
                   </div>
+                </div>
               {% endif %}
           {% endfor %}
           
