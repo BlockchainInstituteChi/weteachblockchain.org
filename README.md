@@ -17,12 +17,13 @@ This is the staging repo for static site generation via Jekyll. This repo compil
    * [Nav Layout](#nav-layout)
 6. [Pages](#pages)
 7. [Events](#events)
-8. [CSS / Styles](#css)
+8. [Courses Portal](#courses-portal)
+9. [CSS / Styles](#css)
    * [SCSS Structure](#scss-structure)
    * [Variables](#variables)
    * [Bootstrap](#bootstrap)
    * [Responsive Design](#responsive-multi-device)
-9. [Courses Portal](#courses-portal)
+
 
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
