@@ -1,0 +1,28 @@
+---
+layout: default
+title: Events
+stylesheet: events.css
+---
+
+<!-- events.html -->
+<section class="eventsHeaderImage">
+	<img src="/assets/img/Events-Banner.png">
+</section>
+<section class="eventsHeader">
+	<h1>Courses</h1>
+	<p>We've made these free courses just for you!</p>
+	
+</section>
+<section class="coursesList">
+	{% for course in site.courses %}
+
+			<div class="courseListing"> 
+				<a target="_blank" href="{{ course.permalink }}">
+					<img src="/assets/img/{{course.image}}"/>
+			        <h1>{{ course.title }}</h1>
+			        <span>{{ course.author }}</span>
+			    </a>
+		    </div>
+
+	{% endfor %}
+</section>

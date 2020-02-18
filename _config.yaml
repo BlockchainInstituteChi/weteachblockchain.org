@@ -9,7 +9,7 @@ collections:
   modules:
     output: false
   lessons:
-    output: false
+    output: true
 
 sass:
     load_paths:
