@@ -22,6 +22,7 @@ This is the staging repo for static site generation via Jekyll. This repo compil
    * [Variables](#variables)
    * [Bootstrap](#bootstrap)
    * [Responsive Design](#responsive-multi-device)
+9. [Courses Portal](#courses-portal)
 
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
@@ -137,6 +138,20 @@ permalink: /events/< insert event unique name >
 
 <!-- Insert HTML for the page content here -->
 ```
+
+## Courses Portal
+
+Courses have inherited much of their structure from the old Learnpress layout.
+
+A *Course* has many *Modules* each of which have one or more *Lessons*.
+
+To create a course:
+1. Copy _courses/.course-template.md to a new file named for the course (i.e. _courses/courseNameWithoutSpacesOrSpecialCharacters.md). 
+2. Define a course slug (i.e. course-name-without-spaces-or-special-characters) and add it to the header of the course markdown file created in (1.)
+3. Create an appropriate number of Module files using the template at _modules/.module-template.md and specify the correct course slug (more detailed instructions are in the template file.)
+4. Create an appropriate number of lesson files specifying the correct module numbers and course slug. 
+5. Save all of the files and wait for github pages to generate them on the live site. 
+
 
 ## CSS 
 CSS is created from the `assets` directory and compiles from the `_sass` directory. Jekyll uses [SCSS](https://sass-lang.com/documentation/syntax) which is then compiled to standard CSS. 
