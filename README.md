@@ -104,7 +104,6 @@ To display an image in a page, use an HTML image tag and a relative path as show
 
 
 ## Navigation Header
-
 Most of the current layouts use the Navigation header structure to display a menu at the top of the page. This is a slightly complicated functionality, and uses a data file combined with a layout in order to provide a solution which is both customizeable and easy to edit.
 
 ### Nav Data
@@ -126,29 +125,21 @@ The navigation menu is built as an `_includes` component, which allows it to be 
 Pages are the core elements of the site and should be added to the root directory with `.html` extensions. 
 
 ## Events
-Events can be added as markdown files to the directory `_collections/_events/`. Each file should have the following header:
-```
----
-title: < insert event title here >
-layout: event
-image: < insert the name of the image file here >
-eventdate: < insert event date here >
-permalink: /events/< insert event unique name >
----
+Events can be added as markdown files to the directory `_collections/_events/`. Each file should have the following header.
 
-<!-- Insert HTML for the page content here -->
-```
+To create a new event file, copy the template at _collections/_events/.event-template.md to a new file with an appropriate name. 
+
+Once published, events will be displayed on the events page at /events/.
 
 ## Courses Portal
-
 Courses have inherited much of their structure from the old Learnpress layout.
 
 A *Course* has many *Modules* each of which have one or more *Lessons*.
 
 To create a course:
-1. Copy _courses/.course-template.md to a new file named for the course (i.e. _courses/courseNameWithoutSpacesOrSpecialCharacters.md). 
+1. Copy _collections/_courses/.course-template.md to a new file named for the course (i.e. _collections/_courses/courseNameWithoutSpacesOrSpecialCharacters.md). 
 2. Define a course slug (i.e. course-name-without-spaces-or-special-characters) and add it to the header of the course markdown file created in (1.)
-3. Create an appropriate number of Module files using the template at _modules/.module-template.md and specify the correct course slug (more detailed instructions are in the template file.)
+3. Create an appropriate number of Module files by copying the template at _collections/_modules/.module-template.md and specify the correct course slug (more detailed instructions are in the template file.)
 4. Create an appropriate number of lesson files specifying the correct module numbers and course slug. 
 5. Save all of the files and wait for github pages to generate them on the live site. 
 
@@ -158,7 +149,7 @@ CSS is created from the `assets` directory and compiles from the `_sass` directo
 
 ### SCSS Structure
 As an example, `/assets/css/homepage.css` contains the following code:
-```---
+```---sss
 ---
 @import "main";
 
@@ -206,8 +197,8 @@ Bootstrap is a CSS and HTML framework which provides easy to use responsive elem
 ### Responsive (multi-device) 
 Because bootstrap is being used for most elements, it is only necessary to make specific tweaks for responsive design. These should generally be stored in a separate css sheet named like `xxxxResponsive.scss` in the `scss/` directory. These can then be imported in the same way that's shown in the SCSS Structure section above.
 
-
 Responsive css files should follow the structure shown below:
+
 ```
 /* Desktop */
 @media screen and (max-width: 1000px) {
@@ -223,7 +214,6 @@ Responsive css files should follow the structure shown below:
 @media screen and (max-width: 600px) {
 	/* This is for small devices like mobile phones */
 }
-
 
 @media screen and (max-width: 330px) {
 	/* This is for extra small devices like older iPhones */
