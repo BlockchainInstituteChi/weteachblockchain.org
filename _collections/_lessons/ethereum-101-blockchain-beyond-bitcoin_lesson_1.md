@@ -16,7 +16,7 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-propo
 <h3>THE BIG PICTURE</h3>
 <hr />
 
-<img class="aligncenter size-full wp-image-16906" src="https://theblockchaininstitute.org/wp-content/uploads/2019/11/TheBigPicture-01.png" alt="" width="2169" height="1006" />
+<img src="/assets/img/TheBigPicture-01.png"> 
 
 <span style="font-weight: 400;">The Bitcoin Whitepaper proposed a system wherein:</span>
 <ol>
