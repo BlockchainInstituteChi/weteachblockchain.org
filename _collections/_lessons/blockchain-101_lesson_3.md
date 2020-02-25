@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 1
 title: The Enigma: Satoshi Nakamoto
-permalink: /courses/blockchain-101/1/the-enigma-satoshi-nakamoto
+permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 ---
 
 <span> <div style="text-align: center;">
