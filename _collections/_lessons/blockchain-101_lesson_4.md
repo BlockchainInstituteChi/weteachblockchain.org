@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 1
 title: From Digital Currency to Cryptocurrency
-permalink: /courses/blockchain-101/01/from-digital-currency-to-cryptocurrency
+permalink: courses/blockchain-101/01/from-digital-currency-to-cryptocurrency
 ---
 
 <span> <div style="text-align: center;">
