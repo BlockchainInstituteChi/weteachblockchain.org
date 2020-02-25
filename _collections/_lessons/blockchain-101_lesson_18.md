@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 3
 title: Conclusion
-permalink: courses/blockchain-101/03/conclusion
+permalink: /courses/blockchain-101/03/conclusion
 ---
 
 <span>
