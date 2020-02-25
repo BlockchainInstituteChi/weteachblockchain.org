@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 2
 title: Asymmetric Encryption
-permalink: courses/blockchain-101/02/asymmetric-encryption
+permalink: /courses/blockchain-101/02/asymmetric-encryption
 ---
 
 <span> 
