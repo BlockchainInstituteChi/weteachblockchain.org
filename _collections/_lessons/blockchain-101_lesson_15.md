@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 3
 title: What is Ethereum?
-permalink: courses/blockchain-101/03/what-is-ethereum
+permalink: /courses/blockchain-101/03/what-is-ethereum
 ---
 
 <span>
