@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain-security
 module: 1
 title: PRIMER & INTRODUCTION
-permalink: /courses/blockchain-security/lessons/primer-introduction/
+permalink: /courses/blockchain-security/1/primer-introduction/
 ---
 
 <span class="openingParagraph">Security is a large and complex topic that cannot be fully addressed in a single online course. </span>
