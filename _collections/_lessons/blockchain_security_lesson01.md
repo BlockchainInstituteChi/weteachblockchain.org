@@ -2,7 +2,7 @@
 layout: lesson
 course: blockchain-security
 module: 1
-title: PRIMER & INTRODUCTION
+title: Primer & Introduction
 permalink: /courses/blockchain-security/1/primer-introduction/
 ---
 
