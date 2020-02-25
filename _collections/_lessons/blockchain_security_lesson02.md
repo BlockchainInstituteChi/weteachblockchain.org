@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain-security
 module: 1
 title: Protecting Digital Keys
-permalink: /courses/blockchain-security/lessons/protecting-digital-keys/
+permalink: /courses/blockchain-security/1/protecting-digital-keys/
 ---
 <span class="openingParagraph">While blockchain technology originally emerged as a solution to provide distributed trust within the Bitcoin network, the technology has progressed a long way since 2008.</span>&nbsp;
 While this new architecture has many advantages, the implementation of a blockchain-based system is complex and requires a thorough review to ensure appropriate security.
