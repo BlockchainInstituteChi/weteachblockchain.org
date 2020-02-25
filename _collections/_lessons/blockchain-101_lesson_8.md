@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 2
 title: Peer-to-Peer Networks
-permalink: courses/blockchain-101/01/peer-to-peer-networks
+permalink: courses/blockchain-101/02/peer-to-peer-networks
 ---
 
 <span>  
