@@ -1,9 +1,9 @@
 ---
 layout: lesson
 course: bitcoin-for-developers
-module: 2
+module: 3
 title: Bitcoin Nodes
-permalink: /courses/bitcoin-for-developers/2/bitcoin-nodes
+permalink: /courses/bitcoin-for-developers/3/bitcoin-nodes
 ---
 
 <span>
