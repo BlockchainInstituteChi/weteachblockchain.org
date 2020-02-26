@@ -3,7 +3,7 @@ layout: lesson
 course: bitcoin-for-developers
 module: 1
 title: Enter the Blockchain: Part I
-permalink: /courses/bitcoin-for-developers/1/enter-the-blockchain-part-i
+permalink:  /courses/bitcoin-for-developers/1/enter-the-blockchain-part-i
 ---
 
 <span>
