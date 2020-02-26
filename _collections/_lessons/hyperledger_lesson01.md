@@ -3,7 +3,7 @@ layout: lesson
 course: hyperledger
 module: 1
 title: Background
-permalink: /courses/blockchain-security/1/hyperledger-background/
+permalink: /courses/hyperledger/1/hyperledger-background/
 ---
 <h3>BACK TO THE BEGINNING</h3>
 
