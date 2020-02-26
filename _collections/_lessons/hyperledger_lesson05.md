@@ -3,7 +3,7 @@ layout: lesson
 course: hyperledger
 module: 1
 title: Design Considerations
-permalink: /courses/blockchain-security/1/design-considerations/
+permalink: /courses/hyperledger/1/design-considerations/
 ---
 <ol>
  	<li>
