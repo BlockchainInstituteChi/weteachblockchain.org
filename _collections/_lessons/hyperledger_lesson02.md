@@ -3,7 +3,7 @@ layout: lesson
 course: hyperledger
 module: 1
 title: Hyperledger Architecture
-permalink: /courses/blockchain-security/1/hyperledger-architecture/
+permalink: /courses/hyperledger/1/hyperledger-architecture/
 ---
 <span class="openingParagraph">
 This brief video was created by IBM to explain why Hyperledger is different. IBM is among the core developers of this new protocol and has committed in-house resources to build this solution for industrial blockchains. A number of other major software companies including Oracle and the Linux Foundation have also committed in-house teams to support the development of the Hyperledger protocol.
