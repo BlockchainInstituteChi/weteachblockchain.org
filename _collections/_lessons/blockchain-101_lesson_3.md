@@ -2,7 +2,7 @@
 layout: lesson
 course: blockchain101
 module: 1
-title: The Enigma: Satoshi Nakamoto
+title: The Enigma - Satoshi Nakamoto
 permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 ---
 
