@@ -4,6 +4,7 @@ course: bitcoin-for-developers
 module: 1
 title: Enter the Blockchain: Part II
 permalink: /courses/bitcoin-for-developers/1/enter-the-blockchain-part-ii
+
 ---
 
 <span>
