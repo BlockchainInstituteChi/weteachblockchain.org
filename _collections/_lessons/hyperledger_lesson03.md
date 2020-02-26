@@ -3,7 +3,7 @@ layout: lesson
 course: hyperledger
 module: 1
 title: Transaction Flow
-permalink: /courses/blockchain-security/1/transaction-flow/
+permalink: /courses/hyperledger/1/transaction-flow/
 ---
 <span class="openingParagraph">
 In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.</span>
