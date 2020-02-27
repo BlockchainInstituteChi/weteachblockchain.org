@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 1
 title: The Birth of Digital Money
-permalink: courses/blockchain-101/01/the-birth-of-digital-money
+permalink: /courses/blockchain-101/01/the-birth-of-digital-money
 ---
 
 <span> <div style="text-align: center;">
