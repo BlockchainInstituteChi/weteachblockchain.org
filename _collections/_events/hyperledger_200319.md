@@ -3,7 +3,7 @@ title: Hyperledger 2020 Chicago Kickoff
 layout: event
 image: Hyperledger-blockchain-tech-for-business-534x300.jpeg
 eventdate: Thursday March 19, 2020
-permalink: /events/hyperledger_2020_kickoff
+permalink: /events/hyperledger_2020_kickoff_200319
 ---
 
 <i>Thursday, March 19, 2020 (5:30 PM – 7:30 PM)</i>
