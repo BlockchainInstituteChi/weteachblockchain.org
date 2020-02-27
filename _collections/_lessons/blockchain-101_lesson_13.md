@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 2
 title: 51% Attacks
-permalink: courses/blockchain-101/02/51-percent-attacks
+permalink: /courses/blockchain-101/02/51-percent-attacks
 ---
 
 <span>
