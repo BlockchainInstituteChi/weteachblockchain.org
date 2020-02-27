@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain101
 module: 2
 title: Centralization vs Decentralization
-permalink: courses/blockchain-101/02/centralization-vs-decentralization
+permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 ---
 
 <span> 
