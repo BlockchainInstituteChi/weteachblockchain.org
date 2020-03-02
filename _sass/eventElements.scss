@@ -10,17 +10,28 @@ section.eventsHeader {
     padding-bottom: 1em;
     height: fit-content;
 }
+section.eventsList {
+    text-align: center;
+}
 .eventTile {
+    min-height: 290px;
     width: calc(30% - 1em);
     display: inline-block;
     overflow: hidden;
     margin: 1em;
+    text-align: center;
+    box-shadow: 0 0 1px 0 #00000094;
 }
 .eventTile img {
     max-width: 100%;
+    min-width: 100%;
+    max-height: 12em;
+    height: auto;
 }
-.eventTile {
-    box-shadow: 0 0 1px 0 #00000094;
+.eventTile span {
+    bottom: 0;
+    color: grey;
+    text-align: center;
 }
 .eventTile h1 {
     font-size: 1.45em;
@@ -83,3 +94,9 @@ h3 {
     font-size: 1.25em;
     margin-top: 3em;
 }
+
+.eventBody img {
+    max-width: 100%;
+    height: auto;
+}
+
