@@ -90,8 +90,8 @@
       </div>
 
       <div class="col-md-4 eventSidebar">
-        {% assign sorted = (site.events | sort: 'date') | reverse %}
-        {% for event in sorted limit:3%}
+        {% assign sorted = site.events | sort: 'date' | reverse %}
+        {% for event in sorted limit:3 %}
 
             <div class="eventTile column"> 
               <a target="_blank" href="{{ event.permalink }}">
