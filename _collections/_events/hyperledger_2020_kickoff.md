@@ -4,7 +4,7 @@ layout: event
 image: Hyperledger-blockchain-tech-for-business-534x300.jpeg
 date: 2020-03-19
 eventdate: Thursday March 19, 2020
-permalink: /events/hyperledger_2020_kickoff_200319
+permalink: /events/hyperledger_2020_kickoff/
 ---
 
 <i>Thursday, March 19, 2020 (5:30 PM – 7:30 PM)</i>

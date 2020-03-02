@@ -4,7 +4,7 @@ layout: event
 image: IMG_5984.jpg
 date: 2019-07-15
 eventdate: July 15th, 2019
-permalink: /events/chicagobility-2019/
+permalink: /events/chicagobility_2019/
 ---
 <span style="font-weight: 400;">The Family Matters nonprofit, working in partnership with the City of Chicago and their Chicagobility program arranges a summer program to teach and inspire teens between the ages of 14-16 with educational programming.
 </span>
