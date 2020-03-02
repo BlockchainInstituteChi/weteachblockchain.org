@@ -2,6 +2,7 @@
 title: HKU Blockchain Workshop
 layout: event
 image: hku_blockchain_workshop.jpg
+date: 2019-11-12
 eventdate: November 12th, 2019
 permalink: /events/HKU-blockchain-workshop
 ---

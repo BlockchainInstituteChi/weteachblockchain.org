@@ -2,13 +2,13 @@
   link: /events/
   class: normal
 - name: Courses
-  link: https://theblockchaininstitute.org/courses/
+  link: /courses/
   class: normal
 - name: Resources
-  link: https://theblockchaininstitute.org/resources/
+  link: /resources/
   class: normal
 - name: About
-  link: https://theblockchaininstitute.org/team/
+  link: /team/
   class: normal
 - name: Developer Bootcamp
   link: /developer-toolkit/

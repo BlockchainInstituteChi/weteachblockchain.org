@@ -2,6 +2,7 @@
 title: Loyalty Live
 layout: event
 image: loyalty_live.jpg
+date: 2018-10-16
 eventdate: October 16th, 2018
 permalink: /events/loyalty-live
 ---

@@ -2,6 +2,7 @@
 title: Bitcoin Pizza Day
 layout: event
 image: bob_meetup_pizza_day.jpeg
+date: 2018-05-22
 eventdate: May 22nd, 2018
 permalink: /events/bitcoin-pizza-day
 ---

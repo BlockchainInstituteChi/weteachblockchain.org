@@ -2,6 +2,7 @@
 title: Blockress Workshop
 layout: event
 image: blockressworkshop2019.png
+date: 2019-04-02
 eventdate: April 2, 2019
 permalink: /events/blockress_workshop2019/
 ---

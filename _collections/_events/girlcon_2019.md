@@ -2,6 +2,7 @@
 title: Girlcon 2019
 layout: event
 image: 20190615_fjs_chicago_74.jpg
+date: 2019-06-15
 eventdate: June 15, 2019
 permalink: /girlcon_2019/
 ---

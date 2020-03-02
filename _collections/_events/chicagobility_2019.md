@@ -2,6 +2,7 @@
 title: Chicagobility 2019
 layout: event
 image: IMG_5984.jpg
+date: 2019-07-15
 eventdate: July 15th, 2019
 permalink: /events/chicagobility-2019/
 ---

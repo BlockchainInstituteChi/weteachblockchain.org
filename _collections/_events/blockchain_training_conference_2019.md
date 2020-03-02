@@ -2,6 +2,7 @@
 title: Blockchain Training Conference 2019
 layout: event
 image: BTC2019.png
+date: 2019-09-28
 eventdate: Wednesday August 28, 2019
 permalink: /events/blockchain_training_conference_2019_190828
 ---
