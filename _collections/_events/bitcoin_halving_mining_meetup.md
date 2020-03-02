@@ -3,6 +3,7 @@ title: Bitcoin Halving Does It Even Matter?
 layout: event
 image: BitcoinHalvingThumb.jpeg
 eventdate: November 5th, 2019
+date: 2019-11-05
 permalink: /events/bitcoin_halving_mining_meetup_191105
 ---
 

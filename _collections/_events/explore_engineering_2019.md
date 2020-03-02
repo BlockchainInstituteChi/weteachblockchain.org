@@ -2,6 +2,7 @@
 title: Explore Engineering
 layout: event
 image: EE-4-18-19-4899.jpg
+date: 2019-04-18
 eventdate: April 18, 2019
 permalink: /events/explore_engineering_2019
 ---

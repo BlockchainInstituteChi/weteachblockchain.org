@@ -2,6 +2,7 @@
 title: BITDEVS CHI – Socratic Seminar 6
 layout: event
 image: bitdevschithumb.jpeg
+date: 2020-02-19
 eventdate: February 19th, 2020
 permalink: /events/bitdevschi_socratic_seminar_6_200219
 ---

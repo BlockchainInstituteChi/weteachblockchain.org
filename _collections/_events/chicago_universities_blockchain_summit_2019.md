@@ -2,6 +2,7 @@
 title: Chicago Universities Blockchain Summit
 layout: event
 image: IMG_1969.jpg
+date: 2019-05-18
 eventdate: May 18, 2019
 permalink: /events/chicago_universities_blockchain_summit_2019
 ---

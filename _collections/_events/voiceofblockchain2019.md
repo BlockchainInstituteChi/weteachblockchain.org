@@ -2,6 +2,7 @@
 title: Voice of Blockchain 2019
 layout: event
 image: vobthumb.jpeg
+date: 2019-09-30
 eventdate: Monday September 30, 2019
 permalink: /events/voiceofblockchain2019
 ---

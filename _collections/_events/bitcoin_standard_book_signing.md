@@ -2,8 +2,9 @@
 title: The Bitcoin Standard Book Signing
 layout: event
 image: bitcoin_standard.jpg
+date: 2018-09-11
 eventdate: August 11th, 2018
-permalink: /events/bitcoin-standard-book-signing
+permalink: /events/bitcoin_standard_book_signing
 ---
 
 <h2>BITCOIN STANDARD BOOK SIGNING</h2>

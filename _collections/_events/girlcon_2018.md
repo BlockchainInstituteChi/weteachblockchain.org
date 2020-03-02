@@ -2,8 +2,9 @@
 title: Girlcon 2018
 layout: event
 image: girlcon_2018.png
+date: 2018-06-16
 eventdate: June 16th, 2018
-permalink: /events/girlcon-2018
+permalink: /events/girlcon_2018
 ---
 GIRLCON 2018
 

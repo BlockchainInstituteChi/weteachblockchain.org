@@ -1,13 +1,18 @@
 collections_dir: _collections/
 
+future: true
+
 collections:
   events: 
     layout: event
     output: true  
+
   courses:
     output: true
+
   modules:
     output: false
+    
   lessons:
     output: true
 

@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private vs Public Blockchains</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="og:title" content="">
+    <meta name="og:description" content="">
+    <meta name="og:image" content="">
+    <meta name="og:url" content="">
+    <meta name="og:url" content="">
+    <meta name="og:type" content="website">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:creator" content="@bchaininstitute">
+    <link
+    rel=stylesheet id=olympus-google-fonts-css  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100i%2C300i%2C400i%2C500i%2C700i%2C900i%7CKanit%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=cyrillic%2Cvietnamese%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Clatin%2Clatin-ext%2Cthai&#038;display=swap&#038;ver=1.9.7' type=text/css media=all>
+    
+      <script src="https://script.crazyegg.com/pages/scripts/0073/9552.js" async="async"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121231750-2');
+      </script>
+        <!-- Facebook Pixel Code -->
+      <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '972018369806633');
+        fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=972018369806633&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
+
+      <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
+      <script>
+        function restoreSkippedContent() {
+          var hidden = document.querySelector('.onScrollHide');
+          hidden.classList.add('unhide');
+
+        };
+      </script>
+      <style>
+        .onScrollHide {
+          display: none;
+        }
+        .unhide {
+          display: unset !important;
+        }
+      </style>
+      <link
+    rel=stylesheet href='/assets/css/courses.css' type=text/css>
+  </head>
+  <body>
+    <div class="navBarContainer">
+    	<!-- Navigation -->
+<nav class="navbar-default nav-top">
+  <ul class="navbar-nav flex-row">
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fa fa-facebook fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fa fa-twitter fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fa fa-linkedin fa- "></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fa fa-instagram fa- "></i></a></li>
+  </ul>
+  <!-- search goes here -->
+  <!-- <li class="nav-item"><a class="nav-link px-2 float-right" href="#"><i class="fa fa-search"></i></a></li> -->
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark static-top">
+      <a class="navbar-brand" href="https://theblockchaininstitute.org">
+            <img src="/assets/img/logo.jpg" width="200px" alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        
+          <li class="nav-item">
+            <a class="nav-link normal" target="_blank" href="/events/" >
+            Events
+          </a></li>
+        
+          <li class="nav-item">
+            <a class="nav-link normal" target="_blank" href="/courses/" >
+            Courses
+          </a></li>
+        
+          <li class="nav-item">
+            <a class="nav-link normal" target="_blank" href="/resources/" >
+            Resources
+          </a></li>
+        
+          <li class="nav-item">
+            <a class="nav-link normal" target="_blank" href="/team/" >
+            About
+          </a></li>
+        
+          <li class="nav-item">
+            <a class="nav-link hideOnDesktop" target="_blank" href="/developer-toolkit/" >
+            Developer Bootcamp
+          </a></li>
+        
+          <li class="nav-item">
+            <a class="nav-link hideOnDesktop" target="_blank" href="/crypto-curious/" >
+            Crypto Curious Course
+          </a></li>
+              
+        <li class="nav-item">
+            <a class="nav-link donateNow" target="_blank" href="https://donations.theblockchaininstitute.org/">
+            Donate!
+          </a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+    </div>
+    <div class="row container">
+      <div class="col-md-8 eventMain">
+        <h1>Private vs Public Blockchains</h1>
+        <span class="author"></span>
+        <span class="summary"></span>
+        <div class="eventBody">
+          <p><span><span class="openingParagraph">When the term blockchain is used, people are usually referencing public or open blockchains. These permissionless chains allow use by any participant. While the users are not identified in a public blockchain transaction, the information associated with each transaction is displayed transparently.</span></span></p>
+
+<p><span style="font-weight: 400;">Private blockchains do exactly the opposite. The parties are known, but the information in the transaction is never recorded to a public ledger. Businesses do not want their information displayed publicly, so they are likely to select a private chain where the business maintains control over the data they’ve obtained. To put it simply, public blockchains are open to anyone. By contrast, private blockchains intend to restrict either participant or validator access.</span></p>
+
+<p><img class="aligncenter size-full wp-image-12791" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/PrivateDoor-01-1.png" alt="" width="9037" height="2949" /></p>
+
+<p><span style="font-weight: 400;">Private blockchains have significant differences than their public counterparts. Private or permissioned blockchains are an ecosystem comprised of known participants, but the information that is being transferred can only be sent or viewed by an approved party. Additionally, the consensus mechanisms used for private blockchains are quite different than the public blockchain methods we have previously discussed. Some private blockchains utilize consensus mechanisms that allow a central party the ability to confirm or deny transactions. Others use input from multiple parties to reach consensus.</span></p>
+<h3>SO WHY IS THERE A NEED FOR PRIVATE BLOCKCHAINS?</h3>
+
+<hr />
+
+<p><span style="font-weight: 400;">Many private companies, including JP Morgan, have shown an interest in the potential of blockchain technology, but require greater control than that provided by public blockchains. Companies are looking to incorporate blockchain technology into the way they conduct business, ranging from accounting to supply chain management. Private entities don’t want their proprietary information to be shared publicly, but they also see the advantages of moving towards blockchain technology. This middle ground has led to the creation of private blockchains, allowing companies to benefit from the technology without giving up their autonomy or compromising consumer data.</span></p>
+
+<p><span style="font-weight: 400;">Blockchains were created to coordinate data between parties that don’t necessarily trust each other. This is useful when you’re in a situation where you want to exchange data or agree on the validity of data with untrusted parties. Blockchains are great for agreeing on public data; this is what they were created for. </span><span style="font-weight: 400;">There are a few situations where it makes sense to use a private blockchain. For example, some businesses in a specific industry might want to exchange data between themselves, but no individual business wants the responsibility of maintaining that data. Utilizing a shared ledger might make sense.</span></p>
+
+<p><img class="aligncenter size-full wp-image-12792" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/WorldMapDecentralized-01.png" alt="" width="9037" height="3266" /></p>
+
+<p><span style="font-weight: 400;">It’s tough to go into specifics about distributed ledgers because these private systems can vary greatly as they are designed to meet the needs of a particular organization. Distributed ledgers are a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Even the permissioned distributed ledger software project Hyperledger is designed to be configurable in many different ways to meet a wide variety of needs.</span></p>
+
+<p><span style="font-weight: 400;">It’s important to remember that blockchains are essentially slow, inefficient databases. If you are considering using blockchain or distributed ledger technology, you’ll have to assess certain questions:</span></p>
+<ul>
+ 	<li>Do I need to share this ledger with people that I don’t fully trust?</li>
+ 	<li>Will multiple users be writing to this database and will their entries interact or be dependent upon each other?</li>
+ 	<li>Who will be the “validators” of this data? And how will this distributed system reach a consensus?</li>
+</ul>
+<p><span style="font-weight: 400;">If these questions cannot be answered, it is probably wiser to use a traditional database. When coordinating data between untrusted parties, a private blockchain could provide transparency into certain transactions that could increase trust between both parties.</span></p>
+<h3>CONSORTIUM BLOCKCHAINS</h3>
+
+<hr />
+
+<p><span style="font-weight: 400;">Many companies are choosing to incorporate blockchain technology into their existing business models. As blockchains are a new invention, these companies are forming working groups, or consortia, to determine industry standards around blockchain technology.</span></p>
+
+<p><span style="font-weight: 400;">Distributed ledgers are business-to-business workflow tools, which requires that blockchain increases and enhances collaboration. Therefore, it is important to set recognized standards, develop infrastructure, and execute transactions in a standardized manner. These consortia are the mechanisms through which companies that are interested in blockchain technology are collaborating. Any company seeking to capitalize on blockchain’s potential to increase operational efficiency may consider joining or forming a blockchain consortium. However, it would be wise to heed the lessons from the first generation of consortia. In particular, adequate funding, robust governance, and commitment from key companies are critical. Without these key supports, a consortium may have trouble reaching its goals. </span></p>
+
+<p>One of the biggest blockchain consortia is the Enterprise Ethereum Alliance. The EEA is made up of several projects and organizations with the aim of standardizing business practices that surround the Ethereum ecosystem. The goal is interoperability for both businesses and consumers alike by developing an open, decentralized web.</p>
+<h3>EVERY BUSINESS IS UNIQUE</h3>
+
+<hr />
+
+<p><span style="font-weight: 400;">Each organization or network has its own specific set of needs, which is why there is no correct answer on which blockchains are better. Public and private blockchains contain different characteristics, and the selection should be made based on what the organization is trying to achieve. Each organization has specific goals and should assess their needs independently. For this reason, private blockchain platforms like Hyperledger allow organizations a certain level of customization when creating their private chain. </span></p>
+
+<p><span style="font-weight: 400;">Now that we’ve addressed a modification to make blockchains more business applicable, let’s explore how blockchain protocols can be altered to handle any governance changes or disputes.</span></p>
+
+<p> &lt;/span&gt;</p>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container-fluid footer">
+  <div class="row">
+    <div class="col-md-6">
+    	<h4>About Us</h4>
+    	<span>The Blockchain Institute was founded to promote the adoption, development, and use of distributed ledger technology.</span>
+		<ul class="navbar-nav flex-row">
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fa fa-facebook fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fa fa-twitter fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fa fa-linkedin fa- "></i></a></li>
+		    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fa fa-instagram fa- "></i></a></li>
+		</ul>
+    	<br>
+    	<span>Copyright 2019 The Blockchain Institute. All Rights Reserved</span>
+    </div>
+    <div class="col-md-6">
+   		<h4>Subscribe Now</h4>
+    	<span>Join our Mailing List to stay in the loop on all things Blockchain!</span>
+    	<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup" class="mc_signup">
+		<form action="https://theblockchaininstitute.us18.list-manage.com/subscribe/post?u=ed27e0082d5f7e8d5cd3e3622&amp;id=d50da5888a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    <div id="mc_embed_signup_scroll">
+			
+		<div class="mc-field-group">
+			<input type="email" value="" name="EMAIL" class="required email mc_signup_input" id="mce-EMAIL"><button class="mc_signup" type="submit" value="Sign up"><i class="fa fa-envelope"></i></button>
+		</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ed27e0082d5f7e8d5cd3e3622_d50da5888a" tabindex="-1" value=""></div>
+		    </div>
+		</form>
+		</div>
+
+		<!--End mc_embed_signup-->
+		<br><a href="https://theblockchaininstitute.org/press-releases" target="_blank">Press</a> <a href="https://theblockchaininstitute.org/course-catalog" target="_blank">Courses</a> <a href="https://theblockchaininstitute.org/team" target="_blank">About</a> <a href="https://theblockchaininstitute.org/contact-us" target="_blank">Contact</a> <a href="https://theblockchaininstitute.org/events" target="_blank">Events</a>
+    </div>    
+  </div>
+  <!-- <img class="" src="/assets/img/footerBanner.png"> -->
+</div>
+<script defer>
+	// fix clicks on menu in mobile
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+
+	function inst_handleMenuClick () { 
+	 setTimeout( function() {	
+		 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
+		 var indicator1 =  menu.className.includes('show');
+		 var indicator2 =  menu.className.includes('collapsing');
+		 console.log('menu click', indicator1, indicator2)
+
+		  if ( ( indicator1 === false ) && ( indicator2 != true ) ) {    
+		    
+		    console.log('menu click while closed, opening', menu.className);
+		    menu.className = menu.className + " show"
+
+		  } else { 
+
+		    console.log('menu click while opened, closing', menu.className);
+		    menu.className = menu.className.replace('show', '')  
+		    console.log('menu classname: ', menu.className)
+
+		  } 
+	 }, 20);
+	}
+</script>
+    <!-- <script src="/node_modules/jquery/dist/jquery.min.js"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
