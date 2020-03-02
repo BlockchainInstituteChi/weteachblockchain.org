@@ -3285,21 +3285,19 @@ section.headerImage { height: fit-content; }
 
 section.eventsHeader { text-align: center; font-size: 0.75em; }
 
-section.eventsHeaderImage { height: fit-content; }
-
 section.eventsHeader { padding-top: 1em; padding-bottom: 1em; height: fit-content; }
 
-section.eventsList { text-align: center; }
+section.eventsList { text-align: left; }
 
-.eventTile { min-height: 290px; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: center; box-shadow: 0 0 1px 0 #00000094; }
+.eventTile { min-height: 290px; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
 
-.eventTile img { max-width: 100%; min-width: 100%; max-height: 12em; height: auto; }
+.eventTile img { max-width: 100%; min-width: 100%; max-height: 10em; height: auto; }
 
-.eventTile span { bottom: 0; color: grey; text-align: center; }
+.eventTile span { bottom: 0; color: grey; text-transform: uppercase; }
 
-.eventTile h1 { font-size: 1.45em; text-align: center; }
+.eventTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; }
 
-section.eventsHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; height: 50vh; min-height: 200px; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; }
+section.eventsHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; min-height: fit-content; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; }
 
 .eventTile.column { width: 100%; }
 
@@ -3320,6 +3318,26 @@ h2 { font-size: 1.5em; text-transform: uppercase; margin-top: 2em; }
 h3 { text-transform: uppercase; font-size: 1.25em; margin-top: 3em; }
 
 .eventBody img { max-width: 100%; height: auto; }
+
+section.eventsHeaderImage .row { background: #00000094; min-width: 100%; color: white; margin: 0; text-align: left; min-height: fit-content; }
+
+.eventsHeaderImage .col-sm-6 { margin-left: 8em; }
+
+.eventsHeaderImage .col-sm-6 h1 { margin-top: 2em; color: white; margin-left: 0; padding-left: 0; }
+
+.eventsHeaderImage p { padding: 0; font-size: 1.25em; font-weight: 200; }
+
+.eventsHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; }
+
+section.header { text-align: left; }
+
+section.eventsList { background: #86868608; }
+
+section.eventsList.upcoming h1::before { background: #3dba95; width: 150px; height: 1em; content: "_"; color: #ff000000; display: inline-block; margin-bottom: -0.25em; margin-left: -0.5em; margin-right: 0.5em; vertical-align: sub; }
+
+section.eventsList.past h1::before { background: red; width: 150px; height: 1em; content: "_"; color: #ff000000; display: inline-block; margin-bottom: -0.25em; margin-left: -0.5em; margin-right: 0.5em; vertical-align: sub; }
+
+.eventTile h1::before { display: none !important; }
 
 /* Tablet */
 /* Mobile */
