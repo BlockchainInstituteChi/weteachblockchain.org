@@ -1,0 +1,21 @@
+/* Path Options */
+.pathButtons img {
+    max-width: 100%;
+}
+.pathButtons a {
+    max-width: 100%;
+    position: relative;
+    display: block;
+}
+.pathButtons h5 {
+    color: white;
+    position: absolute;
+    top: calc( 50% - 0.5em);
+    width: 100%;
+    text-align: center;
+}
+
+.row.pathButtons {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

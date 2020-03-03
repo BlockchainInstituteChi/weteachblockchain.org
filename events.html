@@ -7,7 +7,7 @@ permalink: /events/
 
 
 <!-- events.html -->
-<section class="eventsHeaderImage" style="background:url(/assets/img/Events-Banner.png);background-size:cover;background-position:center;">
+<section class="pageHeaderImage" style="background:url(/assets/img/Events-Banner.png);background-size:cover;background-position:center;">
 	
 	<div class="row">
 		<div class="col-sm-6">
@@ -22,7 +22,7 @@ permalink: /events/
 </section>
 <section class="eventsList upcoming">
 
-	<h1>Upcoming Events</h1>
+	<h1 class="hasColorTag red">Upcoming Events</h1>
 
 	{% assign sorted = site.events | sort: 'date' | reverse %}
 	{% for event in sorted %}
@@ -41,11 +41,8 @@ permalink: /events/
 
 <section class="eventsList past">
 
-	<h1>Past Events</h1>
+	<h1 class="hasColorTag teal">Past Events</h1>
 	{% for event in sorted %}
-		<script>
-			console.log('event date is {{event.date}}')
-		</script>
 		{% if event.date < site.time  %}
 			<div class="eventTile"> 
 				<a target="_blank" href="{{ event.permalink }}">
