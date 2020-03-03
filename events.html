@@ -2,7 +2,9 @@
 layout: default
 title: Events
 stylesheet: events.css
+permalink: /events/
 ---
+
 
 <!-- events.html -->
 <section class="eventsHeaderImage" style="background:url(/assets/img/Events-Banner.png);background-size:cover;background-position:center;">
@@ -23,8 +25,9 @@ stylesheet: events.css
 	<h1>Upcoming Events</h1>
 
 	{% assign sorted = site.events | sort: 'date' | reverse %}
-	{% for event in sorted limit:1 %}
+	{% for event in sorted %}
 
+		{% if event.date > site.time  %}
 			<div class="eventTile"> 
 				<a target="_blank" href="{{ event.permalink }}">
 					<img src="/assets/img/{{event.image}}"/>
@@ -32,17 +35,18 @@ stylesheet: events.css
 			        <span>{{ event.eventdate }}</span>
 			    </a>
 		    </div>
-
+		{% endif %}
 	{% endfor %}
 </section>
 
 <section class="eventsList past">
 
 	<h1>Past Events</h1>
-
-	{% assign sorted = site.events | sort: 'date' | reverse %}
 	{% for event in sorted %}
-
+		<script>
+			console.log('event date is {{event.date}}')
+		</script>
+		{% if event.date < site.time  %}
 			<div class="eventTile"> 
 				<a target="_blank" href="{{ event.permalink }}">
 					<img src="/assets/img/{{event.image}}"/>
@@ -50,6 +54,6 @@ stylesheet: events.css
 			        <span>{{ event.eventdate }}</span>
 			    </a>
 		    </div>
-
+		{% endif %}
 	{% endfor %}
 </section>
