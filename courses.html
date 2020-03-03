@@ -62,16 +62,44 @@ permalink: /courses/
 
 <section class="coursesList">
 	<h1 class="hasColorTag purple">Courses</h1>
-	{% assign sorted = site.courses | sort: 'tags' | reverse %}
-	{% for course in site.courses %}
-
-			<div class="courseListing"> 
-				<a target="_blank" href="{{ course.permalink }}">
+	{% assign sorted = site.courses | sort: 'tags' %}
+	{% for course in sorted %}
+			<div class="row courseListing"> 
+				<div class="col-sm-4">
 					<img src="/assets/img/{{course.image}}"/>
-			        <h1>{{ course.title }}</h1>
-			        <span>{{ course.author }}</span>
-			    </a>
+				</div>
+				<div class="col-sm-6">
+					<h3>{{ course.title }}</h3>
+					<span class="author">{{ course.author }}</span>
+					<span class="summary">{{ course.summary }}</span>
+					<a target="_blank" class="startCourseButton" href="{{ course.permalink }}">Start Course</a>
+				</div>
+				<div class="col-sm-2">
+					<span class="courseTag {{course.tags}}">{{ course.tags }}</span>
+				</div>
 		    </div>
 
 	{% endfor %}
+</section>
+<section class="pinkStripesDivider">
+	
+</section>
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Upcoming Events</h1>
+	<div class="row">
+		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3%}
+		{% for event in sorted %}
+	
+			{% if event.date > site.time  %}
+				<div class="eventTile"> 
+					<a target="_blank" href="{{ event.permalink }}">
+						<img src="/assets/img/{{event.image}}"/>
+						<h1>{{ event.title }}</h1>
+						<span>{{ event.eventdate }}</span>
+					</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+
 </section>
