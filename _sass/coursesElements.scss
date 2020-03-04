@@ -1,0 +1,77 @@
+/* Path Options */
+.pathButtons img {
+    max-width: 100%;
+}
+.pathButtons a {
+    max-width: 100%;
+    position: relative;
+    display: block;
+}
+.pathButtons h5 {
+    color: white;
+    position: absolute;
+    top: calc( 50% - 0.5em);
+    width: 100%;
+    text-align: center;
+}
+
+.row.pathButtons {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* CourseListing */
+.courseListing img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+.row.courseListing {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.courseListing h3 {
+    text-transform: uppercase;
+    color: black;
+    margin-top: -0.25em;
+    margin-bottom: 0;
+    font-size: 1.25em;
+}
+.courseListing .author {
+    color: $brand-green;
+    text-transform: uppercase;
+}
+span.summary {
+    font-size: 0.75em;
+    display: block;
+}
+a.startCourseButton {
+    background: $brand-red;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 1em;
+    display: inline-block;
+}
+span.courseTag {
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin: auto;
+    background: black;
+    display: block;
+    margin-top: -0.5em;
+    color: white;
+}
+span.courseTag.developer {
+    background: $brand-blue;
+} 
+span.courseTag.professional {
+    background: $brand-purple;
+} 
+span.courseTag.beginner {
+    background: $brand-green;
+} 

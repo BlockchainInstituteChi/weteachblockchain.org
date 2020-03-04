@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Blockchain for Business
-tags: Beginner
+tags: professional
 slug: blockchain-for-business
 permalink: /courses/blockchain-for-business/
 author: Jeremy Cogan
