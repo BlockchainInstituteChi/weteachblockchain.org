@@ -3388,4 +3388,20 @@ section.courseSections { padding-top: 4em; }
 
 .lessonListing h3 { color: red; font-size: 1.25em; padding-top: 0.5em; }
 
+/* Lesson View */
+section.courseHeader { background: url(/assets/img/lesson-header-banner.png); background-size: cover; min-height: 6em; height: fit-content; }
+
+.courseHeader a { color: white; padding-left: 1em; padding-top: 1em; display: block; font-weight: 500; }
+
+.courseHeader h1 { color: white; text-transform: uppercase; font-size: 2.5em; margin-left: 0.15em; padding-bottom: 0.5em; }
+
+/* Content Element Styles */
+.lessonContent iframe { width: 100%; margin: auto; }
+
+.lessonContent img { width: 100%; height: auto; }
+
+.lessonContent span.openingParagraph { color: #00698b; text-transform: uppercase; display: block; font-size: 1em; }
+
+.lessonContent span { color: black; font-size: 0.75em; }
+
 /*# sourceMappingURL=courses.css.map */
