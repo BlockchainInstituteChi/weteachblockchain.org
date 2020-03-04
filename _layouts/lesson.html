@@ -128,6 +128,16 @@
 
         }
       }
+      function toggleMenu () {
+        {% for course in site.courses %} 
+          {% if course.slug == page.course %}
+            var permalink = "{{ course.permalink }}";
+          {% endif %}
+        {% endfor %}
+
+        window.location.href = permalink
+
+      }
     </script>
   </head>
   <body>
@@ -154,7 +164,7 @@
           <a href="#" onclick="lastLesson()">Back</a>
         </div>
         <div class="col-sm-4">
-          <a onclick="toggleMenu">Lessons</a>
+          <a href="#" onclick="toggleMenu()">Lessons</a>
         </div>
         <div class="col-sm-4">
           <a href="#"  onclick="nextLesson()">Next</a>
