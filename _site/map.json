@@ -1,0 +1,201 @@
+{
+    "courses" : [
+        
+            {
+                "title: : "Bitcoin for Developers",
+                "link" : "/courses/bitcoin-for-developers/"
+            },
+        
+            {
+                "title: : "Blockchain for Business",
+                "link" : "/courses/blockchain-for-business/"
+            },
+        
+            {
+                "title: : "Blockchain Security",
+                "link" : "/courses/blockchain-security/"
+            },
+        
+            {
+                "title: : "Blockchain 101",
+                "link" : "/courses/blockchain-101/"
+            },
+        
+            {
+                "title: : "Decentralized Storage",
+                "link" : "/courses/decentralized-storage/"
+            },
+        
+            {
+                "title: : "Ethereum 101 Blockchain Beyond Bitcoin",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+            },
+        
+            {
+                "title: : "Intro to Private Blockchains",
+                "link" : "/courses/hyperledger/"
+            },
+        
+            {
+                "title: : "Intro to IPFS",
+                "link" : "/courses/ipfs/"
+            },
+        
+    ],
+    
+    
+        "404-html": {
+            "title": "",
+            "url": "/404.html.html",
+            "summary": "404Page not found! :("
+        }
+        ,
+    
+        "crypto-curious-thank-you": {
+            "title": "Thank you for registering!",
+            "url": "/crypto-curious/thank-you/.html",
+            "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
+        }
+        ,
+    
+        "assets-css-ccc-css": {
+            "title": "",
+            "url": "/assets/css/ccc.css.html",
+            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
+        }
+        ,
+    
+        "courses": {
+            "title": "Courses",
+            "url": "/courses/.html",
+            "summary": "Course Catalog The Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, professional, or entirely new, we're here to help! All of our courses are 100% FREE and no registration is required. The best time to start is now. Learn Blockchain Free Today!..."
+        }
+        ,
+    
+        "assets-css-courses-css": {
+            "title": "",
+            "url": "/assets/css/courses.css.html",
+            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
+        }
+        ,
+    
+        "crypto-curious": {
+            "title": "Crypto Curious? Try our FREE Course!",
+            "url": "/crypto-curious/.html",
+            "summary": "Learn More RSVP Now Carefully Curated We Learned the hard way so you don't have to. Let us help you get from curious to competent the easy way! Our Expert Instructors will teach you How to buy and use cryptocurrency What makes Bitcoin different from traditional money How to safely..."
+        }
+        ,
+    
+        "developer-toolkit-thank-you": {
+            "title": "Thank you for registering!",
+            "url": "/developer-toolkit/thank-you/.html",
+            "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
+        }
+        ,
+    
+        "assets-css-dev-css": {
+            "title": "",
+            "url": "/assets/css/dev.css.html",
+            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
+        }
+        ,
+    
+        "developer-toolkit": {
+            "title": "Blockchain Developer Toolkit | Upgrade your skills today!",
+            "url": "/developer-toolkit/.html",
+            "summary": "Learn More RSVP Now Learn to BuildFreedom Are you confident enough in your skills as a developer to set up a web store that takes cryptocurrency and uses blockchain based supply chain? By the end of our Dev Bootcamp you will be! After completing all 5 workshops you will have..."
+        }
+        ,
+    
+        "events": {
+            "title": "Events",
+            "url": "/events/.html",
+            "summary": "Events While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped..."
+        }
+        ,
+    
+        "assets-css-events-css": {
+            "title": "",
+            "url": "/assets/css/events.css.html",
+            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
+        }
+        ,
+    
+        "thank-you": {
+            "title": "Thank you for registering!",
+            "url": "/thank-you/.html",
+            "summary": "	  	  	  Thank You for Registering!	  	  We'll be in touch soon! In the meantime, please check out our upcoming events!		      See Events	  "
+        }
+        ,
+    
+        "assets-css-homepage-css": {
+            "title": "",
+            "url": "/assets/css/homepage.css.html",
+            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
+        }
+        ,
+    
+        "": {
+            "title": "Home",
+            "url": "/.html",
+            "summary": "Who we are The Blockchain Institute is a 501(c)(3) public charity that provides blockchain education for everyone that wants to learn. We promote the adoption, development, and use of blockchain technology. We think education is the best way forward and invite you to join us as we build the web..."
+        }
+        ,
+    
+        "map-json": {
+            "title": "",
+            "url": "/map.json.html",
+            "summary": "{ &quot;courses&quot; : [ {% for course in site.courses %} { &quot;title: : &quot;{{ course.title }}&quot;, &quot;link&quot; : &quot;{{ course.permalink }}&quot; }, {% endfor %} ], {% for entry in site.posts %} &quot;{{ entry.url | slugify }}&quot;: { &quot;title&quot;: &quot;{{ entry.title | xml_escape }}&quot;, &quot;url&quot;: &quot;{{ entry.url | xml_escape }}&quot;,..."
+        }
+        ,
+    
+        "assets-css-styles-css": {
+            "title": "",
+            "url": "/assets/css/styles.css.html",
+            "summary": "@import &quot;main&quot;;"
+        }
+        ,
+    
+        "assets-css-thank-you-css": {
+            "title": "",
+            "url": "/assets/css/thank-you.css.html",
+            "summary": "@import &quot;main&quot;;@import &quot;tyElements&quot;;@import &quot;tyResponsive&quot;;"
+        }
+        ,
+    
+        "assets-css-ccc-css-map": {
+            "title": "",
+            "url": "/assets/css/ccc.css.map.html",
+            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;ccc.css&quot;, &quot;sources&quot;: [ &quot;ccc.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
+        }
+        ,
+    
+        "assets-css-courses-css-map": {
+            "title": "",
+            "url": "/assets/css/courses.css.map.html",
+            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;courses.css&quot;, &quot;sources&quot;: [ &quot;courses.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
+        }
+        ,
+    
+        "assets-css-dev-css-map": {
+            "title": "",
+            "url": "/assets/css/dev.css.map.html",
+            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;dev.css&quot;, &quot;sources&quot;: [ &quot;dev.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
+        }
+        ,
+    
+        "assets-css-events-css-map": {
+            "title": "",
+            "url": "/assets/css/events.css.map.html",
+            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;events.css&quot;, &quot;sources&quot;: [ &quot;events.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
+        }
+        ,
+    
+        "assets-css-homepage-css-map": {
+            "title": "",
+            "url": "/assets/css/homepage.css.map.html",
+            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;homepage.css&quot;, &quot;sources&quot;: [ &quot;homepage.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
+        }
+        
+    
+}
