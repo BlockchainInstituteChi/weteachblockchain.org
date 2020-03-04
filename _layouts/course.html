@@ -76,42 +76,50 @@
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-    <section class="headerImage">
-      <img src="/assets/img/{{ page.image }}">
+    <section class="pageHeaderImage" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
     </section>
-    <div class="row container">
-      <div class="col-md-8 courseMain">
+
+    <section class="breadcrumbs">
+      <div class="row">
+          <a href="/">Home</a>/<a href="/courses/">Courses</a>/<a href="#">{{page.title}}</a>
+      </div>
+    </section>
+    
+    <section class="courseOverview">
+      <div class="row">
         <h1>{{ page.title }}</h1>
         <span class="author">{{ page.author }}</span>
         <span class="summary">{{ page.summary }}</span>
-        <div class="courseBody">    
-        <section>
-          {% for module in site.modules %}
-              {% if module.course == page.slug %}
-                <div class="moduleInfo">
-                  <h2>{{module.title}}</h2>
-                  <span>{{ module.summary }}</span>
-                  <div class="moduleChildren">
-                    {% for lesson in site.lessons %}
-                      {% if lesson.course == page.slug %}
-                        {% if lesson.module == module.number %}
-                          <div class="lessonListing"> 
-                              <a target="_blank" href="{{ lesson.permalink }}">
-                                  <h3>{{ lesson.title }}</h3>
-                              </a>
-                          </div>
-                        {% endif %}
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-                </div>
-              {% endif %}
-          {% endfor %}
-          
-          </section>
-        </div>
-      </div>
+        <span class="disclaimer">We’re here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org – we’d love to hear from you!</span>
+      </div>  
     </div>
+    
+    <section class="courseSections">
+      <div class="row">
+        {% for module in site.modules %}
+            {% if module.course == page.slug %}
+              <div class="moduleInfo">
+                <h2>{{module.title}}</h2>
+                <span>{{ module.summary }}</span>
+                <div class="moduleChildren">
+                  {% for lesson in site.lessons %}
+                    {% if lesson.course == page.slug %}
+                      {% if lesson.module == module.number %}
+                        <div class="lessonListing"> 
+                            <a target="_blank" href="{{ lesson.permalink }}">
+                                <h3>{{ lesson.title }}</h3>
+                            </a>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    
     {% include footer.html %}
     <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
     <script

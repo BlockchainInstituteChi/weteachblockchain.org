@@ -76,32 +76,43 @@
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-    <section class="eventsHeaderImage" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
+    <section class="pageHeaderImage" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
     </section>
-    <div class="row container">
-      <div class="col-md-8 eventMain">
-        <h1>{{ page.title }}</h1>
-        <span class="eventDate">{{ page.eventdate }}</span>
-        <div class="eventBody">
-          {{ content }}
+
+    <section class="breadcrumbs">
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="/">Home</a>/<a href="/events/">Events</a>/<a href="#">{{page.title}}</a>
         </div>
       </div>
-
-      <div class="col-md-4 eventSidebar">
-        {% assign sorted = site.events | sort: 'date' | reverse %}
-        {% for event in sorted limit:3 %}
-
-            <div class="eventTile column"> 
-              <a target="_blank" href="{{ event.permalink }}">
-                <img src="/assets/img/{{event.image}}"/>
-                    <h1>{{ event.title }}</h1>
-                    <span>{{ event.eventdate }}</span>
-                </a>
-              </div>
-
-        {% endfor %}
+    </section>
+    <section class="eventOverview">
+      <div class="row container">
+        <div class="col-md-8 eventMain">
+          <h1>{{ page.title }}</h1>
+          <span class="eventDate">{{ page.eventdate }}</span>
+          <div class="eventBody">
+            {{ content }}
+          </div>
+        </div>
+  
+        <div class="col-md-4 eventSidebar">
+          {% assign sorted = site.events | sort: 'date' | reverse %}
+          {% for event in sorted limit:3 %}
+  
+              <div class="eventTile column"> 
+                <a target="_blank" href="{{ event.permalink }}">
+                  <img src="/assets/img/{{event.image}}"/>
+                      <h1>{{ event.title }}</h1>
+                      <span>{{ event.eventdate }}</span>
+                  </a>
+                </div>
+  
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    </section>
+    
     {% include footer.html %}
     <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
     <script
