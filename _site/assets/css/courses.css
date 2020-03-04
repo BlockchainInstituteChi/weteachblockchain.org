@@ -3395,6 +3395,9 @@ section.courseHeader { background: url(/assets/img/lesson-header-banner.png); ba
 
 .courseHeader h1 { color: white; text-transform: uppercase; font-size: 2.5em; margin-left: 0.15em; padding-bottom: 0.5em; }
 
+/* Lesson Nav */
+section.lessonNav, section.lessonNav a { text-align: center; text-transform: uppercase; color: black; }
+
 /* Content Element Styles */
 .lessonContent iframe { width: 100%; margin: auto; }
 
