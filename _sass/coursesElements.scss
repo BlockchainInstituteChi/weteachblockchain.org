@@ -146,6 +146,13 @@ section.courseHeader {
     padding-bottom: 0.5em;
 }
 
+/* Lesson Nav */
+section.lessonNav, section.lessonNav a {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
 /* Content Element Styles */
 .lessonContent iframe {
     width: 100%;

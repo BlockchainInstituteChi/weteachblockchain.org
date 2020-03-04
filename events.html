@@ -21,36 +21,40 @@ permalink: /events/
 	<p>The Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;</p>
 </section>
 <section class="eventsList upcoming">
-
 	<h1 class="hasColorTag red">Upcoming Events</h1>
+	<div class="row">
 
-	{% assign sorted = site.events | sort: 'date' | reverse %}
-	{% for event in sorted %}
-
-		{% if event.date > site.time  %}
-			<div class="eventTile"> 
-				<a target="_blank" href="{{ event.permalink }}">
-					<img src="/assets/img/{{event.image}}"/>
-			        <h1>{{ event.title }}</h1>
-			        <span>{{ event.eventdate }}</span>
-			    </a>
-		    </div>
-		{% endif %}
-	{% endfor %}
+		{% assign sorted = site.events | sort: 'date' | reverse %}
+		{% for event in sorted %}
+	
+			{% if event.date > site.time  %}
+				<div class="eventTile"> 
+					<a target="_blank" href="{{ event.permalink }}">
+						<img src="/assets/img/{{event.image}}"/>
+						<h1>{{ event.title }}</h1>
+						<span>{{ event.eventdate }}</span>
+					</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	
 </section>
 
 <section class="eventsList past">
-
 	<h1 class="hasColorTag teal">Past Events</h1>
-	{% for event in sorted %}
-		{% if event.date < site.time  %}
-			<div class="eventTile"> 
-				<a target="_blank" href="{{ event.permalink }}">
-					<img src="/assets/img/{{event.image}}"/>
-			        <h1>{{ event.title }}</h1>
-			        <span>{{ event.eventdate }}</span>
-			    </a>
-		    </div>
-		{% endif %}
-	{% endfor %}
+	<div class="row">
+		{% for event in sorted %}
+			{% if event.date < site.time  %}
+				<div class="eventTile"> 
+					<a target="_blank" href="{{ event.permalink }}">
+						<img src="/assets/img/{{event.image}}"/>
+						<h1>{{ event.title }}</h1>
+						<span>{{ event.eventdate }}</span>
+					</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+	
 </section>
