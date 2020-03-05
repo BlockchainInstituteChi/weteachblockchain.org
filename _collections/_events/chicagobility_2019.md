@@ -3,11 +3,12 @@ title: Chicagobility 2019
 layout: event
 image: IMG_5984.jpg
 date: 2019-07-15
-eventdate: July 15th, 2019
+eventdate: Monday, July 15th, 2019
 permalink: /events/chicagobility_2019/
 ---
-<span style="font-weight: 400;">The Family Matters nonprofit, working in partnership with the City of Chicago and their Chicagobility program arranges a summer program to teach and inspire teens between the ages of 14-16 with educational programming.
-</span>
+<h2>Details</h2>
+The Family Matters nonprofit, working in partnership with the City of Chicago and their Chicagobility program arranges a summer program to teach and inspire teens between the ages of 14-16 with educational programming.
+
 
 This year, during their technology week, Managing Director Hannah Rosenberg stopped by to teach attendees about the basics of blockchain technology. Hannah and Blockchain Institute were happy for the opportunity to provide an introduction to blockchain to such a young audience.
 
