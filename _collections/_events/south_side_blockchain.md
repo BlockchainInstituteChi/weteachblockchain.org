@@ -19,4 +19,3 @@ Crypto Zombies is a web app that creates a guided path for users to learn Solidi
 
 Crypto Zombies Demo in Action!
 
-[ic_add_posts category="events" showposts="3" exclude_ids="122" template="event_preview.php"]
