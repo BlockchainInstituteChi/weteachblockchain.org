@@ -4,7 +4,7 @@ layout: event
 image: BTC2019.png
 date: 2019-09-28
 eventdate: Wednesday August 28, 2019
-permalink: /events/blockchain_training_conference_2019_190828
+permalink: /events/blockchain_training_conference_2019
 ---
 <h1><b>Blockchain Training Conference 2019</b></h1>
 <i>August 28th-30th, 2019</i>
