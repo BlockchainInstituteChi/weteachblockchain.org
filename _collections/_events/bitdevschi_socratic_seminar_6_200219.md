@@ -3,12 +3,9 @@ title: BITDEVS CHI – Socratic Seminar 6
 layout: event
 image: bitdevschithumb.jpeg
 date: 2020-02-19
-eventdate: February 19th, 2020
+eventdate: Wednesday, February 19th, 2020 (7:00 pm – 9:00 pm)
 permalink: /events/bitdevschi_socratic_seminar_6_200219
 ---
-
-<i>Wednesday, February 19, 2020 (7:00 pm – 9:00 pm)</i>
-
 <h2>Details</h2>
 BitDevs Chicago is a consensus compatible fork of BitDevs NYC. They discuss Bitcoin protocol developments, computer security related to cryptocurrency, and other relevant topics in the cryptocurrency ecosystem.
 
