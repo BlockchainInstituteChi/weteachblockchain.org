@@ -9,7 +9,7 @@ permalink: /events/hyperledger_2020_kickoff
 <i>5:30 PM – 7:30 PM</i>
 <br>
 <h2>Details</h2>
-<br>
+
 Nvisia in partnership with the Chicago Blockchain Center and hosted at the new Blockchain Institute are pleased to present the first Hyperledger meetup of 2020 in Chicago.
 
 Join us for food, drinks, and a panel discussion focused on Hyperledger use cases and applications.
