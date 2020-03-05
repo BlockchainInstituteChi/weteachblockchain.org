@@ -3,12 +3,10 @@ title: Voice of Blockchain 2019
 layout: event
 image: vobthumb.jpeg
 date: 2019-09-30
-eventdate: Monday September 30, 2019
+eventdate: Monday, September 30, 2019
 permalink: /events/voiceofblockchain2019
 ---
-<h1><b>Voice of Blockchain 2019</b></h1>
-<i>September 30th - October 1, 2019</i>
-
+<h2>Details</h2>
 The Annual Voice of Blockchain conference in Chicago brings together decentralized ledger professionals from across America and around the world. This years' topics include sovereign identity and digital privacy among others.
 
 Our Executive Director, Taylor Gerring, presented a rousing keynote discussing the future of the internet and self-sovereign communication.
@@ -26,5 +24,3 @@ And finally, our content lead, Jeremy Cogan, provided some insight into technolo
 For all the event photos, please check out our photo archive here: <a style="background-color: #ffffff;" href="https://theblockchaininstitute.org/voice-of-blockchain-2019-photo-archive/">https://theblockchaininstitute.org/voice-of-blockchain-2019-photo-archive/</a>
 
 For tickets and more information visit <a style="background-color: #ffffff;" href="https://voiceofblockchain.com/">voiceofblockchain.com</a>.
-
-<span style="font-weight: 400;"> </span>
