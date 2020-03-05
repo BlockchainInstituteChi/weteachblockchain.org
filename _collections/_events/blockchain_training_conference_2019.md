@@ -3,12 +3,10 @@ title: Blockchain Training Conference 2019
 layout: event
 image: BTC2019.png
 date: 2019-09-28
-eventdate: Wednesday August 28, 2019
+eventdate: Wednesday, August 28, 2019
 permalink: /events/blockchain_training_conference_2019
 ---
-<h1><b>Blockchain Training Conference 2019</b></h1>
-<i>August 28th-30th, 2019</i>
-
+<h2>Details</h2>
 In August, The Blockchain Institute's Managing Director, Hannah Rosenberg, taught a session at the <a href="https://blockchaintraining.org/home/home/" target="_blank" rel="noopener">Blockchain Training Conference</a> in Denver.
 
 Organized by C4 (CryptoCurrency Certification Consortium) and aantonop Events, BTC2019 is an educational conference designed with learning objectives in mind and teachers that care about what you take away from their sessions.
