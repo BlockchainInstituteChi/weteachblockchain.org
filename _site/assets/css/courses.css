@@ -3251,6 +3251,8 @@ span.cancelSearchButton { color: white; font-size: 3em; position: absolute; righ
 
 .searchInterface input { width: 100%; border-radius: 0.25em; padding: 0.5em; }
 
+div#searchResults { max-height: 50vh; overflow: scroll; }
+
 /* Lightbox */
 .lightbox { position: absolute; width: 100vw; height: 100vh; background: #252424d9; left: 0; top: 0; z-index: 1000; }
 

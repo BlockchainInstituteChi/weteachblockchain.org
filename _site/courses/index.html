@@ -136,7 +136,7 @@
 <div id="searchLightbox" class="lightbox d-none">
   <span class="cancelSearchButton" onclick="toggleDisplaySearchLightbox()">×</span>
   <div class="searchInterface">
-    <input type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults()">
+    <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults()">
     <div id="searchResults" class="searchResults">
       
     </div>
@@ -489,6 +489,7 @@
     crossorigin="anonymous"></script>
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
     <script src="/assets/js/search.js" type="text/javascript"></script>
   </body>
 </html>

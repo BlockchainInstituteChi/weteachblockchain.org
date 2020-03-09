@@ -155,6 +155,10 @@ span.cancelSearchButton {
     border-radius: 0.25em;
     padding: 0.5em;
 }
+div#searchResults {
+    max-height: 50vh;
+    overflow: scroll;
+}
 
 /* Lightbox */
 .lightbox {

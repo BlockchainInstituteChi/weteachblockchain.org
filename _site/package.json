@@ -23,6 +23,7 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "js-search": "^1.4.3",
     "popper.js": "^1.16.0"
   }
 }
