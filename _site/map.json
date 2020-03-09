@@ -1,201 +1,957 @@
 {
     "courses" : [
-        
             {
                 "title: : "Bitcoin for Developers",
-                "link" : "/courses/bitcoin-for-developers/"
+                "link" : "/courses/bitcoin-for-developers/",
+                "summary": "This course is designed to give developers the tools they need to understand how Bitcoin transactions work, how wallets work, Bitcoin scripting and how to integrate Bitcoin payments into existing platforms."
             },
         
             {
                 "title: : "Blockchain for Business",
-                "link" : "/courses/blockchain-for-business/"
+                "link" : "/courses/blockchain-for-business/",
+                "summary": "In Blockchain 101, we discussed how blockchains offer an open, inclusive option that anyone can utilize just by running software on their computers. However, the benefits offered by blockchains have caught the eyes of private organizations. Decentralization, immutability and partial transparency all suit the needs of private organization. However, exposing proprietary information by utilizing a public blockchain is not an option for these organizations. In this course, we’ll explore how blockchain protocols affect businesses. Additionally, we’ll explore how businesses can utilize the blockchain to solve today and tomorrow’s problems."
             },
         
             {
                 "title: : "Blockchain Security",
-                "link" : "/courses/blockchain-security/"
+                "link" : "/courses/blockchain-security/",
+                "summary": "One of the primary reasons blockchain systems have received widespread attention has been their ability to provide secure networks without trusting a central entity. Despite this, there are some limitations of the blockchain approach, and understanding them is key to properly deploying new products and solutions."
             },
         
             {
                 "title: : "Blockchain 101",
-                "link" : "/courses/blockchain-101/"
+                "link" : "/courses/blockchain-101/",
+                "summary": "Bitcoin, cryptocurrency, and blockchain are all technologies that are increasingly in the public eye. This trend began just over a decade ago with a conceptual paper by Satoshi Nakamoto, an unidentified person (or group of people) who sought to develop a process that would prevent a repeat of the 2008-2009 global economic catastrophe. Since then, blockchain technology has emerged as an important technological implementation for individuals, governments and corporations alike. The goal of this course is to familiarize students with the unique characteristics of the blockchain and its many iterations and applications, from Bitcoin to smart contracts, decentralized networks, and consensus mechanisms."
             },
         
             {
                 "title: : "Decentralized Storage",
-                "link" : "/courses/decentralized-storage/"
+                "link" : "/courses/decentralized-storage/",
+                "summary": "Decentralized Storage offers compelling features for the health & future of the internet! Along with increased resilience from censorship, peer-to-peer protocols become faster as the number of users grows. Conversely, a bottleneck is often created with centralized servers as more users are added. What does this mean for the Decentralized Web? This course will familiarize you with the basics of decentralized storage."
             },
         
             {
                 "title: : "Ethereum 101 Blockchain Beyond Bitcoin",
-                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/",
+                "summary": "In 2008, Satoshi Nakomoto triggered a revolution in financial sovereignty with the proposal of the Bitcoin distributed ledger. In the years that followed, developers around the world proposed adaptations of this design and expanded the idea we now call blockchain.<br>In 2015, a 19-year-old named Vitalik Buterin proposed that in addition to the value transfer functionality, the blockchain could be used to coordinate computers around the world and create a single global computer. In this course, we’ll explore how the concept of a blockchain has evolved, and help you get familiar with the terminology and concepts of decentralized computing with Ethereum as an example.<br>This course covers the evolution of distributed ledger technology from Bitcoin to Blockchain. If you haven't yet, you may want to explore our Blockchain Center or Blockchain 101 to get up to speed on the vocabulary. Most of the topics we'll cover will not require technical knowledge, but it will help to have a clear understanding of the keywords and how different concepts relate to each other."
             },
         
             {
                 "title: : "Intro to Private Blockchains",
-                "link" : "/courses/hyperledger/"
+                "link" : "/courses/hyperledger/",
+                "summary": "Welcome to our Hyperledger Introduction course! If you’re new to blockchain technology, you may want to check out our blockchain fundamentals course before getting started.<br>If you’re already familiar with blockchain terminology, this course will teach you about how blockchains can be applied in a private ecosystem. We’ll explore the benefits of private blockchains, and how Hyperledger combines the benefits of distributed ledgers with the predictability of enterprise software.<br>We’re here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org – we’d love to hear from you!"
             },
         
             {
                 "title: : "Intro to IPFS",
+                "link" : "/courses/ipfs/",
+                "summary": "In 2017, the Interplanetary File System proposed a new way of sharing media over the internet. Instead of centralized servers, IPFS uses a peer to peer network to host files. With the Filecoin test network scheduled for launch in 2019, now is the perfect time to brush up on this technology. In this module, we’ll explore the basics of this new protocol as it compares to traditional options."
+            },
+        ], 
+    "modules" : [
+            {
+                "title: : "Why and How?",
+                "summary": "Where did Bitcoin come from? Why was Bitcoin created? What exactly does a blockchain do? What is mining? This section aims to answer these questions for you.",
+                "image" : "BitcoinforDevs.png",
+                "link" : "/courses/bitcoin-for-developers/"
+                
+            },
+            {
+                "title: : "Crypto Basics",
+                "summary": "To really understand a system like Bitcoin in its entirety, you’ll need to have a basic understand of decentralization and cryptography. In this section we’ll cover the foundational pieces of bitcoin.",
+                "image" : "BitcoinforDevs.png",
+                "link" : "/courses/bitcoin-for-developers/"
+                
+            },
+            {
+                "title: : "The Specifics",
+                "summary": "In this section we finally get into the specifics. When you've finished with this section you will hopfully understand what a node does, what a bitcoin really is and how they are stored in wallets. This will get us nice and prepped for Part II of this course.",
+                "image" : "BitcoinforDevs.png",
+                "link" : "/courses/bitcoin-for-developers/"
+                
+            },
+            {
+                "title: : "Technical Overview",
+                "summary": "Before we dive into the details of security, we'll review the various blockchains available as platforms for development, and how they differ.",
+                "image" : "BC-Security-01.png",
+                "link" : "/courses/blockchain-security/"
+                
+            },
+            {
+                "title: : "Managing Your Keys",
+                "summary": "",
+                "image" : "BC-Security-01.png",
+                "link" : "/courses/blockchain-security/"
+                
+            },
+            {
+                "title: : "Attack Vectors and Prevention",
+                "summary": "For each of the limits of a system, there are a number of ways that a malicious party might exploit them for personal gain. In this module, we'll review the various attacks and provide some suggestions as to how they can be mitigated.",
+                "image" : "BC-Security-01.png",
+                "link" : "/courses/blockchain-security/"
+                
+            },
+            {
+                "title: : "Introduction to the Blockchain",
+                "summary": "Blockchain Technology didn't just pop up overnight. How did we get here?",
+                "image" : "BC101-01.png",
+                "link" : "/courses/blockchain-101/"
+                
+            },
+            {
+                "title: : "Decentralization and Mining",
+                "summary": "",
+                "image" : "BC101-01.png",
+                "link" : "/courses/blockchain-101/"
+                
+            },
+            {
+                "title: : "Blockchain Use Cases",
+                "summary": "",
+                "image" : "BC101-01.png",
+                "link" : "/courses/blockchain-101/"
+                
+            },
+            {
+                "title: : "Blockchain Protocols and Business",
+                "summary": "Now that you understand the basics of blockchain technology, we can now explore how they apply to current business practices. This module explores how the rules of the blockchain can be suited for several industries.",
+                "image" : "BlockchainforBusiness.png",
+                "link" : "/courses/blockchain-for-business/"
+                
+            },
+            {
+                "title: : "Business on the Blockchain",
+                "summary": "Blockchain technology has the potential to provide solutions to various problems businesses routinely encounter. Industries such as finance, banking, and accounting have already started to research the possible applications of this technology, and many have already moved to testing their own private blockchains.",
+                "image" : "BlockchainforBusiness.png",
+                "link" : "/courses/blockchain-for-business/"
+                
+            },
+            {
+                "title: : "Future Business Applications",
+                "summary": "There are already many projects that have moved past the test phase and are already moving towards incorporating blockchain technology. In this module, we’ll take a look at how blockchains are being put into use today.",
+                "image" : "BlockchainforBusiness.png",
+                "link" : "/courses/blockchain-for-business/"
+                
+            },
+            {
+                "title: : "Introduction",
+                "summary": "This technology didn’t just pop up overnight! In this section we’ll cover the background of decentralized storage from torrents until now, and go through some basics terminology to get you up to speed.",
+                "image" : "DecentralizedStorage.png",
+                "link" : "/courses/decentralized-storage/"
+                
+            },
+            {
+                "title: : "Applications",
+                "summary": "While Decentralized Storage is a catchy buzz word, it's important to understand where this new technology can be used, and where it should not.",
+                "image" : "DecentralizedStorage.png",
+                "link" : "/courses/decentralized-storage/"
+                
+            },
+            {
+                "title: : "State of the Industry",
+                "summary": "IPFS is just the beginning - in this module we'll catch you up on the developments currently affecting the space, and cover the various cryptocurrencies and tokens that have proposed incentive models for peer to peer storage.",
+                "image" : "DecentralizedStorage.png",
+                "link" : "/courses/decentralized-storage/"
+                
+            },
+            {
+                "title: : "From Bitcoin to Blockchain",
+                "summary": "",
+                "image" : "EthereumGrowth-1.jpg",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+                
+            },
+            {
+                "title: : "Applications of Decentralized Computing",
+                "summary": "",
+                "image" : "EthereumGrowth-1.jpg",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+                
+            },
+            {
+                "title: : "Under the Hood",
+                "summary": "",
+                "image" : "EthereumGrowth-1.jpg",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+                
+            },
+            {
+                "title: : "Ethereum 2.0",
+                "summary": "",
+                "image" : "EthereumGrowth-1.jpg",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/"
+                
+            },
+            {
+                "title: : "Intro to Hyperledger",
+                "summary": "In this module, we'll explore where Hyperledger came from, and how it has evolved over time.",
+                "image" : "HyperLedger-01.png",
+                "link" : "/courses/hyperledger/"
+                
+            },
+            {
+                "title: : "Getting Started",
+                "summary": "The best way to understand how Hyperledger works is to set up your own node.",
+                "image" : "HyperLedger-01.png",
+                "link" : "/courses/hyperledger/"
+                
+            },
+            {
+                "title: : "Example - Hyperledger for Car Dealerships",
+                "summary": "It's not the size of your node that matters - it's how you use it.",
+                "image" : "HyperLedger-01.png",
+                "link" : "/courses/hyperledger/"
+                
+            },
+            {
+                "title: : "Introduction",
+                "summary": "This technology didn’t just pop up overnight! In this section we’ll cover the background of decentralized storage from torrents until now, and go through some basics terminology to get you up to speed.",
+                "image" : "IFPS-01.png",
                 "link" : "/courses/ipfs/"
+                
+            },
+            {
+                "title: : "Using IPFS Through the Browser",
+                "summary": "Visit try-ipfs.theblockchaininstitute.org to explore IPFS from your browser. No download required!",
+                "image" : "IFPS-01.png",
+                "link" : "/courses/ipfs/"
+                
+            },
+            {
+                "title: : "Using the IPFS Command Line",
+                "summary": "In this module, we cover how to set up your own IPFS node, and how to push and pull files from the network. We’ll also go over the addressing structure and get you caught up on the background of this technology.",
+                "image" : "IFPS-01.png",
+                "link" : "/courses/ipfs/"
+                
+            },
+            {
+                "title: : "State of the Industry",
+                "summary": "IPFS is just the beginning - in this module we'll catch you up on the developments currently affecting the space, and cover the various cryptocurrencies and tokens that have proposed incentive models for peer to peer storage.",
+                "image" : "IFPS-01.png",
+                "link" : "/courses/ipfs/"
+                
+            },],
+    "lessons" : [
+            {
+                "title: : "Prelude",
+                "summary" : "Welcome to Blockchain Institute’s Bitcoin for Developers series of courses. This series was created for experienced developers who are comfortable in a UNIX based command line and want to learn how to work with blockchain technology, specifically the Bitcoin Blockchain Network. If you are new to Bitcoin or haven’t already...",
+                "link" : "/courses/bitcoin-for-developers/1/prelude",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "A Bitcoin History Lesson",
+                "summary" : "This course was designed for developers with no prior blockchain experience, so we’ll start right at the beginning by answering the question, what problem was the first blockchain, Bitcoin, built to solve?The quick answer here is the Double-Spend Problem or the Byzantine Generals Problem, which we’ll discuss more below.We think...",
+                "link" : "/courses/bitcoin-for-developers/1/bitcoin-history-lesson",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Enter the Blockchain - Part I",
+                "summary" : "The Bitcoin blockchain was created to allow a network to coordinate and reach “consensus,” or agreement on shared data. Blockchains were created to solve the problem of how do users coordinate data with people, around the world, who they don’t know or trust?In this lesson and the next, we’ll walk...",
+                "link" : "/courses/bitcoin-for-developers/1/enter-the-blockchain-part-i",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Enter the Blockchain - Part II",
+                "summary" : "So let’s head back to our example where you are attempting a double spend on the Bitcoin network. You have broadcast two valid transactions for 1 BTC each, one to Alice and one to Bob in an attempt to spend the same bitcoin twice.Which transaction “wins” and becomes valid depends...",
+                "link" : "/courses/bitcoin-for-developers/1/enter-the-blockchain-part-ii/",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Asymmetric Cryptography",
+                "summary" : "Cryptocurrencies are called so because cryptography is the material they are built with. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.“Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private...",
+                "link" : "/courses/bitcoin-for-developers/2/asymmetric-cryptography",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Public and Private Keys",
+                "summary" : "Asymmetric cryptographic algorithms were first developed in the 1970s and are fundamental to so many of the technologies we use today. It’s used on any secured page on the internet, on your cell phone, at your bank, etc.The first asymmetric algorithms: Diffie–Hellman key exchange 1976 RSA (Rivest–Shamir–Adleman) 1978With asymmetric cryptography,...",
+                "link" : "/courses/bitcoin-for-developers/2/public-and-private-keys",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Decentralization and Consensus",
+                "summary" : "Bitcoin was built to enable decentralized agreement, or consensus, on data. Bitcoin’s Proof-of-Work, a mining consensus algorithm, was built to achieve this goal and maintaining this decentralization is fundamental to the systems structure and security model. However, this is a very different structure than most of us are used to...",
+                "link" : "/courses/bitcoin-for-developers/2/decentralization-consensus",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Governance",
+                "summary" : "So, we have a decentralized network, that no one entity can control. How do we make changes and upgrades to that network?How are changes made on a network that no one controls? This dilemma we call governance.While governance solutions have been built into some blockchain protocols, Bitcoin is fairly simple...",
+                "link" : "/courses/bitcoin-for-developers/2/governance",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Bitcoin Nodes",
+                "summary" : "Now that we’ve covered the history behind Bitcoin and have a theoretical understanding of how blockchains function, let’s see it in action.Thus far when we have said “node” we meant “full node”. As mentioned, full nodes keeps a complete copy of the Bitcoin blockchain and participates in network consensus by...",
+                "link" : "/courses/bitcoin-for-developers/3/bitcoin-nodes",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "What is a Bitcoin?",
+                "summary" : "We’ll dive into bitcoin wallets in the next few lessons, but, in order to understand what a wallet is doing, you need to understand what a bitcoin actually is.Have you read the Bitcoin whitepaper yet? If not you really should! Check it out here:https://bitcoin.org/bitcoin.pdf From the bitcoin whitepaper, “We define an...",
+                "link" : "/courses/bitcoin-for-developers/3/what-is-a-bitcoin",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Introduction to Wallets and Addresses",
+                "summary" : "«span class=”openingParagraph”&amp;gt;In bitcoin, a wallet is a bit of an abstract. The bitcoin protocol doesn’t contain the notion of wallets. This concept is created by user interfaces for user comfort.Wallets are built for two primary functions: They are a user interface for scanning the blockchain and checking the balance of...",
+                "link" : "/courses/bitcoin-for-developers/3/intro-to-wallets-and-addresses",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Wallet History and Mnemonic Seeds",
+                "summary" : "The following two lessons were written with the goal of providing a good foundation for building or working with Bitcoin wallets. As such we’ll cover a bit of history and then the current de facto standard for Bitcoin wallets which consists of four BIPS, 39, 32, 43 &amp;amp; 44.These BIP’s...",
+                "link" : "/courses/bitcoin-for-developers/3/wallet-history-mnemonic-seeds",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "HD Wallets",
+                "summary" : "The methods explained in BIP’s 32, 43 &amp;amp; 44 are best practice for Bitcoin wallets, and necessary for interoperability with other Bitcoin wallets. WHAT IS AN HD WALLET?There are two types of deterministic wallets, sequential and hierarchical. Here we’ll focus on the industry standard, hierarchical.Hierarchical deterministic wallets make managing a wallet...",
+                "link" : "/courses/bitcoin-for-developers/3/hd-wallets",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Conclusion",
+                "summary" : "YOU'VE COMPLETED PART ONE OF OUR BITCOIN FOR DEVELOPERS COURSE!This completes part I of our Bitcoin for Developers course! We hope that you now have a foundational understanding of the problems Bitcoin was built to solve, through to cryptography and decentralized network basics and on to what a bitcoin actually...",
+                "link" : "/courses/bitcoin-for-developers/3/conclusion",
+                        "image" : "BitcoinforDevs.png",
+            },
+            {
+                "title: : "Introduction to the Blockchain",
+                "summary" : "&amp;lt;div style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;/div&amp;gt;To understand the potential of blockchain technology, it’s helpful to understand the context of this wave of innovation by looking at the first blockchain, Bitcoin, and its first use-case, digital money.The concepts and ideas that would lead to blockchain and cryptocurrency date back to the early 1980s. The...",
+                "link" : "/courses/blockchain-101/01/introduction-to-the-blockchain",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "The Birth of Digital Money",
+                "summary" : "&amp;lt;div style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;/div&amp;gt;The creation of Bitcoin combined several technologies in order to solve problems that other digital currencies were not able to address.Ever hear of Error 402? It’s an HTTP error message for not enough funds or when payment is required, and it has been there since the inception of...",
+                "link" : "/courses/blockchain-101/01/the-birth-of-digital-money",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "The Enigma - Satoshi Nakamoto",
+                "summary" : "&amp;lt;div style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;/div&amp;gt;Despite Bitcoin’s open nature, we still know very little about its creator. Satoshi Nakamoto is the name used by the person or people that created Bitcoin and wrote the Bitcoin whitepaper. WHO IS SATOSHI NAKAMOTO?Who is the mysterious creator behind Bitcoin? We don’t know much more than the name,...",
+                "link" : "/courses/blockchain-101/01/the-enigma-satoshi-nakamoto",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "From Digital Currency to Cryptocurrency",
+                "summary" : "&amp;lt;div style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;/div&amp;gt;All the digital currencies that existed prior to Bitcoin had one feature in common, a central server or authority. While these systems worked, they had a serious drawback that was lamented by many in the digital currency community; they were centralized services.  This centralization ran counter to the...",
+                "link" : "/courses/blockchain-101/01/from-digital-currency-to-cryptocurrency",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "The Byzantine Generals Problem",
+                "summary" : "&amp;lt;div style=&quot;text-align: center;&quot;&amp;gt;&amp;lt;/div&amp;gt;The Byzantine Generals’ Problem is a classic problem faced by any distributed computer system network. It addresses the question of how a distributed computer network can reach a reliable consensus even when some of the nodes (computers) on the network may attempt to pass along fraudulent information. The...",
+                "link" : "/courses/blockchain-101/01/the-byzantine-generals-problem",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Properties of a Blockchain",
+                "summary" : "A blockchain is a decentralized ledger that records all transactions that are visible on a public network. Blockchain’s architecture allows these transactions to be autonomous and immutable while using cryptography and network architecture for security. Every transaction is permanently recorded to the blockchain and cannot be altered in any way.The...",
+                "link" : "/courses/blockchain-101/01/properties-of-a-blockchain",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Centralization vs Decentralization",
+                "summary" : "Decentralized networks give users much more control over the rules and maintenance of that network. Let’s explore how information is confirmed, or mined, and added to the blockchain. But first, we’ll examine the differences between centralized and decentralized networks.&amp;nbsp;WHAT IS CENTRALIZATION?In order to understand the goals and benefits of decentralized...",
+                "link" : "/courses/blockchain-101/02/centralization-vs-decentralization",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Peer-to-Peer Networks",
+                "summary" : "As discussed before, decentralized networks give users greater control over their information. This is largely achieved through peer-to-peer networks.Peer-to-peer networks, often shortened as P2P, offer an essential component to blockchains because the core values of the network design allow for decentralization. Rather than a typical client-server model in which individual...",
+                "link" : "/courses/blockchain-101/02/peer-to-peer-networks",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "How are Blockchains Secure?",
+                "summary" : "We’ve gone over the architecture of decentralized networks, but how do they stay secure? This is a much more difficult problem than addressing the security concerns of a client-server model, as only one server has to be secure. Decentralized networks have to get more creative in order to maintain security,...",
+                "link" : "/courses/blockchain-101/02/how-are-blockchains-secure",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Asymmetric Encryption",
+                "summary" : "We’ve gone over the security features of blockchains, but let’s look at security on an individual level. What aspects of blockchains ensure personal security?Asymmetric encryption is a cryptographic system that uses both public keys and private keys. Public-key encryption is when a message is encrypted with a recipient’s public key....",
+                "link" : "/courses/blockchain-101/02/asymmetric-encryption",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Blockchains vs Cryptocurrency",
+                "summary" : " WHAT IS THE DIFFERENCE BETWEEN BLOCKCHAIN AND CRYPTOCURRENCY?The blockchain is the technology that serves as the distributed ledger that forms the network. This network creates a means for transacting and enables the transfer of value and information. A blockchain is a platform which allows cryptocurrencies to exist. Cryptocurrencies are coins...",
+                "link" : "/courses/blockchain-101/02/blockchains-vs-cryptocurrency",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "What is Cryptocurrency Mining?",
+                "summary" : "Now that we know a little bit about the structure of a blockchain and its components, we can explore how a blockchain is managed and maintained. How is data checked for reliability and then put into blocks? What keeps the network running? The answer to these questions is a process...",
+                "link" : "/courses/blockchain-101/02/what-is-cryptocurrency-mining",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "51% Attacks",
+                "summary" : "While double spending and the Byzantine Generals’ problem were addressed in order to make blockchain technology viable, there is still a potential vulnerability in blockchains. The most widely cited example is what is known as a 51% attack. To understand this concept, let’s look at an example. Suppose there are...",
+                "link" : "/courses/blockchain-101/02/51-percent-attacks",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Blockchain in Action",
+                "summary" : "Blockchains are expected to be integrated into many different industries, potentially creating great disruption. In some cases, blockchain based projects are already making their way into development. There are many applicable use cases for blockchain technology, and more are being discussed, researched, and developed at an increasing rate! In this...",
+                "link" : "/courses/blockchain-101/03/blockchain-in-action",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "What is Ethereum?",
+                "summary" : "Bitcoin has seen success as it has settled as the most popular cryptocurrency. However, others believed they could implement blockchain technology to do more, possibly even to act as a “World Computer”. The Ethereum project was launched in 2015 with this explicit goal. They sought to create a decentralized network...",
+                "link" : "/courses/blockchain-101/03/what-is-ethereum",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Applications of Smart Contracts",
+                "summary" : " APPLICATIONS OF SMART CONTRACTS CryptoKitties A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could...",
+                "link" : "/courses/blockchain-101/03/application-of-smart-contracts",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Limitations of Blockchains",
+                "summary" : " THE SCALING PROBLEMWhile blockchains are a very intriguing technology, they still have their limitations. As blockchains are a relatively new technology, there is a lot of uncertainty surrounding them. Regulators have yet to clarify the status of cryptocurrencies and are just learning about blockchain technology. Additionally, blockchains have not reached...",
+                "link" : "/courses/blockchain-101/03/limitations-of-blockchains",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Conclusion",
+                "summary" : "YOU'VE COMPLETED OUR BLOCKCHAIN 101 COURSE!At this point, you are now proficient in basic blockchain knowledge and how its potential impacts. You have now learned about blockchains, decentralization, and the applications offered by the technology. Don’t stop now! Continue to learn by taking our Blockchain Security course or head to...",
+                "link" : "/courses/blockchain-101/03/conclusion",
+                        "image" : "BC101-01.png",
+            },
+            {
+                "title: : "Primer & Introduction",
+                "summary" : "Security is a large and complex topic that cannot be fully addressed in a single online course. What this aims to teach is some prevalent issues common to users and developers of decentralized systems. As there are many technologies involved in the use of blockchains, each with its own area...",
+                "link" : "/courses/blockchain-security/1/primer-introduction/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Protecting Digital Keys",
+                "summary" : "While blockchain technology originally emerged as a solution to provide distributed trust within the Bitcoin network, the technology has progressed a long way since 2008. While this new architecture has many advantages, the implementation of a blockchain-based system is complex and requires a thorough review to ensure appropriate security.Regardless of which...",
+                "link" : "/courses/blockchain-security/1/protecting-digital-keys/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Independence Is Essential",
+                "summary" : "KEY MANAGEMENTWith disintermediation comes reduced support and increased risks of personal compromise. In a public context, there is no backup plan or password reset. If you drop your wallet on the sidewalk, you lose your money. Similarly, if you don’t look after your house keys or private keys, it could...",
+                "link" : "/courses/blockchain-security/1/independence-is-essential/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Individual Account Compromise",
+                "summary" : "Generally, good password management and key management practices are fundamental to ensuring the security of digital assets.  Software review, careful audits, and change management should also be high priorities for any decentralized projects. Storing private keys in a publicly accessible place can introduce a crime of opportunity when not already...",
+                "link" : "/courses/blockchain-security/2/individual-account-compromise/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Cryptocurrency Wallets",
+                "summary" : "Cryptocurrency wallets is an essential concept to master for anyone interested in blockchains.Although the software we use to manage cryptocurrencies is called a “wallet”, no actual value is held in the wallet itself. Instead, it is a management interface for interacting with your private keys and blockchain networks. Because balances...",
+                "link" : "/courses/blockchain-security/2/cryptocurrency-wallets/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "HD Wallets & Seed Phrases",
+                "summary" : "The first thing to know about Hierarchical Deterministic (HD) Wallets &amp;amp; Seed Phrases is that they’re not a piece of software, but rather a specification for how cryptocurrency wallets can more reliably generate and store addresses from a single private key. In fact, hardware wallets predominantly are enabled by this...",
+                "link" : "/courses/blockchain-security/2/hd-wallets-seed-phrases/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Centralized Points of Failure",
+                "summary" : "Centralized points of failure represent salacious opportunities for would-be adversaries to attack.  Think about it this way: if you’re barricaded in a room and there is only a single way in and out of the room, where does it make the most sense for your enemy to attack? The single...",
+                "link" : "/courses/blockchain-security/3/centralized-points-of-failure/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "51% Attack / Network Hijack",
+                "summary" : "As we covered in the previous section, public blockchains depend on a network of nodes to maintain the system and store all of the pertinent data. In the event that a single actor is able to take control of more than 50% of the nodes, it is possible for them to...",
+                "link" : "/courses/blockchain-security/3/51-attack-network-hijack/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Bad Data & DoS",
+                "summary" : "In a public blockchain, even valid network congestion can cause issues.  In the Ethereum network, valid traffic requests from the Cryptokitties project in 2017 led to an overwhelming transaction volume, and ultimately over-congestion of the network for several days. Ethereum’s Gas pricing algorithm has the ability to adjust upwards to...",
+                "link" : "/courses/blockchain-security/3/bad-data-dos/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Keeping Yourself Secure",
+                "summary" : "IDENTIFYING FUTURE PROBLEMSCongrats, if you made it this far, you’re now well versed in basics of blockchain security! Now that you’re familiar with the most common issues, we wanted to provide a few tips for you to identify vulnerabilities as they evolve. In general, there are three categories of vulnerabilities:SocialAlso...",
+                "link" : "/courses/blockchain-security/3/keeping-yourself-secure/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Next Steps",
+                "summary" : "YOU'VE COMPLETED OUR BLOCKCHAIN SECURITY COURSE!Hopefully you’re now feeling prepared to use web3 safely. You may be interested in our Bitcoin For Developers course if you’re interesting in using cryptocurrencies or head to our courses page to see what else we have to offer.",
+                "link" : "/courses/blockchain-security/3/next-steps/",
+                        "image" : "BC-Security-01.png",
+            },
+            {
+                "title: : "Private vs Public Blockchains",
+                "summary" : "When the term blockchain is used, people are usually referencing public or open blockchains. These permissionless chains allow use by any participant. While the users are not identified in a public blockchain transaction, the information associated with each transaction is displayed transparently.Private blockchains do exactly the opposite. The parties are...",
+                "link" : "/courses/blockchain-for-business/1/public-vs-private-blockchains",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Governance and Forks",
+                "summary" : "While private blockchains can be designed or changed to suit the needs of a particular organization, public blockchains have a much more difficult time making changes because of their egalitarian decentralized networks.Decentralized systems are designed to bring power back to the people. This introduces a unique problem: How do decentralized...",
+                "link" : "/courses/blockchain-for-business/1/governance-and-forks",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Governance Experiments",
+                "summary" : "Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus mechanisms. However, they are not the only methods for getting nodes to verify and agree upon data. Other projects have experimented with rather unique ways of achieving consensus:DashA Proof-of-Work algorithm that is monitored by masternodes. Each Dash masternode requires...",
+                "link" : "/courses/blockchain-for-business/1/governance-experiments",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Scaling to Meet Demand",
+                "summary" : "Blockchains are a fairly new technology, with the first one, Bitcoin, debuting about a decade ago. The goal for early blockchains was clear: They were trying to prove themselves as a secure, decentralized monetary system. Bitcoin became a store of value, but by the design of having blocks created every...",
+                "link" : "/courses/blockchain-for-business/2/scaling-to-meet-demand",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Cryptocurrencies and Financial Markets",
+                "summary" : "While blockchains have shown promise, many have been attracted to the technology because of its first application, Bitcoin. It’s tough to ignore bitcoin’s increase in price over time, going from a matter of cents to thousands of dollars in less than a decade. The variations in price have led to...",
+                "link" : "/courses/blockchain-for-business/2/cryptocurrencies-and-financial-markets",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Buying, Selling, and Trading Cryptocurrency",
+                "summary" : "NOTE: THIS LESSON IS NOT INTENDED TO BE FINANCIAL ADVICE. RATHER, IT IS A GUIDE ON BUYING, SELLING, AND TRADING CRYPTOCURRENCY IF YOU DECIDE TO MAKE AN INVESTMENT.Getting into cryptocurrency may seem intimidating, but if you have the proper tools and knowledge, the process isn’t so difficult. Follow this guide...",
+                "link" : "/courses/blockchain-for-business/2/buying-selling-and-trading-cryptocurrency",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Blockchain, Government, and Regulation",
+                "summary" : "As blockchains have gained popularity, government use and oversight of blockchains have been a topic of interest for administrators on the local, state, and federal level. Many jurisdictions are also taking a proactive approach to studying the impact of blockchain technology.GOVERNMENT RESTRICTIONS ON MINING OPERATIONSThere have been attempts by a...",
+                "link" : "/courses/blockchain-for-business/2/blockchain-government-and-regulation",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "E-Commerce and Blockchain Technology",
+                "summary" : "While cryptocurrency has gained great popularity in recent years, we are still yet to see mass use of cryptocurrency for everyday payments. There are many reasons for cryptocurrency’s lack of adoption in commerce, including ease of use and the speculative aspect. However, the rise in popularity has led to more...",
+                "link" : "/courses/blockchain-for-business/3/ecommerce-and-blockchain-technology",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "The Supply Chain and Blockchain",
+                "summary" : "Every single transaction you’re a part of needs trust to be executed. You have to trust the vendor to deliver on your purchase. The vendor needs a guarantee that the buyer will pay. Trust is even being put in the currency used to make the purchase. But not every transaction...",
+                "link" : "/courses/blockchain-for-business/3/supply-chain-and-blockchain",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Data Privacy, Web3, and IoT",
+                "summary" : "The early internet was a wild place. Browser developers waged virtual “wars” to capture the most usage from users, both new and old. Back then, we were awe-inspired just by the idea of the “information superhighway”. There was just the web. Now we’re talking about web3. How did we get...",
+                "link" : "/courses/blockchain-for-business/3/data-privacy-web-3-and-iot",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Possible Barriers",
+                "summary" : "Blockchain technology has a lot of people excited. However, it is important to note that this technology is not a silver bullet solution for every problem plaguing businesses and consumers. There are significant hurdles that the technology must overcome for it to reach its original promises.AWARENESSWhile many have heard of...",
+                "link" : "/courses/blockchain-for-business/3/possible-barriers",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Conclusion",
+                "summary" : "YOU'VE COMPLETED OUR BLOCKCHAIN 101 COURSE!Congratulations, you’ve completed our Blockchain for Business course! At this point, you’ve learned about how blockchain protocols affect businesses, how businesses can effectively utilize blockchain technology, and the possible future business applications that blockchains may offer. Don’t stop now! Keep on learning by visiting our...",
+                "link" : "/courses/blockchain-for-business/3/conclusion",
+                        "image" : "BlockchainforBusiness.png",
+            },
+            {
+                "title: : "Decentralized Storage to the rescue!",
+                "summary" : "What happens if Google or Facebook decide to disable your account? How can you regain control over our account and data? What if a hacker decides that with everyone’s information stored on the same set of servers, it would be a valuable target to attack? As we move towards an...",
+                "link" : "/courses/decentralized-storage/1/decentralized-storage/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Digital Storage Background",
+                "summary" : "In the early days of computing, storage devices were coupled with processing units in single purpose systems. With the introduction of the internet and high-speed broadband, these two components are now commonly separated, often by hundreds of miles. As cloud services have grown, the notion of storage has shifted from...",
+                "link" : "/courses/decentralized-storage/1/background/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Conventional Protocols",
+                "summary" : "The primary system employed by storage providers in 2018 is used to bridge their network to more traditional HTTP(S) GET and POST requests. This allows, the client to read and store records in servers. While client-server connections have functioned relatively well until now, they suffer from some disadvantages that are...",
+                "link" : "/courses/decentralized-storage/1/conventional-protocols/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Technical Overview",
+                "summary" : "In this module, we’ll explore how IPFS stores files.For the sake of this course, we’ve mostly focused on IPFS since it’s easy to visualize what’s happening, but there are a number of players entering the decentralized storage space, and each of them has chosen to accomplish this goal in slightly...",
+                "link" : "/courses/decentralized-storage/2/technical_overview",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Limitations",
+                "summary" : "WHILE DECENTRALIZED STORAGE IS VERY APPEALING FOR MANY APPLICATIONS, IT’S IMPORTANT TO UNDERSTAND THAT LIKE ANY SYSTEM, IT CAN ONLY BE EXTENDED SO FAR.Public DataOnce a piece of information is uploaded to a public storage network, there’s no way to know who may have stored a copy and whether they...",
+                "link" : "/courses/decentralized-storage/2/limitations/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Advantages",
+                "summary" : "DESPITE THE LIMITATIONS DISCUSSED IN THE PREVIOUS LESSON, DECENTRALIZED STORAGE HAS POWERFUL BENEFITS WHEN DEPLOYED IN THE CORRECT SITUATIONS. Data PersistenceIt is difficult to delete data if a sufficient number of peers want to keep it. Once a file has been shared with the network, it only takes one node to...",
+                "link" : "/courses/decentralized-storage/2/advantages/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Use Cases",
+                "summary" : "When a new technology is proposed, it’s creators often claim it can solve a wide range of problems. In this lesson, we’ll explore the current scenarios where decentralized storage has been found to be advantageous. Storing Public BlockchainsWhile the community seems to generate new applications for decentralized storage daily, the...",
+                "link" : "/courses/decentralized-storage/2/use-cases/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Decentralization in the Browser",
+                "summary" : "Since it would be impractical to expect everyone to upgrade their software for decentralized storage such as IPFS right away, teams like those at Protocol Labs are developing different modules that allow the technology to run in nontraditional places. For example, any website to easily integrate peer-to-peer storage into their...",
+                "link" : "/courses/decentralized-storage/3/decentralization-in-the-browser/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Multiple Tokens & Projects",
+                "summary" : "LEADING PROJECTSMaidsafeMAIDSAFE stands for Massive Array of Internet Disks Secure Access For Everyone. And while it's not a blockchain, the MaidSafe project has been working on decentralized storage longer than anyone. Their system uses an entirely new protocol and they've been developing it for the better part of the last...",
+                "link" : "/courses/decentralized-storage/3/other-tokens/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Backbone of a New Web",
+                "summary" : "So what does this all mean? Will decentralized storage replace traditional providers like Dropbox? How might all of this impact the way we interact on the internet? WHERE WE STAND TODAYMost decentralized storage projects, are still in somewhat nascent stages, experimenting with a variety of data storage and economic protocols. Some...",
+                "link" : "/courses/decentralized-storage/3/backbone-of-a-new-web/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Next Steps",
+                "summary" : "YOU'VE COMPLETED OUR DECENTRALIZED STORAGE COURSE!You should now be ready to approach broader concepts of decentralized design. Don’t stop now! Continue to learn by taking our Blockchain Security course or head to our courses page to see what else we have to offer.If you’re interested in a more technical deep...",
+                "link" : "/courses/decentralized-storage/3/next-steps/",
+                        "image" : "DecentralizedStorage.png",
+            },
+            {
+                "title: : "Early Bitcoin Proposal",
+                "summary" : "It may come as a surprise to many, but the original Bitcoin Whitepaper&amp;lt;/a&amp;gt; published in 2008 never actually used the word blockchain. While the document mentions chains of blocks and other similar phrases, the modern concept of a decentralized ledger is a much more recent idea. The original Bitcoin Whitepaper...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-proposal",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Early Alternative Cryptocurrencies",
+                "summary" : "After Bitcoin officially launched in 2009, a number of other cryptocurrency projects launched similar concepts. Most used some variation on the Bitcoin code, usually with minor changes to the rules of the network. While their creators were usually outspoken software developers or enthusiasts within the online community, these new forms...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/1/early-alternative-cryptocurrencies",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Introducing Ethereum",
+                "summary" : "In 2013, a cryptocurrency researcher named Vitalik Buterin wrote a whitepaper proposing a wider conceptual version of the blockchain. Buterin labeled his concept as Ethereum, and suggested that it would provide greater utility by allowing block data to include executable code which peers could run for each other in a...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereum/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Smart Contracts",
+                "summary" : "One of the main benefits of the Ethereum blockchain is the addition of Smart Contracts. These allow code to be submitted to the State Transition, and to have their output added to the ledger. Contracts and accounts are identical during execution within the EVM, so a peer-to-peer payment is treated...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Fungible Tokens",
+                "summary" : "One thing which is important to understand about decentralized design patterns is that they are not ever constant. While many smart contracts follow the same formats, each is an independent object which can be configured in any way that suits its purpose. When we refer to Ethereum altcoins, we’re often...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Unique Ditial Assets",
+                "summary" : "While ERC-20 tokens serve well to support marketplaces and other situations where supply and demand controls are necessary, there are a range of other applications that are not well-served by interchangeable tokens. In particular, it is very useful to have unique tokens which are indivisible. As an example, consider a...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/2/unique-ditial-assets/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Accountable Design",
+                "summary" : "The most important purpose of the Ethereum blockchain is to provide a reliable way of verifying information and computation over time. Just as Bitcoin was designed to provide maximum accountability and maximum privacy for value transfer, Ethereum is designed from the ground up to be a decentralized computer. THE STATE OBJECTAs...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/3/accountable-design/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Security Concerns",
+                "summary" : "While the EVM is revolutionary, it’s design creates some challenges for developers, which should be well understood before a mainnet launch can be considered.  PRIVACY ISSUESBecause all smart contracts are processed by each node on the network, all data that they use is visible to any participant. As a result,...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/3/security-concerns/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Identifying Opportunities",
+                "summary" : "Throughout this module we’ve explored how the Ethereum Virtual Machine can be used to build decentralized applications. Because these systems are quite complex, it’s important to avoid trying to shoehorn the wrong business model into a decentralized format. The following process can serve as a litmus test to identify if...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/3/identifying-opportunities/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Network Congestion",
+                "summary" : "Because the EVM exists exclusively as a peer-to-peer architecture, there are some limitations on how information can be moved across the network. Every new block must be transmitted across the network once it’s confirmed, but new transactions must also be broadcast to as many nodes as possible in order to...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/4/network-congestion/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Data Storage",
+                "summary" : "In 2019, the full size of the Ethereum blockchain exceeded 1TB. While this is not a restrictive amount of space for an enterprise computer, it’s much larger than the average consumer can hope to support. Because this file is the source of truth for the entire system, it’s very important...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/4/data-storage/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Proof Of Stake",
+                "summary" : "Instead of wasting energy to prove authenticity, a staking model would allow network participants with substantial Ether holdings to stake these coins as collateral. While this proposal is still in the early stages, other cryptocurrency networks such as Tezos have successfully implemented staking as a way to streamline block production....",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/4/proof-of-stake/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Further Learning",
+                "summary" : "YOU'VE REACHED THE END OF OUR INTRODUCTION TO ETHEREUM.Hopefully, you’re now feeling confident in your understanding of decentralized technologies, and how blockchains can be used to provide a central source of truth in these networks. Now that you understand the core structure of decentralized systems, you may want to check...",
+                "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/4/further-learning/",
+                        "image" : "EthereumGrowth-1.jpg",
+            },
+            {
+                "title: : "Background",
+                "summary" : "BACK TO THE BEGINNINGBlockchain (or Distributed Ledger) technology as we know it provides a unique system of trust within a network. The ledger tracks the events or data generated within a system and is distributed amongst a network of peers to ensure that none of them can tamper with the...",
+                "link" : "/courses/hyperledger/1/hyperledger-background/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Hyperledger Architecture",
+                "summary" : "This brief video was created by IBM to explain why Hyperledger is different. IBM is among the core developers of this new protocol and has committed in-house resources to build this solution for industrial blockchains. A number of other major software companies including Oracle and the Linux Foundation have also...",
+                "link" : "/courses/hyperledger/1/hyperledger-architecture/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Transaction Flow",
+                "summary" : "In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.In a...",
+                "link" : "/courses/hyperledger/1/transaction-flow/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Validated Ledger",
+                "summary" : "In the Hyperledger environment, the Validated or VLedger represents the present sum of all successfully validated transactions. Transactions which are not successfully validated or endorsed will be exempt from this list, making it a useful tool for efficiency among peer nodes.ILLUSTRATION OF THE VALIDATION PROCESS // https://hyperledger-fabric.readthedocs.io/en/release-1.3/arch-deep-dive.html&amp;lt;div class=&quot;learnpressImageCaption&quot;&amp;gt; A: PeerLedger;...",
+                "link" : "/courses/hyperledger/1/validated-ledger/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Design Considerations",
+                "summary" : "Node Roles and PrivilegesBefore you start designing your project, it may help to consider the various stakeholders involved and how they will participate in the network. Which nodes will need access to which information? Validation FlowLedger entries are permanent, so it's critical that the validation process is well thought out...",
+                "link" : "/courses/hyperledger/1/design-considerations/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Setting up your Developer Environment",
+                "summary" : "As you might expect, there are a myriad of ways to setup up a local development environment and configurations can vary widely. We’ll help you get started with some basics and hopefully save you some headaches. To start, open up a shell and let’s get on with the good stuff!...",
+                "link" : "/courses/hyperledger/2/setting-up-your-developer-environment/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Deploying your First Network",
+                "summary" : "DOWNLOAD THE EXAMPLE FILESStarting from an appropriate directory,curl -sSL http://bit.ly/2ysbOFE | bash -slscd fabric-samples/cd bin DEPLOY THE EXAMPLEThis folder contains some example launch scripts:BYFN.sh - Build Your First NetworkLet’s try running it:cd first-network/./byfn.sh -h./byfn.sh generateNow that we have the network up and running, let’s see what files were generated. NOTE:If the...",
+                "link" : "/courses/hyperledger/2/deploying-your-first-network/",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Launch the Sample App",
+                "summary" : "NOTE: If you haven’t gone through the environment setup steps, please visit the previous section. Because Hyperledger networks require multiple nodes operating with different roles, we’ll need to simulate not just a single node, but a whole network. In this case, we’ll use the docker containers provided by the Hyperledger consortium...",
+                "link" : "/courses/hyperledger/3/launch-sample-app",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Configure the Fabric",
+                "summary" : "Now that we have the core Hyperledger node running, we can use our node.js client to interact with it and send queries. Before we can get started, though, we’ll need to launch our node and configure some users and permissions.Start the NodeFirst, you'll want to run the initialization script. This...",
+                "link" : "/courses/hyperledger/3/configure-settings",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Connecting to the Fabric",
+                "summary" : "Before we move on to interactions with the ledger, it will help to review how the ledger is updated in Query.js. ( see fabric-samples/fabcar/query.js)Connecting to the Peer SDKIn the first four lines of this script, we'll introduce our libraries:https://gist.github.com/alexander-morris/b96113601629635fc14820a5b79e8bc7Then, we can initialize the Hyperledger client and connect to the network:https://gist.github.com/alexander-morris/569e84dfd14c2d74361180bbd6a3b008&amp;nbsp;Querying...",
+                "link" : "/courses/hyperledger/3/connecting-to-the-fabric",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Chaincode on the Node",
+                "summary" : "In the previous lesson, we covered how to connect to and query the Hyperledger node. Now, we’ll explore how the node can be configured to respond to those requests. The chaincode: Fabcar.jsIn this example, the file Fabcar.js contains our chaincode SDK. This file gives us a single convenient place to...",
+                "link" : "/courses/hyperledger/3/chaincode-review",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Creating Records",
+                "summary" : "A car dealership isn’t much without being able to track cars. In order to add new cars to the database, we’ll need to use invoke.js with a slightly different payload. If we wanted to add a new Purple Tata Nano owned by someone named Alex, this payload would look like...",
+                "link" : "/courses/hyperledger/3/creating-a-record",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Updating Records",
+                "summary" : "Now let’s assume Alex moves to Canada. It’s cold in the Winter, so now Alex needs a hybrid instead of an all-electric Tesla. If Alex wants to buy Valeria’s Prius, we’ll need to update the blockchain to reflect this change.Task:&amp;lt;/strong&amp;gt; update car0 -&amp;gt; set owner: Valeria to Alex Application layer...",
+                "link" : "/courses/hyperledger/3/updating-records",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Further Design Considerations",
+                "summary" : "Now that you’ve got the basics, there are a few things to keep in mind as you begin to plan your project. Launching a project on a new protocol like this can be complicated, so it helps to ask the right questions from the beginning. GENERAL ARCHITECTURESince Hyperledger networks are intended...",
+                "link" : "/courses/hyperledger/3/further-design-considerations",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Next Steps",
+                "summary" : "YOU'VE COMPLETED OUR HYPERLEDGER COURSE!As a master of private blockchains, you’re now ready to start exploring use cases. Don’t stop now! Brush up on your architecture knowledge with our Blockchain Security course or head to our courses page to see what else we have to offer.",
+                "link" : "/courses/hyperledger/3/next-steps",
+                        "image" : "HyperLedger-01.png",
+            },
+            {
+                "title: : "Background",
+                "summary" : "As with any technology, InterPlanetary File System (IPFS) is a combination of solutions to problems that had existed in the past. Storage technology is at the core of everything we think of as computers.Player Pianos, dating back to the early 18th century, were the first real form of digital storage....",
+                "link" : "/courses/ipfs/1/background",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Current Standards",
+                "summary" : "The primary system employed by storage providers in the modern era is to use HTTP and HTTPS GET and POST requests to pull and place records in servers. While this system has functioned relatively well until now, it has a number of dangerous vulnerabilities derived from its centralized structure.Unlike typical...",
+                "link" : "/courses/ipfs/1/current-standards",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "General Architecture",
+                "summary" : "While this course will mainly focus on IPFS, there are a number of proposed solutions to blockchain-based and decentralized storage. The general architecture remains quite similar between them, so it will help to review how these systems operate before comparing them.HOW BLOCKCHAIN STORAGE WORKS: A: Data; B: Shards; C: Encrypted...",
+                "link" : "/courses/ipfs/1/general-architecture",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "IPFS in the Browser",
+                "summary" : "If you’re not a developer, don’t worry! You can still follow along through this course using our IPFS web client. The team at Protocol Labs has developed a Javascript module to allow any website to easily integrate peer to peer storage into their services. We’ve set up an example for you...",
+                "link" : "/courses/ipfs/2/ipfs-in-the-browser",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Using the Interface",
+                "summary" : "Once you open the page, an IPFS node will start to run right in your browser. This is similar to how many games will load a client locally, and use it to connect to the wider network. The website you’re viewing is running a small IPFS node with local javascript...",
+                "link" : "/courses/blockchain-101/2/using-the-interface",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Uploading and Sharing Files",
+                "summary" : "The IPFS web portal makes uploading and sharing files using IPFS easy. As a demonstration, we’ll store this photo of Alex’s dog on IPFS and share it with ourselves. Here’s the image: UPLOADINGYou can now click and drag files onto the drop box on the right to upload them to your...",
+                "link" : "/courses/ipfs/2/uploading-and-sharing-files",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "How does it work?",
+                "summary" : "–&amp;gt;IPFS depends on using a network of connected peer devices to store and distribute files. The node running in your browser is able to discover other nodes on the network. Conveniently, IPFS peers use RSA Encryption to verify their public keys, which prevents imposter attacks.These are IPFS addresses, which can...",
+                "link" : "/courses/ipfs/2/how-does-it-work",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Environment Setup",
+                "summary" : "–&amp;gt;As with anything truly revolutionary, IPFS takes some getting used to. In this module, we’ll cover how to set up your own node and push / pull files from the network. Since IPFS is a new protocol, you’ll need to install their bundle so that your device will be able...",
+                "link" : "/courses/ipfs/3/environment-setup",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Running a Node",
+                "summary" : "Now that you have installed the IPFS software, you’ll need to configure your local node. Your node’s address is shown in the last line as ‘peer identity’. For the sake of this example, you can use the defaults. For more information on configuring nodes for different environments click here. ipfs initinitializing ipfs...",
+                "link" : "/courses/ipfs/3/running-a-node",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Going Online",
+                "summary" : "Now that you have IPFS installed and your node has an address, you can take the node online and join the network. You may want to use a separate shell window for this. ipfs daemon Initializing daemon... API server listening on /ip4/127.0.0.1/tcp/5001 Gateway server listening on /ip4/127.0.0.1/tcp/8080 You can also...",
+                "link" : "/courses/ipfs/3/going-online",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Retrieving Files",
+                "summary" : "We’re now online, so we can try downloading a file from the network.ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg &amp;gt; cat.jpg$ open cat.jpg Here’s a kitty from the decentralized web!If everything is working properly, you should now see an image file open with a picture of a cat! This image file is now on...",
+                "link" : "/courses/ipfs/3/retrieving-files",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Storing Files",
+                "summary" : "You can also push files to the network:hash=`echo &quot;I &amp;lt;3 The Blockchain Institute -$(whoami)&quot; | ipfs add -q`This will generate a hash of your string message and store it at a new ipfs hash url.  curl &quot;https://ipfs.io/ipfs/$hash&quot;This should now return:I &amp;lt;3 The Blockchain Institute -&amp;lt; your username &amp;gt;",
+                "link" : "/courses/ipfs/3/storing-files",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "The IFPS Dashboard",
+                "summary" : "Now that you’re up and running, you may want to also check out the localhosted network that shows connected peers and files stored.You can view the dashboard whenever the daemon is running at http://localhost:5001/webui  The webUI View has lots of additional features for non-command line users!&amp;lt;/span&amp;gt;",
+                "link" : "/courses/blockchain-101/3/the-ifps-dashboard",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Key Challenges",
+                "summary" : "While it seems like a simple issue, paying someone to store a file is actually much more complex than most other decentralized activities. In particular, the main issue comes when the network is expected to store more than one copy of a file. PROOF OF REPLICATIONIn a trustless system, this means...",
+                "link" : "/courses/IPFS/4/key-challenges",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Tokens Using IPFS",
+                "summary" : "&amp;lt;h3&amp;gt;Intro to IPFS&amp;lt;/h3&amp;gt;In 2017, the Interplanetary File System proposed a new way of sharing media over the internet. Instead of centralized servers, IPFS uses a peer to peer network to host files. With the Filecoin test network scheduled for launch in 2019, now is the perfect time to brush up...",
+                "link" : "/courses/ipfs/4/tokens-using-ipfs",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Other Tokens or Projects",
+                "summary" : "–&amp;gt;For the sake of this course, we’ve mostly focused on IPFS since it’s easy to visualize what’s happening, but there are a number of players entering the decentralized storage space. Each of them have chosen to accomplish this goal in slightly different ways. Generally, the framework for a decentralized storage...",
+                "link" : "/courses/ipfs/4/other-tokens-or-projects",
+                        "image" : "IFPS-01.png",
+            },
+            {
+                "title: : "Next Steps",
+                "summary" : "–&amp;gt; &amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;YOU'VE COMPLETED OUR IPFS COURSE!As a newly minted IPFS wizard, don’t hesitate to share the new internet. Share our with your friends and family and show them how they can use decentralized storage today. Bye bye, hosting giants!If you’re looking to build decentralized apps, you may want to check...",
+                "link" : "/courses/ipfs/4/next-steps",
+                        "image" : "IFPS-01.png",
+            },]
+    "posts" : [],
+    "pages" : [
+            {
+                "title": "",
+                "url": "/404.html",
+                "summary": "404Page not found! :("
             },
         
-    ],
-    
-    
-        "404-html": {
-            "title": "",
-            "url": "/404.html.html",
-            "summary": "404Page not found! :("
-        }
-        ,
-    
-        "crypto-curious-thank-you": {
-            "title": "Thank you for registering!",
-            "url": "/crypto-curious/thank-you/.html",
-            "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
-        }
-        ,
-    
-        "assets-css-ccc-css": {
-            "title": "",
-            "url": "/assets/css/ccc.css.html",
-            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
-        }
-        ,
-    
-        "courses": {
-            "title": "Courses",
-            "url": "/courses/.html",
-            "summary": "Course Catalog The Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, professional, or entirely new, we're here to help! All of our courses are 100% FREE and no registration is required. The best time to start is now. Learn Blockchain Free Today!..."
-        }
-        ,
-    
-        "assets-css-courses-css": {
-            "title": "",
-            "url": "/assets/css/courses.css.html",
-            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
-        }
-        ,
-    
-        "crypto-curious": {
-            "title": "Crypto Curious? Try our FREE Course!",
-            "url": "/crypto-curious/.html",
-            "summary": "Learn More RSVP Now Carefully Curated We Learned the hard way so you don't have to. Let us help you get from curious to competent the easy way! Our Expert Instructors will teach you How to buy and use cryptocurrency What makes Bitcoin different from traditional money How to safely..."
-        }
-        ,
-    
-        "developer-toolkit-thank-you": {
-            "title": "Thank you for registering!",
-            "url": "/developer-toolkit/thank-you/.html",
-            "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
-        }
-        ,
-    
-        "assets-css-dev-css": {
-            "title": "",
-            "url": "/assets/css/dev.css.html",
-            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
-        }
-        ,
-    
-        "developer-toolkit": {
-            "title": "Blockchain Developer Toolkit | Upgrade your skills today!",
-            "url": "/developer-toolkit/.html",
-            "summary": "Learn More RSVP Now Learn to BuildFreedom Are you confident enough in your skills as a developer to set up a web store that takes cryptocurrency and uses blockchain based supply chain? By the end of our Dev Bootcamp you will be! After completing all 5 workshops you will have..."
-        }
-        ,
-    
-        "events": {
-            "title": "Events",
-            "url": "/events/.html",
-            "summary": "Events While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped..."
-        }
-        ,
-    
-        "assets-css-events-css": {
-            "title": "",
-            "url": "/assets/css/events.css.html",
-            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
-        }
-        ,
-    
-        "thank-you": {
-            "title": "Thank you for registering!",
-            "url": "/thank-you/.html",
-            "summary": "	  	  	  Thank You for Registering!	  	  We'll be in touch soon! In the meantime, please check out our upcoming events!		      See Events	  "
-        }
-        ,
-    
-        "assets-css-homepage-css": {
-            "title": "",
-            "url": "/assets/css/homepage.css.html",
-            "summary": "/* Brand colors *//*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #007bff;..."
-        }
-        ,
-    
-        "": {
-            "title": "Home",
-            "url": "/.html",
-            "summary": "Who we are The Blockchain Institute is a 501(c)(3) public charity that provides blockchain education for everyone that wants to learn. We promote the adoption, development, and use of blockchain technology. We think education is the best way forward and invite you to join us as we build the web..."
-        }
-        ,
-    
-        "map-json": {
-            "title": "",
-            "url": "/map.json.html",
-            "summary": "{ &quot;courses&quot; : [ {% for course in site.courses %} { &quot;title: : &quot;{{ course.title }}&quot;, &quot;link&quot; : &quot;{{ course.permalink }}&quot; }, {% endfor %} ], {% for entry in site.posts %} &quot;{{ entry.url | slugify }}&quot;: { &quot;title&quot;: &quot;{{ entry.title | xml_escape }}&quot;, &quot;url&quot;: &quot;{{ entry.url | xml_escape }}&quot;,..."
-        }
-        ,
-    
-        "assets-css-styles-css": {
-            "title": "",
-            "url": "/assets/css/styles.css.html",
-            "summary": "@import &quot;main&quot;;"
-        }
-        ,
-    
-        "assets-css-thank-you-css": {
-            "title": "",
-            "url": "/assets/css/thank-you.css.html",
-            "summary": "@import &quot;main&quot;;@import &quot;tyElements&quot;;@import &quot;tyResponsive&quot;;"
-        }
-        ,
-    
-        "assets-css-ccc-css-map": {
-            "title": "",
-            "url": "/assets/css/ccc.css.map.html",
-            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;ccc.css&quot;, &quot;sources&quot;: [ &quot;ccc.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
-        }
-        ,
-    
-        "assets-css-courses-css-map": {
-            "title": "",
-            "url": "/assets/css/courses.css.map.html",
-            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;courses.css&quot;, &quot;sources&quot;: [ &quot;courses.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
-        }
-        ,
-    
-        "assets-css-dev-css-map": {
-            "title": "",
-            "url": "/assets/css/dev.css.map.html",
-            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;dev.css&quot;, &quot;sources&quot;: [ &quot;dev.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
-        }
-        ,
-    
-        "assets-css-events-css-map": {
-            "title": "",
-            "url": "/assets/css/events.css.map.html",
-            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;events.css&quot;, &quot;sources&quot;: [ &quot;events.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
-        }
-        ,
-    
-        "assets-css-homepage-css-map": {
-            "title": "",
-            "url": "/assets/css/homepage.css.map.html",
-            "summary": "{ &quot;version&quot;: 3, &quot;file&quot;: &quot;homepage.css&quot;, &quot;sources&quot;: [ &quot;homepage.scss&quot;, &quot;_sass/main.scss&quot;, &quot;_sass/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/bootstrap.scss&quot;, &quot;node_modules/bootstrap/scss/_functions.scss&quot;, &quot;node_modules/bootstrap/scss/_variables.scss&quot;, &quot;node_modules/bootstrap/scss/_mixins.scss&quot;, &quot;node_modules/bootstrap/scss/vendor/_rfs.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_deprecate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_breakpoints.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_hover.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_image.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_badge.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_resize.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_screen-reader.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_size.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_reset-text.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-emphasis.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-hide.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_text-truncate.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_visibility.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_alert.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_buttons.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_caret.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_pagination.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_lists.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_list-group.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_nav-divider.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_forms.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_table-row.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_background-variant.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_border-radius.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_box-shadow.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_gradients.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_transition.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_clearfix.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid-framework.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_grid.scss&quot;, &quot;node_modules/bootstrap/scss/mixins/_float.scss&quot;, &quot;node_modules/bootstrap/scss/_root.scss&quot;, &quot;node_modules/bootstrap/scss/_reboot.scss&quot;, &quot;node_modules/bootstrap/scss/_type.scss&quot;, &quot;node_modules/bootstrap/scss/_images.scss&quot;,..."
-        }
+            {
+                "title": "Thank you for registering!",
+                "url": "/crypto-curious/thank-you/",
+                "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
+            },
         
-    
+            {
+                "title": "Courses",
+                "url": "/courses/",
+                "summary": "Course Catalog The Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, professional, or entirely new, we're here to help! All of our courses are 100% FREE and no registration is required. The best time to start is now. Learn Blockchain Free Today!..."
+            },
+        
+            {
+                "title": "Crypto Curious? Try our FREE Course!",
+                "url": "/crypto-curious/",
+                "summary": "Learn More RSVP Now Carefully Curated We Learned the hard way so you don't have to. Let us help you get from curious to competent the easy way! Our Expert Instructors will teach you How to buy and use cryptocurrency What makes Bitcoin different from traditional money How to safely..."
+            },
+        
+            {
+                "title": "Thank you for registering!",
+                "url": "/developer-toolkit/thank-you/",
+                "summary": "	  	  	  See you there!	  	  You're on the list, but please make sure to RSVP on Eventbrite to save your seat.		      Get Tickets	  "
+            },
+        
+            {
+                "title": "Blockchain Developer Toolkit | Upgrade your skills today!",
+                "url": "/developer-toolkit/",
+                "summary": "Learn More RSVP Now Learn to BuildFreedom Are you confident enough in your skills as a developer to set up a web store that takes cryptocurrency and uses blockchain based supply chain? By the end of our Dev Bootcamp you will be! After completing all 5 workshops you will have..."
+            },
+        
+            {
+                "title": "Events",
+                "url": "/events/",
+                "summary": "Events While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped..."
+            },
+        
+            {
+                "title": "Thank you for registering!",
+                "url": "/thank-you/",
+                "summary": "	  	  	  Thank You for Registering!	  	  We'll be in touch soon! In the meantime, please check out our upcoming events!		      See Events	  "
+            },
+        
+            {
+                "title": "Home",
+                "url": "/",
+                "summary": "Who we are The Blockchain Institute is a 501(c)(3) public charity that provides blockchain education for everyone that wants to learn. We promote the adoption, development, and use of blockchain technology. We think education is the best way forward and invite you to join us as we build the web..."
+            }
+        ]
 }
