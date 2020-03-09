@@ -123,8 +123,23 @@ function addResultToResultsContainer (container, data) {
         link.target = "_blank"
         link.href = data.link
 
+    var img = document.createElement('img')
+        
+    if ( typeof(data.image) != "undefined" ) {
+        img.src = "/assets/img/" + data.image
+    } else {
+        img.src = "/assets/img/logo.jpg"
+    }
+
+    var summary = document.createElement('span')
+        summary.className = "summary"
+        summary.textContent = data.summary
+
     var row = document.createElement('div')
-        row.classname = "searchResultInfo"
+        row.className = "row"
+
+    var infoContainer = document.createElement('div')
+        infoContainer.className = "infoContainer"
 
     var title = document.createElement('span')
         title.className = "title"
@@ -134,8 +149,11 @@ function addResultToResultsContainer (container, data) {
         score.className = "score"
         score.textContent = data.score
 
-    row.appendChild(title)
-    row.appendChild(score)
+    row.appendChild(img)
+    infoContainer.appendChild(title)
+    infoContainer.appendChild(summary)
+    infoContainer.appendChild(score)
+    row.appendChild(infoContainer)
     link.appendChild(row)
     container.appendChild(link)
 
