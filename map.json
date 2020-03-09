@@ -7,7 +7,8 @@
             {
                 "title: : "{{ course.title }}",
                 "link" : "{{ course.permalink }}",
-                "summary": "{{ course.summary }}"
+                "summary": "{{ course.summary }}",
+                "image" : "{{ course.image }}"
             },
         {% endfor %}], 
     "modules" : [{% for module in site.modules %}
@@ -23,20 +24,22 @@
                 "title: : "{{ lesson.title }}",
                 "summary" : "{{ lesson.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}",
                 "link" : "{{ lesson.permalink }}",{% for course in site.courses %}{% if course.slug == lesson.course %}
-                        "image" : "{{ course.image }}",{% endif %}{% endfor %}
+                "image" : "{{ course.image }}",{% endif %}{% endfor %}
             },{% endfor %}]
-    "posts" : [{% for entry in site.posts %}
-        "{{ entry.url | slugify }}": {
-            "title": "{{ entry.title | xml_escape }}",
-            "url": "{{ entry.url | xml_escape }}",
-            "summary": "{{ entry.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}"
+    "events" : [{% for event in site.events %}
+        {
+            "title": "{{ event.title | xml_escape }}",
+            "image" : "{{ event.image }}",
+            "link": "{{ event.permalink | xml_escape }}",
+            "summary": "{{ event.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}"
         },
-        {% endfor %}],
+        {% endfor %}],    
     "pages" : [{% for entry in site.html_pages %}
             {
                 "title": "{{ entry.title | xml_escape }}",
-                "url": "{{ entry.url | xml_escape }}",
-                "summary": "{{ entry.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}"
+                "link": "{{ entry.url | xml_escape }}",
+                "summary": "{{ entry.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}",
+                "image" : "{{ entry.ogImage }}"
             }{% unless forloop.last %},{% endunless %}
         {% endfor %}]
 }
