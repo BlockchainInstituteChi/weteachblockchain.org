@@ -15,26 +15,38 @@ function initSearch () {
         searchIndex = lunr(function () {
             console.log('initializing lunr')
 
-            this.ref('title')
+            this.ref('id')
             this.field('summary')
+            this.metadataWhitelist = ['title', 'summary', 'permalink']
             // this.field('title')
-          
+            
+            z = 0;
             data.lessons.forEach(function (doc) {
-              console.log('adding this to lunr', doc)
+              doc.id = 'lessons-' + z
               this.add(doc)
+              z++
             }, this)
 
-            // data.courses.forEach(function (doc) {
-            //     this.add(doc)
-            //   }, this)
+            y = 0
+            data.courses.forEach(function (doc) {
+                doc.id = 'courses-' + y
+                this.add(doc)
+                y++
+              }, this)
 
-            // data.modules.forEach(function (doc) {
-            //     this.add(doc)
-            //   }, this)
+            x = 0
+            data.modules.forEach(function (doc) {
+                doc.id = 'modules-' + x
+                this.add(doc)
+                x++
+              }, this)
 
-            // data.events.forEach(function (doc) {
-            //     this.add(doc)
-            //   }, this)
+            r = 0
+            data.events.forEach(function (doc) {
+                doc.id = 'events-' + r
+                this.add(doc)
+                r++
+              }, this)
   
           })
 
@@ -89,7 +101,8 @@ function displaySearchResults (results) {
 
     for ( var i = 0; i < results.length; i++ ) {
 
-        addResultToResultsContainer (resultsContainer, results[i])
+        var record = lookupResultRecord(results[i])
+        addResultToResultsContainer (resultsContainer, record)
 
     }
 
@@ -115,7 +128,7 @@ function addResultToResultsContainer (container, data) {
 
     var title = document.createElement('span')
         title.className = "title"
-        title.textContent = data.ref
+        title.textContent = data.title
 
     var score = document.createElement('span')
         score.className = "score"
@@ -125,5 +138,16 @@ function addResultToResultsContainer (container, data) {
     row.appendChild(score)
     link.appendChild(row)
     container.appendChild(link)
+
+}
+
+function lookupResultRecord (searchResult) {
+
+    var sp = searchResult.ref.split('-');
+
+    record = window.searchData[sp[0]][sp[1]]
+    record.score = searchResult.score
+
+    return record;
 
 }
