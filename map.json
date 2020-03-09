@@ -1,0 +1,39 @@
+---
+    layout: data
+    permalink: /map.json
+---
+{
+    "courses" : [{% for course in site.courses %}
+            {
+                "title" : "{{ course.title | strip_html | strip_newlines | xml_escape }}",
+                "link" : "{{ course.permalink | strip_html | strip_newlines | xml_escape  }}",
+                "summary": "{{ course.summary  | strip_html | strip_newlines | xml_escape }}",
+                "image" : "{{ course.image | strip_html | strip_newlines | xml_escape  }}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}], 
+    "modules" : [{% for module in site.modules %}
+            {
+                "title" : "{{ module.title  | strip_html | strip_newlines | xml_escape }}",
+                "summary" : "{{ module.summary  | strip_html | strip_newlines | xml_escape }}",{% for course in site.courses %}{% if course.slug == module.course %}
+                "image" : "{{ course.image  | strip_html | strip_newlines | xml_escape }}",
+                "link" : "{{ course.permalink  | strip_html | strip_newlines | xml_escape }}"
+                {% endif %}{% endfor %}
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}],
+    "lessons" : [{% for lesson in site.lessons %}
+            {
+                "title" : "{{ lesson.title  | strip_html | strip_newlines | xml_escape }}",
+                "summary" : "{{ lesson.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}",
+                "link" : "{{ lesson.permalink  | strip_html | strip_newlines | xml_escape }}",{% for course in site.courses %}{% if course.slug == lesson.course %}
+                "image" : "{{ course.image  | strip_html | strip_newlines | xml_escape }}"{% endif %}{% endfor %}
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}],
+    "events" : [{% for event in site.events %}
+        {
+            "title": "{{ event.title  | strip_html | strip_newlines | xml_escape  }}",
+            "image" : "{{ event.image | strip_html | strip_newlines | xml_escape  }}",
+            "link": "{{ event.permalink  | strip_html | strip_newlines | xml_escape  }}",
+            "summary": "{{ event.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}]
+}

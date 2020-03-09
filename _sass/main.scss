@@ -118,6 +118,7 @@ a.nav-link:hover {
     text-align: center;
 }   
 
+
 /* Social Nav */
 ul.navbar-nav.flex-row {
     padding-left: 1em;
@@ -127,6 +128,47 @@ nav i {
 }
 a.nav-link i:hover {
     color: #0d72aa;
+}
+
+/* Search */
+li.nav-item.search {
+    padding-right: 1em;
+    padding-left: 1em;
+    border-left: lightgrey 1px solid;
+}
+.searchInterface {
+    width: 50%;
+    background: white;
+    margin: auto;
+    margin-top: 4em;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+span.cancelSearchButton {
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    right: 1em;
+}
+.searchInterface input {
+    width: 100%;
+    border-radius: 0.25em;
+    padding: 0.5em;
+}
+div#searchResults {
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+/* Lightbox */
+.lightbox {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: #252424d9;
+    left: 0;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Mobile Nav Toggle */
