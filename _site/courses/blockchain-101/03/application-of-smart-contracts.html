@@ -1139,10 +1139,11 @@
 
 <div id="searchLightbox" class="lightbox d-none">
   <span class="cancelSearchButton" onclick="toggleDisplaySearchLightbox()">×</span>
-  <h1>Search the site!</h1>
-  <input type="text">
-  <div class="searchResults">
-
+  <div class="searchInterface">
+    <input type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults()">
+    <div id="searchResults" class="searchResults">
+      
+    </div>
   </div>
 </div>
     </div>
