@@ -3253,6 +3253,20 @@ span.cancelSearchButton { color: white; font-size: 3em; position: absolute; righ
 
 div#searchResults { max-height: 50vh; overflow: scroll; }
 
+.searchResults img { max-width: 20%; }
+
+.searchResults span.title { display: block; text-transform: uppercase; color: black; }
+
+.searchResults span.summary { font-size: 0.75em; color: grey; }
+
+.searchResults img { width: 20%; max-width: 20%; height: auto; display: inline-block; }
+
+.searchResults .infoContainer { display: inline-block; max-width: 75%; padding-left: 1em; }
+
+.searchResults .row:hover { background: #add8e669; }
+
+.searchResults .row { max-width: 100%; margin: auto; padding: 0.5em; }
+
 /* Lightbox */
 .lightbox { position: absolute; width: 100vw; height: 100vh; background: #252424d9; left: 0; top: 0; z-index: 1000; }
 
