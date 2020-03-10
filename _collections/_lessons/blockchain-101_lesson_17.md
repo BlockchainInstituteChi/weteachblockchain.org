@@ -21,8 +21,3 @@ permalink: /courses/blockchain-101/03/limitations-of-blockchains
 
 <span style="font-weight: 400;">There are many projects working to solve the scalability issue, and many are examining different approaches to address the technological limitations of a blockchain. Centralized services such as Visa can process thousands of transactions a second. It is currently very difficult for a decentralized network to achieve this type of efficiency.</span>
 
-&nbsp;
-
-<hr />
-
-&nbsp;</span>
