@@ -19,4 +19,4 @@ In particular, when HTTP calls are routed, they use the central domain service t
 
 In contrast to centralized architecture, IPFS uses purely peer to peer transfer of data. Each file is hosted across a network of connected nodes which each participate independently of each other. Because there's no central owner, it's very hard to censor this network or prohibit access to a file. Additionally, because files are spread across all of the nodes, so no single node will ever have control of or access to all copies of a particular file.
 
-In the next section, we'll get you started using the IPFS browser to explore the network.</span>
+In the next section, we'll get you started using the IPFS browser to explore the network.
