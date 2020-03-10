@@ -58,4 +58,4 @@ Decentralized systems are designed to bring power back to the people. This intro
 </ul>
 </li>
 </ul>
-<span style="font-weight: 400;">Several blockchains have explored and installed unique governance features. Let’s take a look at some of them in our next lesson.</span></span>
+<span style="font-weight: 400;">Several blockchains have explored and installed unique governance features. Let’s take a look at some of them in our next lesson.</span>
