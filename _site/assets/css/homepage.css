@@ -3251,7 +3251,7 @@ span.cancelSearchButton { color: white; font-size: 3em; position: absolute; righ
 
 .searchInterface input { width: 100%; border-radius: 0.25em; padding: 0.5em; }
 
-div#searchResults { max-height: 50vh; overflow: scroll; }
+div#searchResults { max-height: 50vh; overflow: scroll; height: 50vh; }
 
 .searchResults img { max-width: 20%; }
 
@@ -3259,7 +3259,7 @@ div#searchResults { max-height: 50vh; overflow: scroll; }
 
 .searchResults span.summary { font-size: 0.75em; color: grey; }
 
-.searchResults img { width: 20%; max-width: 20%; height: auto; display: inline-block; }
+.searchResults img { width: auto; max-height: 4em; max-width: 20%; margin-top: 0.5em; min-width: 20%; }
 
 .searchResults .infoContainer { display: inline-block; max-width: 75%; padding-left: 1em; }
 
@@ -3268,7 +3268,7 @@ div#searchResults { max-height: 50vh; overflow: scroll; }
 .searchResults .row { max-width: 100%; margin: auto; padding: 0.5em; }
 
 /* Lightbox */
-.lightbox { position: absolute; width: 100vw; height: 100vh; background: #252424d9; left: 0; top: 0; z-index: 1000; }
+.lightbox { position: fixed; width: 100vw; height: 100vh; background: #252424d9; left: 0; top: 0; z-index: 1000; }
 
 /* Mobile Nav Toggle */
 button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { background-color: #47b7aa; }
