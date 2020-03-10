@@ -37,4 +37,3 @@ permalink: /courses/blockchain-101/02/blockchains-vs-cryptocurrency
 <span style="font-weight: 400;">Still confused? Just think of a coin as money, while a token represents everything else.</span>
 
 Many coins and tokens can be mined. Let's go over that process in our next lesson.
-</span>
