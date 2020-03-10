@@ -103,4 +103,4 @@ permalink: /courses/blockchain-for-business/2/blockchain-government-and-regulati
 
 <hr />
 
-This concludes our second module of Blockchain for Business. In this module, we covered scaling, cryptocurrency markets, decentralized finance and government regulation concerning blockchain technology. Check out our next module to see how businesses are already researching, and even incorporating, blockchain technology.</span>
+This concludes our second module of Blockchain for Business. In this module, we covered scaling, cryptocurrency markets, decentralized finance and government regulation concerning blockchain technology. Check out our next module to see how businesses are already researching, and even incorporating, blockchain technology.
