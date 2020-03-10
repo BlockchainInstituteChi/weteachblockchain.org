@@ -40,4 +40,4 @@ In a truly decentralized network, a ledger or blockchain can be used to record w
 </ol>
 &nbsp;
 
-In the next section, we'll cover in more detail how IPFS implements this functionality.</span>
+In the next section, we'll cover in more detail how IPFS implements this functionality.
