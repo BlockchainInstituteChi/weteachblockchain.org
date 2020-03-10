@@ -41,4 +41,4 @@ Blockchain technology has a lot of people excited. However, it is important to n
 
 <hr />
 
-<span style="font-weight: 400;">Bitcoin futures have already been launched by CME and CBOE. </span><span style="font-weight: 400;">There have been several attempts to gain approval for a Bitcoin Exchange Traded Fund, however, each one has been rejected by the US Securities and Exchange Commission. </span><span style="font-weight: 400;">The SEC has not completely ruled out the prospects of a Bitcoin ETF, and some expect approval relatively soon</span></span>
+<span style="font-weight: 400;">Bitcoin futures have already been launched by CME and CBOE. </span><span style="font-weight: 400;">There have been several attempts to gain approval for a Bitcoin Exchange Traded Fund, however, each one has been rejected by the US Securities and Exchange Commission. </span><span style="font-weight: 400;">The SEC has not completely ruled out the prospects of a Bitcoin ETF, and some expect approval relatively soon</span>
