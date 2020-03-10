@@ -116,4 +116,3 @@ Further reading:
 </li>
 </ul>
 
-</span>
