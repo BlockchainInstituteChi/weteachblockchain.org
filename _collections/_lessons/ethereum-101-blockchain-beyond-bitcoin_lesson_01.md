@@ -6,7 +6,7 @@ title: Early Bitcoin Proposal
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-proposal
 ---
 
-<span class="openingParagraph">It may come as a surprise to many, but <a href="https://bitcoin.org/bitcoin.pdf?source=post_page---------------------------"><span>the original Bitcoin Whitepaper</a> published in 2008 never actually used the word blockchain. While the document mentions chains of blocks and other similar phrases, the modern concept of a decentralized ledger is a much more recent idea. </span>
+<span style="font-weight: 400;">It may come as a surprise to many, but <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">the original Bitcoin Whitepaper</a> published in 2008 never actually used the word blockchain. While the document mentions chains of blocks and other similar phrases, the modern concept of a decentralized ledger is a much more recent idea. </span>
 
 <span style="font-weight: 400;">The original Bitcoin Whitepaper describes a form of peer-to-peer currency where participants prove that they are trustworthy by wasting computational energy. The core goal of the Bitcoin Protocol in the early stages was to provide a way for a network of untrusting peers to exchange value with minimal risk and maximum anonymity. The primary issue with such a system was known as the double spend problem. If peers are to keep track of the value each other hold, then how is it possible to prevent simultaneous spending of the same monies? </span>
 
