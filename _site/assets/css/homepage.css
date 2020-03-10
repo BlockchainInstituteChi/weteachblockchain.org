@@ -3242,8 +3242,29 @@ nav i { color: #2fae9f; }
 
 a.nav-link i:hover { color: #0d72aa; }
 
+li.nav-item.navbox { padding-right: 0.5em; padding-left: 1em; }
+
+/* Hover Nav Box */
+.hoverNavbox { width: 50%; position: absolute; right: 5em; background: #2fae9f; z-index: 1000; color: white; }
+
+.hoverNavbox li { list-style: none; text-align: left; margin-left: 0; }
+
+.hoverNavbox a { color: white; padding: 0; }
+
+.hoverNavbox h3 { font-size: 1.25em; text-transform: uppercase; margin-top: 1em; }
+
+.hoverNavbox ul { padding-left: 0; }
+
+.hoverNavbox .row { max-width: 100%; padding-left: 1em; padding-right: 1em; }
+
+.hoverNavbox a:hover { color: #00698b !important; }
+
+li.nav-item.contactUsLink { padding: 0.5em; }
+
+.contactUsLink a { text-transform: uppercase; color: red; }
+
 /* Search */
-li.nav-item.search { padding-right: 1em; padding-left: 1em; border-left: lightgrey 1px solid; }
+li.nav-item.search { padding-right: 0.5em; padding-left: 0.5em; }
 
 .searchInterface { width: 50%; background: white; margin: auto; margin-top: 4em; border-radius: 0.5em; padding: 1em; }
 
@@ -3333,7 +3354,7 @@ section.breadcrumbs { padding-top: 1em; }
 /* Color Tags */
 .hasColorTag::before { background: #3dba95; width: 150px; height: 1em; content: "_"; color: #ff000000; display: inline-block; margin-bottom: -0.25em; margin-left: -0.5em; margin-right: 0.5em; vertical-align: sub; }
 
-.hasColorTag.teal::before { background: #0B9BA4; }
+.hasColorTag.teal::before { background: #2fae9f; }
 
 .hasColorTag.red::before { background: red; }
 
@@ -3346,7 +3367,7 @@ section.hasSectionColorTag.red::before { background: red; }
 
 section.hasSectionColorTag.purple::before { background: #c24774; }
 
-section.hasSectionColorTag.teal::before { background: #0B9BA4; }
+section.hasSectionColorTag.teal::before { background: #2fae9f; }
 
 /* Upcoming Events Footer */
 section.upcomingEventsFooter { margin-bottom: 5em; }
@@ -3359,7 +3380,7 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 
 .upcomingEventsFooter .eventTile h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; }
 
-.upcomingEventsFooter .eventTile span { font-size: 0.75em; text-transform: uppercase; color: #2eac9d; }
+.upcomingEventsFooter .eventTile span { font-size: 0.75em; text-transform: uppercase; color: #2fae9f; }
 
 /* Tile Items */
 .tileItem { width: 25%; overflow: hidden; display: inline-block; margin-right: 1em; }
@@ -3368,7 +3389,7 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 
 .tileItem h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; }
 
-.tileItem span { font-size: 0.75em; text-transform: uppercase; color: #2eac9d; }
+.tileItem span { font-size: 0.75em; text-transform: uppercase; color: #2fae9f; }
 
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
