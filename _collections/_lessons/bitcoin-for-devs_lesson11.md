@@ -7,7 +7,6 @@ permalink: /courses/bitcoin-for-developers/3/intro-to-wallets-and-addresses
 ---
 
 <span>
-<<span class="openingParagraph">
 In bitcoin, a wallet is a bit of an abstract. The bitcoin protocol doesn’t contain the notion of wallets. This concept is created by user interfaces for user comfort.</span>
 
 Wallets are built for two primary functions:
@@ -86,4 +85,4 @@ Bitcoin’s, or UTXO’s, "live" at bitcoin addresses. In order to transfer thos
 
 
 
-And now that we have a base for understanding bitcoin addresses, let’s head back to wallets!</span>
+And now that we have a base for understanding bitcoin addresses, let’s head back to wallets!
