@@ -159,6 +159,7 @@ div#searchResults {
     max-height: 50vh;
     overflow: scroll;
     height: 50vh;
+    overflow-x: hidden;
 }
 .searchResults img {
     max-width: 20%;
@@ -426,6 +427,28 @@ section.upcomingEventsFooter {
     color: $brand-green;
 }
 
+/* Tile Items */
+.tileItem {
+    width: 25%;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 1em;
+}
+.tileItem img {
+    width: 100%;
+}
+.tileItem h1 {
+    text-transform: uppercase;
+    margin-left: 0;
+    font-size: 1.25em;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.tileItem span {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: $brand-green;
+}
 
 /* Pink Stripe Divider */
 section.pinkStripesDivider {

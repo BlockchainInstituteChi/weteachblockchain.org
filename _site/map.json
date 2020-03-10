@@ -4,56 +4,72 @@
                 "title" : "Bitcoin for Developers",
                 "link" : "/courses/bitcoin-for-developers/",
                 "summary": "This course is designed to give developers the tools they need to understand how Bitcoin transactions work, how wallets work, Bitcoin scripting and how to integrate Bitcoin payments into existing platforms.",
-                "image" : "BitcoinforDevs.png"
+                "image" : "BitcoinforDevs.png",
+                "author" : "Hannah Rosenberg",
+                "tags" : "developer"
             },
         
             {
                 "title" : "Blockchain for Business",
                 "link" : "/courses/blockchain-for-business/",
-                "summary": "In Blockchain 101, we discussed how blockchains offer an open, inclusive option that anyone can utilize just by running software on their computers. However, the benefits offered by blockchains have caught the eyes of private organizations. Decentralization, immutability and partial transparency all suit the needs of private organization. However, exposing proprietary information by utilizing a public blockchain is not an option for these organizations. In this course, we’ll explore how blockchain protocols affect businesses. Additionally, we’ll explore how businesses can utilize the blockchain to solve today and tomorrow’s problems.",
-                "image" : "BlockchainforBusiness.png"
+                "summary": "In Blockchain 101, we discussed how blockchains offer an open, inclusive option that anyone can utilize just by running software on their computers. However, the benefits offered by blockchains have caught the eyes of private organizations. Decentralization, immutability and partial transparency all suit the needs of private organization. However, exposing...",
+                "image" : "BlockchainforBusiness.png",
+                "author" : "Jeremy Cogan",
+                "tags" : "professional"
             },
         
             {
                 "title" : "Blockchain Security",
                 "link" : "/courses/blockchain-security/",
                 "summary": "One of the primary reasons blockchain systems have received widespread attention has been their ability to provide secure networks without trusting a central entity. Despite this, there are some limitations of the blockchain approach, and understanding them is key to properly deploying new products and solutions.",
-                "image" : "BC-Security-01.png"
+                "image" : "BC-Security-01.png",
+                "author" : "ALEX MORRIS",
+                "tags" : "beginner"
             },
         
             {
                 "title" : "Blockchain 101",
                 "link" : "/courses/blockchain-101/",
-                "summary": "Bitcoin, cryptocurrency, and blockchain are all technologies that are increasingly in the public eye. This trend began just over a decade ago with a conceptual paper by Satoshi Nakamoto, an unidentified person (or group of people) who sought to develop a process that would prevent a repeat of the 2008-2009 global economic catastrophe. Since then, blockchain technology has emerged as an important technological implementation for individuals, governments and corporations alike. The goal of this course is to familiarize students with the unique characteristics of the blockchain and its many iterations and applications, from Bitcoin to smart contracts, decentralized networks, and consensus mechanisms.",
-                "image" : "BC101-01.png"
+                "summary": "Bitcoin, cryptocurrency, and blockchain are all technologies that are increasingly in the public eye. This trend began just over a decade ago with a conceptual paper by Satoshi Nakamoto, an unidentified person (or group of people) who sought to develop a process that would prevent a repeat of the 2008-2009...",
+                "image" : "BC101-01.png",
+                "author" : "Jeremy Cogan",
+                "tags" : "beginner"
             },
         
             {
                 "title" : "Decentralized Storage",
                 "link" : "/courses/decentralized-storage/",
-                "summary": "Decentralized Storage offers compelling features for the health &amp; future of the internet! Along with increased resilience from censorship, peer-to-peer protocols become faster as the number of users grows. Conversely, a bottleneck is often created with centralized servers as more users are added. What does this mean for the Decentralized Web? This course will familiarize you with the basics of decentralized storage.",
-                "image" : "DecentralizedStorage.png"
+                "summary": "Decentralized Storage offers compelling features for the health &amp; future of the internet! Along with increased resilience from censorship, peer-to-peer protocols become faster as the number of users grows. Conversely, a bottleneck is often created with centralized servers as more users are added. What does this mean for the Decentralized...",
+                "image" : "DecentralizedStorage.png",
+                "author" : "ALEX MORRIS",
+                "tags" : "professional"
             },
         
             {
                 "title" : "Ethereum 101 Blockchain Beyond Bitcoin",
                 "link" : "/courses/ethereum-101-blockchain-beyond-bitcoin/",
-                "summary": "In 2008, Satoshi Nakomoto triggered a revolution in financial sovereignty with the proposal of the Bitcoin distributed ledger. In the years that followed, developers around the world proposed adaptations of this design and expanded the idea we now call blockchain.In 2015, a 19-year-old named Vitalik Buterin proposed that in addition to the value transfer functionality, the blockchain could be used to coordinate computers around the world and create a single global computer. In this course, we’ll explore how the concept of a blockchain has evolved, and help you get familiar with the terminology and concepts of decentralized computing with Ethereum as an example.This course covers the evolution of distributed ledger technology from Bitcoin to Blockchain. If you haven't yet, you may want to explore our Blockchain Center or Blockchain 101 to get up to speed on the vocabulary. Most of the topics we'll cover will not require technical knowledge, but it will help to have a clear understanding of the keywords and how different concepts relate to each other.",
-                "image" : "EthereumGrowth-1.jpg"
+                "summary": "In 2008, Satoshi Nakomoto triggered a revolution in financial sovereignty with the proposal of the Bitcoin distributed ledger. In the years that followed, developers around the world proposed adaptations of this design and expanded the idea we now call blockchain.In 2015, a 19-year-old named Vitalik Buterin proposed that in addition...",
+                "image" : "EthereumGrowth-1.jpg",
+                "author" : "Alex Morris",
+                "tags" : "beginner"
             },
         
             {
                 "title" : "Intro to Private Blockchains",
                 "link" : "/courses/hyperledger/",
-                "summary": "Welcome to our Hyperledger Introduction course! If you’re new to blockchain technology, you may want to check out our blockchain fundamentals course before getting started.If you’re already familiar with blockchain terminology, this course will teach you about how blockchains can be applied in a private ecosystem. We’ll explore the benefits of private blockchains, and how Hyperledger combines the benefits of distributed ledgers with the predictability of enterprise software.We’re here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org – we’d love to hear from you!",
-                "image" : "HyperLedger-01.png"
+                "summary": "Welcome to our Hyperledger Introduction course! If you’re new to blockchain technology, you may want to check out our blockchain fundamentals course before getting started.If you’re already familiar with blockchain terminology, this course will teach you about how blockchains can be applied in a private ecosystem. We’ll explore the benefits...",
+                "image" : "HyperLedger-01.png",
+                "author" : "ALEX MORRIS",
+                "tags" : "developer"
             },
         
             {
                 "title" : "Intro to IPFS",
                 "link" : "/courses/ipfs/",
-                "summary": "In 2017, the Interplanetary File System proposed a new way of sharing media over the internet. Instead of centralized servers, IPFS uses a peer to peer network to host files. With the Filecoin test network scheduled for launch in 2019, now is the perfect time to brush up on this technology. In this module, we’ll explore the basics of this new protocol as it compares to traditional options.",
-                "image" : "IFPS-01.png"
+                "summary": "In 2017, the Interplanetary File System proposed a new way of sharing media over the internet. Instead of centralized servers, IPFS uses a peer to peer network to host files. With the Filecoin test network scheduled for launch in 2019, now is the perfect time to brush up on this...",
+                "image" : "IFPS-01.png",
+                "author" : "ALEX MORRIS",
+                "tags" : "developer"
             }
         ], 
     "modules" : [
@@ -1048,154 +1064,198 @@
             "title": "Bitcoin Pizza Day",
             "image" : "bob_meetup_pizza_day.jpeg",
             "link": "/events/bitcoin_pizza_day",
-            "summary": "PIZZA DAYMAY 22Every year on May 22, Bitcoin supporters around the world celebrate the first transaction ever conducted on the blockchain, which was for a slice of pizza.The Blockchain Institute sponsored the Bitcoin and Open Blockchain's Pizza Day event in May 2018 with a record turnout which received mainstream media..."
+            "summary": "PIZZA DAYMAY 22Every year on May 22, Bitcoin supporters around the world celebrate the first transaction ever conducted on the blockchain, which was for a slice of pizza.The Blockchain Institute sponsored the Bitcoin and Open Blockchain's Pizza Day event in May 2018 with a record turnout which received mainstream media...",
+            "date" : "2018-05-22 00:00:00 -0500",
+            "eventdate" : "May 22nd, 2018"
         },
         
         {
             "title": "Girlcon 2018",
             "image" : "girlcon_2018.png",
             "link": "/events/girlcon_2018",
-            "summary": "GIRLCON 2018JUNE 16A special focus of the Blockchain Institute has been to promote education among younger audiences who have the potential to be the next generation of software designers.GirlCon is an annual conference in Chicago dedicated to promoting STEM education among young women. Our team helped to make blockchain education..."
+            "summary": "GIRLCON 2018JUNE 16A special focus of the Blockchain Institute has been to promote education among younger audiences who have the potential to be the next generation of software designers.GirlCon is an annual conference in Chicago dedicated to promoting STEM education among young women. Our team helped to make blockchain education...",
+            "date" : "2018-06-16 00:00:00 -0500",
+            "eventdate" : "June 16th, 2018"
         },
         
         {
             "title": "The Bitcoin Standard Book Signing",
             "image" : "bitcoin_standard.jpg",
             "link": "/events/bitcoin_standard_book_signing",
-            "summary": "BITCOIN STANDARD BOOK SIGNINGAUGUST 11One of the ways the institute has helped build the Chicago community is by attracting experts to speak at local events, which ensures that Chicago’s blockchain enthusiasts can stay up to date and involved in this rapidly evolving industry.We teamed up with the Bitcoin and Open..."
+            "summary": "BITCOIN STANDARD BOOK SIGNINGAUGUST 11One of the ways the institute has helped build the Chicago community is by attracting experts to speak at local events, which ensures that Chicago’s blockchain enthusiasts can stay up to date and involved in this rapidly evolving industry.We teamed up with the Bitcoin and Open...",
+            "date" : "2018-08-11 00:00:00 -0500",
+            "eventdate" : "August 11th, 2018"
         },
         
         {
             "title": "International Blockchain Congress",
             "image" : "international_blockchain_congress_2018.png",
             "link": "/events/IBC_2018",
-            "summary": "INTERNATIONAL BLOCKCHAIN CONGRESSAUGUST 17One key way that the Institute promotes adoption is by content creation and distribution. Our delegates will be providing educational resources as well as recording the event, so stop by our booth and get in on the action!The International Blockchain Congress is held annually in Chicago to..."
+            "summary": "INTERNATIONAL BLOCKCHAIN CONGRESSAUGUST 17One key way that the Institute promotes adoption is by content creation and distribution. Our delegates will be providing educational resources as well as recording the event, so stop by our booth and get in on the action!The International Blockchain Congress is held annually in Chicago to...",
+            "date" : "2018-09-17 00:00:00 -0500",
+            "eventdate" : "August 17th, 2018"
         },
         
         {
             "title": "Voice of Blockchain 2018",
             "image" : "VOB_2018.png",
             "link": "/events/VOB_2018",
-            "summary": "VOICE OF BLOCKCHAINAUGUST 23The Blockchain Institute is proud to sponsor the Voice of Blockchain. The VoB event was held at Navy Pier in Chicago, and attracted a wide range of speakers from across the cryptocurrency and blockchain industry. The event was split into four tracks innovation, social good, fintech, and..."
+            "summary": "VOICE OF BLOCKCHAINAUGUST 23The Blockchain Institute is proud to sponsor the Voice of Blockchain. The VoB event was held at Navy Pier in Chicago, and attracted a wide range of speakers from across the cryptocurrency and blockchain industry. The event was split into four tracks innovation, social good, fintech, and...",
+            "date" : "2018-09-23 00:00:00 -0500",
+            "eventdate" : "August 23rd, 2018"
         },
         
         {
             "title": "South Side Blockchain Meetup",
             "image" : "south_side_blockchain_logo.png",
             "link": "/events/south_side_blockchain",
-            "summary": "SOUTH SIDE BLOCKCHAIN MEETUPOCTOBER 13On October 13th the Blockchain Institute was proud to sponsor the South Side Blockchain Meetup. Eager programmers of all skill levels participated in the event. The topic focused on the Loom Network and their gamified Solidity tutorial, Crypto Zombies.Crypto Zombies is a web app that creates..."
+            "summary": "SOUTH SIDE BLOCKCHAIN MEETUPOCTOBER 13On October 13th the Blockchain Institute was proud to sponsor the South Side Blockchain Meetup. Eager programmers of all skill levels participated in the event. The topic focused on the Loom Network and their gamified Solidity tutorial, Crypto Zombies.Crypto Zombies is a web app that creates...",
+            "date" : "2018-10-13 00:00:00 -0500",
+            "eventdate" : "October 13th, 2018"
         },
         
         {
             "title": "Loyalty Live",
             "image" : "loyalty_live.jpg",
             "link": "/events/loyalty_live",
-            "summary": "LOYALTY MEETS BLOCKCHAINOCTOBER 16From October 16-18 the Loyalty Live Blockchain Conference took place in Chicago. Experts in the loyalty and blockchain fields met to discuss how the two can intersect.Top executives from Walmart, DigitalFutures, RewardOps, and DigitalBits were all in attendance to collaborate in discussions on integrating blockchain solutions into..."
+            "summary": "LOYALTY MEETS BLOCKCHAINOCTOBER 16From October 16-18 the Loyalty Live Blockchain Conference took place in Chicago. Experts in the loyalty and blockchain fields met to discuss how the two can intersect.Top executives from Walmart, DigitalFutures, RewardOps, and DigitalBits were all in attendance to collaborate in discussions on integrating blockchain solutions into...",
+            "date" : "2018-10-16 00:00:00 -0500",
+            "eventdate" : "October 16th, 2018"
         },
         
         {
             "title": "Blockress Workshop",
             "image" : "blockressworkshop2019.png",
             "link": "/events/blockress_workshop2019/",
-            "summary": "The 3rd International Blockchain Congress took place April 2nd at Chicago’s AON Center. Over 50 Blockchain professionals spoke on various enterprise blockchain topics.The Institutes Managing Director, Hannah Rosenberg, led a panel of 4 in a discussion of real examples of blockchain technology in practice. The panel covered when and how..."
+            "summary": "The 3rd International Blockchain Congress took place April 2nd at Chicago’s AON Center. Over 50 Blockchain professionals spoke on various enterprise blockchain topics.The Institutes Managing Director, Hannah Rosenberg, led a panel of 4 in a discussion of real examples of blockchain technology in practice. The panel covered when and how...",
+            "date" : "2019-04-02 00:00:00 -0500",
+            "eventdate" : "April 2, 2019"
         },
         
         {
             "title": "Explore Engineering",
             "image" : "EE-4-18-19-4899.jpg",
             "link": "/events/explore_engineering_2019",
-            "summary": "Amos Alonzo Stagg High School hosted Explore Engineering which is a Chicago-based event aimed to introduce high school students into the vast field of engineering.The Blockchain Institute team provided educational materials and answered questions at the booth throughout the event."
+            "summary": "Amos Alonzo Stagg High School hosted Explore Engineering which is a Chicago-based event aimed to introduce high school students into the vast field of engineering.The Blockchain Institute team provided educational materials and answered questions at the booth throughout the event.",
+            "date" : "2019-04-18 00:00:00 -0500",
+            "eventdate" : "April 18, 2019"
         },
         
         {
             "title": "Chicago Universities Blockchain Summit",
             "image" : "IMG_1969.jpg",
             "link": "/events/chicago_universities_blockchain_summit_2019",
-            "summary": "On May 18th, Blockchain Institute sponsored Chicago University Blockchain Summit Conference at Northwestern University at the Pritzker Pavilion Downtown Chicago, IL. The event was put on by several Illinois universities intent on highlighting the many benefits of this transformative new technology. Clubs from Northwestern University, University of Chicago, DePaul University,..."
+            "summary": "On May 18th, Blockchain Institute sponsored Chicago University Blockchain Summit Conference at Northwestern University at the Pritzker Pavilion Downtown Chicago, IL. The event was put on by several Illinois universities intent on highlighting the many benefits of this transformative new technology. Clubs from Northwestern University, University of Chicago, DePaul University,...",
+            "date" : "2019-05-18 00:00:00 -0500",
+            "eventdate" : "May 18, 2019"
         },
         
         {
             "title": "Girlcon 2019",
             "image" : "20190615_fjs_chicago_74.jpg",
             "link": "/girlcon_2019/",
-            "summary": "Blockchain Institute was proud to sponsor and participate in Girlcon 2019! GirlCon is an annual Chicago-based event that takes place in mid-June that focuses on empowering the next generation of female leaders. GirlCon has breakout sessions from numerous companies that the attendees will have the opportunity to learn from and..."
+            "summary": "Blockchain Institute was proud to sponsor and participate in Girlcon 2019! GirlCon is an annual Chicago-based event that takes place in mid-June that focuses on empowering the next generation of female leaders. GirlCon has breakout sessions from numerous companies that the attendees will have the opportunity to learn from and...",
+            "date" : "2019-06-15 00:00:00 -0500",
+            "eventdate" : "June 15, 2019"
         },
         
         {
             "title": "Chicagobility 2019",
             "image" : "IMG_5984.jpg",
             "link": "/events/chicagobility_2019/",
-            "summary": "The Family Matters nonprofit, working in partnership with the City of Chicago and their Chicagobility program arranges a summer program to teach and inspire teens between the ages of 14-16 with educational programming.This year, during their technology week, Managing Director Hannah Rosenberg stopped by to teach attendees about the basics..."
+            "summary": "The Family Matters nonprofit, working in partnership with the City of Chicago and their Chicagobility program arranges a summer program to teach and inspire teens between the ages of 14-16 with educational programming.This year, during their technology week, Managing Director Hannah Rosenberg stopped by to teach attendees about the basics...",
+            "date" : "2019-07-15 00:00:00 -0500",
+            "eventdate" : "July 15th, 2019"
         },
         
         {
             "title": "Blockchain Training Conference 2019",
             "image" : "BTC2019.png",
             "link": "/events/blockchain_training_conference_2019_190828",
-            "summary": "Blockchain Training Conference 2019August 28th-30th, 2019In August, The Blockchain Institute’s Managing Director, Hannah Rosenberg, taught a session at the Blockchain Training Conference in Denver.Organized by C4 (CryptoCurrency Certification Consortium) and aantonop Events, BTC2019 is an educational conference designed with learning objectives in mind and teachers that care about what you..."
+            "summary": "Blockchain Training Conference 2019August 28th-30th, 2019In August, The Blockchain Institute’s Managing Director, Hannah Rosenberg, taught a session at the Blockchain Training Conference in Denver.Organized by C4 (CryptoCurrency Certification Consortium) and aantonop Events, BTC2019 is an educational conference designed with learning objectives in mind and teachers that care about what you...",
+            "date" : "2019-09-28 00:00:00 -0500",
+            "eventdate" : "Wednesday August 28, 2019"
         },
         
         {
             "title": "Voice of Blockchain 2019",
             "image" : "vobthumb.jpeg",
             "link": "/events/voiceofblockchain2019",
-            "summary": "Voice of Blockchain 2019September 30th - October 1, 2019The Annual Voice of Blockchain conference in Chicago brings together decentralized ledger professionals from across America and around the world. This years’ topics include sovereign identity and digital privacy among others.Our Executive Director, Taylor Gerring, presented a rousing keynote discussing the future..."
+            "summary": "Voice of Blockchain 2019September 30th - October 1, 2019The Annual Voice of Blockchain conference in Chicago brings together decentralized ledger professionals from across America and around the world. This years’ topics include sovereign identity and digital privacy among others.Our Executive Director, Taylor Gerring, presented a rousing keynote discussing the future...",
+            "date" : "2019-09-30 00:00:00 -0500",
+            "eventdate" : "Monday September 30, 2019"
         },
         
         {
             "title": "Bitcoin Halving Does It Even Matter?",
             "image" : "BitcoinHalvingThumb.jpeg",
             "link": "/events/bitcoin_halving_mining_meetup_191105",
-            "summary": "Tuesday November 5th, 2019The Halving refers to upcoming changes to the Bitcoin production rate. This meetup sponsored by our partner organization will help you learn what you need to know.Full Event Details Here: https://www.meetup.com/Chicago-Blockchain-Cryptocurrency-Mining-Meetup/events/264966116"
+            "summary": "Tuesday November 5th, 2019The Halving refers to upcoming changes to the Bitcoin production rate. This meetup sponsored by our partner organization will help you learn what you need to know.Full Event Details Here: https://www.meetup.com/Chicago-Blockchain-Cryptocurrency-Mining-Meetup/events/264966116",
+            "date" : "2019-11-05 00:00:00 -0600",
+            "eventdate" : "November 5th, 2019"
         },
         
         {
             "title": "HKU Blockchain Workshop",
             "image" : "hku_blockchain_workshop.jpg",
             "link": "/events/HKU_blockchain_workshop",
-            "summary": "HKU BLOCKCHAIN WORKSHOPNOVEMBER 12Digital Ledger technology and distributed computing have come a long way. The Blockchain Institute’s founder, Taylor Gerring spoke earlier this month at Hong Kong University’s Blockchain Center. The institute will be working with the university to provide blockchain educational material.[caption id=”attachment_900” align=”aligncenter” width=”1278”] The talk covered the..."
+            "summary": "HKU BLOCKCHAIN WORKSHOPNOVEMBER 12Digital Ledger technology and distributed computing have come a long way. The Blockchain Institute’s founder, Taylor Gerring spoke earlier this month at Hong Kong University’s Blockchain Center. The institute will be working with the university to provide blockchain educational material.[caption id=”attachment_900” align=”aligncenter” width=”1278”] The talk covered the...",
+            "date" : "2019-11-12 00:00:00 -0600",
+            "eventdate" : "November 12th, 2019"
         },
         
         {
             "title": "The Crypto Curious Course",
             "image" : "ccc_jan25_2020.png",
             "link": "/events/CCC_Nov16_2019",
-            "summary": "The Crypto Curious CourseSaturday November 16, 2019 (10:00 AM - 2:00 PM) DetailsOur first in-person class at the Blockchain Institute is  here!The Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work on a blockchain and see the powerful potential..."
+            "summary": "The Crypto Curious CourseSaturday November 16, 2019 (10:00 AM - 2:00 PM) DetailsOur first in-person class at the Blockchain Institute is  here!The Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work on a blockchain and see the powerful potential...",
+            "date" : "2019-11-16 00:00:00 -0600",
+            "eventdate" : "November 16th, 2019"
         },
         
         {
             "title": "Junior Economic Club Workshop",
             "image" : "junior_economic_club.jpg",
             "link": "/events/junior_economic_club_workshop",
-            "summary": "Junior Economic Club WorkshopSaturday, January 14, 2019 DetailsJeremy from the Blockchain Institute led a workshop for the Junior Economic Club of Chicago helping explain what exactly a blockchain is and how they work. The students were able to test out a new activity that let them play the part of..."
+            "summary": "Junior Economic Club WorkshopSaturday, January 14, 2019 DetailsJeremy from the Blockchain Institute led a workshop for the Junior Economic Club of Chicago helping explain what exactly a blockchain is and how they work. The students were able to test out a new activity that let them play the part of...",
+            "date" : "2019-12-14 00:00:00 -0600",
+            "eventdate" : "December 14th, 2019"
         },
         
         {
             "title": "The Crypto Curious Course",
             "image" : "ccc_jan25_2020.png",
             "link": "/events/CCC_Jan25_2020",
-            "summary": "The Crypto Curious CourseSaturday January 25, 2020 (10:00 AM - 2:00 PM)Scroll down to see photos from this event and click here to find out about the next course.DetailsThe Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work..."
+            "summary": "The Crypto Curious CourseSaturday January 25, 2020 (10:00 AM - 2:00 PM)Scroll down to see photos from this event and click here to find out about the next course.DetailsThe Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work...",
+            "date" : "2020-01-25 00:00:00 -0600",
+            "eventdate" : "January 25th, 2020"
         },
         
         {
             "title": "BITDEVS CHI – Socratic Seminar 6",
             "image" : "bitdevschithumb.jpeg",
             "link": "/events/bitdevschi_socratic_seminar_6_200219",
-            "summary": "Wednesday, February 19, 2020 (7:00 pm – 9:00 pm)DetailsBitDevs Chicago is a consensus compatible fork of BitDevs NYC. They discuss Bitcoin protocol developments, computer security related to cryptocurrency, and other relevant topics in the cryptocurrency ecosystem.On Wednesday, Bitdevs Chi will be holding their sixth Socratic seminar at Blockchain Institute’s location..."
+            "summary": "Wednesday, February 19, 2020 (7:00 pm – 9:00 pm)DetailsBitDevs Chicago is a consensus compatible fork of BitDevs NYC. They discuss Bitcoin protocol developments, computer security related to cryptocurrency, and other relevant topics in the cryptocurrency ecosystem.On Wednesday, Bitdevs Chi will be holding their sixth Socratic seminar at Blockchain Institute’s location...",
+            "date" : "2020-02-19 00:00:00 -0600",
+            "eventdate" : "February 19th, 2020"
         },
         
         {
             "title": "The Crypto Curious Course",
             "image" : "CCC_February_2020.png",
             "link": "/events/CCC_Feb_22_2020",
-            "summary": "Saturday February 22, 2020 (10:00 AM - 2:00 PM) DetailsThe Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work on a blockchain and see the powerful potential of decentralized technology.Learn about what Bitcoin is, where it came from..."
+            "summary": "Saturday February 22, 2020 (10:00 AM - 2:00 PM) DetailsThe Crypto Curious Course is a four-hour workshop with a simple goal: You will walk away from it understanding how transactions work on a blockchain and see the powerful potential of decentralized technology.Learn about what Bitcoin is, where it came from...",
+            "date" : "2020-02-22 00:00:00 -0600",
+            "eventdate" : "Saturday February 22, 2020"
         },
         
         {
             "title": "Hyperledger 2020 Chicago Kickoff",
             "image" : "Hyperledger-blockchain-tech-for-business-534x300.jpeg",
             "link": "/events/hyperledger_2020_kickoff",
-            "summary": "Thursday, March 19, 2020 (5:30 PM – 7:30 PM)DetailsNvisia in partnership with the Chicago Blockchain Center and hosted at the new Blockchain Institute are pleased to present the first Hyperledger meetup of 2020 in Chicago.Join us for food, drinks, and a panel discussion focused on Hyperledger use cases and applications.Find..."
+            "summary": "Thursday, March 19, 2020 (5:30 PM – 7:30 PM)DetailsNvisia in partnership with the Chicago Blockchain Center and hosted at the new Blockchain Institute are pleased to present the first Hyperledger meetup of 2020 in Chicago.Join us for food, drinks, and a panel discussion focused on Hyperledger use cases and applications.Find...",
+            "date" : "2020-03-19 00:00:00 -0500",
+            "eventdate" : "Thursday March 19, 2020"
         }
         ]
 }
