@@ -54,5 +54,3 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 How does cryptocurrency relate to blockchains? We'll cover that in our next lesson.
 
-&nbsp;
-</span>
