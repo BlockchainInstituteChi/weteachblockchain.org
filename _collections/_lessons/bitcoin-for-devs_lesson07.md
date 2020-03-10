@@ -79,5 +79,7 @@ While we won’t dive into differing consensus algorithms here, it is important 
 
 While Bitcoin is a software project, the network that it creates is sustained and managed with incentives and game theory. Let’s take a look at how that protects the network in the below video:
 
+<iframe width="910" height="512" src="https://www.youtube.com/embed/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 https://youtu.be/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK
-<span class="imageCaption"><span class="mainImageTitle">HOW DO BLOCKCHAINS STAY SECURE?!?!?</span> // Blockchain.WTF</span></span>
+<span class="imageCaption"><span class="mainImageTitle">HOW DO BLOCKCHAINS STAY SECURE?!?!?</span> // Blockchain.WTF</span>
