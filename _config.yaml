@@ -16,6 +16,12 @@ collections:
   lessons:
     output: true
 
+  team:
+    output: false
+
+  board:
+    output: false
+
 sass:
     load_paths:
         - _sass
