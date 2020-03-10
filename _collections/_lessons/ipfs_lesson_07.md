@@ -19,4 +19,4 @@ When your node uploads or requests a file, these other nodes will receive your r
 <h3>WHAT'S NEXT?</h3>
 <hr />
 
-In the next section, we'll walk you through the IPFS command line utility and explore how IPFS storage and addressing work in a bit more detail. If you're not a developer you might still want to try to follow along. The final section of this course covers the various decentralized storage projects, and it will help to understand the specifics before you get there.</span>
+In the next section, we'll walk you through the IPFS command line utility and explore how IPFS storage and addressing work in a bit more detail. If you're not a developer you might still want to try to follow along. The final section of this course covers the various decentralized storage projects, and it will help to understand the specifics before you get there.
