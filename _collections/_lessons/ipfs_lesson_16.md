@@ -82,4 +82,4 @@ The TOR Browser is one of the oldest privacy tools on the internet, dating back 
 <hr />
 <em>Congratulations, you're now a decentralized storage aficionado. As always, please feel free to contact us if you're interested in more content related to this topic, or if there's anything we can do to clarify the lessons explained in this course. Happy #buidling!</em>
 <h3></h3>
-<em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em></span>
+<em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em>
