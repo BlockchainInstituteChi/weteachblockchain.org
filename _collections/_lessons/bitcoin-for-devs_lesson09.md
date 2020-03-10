@@ -140,4 +140,4 @@ Generate a new address to receive coins
 <code class="cli">$ bitcoin-cli [-regtest or -testnet] getnewaddress</code>
 Check your balance
 <code class="cli">$ bitcoin-cli [-regtest or -testnet] getbalance</code>
-Now that we’ve had a chance to experience bitcoin on the command line, let’s take a step back in our next lesson and be sure we understand in more depth what a bitcoin is.</span>
+Now that we’ve had a chance to experience bitcoin on the command line, let’s take a step back in our next lesson and be sure we understand in more depth what a bitcoin is.
