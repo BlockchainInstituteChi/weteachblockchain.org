@@ -17,6 +17,7 @@ A hash function takes an input value and creates an output value deterministic o
 
 <img class="aligncenter wp-image-1580 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1_b-02.png" alt="" width="9038" height="4188" />
 <h4>Properties of hashes:</h4>
+
 <ul>
  	<li>    Fixed length</li>
  	<li>    No matter the size of the input, the output will be a uniform size</li>
@@ -88,15 +89,21 @@ This competition plays out with a miner winning the competition and receiving a 
 In the next lesson, we’ll see how this competition determines which transaction in a double spend is valid and which is rejected. But first, here are some Mining Terms to get familiar with:
 <div class="blueTitleNote"><b>DIFFICULTY</b>
 The number of leading zeros that a block hash should have.</div>
+
 <div class="blueTitleNote"><b>BLOCK REWARD</b>
 The amount of BTC given to a miner when their block is accepted by the network.</div>
+
 <div class="blueTitleNote"><b>BLOCK TIME</b>
 A measure of how long it will take the hashing power of the network to find a solution to the block hash, on average.</div>
+
 <div class="blueTitleNote"><b>HASH RATE</b>
 The estimated number of terahash per second the Bitcoin network is performing.</div>
+
 <div class="blueTitleNote"><b>HASHING POWER</b>
 The hash rate of a particular mining computer.</div>
+
 <div class="blueTitleNote"><b>APPLICATION SPECIFIC INTEGRATED CIRCUIT (ASIC)</b>
 A computer chip built for a specific purpose.</div>
+
 <div class="blueTitleNote"><b>HALVING</b>
-The date, roughly every four years, when the block reward is reduced by half.</div></span>
+The date, roughly every four years, when the block reward is reduced by half.</div>
