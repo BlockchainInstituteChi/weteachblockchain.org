@@ -3259,7 +3259,7 @@ div#searchResults { max-height: 50vh; overflow: scroll; height: 50vh; }
 
 .searchResults span.summary { font-size: 0.75em; color: grey; }
 
-.searchResults img { width: auto; max-height: 4em; max-width: 20%; margin-top: 0.5em; }
+.searchResults img { width: auto; max-height: 4em; max-width: 20%; margin-top: 0.5em; min-width: 20%; }
 
 .searchResults .infoContainer { display: inline-block; max-width: 75%; padding-left: 1em; }
 
