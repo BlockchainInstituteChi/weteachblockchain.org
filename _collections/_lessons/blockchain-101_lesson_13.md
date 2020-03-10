@@ -27,4 +27,4 @@ permalink: /courses/blockchain-101/02/51-percent-attacks
 
 <br>
 
-You've completed the second module of this course! By now you've learned about the architecture or blockchains, how they stay secure, and how cryptocurrency is mined. Head over to our next module to see the potential impact that blockchain technology may offer.</span>
+You've completed the second module of this course! By now you've learned about the architecture or blockchains, how they stay secure, and how cryptocurrency is mined. Head over to our next module to see the potential impact that blockchain technology may offer.
