@@ -22,6 +22,9 @@ collections:
   board:
     output: false
 
+  pressReleases:
+    output: false    
+
 sass:
     load_paths:
         - _sass
