@@ -20,5 +20,3 @@ When you reach the page, you'll be able to upload and download files from IPFS u
 Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!
 </div>
 
-&nbsp;
-&nbsp;</span>
