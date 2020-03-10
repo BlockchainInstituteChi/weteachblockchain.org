@@ -115,4 +115,4 @@ Further Reading:
 
 &nbsp;
 
-We’ll have a look at chain codes and HD wallets in the next lesson.</span>
+We’ll have a look at chain codes and HD wallets in the next lesson.
