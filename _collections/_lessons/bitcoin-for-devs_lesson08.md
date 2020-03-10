@@ -107,4 +107,4 @@ Further reading can be found here:
 
 <hr />
 
-In the next section we’ll get into technical specifics starting with setting up a node.</span>
+In the next section we’ll get into technical specifics starting with setting up a node.
