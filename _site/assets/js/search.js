@@ -145,14 +145,14 @@ function addResultToResultsContainer (container, data) {
         title.className = "title"
         title.textContent = data.title
 
-    var score = document.createElement('span')
-        score.className = "score"
-        score.textContent = data.score
+    // var score = document.createElement('span')
+    //     score.className = "score"
+    //     score.textContent = data.score
 
     row.appendChild(img)
     infoContainer.appendChild(title)
     infoContainer.appendChild(summary)
-    infoContainer.appendChild(score)
+    // infoContainer.appendChild(score)
     row.appendChild(infoContainer)
     link.appendChild(row)
     container.appendChild(link)

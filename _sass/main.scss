@@ -158,8 +158,8 @@ span.cancelSearchButton {
 div#searchResults {
     max-height: 50vh;
     overflow: scroll;
+    height: 50vh;
 }
-
 .searchResults img {
     max-width: 20%;
 }
@@ -173,10 +173,10 @@ div#searchResults {
     color: grey;
 }
 .searchResults img {
-    width: 20%;
+    width: auto;
+    max-height: 4em;
     max-width: 20%;
-    height: auto;
-    display: inline-block;
+    margin-top: 0.5em;
 }
 .searchResults .infoContainer {
     display: inline-block;
@@ -194,7 +194,7 @@ div#searchResults {
 
 /* Lightbox */
 .lightbox {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background: #252424d9;
