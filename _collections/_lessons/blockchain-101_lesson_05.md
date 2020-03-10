@@ -6,11 +6,8 @@ title: The Byzantine Generals Problem
 permalink: /courses/blockchain-101/01/the-byzantine-generals-problem
 ---
 
-<span> <div style="text-align: center;">
-
 <iframe width="1024" height="475" src="https://www.youtube.com/embed/PVYGtH7if8I?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</div>
 
 <span class="openingParagraph">The Byzantine Generals’ Problem is a classic problem faced by any distributed computer system network. It addresses the question of how a distributed computer network can reach a reliable consensus even when some of the nodes (computers) on the network may attempt to pass along fraudulent information. The internet has opened up many new avenues for commerce and education, but how can we trust a random person across the world?</span>
 &nbsp;
@@ -32,10 +29,5 @@ permalink: /courses/blockchain-101/01/the-byzantine-generals-problem
 <div class="learnpressImageCaption">The network of generals is able to communicate with each other in order to verify the messages being transmitted. If there is a discrepancy, it is easy to identify who is the traitor. Bitcoin uses the same exact method of checking transactions. Instead of decision-making generals communicating a plan of attack, Bitcoin nodes communicate the validity of transactions.  Nodes make up a peer-to-peer network that checks the validity of the messages that other nodes are sending; the nodes that make up the Bitcoin network are constantly double checking other nodes.</div>
 &nbsp;
 &nbsp;
-<span style="font-weight: 400;">In the computer science world, this problem refers to the possibility of having to cope with the failure of some of the components (nodes/the generals) in the system. If a problem with a node arises, the whole network will NOT grind to a halt. Rather, blocks will continue to be produced as normal. This term is used frequently in the blockchain world as it refers to the problem of reaching consensus in a public blockchain, where not all parties can be assumed to be trustworthy.     </span>
+<span style="font-weight: 400;">In the computer science world, this problem refers to the possibility of having to cope with the failure of some of the components (nodes/the generals) in the system. If a problem with a node arises, the whole network will NOT grind to a halt. Rather, blocks will continue to be produced as normal. This term is used frequently in the blockchain world as it refers to the problem of reaching consensus in a public blockchain, where not all parties can be assumed to be trustworthy.
 
-&nbsp;
-
-&nbsp;
-<h4></h4>
-</span>
