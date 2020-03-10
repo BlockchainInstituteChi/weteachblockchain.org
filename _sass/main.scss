@@ -129,12 +129,59 @@ nav i {
 a.nav-link i:hover {
     color: #0d72aa;
 }
+li.nav-item.navbox {
+    padding-right: 0.5em;
+    padding-left: 1em;
+    // border-left: lightgrey 1px solid;
+}
+
+/* Hover Nav Box */
+.hoverNavbox {
+    width: 50%;
+    position: absolute;
+    right: 5em;
+    background: $brand-green;
+    z-index: 1000;
+    color: white;
+}
+.hoverNavbox li {
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+}
+.hoverNavbox a {
+    color: white;
+    padding: 0;
+}
+.hoverNavbox h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+.hoverNavbox ul {
+    padding-left: 0;
+}
+.hoverNavbox .row {
+    max-width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.hoverNavbox a:hover {
+    color: $brand-blue !important;
+}
+li.nav-item.contactUsLink {
+    padding: 0.5em;
+}
+.contactUsLink a {
+    text-transform: uppercase;
+    color: $brand-red;
+}
 
 /* Search */
 li.nav-item.search {
-    padding-right: 1em;
-    padding-left: 1em;
-    border-left: lightgrey 1px solid;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    // border-left: lightgrey 1px solid;
 }
 .searchInterface {
     width: 50%;
