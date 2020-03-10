@@ -10,6 +10,7 @@ permalink: /courses/bitcoin-for-developers/2/public-and-private-keys
 <span class="openingParagraph">Asymmetric cryptographic algorithms were first developed in the 1970s and are fundamental to so many of the technologies we use today. It’s used on any secured page on the internet, on your cell phone, at your bank, etc.</span>
 
 The first asymmetric algorithms:
+<br>
 <ul>
  	<li>Diffie–Hellman key exchange
 <ul>
@@ -101,4 +102,4 @@ And now that we’ve covered some basics, we’ll be diving into decentralizatio
 
 <hr />
 
-Further reading: <a href="https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">A (relatively easy to understand) primer on elliptic curve cryptography.</a></span>
+Further reading: <a href="https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">A (relatively easy to understand) primer on elliptic curve cryptography.</a>
