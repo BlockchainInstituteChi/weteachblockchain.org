@@ -8,7 +8,7 @@
   link: /resources/
   class: normal
 - name: About
-  link: /team/
+  link: /about/
   class: normal
 - name: Developer Bootcamp
   link: /developer-toolkit/

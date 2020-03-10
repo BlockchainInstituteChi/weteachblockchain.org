@@ -1,0 +1,60 @@
+---
+layout: default
+title: About Us
+stylesheet: pressReleases.css
+permalink: /press-releases/
+---
+
+
+<!-- events.html -->
+<section class="pageHeaderImage" style="background:url(/assets/img/team-banner.png);background-size:cover;background-position:center;">
+	<div class="row">
+		<div class="col-sm-6">
+			<h1>Press Releases</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+			<a href="/courses/contact-us/" target="_blank" class="callToActionButton">Sign Up For Our Newsletter</a>
+        </div>
+    </div>
+	
+</section>
+<section class="pressReleases">
+    <div class="row">
+            
+		{% assign sorted = site.pressReleases | sort: 'date' | reverse %}
+        {% for item in sorted %}
+        
+            <div class="col-md-12">
+                <h1>{{ item.title }}</h1>
+                <span>{{ item.eventdate }}</span>
+                {{ item.content }}
+            </div>
+            
+        {% endfor %}
+     
+	</div>
+
+</section>
+
+
+<section class="pinkStripesDivider">
+	
+</section>
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Recent Events</h1>
+	<div class="row">
+		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3 %}
+		{% for event in sorted limit: 4 %}
+	
+			{% if event.date < site.time  %}
+				<div class="eventTile"> 
+					<a target="_blank" href="{{ event.permalink }}">
+						<img src="/assets/img/{{event.image}}"/>
+						<h1>{{ event.title }}</h1>
+						<span>{{ event.eventdate }}</span>
+					</a>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+
+</section>
