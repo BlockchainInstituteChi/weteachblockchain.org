@@ -6,13 +6,9 @@ title: Properties of a Blockchain
 permalink: /courses/blockchain-101/01/properties-of-a-blockchain
 ---
 
-<span>
-
-<div style="text-align: center;">
-
 <iframe src="https://www.youtube.com/embed/Urc99JnsgT8?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-</div>
+
 <span class="openingParagraph">A <strong>blockchain</strong> is a <strong>decentralized ledger</strong> that records all transactions that are visible on a public network. Blockchain's architecture allows these transactions to be <strong>autonomous and immutable</strong> while using cryptography and network architecture for security. Every transaction is permanently recorded to the blockchain and cannot be altered in any way.
 </span>
 
@@ -47,5 +43,3 @@ Each computer running the blockchain’s software has a copy of all the informat
 
 Each consensus mechanism has its own set of rules; it might help to think of them like sealing an envelope. Once all the messages (transactions) are inside, there is a set of rules that dictate who may seal the envelope (block) and under what conditions.
 
-</div>
-&nbsp; </span>
