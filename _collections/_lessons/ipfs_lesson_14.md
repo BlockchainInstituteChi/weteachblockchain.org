@@ -19,4 +19,4 @@ The complication in Proof of Replication is that a node might pretend to store a
 &nbsp;
 <h3>PROOF OF SPACETIME</h3>
 <hr />
-While this might sound like something out of Star Trek, it's one of the main innovations created by the Filecoin team. Once this problem is resolved, the network will be able to sufficiently prove that a file is not only currently present on a particular node, but that it has been there over a particular period of time.</span>
+While this might sound like something out of Star Trek, it's one of the main innovations created by the Filecoin team. Once this problem is resolved, the network will be able to sufficiently prove that a file is not only currently present on a particular node, but that it has been there over a particular period of time.
