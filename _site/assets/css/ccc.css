@@ -3251,7 +3251,7 @@ span.cancelSearchButton { color: white; font-size: 3em; position: absolute; righ
 
 .searchInterface input { width: 100%; border-radius: 0.25em; padding: 0.5em; }
 
-div#searchResults { max-height: 50vh; overflow: scroll; height: 50vh; }
+div#searchResults { max-height: 50vh; overflow: scroll; height: 50vh; overflow-x: hidden; }
 
 .searchResults img { max-width: 20%; }
 
@@ -3360,6 +3360,15 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 .upcomingEventsFooter .eventTile h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; }
 
 .upcomingEventsFooter .eventTile span { font-size: 0.75em; text-transform: uppercase; color: #2eac9d; }
+
+/* Tile Items */
+.tileItem { width: 25%; overflow: hidden; display: inline-block; margin-right: 1em; }
+
+.tileItem img { width: 100%; }
+
+.tileItem h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; }
+
+.tileItem span { font-size: 0.75em; text-transform: uppercase; color: #2eac9d; }
 
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }

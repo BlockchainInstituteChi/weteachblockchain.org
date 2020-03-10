@@ -1,6 +1,3 @@
-console.log('search initialized');
-
-var searchIndex;
 
 function initSearch () {
 
@@ -12,7 +9,7 @@ function initSearch () {
 
         window.searchData = data;
 
-        searchIndex = lunr(function () {
+        window.searchIndex = lunr(function () {
             console.log('initializing lunr')
 
             this.ref('id')
@@ -82,7 +79,7 @@ function toggleDisplaySearchLightbox () {
 function refreshSearchResults () {
     if ( typeof (window.searchData) != "undefined") {
         var searchTerm = document.getElementById('searchInput').value;
-        var searchResult = searchIndex.search(searchTerm)
+        var searchResult = window.searchIndex.search(searchTerm)
 
         console.log("found search result: ", searchResult)
         

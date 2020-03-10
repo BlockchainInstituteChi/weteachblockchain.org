@@ -25,7 +25,7 @@
 
     <link
     rel=stylesheet id=olympus-google-fonts-css  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100i%2C300i%2C400i%2C500i%2C700i%2C900i%7CKanit%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=cyrillic%2Cvietnamese%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Clatin%2Clatin-ext%2Cthai&#038;display=swap&#038;ver=1.9.7' type=text/css media=all>
-    
+    <link rel=stylesheet href="/assets/css/404.css">
       <script src="https://script.crazyegg.com/pages/scripts/0073/9552.js" async="async"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
@@ -143,9 +143,231 @@
   </div>
 </div>
     </div>
-    <h1 id="404">404</h1>
+    <script>
 
-<p>Page not found! :(</p>
+window.onload = function(){
+
+	console.log('getSuggestedPages initialized')
+
+	if ( typeof(window.searchIndex) === "undefined" ) {
+		initSearch();
+		
+	} else {
+		
+	}
+
+	setTimeout(getSuggestedPages, 1000);
+
+}
+
+function getSuggestedPages () {
+
+
+	var currentUrlParts = window.location.href.split('/');
+	var searchString = "";
+
+	console.log('failed url parts', currentUrlParts)
+
+	for ( var x = 3; x < currentUrlParts.length; x++ ) {
+		searchString += " " + currentUrlParts[x]
+	}
+
+	console.log('found potential search string', searchString)
+
+	var searchResult = window.searchIndex.search(searchString)
+
+	console.log('searchResult', searchResult)
+
+	if ( searchResult.length > 0 ) {
+		deleteAllSuggestedPages()
+
+		for ( var i = 0; i < 3; i++ ) {
+
+			var pageData = lookupResultRecord(searchResult[i]);
+			displaySuggestedPage(pageData)
+
+		}
+
+	}
+
+}
+
+function displaySuggestedPage (pageData) {
+
+	var suggestedPagesContainer = document.getElementById('suggestedPages');
+
+	var tile = document.createElement('div')
+		tile.className = "tileItem"
+
+	var aCon = document.createElement('a')
+		aCon.target = "_blank"
+		aCon.href = pageData.link
+	
+	var img = document.createElement('img')
+		img.src = "/assets/img/" + pageData.image
+
+	var title = document.createElement('h1')
+		title.textContent = pageData.title
+
+	var data = document.createElement('span')
+
+	if ( typeof (pageData.author) != 'undefined' ) {
+		data.textContent = pageData.author
+	} else if ( typeof (pageData.eventdate) != "undefined" ) {
+		data.textContent = pageData.eventdate
+	} else if ( typeof (pageData.summary ) != "undefined" ) {
+		data.textContent = pageData.summary
+	}
+
+	aCon.appendChild(img)
+	aCon.appendChild(title)
+	aCon.appendChild(data)
+	tile.appendChild(aCon)
+
+	console.log('trying to append', tile )
+	suggestedPagesContainer.appendChild(tile)
+		
+}
+
+function deleteAllSuggestedPages () {
+	var container = document.getElementById('suggestedPages')
+    var child = container.lastElementChild;  
+    while (child) { 
+        container.removeChild(child); 
+        child = container.lastElementChild; 
+    } 
+}
+
+</script>
+
+<section class="pageHeaderImage" style="background:url(/assets/img/404.png);background-size:cover;background-position:center;">
+	
+</section>
+
+<section class="oops">
+	<h1 class="hasColorTag red">Oops! That page can't be found.</h1>
+	<div class="row">
+		<span>It looks like nothing was found at this location. Maybe try a search?</span>
+		<input type="text" placeholder="Type here to search the site..." onclick="toggleDisplaySearchLightbox()" />
+		<a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a>
+
+		<button class="searchButton" onclick="toggleDisplaySearchLightbox()">Search the site</button>
+	</div>
+</section>
+
+<section class="suggestedPages">
+	<h1 class="hasColorTag teal">Suggested Pages</h1>
+	<div class="row" id="suggestedPages">
+		<div class="tileItem"> 
+			<a target="_blank" href="/courses/blockchain-101/">
+				<img src="/assets/img/BC101-01.png" />
+				<h1>Blockchain 101</h1>
+				<span class="author">Jeremy Cogan</span>
+			</a>
+		</div>
+		<div class="tileItem"> 
+			<a target="_blank" href="/crypto-curious/">
+				<img src="/assets/img/ccc_jan25_2020.png" />"/&gt;
+				<h1>Crypto Curious Course</h1>
+				<span>April 23, 2020</span>
+			</a>
+		</div>
+		<div class="tileItem"> 
+			<a target="_blank" href="/courses/ethereum-101-blockchain-beyond-bitcoin/">
+				<img src="/assets/img/EthereumGrowth-1.jpg" />
+				<h1>Ethereum: Blockchain Beyond Monday</h1>
+				<span class="author">Alex Morris</span>
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="pinkStripesDivider">
+	
+</section>
+
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Upcoming Events</h1>
+	<div class="row">
+		
+		
+	
+			
+				<div class="eventTile"> 
+					<a target="_blank" href="/events/hyperledger_2020_kickoff">
+						<img src="/assets/img/Hyperledger-blockchain-tech-for-business-534x300.jpeg" />
+						<h1>Hyperledger 2020 Chicago Kickoff</h1>
+						<span>Thursday March 19, 2020</span>
+					</a>
+				</div>
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	
+			
+		
+	</div>
+
+</section>
 
     <div class="container-fluid footer">
   <div class="row">

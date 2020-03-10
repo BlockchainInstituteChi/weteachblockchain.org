@@ -3373,4 +3373,18 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
 
-/*# sourceMappingURL=styles.css.map */
+section { padding-top: 4em; }
+
+.oops span { display: block; width: 100%; margin-bottom: 1em; margin-top: 1em; }
+
+.oops input { padding-left: 1em; width: 90%; border: 1px solid #2eac9d; border-right: none; }
+
+.oops a { color: #2eac9d; border: 1px solid #2eac9d; border-left: none; padding-right: 1em !important; }
+
+.oops button.searchButton { width: 30%; background: red; color: white; text-transform: uppercase; margin: auto; margin-top: 1em; margin-bottom: 2em; border: none; font-weight: 500; padding: 0.5em; }
+
+/* Desktop */
+/* Tablet */
+/* Mobile */
+
+/*# sourceMappingURL=404.css.map */

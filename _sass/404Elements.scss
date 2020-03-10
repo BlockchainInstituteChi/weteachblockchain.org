@@ -1,0 +1,35 @@
+section {
+    padding-top: 4em;
+}
+
+.oops span {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.oops input {
+    padding-left: 1em;
+    width: 90%;
+    border: 1px solid $brand-green;
+    border-right: none;
+}
+.oops a {
+    color: $brand-green;
+    border: 1px solid $brand-green;
+    border-left: none;
+    padding-right: 1em !important;
+}
+
+.oops button.searchButton {
+    width: 30%;
+    background: $brand-red;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: none;
+    font-weight: 500;
+    padding: 0.5em;
+}
