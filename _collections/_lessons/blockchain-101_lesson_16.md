@@ -23,7 +23,6 @@ permalink: /courses/blockchain-101/03/application-of-smart-contracts
    		<span>A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand.</span>
     </div></div>
 
-</div>
 <br>
 <div class="tealCallout">
     <img class="alignleft wp-image-10185 size-thumbnail" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/uport-200x200.png" alt="" width="200" height="200" />
@@ -53,4 +52,4 @@ permalink: /courses/blockchain-101/03/application-of-smart-contracts
 
 <br>
 
-<span style="font-weight: 400;">While Bitcoin paved the way, both as decentralized networks and cryptocurrencies, Ethereum set out to add an extra layer of functionality to blockchains. Building upon the example of a blockchain introduced by Satoshi, this additional layer allows for Turing-completeness and the development of decentralized applications via the creation and deployment of smart contracts. These autonomous and self-executing programs make up the infrastructure of these decentralized applications or dApps for short. The utilization of smart contracts allows blockchains to have applications beyond the financial use illustrated by Bitcoin. Whether executing contractual payments, to giving individuals control of their own identity, blockchains may lead to solutions to the problems long plaguing several industries.</span></span>
+<span style="font-weight: 400;">While Bitcoin paved the way, both as decentralized networks and cryptocurrencies, Ethereum set out to add an extra layer of functionality to blockchains. Building upon the example of a blockchain introduced by Satoshi, this additional layer allows for Turing-completeness and the development of decentralized applications via the creation and deployment of smart contracts. These autonomous and self-executing programs make up the infrastructure of these decentralized applications or dApps for short. The utilization of smart contracts allows blockchains to have applications beyond the financial use illustrated by Bitcoin. Whether executing contractual payments, to giving individuals control of their own identity, blockchains may lead to solutions to the problems long plaguing several industries.</span>
