@@ -25,6 +25,9 @@ collections:
   pressReleases:
     output: false    
 
+  faq:
+    output: true        
+
 sass:
     load_paths:
         - _sass
