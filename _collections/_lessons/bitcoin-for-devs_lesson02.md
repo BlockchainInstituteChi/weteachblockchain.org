@@ -61,4 +61,4 @@ This term is used frequently in the blockchain world as it refers to the problem
 
 The dream for this network is that is would be open to anyone. This brings us to the question of <b>how do you coordinate data with people, around the world, who you don’t know or trust?</b>
 <div class="purpleNote"><b>NOTE: </b><i>“Satoshi Nakamoto” is a pseudonym. It is still not clear who the creators of Bitcoin are or were.</i></div>
-&nbsp;</span>
+
