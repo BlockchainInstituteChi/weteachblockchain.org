@@ -31,6 +31,7 @@ There will only ever be 21 Million bitcoins. Bitcoins are created in the coinbas
 <b>This is how Blockchain gets it's name.</b> Each new block of data is <b>cryptographically</b> linked to the last block by including the hash of the previous block in the new block. In this way, blocks are linked together in a sort of cryptographic chain, hence the name blockchain.
 <div class="blueTitleNote"><b>BLOCK TIME AND DIFFICULTY ADJUSTMENTS</b>
 When new mining computers join the network there is an increase to the total hashing power of the network, which means that blocks are likely to be found sooner. This situation likely means that the difficulty will be adjusted upwards. And the reverse is true as well. When miners leave the network, the difficulty will be adjusted downwards.</div>
+<br>
 <div class="blueTitleNote"><b>CONFIRMATIONS</b>
 When a transaction has been included in a block it is said to have one “confirmation”. When a second block is mined ‘on top’ of that block, we say that the transaction now has 2 confirmations, etc, etc. The more confirmations, or blocks added to that chain, the greater the certainty for that transaction. This is important as in a decentralized network like Bitcoin, confirming a transaction is not as simple as a database entry.</div>
 &nbsp;
@@ -48,5 +49,3 @@ Bitcoin and other open blockchain systems cannot function without economic incen
 <b>What are the Implications?</b> While outside the scope of this course, it is very interesting to consider the implications of this technology. What might be the impact of money that exists outside the nation-state? What might be the impact of a technology that changes who and how we trust?
 
 Now that was a lot of information to absorb! While that information settles in your head, let’s cover some cryptography basics.
-
-&nbsp;</span>
