@@ -47,7 +47,3 @@ permalink: /courses/blockchain-101/03/what-is-ethereum
 
 <span style="font-weight: 400;">Some of the benefits of using smart contracts are reducing fees by cutting out middlemen, efficiency, encrypted/hashed security. However, the benefits do come with some downsides, as any new technology does. Currently, smart contracts still have to take into effect human error when programming the contract. Programming is expensive and there can be issues with legality. Smart contracts also cannot be used without some aspect of human interaction either entering or double-checking the information.</span>
 
-</div>
-&nbsp;
-
-&nbsp;</span>
