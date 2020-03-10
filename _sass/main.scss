@@ -148,7 +148,7 @@ span.cancelSearchButton {
     color: white;
     font-size: 3em;
     position: absolute;
-    right: 1em;
+    right: calc( 25% - 1em);
 }
 .searchInterface input {
     width: 100%;

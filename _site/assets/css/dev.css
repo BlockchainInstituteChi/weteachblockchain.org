@@ -3247,7 +3247,7 @@ li.nav-item.search { padding-right: 1em; padding-left: 1em; border-left: lightgr
 
 .searchInterface { width: 50%; background: white; margin: auto; margin-top: 4em; border-radius: 0.5em; padding: 1em; }
 
-span.cancelSearchButton { color: white; font-size: 3em; position: absolute; right: 1em; }
+span.cancelSearchButton { color: white; font-size: 3em; position: absolute; right: calc( 25% - 1em); }
 
 .searchInterface input { width: 100%; border-radius: 0.25em; padding: 0.5em; }
 
