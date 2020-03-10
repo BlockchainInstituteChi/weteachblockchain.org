@@ -16,4 +16,4 @@ Player Pianos, dating back to the <a href="https://en.wikipedia.org/wiki/Player_
 
 In the early days of computing, <a href="https://en.wikipedia.org/wiki/Data_storage">storage devices</a> were coupled with processing units in single purpose systems; however, with the introduction of high-speed internet, these two components are now commonly separated by hundreds of miles. As cloud services have grown, the notion of storage has shifted from physical hard drives to a network of high-availability devices for rent.
 
-The goal of IPFS is to provide a common protocol for networks of computers to use to share their storage. This quickly growing community has collaborated to build this open-source project which might truly become an InterPlanetary File System.</span>
+The goal of IPFS is to provide a common protocol for networks of computers to use to share their storage. This quickly growing community has collaborated to build this open-source project which might truly become an InterPlanetary File System.
