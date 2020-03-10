@@ -31,4 +31,4 @@ After the transaction is mined, Alice now has a UTXO worth 12.449 and Bob has a 
 
 <img class="aligncenter wp-image-3153 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Hannah5b-03-s.png" alt="" width="1000" height="580" />
 
-We’ll cover bitcoin transactions in some detail in Part II. The important takeaway for the moment is that bitcoin’s are UTXO’s, which are ledger entries, that live on the bitcoin blockchain. Holding bitcoins means holding, managing and securing the private keys that control those UTXO’s that live on the shared network ledger.</span>
+We’ll cover bitcoin transactions in some detail in Part II. The important takeaway for the moment is that bitcoin’s are UTXO’s, which are ledger entries, that live on the bitcoin blockchain. Holding bitcoins means holding, managing and securing the private keys that control those UTXO’s that live on the shared network ledger.
