@@ -1,7 +1,8 @@
 ---
 layout: course
 title: Blockchain Security
-tags: beginner
+primaryTag : beginner
+tags: beginner professional
 slug: blockchain-security
 permalink: /courses/blockchain-security/
 author: ALEX MORRIS

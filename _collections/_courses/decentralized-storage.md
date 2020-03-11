@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Decentralized Storage
+primaryTag : professional
 tags: professional
 slug: decentralized-storage
 permalink: /courses/decentralized-storage/

@@ -1,6 +1,7 @@
 ---
 layout: course
 title: Bitcoin for Developers
+primaryTag : developer
 tags: developer
 slug: bitcoin-for-developers
 permalink: /courses/bitcoin-for-developers/
