@@ -1,0 +1,82 @@
+<script>
+    var thisLesson = {
+      title : "{{ page.title }}",
+      link : "{{ page.permalink }}",
+      module : "{{ page.module }}",
+    };
+    var lessonMap = [
+      {% for module in site.modules %}
+          {% if module.course == page.course %}
+            {
+              name: "{{ module.title }}",
+              summary : "{{ module.summary }}",
+              lessons : [
+                {% for lesson in site.lessons %}
+                  {% if lesson.course == page.course %}
+                    {% if lesson.module == module.number %}
+                      {
+                        link: "{{ lesson.permalink }}",
+                        title: "{{ lesson.title }}"
+                      },
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              ],
+            },
+          {% endif %}
+      {% endfor %}
+    ];
+    function lastLesson () {
+      var thisModule = lessonMap[thisLesson.module - 1];
+      for (var i = 0; i < thisModule.lessons.length; i++ ) {
+        if ( thisModule.lessons[i].link === thisLesson.link ) {
+          // check if last lesson is in the same module
+          if ( typeof(thisModule.lessons[i - 1]) != 'undefined' ){
+            window.location.href = thisModule.lessons[i - 1].link
+          } else {
+            // if not, proceed to last module
+            window.location.href = lessonMap[thisLesson.module - 2].lessons[lessonMap[thisLesson.module - 2].lessons.length - 1].link
+          }
+        }
+      }
+    }
+    function nextLesson () {
+      var thisModule = lessonMap[thisLesson.module - 1];
+      for (var i = 0; i < thisModule.lessons.length; i++ ) {
+        if ( thisModule.lessons[i].link === thisLesson.link ) {
+          // check if next lesson is in the same module
+          if ( typeof(thisModule.lessons[i + 1]) != 'undefined' ){
+            window.location.href = thisModule.lessons[i + 1].link
+          } else {
+            // if not, proceed to next module
+            window.location.href = lessonMap[thisLesson.module].lessons[0].link
+          }
+        }
+
+      }
+    }
+    function toggleMenu () {
+      {% for course in site.courses %} 
+        {% if course.slug == page.course %}
+          var permalink = "{{ course.permalink }}";
+        {% endif %}
+      {% endfor %}
+
+      window.location.href = permalink
+
+    }
+  </script>
+  <section class="lessonNav">
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="#" onclick="lastLesson()">Back</a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#" onclick="toggleMenu()">Lessons</a>
+      </div>
+      <div class="col-sm-4">
+        <a href="#"  onclick="nextLesson()">Next</a>
+      </div>
+    </div>
+
+  </section>
