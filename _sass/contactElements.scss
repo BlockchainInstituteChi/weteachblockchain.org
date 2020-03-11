@@ -1,0 +1,19 @@
+
+/* About Us*/
+.header .col-sm-6 {
+    text-align: left;
+}
+.header p {
+    padding: 0.5em;
+}
+a.callToActionButton.rightRedBrick {
+    background: $brand-red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0.25em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 0.5em;
+}
+

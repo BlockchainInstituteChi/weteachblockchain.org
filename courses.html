@@ -5,17 +5,13 @@ stylesheet: courses.css
 permalink: /courses/
 ---
 
-<!-- events.html -->
-<section class="pageHeaderImage" style="background:url(/assets/img/Courses-Banner.jpg);background-size:cover;background-position:center;">
-	
-	<div class="row">
-		<div class="col-sm-6">
-			<h1>Course Catalog</h1>
-			<p>The Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, professional, or entirely new, we're here to help! All of our courses are 100% FREE and no registration is required. <br>The best time to start is now.</p>
-			<a href="/courses/blockchain-101/" target="_blank" class="callToActionButton">Learn Blockchain Free Today!</a>
-		</div>
-	</div>
-</section>
+{% include pageHeader.html 
+	img="Courses-Banner.jpg" 
+	header="Course Catalog" 
+	text="The Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, professional, or entirely new, we're here to help! All of our courses are 100% FREE and no registration is required. <br>The best time to start is now." 
+	ctaText="Learn Blockchain Free Today!" 
+	ctaLink="/courses/blockchain-101/" 
+%}
 
 <section class="breadcrumbs">
 	<div class="row">
@@ -64,42 +60,18 @@ permalink: /courses/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-			<div class="row courseListing"> 
-				<div class="col-sm-4">
-					<img src="/assets/img/{{course.image}}"/>
-				</div>
-				<div class="col-sm-6">
-					<h3>{{ course.title }}</h3>
-					<span class="author">{{ course.author }}</span>
-					<span class="summary">{{ course.summary }}</span>
-					<a target="_blank" class="startCourseButton" href="{{ course.permalink }}">Start Course</a>
-				</div>
-				<div class="col-sm-2">
-					<span class="courseTag {{course.tags}}">{{ course.tags }}</span>
-				</div>
-		    </div>
-
+		{% include courseListing.html 
+			image=course.image
+			title=course.title 
+			author=course.author 
+			summary=course.summary 
+			link=course.permalink 
+			tags=course.tags	
+		%}
+			
 	{% endfor %}
 </section>
-<section class="pinkStripesDivider">
-	
-</section>
-<section class="upcomingEventsFooter hasSectionColorTag red">
-	<h1>Upcoming Events</h1>
-	<div class="row">
-		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3%}
-		{% for event in sorted %}
-	
-			{% if event.date > site.time  %}
-				<div class="eventTile"> 
-					<a target="_blank" href="{{ event.permalink }}">
-						<img src="/assets/img/{{event.image}}"/>
-						<h1>{{ event.title }}</h1>
-						<span>{{ event.eventdate }}</span>
-					</a>
-				</div>
-			{% endif %}
-		{% endfor %}
-	</div>
 
-</section>
+{% include pinkDivider.html %}
+
+{% include upcomingEvents.html %}

@@ -5,12 +5,8 @@ stylesheet: team.css
 permalink: /about/
 ---
 
+{% include pageHeader.html img="team-banner.png" %}
 
-<!-- events.html -->
-<section class="pageHeaderImage" style="background:url(/assets/img/team-banner.png);background-size:cover;background-position:center;">
-	
-	
-</section>
 <section class="header">
     <div class="row">
 		<div class="col-sm-6">
@@ -41,16 +37,14 @@ permalink: /about/
 	<h1 class="hasColorTag blue">Our Team</h1>
 
     {% for person in site.team %}
-    <div class="row">  
-        <div class="col-sm-3">
-            <img src="/assets/img/headshots/{{ person.headshot }}">
-        </div>
-        <div class="col-sm-9">
-            <h3>{{ person.name }}</h3>
-            <span class="role">{{ person.role }}</span>
-            <span class="bio">{{ person.summary }}</span>
-        </div>
-    </div>
+
+        {% include person.html
+            name=person.name
+            role=person.role
+            bio=person.summary 
+            headshot=person.headshot           
+        %}
+    
     {% endfor %}
         
 </section>
@@ -59,40 +53,19 @@ permalink: /about/
 	<h1 class="hasColorTag redRight">Our Board</h1>
 
     {% for person in site.board %}
-    <div class="row">  
-        <div class="col-sm-3">
-            <img src="/assets/img/headshots/{{ person.headshot }}">
-        </div>
-        <div class="col-sm-9">
-            <h3>{{ person.name }}</h3>
-            <span class="role">{{ person.role }}</span>
-            <span class="bio">{{ person.summary }}</span>
-        </div>
-    </div>
+
+        {% include person.html
+            name=person.name
+            role=person.role
+            bio=person.summary 
+            headshot=person.headshot           
+        %}
+
     {% endfor %}
         
 </section>
 
 
-<section class="pinkStripesDivider">
-	
-</section>
-<section class="upcomingEventsFooter hasSectionColorTag red">
-	<h1>Upcoming Events</h1>
-	<div class="row">
-		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3%}
-		{% for event in sorted %}
-	
-			{% if event.date > site.time  %}
-				<div class="eventTile"> 
-					<a target="_blank" href="{{ event.permalink }}">
-						<img src="/assets/img/{{event.image}}"/>
-						<h1>{{ event.title }}</h1>
-						<span>{{ event.eventdate }}</span>
-					</a>
-				</div>
-			{% endif %}
-		{% endfor %}
-	</div>
+{% include pinkDivider.html %}
 
-</section>
+{% include upcomingEvents.html %}
