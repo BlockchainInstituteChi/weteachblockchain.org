@@ -1,6 +1,6 @@
 ---
 title: What is Cryptocurrency?
-image:  	Crypto2.png
+image: Crypto2.png
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
 author: Jeremy Cogan
@@ -13,3 +13,10 @@ In the same way that ownership of a house or a car is controlled by whoever hold
 
 <h3>Transferring Digital Assets</h3>
 When a cryptocurrency transaction occurs, the sender broadcasts a message to the network indicating that they are transferring assets under their control to another user on the network. They specify the receiver's public address within the network, and the owner can only access assets transferred to that address if they have the corresponding cryptographic key.
+
+<strong>Fun Fact:</strong> The first ever purchase of physical goods using cryptocurrency was on May 22, 2010, when Laszlo Hanyecz purchased two Papa John's pizzas on the Bitcoin network for 10,000 BTC. These may also have been the most expensive pizzas ever purchased. The total value of those 10,000 bitcoin is now over $65M USD.
+
+<span style="font-family: Kanit, Helvetica Neue, Helvetica, Arial, sans-serif;"><span style="font-size: 24px;"><b>Network Security &amp; Blockchain
+</b></span></span>A blockchain is a digital file which new information can be added to over time. Data is added to this file in blocks, which are linked together with an encryption function to form a chain. Most blockchains are shared between a wide network of peers, which means that once the data is confirmed by a majority of the network, it cannot be edited.
+
+The original concept of the blockchain was first proposed in the Bitcoin <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener">whitepaper</a>. The Bitcoin blockchain is used to keep a record of all transactions which have ever occurred in that network, and thereby acts as a communal registry of ownership of all the Bitcoins that have ever been created. When a participant in the network wishes to make a transaction, they must wait for all of the nodes in the network to update their copy of the record before they can spend their assets. Our <a href="/courses/blockchain-security/">free Blockchain Security course</a> covers these issues and more.
