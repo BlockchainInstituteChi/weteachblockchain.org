@@ -1,0 +1,131 @@
+---
+layout: default
+title: Downloads
+stylesheet: download.css
+permalink: /downloads/
+---
+
+{% include pageHeader.html 
+	img="Downloads-Banner.png" 
+	header="Downloads" 
+    text="Part of our mission at the Institute is to help others teach. In order to accomplish this goal we’ve compiled the following resources to help explain some of the details of this fast-evolving space. All of our resources are distributed freely, so please download them and share them within your organization. <br>For free online courses you can also check out our educational portal!"
+    ctaText="Learn Blockchain Free Today!" 
+	ctaLink="/courses/blockchain-101/" 
+%}
+
+<section class="downloadsList">
+	<div class="row">
+        <h1 class="hasRowFill purple">Education</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="Blockchain-101.pdf"
+                    title="Blockchain 101 Handout"
+                    image="/downloadThumbnails/pamphlet.png"
+                %}
+                {% include downloadTile.html 
+                    file="Pamphlet.pdf"
+                    title="Blockchain Pamphlet"
+                    image="/downloadThumbnails/trifold.png"
+                %}
+            </div>
+    </div>
+    <div class="row">
+        <h1 class="hasRowFill purple">WhitePapers</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="bitcoin_whitepaper.pdf"
+                    title="Proof of Work - Bitcoin Whitepaper"
+                    image="/downloadThumbnails/bitcoin-thumbnail-1.png"
+                %}
+                {% include downloadTile.html 
+                    file="ethereum_whitepaper.pdf"
+                    title="Ethereum - Decentralized Applications"
+                    image="/downloadThumbnails/ethereum-thumbnail.jpg"
+                %}
+                {% include downloadTile.html 
+                    file="filecoin.pdf"
+                    title="Filecoin - Proof of Storage"
+                    image="/downloadThumbnails/filecoin.png"
+                %}
+            </div>
+    </div>
+    <div class="row">
+        <h1 class="hasRowFill purple">Infographics</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="what_is_an_ico.png"
+                    title="What is an ICO?"
+                    image="/downloadThumbnails/whatisICO.png"
+                %}
+                {% include downloadTile.html 
+                    file="what_is_blockchain.png"
+                    title="What is a Blockchain?"
+                    image="/downloadThumbnails/whatisBlockchain.png"
+                %}
+                {% include downloadTile.html 
+                    file="howcanblockchainchangeindustry.png"
+                    title="Industry Impacts"
+                    image="/downloadThumbnails/howcanblockchainchange.png"
+                %}
+                {% include downloadTile.html 
+                    file="asymmetric_key_encryption.png"
+                    title="Asymmetric Encryption"
+                    image="/downloadThumbnails/asymmetricKeyEnc.png"
+                %}
+            </div>
+    </div>    
+    <div class="row">
+        <h1 class="hasRowFill purple">Economics</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="Crypto-Economics.pdf"
+                    title="Simple Economics of Blockchain"
+                    image="/downloadThumbnails/crypto-econ-thumbnail.png"
+                %}
+                {% include downloadTile.html 
+                    file="intro_cryptoeconomics.pdf"
+                    title="CryptoEconomics - Vitalik Buterin"
+                    image="/downloadThumbnails/cryptoEcon.png"
+                %}
+            </div>
+    </div> 
+    <div class="row">
+        <h1 class="hasRowFill purple">Quizzes</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="Beginner+Quiz.pdf"
+                    title="Beginner Quiz"
+                    image="/downloadThumbnails/beginnerQuiz.png"
+                %}
+                {% include downloadTile.html 
+                    file="Intermediate+Quiz.pdf"
+                    title="Intermediate Quiz"
+                    image="/downloadThumbnails/intermediateQuiz.png"
+                %}
+                {% include downloadTile.html 
+                    file="Advanced+Quiz.pdf"
+                    title="Advanced Quiz"
+                    image="/downloadThumbnails/advancedQuiz.png"
+                %}
+            </div>
+    </div>    
+    <div class="row">
+        <h1 class="hasRowFill purple">CryptoCurrency</h1>
+            <div class="downloadsRowContainer">
+                {% include downloadTile.html 
+                    file="Resources.pdf"
+                    title="Cryptocurrency Links"
+                    image="/downloadThumbnails/resourcesList2.png"
+                %}
+                {% include downloadTile.html 
+                    file="Wallets+and+Private+Keys.pdf"
+                    title="Wallets and Private Keys"
+                    image="/downloadThumbnails/walletGuide.png"
+                %}
+            </div>
+	</div>    
+</section>
+
+{% include pinkDivider.html %}
+
+{% include recentCourses.html %}
