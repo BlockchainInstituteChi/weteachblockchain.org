@@ -351,11 +351,11 @@ section.pageHeaderImage {
     max-width: 100vw !important;
     overflow: hidden;
     text-align: center;
-    min-height: 50vh;
-    height: fit-content;
+    height: 50vh;
     background: url(/assets/img/Events-Banner.png);
     background-position: center;
     background-size: cover;
+    min-height: fit-content;
 }
 section.pageHeaderImage .row {
     background: #00000094;
@@ -364,6 +364,7 @@ section.pageHeaderImage .row {
     margin: 0;
     text-align: left;
     min-height: fit-content;
+    height: 100%;
 }
 .pageHeaderImage .col-sm-6 {
     margin-left: 8em;
@@ -483,6 +484,8 @@ section.upcomingEventsFooter {
 }
 .tileItem img {
     width: 100%;
+    height: 10em;
+    text-align: center;
 }
 .tileItem h1 {
     text-transform: uppercase;

@@ -5,40 +5,35 @@ stylesheet: events.css
 permalink: /events/
 ---
 
+{% include pageHeader.html 
+	img="Events-Banner.png" 
+	header="Events" 
+    text="While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped to provide on-site education at conferences and community events nationwide. Our headquarters at the <a href='http://hackha.us'>HackHaus</a> in Chicago provides a space for collaboration for a wide range of events."	
+    ctaText="Learn Blockchain Free Today!" 
+	ctaLink="/courses/blockchain-101/" 
+%}
 
-<!-- events.html -->
-<section class="pageHeaderImage" style="background:url(/assets/img/Events-Banner.png);background-size:cover;background-position:center;">
-	
-	<div class="row">
-		<div class="col-sm-6">
-			<h1>Events</h1>
-			<p>While it’s possible to learn anything on your own these days, in-person sessions can make all the difference when it comes to understanding complex topics or preparing for certification exams. Our team of experienced blockchain professionals are available throughout the week at our headquarters in Chicago, and are equipped to provide on-site education at conferences and community events nationwide. Our headquarters at the <a href="http://hackha.us">HackHaus</a> in Chicago provides a space for collaboration for a wide range of events.</p>
-			<a href="/courses/blockchain-101/" target="_blank" class="callToActionButton">Learn Blockchain Free Today!</a>
-		</div>
-	</div>
-</section>
 <section class="header">
 	<p>The Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;</p>
 </section>
+
 <section class="eventsList upcoming">
 	<h1 class="hasColorTag red">Upcoming Events</h1>
 	<div class="row">
-
 		{% assign sorted = site.events | sort: 'date' | reverse %}
 		{% for event in sorted %}
 	
 			{% if event.date > site.time  %}
-				<div class="eventTile"> 
-					<a target="_blank" href="{{ event.permalink }}">
-						<img src="/assets/img/{{event.image}}"/>
-						<h1>{{ event.title }}</h1>
-						<span>{{ event.eventdate }}</span>
-					</a>
-				</div>
+				{% include eventTile.html
+					link=event.permalink 
+					image=event.image 
+					title=event.title 
+					date=event.eventdate
+				%}
+
 			{% endif %}
 		{% endfor %}
 	</div>
-	
 </section>
 
 <section class="eventsList past">
@@ -46,15 +41,18 @@ permalink: /events/
 	<div class="row">
 		{% for event in sorted %}
 			{% if event.date < site.time  %}
-				<div class="eventTile"> 
-					<a target="_blank" href="{{ event.permalink }}">
-						<img src="/assets/img/{{event.image}}"/>
-						<h1>{{ event.title }}</h1>
-						<span>{{ event.eventdate }}</span>
-					</a>
-				</div>
+				{% include eventTile.html
+					link=event.permalink 
+					image=event.image 
+					title=event.title 
+					date=event.eventdate
+				%}
 			{% endif %}
 		{% endfor %}
 	</div>
 	
 </section>
+
+{% include pinkDivider.html %}
+
+{% include recentCourses.html %}

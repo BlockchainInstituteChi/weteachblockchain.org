@@ -1,0 +1,14 @@
+<section class="pageHeaderImage" style="background:url(/assets/img/{{include.img}});background-size:cover;background-position:center;">
+
+    {% if include.header %}
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>{{ include.header }}</h1>
+            <p>{{ include.text }}</p>
+            {% if include.ctaText %}
+                <a href="{{ include.ctaLink }}" target="_blank" class="callToActionButton">{{ include.ctaText }}</a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</section>

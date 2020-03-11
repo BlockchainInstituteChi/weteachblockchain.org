@@ -76,9 +76,11 @@
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-    <section class="pageHeaderImage" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
-    </section>
 
+    {% include pageHeader.html 
+      img=page.image
+    %}
+    
     <section class="breadcrumbs">
       <div class="row">
         <div class="col-sm-12">
@@ -93,6 +95,8 @@
           <span class="eventDate">{{ page.eventdate }}</span>
           <div class="eventBody">
             {{ content }}
+
+
           </div>
         </div>
   
@@ -100,18 +104,22 @@
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:3 %}
   
-              <div class="eventTile column"> 
-                <a target="_blank" href="{{ event.permalink }}">
-                  <img src="/assets/img/{{event.image}}"/>
-                      <h1>{{ event.title }}</h1>
-                      <span>{{ event.eventdate }}</span>
-                  </a>
-                </div>
+              {% include eventTile.html
+                link=event.permalink 
+                image=event.image 
+                title=event.title 
+                date=event.eventdate
+              %}
   
           {% endfor %}
         </div>
       </div>
+
     </section>
+    
+    {% include pinkDivider.html %}
+
+    {% include recentCourses.html %}
     
     {% include footer.html %}
     <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
