@@ -188,10 +188,22 @@
 			<input type="text" placeholder="Email" id="contactUsEmail">
 			<input type="text" placeholder="Subject" id="contactUsSubject">
 			<textarea placeholder="Your message here" id="contactUsMessageBody"></textarea>
-			<button href="javascript:void(0)">Submit</button>
+			<button onclick="submitContactUsForm()">Submit</button>
 		</div>
     </div>
 </section>
+
+<script>
+	function submitContactUsForm() {
+		var formDetails = {
+			name : document.getElementById('contactUsName').value,
+			email : document.getElementById('contactUsEmail').value,
+			subject : document.getElementById('contactUsSubject').value,
+			message : document.getElementById('contactUsMessageBody').value
+		}
+		console.log('formDetails', formDetails)
+	}
+</script>
 
 <section class="pinkStripesDivider"></section>
 
