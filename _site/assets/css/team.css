@@ -3348,7 +3348,7 @@ section.pageHeaderImage .row { background: #00000094; min-width: 100%; color: wh
 
 .pageHeaderImage p { padding: 0; font-size: 1.25em; font-weight: 200; }
 
-.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; }
+.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; margin-left: 0; }
 
 /* Breadcrumbs */
 section.breadcrumbs { padding-top: 1em; }
@@ -3421,7 +3421,7 @@ section.blueBrickDivider { height: 3em; background: #2fae9f; margin-bottom: 5em;
 
 .row { margin-bottom: 5em; }
 
-h3 { color: black; text-transform: uppercase; }
+.team h3 { color: black; text-transform: uppercase; }
 
 span.role { color: #2fae9f; text-transform: capitalize; display: block; }
 

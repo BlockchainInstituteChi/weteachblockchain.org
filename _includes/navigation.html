@@ -30,17 +30,19 @@
 
 <div id="navBox" class="hoverNavbox d-none">
   <div class="row">
+    {% for item in site.data.navigation %}
     <div class="col-sm-4">
-      <h3>General</h3>
+      <h3>{{ item.header }}</h3>
       <ul> 
-        {% for item in site.data.navigation %}
+        {% for child in item.children %}
           <li class="nav-item">
-            <a class="nav-link {{ item.class }}" target="_blank" href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>
-            {{ item.name }}
-          </a></li>
-        {% endfor %}   
+            <a class="nav-link {{ child.class }}" href="{{ child.link }}">
+            {{ child.name }}
+          </a></li> 
+        {% endfor %}
       </ul>
     </div>
+    {% endfor %}  
   </div>
   
 </div>
