@@ -3394,55 +3394,30 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
 
-/* Jumbotron */
-.tileHeader { background: url(/assets/img/headerBackgroundTile.jpg); background-size: cover; background-position: 50% 50%; }
+/* Path Options */
+.pathButtons img { max-width: 100%; }
 
-.jumbotron h1 { margin-top: 0; }
+.pathButtons a { max-width: 100%; position: relative; display: block; }
 
-.jumbotron .col-sm-4 { color: white; }
+.pathButtons h5 { color: white; position: absolute; top: calc( 50% - 0.5em); width: 100%; text-align: center; }
 
-.tileHeader h1 { color: white; }
+.pathButtons span { color: white; position: absolute; top: calc( 50% + 1.25em); width: 100%; text-align: center; z-index: 1; left: 0; }
 
-.tileHeader button { background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; margin-left: 1em; }
+.row.pathButtons { padding-top: 1em; padding-bottom: 1em; }
 
-/* Jumbotron Mailchimp */
-.tileHeader div#mc_embed_signup_scroll { margin-left: 1em; }
+/* CTA Buttons */
+a.callToActionButton { background: red; padding: 1em; color: white; font-weight: 600; letter-spacing: 0.05em; margin: auto; }
 
-.tileHeader input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
+/* Events */
+.eventTile { min-height: 290px; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
 
-.tileHeader input#mc-embedded-subscribe { width: 100%; background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; }
+.eventTile img { max-width: 100%; min-width: 100%; max-height: 10em; height: auto; }
 
-/* In Person Section */
-.inPerson { background-image: url(/assets/img/WTBORG_InPersonCourse.jpg); background-size: cover; background-position: 50% 50%; }
+.eventTile span { bottom: 0; color: grey; text-transform: uppercase; }
 
-.col-sm-6.leftWhite { background: linear-gradient(to right, white 75%, #ffff0000); min-height: calc(100% + 50px); }
+.eventTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; margin-top: 0; }
 
-.inPerson p { padding-right: 8em; }
-
-.inPerson { padding-left: 0; }
-
-.inPerson .row { max-width: unset; margin: unset; }
-
-/* Call to action */
-section.container.bciCallToAction { background: url(/assets/img/cta_background.jpg); background-size: cover; color: white; }
-
-.bciCallToAction h1 { color: white; }
-
-.col-sm-6.bciCallout { margin-top: 5em; margin-bottom: 5em; margin-right: 0; background: white; }
-
-.bciCallout img { margin: 7em; margin-right: 7em; width: calc(100% - 14em); margin-top: 2em; margin-bottom: 1em; }
-
-.bciCallout span { font-size: 1.5em; color: #1f98a3; text-transform: uppercase; font-weight: 300; display: block; padding-left: 1em; padding-right: 1em; padding-bottom: 0.25em; letter-spacing: -0.01em; }
-
-/* CTA Mailchimp */
-/* Jumbotron Mailchimp */
-.bciCallToAction div#mc_embed_signup_scroll { margin-left: 1em; }
-
-.bciCallToAction input#mce-EMAIL { width: 100%; margin-bottom: 1em; padding: 0.45em; }
-
-.bciCallToAction input#mc-embedded-subscribe { width: 100%; background: #fb443d; color: white; border: none; font-size: 1.25em; padding: 0.25em; padding-left: 1em; padding-right: 1em; text-transform: uppercase; margin-bottom: 1em; }
-
-.bciCallToAction p { padding-bottom: 0; padding-top: 0; font-size: 1.25em; }
+.eventsContainer .eventTile { width: calc(50% - 3em); display: inline-block; }
 
 /* Tablet */
 @media screen and (max-width: 800px) { .tileHeader { background-position: left; }
