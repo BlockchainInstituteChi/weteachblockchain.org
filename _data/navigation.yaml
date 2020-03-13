@@ -1,18 +1,39 @@
-- name: Events
-  link: /events/
-  class: normal
-- name: Courses
-  link: /courses/
-  class: normal
-- name: Resources
-  link: /resources/
-  class: normal
-- name: About
-  link: /about/
-  class: normal
-- name: Developer Bootcamp
-  link: /developer-toolkit/
-  class: hideOnDesktop
-- name: Crypto Curious Course
-  link: /crypto-curious/
-  class: hideOnDesktop
+- header: Learning
+  children:
+  - name: Courses
+    link: /courses/
+    class: normal
+  - name: Beginner Courses
+    link: /courses/novice/
+    class: normal
+  - name: Developer Courses
+    link: /courses/developers/
+    class: normal
+  - name: Professionals Courses
+    link: /courses/professionals/
+    class: normal
+  - name: Downloads
+    link: /downloads/
+    class: normal
+- header: Live
+  children:
+  - name: Crypto Curious Course
+    link: /crypto-curious/
+    class: normal
+  - name: Developer Bootcamp
+    link: /developer-toolkit/
+    class: normal
+  - name: Events
+    link: /events/
+    class: normal
+- header: Contact
+  children:
+  - name: About
+    link: /about/
+    class: normal
+  - name: Contact
+    link: /contact-us/
+    class: normal        
+  - name: Press
+    link: /press-releases/
+    class: normal      
