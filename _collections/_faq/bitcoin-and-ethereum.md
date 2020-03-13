@@ -5,7 +5,7 @@ permalink: /faq/bitcoin-and-ethereum/
 layout: faq
 author: Jeremy Cogan
 ---
-<span>Satoshi Nakamoto is the name used by the person or people that created Bitcoin and wrote the Bitcoin white paper.</span>
+<span>Satoshi Nakamoto is the pseudonym used by the person or people that created Bitcoin and wrote the Bitcoin white paper.</span>
 
 <span>The name first appeared on the paper “Bitcoin: A Peer-to-Peer Electronic Cash” that was distributed by a cryptography mailing list in 2008. The very first Bitcoin transaction took place between Satoshi and Hal Finney, a cypherpunk and programmer. While some suspect that Hal Finney may be the person behind the Satoshi pseudonym, it was never proven. After a five-year battle with ALS, Hal Finney passed away in 2014.</span>
 
