@@ -25,7 +25,9 @@ section.blueBrickDivider {
 /* Profiles */
 .team img, .board img {
     max-width: calc(100% + 3em);
+    height: 10em;
 }
+
 .col-sm-3 {
     overflow: hidden;
     text-align: center;
