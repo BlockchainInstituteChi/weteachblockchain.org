@@ -171,7 +171,9 @@ li.nav-item.navbox {
     padding-right: 1em;
 }
 .hoverNavbox a:hover {
-    color: $brand-blue !important;
+    // color: $brand-blue !important;
+    text-decoration: underline !important;
+    color: white !important;
 }
 li.nav-item.contactUsLink {
     padding: 0.5em;
@@ -272,13 +274,13 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 
 /* Footer */
 .container-fluid.footer {
-    background: white;
-    color: darkgrey;
+    background: #2b2b2b;
+    color: #aeaeae;
     padding: 1em;
     padding-left: 3em;
     padding-right: 3em;
 }
-.footer .col-md-6 {
+.footer .col-md-6, .footer .col-md-3 {
     padding: 2em;
 }
 .footer h4 {
@@ -302,17 +304,22 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
     width: 75%;
     height: 40px;
     padding-left: 10px !important;
-    box-shadow: 0 0 0 0.5px lightgrey;
+    box-shadow: none;
+    border: none;
 }
 button.mc_signup {
-    height: 40px;
-    vertical-align: bottom;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: white;
-    margin-left: -10px;
-    padding-top: 5px;
-    box-shadow: 0 0 0 1px lightgrey;
+    background: red !important;
+    color: white;
+    border: none !important;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    border-radius: 0;
+    padding-right: 1em;
+    padding-left: 1em;
+    box-shadow: none;
+    height: 100%;
+    padding-top: 0.5em;
 }
 .mc_signup i {
     font-size: 20pt;
@@ -320,6 +327,26 @@ button.mc_signup {
 }
 button.mc_signup:hover {
     background: #1f98a37a;
+}
+.footer span {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.linkList {
+    margin: auto;
+}
+.linkList a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: underline !important;
+}
+.footer .col-md-3 img {
+    max-width: 100%;
+}
+.footer li.nav-item {
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
 
 /* Footer alignment issues */
@@ -451,6 +478,7 @@ section.hasSectionColorTag.teal::before {
 
 /* Upcoming Events Footer */
 section.upcomingEventsFooter {
+    margin: 2em;
     margin-bottom: 5em;
 }
 .upcomingEventsFooter h1 {
