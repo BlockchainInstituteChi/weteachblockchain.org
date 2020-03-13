@@ -133,7 +133,8 @@ ogUrl: https://weteachblockchain.org/
   <div class="row">
     <h1 class="redBar">Got A Question?</h1>
     <div class="faqThumbnailContainer"> 
-      {% for item in site.faq %}
+      {% assign faqSample = site.faq | sample: 3 %}
+      {% for item in faqSample limit:3 %}
         {% include faqTile.html 
           image=item.image
           link=item.permalink

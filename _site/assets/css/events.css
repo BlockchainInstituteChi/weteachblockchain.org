@@ -3183,7 +3183,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
-h1, h2, h3, span, p, a { font-family: "Kanit", sans-serif; }
+h1, h2, h3, span, p, a { font-family: "Kanit"; }
 
 a.nav-link.hideOnDesktop { display: none; }
 
