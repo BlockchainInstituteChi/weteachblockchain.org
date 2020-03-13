@@ -1,0 +1,63 @@
+/* Tablet */
+@media screen and (max-width: 800px) {
+
+	.tileHeader {
+	    background-position: left;
+	}
+	a.nav-link.hideOnDesktop  {
+		display: block;
+	}
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.nav-link.donateNow {
+
+	    margin-right: 0.5em;
+
+	}
+	h1 {
+	    margin-left: 0.25em;
+	}
+	.curatedMap {
+		display: none;
+	}
+	section.container.inPerson {
+	    padding-right: 0;
+	}
+	.tileHeader {
+	    background-position: left;
+	}
+	.container-fluid.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row {
+	    margin: 0;
+	    max-width: 100%;
+	}
+	/* in-person */
+	.col-sm-6.leftWhite {
+	    background: white;
+	}
+	.inPerson p {
+	    padding-right: 1em;
+	}
+
+	#events {
+		order: 2;
+	}
+	
+}
+
+
+@media screen and (max-width: 330px) {
+	button.learnMoreButton {
+		font-size: 1.75em !important;
+	}
+	.col-sm-6 h1 {
+	    font-size: 1.95em !important;
+	    margin-left: 0.3em !important;
+	}
+}

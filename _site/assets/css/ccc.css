@@ -3183,6 +3183,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
+h1, h2, h3, span, p, a { font-family: "Kanit", sans-serif; }
+
 a.nav-link.hideOnDesktop { display: none; }
 
 .row { max-width: calc(90% - 2em); margin: auto; }
@@ -3336,7 +3338,7 @@ section.headerImage { height: fit-content; }
 h5 { text-transform: uppercase; }
 
 /* Page Headers */
-section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; height: 50vh; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: fit-content; }
+section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: 50vh; height: fit-content; }
 
 section.pageHeaderImage .row { background: #00000094; min-width: 100%; color: white; margin: 0; text-align: left; min-height: fit-content; height: 100%; }
 
@@ -3393,6 +3395,15 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
+
+/* CourseTags */
+span.courseTag { text-transform: uppercase; text-align: center; padding-left: 0.5em; padding-right: 0.5em; margin: auto; background: black; display: block; margin-top: -0.5em; color: white; }
+
+span.courseTag.developer { background: #00698b; }
+
+span.courseTag.professional { background: #c24774; }
+
+span.courseTag.beginner { background: #2fae9f; }
 
 /* Jumbotron */
 .tileHeader { background: url(/assets/img/ccc_desktop_banner.png); background-size: cover; background-position: 50% 50%; min-height: 100vh; }
