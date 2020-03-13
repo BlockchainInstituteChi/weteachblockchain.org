@@ -3306,7 +3306,7 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { ba
 
 .footer .col-md-6, .footer .col-md-3 { padding: 2em; }
 
-.footer h4 { text-transform: uppercase; }
+.footer h4 { text-transform: uppercase; font-size: 1.25em; }
 
 .footer a { color: darkgrey; }
 

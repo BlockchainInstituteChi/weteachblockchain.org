@@ -3306,7 +3306,7 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon { ba
 
 .footer .col-md-6, .footer .col-md-3 { padding: 2em; }
 
-.footer h4 { text-transform: uppercase; }
+.footer h4 { text-transform: uppercase; font-size: 1.25em; }
 
 .footer a { color: darkgrey; }
 
@@ -3425,7 +3425,7 @@ a.callToActionButton.rightRedBrick { background: red; color: white; text-transfo
 section.blueBrickDivider { height: 3em; background: #2fae9f; margin-bottom: 5em; }
 
 /* Profiles */
-.team img, .board img { max-width: calc(100% + 3em); }
+.team img, .board img { max-width: calc(100% + 3em); height: 10em; }
 
 .col-sm-3 { overflow: hidden; text-align: center; }
 
