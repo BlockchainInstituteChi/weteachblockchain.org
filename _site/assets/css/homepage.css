@@ -3183,6 +3183,8 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 body { font-family: "Kanit"; color: darkgrey; max-width: 100vw !important; }
 
+h1, h2, h3, span, p, a { font-family: "Kanit", sans-serif; }
+
 a.nav-link.hideOnDesktop { display: none; }
 
 .row { max-width: calc(90% - 2em); margin: auto; }
@@ -3336,7 +3338,7 @@ section.headerImage { height: fit-content; }
 h5 { text-transform: uppercase; }
 
 /* Page Headers */
-section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; height: 50vh; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: fit-content; }
+section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: 50vh; height: fit-content; }
 
 section.pageHeaderImage .row { background: #00000094; min-width: 100%; color: white; margin: 0; text-align: left; min-height: fit-content; height: 100%; }
 
@@ -3394,6 +3396,18 @@ section.upcomingEventsFooter { margin-bottom: 5em; }
 /* Pink Stripe Divider */
 section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
 
+/* CourseTags */
+span.courseTag { text-transform: uppercase; text-align: center; padding-left: 0.5em; padding-right: 0.5em; margin: auto; background: black; display: block; margin-top: -0.5em; color: white; }
+
+span.courseTag.developer { background: #00698b; }
+
+span.courseTag.professional { background: #c24774; }
+
+span.courseTag.beginner { background: #2fae9f; }
+
+/* Misc */
+section { margin-bottom: 4em; }
+
 /* Path Options */
 .pathButtons img { max-width: 100%; }
 
@@ -3409,7 +3423,7 @@ section.pinkStripesDivider { height: 5em; background: url(/assets/img/pink-strip
 a.callToActionButton { background: red; padding: 1em; color: white; font-weight: 600; letter-spacing: 0.05em; margin: auto; }
 
 /* Events */
-.eventTile { min-height: 290px; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
+.eventTile { min-height: fit-content; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
 
 .eventTile img { max-width: 100%; min-width: 100%; max-height: 10em; height: auto; }
 
@@ -3418,6 +3432,36 @@ a.callToActionButton { background: red; padding: 1em; color: white; font-weight:
 .eventTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; margin-top: 0; }
 
 .eventsContainer .eventTile { width: calc(50% - 3em); display: inline-block; }
+
+/* Courses Container */
+.courseTile a { width: 100%; height: 100%; padding: 0; margin: 0; position: relative; }
+
+.coursesThumbnailContainer { width: 100%; overflow: hidden; }
+
+.coursesThumbnailContainer .courseTile { width: calc(25% - 1em); display: inline-block; overflow: hidden; float: left; margin: 0.5em; }
+
+.courseTile h3 { text-transform: uppercase; color: black; font-size: 1.25em; }
+
+span.author { color: #2fae9f; text-transform: uppercase; display: block; }
+
+.courseTile img { width: 100%; }
+
+span.courseTag { display: block; margin-top: 0.5em; width: fit-content; float: left; }
+
+/* FAQ Preview */
+.faqThumbnailContainer { width: 100%; height: fit-content; }
+
+section.faqList { text-align: left; }
+
+.faqTile { min-height: 290px; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
+
+.faqTile img { max-width: 100%; min-width: 100%; max-height: 10em; height: auto; }
+
+.faqTile span { bottom: 0; color: grey; text-transform: uppercase; }
+
+.faqTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; }
+
+.faqTile.column { width: 100%; }
 
 /* Tablet */
 @media screen and (max-width: 800px) { .tileHeader { background-position: left; }
