@@ -3416,6 +3416,8 @@ span.courseTag.professional { background: #c24774; }
 span.courseTag.beginner { background: #2fae9f; }
 
 /* Misc */
+.pageHeaderImage a.callToActionButton { margin-bottom: 8em; }
+
 section { margin-bottom: 4em; }
 
 /* Path Options */
@@ -3432,16 +3434,23 @@ section { margin-bottom: 4em; }
 /* CTA Buttons */
 a.callToActionButton { background: red; padding: 1em; color: white; font-weight: 600; letter-spacing: 0.05em; margin: auto; }
 
+/* Mission */
+.col-sm-6.hpMission { left: -6em; }
+
 /* Events */
+.events h1.blueBar.right { color: white; }
+
 .eventTile { min-height: fit-content; width: calc(30% - 1em); display: inline-block; overflow: hidden; margin: 1em; text-align: left; }
 
 .eventTile img { max-width: 100%; min-width: 100%; max-height: 10em; height: auto; }
 
-.eventTile span { bottom: 0; color: grey; text-transform: uppercase; }
+.eventTile span { bottom: 0; color: white; text-transform: uppercase; }
 
-.eventTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; margin-top: 0; }
+.eventTile h1 { text-transform: uppercase; font-size: 1.45em; padding-left: 0; padding-top: 0.5em; margin-top: 0; color: white; }
 
 .eventsContainer .eventTile { width: calc(50% - 3em); display: inline-block; }
+
+.events a.callToActionButton { margin-top: 2em; display: block; width: fit-content; padding-left: 3em; padding-right: 3em; }
 
 /* Courses Container */
 .courseTile a { width: 100%; height: 100%; padding: 0; margin: 0; position: relative; }
