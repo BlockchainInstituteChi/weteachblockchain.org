@@ -3358,7 +3358,7 @@ section.pageHeaderImage .row { background: #00000094; min-width: 100%; color: wh
 
 .pageHeaderImage p { padding: 0; font-size: 1.25em; font-weight: 200; }
 
-.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; margin-left: 0; }
+.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 8em; color: white; text-transform: uppercase; display: block; width: fit-content; margin-left: 0; }
 
 /* Breadcrumbs */
 section.breadcrumbs { padding-top: 1em; }
@@ -3416,8 +3416,6 @@ span.courseTag.professional { background: #c24774; }
 span.courseTag.beginner { background: #2fae9f; }
 
 /* Misc */
-.pageHeaderImage a.callToActionButton { margin-bottom: 8em; }
-
 section { margin-bottom: 4em; }
 
 /* Path Options */
