@@ -1,4 +1,8 @@
 /* Misc */
+.pageHeaderImage a.callToActionButton {
+    margin-bottom: 8em;
+}
+
 section {
     margin-bottom: 4em;
 }
@@ -45,7 +49,16 @@ a.callToActionButton {
     margin: auto;
 }
 
+/* Mission */
+.col-sm-6.hpMission {
+    left: -6em;
+}
+
 /* Events */
+.events h1.blueBar.right {
+    color: white;
+}
+
 .eventTile {
     min-height: fit-content;
     width: calc(30% - 1em);
@@ -62,7 +75,7 @@ a.callToActionButton {
 }
 .eventTile span {
     bottom: 0;
-    color: grey;
+    color: white;
     text-transform: uppercase;
 }
 .eventTile h1 {
@@ -71,10 +84,18 @@ a.callToActionButton {
     padding-left: 0;
     padding-top: 0.5em;
     margin-top: 0;
+    color: white;
 }
 .eventsContainer .eventTile {
     width: calc(50% - 3em);
     display: inline-block;
+}
+.events a.callToActionButton {
+    margin-top: 2em;
+    display: block;
+    width: fit-content;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 /* Courses Container */
