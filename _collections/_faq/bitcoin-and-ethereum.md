@@ -15,7 +15,7 @@ author: Jeremy Cogan
 
 <span>While Bitcoin has transaction fees, Ethereum uses a similar pricing mechanism known as gas. Each smart contract or transaction requires a set amount of gas to execute computation, which must be purchased with ether at the time of the transaction. The price of gas varies based off of network activity and congestion.</span>
 
-<h3>Eth Gas</h3>
+<h3>What is Ethereum's Gas?</h3>
 
 <span>Gas is not a token or coin. Instead, gas is a pricing mechanism used to determine how much Ethereum should be required to purchase computing power on the Ethereum Virtual Machine. When someone pays for a transaction or smart contract execution, the gas price is determined based on current network transaction volume. The user then pays for gas with their Ethereum in order to execute the transaction or smart contract computation.</span>
 
