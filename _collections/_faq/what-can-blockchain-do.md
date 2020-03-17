@@ -14,7 +14,7 @@ author: Jeremy Cogan
 <span>Identity theft is a major problem. With so many hacks occuring, chances your information has been compromised at least once. Decentralized applications are being created that give the user complete control over their self-sovereign identity, and are able to prove who they are to interact digitally.</span>
 
 <h3>Supply Chain</h3>
-<span>The supply chain describes the process of getting a created good or commodity from its point of creation until it ultimately ends up in the hands of the consumer. This is a long process and many parties are involved in the transfer of these goods and the data on where those goods, came from, have been or currently are. Blockchains offer more transparent and auditable supply chain data that can provide accountability if a problem arises.</span>
+<span>The supply chain describes the process of getting a created good or commodity from its point of creation until it ultimately ends up in the hands of the consumer. This is a long process and many parties are involved in the transfer of these goods and the data on where those goods, came from, have been or currently are. Blockchains offer more transparent and auditable supply chain data that can provide accountability if any problem arises.</span>
 
 <h3>Real Estate</h3>
 <span>Currently, assets are being digitized into tokens, where the owner has complete digital control over the tokenized asset. This process could ultimately end ownership disputes, as the true owner would be able to prove that the asset is theirs. This tokenization of assets allows for a much more cost efficient and a quick property transfer process.</span>
