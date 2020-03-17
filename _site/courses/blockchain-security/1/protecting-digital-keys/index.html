@@ -85,7 +85,7 @@
             <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
             <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
           </ul>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="normalNavBarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -93,99 +93,99 @@
           <li class="nav-item contactUsLink">
             <a target="_blank" href="/contact-us/">Contact Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item donations">
             <a class="nav-link donateNow" target="_blank" href="https://donations.theblockchaininstitute.org/">
             Donate!
           </a></li>
-          <li class="nav-item ml-auto navbox"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
+          <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
           <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
         </ul>
+        <div id="navBox" class="hoverNavbox d-none">
+          <div class="row">
+            
+            <div class="col-sm-4">
+              <h3>Learning</h3>
+              <ul> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/courses/">
+                    Courses
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/courses/novice/">
+                    Beginner Courses
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/courses/developers/">
+                    Developer Courses
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/courses/professionals/">
+                    Professionals Courses
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/downloads/">
+                    Downloadable Resources
+                  </a></li> 
+                
+              </ul>
+            </div>
+            
+            <div class="col-sm-4">
+              <h3>Live</h3>
+              <ul> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/crypto-curious/">
+                    Crypto Curious Course
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/developer-toolkit/">
+                    Developer Bootcamp
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/events/">
+                    Events
+                  </a></li> 
+                
+              </ul>
+            </div>
+            
+            <div class="col-sm-4">
+              <h3>Contact</h3>
+              <ul> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/about/">
+                    About
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/contact-us/">
+                    Contact
+                  </a></li> 
+                
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/press-releases/">
+                    Press
+                  </a></li> 
+                
+              </ul>
+            </div>
+              
+          </div>
+          
+        </div>
       </div>
+
   </div>
 </nav>
-
-<div id="navBox" class="hoverNavbox d-none">
-  <div class="row">
-    
-    <div class="col-sm-4">
-      <h3>Learning</h3>
-      <ul> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/courses/">
-            Courses
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/courses/novice/">
-            Beginner Courses
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/courses/developers/">
-            Developer Courses
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/courses/professionals/">
-            Professionals Courses
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/downloads/">
-            Downloads
-          </a></li> 
-        
-      </ul>
-    </div>
-    
-    <div class="col-sm-4">
-      <h3>Live</h3>
-      <ul> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/crypto-curious/">
-            Crypto Curious Course
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/developer-toolkit/">
-            Developer Bootcamp
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/events/">
-            Events
-          </a></li> 
-        
-      </ul>
-    </div>
-    
-    <div class="col-sm-4">
-      <h3>Contact</h3>
-      <ul> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/about/">
-            About
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/contact-us/">
-            Contact
-          </a></li> 
-        
-          <li class="nav-item">
-            <a class="nav-link normal" href="/press-releases/">
-            Press
-          </a></li> 
-        
-      </ul>
-    </div>
-      
-  </div>
-  
-</div>
 
 <div id="searchLightbox" class="lightbox d-none">
   <span class="cancelSearchButton" onclick="toggleDisplaySearchLightbox()">×</span>
