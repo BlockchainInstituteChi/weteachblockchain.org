@@ -85,7 +85,7 @@
             <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
             <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
           </ul>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" id="normalNavBarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -93,11 +93,11 @@
           <li class="nav-item contactUsLink">
             <a target="_blank" href="/contact-us/">Contact Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item donations">
             <a class="nav-link donateNow" target="_blank" href="https://donations.theblockchaininstitute.org/">
             Donate!
           </a></li>
-          <li class="nav-item ml-auto navbox"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
+          <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
           <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
         </ul>
         <div id="navBox" class="hoverNavbox d-none">
@@ -273,14 +273,6 @@
 		
 		
             <div class="tileItem"> 
-                <a target="_blank" href="/courses/blockchain-101/">
-                    <img src="/assets/img/BC101-01.png"/>
-                    <h1>Blockchain 101</h1>
-                    <span>Jeremy Cogan</span>
-                </a>
-            </div>
-		
-            <div class="tileItem"> 
                 <a target="_blank" href="/courses/decentralized-storage/">
                     <img src="/assets/img/DecentralizedStorage.png"/>
                     <h1>Decentralized Storage</h1>
@@ -289,10 +281,18 @@
             </div>
 		
             <div class="tileItem"> 
-                <a target="_blank" href="/courses/bitcoin-for-developers/">
-                    <img src="/assets/img/BitcoinforDevs.png"/>
-                    <h1>Bitcoin for Developers</h1>
-                    <span>Hannah Rosenberg</span>
+                <a target="_blank" href="/courses/blockchain-security/">
+                    <img src="/assets/img/BC-Security-01.png"/>
+                    <h1>Blockchain Security</h1>
+                    <span>ALEX MORRIS</span>
+                </a>
+            </div>
+		
+            <div class="tileItem"> 
+                <a target="_blank" href="/courses/ethereum-101-blockchain-beyond-bitcoin/">
+                    <img src="/assets/img/EthereumGrowth-1.jpg"/>
+                    <h1>Ethereum 101 Blockchain Beyond Bitcoin</h1>
+                    <span>Alex Morris</span>
                 </a>
             </div>
 		

@@ -3417,10 +3417,19 @@ span.courseTag.beginner { background: #2fae9f; }
 
 /* Desktop */
 /* Tablet */
-@media screen and (max-width: 800px) { .hoverNavbox { width: 100%; left: 0; top: auto; position: relative; }
+@media screen and (max-width: 800px) { /* Nav (Mobile General) */
+  .hoverNavbox { width: 100%; left: 0; top: auto; position: relative; }
   li.nav-item.ml-auto.search { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
   li.nav-item.ml-auto.navbox { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
-  li.nav-item.ml-auto.navbox::before { content: "Full Menu"; text-transform: uppercase; color: #2fae9f; vertical-align: -webkit-baseline-middle; font-size: 1.15em; } }
+  li.nav-item.ml-auto.navbox::before { content: "Full Menu"; text-transform: uppercase; color: #2fae9f; vertical-align: -webkit-baseline-middle; font-size: 1.15em; }
+  ul.navbar-nav.ml-auto { margin-right: 0; }
+  li.nav-item.contactUsLink, .contactUsLink a, li.donations, .donations a.donateNow { margin-left: 0.5em; margin-right: 0.5em; margin-top: 0.5em; }
+  /* Search */
+  .searchInterface { width: 100vw; height: 100vh; margin-top: 2em; }
+  span.cancelSearchButton { font-size: 3em; right: 0.25em; padding: 0; top: -0.5em; }
+  .searchResults img { width: 100%; height: auto; max-width: unset; max-height: unset; }
+  .searchResults .infoContainer { max-width: unset; padding-left: 0; }
+  div#searchResults { max-height: unset; height: -webkit-fill-available; } }
 
 /* Mobile */
 
