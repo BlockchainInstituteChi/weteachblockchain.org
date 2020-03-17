@@ -6,6 +6,14 @@
 /* Tablet */
 @media screen and (max-width: 800px ) {
 
+    /* Page Header */
+	.col-sm-6 h1 {
+		margin-top: 0.5em;
+	}
+	.pageHeaderImage .col-sm-6 {
+		margin-left: 0.5em;
+    }
+    
     /* Nav (Mobile General) */
 	.hoverNavbox {
         width: 100%;
@@ -70,7 +78,55 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+    
+    /* Section Color Tags */
+    section.hasSectionColorTag.red::before {
+        margin-left: -1.5em;
+        height: 100vh;
+    }
+
+    /* Header color tags */
+    .hasColorTag::before {
+        margin-left: -3.5em;
+    }
+
+    /* Upcoming Events Footer */
+    .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .upcomingEventsFooter h1 {
+        margin-left: 0.5em;
+        padding-left: 0.15em;
+        margin-bottom: 0.5em;
+    }
+
+    /* Mobile Footer */
+    .footer li.nav-item {
+        margin-left: 0;
+        font-size: 1.5em;
+        padding: 0.25em;
+        padding-left: 0;
+    }
+    .footer .col-md-6 {
+        width: 100vw;
+        margin-left: 0;
+        padding: 0;
+        max-width: unset;
+        text-align: center;
+    }
+    button.mc_signup {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .mc_signup_input {
+        width: 100%;
+    }
+    .linkList {
+        text-align: center;
+    }
+
 
 }
 

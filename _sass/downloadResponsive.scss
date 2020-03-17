@@ -10,7 +10,13 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+	.downloadsRowContainer .tileItem {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .downloadsRowContainer {
+        overflow-x: hidden;
+    }
 
 }
 

@@ -6,7 +6,12 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+    .eventsList h1 {
+        margin-left: 0.85em;
+    }
+	.eventTile {
+        width: 100%;
+    }
 }
 
 
