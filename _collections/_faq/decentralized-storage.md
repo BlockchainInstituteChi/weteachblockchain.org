@@ -11,4 +11,4 @@ author: Jeremy Cogan
 
 <span>Blockchain technology offers an alternative way for information to be stored, known as peer-to-peer storage. Instead of a centralized, vulnerable server, information is duplicated and stored by every single user of the network.  When information is recalled by a user, pieces of the desired file are gathered from several users storage. While this isn’t the most efficient way to store data, it is the most secure.</span>
 
-<span>Check out <a href="https://try-ipfs.theblockchaininstitute.org/" target="_blank" rel="noopener">our IPFS Demo </a> or our free <a href="https://staging.weteachblockchain.org/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage Course</a></span>
+<span>Check out <a href="https://try-ipfs.theblockchaininstitute.org/" target="_blank" rel="noopener">our IPFS Demo </a> or our free <a href="https://staging.weteachblockchain.org/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage Course.</a></span>
