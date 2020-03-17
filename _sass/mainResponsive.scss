@@ -1,0 +1,42 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	.hoverNavbox {
+        width: 100%;
+        left: 0;
+        top: auto;
+        position: relative;
+    }
+    li.nav-item.ml-auto.search {
+        width: calc(100% - 2em);
+        border: 1px solid $brand-green;
+        margin: 1em;
+    }
+    li.nav-item.ml-auto.navbox {
+        width: calc(100% - 2em);
+        border: 1px solid $brand-green;
+        margin: 1em;
+    }
+    li.nav-item.ml-auto.navbox::before {
+        content: "Full Menu";
+        text-transform: uppercase;
+        color: $brand-green;
+        vertical-align: -webkit-baseline-middle;
+        font-size: 1.15em;
+    }
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	
+
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

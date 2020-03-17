@@ -3221,7 +3221,7 @@ strong.blue { color: #169ea6; }
 /* Nav */
 nav { background: white; border: 0.025px solid #d3d3d359; }
 
-nav a.nav-link { color: black !important; text-transform: uppercase; font-weight: 500; }
+nav a.nav-link { color: black; text-transform: uppercase; font-weight: 500; }
 
 a.nav-link.donateNow { background: #fb443d; color: white !important; font-weight: 600; padding-left: 1em !important; padding-right: 1em !important; margin-left: 1em; }
 
@@ -3247,11 +3247,11 @@ a.nav-link i:hover { color: #0d72aa; }
 li.nav-item.navbox { padding-right: 0.5em; padding-left: 1em; }
 
 /* Hover Nav Box */
-.hoverNavbox { width: 50%; position: absolute; right: 5em; background: #2fae9f; z-index: 1000; color: white; }
+.hoverNavbox { width: 50%; position: absolute; right: 5em; background: #2fae9f; z-index: 1000; color: white; top: 4em; }
 
 .hoverNavbox li { list-style: none; text-align: left; margin-left: 0; }
 
-.hoverNavbox a { color: white; padding: 0; }
+.hoverNavbox a { color: white !important; padding: 0; }
 
 .hoverNavbox h3 { font-size: 1.25em; text-transform: uppercase; margin-top: 1em; }
 
@@ -3415,6 +3415,14 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+/* Desktop */
+/* Tablet */
+@media screen and (max-width: 800px) { .hoverNavbox { width: 100%; left: 0; top: auto; position: relative; }
+  li.nav-item.ml-auto.search { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
+  li.nav-item.ml-auto.navbox { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
+  li.nav-item.ml-auto.navbox::before { content: "Full Menu"; text-transform: uppercase; color: #2fae9f; vertical-align: -webkit-baseline-middle; font-size: 1.15em; } }
+
+/* Mobile */
 section.eventsHeader { text-align: center; font-size: 0.75em; }
 
 section.eventsHeader { padding-top: 1em; padding-bottom: 1em; height: fit-content; }

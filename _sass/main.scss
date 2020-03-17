@@ -90,7 +90,7 @@ nav {
     border: 0.025px solid #d3d3d359;
 }
 nav a.nav-link {
-    color: black !important;
+    color: black;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -147,6 +147,7 @@ li.nav-item.navbox {
     background: $brand-green;
     z-index: 1000;
     color: white;
+    top: 4em;
 }
 .hoverNavbox li {
     list-style: none;
@@ -154,7 +155,7 @@ li.nav-item.navbox {
     margin-left: 0;
 }
 .hoverNavbox a {
-    color: white;
+    color: white !important;
     padding: 0;
 }
 .hoverNavbox h3 {
