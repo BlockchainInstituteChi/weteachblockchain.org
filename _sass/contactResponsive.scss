@@ -11,7 +11,13 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 	
-
+    .contactUsForm h1 {
+        margin-top: 2em;
+    }
+    .contactUsForm button {
+        width: 100%;
+    }
+    
 }
 
 

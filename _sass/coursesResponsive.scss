@@ -10,7 +10,42 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+
+    /* Course path buttons */
+    .row.pathButtons .col-sm-4 {
+        margin-bottom: 1em;
+        
+    }
+
+    /* Course Listings */
+    span.courseTag {
+        float: right;
+        position: relative;
+        margin-right: -1em;
+        
+    }
+
+    .col-sm-2.courseTagContainer {
+        position: absolute;
+        margin-top: 1em;
+        max-width: 80vw;
+    }
+
+    a.startCourseButton {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    a.startCourseButton {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
 
 }
 

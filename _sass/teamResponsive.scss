@@ -10,7 +10,14 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+	a.callToActionButton.rightRedBrick {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: block;
+        margin-bottom: 1em;
+        margin-left: 0;
+    }
 
 }
 

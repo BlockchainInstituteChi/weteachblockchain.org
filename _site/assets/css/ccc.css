@@ -3417,7 +3417,10 @@ span.courseTag.beginner { background: #2fae9f; }
 
 /* Desktop */
 /* Tablet */
-@media screen and (max-width: 800px) { /* Nav (Mobile General) */
+@media screen and (max-width: 800px) { /* Page Header */
+  .col-sm-6 h1 { margin-top: 0.5em; }
+  .pageHeaderImage .col-sm-6 { margin-left: 0.5em; }
+  /* Nav (Mobile General) */
   .hoverNavbox { width: 100%; left: 0; top: auto; position: relative; }
   li.nav-item.ml-auto.search { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
   li.nav-item.ml-auto.navbox { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
@@ -3432,6 +3435,20 @@ span.courseTag.beginner { background: #2fae9f; }
   div#searchResults { max-height: unset; height: -webkit-fill-available; } }
 
 /* Mobile */
+@media screen and (max-width: 600px) { /* Section Color Tags */
+  section.hasSectionColorTag.red::before { margin-left: -1.5em; height: 100vh; }
+  /* Header color tags */
+  .hasColorTag::before { margin-left: -3.5em; }
+  /* Upcoming Events Footer */
+  .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
+  .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; }
+  /* Mobile Footer */
+  .footer li.nav-item { margin-left: 0; font-size: 1.5em; padding: 0.25em; padding-left: 0; }
+  .footer .col-md-6 { width: 100vw; margin-left: 0; padding: 0; max-width: unset; text-align: center; }
+  button.mc_signup { width: 100%; margin-bottom: 2em; }
+  .mc_signup_input { width: 100%; }
+  .linkList { text-align: center; } }
+
 /* Jumbotron */
 .tileHeader { background: url(/assets/img/ccc_desktop_banner.png); background-size: cover; background-position: 50% 50%; min-height: 100vh; }
 
