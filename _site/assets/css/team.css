@@ -3415,6 +3415,28 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+/* About Us*/
+.header .col-sm-6 { text-align: left; }
+
+.header p { padding: 0.5em; }
+
+a.callToActionButton.rightRedBrick { background: red; color: white; text-transform: uppercase; font-size: 1.5em; padding: 0.25em; padding-left: 1.5em; padding-right: 1.5em; margin-left: 0.5em; }
+
+section.blueBrickDivider { height: 3em; background: #2fae9f; margin-bottom: 5em; }
+
+/* Profiles */
+.team img, .board img { max-width: calc(100% + 3em); height: 10em; }
+
+.col-sm-3 { overflow: hidden; text-align: center; }
+
+.row { margin-bottom: 5em; }
+
+.team h3 { color: black; text-transform: uppercase; }
+
+span.role { color: #2fae9f; text-transform: capitalize; display: block; }
+
+span.bio { color: black; font-weight: 200; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
@@ -3456,27 +3478,7 @@ span.courseTag.beginner { background: #2fae9f; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; } }
 
-/* About Us*/
-.header .col-sm-6 { text-align: left; }
-
-.header p { padding: 0.5em; }
-
-a.callToActionButton.rightRedBrick { background: red; color: white; text-transform: uppercase; font-size: 1.5em; padding: 0.25em; padding-left: 1.5em; padding-right: 1.5em; margin-left: 0.5em; }
-
-section.blueBrickDivider { height: 3em; background: #2fae9f; margin-bottom: 5em; }
-
-/* Profiles */
-.team img, .board img { max-width: calc(100% + 3em); height: 10em; }
-
-.col-sm-3 { overflow: hidden; text-align: center; }
-
-.row { margin-bottom: 5em; }
-
-.team h3 { color: black; text-transform: uppercase; }
-
-span.role { color: #2fae9f; text-transform: capitalize; display: block; }
-
-span.bio { color: black; font-weight: 200; }
+@media screen and (max-width: 330px) { h1 { font-size: 2em; } }
 
 /* Desktop */
 /* Tablet */

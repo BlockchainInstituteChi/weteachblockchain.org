@@ -3415,6 +3415,16 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+section { padding-top: 4em; }
+
+.oops span { display: block; width: 100%; margin-bottom: 1em; margin-top: 1em; }
+
+.oops input { padding-left: 1em; width: 90%; border: 1px solid #2fae9f; border-right: none; }
+
+.oops a { color: #2fae9f; border: 1px solid #2fae9f; border-left: none; padding-right: 1em !important; }
+
+.oops button.searchButton { width: 30%; background: red; color: white; text-transform: uppercase; margin: auto; margin-top: 1em; margin-bottom: 2em; border: none; font-weight: 500; padding: 0.5em; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
@@ -3456,15 +3466,7 @@ span.courseTag.beginner { background: #2fae9f; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; } }
 
-section { padding-top: 4em; }
-
-.oops span { display: block; width: 100%; margin-bottom: 1em; margin-top: 1em; }
-
-.oops input { padding-left: 1em; width: 90%; border: 1px solid #2fae9f; border-right: none; }
-
-.oops a { color: #2fae9f; border: 1px solid #2fae9f; border-left: none; padding-right: 1em !important; }
-
-.oops button.searchButton { width: 30%; background: red; color: white; text-transform: uppercase; margin: auto; margin-top: 1em; margin-bottom: 2em; border: none; font-weight: 500; padding: 0.5em; }
+@media screen and (max-width: 330px) { h1 { font-size: 2em; } }
 
 /* Desktop */
 /* Tablet */
