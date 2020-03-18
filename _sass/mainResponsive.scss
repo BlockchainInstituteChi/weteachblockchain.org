@@ -1,6 +1,6 @@
 /* Desktop */
 @media screen and (max-width: 1000px) {
-
+    
 }
 
 /* Tablet */
@@ -74,6 +74,54 @@
         height: -webkit-fill-available;
     }
 
+    /* Upcoming Events Footer */
+    .upcomingEventsFooter .row {
+        width: 80%;
+    }
+    .tileItem {
+        width: calc(33% - 1em);
+        min-height: 12em;
+        height: fit-content;
+    }
+    .tileItem img {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    /* Mobile Footer */
+    .footer .col-md-3 {
+        min-width: calc(50% - 2em);
+        display: inline-block;
+        max-width: unset;
+        margin: 1em;
+    }
+    .footer .col-md-6 {
+        min-width: 100%;
+        display: block;
+        max-width: unset;
+        margin: 1em;
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer li.nav-item {
+        margin-left: 0;
+        font-size: 1.5em;
+        padding: 0.25em;
+        padding-left: 0;
+    }
+    button.mc_signup {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .mc_signup_input {
+        width: 100%;
+    }
+    .linkList {
+        text-align: center;
+    }
+
+
 } 
 
 /* Mobile */
@@ -91,40 +139,17 @@
     }
 
     /* Upcoming Events Footer */
+    .upcomingEventsFooter .row {
+        width: 100%;
+    }
     .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile {
         width: 100%;
         margin-bottom: 1em;
     }
-
     .upcomingEventsFooter h1 {
         margin-left: 0.5em;
         padding-left: 0.15em;
         margin-bottom: 0.5em;
-    }
-
-    /* Mobile Footer */
-    .footer li.nav-item {
-        margin-left: 0;
-        font-size: 1.5em;
-        padding: 0.25em;
-        padding-left: 0;
-    }
-    .footer .col-md-6 {
-        width: 100vw;
-        margin-left: 0;
-        padding: 0;
-        max-width: unset;
-        text-align: center;
-    }
-    button.mc_signup {
-        width: 100%;
-        margin-bottom: 2em;
-    }
-    .mc_signup_input {
-        width: 100%;
-    }
-    .linkList {
-        text-align: center;
     }
 
 
