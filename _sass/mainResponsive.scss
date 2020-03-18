@@ -7,12 +7,16 @@
 @media screen and (max-width: 800px ) {
 
     /* Page Header */
+    .pageHeaderImage .col-sm-6 {
+        min-width: calc(100vw - 2em);
+    }
 	.col-sm-6 h1 {
 		margin-top: 0.5em;
 	}
 	.pageHeaderImage .col-sm-6 {
 		margin-left: 0.5em;
     }
+
     
     /* Nav (Mobile General) */
 	.hoverNavbox {
@@ -157,5 +161,7 @@
 
 
 @media screen and (max-width: 330px) {
-	
+	h1 {
+        font-size: 2em;
+    }
 }
