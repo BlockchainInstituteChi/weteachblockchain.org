@@ -1,5 +1,5 @@
 ---
-title: Bitcoin vs Ethereum?
+title: Bitcoin vs Ethereum
 image: Difference_BC-Eth.png
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
