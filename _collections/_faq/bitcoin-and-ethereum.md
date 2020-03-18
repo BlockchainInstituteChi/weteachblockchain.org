@@ -1,9 +1,9 @@
 ---
-title: What is Bitcoin vs Ethereum?
+title: Bitcoin vs Ethereum?
 image: Difference_BC-Eth.png
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
-author: Jeremy Cogan
+author: What's The Difference? 
 ---
 <span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
 
