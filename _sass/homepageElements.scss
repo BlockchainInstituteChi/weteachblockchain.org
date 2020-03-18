@@ -38,7 +38,7 @@ section {
 
 /* CTA Buttons */
 a.callToActionButton {
-    background: red;
+    background: $brand-red;
     padding: 1em;
     color: white;
     font-weight: 600;
@@ -146,10 +146,10 @@ section.faqList {
 }
 .faqTile {
     min-height: 290px;
-    width: calc(30% - 1em);
+    width: calc(25% - 1em);
     display: inline-block;
     overflow: hidden;
-    margin: 1em;
+    margin: 0.5em;
     text-align: left;
 }
 .faqTile img {
