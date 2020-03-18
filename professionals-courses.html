@@ -25,10 +25,9 @@ permalink: /courses/professionals/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-		<script>console.log('tag is {{course.tags}}')</script>
+	
 		{% if course.tags contains "professional" %}
 
-			<script>console.log('tag is good')</script>
 			{% include courseListing.html 
 				image=course.image
 				title=course.title 
@@ -52,14 +51,14 @@ permalink: /courses/professionals/
 	</div>
 	<div class="row pathButtons">
 		<div class="col-sm-4">
-			<a target="_blank" href="/courses/novice/">
+			<a href="/courses/novice/">
 				<img src="/assets/img/Novice_button.jpg">
 				<h5>Novice</h5>
 			</a>
 
 		</div>
 		<div class="col-sm-4">
-			<a target="_blank" href="/courses/developers/">
+			<a href="/courses/developers/">
 				<img src="/assets/img/Developers_button.jpg">
 				<h5>Developers</h5>
 			</a>
