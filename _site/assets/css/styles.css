@@ -3456,4 +3456,6 @@ span.courseTag.beginner { background: #2fae9f; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; } }
 
+@media screen and (max-width: 330px) { h1 { font-size: 2em; } }
+
 /*# sourceMappingURL=styles.css.map */

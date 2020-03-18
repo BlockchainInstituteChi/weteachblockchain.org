@@ -3415,6 +3415,18 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+/* Headers */
+.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; font-size: 1em; padding-top: 0.5em; padding-bottom: 0.5em; margin-left: 0; }
+
+/* Release Items */
+.pressReleases h1 { font-size: 1.5em; text-transform: uppercase; }
+
+.pressReleases span { color: green; padding-left: 0.5em; }
+
+.pressReleases p { padding: 0; padding-left: 0.5em; font-size: 1em; color: black; font-weight: 200; }
+
+.pressReleases .col-md-12 { margin-top: 2em; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
@@ -3456,17 +3468,7 @@ span.courseTag.beginner { background: #2fae9f; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; } }
 
-/* Headers */
-.pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; font-size: 1em; padding-top: 0.5em; padding-bottom: 0.5em; margin-left: 0; }
-
-/* Release Items */
-.pressReleases h1 { font-size: 1.5em; text-transform: uppercase; }
-
-.pressReleases span { color: green; padding-left: 0.5em; }
-
-.pressReleases p { padding: 0; padding-left: 0.5em; font-size: 1em; color: black; font-weight: 200; }
-
-.pressReleases .col-md-12 { margin-top: 2em; }
+@media screen and (max-width: 330px) { h1 { font-size: 2em; } }
 
 /* Desktop */
 /* Tablet */

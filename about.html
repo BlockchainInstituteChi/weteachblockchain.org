@@ -33,7 +33,7 @@ permalink: /about/
 
 </section>
 
-<section class="team">
+<section class="team" id="teamContainer">
 	<h1 class="hasColorTag blue">Our Team</h1>
 
     {% for person in site.team %}
@@ -42,14 +42,15 @@ permalink: /about/
             name=person.name
             role=person.role
             bio=person.summary 
-            headshot=person.headshot           
+            headshot=person.headshot
+            type="team"           
         %}
     
     {% endfor %}
         
 </section>
 
-<section class="board">
+<section class="board" id="boardContainer">
 	<h1 class="hasColorTag redRight">Our Board</h1>
 
     {% for person in site.board %}
@@ -58,13 +59,32 @@ permalink: /about/
             name=person.name
             role=person.role
             bio=person.summary 
-            headshot=person.headshot           
+            headshot=person.headshot      
+            type="board"                
         %}
 
     {% endfor %}
         
 </section>
 
+<script>
+
+window.onload = function () { 
+    reorderTeam('person_team', 'teamContainer');
+    reorderTeam('person_board', 'boardContainer')
+}
+
+function reorderTeam(teamName, container) {
+    var team = document.getElementsByClassName(teamName)
+    var teamContainer = document.getElementById(container)
+
+    for (var i = team.length; i >= 0; i--) {
+        teamContainer.appendChild(team[Math.random() * i | 0]);
+    }
+
+}
+
+</script>
 
 {% include pinkDivider.html %}
 

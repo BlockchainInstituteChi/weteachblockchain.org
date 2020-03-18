@@ -3415,6 +3415,31 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+/* About Us*/
+.header .col-sm-6 { text-align: left; }
+
+.header p { padding: 0.5em; }
+
+a.callToActionButton.rightRedBrick { background: red; color: white; text-transform: uppercase; font-size: 1.5em; padding: 0.25em; padding-left: 1.5em; padding-right: 1.5em; margin-left: 0.5em; }
+
+/* Contact Details */
+.locationDetails span { display: block; font-size: 1.35em; }
+
+strong { color: #2fae9f; text-transform: uppercase; }
+
+/* Contact Form */
+.contactUsForm h1 { margin-top: -0.25em; }
+
+.contactUsForm input, .contactUsForm textarea { width: 100%; padding: 0.5em; font-size: 1.5em; border: #2fae9f 1px solid; margin-bottom: 0.5em; }
+
+.contactUsForm textarea { min-height: 9em; }
+
+.contactUsForm button { width: 60%; background: red; color: white; text-transform: uppercase; font-size: 1.25em; font-weight: 600; border: none; letter-spacing: 0.1em; font-size: 1.5em; padding: 0.5em; }
+
+.contactUsForm button:hover { background: #2fae9f; }
+
+.locationDetails { padding-top: 1em; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
@@ -3456,30 +3481,7 @@ span.courseTag.beginner { background: #2fae9f; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; } }
 
-/* About Us*/
-.header .col-sm-6 { text-align: left; }
-
-.header p { padding: 0.5em; }
-
-a.callToActionButton.rightRedBrick { background: red; color: white; text-transform: uppercase; font-size: 1.5em; padding: 0.25em; padding-left: 1.5em; padding-right: 1.5em; margin-left: 0.5em; }
-
-/* Contact Details */
-.locationDetails span { display: block; font-size: 1.35em; }
-
-strong { color: #2fae9f; text-transform: uppercase; }
-
-/* Contact Form */
-.contactUsForm h1 { margin-top: -0.25em; }
-
-.contactUsForm input, .contactUsForm textarea { width: 100%; padding: 0.5em; font-size: 1.5em; border: #2fae9f 1px solid; margin-bottom: 0.5em; }
-
-.contactUsForm textarea { min-height: 9em; }
-
-.contactUsForm button { width: 60%; background: red; color: white; text-transform: uppercase; font-size: 1.25em; font-weight: 600; border: none; letter-spacing: 0.1em; font-size: 1.5em; padding: 0.5em; }
-
-.contactUsForm button:hover { background: #2fae9f; }
-
-.locationDetails { padding-top: 1em; }
+@media screen and (max-width: 330px) { h1 { font-size: 2em; } }
 
 /* Desktop */
 /* Tablet */
