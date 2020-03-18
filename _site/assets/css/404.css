@@ -3418,6 +3418,7 @@ span.courseTag.beginner { background: #2fae9f; }
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
+  .pageHeaderImage .col-sm-6 { min-width: calc(100vw - 2em); }
   .col-sm-6 h1 { margin-top: 0.5em; }
   .pageHeaderImage .col-sm-6 { margin-left: 0.5em; }
   /* Nav (Mobile General) */
