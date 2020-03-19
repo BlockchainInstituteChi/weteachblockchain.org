@@ -15,6 +15,10 @@ h1, h2, h3, span, p, a {
     font-family: $font-family;
 }
 
+span {
+    font-family: Roboto;
+}
+
 a.nav-link.hideOnDesktop {
     display: none;
 }
