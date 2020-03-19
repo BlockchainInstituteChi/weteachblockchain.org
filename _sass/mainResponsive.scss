@@ -144,6 +144,10 @@
 	.pageHeaderImage .col-sm-6 h1 {
     		font-size: 2em;
 	}
+    /* Row Margins */
+	.row {
+    	margin: auto 2em;
+	}
     /* Section Color Tags */
     section.hasSectionColorTag.red::before {
         margin-left: -1.5em;
