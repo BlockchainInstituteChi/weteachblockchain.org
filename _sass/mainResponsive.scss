@@ -140,6 +140,10 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
     
+    /* Page Header */
+	h1 {
+        font-size: 2em;
+    }
     /* Section Color Tags */
     section.hasSectionColorTag.red::before {
         margin-left: -1.5em;
