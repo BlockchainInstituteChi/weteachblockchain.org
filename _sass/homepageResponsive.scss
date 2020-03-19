@@ -38,6 +38,25 @@
 	    padding-left: 0em;
 	    font-size: 1.75em;
 	}
+	.pathButtons h5 {
+	    color: white;
+	    position: absolute;
+	    top: calc( 50% - 0.8em);
+	    width: 100%;
+	    text-align: center;
+	    font-size: .95em;
+	}
+	.pathButtons span {
+    		color: white;
+    		position: absolute;
+    		top: calc( 50% + .5em);
+    		font-size: .6em;
+    		font-style: italic;
+   		width: 100%;
+   		text-align: center;
+   		z-index: 1;
+    		left: 0;
+	}
 	
 	/* Events */
 	.eventsContainer .eventTile {
