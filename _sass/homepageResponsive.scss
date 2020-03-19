@@ -1,6 +1,12 @@
 /* Tablet */
 @media screen and (max-width: 800px) {
 
+	/* Paths */
+	.pathsList h1 {
+	    margin: auto -3.2em;
+	    padding-left: 0em;
+	    font-size: 2em;
+	}
 	/* Courses */
 	.coursesThumbnailContainer .courseTile {
 		width: calc(50% - 1em);
@@ -25,7 +31,14 @@
 	.pathButtons .col-sm-4 {
 		margin-bottom: 1em;
 	}
-
+	
+	/* Paths */
+	.pathsList h1 {
+	    margin: auto -1.25em;
+	    padding-left: 0em;
+	    font-size: 1.75em;
+	}
+	
 	/* Events */
 	.eventsContainer .eventTile {
 		width: 100%;
