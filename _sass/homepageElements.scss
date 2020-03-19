@@ -21,14 +21,16 @@ section {
 .pathButtons h5 {
     color: white;
     position: absolute;
-    top: calc( 50% - 0.5em);
+    top: calc( 50% - 0.8em);
     width: 100%;
     text-align: center;
 }
 .pathButtons span {
     color: white;
     position: absolute;
-    top: calc( 50% + 1.25em);
+    top: calc( 50% + .5em);
+    font-size: .8em;
+    font-style: italic;
     width: 100%;
     text-align: center;
     z-index: 1;
