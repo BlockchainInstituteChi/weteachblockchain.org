@@ -19,4 +19,5 @@ author: Concept
 <h3>Real Estate</h3>
 <span>Currently, assets are being digitized into tokens, where the owner has complete digital control over the tokenized asset. This process could ultimately end ownership disputes, as the true owner would be able to prove that the asset is theirs. This tokenization of assets allows for a much more cost efficient and quick property transfer process.</span>
 
+
 <span>Blockchain technology’s impact is not limited to these fields. There is constant innovation concerning blockchains, and new use-cases are popping up regularly.</span>
