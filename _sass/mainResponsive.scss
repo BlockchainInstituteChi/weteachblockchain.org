@@ -8,14 +8,13 @@
 
     /* Page Header */
     .pageHeaderImage .col-sm-6 {
-        min-width: calc(100vw - 2em);
+        min-width: calc(100vw - 6em);
+	margin: auto 2em;   
     	}
 	.col-sm-6 h1 {
 		margin-top: 0.5em;
 	}
-	.pageHeaderImage .col-sm-6 {
-		margin-left: 0.5em;
-    	}
+	
 	.pageHeaderImage p {
 		max-width: 100%;
 	}
@@ -86,6 +85,11 @@
         max-height: unset;
         height: -webkit-fill-available;
     }
+	/* Row Margins */
+		.row {
+    		margin: auto 2em;
+		max-width: calc(100% - 4em);
+	}
 
     /* Upcoming Events Footer */
     .upcomingEventsFooter .row {
@@ -141,13 +145,19 @@
 @media screen and (max-width: 600px) {
     
     /* Page Header */
+	.pageHeaderImage .col-sm-6 {
+        	min-width: calc(100vw - 6em);
+		margin: auto 3em;   
+    	}
 	.pageHeaderImage .col-sm-6 h1 {
     		font-size: 2em;
 	}
     /* Row Margins */
 	.row {
-    	margin: auto 2em;
+    		margin: auto 1em;
+		max-width: calc(100% - 2em);
 	}
+	
     /* Section Color Tags */
     section.hasSectionColorTag.red::before {
         margin-left: -1.5em;
