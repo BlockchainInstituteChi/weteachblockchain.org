@@ -3,7 +3,7 @@ title: What is Cryptocurrency?
 image: Crypto2.png
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
-author: Jeremy Cogan
+author: Concept 
 ---
 <h3>Background</h3>
 <span> Cryptocurrencies such as bitcoin or ether are scarce digital assets which exist on a decentralized network of computers. The currencies, which are referred to as coins or tokens, can be used within their network as a digital store of value or a medium of exchange.</span>
