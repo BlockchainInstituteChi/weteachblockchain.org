@@ -416,6 +416,7 @@ section.pageHeaderImage .row {
     line-height: 1.9;
     letter-spacing: .1px;
 	margin-top: 1em;
+	max-width: 80%;
 }
 .pageHeaderImage a.callToActionButton {
     background: $brand-red;
