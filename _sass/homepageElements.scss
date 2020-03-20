@@ -111,7 +111,7 @@ h1.blueBar.right {
 }
 .eventsContainer .eventTile {
     width: calc(50% - 3em);
-    display: inline-block;
+    display: inline-grid;
 }
 .events a.callToActionButton {
     margin-top: 2em;
