@@ -26,6 +26,10 @@
    		z-index: 1;
     		left: 0;
 	}
+	/*Mission*/
+	h1.blueBar.right {
+    		font-size: 2em;
+	}
 	/* Courses */
 	.coursesThumbnailContainer .courseTile {
 		width: calc(50% - 1em);
@@ -76,7 +80,10 @@
    		z-index: 1;
     		left: 0;
 	}
-	
+	/*Missions*/
+	h1.blueBar.right {
+    		font-size: 1.75em;
+	}
 	/* Events */
 	.eventsContainer .eventTile {
 		width: 100%;
