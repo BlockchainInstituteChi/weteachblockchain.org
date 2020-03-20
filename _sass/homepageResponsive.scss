@@ -30,6 +30,10 @@
 	h1.blueBar.right {
     		font-size: 2em;
 	}
+	section.ourMission {
+    		margin-bottom: 0;
+    		min-height: 300px;
+	}
 	/* Courses */
 	.coursesThumbnailContainer .courseTile {
 		width: calc(50% - 1em);
@@ -89,7 +93,7 @@
     		margin-bottom: 4em;
 	}
 	.col-sm-6.hpMission {
-		min-width: 600px;
+		min-width: 450px;
 	}
 	/* Events */
 	.eventsContainer .eventTile {
