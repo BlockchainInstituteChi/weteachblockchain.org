@@ -1,5 +1,5 @@
 ---
-title: 2018 in Review
+title: 2018 In Review
 date: 2018-12-31
 eventdate: December 31st, 2018
 ---
