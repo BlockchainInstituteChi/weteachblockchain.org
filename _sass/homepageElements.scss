@@ -66,6 +66,11 @@ a.callToActionButton {
 /* Mission */
 .col-sm-6.hpMission {
     left: -6em;
+        min-height: 400px;
+}
+section.ourMission {
+    margin-bottom: 0;
+    min-height: 400px;
 }
 
 /* Events */
