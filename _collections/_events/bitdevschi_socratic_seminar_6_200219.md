@@ -3,7 +3,7 @@ title: BITDEVS CHI – Socratic Seminar 6
 layout: event
 image: bitdevschithumb.jpeg
 date: 2020-02-19
-eventdate: Wednesday, February 19th, 2020 (7:00 pm – 9:00 pm)
+eventdate: Wednesday, February 19th, 2020
 permalink: /events/bitdevschi_socratic_seminar_6_200219
 ---
 <h2>Details</h2>
