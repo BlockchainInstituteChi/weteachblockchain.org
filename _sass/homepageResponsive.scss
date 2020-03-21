@@ -37,6 +37,10 @@
     		margin-bottom: 0;
     		min-height: 300px;
 	}
+	/*Events*/
+	.col-sm-6.ourEvents {
+    		margin-top: 2em;
+	}
 	/* Courses */
 	.coursesThumbnailContainer .courseTile {
 		width: calc(50% - 1em);
@@ -107,7 +111,7 @@
 		overflow-y: scroll;
 	}
 	.eventTile h1 {
-		margin-top: -0.5em;
+		margin-top: 0em;
 	}
 
 	/* Courses */
@@ -116,6 +120,9 @@
 	}
 	.onlineCourses a.callToActionButton {
 		margin-top: 2em;
+	}
+	.col-sm-6.ourEvents {
+	    	margin-top: 0em;
 	}
 
 	/* FAQ */
