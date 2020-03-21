@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Ethereum 101 Blockchain Beyond Bitcoin
+title: Ethereum 101
 primaryTag : beginner
 tags: beginner professional
 slug: ethereum-101-blockchain-beyond-bitcoin
