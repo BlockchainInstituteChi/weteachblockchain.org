@@ -26,7 +26,7 @@ ogUrl: https://weteachblockchain.org/
 	<h1 class="hasColorTag teal">Education Paths</h1>
 	<div class="row">
 		<div class="col-sm-12">
-			<span>
+			<span class="descriptionText">
 				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
 			</span>
 		</div>
@@ -88,6 +88,9 @@ ogUrl: https://weteachblockchain.org/
         <h1 class="blueBar right">
           Come to an Event
         </h1>
+        <span class="descriptionText">
+          Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+        </span>
         <div class="eventsContainer">
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:4 %}
@@ -101,14 +104,17 @@ ogUrl: https://weteachblockchain.org/
   
           {% endfor %}
         </div>
-        <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
       </div>
+      <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
   </div>
 </section>
 
 <section class="onlineCourses blueDivider">
   <div class="row">
     <h1>Check Out Our Online Courses</h1>
+    <span class="descriptionText">
+      Lorem ipsum dolar sit Amet, the courses section description text goes here and lorem ipsum isn't latin if you spell it wrong
+    </span>
     <div class="coursesThumbnailContainer"> 
       {% assign sorted = site.courses | sort: 'tags' %}
       {% for course in sorted %}
@@ -130,6 +136,9 @@ ogUrl: https://weteachblockchain.org/
 <section class="faq">
   <div class="row">
     <h1 class="redBar">Got A Question?</h1>
+    <span class="descriptionText">
+      Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+    </span>
     <div class="faqThumbnailContainer"> 
       {% assign faqSample = site.faq | sample: 3 %}
       {% for item in faqSample limit:3 %}
@@ -144,6 +153,41 @@ ogUrl: https://weteachblockchain.org/
     <a href="/faq/" target="_blank" class="callToActionButton">Check out our Blockchain FAQ!</a>
   </div>
 </section>
+
+<script>
+
+if ( window.innerWidth < 400 ) {
+  reformatEventsToScrollRight ();
+  limitCourses (4)
+}
+
+
+function reformatEventsToScrollRight () {
+  console.log('page loaded and ran ')
+  var hpEventsBanner = document.createElement('div')
+      hpEventsBanner.className = "hpEventsScrollBanner";  
+
+  var hpEventsContainer = document.getElementsByClassName('eventsContainer')[0];
+
+  var hpEvents = document.getElementsByClassName('eventsContainer')[0].children
+
+  var setLength = hpEvents.length;
+
+  do {
+    hpEventsBanner.appendChild(hpEvents[0])
+  } while ( hpEvents[0] )
+  
+  hpEventsContainer.appendChild(hpEventsBanner);
+}
+  
+function limitCourses (limit) {
+  var courseTiles = document.getElementsByClassName('coursesThumbnailContainer')[0].children;
+  for ( var i = 0; i < limit; i++ ) {
+    courseTiles[ Math.floor(Math.random() * courseTiles.length) ].remove()
+  }
+}
+
+</script>
 
 <!-- Testimonials go here -->
 
