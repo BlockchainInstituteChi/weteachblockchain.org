@@ -17,6 +17,9 @@ section {
     padding-left: 0em;
     font-size: 2.5em;
 }
+span.descriptionText.pathDescriptionHP {
+    margin-left: 0em;
+}
 .pathButtons img {
     max-width: 100%;
 }
@@ -88,7 +91,10 @@ h1.blueBar.right {
 .events h1.blueBar.right {
     color: white;
 }
-
+span.descriptionText.eventDescriptionHP {
+    margin-left: 0em;
+    color: white;
+}
 .eventTile {
     min-height: fit-content;
     width: calc(30% - 1em);
