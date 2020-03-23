@@ -3578,16 +3578,16 @@ section.faqList { text-align: left; }
   .eventsContainer .eventTile { width: 100%; }
   .eventsContainer { height: 100vh; overflow-y: scroll; }
   .eventTile h1 { margin-top: 0em; }
+  a.callToActionButton { float: right; }
+  .eventsContainer { float: left; display: block; height: fit-content; overflow-x: scroll; max-width: 100%; }
+  .hpEventsScrollBanner { height: 16em; width: 500vw; }
+  .eventTile { max-width: calc(100vw - 4em); float: left; }
   /* Courses */
   .coursesThumbnailContainer .courseTile { width: 100%; }
   .onlineCourses a.callToActionButton { margin-top: 2em; }
   .col-sm-6.ourEvents { margin-top: 0em; }
   /* FAQ */
   .faqTile { width: 100%; margin-left: 0; }
-  /* Events Tweaks */
-  .eventsContainer { float: left; display: block; height: fit-content; overflow-x: scroll; max-width: 100%; }
-  .hpEventsScrollBanner { height: 16em; width: 500vw; }
-  .eventTile { max-width: calc(100vw - 4em); float: left; }
   /* Hide 'recent courses' section on HP */
   section.upcomingEventsFooter { display: none; } }
 
