@@ -17,10 +17,20 @@ permalink: /events/
 	<p>Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;Get in touch with us about sponsorships, speakers, or running a workshop for your next event. In need of space? Our headquarters at the&nbsp;<a class="externaLink" href="https://hackha.us/" target="_blank" rel="noopener">HackHaus</a>&nbsp;in Chicago provides an environment for a wide range of activities.</p>
 </section>
 
+{% assign sorted = site.events | sort: 'date' | reverse %}
+{% assign futureposts = 0 %}
+
+{% for event in sorted %}
+	{% if event.date > site.time  %}
+		{% assign i = i | plus:1 %}
+	{% endif %}
+{% endfor %}
+
+{% if futureposts > 0 %} 
+
 <section class="eventsList upcoming">
 	<h1 class="hasColorTag red">Upcoming Events</h1>
 	<div class="row">
-		{% assign sorted = site.events | sort: 'date' | reverse %}
 		{% for event in sorted %}
 	
 			{% if event.date > site.time  %}
@@ -35,6 +45,8 @@ permalink: /events/
 		{% endfor %}
 	</div>
 </section>
+
+{% endif %}
 
 <section class="eventsList past">
 	<h1 class="hasColorTag teal">Past Events</h1>
