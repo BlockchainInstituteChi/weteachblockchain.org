@@ -471,7 +471,7 @@ section.hasSectionColorTag::before {
     color: #ff000000;
     display: block;
     margin-bottom: -0.25em;
-	margin-left: .5em;
+    margin-left: 1.25em;
     margin-right: 0.5em;
     vertical-align: sub;
     position: absolute;
@@ -496,6 +496,7 @@ section.upcomingEventsFooter {
     font-size: 2.5em;
     margin-left: 2.25em;
     padding-left: 0.15em;
+    margin-left: 1.65em;
     margin-bottom: 0.5em;
 }
 .upcomingEventsFooter .eventTile {
@@ -525,7 +526,8 @@ section.upcomingEventsFooter {
     width: 25%;
     overflow: hidden;
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 2.5em;
+    margin-left: -1.5em;
 }
 .tileItem img {
     width: 100%;
