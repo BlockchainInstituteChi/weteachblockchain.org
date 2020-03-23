@@ -13,7 +13,7 @@ section {
 
 /* Path Options */
 .pathsList h1 {
-    margin: auto auto auto -1.15em;
+    margin: auto auto .5rem -1.15em;
     padding-left: 0em;
     font-size: 2.5em;
 }
@@ -140,6 +140,10 @@ span.descriptionText.eventDescriptionHP {
 }
 
 /* Courses Container */
+h1.coursesHeaderHP {
+    padding-left: .15em;
+    font-size: 2.5em;
+}
 .courseTile a {
     width: 100%;
     height: 100%;
