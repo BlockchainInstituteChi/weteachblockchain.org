@@ -92,6 +92,9 @@
 	}
 
     /* Upcoming Events Footer */
+	section.hasSectionColorTag::before{
+	    margin-left: -2.25em;
+	}
     .upcomingEventsFooter .row {
         width: 80%;
     }
