@@ -46,6 +46,10 @@
 		width: calc(50% - 1em);
 		margin-bottom: 1em;
 	}
+	h1.coursesHeaderHP {
+    		padding-left: .25em;
+    		font-size: 2em;
+	}
 
 	/* FAQ */
 	.faqTile h1 {
@@ -124,7 +128,13 @@
 	.col-sm-6.ourEvents {
 	    	margin-top: 0em;
 	}
-
+	
+	/*Courses*/
+	h1.coursesHeaderHP {
+    		padding-left: .25em;
+    		font-size: 1.75em;
+	}
+	
 	/* FAQ */
 	.faqTile {
 		width: 100%;
