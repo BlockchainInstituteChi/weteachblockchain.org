@@ -493,7 +493,8 @@ section.upcomingEventsFooter {
     margin-bottom: 5em;
 }
 .upcomingEventsFooter h1 {
-    margin-left: 1.5em;
+    font-size: 2.5em;
+    margin-left: 2.25em;
     padding-left: 0.15em;
     margin-bottom: 0.5em;
 }
@@ -528,7 +529,7 @@ section.upcomingEventsFooter {
 }
 .tileItem img {
     width: 100%;
-    height: 10em;
+    height: auto;
     text-align: center;
 }
 .tileItem h1 {
@@ -537,11 +538,15 @@ section.upcomingEventsFooter {
     font-size: 1.25em;
     padding-left: 0;
     margin-bottom: 0;
+    padding-top: .5em;
+    line-height: 1em;
 }
 .tileItem span {
-    font-size: 0.75em;
+    font-size: 0.8em;
     text-transform: uppercase;
     color: $brand-green;
+    line-height: .4em;
+    font-style: italic;
 }
 
 /* Pink Stripe Divider */
