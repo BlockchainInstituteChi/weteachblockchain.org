@@ -17,8 +17,8 @@ ogUrl: https://weteachblockchain.org/
 	img="Homepage_Banner.jpg" 
 	header="#WeTeachBlockchain" 
 	text="Blockchain is the <b>future</b> but you can’t wait to learn about it. We are a 501(c)(3) nonprofit organization dedicated to providing educational resources for you no matter who you are. Start your blockchain journey today with one of our <b>free</b> online or in-person courses." 
-	ctaText="Learn Blockchain Free Today!" 
-	ctaLink="/courses/blockchain-101/" 
+	ctaText="What is a Blockchain?" 
+	ctaLink="/faq/what-is-blockchain/" 
 %}
 
 
@@ -26,7 +26,7 @@ ogUrl: https://weteachblockchain.org/
 	<h1 class="hasColorTag teal">Education Paths</h1>
 	<div class="row">
 		<div class="col-sm-12">
-			<span class="descriptionText">
+			<span class="descriptionText pathDescriptionHP">
 				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
 			</span>
 		</div>
@@ -88,8 +88,8 @@ ogUrl: https://weteachblockchain.org/
         <h1 class="blueBar right">
           Come to an Event
         </h1>
-        <span class="descriptionText">
-          Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+        <span class="descriptionText eventDescriptionHP">
+          Are you in Chicago? Want to get involved and meet others that share our vision? 
         </span>
         <div class="eventsContainer">
           {% assign sorted = site.events | sort: 'date' | reverse %}
@@ -112,9 +112,9 @@ ogUrl: https://weteachblockchain.org/
 
 <section class="onlineCourses blueDivider">
   <div class="row">
-    <h1>Check Out Our Online Courses</h1>
+    <h1 class="coursesHeaderHP">Check Out Our Online Courses</h1>
     <span class="descriptionText">
-      Lorem ipsum dolar sit Amet, the courses section description text goes here and lorem ipsum isn't latin if you spell it wrong
+      Start your Free blockchain education from the comfort of home.
     </span>
     <div class="coursesThumbnailContainer"> 
       {% assign sorted = site.courses | sort: 'tags' %}
@@ -138,7 +138,7 @@ ogUrl: https://weteachblockchain.org/
   <div class="row">
     <h1 class="redBar">Got A Question?</h1>
     <span class="descriptionText">
-      Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+      Not ready to start a full course? Get some answers quick.
     </span>
     <div class="faqThumbnailContainer"> 
       {% assign faqSample = site.faq | sample: 3 %}
