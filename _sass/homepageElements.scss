@@ -100,7 +100,7 @@ span.descriptionText.eventDescriptionHP {
     width: calc(30% - 1em);
     display: inline-block;
     overflow: hidden;
-    margin: 1em 2em 1em 0em;;
+    margin: 1em 1em 1em 0em;
     text-align: left;
 }
 .eventTile img {
@@ -127,7 +127,7 @@ span.descriptionText.eventDescriptionHP {
     line-height: 1em;
 }
 .eventsContainer .eventTile {
-    width: calc(50% - 3em);
+    width: calc(50% - 1.19em);
     display: inline-grid;
 }
 .events a.callToActionButton {
