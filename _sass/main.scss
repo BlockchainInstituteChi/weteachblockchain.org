@@ -466,7 +466,7 @@ section.breadcrumbs {
 section.hasSectionColorTag::before {
     background: #3dba95;
     width: 2em;
-    height: 20em;
+    height: 14em;
     content: "_";
     color: #ff000000;
     display: block;
@@ -490,7 +490,7 @@ section.hasSectionColorTag.teal::before {
 /* Upcoming Events Footer */
 section.upcomingEventsFooter {
     margin: 2em;
-    margin-bottom: 5em;
+    margin-bottom: 7em;
 }
 .upcomingEventsFooter h1 {
     font-size: 2.5em;
