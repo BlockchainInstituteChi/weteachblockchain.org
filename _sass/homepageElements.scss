@@ -201,6 +201,7 @@ h1.redBar {
 .faqThumbnailContainer {
     width: 100%;
     height: fit-content;
+    padding-top: 2em;
 }
 section.faqList {
     text-align: left;
@@ -212,6 +213,7 @@ section.faqList {
     overflow: hidden;
     margin: 0.5em;
     text-align: left;
+    float: left;
 }
 .faqTile img {
     max-width: 100%;
