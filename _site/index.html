@@ -341,8 +341,8 @@
   
           
         </div>
-        <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
       </div>
+      <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
   </div>
 </section>
 
@@ -451,18 +451,18 @@
       
       
         <div class="faqTile"> 
-    <a target="_blank" href="/faq/blockchain-vs-cryptocurrency/">
-        <img src="/assets/img/Difference.png"/>
-        <h1>Blockchain vs Cryptocurrency</h1>
-        <span>What's The Difference?</span>
-    </a>
-</div>
-      
-        <div class="faqTile"> 
     <a target="_blank" href="/faq/what-is-blockchain/">
         <img src="/assets/img/blockchain.png"/>
         <h1>What is a Blockchain?</h1>
         <span>Concept</span>
+    </a>
+</div>
+      
+        <div class="faqTile"> 
+    <a target="_blank" href="/faq/blockchain-vs-cryptocurrency/">
+        <img src="/assets/img/Difference.png"/>
+        <h1>Blockchain vs Cryptocurrency</h1>
+        <span>What's The Difference?</span>
     </a>
 </div>
       
@@ -480,7 +480,12 @@
 </section>
 
 <script>
-reformatEventsToScrollRight ();
+
+if ( window.innerWidth < 400 ) {
+  reformatEventsToScrollRight ();
+  limitCourses (4)
+}
+
 
 function reformatEventsToScrollRight () {
   console.log('page loaded and ran ')
@@ -500,6 +505,13 @@ function reformatEventsToScrollRight () {
   hpEventsContainer.appendChild(hpEventsBanner);
 }
   
+function limitCourses (limit) {
+  var courseTiles = document.getElementsByClassName('coursesThumbnailContainer')[0].children;
+  for ( var i = 0; i < limit; i++ ) {
+    courseTiles[ Math.floor(Math.random() * courseTiles.length) ].remove()
+  }
+}
+
 </script>
 
 <!-- Testimonials go here -->
@@ -510,14 +522,6 @@ function reformatEventsToScrollRight () {
 	<h1>Recent Courses</h1>
 	<div class="row">
 		
-		
-            <div class="tileItem"> 
-                <a target="_blank" href="/courses/blockchain-101/">
-                    <img src="/assets/img/BC101-01.png"/>
-                    <h1>Blockchain 101</h1>
-                    <span>Jeremy Cogan</span>
-                </a>
-            </div>
 		
             <div class="tileItem"> 
                 <a target="_blank" href="/courses/hyperledger/">
@@ -532,6 +536,14 @@ function reformatEventsToScrollRight () {
                     <img src="/assets/img/BlockchainforBusiness.png"/>
                     <h1>Blockchain for Business</h1>
                     <span>Jeremy Cogan</span>
+                </a>
+            </div>
+		
+            <div class="tileItem"> 
+                <a target="_blank" href="/courses/blockchain-security/">
+                    <img src="/assets/img/BC-Security-01.png"/>
+                    <h1>Blockchain Security</h1>
+                    <span>ALEX MORRIS</span>
                 </a>
             </div>
 		

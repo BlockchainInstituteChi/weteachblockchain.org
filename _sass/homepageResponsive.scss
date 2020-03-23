@@ -148,6 +148,11 @@
 		float: left;
 	}
 
+	/* Hide 'recent courses' section on HP */
+	section.upcomingEventsFooter {
+		display: none;
+	}
+
 }
 
 

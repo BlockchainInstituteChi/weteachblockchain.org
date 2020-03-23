@@ -3587,7 +3587,9 @@ section.faqList { text-align: left; }
   /* Events Tweaks */
   .eventsContainer { float: left; display: block; height: fit-content; overflow-x: scroll; max-width: 100%; }
   .hpEventsScrollBanner { height: 16em; width: 500vw; }
-  .eventTile { max-width: calc(100vw - 4em); float: left; } }
+  .eventTile { max-width: calc(100vw - 4em); float: left; }
+  /* Hide 'recent courses' section on HP */
+  section.upcomingEventsFooter { display: none; } }
 
 @media screen and (max-width: 330px) { /* #weteachblockchain title width */
   .pageHeaderImage .col-sm-6 h1 { font-size: 1.75em; } }

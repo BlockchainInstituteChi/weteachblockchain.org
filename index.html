@@ -104,8 +104,8 @@ ogUrl: https://weteachblockchain.org/
   
           {% endfor %}
         </div>
-        <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
       </div>
+      <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
   </div>
 </section>
 
@@ -155,7 +155,12 @@ ogUrl: https://weteachblockchain.org/
 </section>
 
 <script>
-reformatEventsToScrollRight ();
+
+if ( window.innerWidth < 400 ) {
+  reformatEventsToScrollRight ();
+  limitCourses (4)
+}
+
 
 function reformatEventsToScrollRight () {
   console.log('page loaded and ran ')
@@ -175,6 +180,13 @@ function reformatEventsToScrollRight () {
   hpEventsContainer.appendChild(hpEventsBanner);
 }
   
+function limitCourses (limit) {
+  var courseTiles = document.getElementsByClassName('coursesThumbnailContainer')[0].children;
+  for ( var i = 0; i < limit; i++ ) {
+    courseTiles[ Math.floor(Math.random() * courseTiles.length) ].remove()
+  }
+}
+
 </script>
 
 <!-- Testimonials go here -->
