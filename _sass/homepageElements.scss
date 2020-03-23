@@ -202,12 +202,12 @@ h1.redBar {
     width: 100%;
     height: fit-content;
     padding-top: 2em;
+    padding-bottom: 3em;
 }
 section.faqList {
     text-align: left;
 }
 .faqTile {
-    min-height: 290px;
     width: calc(25% - 1em);
     display: inline-block;
     overflow: hidden;
