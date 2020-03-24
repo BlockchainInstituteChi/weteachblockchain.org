@@ -19,7 +19,7 @@ eventdate: January 5th, 2020
 
 <p>We are very excited to finally be hosting in-person classes to help onboard people into cryptocurrency and blockchain.</p>
 
-<h>We Moved!</h3>
+<h3>We Moved!</h3>
 <p>We're excited to announce that we've now taken up residence in Chicago's HackHaus, a space dedicated to promoting technology advancement. While moving was a major hurdle, our new space boasts a large teaching area, as well as co-working space for other decentralized projects.</p>
 
 <p>The space has allowed us to expand from online-only courses to in-person classes and being able to host a variety of blockchain and cryptocurrency-related events. It also gives us some breathing room which is much appreciated.</p>
