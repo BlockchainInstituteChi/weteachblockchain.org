@@ -152,6 +152,10 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	/*Nav*/
+	ul.navbar-nav.flex-row {
+    		display: none;
+	}
     
     /* Page Header */
 	.pageHeaderImage .col-sm-6 {
