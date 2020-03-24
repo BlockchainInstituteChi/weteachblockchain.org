@@ -37,8 +37,12 @@
     font-size: 1.25em;
 }
 .courseListing .author {
-    color: $brand-green;
+    color: #2fae9f;
     text-transform: uppercase;
+    display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
 }
 span.summary {
     font-size: 0.75em;
