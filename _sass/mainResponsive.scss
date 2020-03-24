@@ -167,7 +167,17 @@
 	    background-position: right;
 	}
 	
-    /* Row Margins */
+	/*Courses*/
+	.coursesThumbnailContainer {
+	    padding-bottom: 1em;
+	}
+	
+	/*FAQ*/
+	.faqThumbnailContainer.a.callToActionButton {
+    		margin-left: .5em;
+	}
+	
+	/* Row Margins */
 	.row {
     		margin: auto 1em;
 		max-width: calc(100% - 2em);
