@@ -112,6 +112,7 @@
 	/* Events */
 	.eventsContainer .eventTile {
 		width: 100%;
+		width: calc(50% - 3em);
 	}
 	.eventsContainer {
 		height: 100vh;
