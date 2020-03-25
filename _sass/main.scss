@@ -395,6 +395,9 @@ section.pageHeaderImage {
     min-height: 20vh;
     height: fit-content;
 }
+section.pageHeaderImage.noText {
+    min-height: 50vh;
+}
 section.pageHeaderImage .row {
     background: #00000094;
     min-width: 100%;
