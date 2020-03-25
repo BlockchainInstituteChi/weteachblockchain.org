@@ -36,4 +36,7 @@
     class: normal        
   - name: Press
     link: /press-releases/
+    class: normal     
+  - name: Become a Blockchain Ambassador
+    link: /ambassadors/
     class: normal      

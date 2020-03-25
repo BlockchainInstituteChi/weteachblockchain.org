@@ -1,0 +1,102 @@
+---
+layout: default
+title: Ambassadors
+stylesheet: ambassadors.css
+permalink: /ambassadors/
+---
+
+
+<!-- events.html -->
+{% include pageHeader.html 
+    img="Ambassador.jpg" 
+	header="#YouTeachBlockchain" 
+	text="Become a blockchain institute ambassador today, and begin your journey with the resources you need to succeed." 
+	ctaText="Join Now" 
+	ctaLink="#joinNow" 
+
+%}
+
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Some informational text goes here</h1>
+            <span>Even more information about the program, perhaps a suggestion to apply below.</span>
+        </div>
+        <div class="col-sm-4">
+            <h4>Section 1</h4>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <h4>Section 2</h4>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+            <h4>Section 3</h4>
+            <ul>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<section class="header" id="joinNow">
+    <div class="row">
+		<div class="col-sm-6">
+			<img src="/assets/img/map.png">
+			<div class="locationDetails">
+				<span>
+					<strong>Address:</strong> 
+					<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
+						4649 North Broadway Ave. Chicago, IL 60640 (Click Here)
+					</a>
+				</span>
+				<span>
+					<strong>Email:</strong>  
+					<a href="mailto:info@weteachblockchain.org" target="_blank">
+						info@weteachblockchain.org
+					</a>
+				</span>
+			</div>
+			
+			
+        </div>
+        <div class="col-sm-6 contactUsForm">
+			<h1>Leave a Message</h1>
+			<input type="text" placeholder="Name" id="contactUsName">
+			<input type="text" placeholder="Email" id="contactUsEmail">
+			<input type="text" placeholder="Subject" id="contactUsSubject">
+			<textarea placeholder="Your message here" id="contactUsMessageBody"></textarea>
+			<button onclick="submitContactUsForm()">Submit</button>
+		</div>
+    </div>
+</section>
+
+<script>
+	function submitContactUsForm() {
+		var formDetails = {
+			name : document.getElementById('contactUsName').value,
+			email : document.getElementById('contactUsEmail').value,
+			subject : document.getElementById('contactUsSubject').value,
+			message : document.getElementById('contactUsMessageBody').value
+		}
+		console.log('formDetails', formDetails)
+	}
+</script>
+
+{% include pinkDivider.html %}
+
+{% include upcomingEvents.html %}
