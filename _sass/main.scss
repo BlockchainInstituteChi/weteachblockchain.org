@@ -558,9 +558,15 @@ section.upcomingEventsFooter {
 }
 
 /* Pink Stripe Divider */
-section.pinkStripesDivider {
+section.upPinkStripesDivider {
     height: 5em;
     background: url(/assets/img/pink-stripes-divider.png);
+    margin-top: 2em;
+    background-size: cover;
+}
+section.downPinkStripesDivider {
+    height: 5em;
+    background: url(/assets/img/pink-stripes-divider-bottom.png);
     margin-top: 2em;
     background-size: cover;
 }
