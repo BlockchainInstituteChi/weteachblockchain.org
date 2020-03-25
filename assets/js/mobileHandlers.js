@@ -7,6 +7,10 @@ window.onload = function () {
     reviseForMobile();
 }
 
+window.onresize = function () {
+    reviseForMobile()
+}
+
 function reviseForMobile () {
     if (mobiCheck) {
         toggleDisplayNavBox ();

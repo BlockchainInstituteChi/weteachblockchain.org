@@ -216,7 +216,7 @@
             <h1>#WeTeachBlockchain</h1>
             <p>Blockchain is the <b>future</b> but you can’t wait to learn about it. We are a 501(c)(3) nonprofit organization dedicated to providing educational resources for you no matter who you are. Start your blockchain journey today with one of our <b>free</b> online or in-person courses.</p>
             
-                <a href="/courses/blockchain-101/" target="_blank" class="callToActionButton">Learn Blockchain Free Today!</a>
+                <a href="/faq/what-is-blockchain/" target="_blank" class="callToActionButton">What is a Blockchain?</a>
             
         </div>
     </div>
@@ -228,7 +228,7 @@
 	<h1 class="hasColorTag teal">Education Paths</h1>
 	<div class="row">
 		<div class="col-sm-12">
-			<span class="descriptionText">
+			<span class="descriptionText pathDescriptionHP">
 				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
 			</span>
 		</div>
@@ -290,8 +290,8 @@
         <h1 class="blueBar right">
           Come to an Event
         </h1>
-        <span class="descriptionText">
-          Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+        <span class="descriptionText eventDescriptionHP">
+          Are you in Chicago? Want to get involved and meet others that share our vision? 
         </span>
         <div class="eventsContainer">
           
@@ -349,9 +349,9 @@
 
 <section class="onlineCourses blueDivider">
   <div class="row">
-    <h1>Check Out Our Online Courses</h1>
+    <h1 class="coursesHeaderHP">Check Out Our Online Courses</h1>
     <span class="descriptionText">
-      Lorem ipsum dolar sit Amet, the courses section description text goes here and lorem ipsum isn't latin if you spell it wrong
+      Start your Free blockchain education from the comfort of home.
     </span>
     <div class="coursesThumbnailContainer"> 
       
@@ -446,32 +446,32 @@
   <div class="row">
     <h1 class="redBar">Got A Question?</h1>
     <span class="descriptionText">
-      Lorem ipsum dolar sit Amet, the events section description text goes here and lorem ipsum isn't latin if you spell it wrong
+      Not ready to start a full course? Get some answers quick.
     </span>
     <div class="faqThumbnailContainer"> 
       
       
         <div class="faqTile"> 
-    <a target="_blank" href="/faq/what-is-cryptocurrency/">
-        <img src="/assets/img/Crypto2.png"/>
-        <h1>What is Cryptocurrency?</h1>
+    <a target="_blank" href="/faq/what-is-forking/">
+        <img src="/assets/img/Forking.png"/>
+        <h1>What is Forking?</h1>
         <span>Concept</span>
     </a>
 </div>
       
         <div class="faqTile"> 
-    <a target="_blank" href="/faq/coins-vs-tokens/">
-        <img src="/assets/img/coins-vs-tokens.png"/>
-        <h1>Coins vs Tokens</h1>
+    <a target="_blank" href="/faq/decentralized-computing/">
+        <img src="/assets/img/decentralized_computing_open.jpg"/>
+        <h1>What is Decentralized Computing?</h1>
+        <span>Concept</span>
+    </a>
+</div>
+      
+        <div class="faqTile"> 
+    <a target="_blank" href="/faq/blockchain-vs-cryptocurrency/">
+        <img src="/assets/img/Difference.png"/>
+        <h1>Blockchain vs Cryptocurrency</h1>
         <span>What's The Difference?</span>
-    </a>
-</div>
-      
-        <div class="faqTile"> 
-    <a target="_blank" href="/faq/what-is-decentralization/">
-        <img src="/assets/img/Decent2.png"/>
-        <h1>What is Decentralization?</h1>
-        <span>Concept</span>
     </a>
 </div>
       
@@ -482,11 +482,20 @@
 
 <script>
 
-if ( window.innerWidth < 400 ) {
-  reformatEventsToScrollRight ();
-  limitCourses (4)
+window.onload = function  () {
+  checkAndReviseForMobile()
 }
 
+window.onresize = function () {
+  checkAndReviseForMobile()
+}
+
+function checkAndReviseForMobile() {
+  if ( window.innerWidth < 400 ) {
+    reformatEventsToScrollRight ();
+    limitCourses (4)
+  }
+}
 
 function reformatEventsToScrollRight () {
   console.log('page loaded and ran ')
@@ -525,18 +534,18 @@ function limitCourses (limit) {
 		
 		
             <div class="tileItem"> 
-                <a target="_blank" href="/courses/decentralized-storage/">
-                    <img src="/assets/img/DecentralizedStorage.png"/>
-                    <h1>Decentralized Storage</h1>
-                    <span>ALEX MORRIS</span>
+                <a target="_blank" href="/courses/ethereum-101-blockchain-beyond-bitcoin/">
+                    <img src="/assets/img/EthereumGrowth-1.jpg"/>
+                    <h1>Ethereum 101</h1>
+                    <span>Alex Morris</span>
                 </a>
             </div>
 		
             <div class="tileItem"> 
-                <a target="_blank" href="/courses/blockchain-for-business/">
-                    <img src="/assets/img/BlockchainforBusiness.png"/>
-                    <h1>Blockchain for Business</h1>
-                    <span>Jeremy Cogan</span>
+                <a target="_blank" href="/courses/blockchain-security/">
+                    <img src="/assets/img/BC-Security-01.png"/>
+                    <h1>Blockchain Security</h1>
+                    <span>ALEX MORRIS</span>
                 </a>
             </div>
 		
