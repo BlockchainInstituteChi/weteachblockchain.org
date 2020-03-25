@@ -443,6 +443,9 @@ section.breadcrumbs {
     padding-top: 4em;
     margin-left: -.9em;
 }
+section.breadcrumbs.bcCoursePath {
+    margin-left: .1em;
+}
 
 /* Color Tags */
 .hasColorTag::before {
