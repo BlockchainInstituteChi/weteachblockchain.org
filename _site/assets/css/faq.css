@@ -3459,6 +3459,10 @@ h1 { padding-left: 0; margin-left: 0; }
 
 .faqBody { padding-left: 0; }
 
+.imageWithTextCallout .col-md-8 { padding-top: calc(10% - 2em); }
+
+.imageWithTextCallout img { border-radius: 50%; padding: 25%; vertical-align: top; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
@@ -3513,5 +3517,9 @@ h1 { padding-left: 0; margin-left: 0; }
 
 /* Tablet */
 /* Mobile */
+/* Desktop */
+/* Tablet */
+/* Mobile */
+/* Very Small Mobile */
 
 /*# sourceMappingURL=faq.css.map */

@@ -148,6 +148,13 @@ section.lessonNav, section.lessonNav a {
     color: black;
     padding-bottom: 1em;
 }
+section.lessonNav {
+    padding: 2em;
+    font-size: 1.25em;
+}
+.lessonNav a:hover {
+    text-decoration: underline !important;
+}
 
 /* Content Element Styles */
 .lessonContent iframe {

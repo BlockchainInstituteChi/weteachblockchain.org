@@ -157,11 +157,20 @@ ogUrl: https://weteachblockchain.org/
 
 <script>
 
-if ( window.innerWidth < 400 ) {
-  reformatEventsToScrollRight ();
-  limitCourses (4)
+window.onload = function  () {
+  checkAndReviseForMobile()
 }
 
+window.onresize = function () {
+  checkAndReviseForMobile()
+}
+
+function checkAndReviseForMobile() {
+  if ( window.innerWidth < 400 ) {
+    reformatEventsToScrollRight ();
+    limitCourses (4)
+  }
+}
 
 function reformatEventsToScrollRight () {
   console.log('page loaded and ran ')
