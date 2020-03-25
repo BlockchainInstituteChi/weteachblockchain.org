@@ -84,14 +84,18 @@ Bitcoin, and other cryptocurrencies, are built on cryptography, but actually ver
 
 {% include definitionCallout.html
 	title="ENCRYPTION"
-	body="Scrambling data so that only entities with access to the keys will be able to decipher the message."
+	bodyText="Scrambling data so that only entities with access to the keys will be able to decipher the message."
 %}
 
-<div class="blueTitleNote"><b>SIGNING</b>
-Taking data and producing from it a “signature,” another piece of data, that could have only have come from the entity controlling a certain private key.</div>
+{% include definitionCallout.html
+	title="SIGNING"
+	bodyText="Taking data and producing from it a “signature,” another piece of data, that could have only have come from the entity controlling a certain private key."
+%}
 
-<div class="blueTitleNote"><b>HASHING</b>
-Creating a unique identifier for a specific piece of data.</div>
+{% include definitionCallout.html
+	title="HASHING"
+	bodyText="Creating a unique identifier for a specific piece of data."
+%}
 
 
 {% include imageWithCaption.html
