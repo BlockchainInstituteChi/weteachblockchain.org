@@ -13,7 +13,7 @@ permalink: /courses/developers/
 	ctaLink="/courses/bitcoin-for-developers/" 
 %}
 
-<section class="breadcrumbs">
+<section class="breadcrumbs bcCoursePath">
 	<div class="row">
 		<div class="col-sm-12">
 			<a href="/">Home</a>/<a href="/courses/">Courses</a>/<a href="#">Developers</a>
@@ -21,7 +21,7 @@ permalink: /courses/developers/
 	</div>
 </section>
 
-<section class="coursesList">
+<section class="coursesList coursePathHeader">
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
