@@ -15,6 +15,9 @@
   - name: Downloadable Resources
     link: /downloads/
     class: normal
+  - name: Blockchain FAQs
+    link: /faq/
+    class: normal    
 - header: Live
   children:
   - name: Crypto Curious Course
