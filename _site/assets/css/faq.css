@@ -3463,9 +3463,20 @@ h1 { padding-left: 0; margin-left: 0; }
 
 .faqBody { padding-left: 0; }
 
+/* Image with Text Callout */
 .imageWithTextCallout .col-md-8 { padding-top: calc(10% - 2em); }
 
 .imageWithTextCallout img { border-radius: 50%; padding: 25%; vertical-align: top; }
+
+/* TextCallout */
+.row.textCallout { min-width: 100%; background: #3d3651; padding-top: 1em; padding-bottom: 1em; margin: 1em 0 1em 0; }
+
+/* Image with Caption */
+.row.imageWithCaption { min-width: 100%; margin: 1em 0 1em 0; }
+
+.imageWithCaption .col-md-12 { padding: 0; }
+
+.caption { background: #3d3651; margin-top: 0.5em; padding: 0.5em; }
 
 /* Desktop */
 /* Tablet */

@@ -3472,6 +3472,8 @@ span.descriptionText.eventDescriptionHP { margin-left: 0em; color: white; }
 
 .events a.callToActionButton { margin-top: 2em; margin-bottom: 4em; display: block; width: fit-content; padding-left: 3em; padding-right: 3em; }
 
+.eventNavHandles { display: none !important; }
+
 /* Courses Container */
 h1.coursesHeaderHP { padding-left: .15em; font-size: 2.5em; }
 
@@ -3611,6 +3613,8 @@ section.faqList { text-align: left; }
   .eventsContainer { height: 100vh; overflow-y: scroll; }
   .eventTile h1 { margin-top: 0em; }
   a.callToActionButton { float: right; }
+  .eventNavHandles { display: block !important; position: absolute; left: -0.35em; font-size: 2.5em; height: 50%; background: #ffffff42; padding-top: 3em; }
+  .fa-chevron-right.eventNavHandles { left: unset; right: -0.35em; }
   .eventsContainer { float: left; display: block; height: fit-content; overflow-x: scroll; max-width: 100%; }
   .hpEventsScrollBanner { height: 16em; width: 500vw; }
   .eventTile { max-width: calc(100vw - 4em); float: left; }

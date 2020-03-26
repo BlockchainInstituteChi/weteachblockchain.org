@@ -15,7 +15,7 @@ But first, lets cover hashing as it is an integral part of the Bitcoin “Proof-
 
 A hash function takes an input value and creates an output value deterministic of the input value. For any input value X, you will always receive the same output value Y whenever the hash function is run. In this way, every input has a determined output.
 
-<img class="aligncenter wp-image-1580 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1_b-02.png" alt="" width="9038" height="4188" />
+<img src="/assets/img/courses/bitcoin-for-developers/1_b-02.png" />
 <h4>Properties of hashes:</h4>
 <br>
 <ul>

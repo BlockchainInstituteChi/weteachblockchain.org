@@ -230,7 +230,7 @@
 <span class="openingParagraph">
 So let’s head back to our example where you are attempting a <b>double spend</b> on the Bitcoin network. You have broadcast two valid transactions for 1 BTC each, one to Alice and one to Bob in an attempt to spend the same bitcoin twice.</span></span></p>
 
-<p><img class="aligncenter wp-image-1579 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1_b-01.png" alt="" width="9037" height="4188" /></p>
+<p><img src="/assets/img/courses/bitcoin-for-developers/1_b-01.png" /></p>
 
 <p>Which transaction “wins” and becomes valid depends upon which miner wins the mining race! If miner Ayat received the transaction to Alice first, her mining software will then reject the transaction to Bob as an invalid double spend. She will create a block that includes the transaction to Alice, not Bob. If the miner Han receives the transaction to Bob first, his software will reject the transaction to Alice as an invalid double spend. He will create a block that includes the transaction to Bob, not Alice. Though both valid, one of these will lose as an “orphaned block.”</p>
 <div class="blueTitleNote"><b>ORPHANED BLOCKS</b>
@@ -239,7 +239,7 @@ These are blocks which are entirely valid but did not become part of the main ch
 
 <p>If Ayat, or any miner who received Alice’s transaction first, wins this round of the mining race, then Alice receives the transaction. If Han, or any miner who received Bob’s transaction first, wins this round of the mining race, then Bob receives the transaction.</p>
 
-<p><img class="aligncenter wp-image-1581 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1_b-03.png" alt="" width="9037" height="4187" /></p>
+<p><img src="/assets/img/courses/bitcoin-for-developers/1_b-03.png" /></p>
 
 <p>Let’s assume that Han “wins” this round of the mining race by being the first to find a hash for his block of transaction data that meets with the current network standards. His block of data contains the transaction sending the funds to Bob. He quickly transmits his winning block to the rest of the network. The funds in question are transferred to Bob and the duplicate transaction going to Alice is rejected as an invalid.</p>
 <p style="text-align: left;">While it was quite difficult for Han’s computer to find the winning hash, it is trivial for other computers on the network to verify that he has indeed won. Once other nodes have verified that Han did indeed win, they will accept Han’s block, approving of the coinbase transaction that rewards him for his work, and then carry on trying to find a valid hash for the next block.</p>
