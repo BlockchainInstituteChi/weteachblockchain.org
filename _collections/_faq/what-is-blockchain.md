@@ -18,7 +18,7 @@ author: Concept
 {% include imageWithCaption.html
 	image="Token-Creation-Cycle-01.jpg"
 	title="The Token Lifecycle"
-	bodyText="1. Tokens are distributed as rewards when a new block is mined. 2. ... "
+	bodyText="Blockchains use an economic incentive mechanism known as cryptocurrency to create a unique economic ecosystem"
 %}
 
 <span>Because a blockchain is designed as a distributed ledger, many computers directly connect to form a peer-to-peer network. If someone wants to hack the network, they would have to maintain control of the majority of the network for a certain duration of time. The chances of a successful hack are extremely low, which illustrates the security surrounding blockchain technology.</span>
