@@ -59,6 +59,29 @@ Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/
 
 # Instructions
 
+## Local Testing
+To build the site locally, you must first clone the github repo, and then install the ruby gems and run Jekyll build. Be sure to update your version of ruby to the latest available.
+
+```
+# clone the repo
+git clone git@github.com:BlockchainInstituteChi/wtb_staging.git
+
+# enter the directory
+cd wtb_staging
+
+# install gems 
+bundle install
+
+# build jekyll to deploy statically
+bundle exec jekyll build
+
+# or serve jekyll locally
+bundle exec jekyll serve
+```
+
+** Depending on your Jekyll install, it is possible to skip typing `bundle exec` and simply type the Jekyll commands.
+
+
 ## General Structure
 
 Jekyll files should all contain a header section (delimited by `---`) which details how they will be compiled to HTML. The header can contain a range of information. The header from `index.html` is shown below as an example. 
