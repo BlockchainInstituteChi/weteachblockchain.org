@@ -3476,6 +3476,8 @@ h1 { padding-left: 0; margin-left: 0; }
 
 .imageWithCaption .col-md-12 { padding: 0; }
 
+.imageWithCaption img { max-width: 100%; }
+
 .caption { background: #3d3651; margin-top: 0.5em; padding: 0.5em; }
 
 /* Desktop */

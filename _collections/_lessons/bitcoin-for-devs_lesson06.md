@@ -25,7 +25,7 @@ The first asymmetric algorithms:
 </ul>
 With asymmetric cryptography, instead of having one key, each party has two keys: a <strong>public key</strong> and a <strong>private key</strong>.
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/AliceBobKeys-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>Alice Private Key;</i> <b>B:</b> <i>Alice Public Key;</i> <b>C:</b> <i>Bob Private Key;</i> <b>D:</b> <i>Bob Public Key.</i>"
@@ -35,7 +35,7 @@ How this works is quite interesting. Alice and Bob can exchange public keys with
 
 With Bob’s public key, Alice can encrypt her message to him and transmit it. Charlie, even having both public keys, cannot decipher the message. The only person who can decipher the message is someone in possession of Bob’s private key, in this case, only Bob can do this.
 
-{% include textCallout.html
+{% include callouts/callout.html
 	title="Public Keys"
 	bodyText="<ul>
 		<li>Can be shared publicly.</li>
@@ -45,7 +45,7 @@ With Bob’s public key, Alice can encrypt her message to him and transmit it. C
 %}
 <br>
 
-{% include textCallout.html
+{% include callouts/callout.html
 	title="Private Keys"
 	bodyText="<ul>
 		<li>It is infeasible to reverse engineer a private key from a public key.</li>
@@ -57,13 +57,13 @@ With Bob’s public key, Alice can encrypt her message to him and transmit it. C
 Bob can also use Alice’s public key to encrypt a message to Alice.
 
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/TextandKeys-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>Plain text;</i> <b>B:</b> <i>Alice public key;</i> <b>C:</b> <i>Cipher text;</i> <b>D:</b> <i>Alice private key.</i>"
 %}
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/AlicePublicKey-01-2.png"
 	title=""
 	bodyText="<b>A:</b> <i>Alice public key.</i>"
@@ -82,23 +82,23 @@ The first use case is using this technology to encrypt and decrypt messages! How
 
 Bitcoin, and other cryptocurrencies, are built on cryptography, but actually very little “encryption” is done in the Bitcoin protocol while signing and hashing is used extensively. Let’s be sure we understand the difference. Below are rough explanations of these three related yet different functions.
 
-{% include definitionCallout.html
+{% include callouts/definition.html
 	title="ENCRYPTION"
 	bodyText="Scrambling data so that only entities with access to the keys will be able to decipher the message."
 %}
 
-{% include definitionCallout.html
+{% include callouts/definition.html
 	title="SIGNING"
 	bodyText="Taking data and producing from it a “signature,” another piece of data, that could have only have come from the entity controlling a certain private key."
 %}
 
-{% include definitionCallout.html
+{% include callouts/definition.html
 	title="HASHING"
 	bodyText="Creating a unique identifier for a specific piece of data."
 %}
 
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/EncryptSignHash-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>The quick brown fox jumps over the lazy dog;</i> <b>B:</b> <i>Encrypt;</i> <b>C:</b> <i>Sign;</i> <b>D:</b> <i>Hash.</i>"
@@ -109,7 +109,7 @@ Let’s take just a quick look at how the signing, and the verifying of those si
 Bitcoin uses elliptic curve cryptography, ECDSA, or more specifically the <a href="https://en.bitcoin.it/wiki/Secp256k1" target="_blank" rel="noopener noreferrer">SECP256k1</a> curve.
 
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/BitcoinSigs-01.jpg"
 	title=""
 	bodyText="<b>BITCOIN USES SECP256k1 SIGNATURES</b> <i>Elliptic curve cryptography</i>"
