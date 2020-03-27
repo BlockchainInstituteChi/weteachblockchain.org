@@ -36,10 +36,13 @@ permalink: /contact-us/
 			<input type="text" placeholder="Email" id="contactUsEmail">
 			<input type="text" placeholder="Subject" id="contactUsSubject">
 			<textarea placeholder="Your message here" id="contactUsMessageBody"></textarea>
+			<div class="g-recaptcha" data-callback="recaptchaVerify" data-sitekey="6LdlEHkUAAAAAHpHvXxmG1mbtKGq1Pz3T0CbuP2N"></div>
 			<button onclick="submitContactUsForm()">Submit</button>
 		</div>
     </div>
 </section>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
 	function submitContactUsForm() {
@@ -47,10 +50,40 @@ permalink: /contact-us/
 			name : document.getElementById('contactUsName').value,
 			email : document.getElementById('contactUsEmail').value,
 			subject : document.getElementById('contactUsSubject').value,
-			message : document.getElementById('contactUsMessageBody').value
+			message : document.getElementById('contactUsMessageBody').value,
+			token : window.recaptchaToken
 		}
-		console.log('formDetails', formDetails)
+		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return alert ('You must fill all fields to submit the form.')
+		if ( !validateEmail(formDetails.email) ) return alert ('You must submit a valid email.')
+		if ( !window.recaptchaToken ) return alert('You must verify you are not a robot by clicking the reCaptcha.')
+		
+		var xhr = new XMLHttpRequest();
+		xhr.open("POST", 'http://localhost:8888/contact/', true);
+		xhr.onreadystatechange = function() { 
+        if (xhr.readyState == 4 && xhr.status == 200)
+			console.log('xhr response:', xhr.responseText)
+			var response = JSON.parse(xhr.responseText)
+			if (response.success) {
+				alert("Success: " + response.success);
+				window.location = "/"
+			} else {
+				alert("Error: " + JSON.stringify(response));
+			}
+		}
+		xhr.setRequestHeader('Content-Type', 'application/json');
+		xhr.setRequestHeader('access-control-allow-origin', '*');
+		xhr.send(JSON.stringify(formDetails));
+
 	}
+	function validateEmail(email) {
+		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return re.test(String(email).toLowerCase());
+	}
+	function recaptchaVerify (token) {
+		console.log('recaptcha callback triggered', token)
+		window.recaptchaToken = token;
+	}	
+
 </script>
 
 {% include pinkDivider.html %}

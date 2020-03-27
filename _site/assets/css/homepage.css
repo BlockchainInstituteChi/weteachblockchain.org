@@ -3600,7 +3600,8 @@ section.faqList { text-align: left; }
 @media screen and (max-width: 600px) { /* General */
   .pageHeaderImage .col-sm-6 h1 { font-size: 2em; }
   .pathButtons .col-sm-4 { margin-bottom: 1em; }
-  body { overflow: hidden; }
+  /* Fix for overflow scroll bug */
+  body { overflow-x: hidden; min-width: 100vw; width: 100vw; }
   /* Paths */
   .pathsList h1 { margin: auto auto auto  -1.4em; padding-left: 0em; font-size: 1.75em; }
   .pathButtons h5 { color: white; position: absolute; top: calc( 50% - 0.8em); width: 100%; text-align: center; font-size: .95em; }
