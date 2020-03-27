@@ -12,10 +12,10 @@ section.faqList {
 }
 .faqTile {
     min-height: 290px;
-    width: calc(30% - 1em);
+    width: calc(25% - 1em);
     display: inline-block;
     overflow: hidden;
-    margin: 1em;
+    margin: 1em 0em 1em 1em;
     text-align: left;
 }
 .faqTile img {
@@ -34,6 +34,21 @@ section.faqList {
     font-size: 1.45em;
     padding-left: 0;
     padding-top: 0.5em;
+}
+.faqTile h3{
+    text-transform: uppercase;
+    font-size: 1.25em;
+    padding-top: .5em;
+    color: black;
+    margin-bottom: 0em;
+}
+.faqTile span {
+    bottom: 0;
+    color: grey;
+    text-transform: uppercase;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
 }
 
 .faqTile.column {
