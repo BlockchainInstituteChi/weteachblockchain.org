@@ -23,7 +23,7 @@ author: Concept
 
 <span>Because a blockchain is designed as a distributed ledger, many computers directly connect to form a peer-to-peer network. If someone wants to hack the network, they would have to maintain control of the majority of the network for a certain duration of time. The chances of a successful hack are extremely low, which illustrates the security surrounding blockchain technology.</span>
 
-<span>Blockchain tech can be used to manage and grant others access to your personal data. This has the potential to be a very important tool in regaining control of your digital identity.</span>
+<span>Blockchains were created to solve the problem of coordinating data with people around the world, who don’t know or trust each other.</span>
 
 <h3>Learn More</h3>
 <p>For more information on how blockchain works and where it came from please visit our <a href="/courses/blockchain-101/"> free Blockchain 101 course</a>.</p>
