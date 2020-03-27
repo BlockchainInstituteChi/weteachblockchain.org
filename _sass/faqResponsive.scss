@@ -19,7 +19,12 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+	h1.hasColorTag.red {
+    		margin-left: -1.2em;
+	}
+	faqTile{
+		width: calc(100% - 1.5em);
+	}
 }
 
 
