@@ -245,21 +245,65 @@ A variety of chunk types are available.
 Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
 
 ```
-{% include definitionCallout.html
+{% include callouts/definition.html
 	title="HASHING"
 	bodyText="Creating a unique identifier for a specific piece of data."
 %}
 ```
 
+![Definition Screenshot](/assets/img/componentPreviews/definition.png)
+
+
+#### Notes
+Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
+
+```
+{% include callouts/note.html
+	bodyText="plain text body of the note. Will be prefixed with the word 'NOTE:' in bold."
+%}
+```
+
+![Definition Screenshot](/assets/img/componentPreviews/note.png)
+
+
 #### Callouts
 Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
 
 ```
-{% include definitionCallout.html
-	title="HASHING"
-	body="Creating a unique identifier for a specific piece of data."
+{% include callouts/callout.html
+	bodyText="<h1>Title</h1><span>html formatted string for the body of the callout</span>"
 %}
 ```
+
+![Definition Screenshot](/assets/img/componentPreviews/callout.png)
+
+
+#### Code Snippets
+Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
+
+```
+{% include callouts/codeSnippet.html
+   title="The title of the snippet"
+	bodyText="<span>html formatted string for the body of the callout</span><span>use one span per line of code</span>"
+%}
+```
+
+![Definition Screenshot](/assets/img/componentPreviews/codeSnippet.png)
+
+
+#### Terminal Examples
+Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
+
+```
+{% include callouts/terminal.html
+   title="The title of the example"
+	bodyText="<span>Command 1</span><span>Output / or command</span>"
+%}
+```
+
+![Definition Screenshot](/assets/img/componentPreviews/terminal.png)
+
+
 
 #### Images With Captions
 Images with captions can be injected using the following snippet. Images are full width, and support a caption containing a plaintext title (optional) and an HTML or plain text mixed body field. 
@@ -282,6 +326,8 @@ A left-aligned image with a text callout can be created using the below snippet.
     bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."
 %}
 ```
+
+
 
 
 # Snippet to swap image prefix if image is an external url

@@ -259,9 +259,11 @@
 
 <p>With Bob’s public key, Alice can encrypt her message to him and transmit it. Charlie, even having both public keys, cannot decipher the message. The only person who can decipher the message is someone in possession of Bob’s private key, in this case, only Bob can do this.</p>
 
-<div class="row textCallout">
-    <div class="col-md-12">
-        <h4>Public Keys</h4>
+<div class="row callout">
+    <div class="col-md-2">
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-10">
         <ul>
 		<li>Can be shared publicly.</li>
 		<li>Can be used to encrypt a message to another party.</li>
@@ -271,9 +273,11 @@
 </div>
 <p><br /></p>
 
-<div class="row textCallout">
-    <div class="col-md-12">
-        <h4>Private Keys</h4>
+<div class="row callout">
+    <div class="col-md-2">
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-10">
         <ul>
 		<li>It is infeasible to reverse engineer a private key from a public key.</li>
 		<li>Are the only keys that can be used to decrypt a message.</li>
@@ -317,24 +321,33 @@
 
 <p>Bitcoin, and other cryptocurrencies, are built on cryptography, but actually very little “encryption” is done in the Bitcoin protocol while signing and hashing is used extensively. Let’s be sure we understand the difference. Below are rough explanations of these three related yet different functions.</p>
 
-<div class="row">
-    <div class="col-sm-12">
-        <h4>ENCRYPTION</h4>
-        Scrambling data so that only entities with access to the keys will be able to decipher the message.
+<div class="row definition">
+    <div class="col-md-2">
+        <i class="fa fa-book" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-10">
+        <h1>ENCRYPTION</h1>
+        <span>Scrambling data so that only entities with access to the keys will be able to decipher the message.</span>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-12">
-        <h4>SIGNING</h4>
-        Taking data and producing from it a “signature,” another piece of data, that could have only have come from the entity controlling a certain private key.
+<div class="row definition">
+    <div class="col-md-2">
+        <i class="fa fa-book" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-10">
+        <h1>SIGNING</h1>
+        <span>Taking data and producing from it a “signature,” another piece of data, that could have only have come from the entity controlling a certain private key.</span>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-12">
-        <h4>HASHING</h4>
-        Creating a unique identifier for a specific piece of data.
+<div class="row definition">
+    <div class="col-md-2">
+        <i class="fa fa-book" aria-hidden="true"></i>
+    </div>
+    <div class="col-md-10">
+        <h1>HASHING</h1>
+        <span>Creating a unique identifier for a specific piece of data.</span>
     </div>
 </div>
 

@@ -258,8 +258,7 @@ Definitions have a title and a body value. The title should be plain text, but t
 Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
 
 ```
-{% include callouts/definition.html
-	title="HASHING"
+{% include callouts/note.html
 	bodyText="plain text body of the note. Will be prefixed with the word 'NOTE:' in bold."
 %}
 ```
@@ -296,7 +295,7 @@ Definitions have a title and a body value. The title should be plain text, but t
 Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
 
 ```
-{% include callouts/codeSnippet.html
+{% include callouts/terminal.html
    title="The title of the example"
 	bodyText="<span>Command 1</span><span>Output / or command</span>"
 %}
