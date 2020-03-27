@@ -3510,6 +3510,17 @@ section.lessonNav { padding: 2em; font-size: 1.25em; }
 
 .caption { background: #3d3651; margin-top: 0.5em; padding: 0.5em; }
 
+/* Definition */
+.row.definition { background: darkblue; color: white; margin-left: 0; margin-right: 0; min-width: 100%; }
+
+.definition .col-md-2 { background: lightblue; padding-right: 0; font-size: 1.5em; }
+
+.definition i { padding-top: calc(50% - 1em); padding-left: calc(50% - 1em); }
+
+.definition .col-md-10 { padding-top: 1em; }
+
+.definition h1 { margin-left: 0; padding: 0; color: white; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
