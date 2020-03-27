@@ -470,6 +470,9 @@ section.breadcrumbs.bcCoursePath {
 .hasColorTag.purple::before {
     background: $brand-purple;
 }
+h1.hasColorTag.red {
+    margin-left: -1em;
+}
 
 /* Section Color Tags */
 section.hasSectionColorTag::before {
