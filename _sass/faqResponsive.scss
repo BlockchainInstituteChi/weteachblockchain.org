@@ -22,9 +22,14 @@
 	h1.hasColorTag.red {
     		margin-left: -1.2em;
 	}
-	faqTile {
-		width: calc(100% - 1.5em);
-	}
+	.faqTile {
+    		min-height: 0px;
+    		width: calc(25% - 1em);
+    		display: inline-block;
+    		overflow: hidden;
+    		margin: 1em 0em 1em 1em;
+    		text-align: left;
+}
 }
 
 
