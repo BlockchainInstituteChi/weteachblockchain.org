@@ -265,8 +265,20 @@
 		if ( !window.recaptchaToken ) return alert('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
-		xhr.open("POST", 'localhost:8888/contact/', true);
+		xhr.open("POST", 'http://localhost:8888/contact/', true);
+		xhr.onreadystatechange = function() { 
+        if (xhr.readyState == 4 && xhr.status == 200)
+			console.log('xhr response:', xhr.responseText)
+			var response = JSON.parse(xhr.responseText)
+			if (response.success) {
+				alert("Success: " + response.success);
+				window.location = "/"
+			} else {
+				alert("Error: " + JSON.stringify(response));
+			}
+		}
 		xhr.setRequestHeader('Content-Type', 'application/json');
+		xhr.setRequestHeader('access-control-allow-origin', '*');
 		xhr.send(JSON.stringify(formDetails));
 
 	}
