@@ -252,6 +252,9 @@
 	.hasColorTag {
     		margin-left: -1.5em;
 	}
+	section.hasSectionColorTag.red::before {
+    		height: 90vh;
+	}
 	
 	/*Mobile Footer*/
 	.footer li.nav-item {
