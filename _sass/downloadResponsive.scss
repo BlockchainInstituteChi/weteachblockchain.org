@@ -5,7 +5,9 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-	
+	.tileItem.downloadItem {
+    		min-height: 6em;
+	}
 } 
 
 /* Mobile */
