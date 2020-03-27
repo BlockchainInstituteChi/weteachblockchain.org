@@ -258,7 +258,7 @@
 			</a>
 			
 		</div>
-		<div class="col-sm-4 indText">
+		<div class="col-sm-4 indText">document.getElementsByClassName('eventsContainer')[0].clientWidth
 			<a target="_blank" href="/courses/professionals/">
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Industries</h5>
@@ -301,8 +301,8 @@
         <span class="descriptionText eventDescriptionHP">
           Are you in Chicago? Want to get involved and meet others that share our vision? 
         </span>
-        <i onclick="showNextEvent()" class="fas fa-chevron-left eventNavHandles"></i>
-        <i onclick="showLastEvent()" class="fas fa-chevron-right eventNavHandles"></i>
+        <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
+        <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
         <div class="eventsContainer">
           
           
@@ -462,28 +462,28 @@
       
       
         <div class="faqTile"> 
-    <a target="_blank" href="/faq/what-is-decentralization/">
-        <img src="/assets/img/Decent2.png"/>
-        <h3>What is Decentralization?</h3>
-        <span>Concept</span>
-    </a>
-</div>
-
-      
-        <div class="faqTile"> 
-    <a target="_blank" href="/faq/what-is-forking/">
-        <img src="/assets/img/Forking.png"/>
-        <h3>What is Forking?</h3>
-        <span>Concept</span>
-    </a>
-</div>
-
-      
-        <div class="faqTile"> 
-    <a target="_blank" href="/faq/coins-vs-tokens/">
-        <img src="/assets/img/coins-vs-tokens.png"/>
-        <h3>Coins vs Tokens</h3>
+    <a target="_blank" href="/faq/bitcoin-and-ethereum/">
+        <img src="/assets/img/Difference_BC-Eth.png"/>
+        <h3>Bitcoin vs Ethereum</h3>
         <span>What's The Difference?</span>
+    </a>
+</div>
+
+      
+        <div class="faqTile"> 
+    <a target="_blank" href="/faq/what-can-blockchain-do/">
+        <img src="/assets/img/RealWorld.png"/>
+        <h3>What Can Blockchain Do?</h3>
+        <span>Jeremy Cogan</span>
+    </a>
+</div>
+
+      
+        <div class="faqTile"> 
+    <a target="_blank" href="/faq/decentralized-computing/">
+        <img src="/assets/img/decentralized_computing_open.jpg"/>
+        <h3>What is Decentralized Computing?</h3>
+        <span>Concept</span>
     </a>
 </div>
 
@@ -504,7 +504,7 @@ window.onresize = function () {
 }
 
 function checkAndReviseForMobile() {
-  if ( window.innerWidth < 400 ) {
+  if ( window.innerWidth < 450 ) {
     reformatEventsToScrollRight ();
     limitCourses (4)
   }
@@ -536,14 +536,28 @@ function limitCourses (limit) {
 }
 
 function showNextEvent () {
-  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
-      eventsBanner.scrollLeft += 500; 
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos + marginRatio * width ) > ( 3 * marginRatio * width ) ) {
+    events.scrollLeft = 0;
+  } else {
+    events.scrollLeft +=  marginRatio * width;
+  }
 
 }
 
 function showLastEvent () {
-  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
-      eventsBanner.scrollLeft = eventsBanner.scrollLeft - 500; 
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos - marginRatio * width ) > 0 ) {
+    events.scrollLeft -= marginRatio * width;
+  } else {
+    events.scrollLeft = marginRatio * width * 3;
+  }
 
 }
 
