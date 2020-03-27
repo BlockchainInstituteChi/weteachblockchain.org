@@ -126,6 +126,19 @@
 		float: right;
 
 	}
+	.eventNavHandles {
+		display: block!important;
+		position: absolute;
+		left: -0.35em;
+		font-size: 2.5em;
+		height: 50%;
+		background: #ffffff42;
+		padding-top: 3em;
+	}
+	.fa-chevron-right.eventNavHandles {
+		left: unset;
+		right: -0.35em;
+	}
 
 	.eventsContainer {
 		float: left;

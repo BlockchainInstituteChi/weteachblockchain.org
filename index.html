@@ -91,6 +91,8 @@ ogUrl: https://weteachblockchain.org/
         <span class="descriptionText eventDescriptionHP">
           Are you in Chicago? Want to get involved and meet others that share our vision? 
         </span>
+        <i onclick="showNextEvent()" class="fas fa-chevron-left eventNavHandles"></i>
+        <i onclick="showLastEvent()" class="fas fa-chevron-right eventNavHandles"></i>
         <div class="eventsContainer">
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:4 %}
@@ -195,6 +197,18 @@ function limitCourses (limit) {
   for ( var i = 0; i < limit; i++ ) {
     courseTiles[ Math.floor(Math.random() * courseTiles.length) ].remove()
   }
+}
+
+function showNextEvent () {
+  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
+      eventsBanner.scrollLeft += 500; 
+
+}
+
+function showLastEvent () {
+  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
+      eventsBanner.scrollLeft = eventsBanner.scrollLeft - 500; 
+
 }
 
 </script>
