@@ -72,6 +72,13 @@
 	.pathButtons .col-sm-4 {
 		margin-bottom: 1em;
 	}
+
+	/* Fix for overflow scroll bug */
+	body {
+		overflow-x: hidden;
+		min-width: 100vw;
+		width: 100vw;
+	}
 	
 	/* Paths */
 	.pathsList h1 {
@@ -139,7 +146,9 @@
 		left: unset;
 		right: -0.35em;
 	}
-
+	section.events {
+		overflow: hidden;
+	}
 	.eventsContainer {
 		float: left;
 		display: block;

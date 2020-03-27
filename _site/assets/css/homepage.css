@@ -3600,6 +3600,7 @@ section.faqList { text-align: left; }
 @media screen and (max-width: 600px) { /* General */
   .pageHeaderImage .col-sm-6 h1 { font-size: 2em; }
   .pathButtons .col-sm-4 { margin-bottom: 1em; }
+  body { overflow: hidden; }
   /* Paths */
   .pathsList h1 { margin: auto auto auto  -1.4em; padding-left: 0em; font-size: 1.75em; }
   .pathButtons h5 { color: white; position: absolute; top: calc( 50% - 0.8em); width: 100%; text-align: center; font-size: .95em; }
@@ -3615,6 +3616,7 @@ section.faqList { text-align: left; }
   a.callToActionButton { float: right; }
   .eventNavHandles { display: block !important; position: absolute; left: -0.35em; font-size: 2.5em; height: 50%; background: #ffffff42; padding-top: 3em; }
   .fa-chevron-right.eventNavHandles { left: unset; right: -0.35em; }
+  section.events { overflow: hidden; }
   .eventsContainer { float: left; display: block; height: fit-content; overflow-x: scroll; max-width: 100%; }
   .hpEventsScrollBanner { height: 16em; width: 500vw; }
   .eventTile { max-width: calc(100vw - 4em); float: left; }

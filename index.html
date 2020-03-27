@@ -48,7 +48,7 @@ ogUrl: https://weteachblockchain.org/
 			</a>
 			
 		</div>
-		<div class="col-sm-4 indText">
+		<div class="col-sm-4 indText">document.getElementsByClassName('eventsContainer')[0].clientWidth
 			<a target="_blank" href="/courses/professionals/">
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Industries</h5>
@@ -91,8 +91,8 @@ ogUrl: https://weteachblockchain.org/
         <span class="descriptionText eventDescriptionHP">
           Are you in Chicago? Want to get involved and meet others that share our vision? 
         </span>
-        <i onclick="showNextEvent()" class="fas fa-chevron-left eventNavHandles"></i>
-        <i onclick="showLastEvent()" class="fas fa-chevron-right eventNavHandles"></i>
+        <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
+        <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
         <div class="eventsContainer">
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:4 %}
@@ -168,7 +168,7 @@ window.onresize = function () {
 }
 
 function checkAndReviseForMobile() {
-  if ( window.innerWidth < 400 ) {
+  if ( window.innerWidth < 450 ) {
     reformatEventsToScrollRight ();
     limitCourses (4)
   }
@@ -200,14 +200,28 @@ function limitCourses (limit) {
 }
 
 function showNextEvent () {
-  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
-      eventsBanner.scrollLeft += 500; 
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos + marginRatio * width ) > ( 3 * marginRatio * width ) ) {
+    events.scrollLeft = 0;
+  } else {
+    events.scrollLeft +=  marginRatio * width;
+  }
 
 }
 
 function showLastEvent () {
-  var eventsBanner = document.getElementsByClassName('hpEventsScrollBanner')[0]
-      eventsBanner.scrollLeft = eventsBanner.scrollLeft - 500; 
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos - marginRatio * width ) > 0 ) {
+    events.scrollLeft -= marginRatio * width;
+  } else {
+    events.scrollLeft = marginRatio * width * 3;
+  }
 
 }
 
