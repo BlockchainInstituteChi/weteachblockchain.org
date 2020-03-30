@@ -1,3 +1,7 @@
+section .row {
+    min-height: 0em;
+}
+
 /* Image with Text Callout */
 .imageWithTextCallout .col-md-8 {
     padding-top: calc(10% - 2em);
