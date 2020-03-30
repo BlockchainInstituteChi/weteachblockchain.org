@@ -39,5 +39,7 @@ defaults:
     values:
       layout: "default"
 
+plugins: ['jekyll-twitter-plugin']
+  
 include: ["node_modules"]
 exclude: []
