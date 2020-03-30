@@ -21,7 +21,7 @@ Alice and Bob want to communicate securely with one another.
 
 To do this Alice creates a message to Bob and scrambles it using a specific formula also called an encryption algorithm. This is done using a secret, or a key.
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/SharedKey-01.png"
 	title="Encryption Process"
 	bodyText="<b>A:</b> <i>Plain text;</i> <b>B:</b> <i>Encryption Algorithm;</i> <b>C:</b> <i>Cypher text;</i> <b>D:</b> <i>Shared Key.</i>"

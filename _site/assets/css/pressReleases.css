@@ -3249,7 +3249,7 @@ a.nav-link i:hover { color: #0d72aa; }
 li.nav-item.navbox { padding-right: 0.5em; padding-left: 1em; }
 
 /* Hover Nav Box */
-.hoverNavbox { width: 50%; position: absolute; right: 5em; background: #2fae9f; z-index: 1000; color: white; top: 4em; }
+.hoverNavbox { width: 50%; position: absolute; right: 5em; background: #0FA54C; z-index: 1000; color: white; top: 4em; }
 
 .hoverNavbox li { list-style: none; text-align: left; margin-left: 0; }
 
@@ -3350,7 +3350,7 @@ section.headerImage { height: fit-content; }
 h5 { text-transform: uppercase; }
 
 /* Page Headers */
-section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: 20vh; height: fit-content; }
+section.pageHeaderImage { max-width: 100vw !important; overflow: hidden; text-align: center; background: url(/assets/img/Events-Banner.png); background-position: center; background-size: cover; min-height: 20vh; height: fit-content; margin-bottom: 6em; }
 
 section.pageHeaderImage.noText { min-height: 50vh; }
 
@@ -3367,23 +3367,27 @@ section.pageHeaderImage .row { background: #00000094; min-width: 100%; color: wh
 /* Breadcrumbs */
 section.breadcrumbs { padding-top: 4em; margin-left: -.9em; }
 
+section.breadcrumbs.bcCoursePath { margin-left: .1em; }
+
 /* Color Tags */
 .hasColorTag::before { background: #3dba95; width: 150px; height: 1em; content: "_"; color: #ff000000; display: inline-block; margin-bottom: -0.25em; margin-left: -0.5em; margin-right: 0.5em; vertical-align: sub; }
 
-.hasColorTag.teal::before { background: #2fae9f; }
+.hasColorTag.teal::before { background: #0B9BA4; }
 
 .hasColorTag.red::before { background: #ed0744; }
 
-.hasColorTag.purple::before { background: #c24774; }
+.hasColorTag.purple::before { background: #A30071; }
+
+h1.hasColorTag.red { margin-left: -1em; }
 
 /* Section Color Tags */
 section.hasSectionColorTag::before { background: #3dba95; width: 2em; height: 17em; content: "_"; color: #ff000000; display: block; margin-bottom: -0.25em; margin-left: 1.25em; margin-right: 0.5em; vertical-align: sub; position: absolute; }
 
 section.hasSectionColorTag.red::before { background: #ed0744; }
 
-section.hasSectionColorTag.purple::before { background: #c24774; }
+section.hasSectionColorTag.purple::before { background: #A30071; }
 
-section.hasSectionColorTag.teal::before { background: #2fae9f; }
+section.hasSectionColorTag.teal::before { background: #0B9BA4; }
 
 /* Upcoming Events Footer */
 section.upcomingEventsFooter { margin: 2em; margin-bottom: 7em; }
@@ -3396,16 +3400,16 @@ section.upcomingEventsFooter { margin: 2em; margin-bottom: 7em; }
 
 .upcomingEventsFooter .eventTile h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; }
 
-.upcomingEventsFooter .eventTile span { font-size: 0.75em; text-transform: uppercase; color: #2fae9f; }
+.upcomingEventsFooter .eventTile span { font-size: 0.75em; text-transform: uppercase; color: #0FA54C; }
 
 /* Tile Items */
-.tileItem { width: 25%; overflow: hidden; display: inline-block; margin-right: 2.5em; margin-left: -1.5em; }
+.tileItem { width: 23%; overflow: hidden; display: inline-block; margin-right: 2.5em; margin-left: -1.5em; }
 
 .tileItem img { width: 100%; height: auto; text-align: center; }
 
 .tileItem h1 { text-transform: uppercase; margin-left: 0; font-size: 1.25em; padding-left: 0; margin-bottom: 0; padding-top: .5em; line-height: 1em; }
 
-.tileItem span { font-size: 0.8em; text-transform: uppercase; color: #2fae9f; line-height: .4em; font-style: italic; }
+.tileItem span { font-size: 0.8em; text-transform: uppercase; color: #0FA54C; line-height: .4em; font-style: italic; }
 
 /* Pink Stripe Divider */
 section.upPinkStripesDivider { height: 5em; background: url(/assets/img/pink-stripes-divider.png); margin-top: 2em; background-size: cover; }
@@ -3415,11 +3419,11 @@ section.downPinkStripesDivider { height: 5em; background: url(/assets/img/pink-s
 /* CourseTags */
 span.courseTag { text-transform: uppercase; text-align: center; padding-left: 0.5em; padding-right: 0.5em; margin: auto; background: black; display: block; margin-top: -0.5em; color: white; font-size: .85em; }
 
-span.courseTag.developer { background: #00698b; }
+span.courseTag.developer { background: #00648C; }
 
-span.courseTag.professional { background: #c24774; }
+span.courseTag.professional { background: #A30071; }
 
-span.courseTag.beginner { background: #2fae9f; }
+span.courseTag.beginner { background: #0FA54C; }
 
 /* Headers */
 .pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; font-size: 1em; padding-top: 0.5em; padding-bottom: 0.5em; margin-left: 0; }
@@ -3441,11 +3445,12 @@ span.courseTag.beginner { background: #2fae9f; }
   .pageHeaderImage p { max-width: 100%; }
   .pageHeaderImage .col-sm-6 h1 { font-size: 2em; }
   .pageHeaderImage a.callToActionButton { padding: 1em 3em; }
+  section.pageHeaderImage { margin-bottom: 3em; }
   /* Nav (Mobile General) */
   .hoverNavbox { width: 100%; left: 0; top: auto; position: relative; }
-  li.nav-item.ml-auto.search { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
-  li.nav-item.ml-auto.navbox { width: calc(100% - 2em); border: 1px solid #2fae9f; margin: 1em; }
-  li.nav-item.ml-auto.navbox::before { content: "Full Menu"; text-transform: uppercase; color: #2fae9f; vertical-align: -webkit-baseline-middle; font-size: 1.15em; }
+  li.nav-item.ml-auto.search { width: calc(100% - 2em); border: 1px solid #0FA54C; margin: 1em; }
+  li.nav-item.ml-auto.navbox { width: calc(100% - 2em); border: 1px solid #0FA54C; margin: 1em; }
+  li.nav-item.ml-auto.navbox::before { content: "Full Menu"; text-transform: uppercase; color: #0FA54C; vertical-align: -webkit-baseline-middle; font-size: 1.15em; }
   ul.navbar-nav.ml-auto { margin-right: 0; }
   li.nav-item.contactUsLink, .contactUsLink a, li.donations, .donations a.donateNow { margin-left: 0.5em; margin-right: 0.5em; margin-top: 0.5em; }
   /* Search */
@@ -3454,11 +3459,18 @@ span.courseTag.beginner { background: #2fae9f; }
   .searchResults img { width: 100%; height: auto; max-width: unset; max-height: unset; }
   .searchResults .infoContainer { max-width: unset; padding-left: 0; }
   div#searchResults { max-height: unset; height: -webkit-fill-available; }
+  /*Breadcrumbs*/
+  section.breadcrumbs { padding-top: 0em; }
   /* Row Margins */
   .row { margin: auto 2em; max-width: calc(100% - 4em); }
+  /*Sections*/
+  h1 { font-size: 2em; }
+  .hasColorTag { margin-left: -3.46em; }
   /* Upcoming Events Footer */
   .upcomingEventsFooter h1 { margin-left: 0em; }
   section.hasSectionColorTag::before { margin-left: -2.5em; }
+  .upcomingEventsFooter .eventTile h1 { font-size: 1.25em; }
+  .upcomingEventsFooter .eventTile { width: 22%; }
   .upcomingEventsFooter .row { width: 80%; }
   .tileItem { width: calc(31.3% - 1em); min-height: 12em; height: fit-content; }
   .tileItem img { width: 100%; height: auto; text-align: center; }
@@ -3477,7 +3489,9 @@ span.courseTag.beginner { background: #2fae9f; }
   /* Page Header */
   .pageHeaderImage .col-sm-6 { min-width: calc(100vw - 2em); margin: auto 1em; }
   .pageHeaderImage .col-sm-6 h1 { font-size: 2em; }
-  .pageHeaderImage a.callToActionButton { float: left; }
+  .pageHeaderImage a.callToActionButton { float: left; text-align: center; font-family: kanit; font-weight: 600; }
+  /*Sections*/
+  h1 { font-size: 1.75em; }
   /*Events*/
   section.events { min-height: 850px; margin-bottom: 0em; }
   /*Courses*/
@@ -3491,9 +3505,11 @@ span.courseTag.beginner { background: #2fae9f; }
   /* Header color tags */
   .hasColorTag::before { margin-left: -3.5em; }
   /* Upcoming Events Footer */
-  .upcomingEventsFooter .row { width: 100%; }
+  .upcomingEventsFooter .row { width: 100%; margin-left: 3.2em; }
   .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile { width: 100%; margin-bottom: 1em; }
   .upcomingEventsFooter h1 { margin-left: 0.5em; padding-left: 0.15em; margin-bottom: 0.5em; }
+  .hasColorTag { margin-left: -1.5em; }
+  section.hasSectionColorTag.red::before { height: 90vh; }
   /*Mobile Footer*/
   .footer li.nav-item { font-size: 1.25em; }
   .footer .col-md-6, .footer .col-md-3 { padding: 1em 2em; }
