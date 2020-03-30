@@ -37,11 +37,7 @@ With Bob’s public key, Alice can encrypt her message to him and transmit it. C
 
 {% include callouts/callout.html
 	title="Public Keys"
-	bodyText="<ul>
-		<li>Can be shared publicly.</li>
-		<li>Can be used to encrypt a message to another party.</li>
-		<li>Bob’s public key can be used to encrypt a message to Bob that only he can decipher.</li>
-	</ul>"
+	bodyText="<ul><li>Can be shared publicly.</li><li>Can be used to encrypt a message to another party.</li><li>Bob’s public key can be used to encrypt a message to Bob that only he can decipher.</li></ul>"
 %}
 <br>
 
