@@ -141,6 +141,11 @@
                     Downloadable Resources
                   </a></li> 
                 
+                  <li class="nav-item">
+                    <a class="nav-link normal" href="/faq/">
+                    Blockchain FAQs
+                  </a></li> 
+                
               </ul>
             </div>
             
@@ -265,7 +270,7 @@
 		if ( !window.recaptchaToken ) return alert('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
-		xhr.open("POST", 'http://localhost:8888/contact/', true);
+		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
 		xhr.onreadystatechange = function() { 
         if (xhr.readyState == 4 && xhr.status == 200)
 			console.log('xhr response:', xhr.responseText)
@@ -356,6 +361,7 @@
 	</div>
 
 </section>
+
     <div class="container-fluid footer">
   <div class="row">
     <div class="col-md-3 bciLogo">
