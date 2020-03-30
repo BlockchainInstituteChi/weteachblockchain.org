@@ -13,8 +13,14 @@
     /*Definition*/
     .definition i {
         position: inherit;
-        margin: .75em 0em;
+        margin: .5em 0em;
         left: 42%;
+    }
+    .definition .col-md-2 {
+        background: #415c6b;
+        padding-right: 0;
+        font-size: 1.5em;
+        padding-bottom: 1.75em;
     }
 }
 
