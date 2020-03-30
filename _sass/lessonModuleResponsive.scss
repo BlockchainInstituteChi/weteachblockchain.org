@@ -10,7 +10,12 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-    
+    /*Definition*/
+    .definition i {
+        position: inherit;
+        margin: .75em 0em;
+        left: 42%;
+    }
 }
 
 /* Very Small Mobile */
