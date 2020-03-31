@@ -5,6 +5,7 @@ image: Hyperledger-blockchain-tech-for-business-534x300.jpeg
 date: 2020-03-19
 eventdate: Thursday March 19, 2020
 permalink: /events/hyperledger_2020_kickoff
+rsvpUrl: https://www.meetup.com/Hyperledger-Chicago/events/268021107/
 ---
 Nvisia in partnership with the Chicago Blockchain Center and hosted at the Blockchain Institute are pleased to present the first Hyperledger meetup of 2020 in Chicago.
 

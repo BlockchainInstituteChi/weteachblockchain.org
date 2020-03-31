@@ -3,7 +3,9 @@ title: Bitcoin Halving Does It Even Matter?
 layout: event
 image: BitcoinHalvingThumb.jpeg
 eventdate: Tuesday, November 5th, 2019
+rsvpUrl: https://www.meetup.com/Chicago-Blockchain-Cryptocurrency-Mining-Meetup/events/264966116
 date: 2019-11-05
+rsvpUrl: 
 permalink: /events/bitcoin_halving_mining_meetup
 ---
 <h2> Details </h2>

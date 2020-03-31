@@ -5,6 +5,7 @@ image: south_side_blockchain_logo.png
 date: 2018-10-13
 eventdate: Saturday, October 13th, 2018
 permalink: /events/south_side_blockchain_2018
+rsvpUrl: https://www.meetup.com/South-Side-Blockchain/
 ---
 On October 13th the Blockchain Institute was proud to sponsor a South Side Blockchain Meetup. Eager programmers of all skill levels participated in the event. The topic focused on the Loom Network and their gamified Solidity tutorial, <a href="https://cryptozombies.io/" target="_blank">Crypto Zombies</a>.
 
