@@ -17,7 +17,7 @@ Cryptocurrencies are called so because <b>cryptography</b> is the material they 
 
 Alice and Bob want to communicate securely with one another.
 
-<img class="aligncenter wp-image-2486 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Hannah2a-02.png" alt="" width="7640" height="4187" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-02.png" />
 
 To do this Alice creates a message to Bob and scrambles it using a specific formula also called an encryption algorithm. This is done using a secret, or a key.
 
@@ -38,7 +38,7 @@ If Bob knows this formula, then Alice can securely transmit this message to Bob,
 
 This works just fine; the problem is with transmitting the key to Bob. How do you securely transfer the key? Anyone who intercepts it will be able to read all the communication between Alice and Bob.
 
-<img class="aligncenter wp-image-2489 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Hannah2a-05.png" alt="" width="9037" height="6729" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-05.png" />
 
 This is a fundamental weakness in symmetric cryptography that was solved by asymmetric cryptography. Lets see how it's done in the next lesson!
 
