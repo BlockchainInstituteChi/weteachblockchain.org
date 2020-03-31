@@ -147,6 +147,21 @@ section .row {
     margin-top: 2em;
     background-color: #941f6c;
 }
+.codeSnippet .col-md-1 {
+    background: #3cb0b6;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.codeSnippet h1 {
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
 .codeSnippet .col-md-11 {
     padding-top: 2em;
     padding-bottom: 2em;
