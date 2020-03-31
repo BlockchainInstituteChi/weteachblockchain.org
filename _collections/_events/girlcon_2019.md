@@ -5,6 +5,7 @@ image: 20190615_fjs_chicago_74.jpg
 date: 2019-06-15
 eventdate: Saturday, June 15, 2019
 permalink: /girlcon_2019/
+rsvpUrl: https://girlconchicago.com/
 ---
 Blockchain Institute was proud to sponsor and participate in Girlcon 2019!
 

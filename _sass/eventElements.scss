@@ -96,3 +96,22 @@ section.header {
 section.eventsList {
     background: #86868608;
 }
+
+/* Details section */
+a.rsvp {
+    padding: 0.5em 1em 0.5em 1em;
+    background: $brand-red;
+    color: white;
+    font-weight: 500;
+    display: block;
+    float: right;
+    top: 2.25em;
+    position: absolute;
+    right: 0;
+}
+a.rsvp:hover {
+    background: $brand-green;
+}
+a.rsvp.disabled {
+    background: grey;
+}

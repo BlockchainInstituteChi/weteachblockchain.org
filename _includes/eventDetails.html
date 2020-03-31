@@ -1,0 +1,15 @@
+<h1>{{ include.title }}</h1>
+<span class="eventDate">{{ include.date }}</span>
+
+{% if include.dateTime < site.time  %}
+    {% if include.rsvpLink %}
+        <a class="rsvp disabled" href="{{ include.rsvpLink }}">DETAILS</a>
+    {% endif %}    
+
+{% else %}
+    {% if include.rsvpLink %}
+        <a class="rsvp" href="{{ include.rsvpLink }}">RSVP</a>
+    {% endif %}   
+{% endif %}
+
+

@@ -4,6 +4,7 @@ layout: event
 image: junior_economic_club.jpg
 date: 2019-12-14
 eventdate: December 14th, 2019
+rsvpUrl: https://www.junioreconomicclub.org/home
 permalink: /events/junior_economic_club_workshop
 ---
 <h2>Details</h2>
