@@ -136,3 +136,24 @@ section .row {
     top: 40%;
     left: 37%;
 }
+
+/*Code Snippet*/
+.row.codeSnippet {
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #941f6c;
+}
+.codeSnippet .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+}
+.codeSnippet i {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
