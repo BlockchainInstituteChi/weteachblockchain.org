@@ -139,7 +139,7 @@ section .row {
 
 /*Code Snippet*/
 .row.codeSnippet {
-    color: white;
+    color: black;
     margin-left: 0;
     margin-right: 0;
     min-width: 100%;
@@ -156,7 +156,7 @@ section .row {
 .codeSnippet h1 {
     margin-left: 0;
     padding: 0;
-    color: white;
+    color: black;
     font-size: 1.25em;
     font-weight: 600 !important;
     margin-bottom: .2em;
@@ -168,6 +168,7 @@ section .row {
     padding-left: 1.5em;
 }
 .codeSnippet i {
+    color: white
     position: absolute;
     top: 40%;
     left: 37%;
