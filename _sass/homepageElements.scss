@@ -246,3 +246,14 @@ section.faqList {
 .faqTile.column {
     width: 100%;
 }
+
+/* Social Preview */
+section.social {
+    background: url(/assets/img/Social_Banner.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin-bottom: 0;
+}

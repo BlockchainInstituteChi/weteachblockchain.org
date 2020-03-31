@@ -3510,6 +3510,9 @@ section.faqList { text-align: left; }
 
 .faqTile.column { width: 100%; }
 
+/* Social Preview */
+section.social { background: url(/assets/img/Social_Banner.jpg); background-size: cover; background-position: center; text-align: center; padding-top: 4em; padding-bottom: 4em; margin-bottom: 0; }
+
 /* Desktop */
 /* Tablet */
 @media screen and (max-width: 800px) { /* Page Header */
