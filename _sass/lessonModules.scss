@@ -75,5 +75,11 @@ section .row {
 
 /*Note*/
 .row.note {
-    margin: 0em;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #941f6c;
 }
