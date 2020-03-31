@@ -5,12 +5,13 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-
+    .note i {
+        left: 30%;
+    }
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-    /*Definition*/
     .definition i {
         position: inherit;
         margin: .4em 0em;
