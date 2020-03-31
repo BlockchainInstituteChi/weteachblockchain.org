@@ -351,6 +351,12 @@ A left-aligned image with a text callout can be created using the below snippet.
 ```
 
 
+#### Twitter Feed Footer
+A twitter feed like the one on the homepage can be included using the following snippet:
+
+```
+{% include socialFooter.html %}
+```
 
 
 # Snippet to swap image prefix if image is an external url

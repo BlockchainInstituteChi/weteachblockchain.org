@@ -3421,6 +3421,9 @@ span.courseTag.professional { background: #c24774; }
 
 span.courseTag.beginner { background: #2fae9f; }
 
+/* Social Footer */
+section.social { background: url(/assets/img/Social_Banner.jpg); background-size: cover; background-position: center; text-align: center; padding-top: 4em; padding-bottom: 4em; margin-bottom: 0; }
+
 /* Headers */
 .pageHeaderImage a.callToActionButton { background: red; padding: 1em; margin-top: 2em; margin-bottom: 2em; color: white; text-transform: uppercase; display: block; width: fit-content; font-size: 1em; padding-top: 0.5em; padding-bottom: 0.5em; margin-left: 0; }
 
