@@ -20,11 +20,36 @@
 @media screen and (max-width: 600px) {
     .definition i {
         position: inherit;
-        margin: .4em 0em;
-        left: 42%;
+        margin: 0em;
+        left: 46%;
+        top: 52%;
     }
     .definition .col-md-1 {
         background: #415c6b;
+        padding-right: 0;
+        font-size: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    .note i {
+        position: inherit;
+        margin: 0em;
+        left: 46%;
+        top: 52%;
+    }
+    .note .col-md-1 {
+        background: #aa4c8a;
+        padding-right: 0;
+        font-size: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    .callout i {
+        position: inherit;
+        margin: 0em;
+        left: 46%;
+        top: 52%;
+    }
+    .callout .col-md-1 {
+        background: #3cafb6;
         padding-right: 0;
         font-size: 1.5em;
         padding-bottom: 1.5em;
