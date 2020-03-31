@@ -100,3 +100,29 @@ section .row {
     top: 40%;
     left: 39%;
 }
+
+/*Callout*/
+.row.callout {
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #0b9ba4;
+}
+.callout .col-md-1 {
+    background: #3cb0b6;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.callout h1 {
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
