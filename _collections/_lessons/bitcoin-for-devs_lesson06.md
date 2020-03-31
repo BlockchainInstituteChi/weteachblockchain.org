@@ -25,11 +25,12 @@ The first asymmetric algorithms:
 </ul>
 With asymmetric cryptography, instead of having one key, each party has two keys: a <strong>public key</strong> and a <strong>private key</strong>.
 
-{% include /callouts/imageWithCaption.html
-	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/AliceBobKeys-01.png"
+{% include imageWithCaption.html
+	image="/courses/bitcoin-for-developers/AliceBobKeys-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>Alice Private Key;</i> <b>B:</b> <i>Alice Public Key;</i> <b>C:</b> <i>Bob Private Key;</i> <b>D:</b> <i>Bob Public Key.</i>"
 %}
+
 
 How this works is quite interesting. Alice and Bob can exchange public keys with each other in the open. It does not matter if Charlie obtains a copy of the public keys; all he can do with those keys is encrypted a message to Alice or Bob.
 
@@ -54,13 +55,13 @@ Bob can also use Alice’s public key to encrypt a message to Alice.
 
 
 {% include callouts/imageWithCaption.html
-	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/TextandKeys-01.png"
+	image="/courses/bitcoin-for-developers/TextandKeys-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>Plain text;</i> <b>B:</b> <i>Alice public key;</i> <b>C:</b> <i>Cipher text;</i> <b>D:</b> <i>Alice private key.</i>"
 %}
 
 {% include callouts/imageWithCaption.html
-	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/AlicePublicKey-01-2.png"
+	image="/courses/bitcoin-for-developers/AlicePublicKey-01-2.png"
 	title=""
 	bodyText="<b>A:</b> <i>Alice public key.</i>"
 %}
@@ -95,7 +96,7 @@ Bitcoin, and other cryptocurrencies, are built on cryptography, but actually ver
 
 
 {% include callouts/imageWithCaption.html
-	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/EncryptSignHash-01.png"
+	image="/courses/bitcoin-for-developers/EncryptSignHash-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>The quick brown fox jumps over the lazy dog;</i> <b>B:</b> <i>Encrypt;</i> <b>C:</b> <i>Sign;</i> <b>D:</b> <i>Hash.</i>"
 %}
@@ -106,7 +107,7 @@ Bitcoin uses elliptic curve cryptography, ECDSA, or more specifically the <a hre
 
 
 {% include callouts/imageWithCaption.html
-	image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/BitcoinSigs-01.jpg"
+	image="/courses/bitcoin-for-developers/BitcoinSigs-01.jpg"
 	title=""
 	bodyText="<b>BITCOIN USES SECP256k1 SIGNATURES</b> <i>Elliptic curve cryptography</i>"
 %}
