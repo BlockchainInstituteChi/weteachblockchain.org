@@ -2,6 +2,7 @@ section .row {
     min-height: 0em;
 }
 
+
 /* Image with Text Callout */
 .imageWithTextCallout .col-md-8 {
     padding-top: calc(10% - 2em);
@@ -70,4 +71,9 @@ section .row {
     font-size: 1.25em;
     font-weight: 600 !important;
     margin-bottom: .2em;
+}
+
+/*Note*/
+.row.note {
+    margin: 0em;
 }
