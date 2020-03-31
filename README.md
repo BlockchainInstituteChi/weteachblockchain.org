@@ -332,7 +332,7 @@ Definitions have a title and a body value. The title should be plain text, but t
 Images with captions can be injected using the following snippet. Images are full width, and support a caption containing a plaintext title (optional) and an HTML or plain text mixed body field. 
 
 ```
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="Token-Creation-Cycle-01.jpg"
 	title="The Token Lifecycle"
 	bodyText="1. Tokens are distributed as rewards when a new block is mined. 2. ... "
@@ -343,7 +343,7 @@ Images with captions can be injected using the following snippet. Images are ful
 A left-aligned image with a text callout can be created using the below snippet. 
 
 ```
-{% include imageWithTextCallout.html 
+{% include callouts/imageWithTextCallout.html 
     title="CryptoKitties"
     img="https://theblockchaininstitute.org/wp-content/uploads/2019/02/cryptokitties-200x200.png"
     bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."

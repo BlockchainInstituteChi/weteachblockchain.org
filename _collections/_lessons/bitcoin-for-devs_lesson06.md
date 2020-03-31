@@ -25,7 +25,7 @@ The first asymmetric algorithms:
 </ul>
 With asymmetric cryptography, instead of having one key, each party has two keys: a <strong>public key</strong> and a <strong>private key</strong>.
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/AliceBobKeys-01.png"
 	title=""
 	bodyText="<b>A:</b> <i>Alice Private Key;</i> <b>B:</b> <i>Alice Public Key;</i> <b>C:</b> <i>Bob Private Key;</i> <b>D:</b> <i>Bob Public Key.</i>"

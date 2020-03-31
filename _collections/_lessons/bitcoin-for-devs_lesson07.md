@@ -35,10 +35,10 @@ The software is constantly connecting with peers to receive network data and tra
 
 A “full node” is a computer that is running bitcoin software and maintaining a complete copy of the bitcoin blockchain. In contrast, a “light client” is a computer, or sometimes a mobile phone, that is running bitcoin software, but that does not maintain a complete copy of the blockchain. This is often done to save space on a machine or mobile phone. For example, a bitcoin wallet running on a smartphone. In this scenario incoming transactions are validated via a process called <a href="https://en.bitcoinwiki.org/wiki/Simplified_Payment_Verification" target="_blank" rel="noopener noreferrer">SPV</a>, or Simplified Payment Verification.
 
-{% include imageWithCaption.html
+{% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/FullNodeLightClient-01.png"
 	title="Full Node or Light Client"
-	bodyText="<b>WHY RUN A FULL NODE:</b> <i>Running a full node provides a greater level of autonomy, influence in network decisions (see</i><a href="https://en.wikipedia.org/wiki/User_activated_soft_fork" target="_blank" rel="noopener noreferrer"> <i>UASF</i></a><i>) and increased privacy and security. Light clients rely on other full nodes on the network to provide them with data. A light client has to query another node to find data on a transaction that it is interested in. This can reveal the financial interests of the light client operator.</i>"
+	bodyText='<b>WHY RUN A FULL NODE:</b> <i>Running a full node provides a greater level of autonomy, influence in network decisions (see</i><a href="https://en.wikipedia.org/wiki/User_activated_soft_fork" target="_blank" rel="noopener noreferrer"> <i>UASF</i></a><i>) and increased privacy and security. Light clients rely on other full nodes on the network to provide them with data. A light client has to query another node to find data on a transaction that it is interested in. This can reveal the financial interests of the light client operator.</i>'
 %}
 
 We briefly covered the mining process in lesson two, Enter the Blockchain Part I, and here we’ll dive a bit deeper into consensus algorithms and maintaining consensus long term with governance systems.
