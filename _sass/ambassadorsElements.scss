@@ -28,12 +28,13 @@
 .ambassadorRow .subtitle {
     padding: 0em;
     margin-bottom: 0em;
-}
-.educationBody dt {
-    color: #003449;
-}
-.promotionBody dt {
-    color: #a30071;
+dd {
+    font-family: Roboto;
+    margin-bottom: .5rem;
+    margin-left: 0;
+    text-transform: none;
+    font-size: 1em;
+    color: darkgrey;
 }
 section#joinNow {
     margin-bottom: 6em;
