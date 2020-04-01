@@ -13,7 +13,7 @@
 			<h1>Recent Events</h1>
 			<div class="row">
 			<!-- No upcoming posts, displaying recent posts instead -->
-			{% for event in sorted limit: 4 %}
+			{% for event in sorted limit: 3 %}
 				{% if event.date < site.time  %}
 					{% include eventTile.html
 						link=event.permalink 
@@ -26,7 +26,7 @@
 		{% else %}
 			<h1>Upcoming Events</h1>
 			<div class="row">
-			{% for event in sorted limit: 4 %}
+			{% for event in sorted limit: 3 %}
 				{% if event.date > site.time  %}
 					{% include eventTile.html
 						link=event.permalink 
