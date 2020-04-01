@@ -77,7 +77,14 @@
           <span class="author">{{ page.author }}</span>
           <div class="faqBody">
             {{ content }}
+
+            {% include learnMoreSection.html 
+              link=page.learnMoreLink
+              text=page.learnMoreText
+            %}
+
           </div>
+
         </div>
   
         <div class="col-md-4 faqSidebar">

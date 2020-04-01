@@ -4,6 +4,8 @@ image: blockchain.png
 permalink: /faq/what-is-blockchain/
 layout: faq
 author: Concept 
+learnMoreLink: /courses/blockchain-101/
+learnMoreText: free Blockchain 101 course
 ---
 
 <span>A blockchain is a decentralized ledger that records all transactions. Each transaction that is conducted leaves a permanent record that can be referenced at any time. The structure of the blockchain allows these transactions to be self executing and immutable. Once validated, data is permanently recorded to the blockchain and cannot be altered in any way. </span>
@@ -25,5 +27,3 @@ author: Concept
 
 <span>Blockchains were created to solve the problem of coordinating data with people around the world, who don’t know or trust each other.</span>
 
-<h3>Learn More</h3>
-<p>For more information on how blockchain works and where it came from please visit our <a href="/courses/blockchain-101/"> free Blockchain 101 course</a>.</p>
