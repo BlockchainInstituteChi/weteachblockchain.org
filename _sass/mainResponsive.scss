@@ -202,6 +202,9 @@
         padding: 0.25em;
         padding-left: 0;
     }
+	h4.float-right {
+    		float: none !important;
+	}
     button.mc_signup {
         width: 100%;
         margin-bottom: 2em;
