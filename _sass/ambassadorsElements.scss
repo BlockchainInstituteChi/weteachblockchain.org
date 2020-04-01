@@ -27,7 +27,7 @@
 }
 .ambassadorRow .subtitle {
     padding: 0em;
-    margin-bottom: 0em;
+    margin-bottom: 2em;
 }
 dd {
     font-family: Roboto;
@@ -36,6 +36,12 @@ dd {
     text-transform: none;
     font-size: 1em;
     color: darkgrey;
+}
+.educationHeader dt {
+    color: #003449;
+}
+.promotionHeader dt {
+    color: #a30071;
 }
 section#joinNow {
     margin-bottom: 6em;
