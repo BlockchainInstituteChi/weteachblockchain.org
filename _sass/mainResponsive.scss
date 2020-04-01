@@ -126,8 +126,12 @@
     		font-size: 1.25em;
 	}
 	.upcomingEventsFooter .eventTile {
-    		width: 22%;
-	}
+    		width: 23%;
+    		width: calc(31.3% - 1em);
+    		min-height: 12em;
+    		height: fit-content;
+    		margin-right: 3.35em;
+	}	
     .upcomingEventsFooter .row {
     	width: 100%;
     	margin: 0em 0em 0em 2em;
