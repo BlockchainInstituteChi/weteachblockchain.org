@@ -227,6 +227,7 @@
 	}
     
     /* Page Header */
+	
 	.pageHeaderImage .col-sm-6 {
         	min-width: calc(100vw - 2em);
 		margin: auto 1em;   
@@ -239,6 +240,9 @@
 		text-align: center;
     		font-family: kanit;
     		font-weight: 600;
+	}
+	section.pageHeaderImage {
+	    min-height: 25vh;
 	}
 	
 	
