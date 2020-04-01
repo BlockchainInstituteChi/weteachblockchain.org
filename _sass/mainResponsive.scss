@@ -124,7 +124,17 @@
 	}
 	.upcomingEventsFooter .eventTile h1 {
     		font-size: 1.25em;
+    		font-size: 1.25em;
+    		padding-top: .5em;
+    		line-height: 1em;
 	}
+	.upcomingEventsFooter .eventTile span {
+    	font-size: 0.8em;
+   	 text-transform: uppercase;
+   	 color: #0b9ba4;
+  	  font-style: italic;
+  	  line-height: .4em;
+	}	
 	.upcomingEventsFooter .eventTile {
     		width: 23%;
     		width: calc(31.3% - 1em);
