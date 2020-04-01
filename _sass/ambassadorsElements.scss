@@ -16,7 +16,22 @@
     text-transform: uppercase;
     color: #a30071;
 }
+.educationHeader h4 {
+    letter-spacing: .02em;
+}
+.communitynHeader h4 {
+    letter-spacing: .02em;
+}
+.promotionHeader h4 {
+    letter-spacing: .02em;
+}
 .ambassadorRow .subtitle {
     padding: 0em;
     margin-bottom: 0em;
+}
+.educationBody dt {
+    color: #003449;
+}
+.promotionBody dt {
+    color: #a30071;
 }
