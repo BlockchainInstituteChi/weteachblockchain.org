@@ -16,7 +16,7 @@ Wallets are built for two primary functions:
 </ul>
 Here we will focus primarily on the second function and look at how wallets store private keys, interact with the blockchain and construct, sign and transmit transactions. Primarily we’ll focus on a wallets roll as a keychain for the private keys that control a users funds on the blockchain.
 
-<img class="aligncenter size-full wp-image-11577" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/WalletKeychain-01.png" alt="" width="2816" height="1329" />
+<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.png" />
 
 First, let’s take a step back and learn the relationship between public/private key pairs and bitcoin addresses.
 
@@ -32,9 +32,11 @@ This results in a 160-bit, 20-byte string that is then base58 encoded the result
 <div class="formula">1J7mdg5rbQyUHENYdx39WVWK7fsLpEoXZ</div>
 <br>
 
-<img class="aligncenter size-full wp-image-11578" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/PKtoBA-01.jpg" alt="" width="3899" height="1680" />
-<div class="learnpressImageCaption"><b>A:</b> <i>Public Key;</i> <b>B:</b> <i>SHA256;</i> <b>C:</b> <i>RIPEMD160;</i> <b>D:</b> <i>"Double Hash" or HASH160;</i> <b>E:</b> <i>Public Key Hash (20 bytes/160 bits);</i> <b>F:</b> <i>Base58Check Encode with 0x00 version prefix;</i> <b>G:</b> <i>Bitcoin Address (Base58Check Encoded Public Key Hash).</i></div>
-<br>
+{% include callouts/imageWithCaption.html
+	image="/courses/bitcoin-for-developers/PKtoBA-01.jpg"
+	title=""
+	bodyText="<b>A:</b> <i>Public Key;</i> <b>B:</b> <i>SHA256;</i> <b>C:</b> <i>RIPEMD160;</i> <b>D:</b> <i>"Double Hash" or HASH160;</i> <b>E:</b> <i>Public Key Hash (20 bytes/160 bits);</i> <b>F:</b> <i>Base58Check Encode with 0x00 version prefix;</i> <b>G:</b> <i>Bitcoin Address (Base58Check Encoded Public Key Hash).</i>"
+%}
 
 <div class="purpleNote"><b>NOTE:</b><i>Bitcoin addresses are usually encoded as <a href="https://en.wikipedia.org/wiki/Base58" target="_blank" rel="noopener noreferrer">base58 </a></i><i></i><i> which is similar to Base64 but has been modified to avoid both non-alphanumeric characters and letters which might look ambiguous when printed. This was done to help prevent human error when copying the data. In base58 the following similar-looking letters have been removed such as 0 (zero), O (capital o), I (capital i) and l (lower case L) and the symbols “+” &amp; “/”. The remaining characters are, 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz.</i></div>
 &nbsp;
@@ -56,11 +58,13 @@ The first 4 bytes of this are then added to the end of the address.
 
 When an address is typed into a wallet Base58Check code, the decoding software will calculate the checksum of the address on it’s own and compare it to the checksum included in the address. If the two do not match, the address entered is invalid.
 
-<img class="aligncenter size-full wp-image-11584" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/WalletsandAddresses-01-1.png" alt="" width="9389" height="5946" />
-<div class="learnpressImageCaption"><b>BASE58CHECK ENCODING</b>
+{% include callouts/imageWithCaption.html
+	image="/courses/bitcoin-for-developers/WalletsandAddresses-01-1.png"
+	title=""
+	bodyText="<b>BASE58CHECK ENCODING</b>
 <b>1:</b> <i>Add Version Prefix;</i> <b>2:</b> <i>Hash (Version Prefix + Payload);</i> <b>3:</b> <i>Add First 4 Bytes as Checksum;</i> <b>4:</b> <i>Encode in Base-58.</i>
-<b>A:</b> <i>Payload;</i> <b>B:</b> <i>Version;</i> <b>C:</b> <i>SHA256;</i> <b>D:</b> <i>First 4 Bytes;</i> <b>E:</b> <i>Checksum;</i> <b>F:</b> <i>Base58 Encode;</i> <b>G:</b> <i>Base58Check Encoded Payload.</i></div>
-<br>
+<b>A:</b> <i>Payload;</i> <b>B:</b> <i>Version;</i> <b>C:</b> <i>SHA256;</i> <b>D:</b> <i>First 4 Bytes;</i> <b>E:</b> <i>Checksum;</i> <b>F:</b> <i>Base58 Encode;</i> <b>G:</b> <i>Base58Check Encoded Payload.</i>"
+%}
 
 In January of 2012, with BIP16, a new type of bitcoin address was introduced, Pay to Script Hash or <strong>P2SH</strong>. This type of address is not based on a public key but instead on the hash of a script. Bitcoin scripting is a topic that we’ll cover in depth in Part II of this series. For the moment let’s think of a bitcoin script as a bit of code that needs to return true when run in order for a transaction to be considered valid. It’s an unlocking script.
 
@@ -72,10 +76,11 @@ To create a 2 of 3 multi-sig P2SH address a script requiring a valid signature f
 
 The version prefix that is used depends on which network the address is intended for and whether it is a P2SH (Pay to Script Hash) or P2PKH (Pay to Public Key Hash) address.
 
-<img class="aligncenter size-full wp-image-11588" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/WalletsandAddresses-02.png" alt="" width="10608" height="4597" />
-<div class="learnpressImageCaption"><b>A:</b> <i>Type;</i> <b>B:</b> <i>Version Prefix (Hex);</i> <b>C:</b> <i>Base58 Result Prefix;</i> <b>D:</b> <i>Bitcoin Address;</i> <b>E:</b> <i>Pay-To-Script-Hash Address;</i> <b>F:</b> <i>Bitcoin Testnet Address.</i></div>
-<br>
-
+{% include callouts/imageWithCaption.html
+	image="/courses/bitcoin-for-developers/WalletsandAddresses-02.png"
+	title=""
+	bodyText="<b>A:</b> <i>Type;</i> <b>B:</b> <i>Version Prefix (Hex);</i> <b>C:</b> <i>Base58 Result Prefix;</i> <b>D:</b> <i>Bitcoin Address;</i> <b>E:</b> <i>Pay-To-Script-Hash Address;</i> <b>F:</b> <i>Bitcoin Testnet Address.</i>"
+%}
 
 <div class="tealCallout">
 	<b>CONCEPTUALIZE:</b> 
