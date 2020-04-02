@@ -5,14 +5,32 @@
     letter-spacing: 0.05em;
 }
 
+/*Sections*/
+section.pressReleases {
+    margin-top: -2em;
+}
+
 /* Release Items */
+.pressReleases img {
+    max-width: 100%;
+}
 .pressReleases h1 {
     font-size: 1.5em;
     text-transform: uppercase;
+    margin-left: .05em;
 }
 .pressReleases span {
-    color: green;
-    padding-left: 0.5em;
+    color: #2fae9f;
+    text-transform: uppercase;
+    display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
+    margin-bottom: 2em;
+    margin-left: .6em;
+}
+.pressReleases h3 {
+    padding-left: .3em;
 }
 .pressReleases p {
     padding: 0;
