@@ -5,6 +5,10 @@
 }
 .header p {
     padding: 0.5em;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 a.callToActionButton.rightRedBrick {
     background: $brand-red;
@@ -21,6 +25,10 @@ section.blueBrickDivider {
     background: $brand-teal;
     margin-bottom: 5em;
 }
+.col-sm-6 h1 {
+    margin-top: 0em;
+}
+
 
 /* Profiles */
 .team img, .board img {
