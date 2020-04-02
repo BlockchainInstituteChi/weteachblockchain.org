@@ -172,9 +172,11 @@ li.nav-item.navbox {
 }
 .hoverNavbox .row {
     max-width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.25em;
+    padding-right: 0em;
     margin: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 .hoverNavbox a:hover {
     // color: $brand-blue !important;
@@ -187,6 +189,7 @@ li.nav-item.navbox {
     line-height: 1.5em;
     letter-spacing: .01em;
     font-weight: 300;
+    font-size: .9em;
 }
 .hoverNavbox li.nav-item {
     padding-top: .9em;
