@@ -35,7 +35,7 @@ This results in a 160-bit, 20-byte string that is then base58 encoded the result
 {% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/PKtoBA-01.jpg"
 	title=""
-	bodyText="<b>A:</b> <i>Public Key;</i> <b>B:</b> <i>SHA256;</i> <b>C:</b> <i>RIPEMD160;</i> <b>D:</b> <i>"Double Hash" or HASH160;</i> <b>E:</b> <i>Public Key Hash (20 bytes/160 bits);</i> <b>F:</b> <i>Base58Check Encode with 0x00 version prefix;</i> <b>G:</b> <i>Bitcoin Address (Base58Check Encoded Public Key Hash).</i>"
+	bodyText="<b>A:</b> <i>Public Key;</i> <b>B:</b> <i>SHA256;</i> <b>C:</b> <i>RIPEMD160;</i> <b>D:</b> <i>'Double Hash' or HASH160;</i> <b>E:</b> <i>Public Key Hash (20 bytes/160 bits);</i> <b>F:</b> <i>Base58Check Encode with 0x00 version prefix;</i> <b>G:</b> <i>Bitcoin Address (Base58Check Encoded Public Key Hash).</i>"
 %}
 
 <div class="purpleNote"><b>NOTE:</b><i>Bitcoin addresses are usually encoded as <a href="https://en.wikipedia.org/wiki/Base58" target="_blank" rel="noopener noreferrer">base58 </a></i><i></i><i> which is similar to Base64 but has been modified to avoid both non-alphanumeric characters and letters which might look ambiguous when printed. This was done to help prevent human error when copying the data. In base58 the following similar-looking letters have been removed such as 0 (zero), O (capital o), I (capital i) and l (lower case L) and the symbols “+” &amp; “/”. The remaining characters are, 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz.</i></div>
