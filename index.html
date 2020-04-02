@@ -22,44 +22,26 @@ ogUrl: https://weteachblockchain.org/
 %}
 
 
-<section class="pathsList">
-	<h1 class="hasColorTag teal">Education Paths</h1>
-	<div class="row">
-		<div class="col-sm-12">
-			<span class="descriptionText pathDescriptionHP">
-				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
-			</span>
-		</div>
-	</div>
-	<div class="row pathButtons">
-		<div class="col-sm-4 novText">
-			<a target="_blank" href="/courses/novice/">
-				<img src="/assets/img/Novice_button.jpg">
-        <h5>Novices</h5>
-        <span>FREE COURSES</span>
-			</a>
-
-		</div>
-		<div class="col-sm-4 devText">
-			<a target="_blank" href="/courses/developers/">
-				<img src="/assets/img/Developers_button.jpg">
-				<h5>Developers</h5>
-        <span>FREE COURSES</span>
-			</a>
-			
-		</div>
-		<div class="col-sm-4 indText">
-			<a target="_blank" href="/courses/professionals/">
-				<img src="/assets/img/Professionals_button.jpg">
-				<h5>Industries</h5>
-        <span>FREE COURSES</span>
-			</a>
-			
-		</div>
-		
-  </div>
-  <div class="row ctaCenter">
-    <a href="/courses/" target="_blank" class="callToActionButton">BROWSE OUR FREE COURSES</a>
+<section class="onlineCourses blueDivider">
+  <div class="row">
+    <h1 class="coursesHeaderHP">Check Out Our Online Courses</h1>
+    <span class="descriptionText">
+      Start your Free blockchain education from the comfort of home.
+    </span>
+    <div class="coursesThumbnailContainer"> 
+      {% assign sorted = site.courses | sort: 'tags' %}
+      {% for course in sorted %}
+        {% include courseTile.html 
+          image=course.image
+          title=course.title 
+          author=course.author 
+          summary=course.summary 
+          link=course.permalink 
+          tag=course.primaryTag	
+        %}
+      {% endfor %}
+    </div>
+    <a href="/courses/" target="_blank" class="callToActionButton">Browse our Free Courses</a>
   </div>
 </section>
 
@@ -112,28 +94,49 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-<section class="onlineCourses blueDivider">
-  <div class="row">
-    <h1 class="coursesHeaderHP">Check Out Our Online Courses</h1>
-    <span class="descriptionText">
-      Start your Free blockchain education from the comfort of home.
-    </span>
-    <div class="coursesThumbnailContainer"> 
-      {% assign sorted = site.courses | sort: 'tags' %}
-      {% for course in sorted %}
-        {% include courseTile.html 
-          image=course.image
-          title=course.title 
-          author=course.author 
-          summary=course.summary 
-          link=course.permalink 
-          tag=course.primaryTag	
-        %}
-      {% endfor %}
-    </div>
-    <a href="/courses/" target="_blank" class="callToActionButton">Browse our Free Courses</a>
+
+
+<section class="pathsList">
+	<h1 class="hasColorTag teal">Education Paths</h1>
+	<div class="row">
+		<div class="col-sm-12">
+			<span class="descriptionText pathDescriptionHP">
+				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
+			</span>
+		</div>
+	</div>
+	<div class="row pathButtons">
+		<div class="col-sm-4 novText">
+			<a target="_blank" href="/courses/novice/">
+				<img src="/assets/img/Novice_button.jpg">
+        <h5>Novices</h5>
+        <span>FREE COURSES</span>
+			</a>
+
+		</div>
+		<div class="col-sm-4 devText">
+			<a target="_blank" href="/courses/developers/">
+				<img src="/assets/img/Developers_button.jpg">
+				<h5>Developers</h5>
+        <span>FREE COURSES</span>
+			</a>
+			
+		</div>
+		<div class="col-sm-4 indText">
+			<a target="_blank" href="/courses/professionals/">
+				<img src="/assets/img/Professionals_button.jpg">
+				<h5>Industries</h5>
+        <span>FREE COURSES</span>
+			</a>
+			
+		</div>
+		
+  </div>
+  <div class="row ctaCenter">
+    <a href="/courses/" target="_blank" class="callToActionButton">BROWSE OUR FREE COURSES</a>
   </div>
 </section>
+
 
 
 <section class="faq">
