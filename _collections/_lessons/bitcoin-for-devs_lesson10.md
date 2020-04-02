@@ -18,7 +18,7 @@ Here we’ll introduce you to the concept of <b>UTXO</b>’s or <b>unspent trans
 
 When a bitcoin is first created, it is given to a miner as a <b>mining reward</b>. Currently, the mining reward for a block is <b>12.5</b> bitcoin or BTC. The transaction that gives the <b>miner</b> these funds is called a <b>coinbase transaction</b>. The 12.5 BTC is sent to the address that the miner has specified. That 12.5 BTC is now an <b>unspent transaction output</b> that can be used in another transaction.
 
-<img class="aligncenter size-full wp-image-11574" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/AlicePaysBob-01.png" alt="" width="2816" height="909" />
+<img src="/assets/img/courses/bitcoin-for-developers/AlicePaysBob-01.png" />
 
 Let’s imagine that our miner, Alice, now wants to pay for some server space using BTC. She purchases 0.05 worth of hosting from Bob. In that transaction, she uses the only UTXO that she has which is worth 12.5 BTC.
 
@@ -29,6 +29,6 @@ Transaction fees on the bitcoin network are not specified but implied in the rem
 
 After the transaction is mined, Alice now has a UTXO worth 12.449 and Bob has a UTXO worth 0.05.
 
-<img class="aligncenter wp-image-3153 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Hannah5b-03-s.png" alt="" width="1000" height="580" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah5b-03-s.png" />
 
 We’ll cover bitcoin transactions in some detail in Part II. The important takeaway for the moment is that bitcoin’s are UTXO’s, which are ledger entries, that live on the bitcoin blockchain. Holding bitcoins means holding, managing and securing the private keys that control those UTXO’s that live on the shared network ledger.
