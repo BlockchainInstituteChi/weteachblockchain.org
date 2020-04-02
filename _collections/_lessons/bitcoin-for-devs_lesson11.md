@@ -60,10 +60,8 @@ When an address is typed into a wallet Base58Check code, the decoding software w
 
 {% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/WalletsandAddresses-01-1.png"
-	title=""
-	bodyText="<b>BASE58CHECK ENCODING</b>
-<b>1:</b> <i>Add Version Prefix;</i> <b>2:</b> <i>Hash (Version Prefix + Payload);</i> <b>3:</b> <i>Add First 4 Bytes as Checksum;</i> <b>4:</b> <i>Encode in Base-58.</i>
-<b>A:</b> <i>Payload;</i> <b>B:</b> <i>Version;</i> <b>C:</b> <i>SHA256;</i> <b>D:</b> <i>First 4 Bytes;</i> <b>E:</b> <i>Checksum;</i> <b>F:</b> <i>Base58 Encode;</i> <b>G:</b> <i>Base58Check Encoded Payload.</i>"
+	title="<b>BASE58CHECK ENCODING</b>"
+	bodyText="<b>1:</b> <i>Add Version Prefix;</i> <b>2:</b> <i>Hash (Version Prefix + Payload);</i> <b>3:</b> <i>Add First 4 Bytes as Checksum;</i> <b>4:</b> <i>Encode in Base-58.</i> <b>A:</b> <i>Payload;</i> <b>B:</b> <i>Version;</i> <b>C:</b> <i>SHA256;</i> <b>D:</b> <i>First 4 Bytes;</i> <b>E:</b> <i>Checksum;</i> <b>F:</b> <i>Base58 Encode;</i> <b>G:</b> <i>Base58Check Encoded Payload.</i>"
 %}
 
 In January of 2012, with BIP16, a new type of bitcoin address was introduced, Pay to Script Hash or <strong>P2SH</strong>. This type of address is not based on a public key but instead on the hash of a script. Bitcoin scripting is a topic that we’ll cover in depth in Part II of this series. For the moment let’s think of a bitcoin script as a bit of code that needs to return true when run in order for a transaction to be considered valid. It’s an unlocking script.
