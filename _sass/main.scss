@@ -145,7 +145,7 @@ li.nav-item.navbox {
 
 /* Hover Nav Box */
 .hoverNavbox {
-    width: 50%;
+    width: 65%;
     position: absolute;
     right: 5em;
     background: $brand-teal;
@@ -180,6 +180,16 @@ li.nav-item.navbox {
     // color: $brand-blue !important;
     text-decoration: underline !important;
     color: white !important;
+}
+.hoverNavbox a.nav-link {
+    font-family: Open Sans;
+    text-transform: none;
+    line-height: 1.3em;
+    letter-spacing: .01em;
+    font-weight: 300;
+}
+.hoverNavbox li.nav-item {
+    padding-top: 1em;
 }
 li.nav-item.contactUsLink {
     padding: 0.5em;
