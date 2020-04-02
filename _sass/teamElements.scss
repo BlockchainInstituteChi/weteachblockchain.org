@@ -1,5 +1,8 @@
 
 /* About Us*/
+section.header {
+    font-size: 1em;
+}
 .header .col-sm-6 {
     text-align: left;
 }
@@ -27,6 +30,7 @@ a.callToActionButton {
     letter-spacing: 0.05em;
     margin: auto;
     text-align: center;
+    font-size: 1rem;
 }
 section.blueBrickDivider {
     height: 3em;
