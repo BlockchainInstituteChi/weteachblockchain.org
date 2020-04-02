@@ -22,7 +22,7 @@ Cryptocurrency wallets have evolved substantially since the first wallet which w
 
 <hr />
 
-<img class="aligncenter size-full wp-image-11599" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/KWallets-01.png" alt="" width="23286" height="7256" />
+<img src="/assets/img/courses/bitcoin-for-developers/KWallets-01.png" />
 
 This type of wallet is simply a collection of randomly generated private keys with no particular relation to one another.
 
@@ -71,10 +71,12 @@ Once the seed words have been selected, a “<a href="https://en.wikipedia.org/w
 
 Once the mnemonic phrase and salt has been selected, they are run through a “key stretching function”. This function hashes the data 2048 times! Which produces the 512-bit wallet seed.
 
-<img class="aligncenter size-full wp-image-11601" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Mnemonicseeds-01-1.png" alt="" width="17205" height="7377" />
-<div class="learnpressImageCaption"><b>MNEMONIC TO SEED</b>
-<b>A:</b> <i>Mnemonic Code Words;</i> <b>B:</b> <i>Salt;</i> <b>C:</b> <i>Key Stretching Function;</i> <b>A:</b> <i>M512-Bit Seed.</i></div>
-&nbsp;
+{% include callouts/imageWithCaption.html
+	image="/courses/bitcoin-for-developers/Mnemonicseeds-01-1.png"
+	title="<b>MNEMONIC TO SEED</b>"
+	bodyText="<b>A:</b> <i>Mnemonic Code Words;</i> <b>B:</b> <i>Salt;</i> <b>C:</b> <i>Key Stretching Function;</i> <b>A:</b> <i>M512-Bit Seed.</i>"
+%}
+
 <h3>TAKEAWAYS</h3>
 
 <hr />
