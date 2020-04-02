@@ -25,9 +25,11 @@ Proposed changes should first be discussed on the <a href="https://lists.linuxfo
 
 Once a proposed change becomes a BIP it goes through peer review and the below process.
 
-<img class="aligncenter size-full wp-image-11453" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Process-01.png" alt="" width="2547" height="1114" />
-<div class="learnpressImageCaption"><b>A:</b> <i>Draft;</i> <b>B:</b> <i>Deferred;</i> <b>C:</b> <i>Accepted;</i> <b>D:</b> <i>Rejected;</i> <b>E:</b> <i>Withdrawn;</i> <b>F:</b> <i>Final;</i> <b>G:</b> <i>Replaced;</i> <b>H:</b> <i>Active.</i></div>
-&nbsp;
+{% include callouts/imageWithCaption.html
+	image="/courses/bitcoin-for-developers/Process-01.png"
+	title=""
+	bodyText="<b>A:</b> <i>Draft;</i> <b>B:</b> <i>Deferred;</i> <b>C:</b> <i>Accepted;</i> <b>D:</b> <i>Rejected;</i> <b>E:</b> <i>Withdrawn;</i> <b>F:</b> <i>Final;</i> <b>G:</b> <i>Replaced;</i> <b>H:</b> <i>Active.</i>"
+%}
 
 After a BIP is accepted, then the real fun of network implementation begins.
 <h3>HOW A BIP BECOMES NETWORK PROTOCOL</h3>
