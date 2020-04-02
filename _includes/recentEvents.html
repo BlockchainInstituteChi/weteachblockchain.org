@@ -2,7 +2,7 @@
 	<h1>Recent Events</h1>
 	<div class="row">
 		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3 %}
-		{% for event in sorted limit: 4 %}
+		{% for event in sorted limit: 3 %}
 	
 			{% if event.date < site.time  %}
 				{% include eventTile.html
