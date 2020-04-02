@@ -7,7 +7,7 @@ permalink: /courses/bitcoin-for-developers/3/conclusion
 ---
 
 <span>
-<h3><img class="aligncenter size-full wp-image-11295" src="https://theblockchaininstitute.org/wp-content/uploads/2019/07/Conclusion-01-2.png" alt="" width="10195" height="3875" /></h3>
+<img src="/assets/img/courses/bitcoin-for-developers/Conclusion-01-2.png" />  
 <h3>YOU'VE COMPLETED PART ONE OF OUR BITCOIN FOR DEVELOPERS COURSE!</h3>
 
 <hr />
