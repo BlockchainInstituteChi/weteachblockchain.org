@@ -5,7 +5,26 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-	
+	section.blueBrickDivider {
+    		height: 2em;
+    		background: #00648c;
+    		margin-bottom: 1.2em;
+	}
+	.header .row {
+    		margin-bottom: 6em;
+	}
+	h1.hasColorTag.blue {
+    		margin-bottom: 1.75em;
+	}
+	h1.hasColorTag.redRight {
+    		margin-bottom: 1.75em;
+	}
+	.row.person_team {
+    		margin-bottom: 3em;
+	}
+	.row.person_board {
+    		margin-bottom: 3em;
+	}
 } 
 
 /* Mobile */
