@@ -43,10 +43,13 @@ a.callToActionButton {
 .header img {
     max-width: 100%;
 }
+.header .row {
+    margin-bottom: 8em;
+}
 section.blueBrickDivider {
     height: 3em;
-    background: $brand-teal;
-    margin-bottom: 5em;
+    background: #00648c;
+    margin-bottom: 1.5em;
 }
 .col-sm-5 h1 {
     margin-top: 0em;
@@ -54,6 +57,18 @@ section.blueBrickDivider {
 
 
 /* Profiles */
+.hasColorTag::before {
+    background: #00648c;
+    width: 150px;
+    height: 1em;
+    content: "_";
+    color: #ff000000;
+    display: inline-block;
+    margin-bottom: -0.25em;
+    margin-left: -1.60em;
+    margin-right: 0.5em;
+    vertical-align: sub;
+}
 .team img, .board img {
     max-width: calc(100% + 3em);
     height: 10em;
