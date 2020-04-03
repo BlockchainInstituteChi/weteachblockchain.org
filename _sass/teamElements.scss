@@ -89,14 +89,23 @@ section.blueBrickDivider {
     color: black;
     text-transform: uppercase;
 }
+.person_board h3 {
+    color: black;
+    text-transform: uppercase;
+}
 span.role {
-    color: $brand-green;
-    text-transform: capitalize;
+    color: #2fae9f;
+    text-transform: uppercase;
     display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
+    margin-bottom: 1em;
 }
 span.bio {
     color: black;
     font-weight: 200;
+    font-size: .9em;
 }
 h1.hasColorTag.blue {
     margin-bottom: 2.25em;
