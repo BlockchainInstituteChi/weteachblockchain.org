@@ -1,0 +1,43 @@
+header.jumbotron.text-left.tileHeader {
+    padding: 0;
+}
+
+.col-sm-4 {
+    height: 100vh;
+    background: white;
+    padding: 1em;
+    padding-top: 10%;
+}
+
+h1 {
+    padding-left: 0;
+    margin-bottom: 1em;
+}
+
+span {
+    display: block;
+    margin-bottom: 2em;
+}
+
+button.learnMoreButton {
+    width: calc(100% - 1em);
+    height: 4em;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    display: inline-block;
+    border: none;
+    color: white;
+    background: #108f98;
+}
+
+button:hover {
+	text-decoration: underline;
+}
+
+a {
+    height: fit-content;
+}
+
+button.learnMoreButton.callToAction {
+    background: #d75895;
+}
