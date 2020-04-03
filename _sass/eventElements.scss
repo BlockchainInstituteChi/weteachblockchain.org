@@ -2,6 +2,20 @@
     font-weight: 600;
     letter-spacing: 0.05em;
 }
+p {
+    padding: 0;
+    padding-left: 0.5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+section.header {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 3em;
+}
 section.eventsHeader {
     text-align: center;
     font-size: 0.75em;
