@@ -13,6 +13,9 @@
 	.header .row {
     		margin-bottom: 6em;
 	}
+	.hasColorTag::before {
+    		margin-left: -.4em;
+	}
 	h1.hasColorTag.blue {
     		margin-bottom: 1.75em;
 	}
