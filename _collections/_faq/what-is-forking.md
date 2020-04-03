@@ -4,6 +4,8 @@ image: Forking.png
 permalink: /faq/what-is-forking/
 layout: faq
 author: Concept
+learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
+learnMoreText: Our Blockchain 101 Course
 ---
 <span>A public blockchain can only exist by many computers running the same software, which collectively maintains a record of all transactions conducted on the network. Public blockchains offer completely open-source code, which allows any developer to iterate off of the existing code, making any changes that they desire. If either the collective record or the software that maintains it is questioned, there can be a fork in the network. There are three main types of forks:</span>
 
