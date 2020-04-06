@@ -1,6 +1,6 @@
 <section class="upcomingEventsFooter hasSectionColorTag red">
 	
-		{% assign sorted = site.events | sort: 'date' | reverse | limit: 3 %}
+		{% assign sorted = site.events | sort: 'date' | reverse | limit: 4 %}
 		{% assign futureposts = 0 %}
 
 		{% for event in sorted %}
@@ -13,7 +13,7 @@
 			<h1>Recent Events</h1>
 			<div class="row">
 			<!-- No upcoming posts, displaying recent posts instead -->
-			{% for event in sorted limit: 3 %}
+			{% for event in sorted limit: 4 %}
 				{% if event.date < site.time  %}
 					{% include eventTile.html
 						link=event.permalink 
@@ -26,7 +26,7 @@
 		{% else %}
 			<h1>Upcoming Events</h1>
 			<div class="row">
-			{% for event in sorted limit: 3 %}
+			{% for event in sorted limit: 4 %}
 				{% if event.date > site.time  %}
 					{% include eventTile.html
 						link=event.permalink 
