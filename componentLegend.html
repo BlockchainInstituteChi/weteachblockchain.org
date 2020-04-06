@@ -65,7 +65,7 @@ ogUrl: https://weteachblockchain.org/legend/
             
             {% include callouts/codeSnippet.html
                 title="The title of the snippet"
-                 bodyText="<span>html formatted string for the body of the callout</span><span>use one span per line of code</span>"
+                bodyText="'Lines of code', 'for(as many as you need) {', '  indented with spaces', '}' "
              %}
         
             
@@ -77,11 +77,29 @@ ogUrl: https://weteachblockchain.org/legend/
     <div class="row">
         <div class="col-sm-12">
             <h1>Terminal</h1>
-            
-            {% include callouts/terminal.html
+        
+             {% include callouts/terminal.html
                 title="The title of the example"
-                 bodyText="<span>Command 1</span><span>Output / or command</span>"
-             %}
+                user="alex@ubuntu"
+                directory="~/"
+                bodyText="A list of commands, separated by commas, and including a "
+             %}             
+            
+        </div>
+        
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Image Gallery Lightbox</h1>
+        
+             {% include callouts/imageGallery.html
+                title="The title of the gallery"
+                imageList="courses/bitcoin-for-developers/1_b-01.png,courses/bitcoin-for-developers/AliceBobKeys-01.png,/courses/bitcoin-for-developers/1_b-01.png,headshots/alex.jpg,map.png,TheBigPicture-01.png"
+             %}             
             
         </div>
         

@@ -1,0 +1,40 @@
+<div class="row photoLightbox">
+    <div class="col-md-12">
+        <h1>{{ include.title }}</h1>
+        {% assign images = include.imageList | split: ',' %}
+        <div class="imageGallery">
+            {% for image in images %}
+                <img onclick="toggleFullScreen('{{ image }}')" src="/assets/img/{{ image }}">
+            {% endfor %} 
+        </div> 
+    </div>
+</div>
+
+<div id="imageLightbox" class="lightbox d-none" onclick="toggleFullScreen()">
+    <img id="lightBoxImage" src="">
+    <span id="lightBoxCaption"></span>
+</div>
+<script>
+
+function toggleFullScreen (imageName) {
+    console.log('toggleFullScreen triggered for image', imageName)
+    
+    // First check if the image is already set
+    var image = document.getElementById('lightBoxImage');
+    if ( !imageName || ( imageName === '' ) || ( imageName === ' ' ) ) {
+        // do nothing
+    } else {
+        document.getElementById('lightBoxImage').src = "/assets/img/" + imageName;
+    }
+
+    // display the lightbox
+    var imageLightbox = document.getElementById('imageLightbox')
+    if ( imageLightbox.className.split('d-none').length > 1 ) {
+        document.getElementById('imageLightbox').className = imageLightbox.className.split('d-none').join('')
+    } else {
+        document.getElementById('imageLightbox').className = imageLightbox.className + ' d-none'
+    }  
+
+}
+
+</script>
