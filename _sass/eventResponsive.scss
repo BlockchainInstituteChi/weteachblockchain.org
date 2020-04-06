@@ -1,6 +1,8 @@
 /* Tablet */
 @media screen and (max-width: 800px) {
-
+	section.header {
+    		margin-bottom: 2em;
+	}
 }
 
 
@@ -13,7 +15,8 @@
         width: 100%;
     }
 	section.header {
-    		margin-bottom: 2em;
+	    margin-left: 2em;
+  	    margin-right: 2em;
 	}
 }
 
