@@ -41,3 +41,17 @@ a {
 button.learnMoreButton.callToAction {
     background: #d75895;
 }
+
+input.emailInput {
+    width: calc(100% - 0.9em);
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    padding: 0.25em;
+}
+#app h1 {
+    font-size: 1.25em;
+}
+button.learnMoreButton.callToAction.courses {
+    background: #47b7aa;
+    margin-top: 0.5em;
+}
