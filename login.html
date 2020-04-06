@@ -1,0 +1,64 @@
+---
+layout: default
+title: Thank you for registering!
+stylesheet: login.css
+permalink: /login/
+---
+<!-- 1️⃣ Install Magic SDK -->
+<script src="https://cdn.jsdelivr.net/npm/magic-sdk@0.1.0-beta.14/dist/magic.js"></script>
+<script>
+/* 2️⃣ Initialize Magic Instance */
+const magic = new Magic("pk_live_EA466C1563BC5CFF");
+
+/* 3️⃣ Implement Render Function */
+const render = async () => {
+    console.log('render triggered')
+  const isLoggedIn = await magic.user.isLoggedIn();
+  /* Show login form if user is not logged in */
+  let html = `
+    <form onsubmit="handleLogin(event)">
+      <input class="emailInput" type="email" name="email" required="required" placeholder="Enter your email" />
+      <button  class="learnMoreButton callToAction logout"  type="submit">Send</button>
+    </form>
+  `;
+  if (isLoggedIn) {
+    /* Get user metadata including email */
+    const userMetadata = await magic.user.getMetadata();
+    console.log(userMetadata)
+    html = `
+      <h1>Current user: ${userMetadata.email}</h1>
+      <button class="learnMoreButton callToAction logout" onclick="handleLogout()">Logout</button>
+    `;
+  }
+  document.getElementById("app").innerHTML = html;
+};
+
+/* 4️⃣ Implement Login Handler */
+const handleLogin = async e => {
+  e.preventDefault();
+  const email = new FormData(e.target).get("email");
+  if (email) {
+    /* One-liner login 🤯 */
+    await magic.auth.loginWithMagicLink({ email });
+    render();
+  }
+};
+
+/* 5️⃣ Implement Logout Handler */
+const handleLogout = async () => {
+  await magic.user.logout();
+  render();
+};
+</script>
+
+<header class="jumbotron text-left tileHeader" >
+	  <div class="col-sm-4" >
+	  	  <h1>Log<strong class="red">In</strong></h1>
+            <span>Enter your email below to log in.</span>
+            <div id="app">Loading...</div>
+    </div>
+    <script>
+      render();
+    </script>
+</header>
+
