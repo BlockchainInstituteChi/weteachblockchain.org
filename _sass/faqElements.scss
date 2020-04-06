@@ -17,6 +17,10 @@ section.breadcrumbs {
 .row {
     margin: auto 6em 0em 6em;
 }
+section .row {
+    min-height: 0em;
+    margin-bottom: 0em;
+}
 .faqTile {
     min-height: 0px;
     width: calc(25% - 1em);
