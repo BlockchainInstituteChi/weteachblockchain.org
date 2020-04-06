@@ -204,6 +204,58 @@ li.nav-item.contactUsLink {
     color: $brand-red;
 }
 
+/* Account Hoverbox */
+.account .col-sm-3, .account .col-sm-9 {
+    padding: 0;
+    margin: 0;
+}
+.account .row {
+    margin: 0;
+    padding: 0.5em;
+}
+.hoverNavbox.account {
+    background: #e6e6e6;
+    width: 20%;
+}
+.account img {
+    width: 2em;
+    position: absolute;
+    height: auto;
+    padding: 0.25em;
+    float: left;
+    top: -0.25em;
+}
+.account div#app {
+    font-size: 0.25em;
+    color: #4a1f1f;
+    font-family: kanit;
+}
+input.emailInput {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 4em;
+    width: calc(100% - 3em);
+    font-size: 2.25em;
+    color: black;
+}
+.account span {
+    font-size: 2.5em;
+    font-family: kanit;
+    color: #4a1f1f;
+    display: block;
+    width: 110%;
+    margin-left: -1em;
+}
+.account button {
+    font-size: 2.25em;
+    text-transform: uppercase;
+    background: #ed0744;
+    border: none;
+    color: white;
+    float: right;
+}
+
 /* Search */
 li.nav-item.search {
     padding-right: 0.5em;

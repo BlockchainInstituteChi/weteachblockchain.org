@@ -3,15 +3,15 @@
 const magic = new Magic("pk_live_EA466C1563BC5CFF");
 
 /* 3️⃣ Implement Render Function */
-const renderLogin = async () => {
-    console.log('render triggered')
+const renderMagic = async () => {
+  console.log('magic render triggered')
   const isLoggedIn = await magic.user.isLoggedIn();
   /* Show login form if user is not logged in */
   let html = `
     <form onsubmit="handleLogin(event)">
       <span>Enter your email below to log in.</span>
       <input class="emailInput" type="email" name="email" required="required" placeholder="Enter your email" />
-      <button  class="learnMoreButton callToAction logout"  type="submit">Send</button>
+      <button  class="logout"  type="submit">Send</button>
     </form>
   `;
   if (isLoggedIn) {
@@ -19,11 +19,12 @@ const renderLogin = async () => {
     const userMetadata = await magic.user.getMetadata();
     console.log(userMetadata)
     html = `
-      <h1>You are now logged in as ${userMetadata.email}</h1>
-      <button class="learnMoreButton callToAction logout" onclick="handleLogout()">Logout</button>
-      <a href="/courses/"><button  class="learnMoreButton callToAction courses">Courses</button></a>
+      <h1>Logged in as ${userMetadata.email}</h1>
+      <button onclick="handleLogout()">Logout</button>
     `;
+    toggleAccountImage();
   }
+
   document.getElementById("app").innerHTML = html;
 };
 
@@ -34,13 +35,29 @@ const handleLogin = async e => {
   if (email) {
     /* One-liner login 🤯 */
     await magic.auth.loginWithMagicLink({ email });
-    render();
+    renderMagic();
   }
 };
 
 /* 5️⃣ Implement Logout Handler */
 const handleLogout = async () => {
   await magic.user.logout();
-  render();
+  renderMagic();
+  toggleDisplayAccountBox();
+  toggleAccountImage();
 };
 
+
+function toggleAccountImage () {
+  console.log('toggle displayNavbOX TRIGGERED')
+  var images = document.getElementsByClassName('accountLight');
+
+  for ( var img of images) {
+    var imageRef = document.getElementsByClassName(img.className)[0]
+    if ( img.className.split('d-none').length > 1 ) {
+      document.getElementsByClassName(img.className)[0].className = imageRef.className.split('d-none').join('')
+    } else {
+      document.getElementsByClassName(img.className)[0].className = imageRef.className + ' d-none'
+    }  
+  }
+}
