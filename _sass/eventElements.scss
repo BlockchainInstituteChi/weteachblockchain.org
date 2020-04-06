@@ -29,7 +29,12 @@ section.eventsHeader {
     height: fit-content;
 }
 section.eventsList {
-    text-align: left;
+    background: #86868608;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+h1.hasColorTag.teal {
+    margin-left: -1.43em;
 }
 .eventTile {
     min-height: 290px;
@@ -38,6 +43,7 @@ section.eventsList {
     overflow: hidden;
     margin: .5em;
     text-align: left;
+    margin-bottom: 1em;
 }
 .eventTile img {
     max-width: 100%;
@@ -140,4 +146,7 @@ a.rsvp:hover {
 }
 a.rsvp.disabled {
     background: grey;
+}
+section.upPinkStripesDivider {
+    margin-top: 0em;
 }
