@@ -26,15 +26,19 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-    .eventsList h1 {
-        margin-left: 0.85em;
-    }
+    	.eventsList h1 {
+        	margin-left: 0.85em;
+    	}
 	.eventTile {
-        width: 100%;
-    }
+        	width: 100%;
+		margin: .4em;
+    	}
 	section.header {
 	    margin-left: 2em;
   	    margin-right: 2em;
+	}
+	.eventSidebar .eventTile {
+    		width: 95.5%;
 	}
 }
 
