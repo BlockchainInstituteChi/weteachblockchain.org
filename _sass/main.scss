@@ -225,10 +225,35 @@ li.nav-item.contactUsLink {
     float: left;
     top: -0.25em;
 }
-.account span {
+.account div#app {
+    font-size: 0.25em;
     color: #4a1f1f;
-    font-size: 0.85em;
     font-family: kanit;
+}
+input.emailInput {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 4em;
+    width: calc(100% - 3em);
+    font-size: 2.25em;
+    color: black;
+}
+.account span {
+    font-size: 2.5em;
+    font-family: kanit;
+    color: #4a1f1f;
+    display: block;
+    width: 110%;
+    margin-left: -1em;
+}
+.account button {
+    font-size: 2.25em;
+    text-transform: uppercase;
+    background: #ed0744;
+    border: none;
+    color: white;
+    float: right;
 }
 
 /* Search */
