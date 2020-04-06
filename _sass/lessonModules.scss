@@ -238,3 +238,23 @@ span.userName {
     padding-left: 0.5em;
     color: white;
 }
+
+/* Photo Gallery */
+.row.photoLightbox {
+    margin: 0;
+    background: black;
+    width: 100%;
+    overflow: hidden;
+}
+.imageGallery {
+    display: block;
+    position: relative;
+}
+.imageGallery img {
+    max-width: 25%;
+    padding: 1em;
+}
+img#lightBoxImage {
+    max-width: 50%;
+    margin: 25%;
+}
