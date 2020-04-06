@@ -3,9 +3,12 @@
         <i class="fa fa-file-alt" aria-hidden="true"></i>
     </div>
     <div class="col-md-11">
-        <h1>{{ include title }}</h1>
-        <div class="snippetField">
-            {{ include.bodyText }}
-        </div>
+        <h1>{{ include.title }}</h1>
+        {% assign rows = include.bodyText | split: ',' %}
+        {% for row in rows %}
+            <div class="snippetField">
+                <span class="lineNumber">{{ forloop.index }}</span> {{ row }}
+            </div>
+        {% endfor %}  
     </div>
 </div>

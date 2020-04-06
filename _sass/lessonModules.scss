@@ -174,3 +174,62 @@ section .row {
     left: 37%;
     color: white
 }
+.snippetField {
+    font-family: monospace;
+    background: beige;
+    color: green;
+}
+.snippetField .lineNumber {
+    font-size: 0.85em;
+    color: #612626;
+}
+
+/* Terminal */
+.row.terminal {
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #eeefef;
+}
+.terminal .col-md-1 {
+    background: black;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.terminal h1 {
+    margin-left: 0;
+    padding: 0;
+    color: black;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+.terminal .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.terminal .col-md-1 span {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+.terminal span {
+    color: green;
+    font-family: monospace;
+}
+span.userName {
+    color: purple;
+}
+.shellField {
+    font-weight: 200;
+    background: black;
+    padding-left: 0.5em;
+    color: white;
+}
