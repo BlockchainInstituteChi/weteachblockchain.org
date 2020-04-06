@@ -22,8 +22,22 @@
             Donate!
           </a></li>
           <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
+          <li class="nav-item ml-auto" id="accountToggle"><a class="nav-link px-s fload-right" onclick="toggleDisplayAccountBox()" ><i class="fas fa-user-circle"></i></a></li>
           <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
         </ul>
+        <div id="accountDropdown" class="hoverNavbox account d-none">
+          <div class="row">
+            <div class="col-sm-3">
+              <!-- @jason - please replace these with appropriate images and upload them to -->
+              <img class="redlight d-none" src="/assets/img/icon/redlight.png">
+              <img class="greyswirl" src="/assets/img/icon/greyswirl.png">
+            </div>
+            <div class="col-sm-9">
+              <span id="accountMessageSpan">Loading...</span>
+            </div>
+          </div>
+        </div>
+        
         <div id="navBox" class="hoverNavbox d-none">
           <div class="row">
             {% for item in site.data.navigation %}

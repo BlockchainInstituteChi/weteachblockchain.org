@@ -204,6 +204,33 @@ li.nav-item.contactUsLink {
     color: $brand-red;
 }
 
+/* Account Hoverbox */
+.account .col-sm-3, .account .col-sm-9 {
+    padding: 0;
+    margin: 0;
+}
+.account .row {
+    margin: 0;
+    padding: 0.5em;
+}
+.hoverNavbox.account {
+    background: #e6e6e6;
+    width: 20%;
+}
+.account img {
+    width: 2em;
+    position: absolute;
+    height: auto;
+    padding: 0.25em;
+    float: left;
+    top: -0.25em;
+}
+.account span {
+    color: #4a1f1f;
+    font-size: 0.85em;
+    font-family: kanit;
+}
+
 /* Search */
 li.nav-item.search {
     padding-right: 0.5em;

@@ -1,13 +1,10 @@
 <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
 <script>
-
-const checkUserData = async () => {
-    const userMetadata = await magic.user.getMetadata();
-
-    console.log('user:', userMetadata)
-}
-checkUserData();
-
+    const checkUserData = async () => {
+        const userMetadata = await magic.user.getMetadata();
+        console.log('user:', userMetadata)
+    }
+    checkUserData();
 </script>
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"

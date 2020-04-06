@@ -4,7 +4,7 @@ const magic = new Magic("pk_live_EA466C1563BC5CFF");
 
 /* 3️⃣ Implement Render Function */
 const renderLogin = async () => {
-    console.log('render triggered')
+  console.log('render triggered')
   const isLoggedIn = await magic.user.isLoggedIn();
   /* Show login form if user is not logged in */
   let html = `

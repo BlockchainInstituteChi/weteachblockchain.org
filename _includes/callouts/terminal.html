@@ -4,8 +4,11 @@
     </div>
     <div class="col-md-10">
         <h1>{{ include title }}</h1>
-        <div class="shellField">
-            {{ include.bodyText }}
-        </div>
+
+        {% for row in bodyText %}
+            <div class="shellField">
+                {{ row }}
+            </div>
+        {% endfor %}
     </div>
 </div>
