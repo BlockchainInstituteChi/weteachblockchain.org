@@ -177,7 +177,12 @@ section .row {
 .snippetField {
     font-family: monospace;
     background: beige;
-    color: green;
+}
+.codeSnippet pre {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 0.75em;
+    vertical-align: bottom;
 }
 .snippetField .lineNumber {
     font-size: 0.85em;
