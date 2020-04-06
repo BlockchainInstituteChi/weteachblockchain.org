@@ -22,7 +22,7 @@ section.breadcrumbs {
     width: calc(25% - 1em);
     display: inline-block;
     overflow: hidden;
-    margin: 1em 0em 1em 1em;
+    margin: 1em 0em 1em 0em;
     text-align: left;
 }
 .faqTile img {
@@ -99,8 +99,8 @@ span.faqDate {
 
 
 
-.col-md-3.faqidebar {
-    margin-top: 2.25em;
+.col-md-3.faqSidebar {
+    padding: 0em;
 }
 
 
