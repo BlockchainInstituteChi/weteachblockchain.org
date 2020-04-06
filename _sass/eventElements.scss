@@ -33,6 +33,10 @@ section.eventsList {
     padding-top: 5em;
     padding-bottom: 5em;
 }
+section.breadcrumbs {
+    padding-top: 0em;
+    margin-left: 1.5em;
+}
 h1.hasColorTag.teal {
     margin-left: -1.43em;
     margin-bottom: .5em;
@@ -72,7 +76,7 @@ h1.hasColorTag.teal {
     width: 100%;
 }
 .eventMain h1 {
-    margin-top: 0.75em;
+    margin-top: 0em;
 }
 span.eventDate {
     margin-left: 0.5em;
@@ -80,14 +84,14 @@ span.eventDate {
     font-size: 1.25em;
 }
 .eventMain h1::before {
-    background: red;
-    width: 100px;
-    height: 0.75em;
+    background: #ed0744;
+    width: 120px;
+    height: 1em;
     content: "_";
     color: #ff000000;
     position: absolute;
-    left: -2em;
-    top: 1em;
+    left: -3em;
+    top: 0.15em;
 }
 .eventBody {
     padding: 0.75em;
