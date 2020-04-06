@@ -72,7 +72,7 @@
     </section>
     <section class="faq">
       <div class="row container">
-        <div class="col-md-8 eventFAQ">
+        <div class="col-md-9 eventFAQ">
           <h1>{{ page.title }}</h1>
           <span class="author">{{ page.author }}</span>
           <div class="faqBody">
@@ -87,7 +87,7 @@
 
         </div>
   
-        <div class="col-md-4 faqSidebar">
+        <div class="col-md-3 faqSidebar">
           {% assign sorted = site.faq | sample: 3 %}
           {% for faq in sorted limit:3 %}
   
