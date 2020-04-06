@@ -111,7 +111,7 @@
 
     /* Upcoming Events Footer */
 	section.upcomingEventsFooter {
-    		margin: 2em;
+    		margin: 0em;
     		margin-bottom: 7em;
     		padding: 0em;
 	}
@@ -121,18 +121,21 @@
 	}
 	section.hasSectionColorTag::before{
 	    margin-left: -.5em;
+	    hright: 15em;
 	}
 	.upcomingEventsFooter .eventTile h1 {
     		font-size: 1.25em;
     		font-size: 1.25em;
     		padding-top: .5em;
     		line-height: 1em;
+		    margin-left: 0em;
 	}
 	.upcomingEventsFooter .tileItem h1 {
     		font-size: 1.25em;
     		font-size: 1.25em;
     		padding-top: .5em;
     		line-height: 1em;
+		    margin-left: 0em;
 	}
 	.upcomingEventsFooter .eventTile span {
     	font-size: 0.8em;
@@ -152,13 +155,13 @@
     		width: calc(23% - 1em);
     		min-height: 12em;
     		height: fit-content;
-    		margin-right: 3.35em;
+    		margin-right: .5em;
 	}
 	.upcomingEventsFooter .tileItem {
     		width: calc(23% - 1em);
     		min-height: 12em;
     		height: fit-content;
-    		margin-right: 3.35em;
+    		margin-right: .5em;
 	}
     .upcomingEventsFooter .row {
     	width: 100%;
