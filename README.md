@@ -315,13 +315,15 @@ Definitions have a title and a body value. The title should be plain text, but t
 
 
 #### Terminal Examples
-Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML.
+Definitions have a title and a body value. The title should be plain text, but the body supports mixed HTML. 
 
 ```
 {% include callouts/terminal.html
    title="The title of the example"
-	bodyText="<span>Command 1</span><span>Output / or command</span>"
-%}
+   user="alex@ubuntu"
+   directory="~/"
+   bodyText="A list of commands, separated by commas, and including a "
+%}   
 ```
 
 ![Definition Screenshot](/assets/img/componentPreviews/terminal.png)
@@ -349,6 +351,19 @@ A left-aligned image with a text callout can be created using the below snippet.
     bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."
 %}
 ```
+
+#### Image Gallery
+A gallery grid of images, 4 per row. Clicking on an image enters full screen mode.
+```
+  {% include callouts/imageGallery.html
+      title="The title of the gallery"
+      imageList="courses/bitcoin-for-developers/1_b-01.png,courses/bitcoin-for-developers/AliceBobKeys-01.png,/courses/bitcoin-for-developers/1_b-01.png,headshots/alex.jpg,map.png,TheBigPicture-01.png"
+   %} 
+```    
+
+![Definition Screenshot](/assets/img/componentPreviews/imageLightbox1.png)
+
+![Definition Screenshot](/assets/img/componentPreviews/imageLightbox2.png)
 
 
 #### Twitter Feed Footer

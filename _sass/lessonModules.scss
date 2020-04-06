@@ -240,6 +240,10 @@ span.userName {
 }
 
 /* Photo Gallery */
+.photoLightbox h1 {
+    color: white;
+    text-transform: uppercase;
+}
 .row.photoLightbox {
     margin: 0;
     background: black;
@@ -251,7 +255,7 @@ span.userName {
     position: relative;
 }
 .imageGallery img {
-    max-width: 25%;
+    max-width: calc(25% - 1em);
     padding: 1em;
 }
 img#lightBoxImage {
