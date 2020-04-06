@@ -10,6 +10,13 @@ section.faqHeader {
 section.faqList {
     text-align: left;
 }
+section.breadcrumbs {
+    padding-top: 0em;
+    margin-left: 0em;
+}
+.row {
+    margin: auto 6em 0em 6em;
+}
 .faqTile {
     min-height: 0px;
     width: calc(25% - 1em);
@@ -75,10 +82,16 @@ span.faqDate {
 }
 .faqBody {
     padding: 0.75em;
+    margin-bottom: 5em;
 }
 .faqBody p {
     padding: 0;
-    font-size: 1.25em;
+    padding-left: 0em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
 }
 .row {
     margin: auto 6em 6em 6em;
