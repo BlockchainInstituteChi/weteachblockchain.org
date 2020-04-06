@@ -35,11 +35,14 @@ section.eventsList {
 }
 section.breadcrumbs {
     padding-top: 0em;
-    margin-left: 1.5em;
+    margin-left: 0em;
 }
 h1.hasColorTag.teal {
     margin-left: -1.43em;
     margin-bottom: .5em;
+}
+.col-md-9.eventMain {
+    padding: 0em 2em 0em 0em;
 }
 .eventTile {
     width: calc(25% - 1em);
@@ -78,9 +81,10 @@ h1.hasColorTag.teal {
 .eventMain h1 {
     margin-top: 0em;
     margin-bottom: 0.2em;
+    padding-left: 0em;
 }
 span.eventDate {
-    margin-left: 0.75em;
+    margin-left: 0em;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -94,11 +98,11 @@ span.eventDate {
     content: "_";
     color: #ff000000;
     position: absolute;
-    left: -3em;
+    left: -3.5em;
     top: 0.15em;
 }
 .eventBody {
-    padding: 0.75em;
+    padding: 0.75em 0em;
 }
 .eventBody p {
     padding: 0;
