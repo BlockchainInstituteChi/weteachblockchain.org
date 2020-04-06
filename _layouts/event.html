@@ -88,7 +88,7 @@
     </section>
     <section class="eventOverview">
       <div class="row container">
-        <div class="col-md-8 eventMain">
+        <div class="col-md-9 eventMain">
           {% include eventDetails.html 
             title=page.title
             date=page.eventdate 
@@ -101,7 +101,7 @@
           </div>
         </div>
   
-        <div class="col-md-4 eventSidebar">
+        <div class="col-md-3 eventSidebar">
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:3 %}
   
