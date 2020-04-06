@@ -6,6 +6,17 @@
 	.eventMain h1::before {
     		left: -4.25em;
 	}
+	a.rsvp {
+    		padding: 0.5em 1em 0.5em 1em;
+    		background: #ed0744;
+   		color: white;
+		font-weight: 500;
+		display: block;
+    		float: right;
+    		top: .5em;
+    		position: absolute;
+    		right: 0em;
+	}
 }
 
 
