@@ -113,14 +113,14 @@
 	section.upcomingEventsFooter {
     		margin: 2em;
     		margin-bottom: 7em;
-    		padding: 15px;
+    		padding: 0em;
 	}
 	.upcomingEventsFooter h1 {
-    		margin-left: .08em;
+    		margin-left: 1.08em;
     		font-size: 2em;
 	}
 	section.hasSectionColorTag::before{
-	    margin-left: -3em;
+	    margin-left: -.5em;
 	}
 	.upcomingEventsFooter .eventTile h1 {
     		font-size: 1.25em;
@@ -149,22 +149,20 @@
   	  line-height: .4em;
 	}
 	.upcomingEventsFooter .eventTile {
-    		width: 23%;
-    		width: calc(31.3% - 1em);
+    		width: calc(23% - 1em);
     		min-height: 12em;
     		height: fit-content;
     		margin-right: 3.35em;
 	}
 	.upcomingEventsFooter .tileItem {
-    		width: 23%;
-    		width: calc(31.3% - 1em);
+    		width: calc(23% - 1em);
     		min-height: 12em;
     		height: fit-content;
     		margin-right: 3.35em;
 	}
     .upcomingEventsFooter .row {
     	width: 100%;
-    	margin: 0em 0em 0em 2em;
+    	margin: auto 2em;
     	max-width: calc(100%);
 	}
   	.tileItem {
@@ -177,6 +175,9 @@
         height: auto;
         text-align: center;
     }
+	.tileItem h1 {
+    		padding-left: 0em;
+	}
 
     /* Mobile Footer */
     .footer .col-md-3 {
