@@ -290,12 +290,12 @@
 
     /* Upcoming Events Footer */
     .upcomingEventsFooter .row {
-        width: 100%;
-	margin-left: 3.2em;
-    }
+    	width: 100%;
+    	margin-left: .8em;
+	}
     .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile {
-        width: 100%;
-        margin-bottom: 1em;
+        width: 88%;
+        margin-bottom: 0em;
     }
     .upcomingEventsFooter h1 {
         margin-left: 0.5em;
@@ -307,6 +307,7 @@
 	}
 	section.hasSectionColorTag.red::before {
     		height: 90vh;
+		margin-left: -2.5em;
 	}
 	.tileItem h1 {
     		margin-left: -.2em;
