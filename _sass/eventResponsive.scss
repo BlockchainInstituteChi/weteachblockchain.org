@@ -64,7 +64,7 @@
     		padding: 0em;
 	}
 	.col-md-9.eventMain {
-    		padding: 0em .75em 0em 0.5em;
+    		padding: 0em .5em 0em 0.5em;
 	}
 	.breadcrumbs .row {
 	    margin-left: .6em;
@@ -78,6 +78,13 @@
 	h1.hasColorTag.teal {
     		margin-left: -1.8em;
     		margin-bottom: .5em;
+	}
+	section.breadcrumbs {
+    		padding-top: 0em;
+    		padding-left: 1em;
+	}
+	.eventSidebar .eventTile {
+    		width: 96.4%;
 	}
 }
 
