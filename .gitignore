@@ -1,5 +1,5 @@
 Gemfile.lock
 .jekyll-cache
 _site/
-.sass_cache
-.tweet_cache
+.sass_cache/
+.tweet_cache/
