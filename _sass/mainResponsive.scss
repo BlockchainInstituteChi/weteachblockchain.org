@@ -226,6 +226,9 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 	/*Nav*/
+	.navbar-brand img {
+    		padding-left: 0em;
+	}
 	ul.navbar-nav.flex-row {
     		display: none;
 	}
