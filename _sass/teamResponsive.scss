@@ -28,10 +28,17 @@
 	.row.person_board {
     		margin-bottom: 3em;
 	}
+	.team img, .board img {
+    		max-width: calc(100% + 3em);
+    		height: 12em;
+	}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden;
+	}
 	a.callToActionButton.rightRedBrick {
         width: 100%;
         height: fit-content;
