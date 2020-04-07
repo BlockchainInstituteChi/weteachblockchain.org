@@ -373,6 +373,14 @@ A twitter feed like the one on the homepage can be included using the following 
 {% include socialFooter.html %}
 ```
 
+#### Big Quotes
+```
+{% include callouts/bigQuote.html
+	body="Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security."
+	sourceName="Wikipedia"
+	sourceUrl="https://en.wikipedia.org/wiki/Public-key_cryptography"
+%}
+```
 
 # Snippet to swap image prefix if image is an external url
 

@@ -1,0 +1,114 @@
+#Notes
+1. Remove all &nbsp
+
+2. Move all images to the github repo and swap their urls as defined in the google doc
+
+3. Test that all links open
+
+4. Watch out for " and ' characters. If you try to insert a chunk containing a " and also wrap the chunk in " then you will see that the chunk gets broken. 
+
+i.e. {% include file.html
+            parameter="value containing " will not work"
+            parameter2="value containing ' will work, however"
+            parameter3='if a value contains several " characters, it may be easier to use a single apostrophe to contain the chunk'
+     %}
+
+5. 
+
+
+#Conversions
+
+## 'PurpleNote' divs -> Note Includes 
+i.e. 
+```
+<div class="purpleNote"><b>NOTE: </b><i>Some understanding of monetary theory is helpful here to properly grasp the functioning of these currencies and modern cryptocurrencies. When a currency is not “backed” by a commodity, such a gold, and controlled by a nation state there needs to be another means of giving it value. Generally, this is done through scarcity either by limiting the supply, via cryptography and a blockchain network or by tying it to a limited physical commodity such as gold.</i></div>
+```
+becomes
+```
+{% include callouts/note.html
+    bodyText="Some understanding of monetary theory is helpful here to properly grasp the functioning of these currencies and modern cryptocurrencies. When a currency is not “backed” by a commodity, such a gold, and controlled by a nation state there needs to be another means of giving it value. Generally, this is done through scarcity either by limiting the supply, via cryptography and a blockchain network or by tying it to a limited physical commodity such as gold."
+%}
+```
+
+## Images with captions
+
+use callouts/imageWithCaption.html like so:
+
+Before:
+```
+<img src="/assets/img/courses/bitcoin-for-developers/ByzantineGenerals2-01.png" />
+<div class="learnpressImageCaption"><b>THE BYZANTINE GENERALS PROBLEM:</b> <b>A:</b> <i>General;</i> <b>B:</b> <i>Traitor.</i>
+Byzantine Generals problem is an old fashioned analogy for a modern computing problem. The analogy is an army of generals encircling an enemy city. To defeat the enemy the generals must attack at the same time. However, there may be traitors amongst them. How do they coordinate this data and agree upon an attack time in hostile territory with the possibility of traitors?</div>
+&nbsp;
+
+```
+In this case, we need to remove all of the line breaks, and separate out the title from the rest of the body text, like so:
+
+```
+{% include callouts/imageWithCaption.html
+    image="courses/bitcoin-for-developers/ByzantineGenerals2-01.png"
+    title="The Byzantine Generals Problem"
+    bodyText="<i>General;</i> <b>B:</b> <i>Traitor.</i> Byzantine Generals problem is an old fashioned analogy for a modern computing problem. The analogy is an army of generals encircling an enemy city. To defeat the enemy the generals must attack at the same time. However, there may be traitors amongst them. How do they coordinate this data and agree upon an attack time in hostile territory with the possibility of traitors?"
+%}
+```
+
+## Convert BlueTitleNotes to Callouts 
+
+```
+<div class="blueTitleNote"><b>INCENTIVES AND GAME THEORY</b>
+Bitcoin and other open blockchain systems cannot function without economic incentives. Understanding the system and trying to predict how an open blockchain will behave cannot be done without considering the <a href="https://en.wikipedia.org/wiki/Game_theory" target="_blank" rel="noopener noreferrer">game theory</a>.</div>
+&nbsp;
+
+```
+should become
+```
+{% include callouts/callout.html
+    title="INCENTIVES AND GAME THEORY"
+    bodyText='Bitcoin and other open blockchain systems cannot function without economic incentives. Understanding the system and trying to predict how an open blockchain will behave cannot be done without considering the <a href="https://en.wikipedia.org/wiki/Game_theory" target="_blank" rel="noopener noreferrer">game theory</a>.'
+%}
+```
+
+## Convert all formulas / code to CodeSnippets
+i.e.
+```
+
+<div class="formula"><b>0000000000000</b>8a3a41b85b8b29ad444def299fee21793cd8b9e567eab02cd81</div>
+<div class="formula"><b>0000000000000000000</b>85b8b29ad444def299fee21793cd8b9e567eab02cd81</div>
+&nbsp;
+```
+
+Becomes
+```
+{% include callouts/codeSnippet.html
+	title="A low-difficulty hash"
+	bodyText="<b>0000000000000<b>8a3a41b85b8b29ad444def299fee21793cd8b9e567eab02cd81"
+%}
+
+{% include callouts/codeSnippet.html
+	title="A higher difficulty hash"
+	bodyText="<b>00000000000000000000<b>85b8b29ad444def299fee21793cd8b9e567eab02cd81"
+%}
+```
+
+and similarly 
+
+
+## Big Quotes
+Big quotes have not been finalized from a css standpoint, but should still be added when they are in use.
+
+```
+<div class="bigQuote">“Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security.”
+<strong>Wikipedia</strong></div>
+&nbsp;
+```
+
+should become
+
+```
+{% include callouts/bigQuote.html
+	body="Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security."
+	sourceName="Wikipedia"
+	sourceUrl="https://en.wikipedia.org/wiki/Public-key_cryptography"
+%}
+```
+
