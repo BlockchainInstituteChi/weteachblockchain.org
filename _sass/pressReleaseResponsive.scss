@@ -10,7 +10,9 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	
+	html, body {
+    		overflow-x:hidden !important;
+	}
     .pressReleases .col-md-12 {
         padding-left: 0;
     }
