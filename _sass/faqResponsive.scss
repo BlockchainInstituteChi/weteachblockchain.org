@@ -21,6 +21,9 @@
 	section .row {
 		margin-bottom: 3em;
 	}
+	.hasColorTag::before {
+	    margin-left: -0.75em;
+    	}
 }
 
 
