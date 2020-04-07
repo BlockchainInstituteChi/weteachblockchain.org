@@ -15,8 +15,7 @@ permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 <h3>WHO IS SATOSHI NAKAMOTO?</h3>
 
 <hr />
-<img class="aligncenter wp-image-4273 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/WhoisSatoshi-01.png" alt="" width="9037" height="4188" />
-
+<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.png" />
 
 Who is the mysterious creator behind Bitcoin? We don’t know much more than the name, Satoshi Nakamoto, which first appeared on the paper <a href="https://bitcoin.org/bitcoin.pdf">“Bitcoin: A Peer-to-Peer Electronic Cash”</a> which was distributed by a cryptography mailing list in 2008. While there are a few suspects, Nakamoto’s identity remains a mystery.
 
@@ -29,7 +28,7 @@ What we do know of Satoshi comes from his posts on the P2P Foundation and the co
 </div></blockquote>
 This line references a Times of London article that discussed an additional bailout for the banks after the 2008 financial crisis.
 
-<img class="aligncenter size-full wp-image-11085" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Newspaper.jpg" alt="" width="1632" height="1086" />
+<img src="/assets/img/courses/blockchain-101/Newspaper.jpg" />
 &nbsp;
 
 <blockquote>
@@ -39,7 +38,7 @@ This line references a Times of London article that discussed an additional bail
 
 Satoshi's thoughts on the banking system give us some clues as to why he built a monetary alternative that is decentralized and trustless.
 
-<img class="inline-text-image alignleft wp-image-1651 size-medium" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Hal_Finney_computer_scientist-217x300.jpg" alt="Hal Finney" width="217" height="300" />
+<img src="/assets/img/courses/blockchain-101/Hal_Finney_computer_scientist.jpg" />
 
 The very first Bitcoin transaction took place between Satoshi and <a href="https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)">Hal Finney</a>, a cypherpunk and programmer. While some suspect that Hal Finney may be the person behind the Satoshi pseudonym, this was never proven. After a five   year battle with ALS, Hal Finney passed away in 2014.
 
