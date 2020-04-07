@@ -22,7 +22,7 @@ The name blockchain largely refers to the structure of the technology. Blocks co
 
 Because a blockchain is designed as a distributed ledger, many computers (nodes) are connected to form a network. As previously mentioned, this structure is referred to as a <strong>decentralized </strong>or<strong> a peer-to-peer (P2P) network.</strong> If someone wants to hack the network, they must get into all of these connection points at the same time. The chances of this occurring are extremely low, which is a testament to the security used in blockchain technology.
 
-<img src="/assets/img/courses/blockchain-101/3609aef6-9da8-437f-921f-a8a4f442e66b-1024x291.png" />
+<img src="/assets/img/courses/blockchain-101/3609aef6-9da8-437f-921f-a8a4f442e66b.png" />
 
 <h4></h4>
 &nbsp;
