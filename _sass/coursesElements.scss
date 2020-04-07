@@ -116,12 +116,15 @@ a.startCourseButton {
 }
 
 /* Course Sections Overview */
+    section.breadcrumbs.indvCoursePage {
+        margin-left: .1em;
+    }
 .moduleInfo {
     width: 100%;
 }
 section.courseSections {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 2em;
+    padding-bottom: 8em;
 }
 .moduleInfo h2 {
     padding-top: 2em;
