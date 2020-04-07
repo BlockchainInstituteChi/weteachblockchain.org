@@ -7,7 +7,7 @@ permalink: /courses/blockchain-101/03/conclusion
 ---
 
 <span>
-<h3><img class="aligncenter size-full wp-image-11295" src="https://theblockchaininstitute.org/wp-content/uploads/2019/07/Conclusion-01-2.png" alt="" width="10195" height="3875" /></h3>
+<img src="/assets/img/courses/blockchain-101/Conclusion-01-2.png" />
 <h3>YOU'VE COMPLETED OUR BLOCKCHAIN 101 COURSE!</h3>
 
 <hr />
