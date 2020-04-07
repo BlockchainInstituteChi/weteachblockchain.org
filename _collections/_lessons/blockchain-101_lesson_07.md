@@ -24,7 +24,7 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <span style="font-weight: 400;">Generally speaking, centralization of power can result in companies like Facebook, Amazon, and Google finding ways to monetize user data and habits in ways that the users may not like and may not even be aware of. Users of popular free online services may think of themselves as the customer, while the service that they’re using the product. But that’s actually backward. Instead, the user's information is the product that is being sold. It’s their data that is valuable, yet most users of these services don’t yet realize this fact. If it’s your data, why are other people profiting off of it? Another of the benefits of decentralization is that it can put that value back in the hands of the user.</span>
 
-<img class="aligncenter size-full wp-image-11099" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/CvD.jpg" alt="" width="1611" height="1024" />
+<img src="/assets/img/courses/blockchain-101/CvD.jpg" />
 
 &nbsp;
 
@@ -37,13 +37,12 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Nodes interact on a peer-to-peer basis without the need for third-party facilitators, reducing the friction associated with these transactions.</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Decentralization is fundamentally about shifting power and authority in a community away from one central entity and making that power available to the members themselves, making community members self-sovereign.</span></li>
 </ul>
-<div class="tealCallout">
-<h5>Napster</h5>
-<img class="alignleft wp-image-2076 size-thumbnail" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/napster_logo-1-200x200.png" alt="" width="200" height="200" />A good example of a peer-to-peer network was Napster. Napster was a semi-centralized website that utilized a file sharing protocol that doesn't rely on any one server, company, or entity to function. Bitcoin works in somewhat the same way; it doesn't require a bank to act as a central arbiter between two people who want to exchange value. The protocol empowers them to do it themselves.
 
-<strong>Fun Fact: At the height of its popularity Napster had nearly 80 million users!</strong>
-
-</div>
+{% include callouts/imageWithTextCallout.html 
+    title="Napster"
+    img="/courses/blockchain-101/napster_logo-1.png"
+    bodyText="A good example of a peer-to-peer network was Napster. Napster was a semi-centralized website that utilized a file sharing protocol that doesn't rely on any one server, company, or entity to function. Bitcoin works in somewhat the same way; it doesn't require a bank to act as a central arbiter between two people who want to exchange value. The protocol empowers them to do it themselves.<br><strong>Fun Fact: At the height of its popularity Napster had nearly 80 million users!</strong>"
+%}
 
 <br>
 
