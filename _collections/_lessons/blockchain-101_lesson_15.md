@@ -15,7 +15,9 @@ permalink: /courses/blockchain-101/03/what-is-ethereum
 <span class="openingParagraph">Bitcoin has seen success as it has settled as the most popular cryptocurrency. However, others believed they could implement blockchain technology to do more, possibly even to act as a “World Computer”. The Ethereum project was launched in 2015 with this explicit goal. They sought to create a decentralized network complete with smart contracts, programmable agreements that could be used to create decentralized applications (dApps).
 </span>
 
-<img class="alignnone wp-image-4300" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Bitcoin-01-1024x622.png" alt="" width="446" height="271" />    <img class="alignnone wp-image-4301" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Ethereum-01-1024x622.png" alt="" width="446" height="271" />
+<img src="/assets/img/courses/blockchain-101/Bitcoin-01.png" />
+<img src="/assets/img/courses/blockchain-101/Ethereum-01.png" />
+
 <h4></h4>
 &nbsp;
 <h3>WHAT PROBLEM WAS ETHEREUM BUILT TO SOLVE?</h3>
