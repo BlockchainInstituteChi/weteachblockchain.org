@@ -78,13 +78,13 @@ section.blueBrickDivider {
 }
 .team img, .board img {
     max-width: calc(100% + 3em);
-    height: 10em;
+    height: 18em;
 }
 .person_team .col-sm-3 {
-    padding-left: 1.25em;
+    padding-left: .5em;
 }
 .person_board .col-sm-3 {
-    padding-left: 1.25em;
+    padding-left: .5em;
 }
 .col-sm-3 {
     overflow: hidden;
@@ -130,5 +130,5 @@ section#boardContainer {
 }
 .col-sm-9 {
     padding-left: 0em;
-    padding-top: .5em;
+    padding-top: 2em;
 }
