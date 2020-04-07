@@ -167,7 +167,7 @@
 
 	/* Courses */
 	.coursesThumbnailContainer .courseTile {
-		width: 100%;
+    		width: calc(100% - 1em);
 	}
 	.onlineCourses a.callToActionButton {
 		margin-top: 2em;
