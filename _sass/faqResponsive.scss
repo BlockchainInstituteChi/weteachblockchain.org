@@ -30,7 +30,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 	h1.hasColorTag.red {
-    		margin-left: -1.2em;
+    		margin-left: -4.3em;
 	}
 	.faqTile {
 	    min-height: 0px;
@@ -54,6 +54,18 @@
     		margin-bottom: 5em;
     		padding-left: 0em;
     		padding-right: 0em;
+	}
+	section .row {
+    		margin-bottom: 3em;
+    		padding: .5em;
+	}
+	.faqTile {
+    		min-height: 0px;
+    		width: 100%;
+    		display: inline-block;
+    		overflow: hidden;
+    		margin: 0em 0em 1em 0em;
+    		text-align: left;
 	}
 }
 
