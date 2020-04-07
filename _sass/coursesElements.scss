@@ -13,10 +13,18 @@
 }
 /*Color bars*/
 .hasColorTag {
-    margin-left: -1.25em;
+    margin-left: -1.43em;
 }
 
 /* Path Options */
+.col-sm-4 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.col-sm-12 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
 .pathButtons img {
     max-width: 100%;
 }
@@ -75,7 +83,7 @@ span.summary {
     display: block;
 }
 a.startCourseButton {
-    background: $brand-red;
+    background: #ed0744;
     color: white;
     text-transform: uppercase;
     padding: 1em;
@@ -84,6 +92,8 @@ a.startCourseButton {
     padding-right: 3em;
     margin-top: 1em;
     display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 
 /* Overview */
