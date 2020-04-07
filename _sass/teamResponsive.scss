@@ -48,6 +48,9 @@
         margin-left: 0;
 	margin-bottom: 2.75em;
     }
+	.header img {
+    		max-width: 100%;
+	}
 	.header .row {
     		margin-bottom: 3em;
 	}
@@ -55,10 +58,11 @@
     		padding-top: 1em;
 	}
 	.col-sm-9 {
-    		padding-left: 1.25em;
+    		padding-left: .5em;
+    		padding-right: .5em;
 	}
 	.hasColorTag {
-    		margin-left: -4.4em;
+    		margin-left: -4.85em;
 	}
 
 }
