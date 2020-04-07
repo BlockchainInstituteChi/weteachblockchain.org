@@ -294,17 +294,18 @@
     /* Upcoming Events Footer */
     .upcomingEventsFooter .row {
     	width: 100%;
-    	margin-left: .8em;
+    	margin-left: 1em;
 	}
     .upcomingEventsFooter .tileItem, .upcomingEventsFooter .eventTile {
         width: 88%;
         margin-bottom: 0em;
     }
-    .upcomingEventsFooter h1 {
-        margin-left: 0.5em;
-        padding-left: 0.15em;
-        margin-bottom: 0.5em;
-    }
+.upcomingEventsFooter h1 {
+    margin-left: 0.5em;
+    padding-left: 0.15em;
+    margin-bottom: 0.5em;
+    width: 10em;
+}
 	.hasColorTag {
     		margin-left: -1.5em;
 	}
