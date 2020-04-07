@@ -159,7 +159,7 @@ section.eventsList {
 /* Details section */
 a.rsvp {
     padding: 0.5em 1em 0.5em 1em;
-    background: $brand-red;
+    background: #ed0744;
     color: white;
     font-weight: 500;
     display: block;
@@ -167,6 +167,7 @@ a.rsvp {
     top: .5em;
     position: absolute;
     right: 2em;
+    font-size: .8em;
 }
 a.rsvp:hover {
     background: $brand-green;
