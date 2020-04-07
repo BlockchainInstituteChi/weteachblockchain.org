@@ -18,13 +18,25 @@ a.callToActionButton.rightRedBrick {
 }
 
 /* Contact Details */
+.col-sm-6 a {
+    color: grey;
+    font-size: .8em;
+}
+.col-sm-6 {
+    padding-right: .5em;
+    padding-left: .5em;
+}
+.col-sm-6 img {
+    max-width: 98%;
+}
 .locationDetails span {
     display: block;
     font-size: 1.35em;
 }
 strong {
-    color: $brand-teal;
+    color: #0B9BA4;
     text-transform: uppercase;
+    font-size: .8em;
 }
 
 /* Contact Form */
@@ -45,7 +57,7 @@ strong {
 }
 .contactUsForm button {
     width: 60%;
-    background: $brand-red;
+    background: #ed0744;
     color: white;
     text-transform: uppercase;
     font-size: 1.25em;
@@ -54,10 +66,13 @@ strong {
     letter-spacing: 0.1em;
     font-size: 1.5em;
     padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
 }
 .contactUsForm button:hover {
     background: $brand-teal;
 }
 .locationDetails {
-    padding-top: 1em;
+    padding-top: .5em;
+    line-height: 1.5em;
 }
