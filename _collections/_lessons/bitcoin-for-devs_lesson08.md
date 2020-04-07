@@ -61,8 +61,11 @@ How difficult the process is depends a lot on the type of change or BIP that is 
 </li>
 </ul>
 It’s very important to note the difference between a simple code change and a consensus change. Any change affecting the consensus rules on the network will require either a soft fork or a hard fork.
-<div class="tealCallout">In this context “fork” has a different meaning from software fork or a fork in a repo. Here we mean a chain split or a network partition that can result in separate networks.</div>
-&nbsp;
+
+{% include callouts/note.html
+	bodyText="In this context “fork” has a different meaning from software fork or a fork in a repo. Here we mean a chain split or a network partition that can result in separate networks."
+%}
+
 <h3>HARD FORKS VS. SOFT FORKS</h3>
 
 <hr />
