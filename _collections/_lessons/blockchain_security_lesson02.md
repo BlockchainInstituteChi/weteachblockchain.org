@@ -9,8 +9,7 @@ permalink: /courses/blockchain-security/1/protecting-digital-keys/
 While this new architecture has many advantages, the implementation of a blockchain-based system is complex and requires a thorough review to ensure appropriate security.
 
 
-
-<img class="aligncenter size-full wp-image-11208" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Keys-01.png" alt="" width="2816" height="1329" />
+<img src="/assets/img/courses/blockchain-security/Keys-01.png" />
 
 Regardless of which blockchain you use, there are no avoiding key management concerns. The distributed ledger ecosystem requires each user to store and manage their own cryptographic keys. All on-chain interactions are tied to identities using signatures with private keys. As a result, the ecosystem depends heavily on the security of its keys.
 &nbsp;
