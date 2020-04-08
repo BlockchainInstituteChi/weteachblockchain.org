@@ -1,3 +1,29 @@
+.row {
+    max-width: calc(90% - 2em);
+    margin: auto 6em;
+}
+h1 {
+    font-weight: 500 !important;
+    font-size: 2.5em;
+    padding-left: 0em;
+    color: black;
+}
+p {
+    font-size: 1.5em;
+    padding: 1em;
+    padding-left: 0em;
+}
+.container {
+    width: 100%;
+    padding-right: 0em;
+    padding-left: 0em;
+    margin-right: auto;
+}
+.col-sm-6 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
 
 /* Jumbotron */
 .tileHeader {
@@ -57,7 +83,6 @@ button.learnMoreButton.callToAction {
     margin-bottom: 2em;
 }
 .col-sm-6 p {
-    font-size: 1.15em;
     margin: 0em 0em 0em 0em;
     font-family: Roboto;
     font-size: 1em;
@@ -67,6 +92,12 @@ button.learnMoreButton.callToAction {
 section.container {
     padding-top: 1em;
     padding-bottom: 1em;
+    margin: 0;
+    max-height: unset !imp;
+    min-width: calc(100vw) !important;
+    ortant: ;
+    height: fit-content !important;
+    min-height: fit-content !important;
 }
 
 /* Call to action */
@@ -77,6 +108,22 @@ section.container.bciCallToAction {
 }
 .bciCallToAction h1 {
     color: white;
+    padding-left: 0em;
+    padding-top: 0em;
+}
+.bciCallToAction p {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin: 0em 4.5em 0em 0em;
+    font-family: Roboto;
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 1em;
+    font-size: 1em;
+    margin-top: .75em;
 }
 .col-sm-6.bciCallout {
     margin-top: 5em;
@@ -107,6 +154,7 @@ section.container.bciCallToAction {
 /* Jumbotron Mailchimp */
 .bciCallToAction div#mc_embed_signup_scroll {
     margin-left: 1em;
+    margin-right: 1em;
 }
 .bciCallToAction input#mce-EMAIL {
     width: 100%;
@@ -129,6 +177,24 @@ section.container.bciCallToAction {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.25em;
+}
+.bciCallout span {
+    font-size: 1.25em;
+    color: #1f98a3;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.25em;
+    letter-spacing: -0.01em;
+}
+.bciCallout img {
+    margin: 7em;
+    margin-right: 7em;
+    width: calc(100% - 14em);
+    margin-top: 2.2em;
+    margin-bottom: 2em;
 }
 
 /* Clean image handling */
