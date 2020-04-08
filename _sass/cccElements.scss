@@ -12,6 +12,10 @@ section.container {
     padding-right: 0em;
     padding-left: 0em;
 }
+.col-sm-6 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
 
 /* Jumbotron */
 .tileHeader {
@@ -71,7 +75,11 @@ button.learnMoreButton.callToAction {
     margin-bottom: 2em;
 }
 .col-sm-6 p {
-    font-size: 1.15em;
+    margin: 0em 0em 0em 0em;
+    font-family: Roboto;
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
 }
 section.container {
     padding-top: 1em;
