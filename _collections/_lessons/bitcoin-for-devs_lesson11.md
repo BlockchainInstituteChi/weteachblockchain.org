@@ -45,7 +45,7 @@ This results in a 160-bit, 20-byte string that is then base58 encoded the result
 %}
 
 {% include callouts/note.html
-	bodyText='Bitcoin addresses are usually encoded as <a href="https://en.wikipedia.org/wiki/Base58" target="_blank" rel="noopener noreferrer">base58 </a> which is similar to Base64 but has been modified to avoid both non-alphanumeric characters and letters which might look ambiguous when printed. This was done to help prevent human error when copying the data. In base58 the following similar-looking letters have been removed such as 0 (zero), O (capital o), I (capital i) and l (lower case L) and the symbols “+” &amp; “/”. The remaining characters are, 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz.'
+	bodyText="Bitcoin addresses are usually encoded as <a href='https://en.wikipedia.org/wiki/Base58' target='_blank' rel='noopener noreferrer'>base58 </a> which is similar to Base64 but has been modified to avoid both non-alphanumeric characters and letters which might look ambiguous when printed. This was done to help prevent human error when copying the data. In base58 the following similar-looking letters have been removed such as 0 (zero), O (capital o), I (capital i) and l (lower case L) and the symbols '+' &amp; '/'. The remaining characters are, 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz."
 %}
 
 <h3>ADDRESS TYPES AND CHECK ENCODING</h3>
@@ -88,13 +88,13 @@ The version prefix that is used depends on which network the address is intended
 
 {% include callouts/imageWithCaption.html
 	image="/courses/bitcoin-for-developers/WalletsandAddresses-02.png"
-	title=""
+	title=" "
 	bodyText="<b>A:</b> <i>Type;</i> <b>B:</b> <i>Version Prefix (Hex);</i> <b>C:</b> <i>Base58 Result Prefix;</i> <b>D:</b> <i>Bitcoin Address;</i> <b>E:</b> <i>Pay-To-Script-Hash Address;</i> <b>F:</b> <i>Bitcoin Testnet Address.</i>"
 %}
 
 {% include callouts/definition.html
 	title="CONCEPTUALIZE"
-	bodyText='Bitcoin’s, or UTXO’s, "live" at bitcoin addresses. In order to transfer those funds the owner of the funds, who is presumably the owner of the private keys the address was derived from, has to sign the transferring transaction with their private key. In this way users don’t really hold bitcoin’s, but rather control them with their private keys.'
+	bodyText="Bitcoin’s, or UTXO’s, 'live' at bitcoin addresses. In order to transfer those funds the owner of the funds, who is presumably the owner of the private keys the address was derived from, has to sign the transferring transaction with their private key. In this way users don’t really hold bitcoin's, but rather control them with their private keys."
 %}
 
 And now that we have a base for understanding bitcoin addresses, let’s head back to wallets!

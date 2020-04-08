@@ -27,7 +27,7 @@ Let’s assume that Han “wins” this round of the mining race by being the fi
 <p style="text-align: left;">While it was quite difficult for Han’s computer to find the winning hash, it is trivial for other computers on the network to verify that he has indeed won. Once other nodes have verified that Han did indeed win, they will accept Han’s block, approving of the coinbase transaction that rewards him for his work, and then carry on trying to find a valid hash for the next block.</p>
 
 {% include callouts/note.html
-    bodyText="There will only ever be 21 Million bitcoins. Bitcoins are created in the coinbase transaction and given to the winning miner as the block or mining reward. When the network launched in 2009 the mining reward was 50BTC. This reward halves roughly every 4 years, specifically every 210,000 blocks. “Halvings” have taken place in 2012 and 2016, leaving the current block reward at 12.5BTC. The next halving is estimated to take place in 2020. This will continue until the block reward is too small of an amount to be tracked on the Bitcoin network which is estimated to happen ~2140 leaving a total of 21 million BTC."
+    bodyText='There will only ever be 21 Million bitcoins. Bitcoins are created in the coinbase transaction and given to the winning miner as the block or mining reward. When the network launched in 2009 the mining reward was 50BTC. This reward halves roughly every 4 years, specifically every 210,000 blocks. "Halvings” have taken place in 2012 and 2016, leaving the current block reward at 12.5BTC. The next halving is estimated to take place in 2020. This will continue until the block reward is too small of an amount to be tracked on the Bitcoin network which is estimated to happen ~2140 leaving a total of 21 million BTC.'
 %}
 
 <b>This is how Blockchain gets it's name.</b> Each new block of data is <b>cryptographically</b> linked to the last block by including the hash of the previous block in the new block. In this way, blocks are linked together in a sort of cryptographic chain, hence the name blockchain.
@@ -39,7 +39,7 @@ Let’s assume that Han “wins” this round of the mining race by being the fi
 
 {% include callouts/definition.html
     title="CONFIRMATIONS"
-    bodyText="When a transaction has been included in a block it is said to have one “confirmation”. When a second block is mined ‘on top’ of that block, we say that the transaction now has 2 confirmations, etc, etc. The more confirmations, or blocks added to that chain, the greater the certainty for that transaction. This is important as in a decentralized network like Bitcoin, confirming a transaction is not as simple as a database entry."
+    bodyText="When a transaction has been included in a block it is said to have one 'confirmation'. When a second block is mined ‘on top’ of that block, we say that the transaction now has 2 confirmations, etc, etc. The more confirmations, or blocks added to that chain, the greater the certainty for that transaction. This is important as in a decentralized network like Bitcoin, confirming a transaction is not as simple as a database entry."
 %}
 
 <b>The above is the way in which the Bitcoin network agrees upon data and achieves “consensus.”</b> While this whole process is managed by the Bitcoin software, it would be incorrect to think of this system as only computer science. Open, public blockchains like Bitcoin, are entire economic systems that rely heavily on <b>monetary theory</b>, <b>economics</b>, <b>incentive structures</b>, and <b>game theory</b> to function and thrive.

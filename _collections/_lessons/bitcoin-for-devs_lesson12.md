@@ -101,7 +101,7 @@ Before we move on let's take a quick look at wallets in the context of internet 
 
 {% include callouts/definition.html
 	title="COLD/HARDWARE WALLETS"
-	bodyText="This is a wallet that is stored on a device that is “air gapped”, has no internet connect. This is often done in the form of a small hardware device. Wallets such as this are recommended for longer term storage."
+	bodyText='This is a wallet that is stored on a device that is "air gapped", has no internet connect. This is often done in the form of a small hardware device. Wallets such as this are recommended for longer term storage.'
 %}
 
 {% include callouts/definition.html
@@ -111,7 +111,7 @@ Before we move on let's take a quick look at wallets in the context of internet 
 
 {% include callouts/definition.html
 	title="PAPER WALLETS"
-	bodyText="A paper wallet is a common type of “cold storage”. It’s a method of storing keys offline. This can be done by writing out your wallet seed or private keys on a piece of paper and storing it somewhere safe such as a home fire safe. There are stainless steel versions of these types of wallets that allow you to etch your wallet seeds into a steel plate which provides improved durability."
+	bodyText="A paper wallet is a common type of 'cold storage'. It’s a method of storing keys offline. This can be done by writing out your wallet seed or private keys on a piece of paper and storing it somewhere safe such as a home fire safe. There are stainless steel versions of these types of wallets that allow you to etch your wallet seeds into a steel plate which provides improved durability."
 %}
 <hr />
 
