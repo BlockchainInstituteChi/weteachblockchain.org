@@ -102,6 +102,19 @@ section.container.bciCallToAction {
 }
 .bciCallToAction h1 {
     color: white;
+    padding-left: 0em;
+}
+.bciCallToAction p {
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0em;
+    font-size: 1.25em;
+    padding-right: 0em;
+    margin: 0em 4.5em 0em 0em;
+    font-family: Roboto;
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
 }
 .col-sm-6.bciCallout {
     margin-top: 5em;
