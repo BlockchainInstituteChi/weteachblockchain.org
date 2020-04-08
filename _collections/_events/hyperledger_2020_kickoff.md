@@ -18,13 +18,3 @@ Featuring the following speakers:
   <li>Sean O'Kelly</li>
   <li>Moderated by our very own Alex Morris!</li>
 </ul> 
-
-
-<h2>Details</h2>
-Time: 5:30 PM – 7:30 PM
-
-Location: 
-Hosted by Blockchain Institute
-4649 N Broadway, Chicago, IL 60640
-
-Find more information on <a href="https://www.meetup.com/Hyperledger-Chicago/events/268021107/">Hyperledger Chicago’s Meetup group</a>.
