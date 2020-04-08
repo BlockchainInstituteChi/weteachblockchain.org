@@ -8,6 +8,10 @@ p {
 section.container {
     min-width: calc(100vw) !important;
 }
+.container {
+    padding-right: 0em;
+    padding-left: 0em;
+}
 
 /* Jumbotron */
 .tileHeader {
