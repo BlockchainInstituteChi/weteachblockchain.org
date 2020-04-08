@@ -2,6 +2,12 @@
 @import "bootstrap/scss/bootstrap";
 
 /* Misc */
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Roboto;
+    color: #0b9ba4;
+}
 .content {
   font-size: $custom-font-size;
 }
