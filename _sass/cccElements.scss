@@ -1,3 +1,7 @@
+/*General*/
+p {
+    padding: 1em .5em;
+}
 
 /* Jumbotron */
 .tileHeader {
@@ -27,7 +31,7 @@ button.learnMoreButton {
     width: 10em;
     display: inline-block;
     left: calc(50% - 11em);
-    bottom: 0;
+    bottom: 2em;
     background: #e34862;
     color: white;
     text-transform: uppercase;
@@ -62,6 +66,14 @@ button.learnMoreButton.callToAction {
 section.container {
     padding-top: 1em;
     padding-bottom: 1em;
+}
+.inPerson p {
+    padding-right: 0em;
+    margin: 0em 4.5em 0em 0em;
+    font-family: Roboto;
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
 }
 
 /* Call to action */
@@ -136,8 +148,9 @@ section.container.bciCallToAction {
     background-position: 50% 50%;
 }
 .col-sm-6.leftWhite {
-    background: linear-gradient(to right, white 75%, #ffff0000);
+    background: linear-gradient(to right, white 90%, #ffff0000);
     min-height: calc(100% + 50px);
+    padding: 3em 0em 3em 6em;
 }
 .inPerson p {
     padding-right: 9em;
