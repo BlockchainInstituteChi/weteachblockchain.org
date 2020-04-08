@@ -70,7 +70,7 @@
 
 	}
 	h1 {
-	    margin-left: 0.25em;
+	    margin-left: 0em;
 	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/ccc_mobile_banner.png);
@@ -78,17 +78,25 @@
 	    background-position: 50% 50%;
 	    position: relative;
 	}
+	.col-sm-6.leftWhite {
+    		padding: 1em 0em 3em 1em;
+	}
 
 	.curatedMap {
 		display: none;
 	}
 
 	button.learnMoreButton {
-	    margin: 0;
-	    left: 0;
-	    display: inline-block;
-	    font-size: 2.5em;
-	    width: 50%;
+    		margin: 0;
+    		left: 0;
+    		display: inline-block;
+    		font-size: 1em;
+    		width: 42%;
+    		margin: 1em;
+	}
+	.col-sm-6 {
+    		padding-left: 1em;
+    		padding-right: 1em;
 	}
 	.col-sm-6.leftWhite {
 	    flex: unset !important;
@@ -97,7 +105,7 @@
 	}
 	
 	.leftWhite ul {
-	    width: calc(100% - 1em);
+	    width: calc(100% - 2em);
 	    max-width: unset !important;
 	}
 	.row {
@@ -121,6 +129,12 @@
 	#map-2 {
 		order: 2;
 	}
+	div#map-2 {
+    		padding-left: 0em;
+    		padding-right: 0em;
+    		margin-left: 1.5em;
+    		margin-right: 1.5em;
+	}
 
 	/* in-person */
 
@@ -133,10 +147,20 @@
 	.inPerson p {
 	    padding-right: 1em;
 	}
-
+.bciCallToAction .col-sm-6 {
+    margin-top: .5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+	.bciCallToAction p {
+    		margin: 0em 0em 0em 0em;
+	}
 	#events {
 		order: 2;
 	}	
+	.col-sm-6.bciCallout {
+    		margin-right: 1.5em;
+	}
 
 }
 
