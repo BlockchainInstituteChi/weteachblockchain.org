@@ -16,7 +16,7 @@ Also known as Social Engineering. These vulnerabilities are characterized by att
 Characterized by problems or weak points in the architecture of the system, such as centralized servers. These are the obvious technical problems with only a single server and no backups or an infrastructure designed around any singular choke point. Horizontal scaling of servers (which simply means more!) can help to alleviate the problem of serving requests, but then it's possible that another supportive protocol, such as DNS, were to become unavailable.
 <h4><em>Economic</em></h4>
 Characterized by a lack of appropriate incentives to ensure that participants in the network behave as expected. We can most regularly see this in the lack of monetary support of Open Source protocols and software. Famously, several critical pieces of software that power the majority of internet servers have had bugs dormant in their software for years. Typically, these projects are only maintained by a single part-time developer.
-&nbsp;
+
 
 <h3>WRAPPING IT UP</h3>
 
@@ -24,10 +24,9 @@ Characterized by a lack of appropriate incentives to ensure that participants in
 
 Keeping yourself secure in an online world is becoming increasingly difficult. There are a few basic measures that all security-conscious internet users can take:
 
-<img class="aligncenter size-full wp-image-11241" src="https://theblockchaininstitute.org/wp-content/uploads/2018/12/BCS_Checklist.jpg" alt="" width="1611" height="864" />
+<img src="/assets/img/courses/blockchain-security/BCS_Checklist.jpg" />
 
 Although none of these recommendations are exclusive to the blockchain industry, these essential checks will help to prevent a variety of compromising situations. Now that money is digitally accessible and can become totally unrecoverable, it's time for us to take careful measures with digital security more generally. The internet and computation were not designed in an adversarial environment, so many devices are simply designed to work rather than to be secure.
 
-&nbsp;
 
 <em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em>
