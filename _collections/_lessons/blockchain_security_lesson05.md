@@ -24,9 +24,7 @@ Although the software we use to manage cryptocurrencies is called a "wallet", no
 {% include callouts/imageWithTextCallout.html 
     title="Cold Wallets"
     image="/courses/blockchain-security/205E6B2A-F563-4400-8F6C-8C833CA82007.png"
-    bodyText="For funds which will not be immediately used, a higher security storage option might be more appropriate. These can also be offline backups of a hot wallet or may serve as a single piece of multi-signature access.
-<br>
-A key phrase is just a string of letters and numbers, so these can take the form of some words written down on a piece of paper. We will learn more about this in our next lesson, HD Wallets &amp; Seed Phrases. Other options for cold storage include steel wallets, using a secure thermal printer, or keeping a dedicated computer completely <a href="https://en.wikipedia.org/wiki/Air_gap_%28networking%29">air gapped</a>."
+    bodyText="For funds which will not be immediately used, a higher security storage option might be more appropriate. These can also be offline backups of a hot wallet or may serve as a single piece of multi-signature access.<br> A key phrase is just a string of letters and numbers, so these can take the form of some words written down on a piece of paper. We will learn more about this in our next lesson, HD Wallets &amp; Seed Phrases. Other options for cold storage include steel wallets, using a secure thermal printer, or keeping a dedicated computer completely <a href='https://en.wikipedia.org/wiki/Air_gap_%28networking%29'>air gapped</a>."
 %}
 
 {% include callouts/imageWithTextCallout.html 
