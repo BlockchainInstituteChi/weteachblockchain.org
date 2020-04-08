@@ -93,6 +93,9 @@ section.container {
     color: black;
     font-weight: 300;
 }
+.mapSpace h1 {
+    margin-top: 0.2em;
+}
 
 /* Call to action */
 section.container.bciCallToAction {
@@ -103,12 +106,12 @@ section.container.bciCallToAction {
 .bciCallToAction h1 {
     color: white;
     padding-left: 0em;
+    padding-top: 1.4em;
 }
 .bciCallToAction p {
     padding-bottom: 0;
     padding-top: 0;
     padding-left: 0em;
-    font-size: 1.25em;
     padding-right: 0em;
     margin: 0em 4.5em 0em 0em;
     font-family: Roboto;
@@ -117,6 +120,7 @@ section.container.bciCallToAction {
     font-weight: 300;
     padding-bottom: 1em;
     font-size: 1em;
+    margin-top: .75em;
 }
 .bciCallToAction .col-sm-6 {
     margin-top: .5em;
