@@ -29,11 +29,11 @@ a.nav-link.hideOnDesktop {
 }
 a {
     text-decoration: none !important;
-    color: #0fa54c !important;
     background-color: transparent;
     font-family: Roboto;
     font-weight: 400;
     font-size: 1em;
+    text-decoration: underline !important;
 }
 .col-sm-6 a {
     color: grey;
