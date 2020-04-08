@@ -12,11 +12,12 @@ Similarly, the Bitcoin network prevents network congestion by prioritizing older
 
 In the private context, such as Hyperledger supply chain tracking, there is a reduced risk of bad data as all nodes must have permission to write to the chain. Despite this, there is always the risk of bad data being intentionally added by another party in order to subvert the network and unfairly game the system.
 
-<img class="aligncenter size-full wp-image-11238" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/DoS-01.png" alt="" width="2447" height="1526" />
-<div class="learnpressImageCaption"><b>DoS ATTACK:</b> <b>A:</b> <i>Legitimate User;</i>  <b>B:</b> <i>Attacker;</i>  <b>C:</b> <i>DDoS Attack;</i>  <b>D:</b> <i>Internet;</i> <b>E:</b> <i>DoS Protection;</i> <b>F:</b> <i>Server.</i>
-In a DOS attack, the server is incapacitated by an overhwelming number of requests, and can be manipulated as a result. Decentralized networks effectively prevent this sort of attack by creating a financial dissincentive, but have sometimes proven ineffective. </div>
-&nbsp;
+{% include callouts/imageWithCaption.html
+	image="courses/blockchain-security/DoS-01.png"
+	title="DoS ATTACK:"
+	bodyText="</b> <b>A:</b> <i>Legitimate User;</i>  <b>B:</b> <i>Attacker;</i>  <b>C:</b> <i>DDoS Attack;</i>  <b>D:</b> <i>Internet;</i> <b>E:</b> <i>DoS Protection;</i> <b>F:</b> <i>Server.</i>
+In a DOS attack, the server is incapacitated by an overhwelming number of requests, and can be manipulated as a result. Decentralized networks effectively prevent this sort of attack by creating a financial dissincentive, but have sometimes proven ineffective."
+%}
 
 No matter the software, sometimes inefficient implementations lead to poor performance. When the performance degrades to the point that the node cannot stay connected to the network any longer. This is effectively a <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack">Denial-of-Service</a> attack.
 
-&nbsp;
