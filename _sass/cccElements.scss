@@ -115,9 +115,14 @@ section.container.bciCallToAction {
     font-size: 1em;
     color: white;
     font-weight: 300;
+    padding-bottom: 1em;
+    font-size: 1em;
+}
+.bciCallToAction .col-sm-6 {
+    margin-top: .5em;
 }
 .col-sm-6.bciCallout {
-    margin-top: 5em;
+    margin-top: 3em !important;
     margin-bottom: 5em;
     margin-right: 0;
     background: white;
@@ -126,14 +131,14 @@ section.container.bciCallToAction {
     margin: 7em;
     margin-right: 7em;
     width: calc(100% - 14em);
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 2.2em;
+    margin-bottom: 2em;
 }
 .bciCallout span {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #1f98a3;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 500;
     display: block;
     padding-left: 1em;
     padding-right: 1em;
@@ -145,6 +150,7 @@ section.container.bciCallToAction {
 /* Jumbotron Mailchimp */
 .bciCallToAction div#mc_embed_signup_scroll {
     margin-left: 1em;
+    margin-right: 1em;
 }
 .bciCallToAction input#mce-EMAIL {
     width: calc(100% - 2px);
@@ -169,6 +175,9 @@ section.container.bciCallToAction {
     padding-bottom: 0;
     padding-top: 0;
     font-size: 1.25em;
+.mc-field-group {
+    margin-top: 5px;
+}
 }
 
 
