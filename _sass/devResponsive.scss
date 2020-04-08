@@ -50,7 +50,13 @@ html, body {
 
 	}
 	h1 {
-	    margin-left: 0.25em;
+	    margin-left: 0em;
+	}
+	p {
+    font-size: 1.5em;
+	    padding: 1em;
+	    padding-left: 0em;
+	    padding-right: 0em;
 	}
 	header.jumbotron.text-left.tileHeader {
 	    background: url(/assets/img/dev_mobile_banner.png);
@@ -59,11 +65,11 @@ html, body {
 	    position: relative;
 	}
 	button.learnMoreButton {
-	    margin: 0;
 	    left: 0;
 	    display: inline-block;
-	    font-size: 2.5em;
-	    width: 50%;
+	    font-size: 1em;
+	    width: 38%;
+	    margin: 1.5em;
 	}
 	button.learnMoreButton.callToAction {
 	    left: 50%;
@@ -73,8 +79,15 @@ html, body {
 	    margin: unset;
 	}
 	.row {
-	    margin: 0;
+	    margin: 0 1em;
 	    max-width: 100%;
+	}
+	section.container {
+	    padding-top: 0em;
+	    padding-bottom: 3em;
+	}	
+	section#learnMore {
+	    margin-top: 3em;
 	}
 	.container-fluid.footer {
 	    padding-left: 0;
@@ -104,6 +117,13 @@ html, body {
 
 	#free {
 		order: 2;
+	}
+	.imagefloater img {
+    max-width: 80%;
+	    padding: 0;
+	    margin: 0;
+	    margin-top: 0em;
+	    margin-bottom: 3em;
 	}
 }
 
