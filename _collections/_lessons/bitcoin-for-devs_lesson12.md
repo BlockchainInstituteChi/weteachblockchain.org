@@ -6,18 +6,17 @@ title: Wallet History and Mnemonic Seeds
 permalink: /courses/bitcoin-for-developers/3/wallet-history-mnemonic-seeds
 ---
 
-<span>
 <span class="openingParagraph">
 The following two lessons were written with the goal of providing a good foundation for building or working with Bitcoin wallets. As such we’ll cover a bit of history and then the current de facto standard for Bitcoin wallets which consists of four BIPS, 39, 32, 43 &amp; 44.</span>
 
 These BIP’s cover mnemonic seeds and hierarchical deterministic(HD) wallets.
+
 <h3>HISTORY</h3>
 
 <hr />
 
 Cryptocurrency wallets have evolved substantially since the first wallet which was included in the original version of the Bitcoin core client. Let’s first discuss some of the history of Bitcoin wallets to understand why these improvements came about.
 
-&nbsp;
 <h3>JBOK, OR JUST A BUNCH OF KEYS WALLETS</h3>
 
 <hr />
@@ -27,8 +26,10 @@ Cryptocurrency wallets have evolved substantially since the first wallet which w
 This type of wallet is simply a collection of randomly generated private keys with no particular relation to one another.
 
 While these wallets worked, there was an issue with backing up the wallet data. For greater privacy, addresses were not reused. This means new addresses, and thus new keys, were generated regularly. New addresses were created on each receive transaction, with a cap of 100 addresses/key kept at any time.
-<div class="purpleNote"><b>NOTE:</b><i>This includes change transactions. When a UTXO that is larger than the amount being spent is used, the UTXO is split and the remaining balance is returned to the sender as change.</i></div>
-&nbsp;
+
+{% include callouts/note.html
+	bodyText="This includes change transactions. When a UTXO that is larger than the amount being spent is used, the UTXO is split and the remaining balance is returned to the sender as change."
+%}
 
 An early method for backing up a wallet was simply to copy the wallet.dat file that contained the private keys and then store this file in a secure location. However, if regular backups were not taken then they would quickly become outdated.
 
@@ -46,9 +47,11 @@ The process outlined in <a href="https://github.com/bitcoin/bips/blob/master/bip
 So, what is a mnemonic seed?
 
 It is a set of data encoded as a series of words, usually 12 or 24, which can be used to restore an entire wallet.
-<div class="blueTitleNote"><b>MNEMONIC</b>
-A device such as a pattern of letters, ideas, or associations that assists in remembering something.</div>
-&nbsp;
+
+{% include callouts/definition.html
+	title="MNEMONIC"
+	bodyText="A device such as a pattern of letters, ideas, or associations that assists in remembering something."
+%}
 
 HD wallets, which we will cover in depth in the next lesson, have a parent private key which can be used to derive many child keys. In this way, one set of data, which is called the “seed”, can be used to migrate or restore a wallet with many keys and addressed.
 
@@ -66,8 +69,10 @@ First, the wallet should have some source of <a href="https://en.wikipedia.org/w
 This data is then mapped to a predefined dictionary of 2048 words. This is how those 12-24 words that make up the seed are selected.
 
 Once the seed words have been selected, a “<a href="https://en.wikipedia.org/wiki/Salt_(cryptography)" target="_blank" rel="noopener noreferrer">salt</a>” and optionally a password are selected. In BIP39 compatible wallets, the salt is automatically set to “mnemonic” plus the password if one was added.
-<div class="purpleNote"><b>NOTE:</b> <i>The addition of a password will change the resulting 512-bit seed. This provides an extra security feature. Even if an attacker was able to acquire a wallet mnemonic phrase they would be unable to recreate the necessary seed data without the addition of the password. Also, a wallet can be created that has two passwords, one for normal use and another “duress password” that results in the recreation of a wallet with only a small amount of funds to fool an attacker.</i></div>
-&nbsp;
+
+{% include callouts/note.html
+	bodyText="The addition of a password will change the resulting 512-bit seed. This provides an extra security feature. Even if an attacker was able to acquire a wallet mnemonic phrase they would be unable to recreate the necessary seed data without the addition of the password. Also, a wallet can be created that has two passwords, one for normal use and another “duress password” that results in the recreation of a wallet with only a small amount of funds to fool an attacker."
+%}
 
 Once the mnemonic phrase and salt has been selected, they are run through a “key stretching function”. This function hashes the data 2048 times! Which produces the 512-bit wallet seed.
 
@@ -88,33 +93,36 @@ The seed is built from the mnemonic phrase + salt and contains both the parent p
 The seed contains all the components necessary to migrate or restore an HD wallet.
 
 Before we move on let's take a quick look at wallets in the context of internet security and usage. Often, when wallet types are being discussed the speaker is referring to what device the wallet seed is stored on or accessed from. This is important from the context of accessing funds and keeping them safe from theft.
-<div class="blueTitleNote"><b>HOT WALLETS</b>
-A wallet that exists on an internet connected device. In this situation the users private keys are stored on this internet connected device which can make them susceptible to theft. It is recommended to only store a small amount of funds for immediate use on hot wallets.</div>
-<div class="blueTitleNote"><b>COLD/HARDWARE WALLETS</b>
-This is a wallet that is stored on a device that is “air gapped”, has no internet connect. This is often done in the form of a small hardware device. Wallets such as this are recommended for longer term storage.</div>
-<div class="blueTitleNote"><b>CUSTODIAL WALLETS</b>
-These are wallets provided by services that hold key on behalf of the user. While this can provide some convenience it is important to note that it involves trusting a third party to store your funds honestly and competently.</div>
-<div class="blueTitleNote"><b>PAPER WALLETS</b>
-A paper wallet is a common type of “cold storage”. It’s a method of storing keys offline. This can be done by writing out your wallet seed or private keys on a piece of paper and storing it somewhere safe such as a home fire safe. There are stainless steel versions of these types of wallets that allow you to etch your wallet seeds into a steel plate which provides improved durability.</div>
-&nbsp;
 
+{% include callouts/definition.html
+	title="HOT WALLETS"
+	bodyText="A wallet that exists on an internet connected device. In this situation the users private keys are stored on this internet connected device which can make them susceptible to theft. It is recommended to only store a small amount of funds for immediate use on hot wallets."
+%}
+
+{% include callouts/definition.html
+	title="COLD/HARDWARE WALLETS"
+	bodyText='This is a wallet that is stored on a device that is "air gapped", has no internet connect. This is often done in the form of a small hardware device. Wallets such as this are recommended for longer term storage.'
+%}
+
+{% include callouts/definition.html
+	title="CUSTODIAL WALLETS"
+	bodyText="These are wallets provided by services that hold key on behalf of the user. While this can provide some convenience it is important to note that it involves trusting a third party to store your funds honestly and competently."
+%}
+
+{% include callouts/definition.html
+	title="PAPER WALLETS"
+	bodyText="A paper wallet is a common type of 'cold storage'. It’s a method of storing keys offline. This can be done by writing out your wallet seed or private keys on a piece of paper and storing it somewhere safe such as a home fire safe. There are stainless steel versions of these types of wallets that allow you to etch your wallet seeds into a steel plate which provides improved durability."
+%}
 <hr />
 
 Further Reading:
 <ul>
  	<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener noreferrer">BIP 39</a></li>
  	<li><a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4">Chapter 5 of Mastering Bitcoin 2nd Edition</a>
-<ul>
  	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc">Github</a></li>
-</ul>
-</li>
-</ul>
-<ul>
- 	<li style="list-style-type: none;"></li>
 </ul>
 
 <hr />
 
-&nbsp;
 
 We’ll have a look at chain codes and HD wallets in the next lesson.

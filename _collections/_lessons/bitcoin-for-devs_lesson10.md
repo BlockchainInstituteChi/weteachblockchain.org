@@ -6,11 +6,12 @@ title: What is a Bitcoin?
 permalink: /courses/bitcoin-for-developers/3/what-is-a-bitcoin
 ---
 
-<span>
 <span class="openingParagraph">
 We’ll dive into bitcoin wallets in the next few lessons, but, in order to understand what a wallet is doing, you need to understand what a bitcoin actually is.</span>
-<div class="tealCallout">Have you read the Bitcoin whitepaper yet? If not you really should! Check it out here:<a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a></div>
-&nbsp;
+
+{% include callouts/note.html
+    bodyText='Have you read the Bitcoin whitepaper yet? If not you really should! Check it out here:<a href="https://bitcoin.org/bitcoin.pdf">https://bitcoin.org/bitcoin.pdf</a>'
+%}
 
 From the bitcoin whitepaper, “We define an electronic coin as a chain of digital signatures.” Bitcoins are not really digital “coins”. They don’t have serial numbers or a set unit; they don’t "live" in a wallet. Bitcoin’s are just divisible and joinable ledger entries that "live" on the bitcoin blockchain.
 
@@ -23,9 +24,11 @@ When a bitcoin is first created, it is given to a miner as a <b>mining reward</b
 Let’s imagine that our miner, Alice, now wants to pay for some server space using BTC. She purchases 0.05 worth of hosting from Bob. In that transaction, she uses the only UTXO that she has which is worth 12.5 BTC.
 
 The transaction breaks up the input worth 12.5 BTC, sending 0.05 to Bob, and 12.449 going back to Alice with the remainder of 0.001 being offered as a transaction fee for the miner who mines the block the transaction is in.
-<div class="blueTitleNote"><b>BITCOIN TRANSACTION FEES</b>
-Transaction fees on the bitcoin network are not specified but implied in the remainder of any UTXO that is not sent back to the sender as change. Also, fees are generally not calculated base on the value of the transaction but instead based on the size of the transaction data.</div>
-&nbsp;
+
+{% include callouts/callout.html
+    title="BITCOIN TRANSACTION FEES"
+    bodyText="Transaction fees on the bitcoin network are not specified but implied in the remainder of any UTXO that is not sent back to the sender as change. Also, fees are generally not calculated base on the value of the transaction but instead based on the size of the transaction data."
+%}
 
 After the transaction is mined, Alice now has a UTXO worth 12.449 and Bob has a UTXO worth 0.05.
 

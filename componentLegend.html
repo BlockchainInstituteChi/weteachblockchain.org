@@ -49,7 +49,8 @@ ogUrl: https://weteachblockchain.org/legend/
             <h1>Callouts</h1>
         
             {% include callouts/callout.html
-                bodyText="<h1>Title</h1><span>html formatted string for the body of the callout</span>"
+                title="Title"
+                bodyText="html formatted string for the body of the callout"
             %}
             
         </div>
@@ -161,4 +162,18 @@ ogUrl: https://weteachblockchain.org/legend/
 
 </section>
 
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Big Quotes</h1>
+            {% include callouts/bigQuote.html
+                body="Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security."
+                sourceName="Wikipedia"
+                sourceUrl="https://en.wikipedia.org/wiki/Public-key_cryptography"
+            %}  
+        </div>
+
+    </div>
+
+</section>
 

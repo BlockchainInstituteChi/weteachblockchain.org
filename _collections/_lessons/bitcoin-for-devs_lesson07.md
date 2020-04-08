@@ -75,11 +75,8 @@ Proof-of-Work, discussed in our second lesson, is only one step in this process 
 </li>
 </ul>
 While we won’t dive into differing consensus algorithms here, it is important to note that many options have been developed since the invention of Nakamoto proof-of-work consensus in 2008.
-<h3><b>INCENTIVES AND GAME THEORY</b></h3>
 
-<hr />
-
-While Bitcoin is a software project, the network that it creates is sustained and managed with incentives and game theory. Let’s take a look at how that protects the network in the below video:
-
-<iframe width="910" height="512" src="https://www.youtube.com/embed/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<span class="imageCaption"><span class="mainImageTitle">HOW DO BLOCKCHAINS STAY SECURE?!?!?</span> // Blockchain.WTF</span>
+{% include callouts/callout.html 
+	title="INCENTIVES AND GAME THEORY"
+	bodyText='While Bitcoin is a software project, the network that it creates is sustained and managed with incentives and game theory. Let’s take a look at how that protects the network in the below video: <iframe width="910" height="512" src="https://www.youtube.com/embed/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+%}

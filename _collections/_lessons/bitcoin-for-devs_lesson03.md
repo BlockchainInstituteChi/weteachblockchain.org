@@ -6,7 +6,6 @@ title: Enter the Blockchain - Part I
 permalink:  /courses/bitcoin-for-developers/1/enter-the-blockchain-part-i
 ---
 
-<span>
 <span class="openingParagraph">The Bitcoin blockchain was created to allow a network to coordinate and reach “consensus,” or agreement on shared data. Blockchains were created to solve the problem of how do users coordinate data with people, around the world, who they don’t know or trust?</span>
 
 In this lesson and the next, we’ll walk through how the Bitcoin network comes to agreement on transaction data.
@@ -28,11 +27,14 @@ A hash function takes an input value and creates an output value deterministic o
 This is very useful in a number of ways. It allows you to use a hash as a nearly unforgeable identifier of data which can then be used to validate that data. The hash of data can also be used in a table to facilitate the quick lookup of that data.
 
 Bitcoin uses hash in many ways. For example, they are used to create transaction ID’s and to summarize and secure the data in a “block” of transaction data via Merkle trees.
-<div class="blueTitleNote"><b>MERKLE TREE</b>
-A tree constructed by hashing paired data (the leaves), then pairing and hashing the results until a single hash remains, the Merkle root.</div>
-&nbsp;
-<div class="purpleNote"><b>NOTE: </b><i>The </i><a href="https://en.bitcoinwiki.org/wiki/SHA-256"><i>SHA-256</i></a><i> hash algorithm is used extensively in bitcoin.</i></div>
-&nbsp;
+{% include callouts/definition.html
+    title="MERKLE TREE"
+    bodyText="A tree constructed by hashing paired data (the leaves), then pairing and hashing the results until a single hash remains, the Merkle root."
+%}
+
+{% include callouts/note.html
+	bodyText='<i>The </i><a href="https://en.bitcoinwiki.org/wiki/SHA-256"><i>SHA-256</i></a><i> hash algorithm is used extensively in bitcoin.</i>'
+%}
 
 And now that hashes are out of the way, let's get back to understanding how the Bitcoin network makes decisions on which data is correct, and which is not.
 
@@ -68,16 +70,25 @@ The difficulty requirement is simply the format of the hash of the block data.
 When the difficulty requirement goes up, then the network will only accept hashes that start with a greater number of zeros.
 
 For example, the first hash below might not be ‘difficult’ enough to meet current network standards, while the second hash might be satisfactory.
-<div class="formula"><b>0000000000000</b>8a3a41b85b8b29ad444def299fee21793cd8b9e567eab02cd81</div>
-<div class="formula"><b>0000000000000000000</b>85b8b29ad444def299fee21793cd8b9e567eab02cd81</div>
-&nbsp;
+
+{% include callouts/codeSnippet.html
+	title="A low-difficulty hash"
+	bodyText="<b>0000000000000</b>8a3a41b85b8b29ad444def299fee21793cd8b9e567eab02cd81"
+%}
+
+{% include callouts/codeSnippet.html
+	title="A higher difficulty hash"
+	bodyText="<b>00000000000000000000</b>85b8b29ad444def299fee21793cd8b9e567eab02cd81"
+%}
 
 This involves some luck as a miner will not be able to determine what the hash will look like prior to running the data through the hashing function. However, we call it difficulty rather than luckiness as the more computing power miners put into the process(relative to the rest of the network) the more likely they are to be lucky enough to find an acceptable hash.
 
 A miner attempts to find an acceptable hash simply by hashing the block data together with a random number called a “nonce.”
-<div class="blueTitleNote"><b>NONCE</b>
-An arbitrary number that can be used just once in cryptographic communication. In the case of bitcoin mining, a nonce is added to the block data to produce variation in hashing output.</div>
-&nbsp;
+
+{% include callouts/definition.html
+	title="NONCE"
+	bodyText="An arbitrary number that can be used just once in cryptographic communication. In the case of bitcoin mining, a nonce is added to the block data to produce variation in hashing output."
+%}
 
 A miner will hash the block data, again and again, each time trying a different nonce until they are successful in finding a valid block hash, or until another miner has done so.
 
@@ -88,23 +99,38 @@ This hashing is intentional busy work called “<a href="https://en.wikipedia.or
 This competition plays out with a miner winning the competition and receiving a reward roughly every 10min.
 
 In the next lesson, we’ll see how this competition determines which transaction in a double spend is valid and which is rejected. But first, here are some Mining Terms to get familiar with:
-<div class="blueTitleNote"><b>DIFFICULTY</b>
-The number of leading zeros that a block hash should have.</div>
-<br>
-<div class="blueTitleNote"><b>BLOCK REWARD</b>
-The amount of BTC given to a miner when their block is accepted by the network.</div>
-<br>
-<div class="blueTitleNote"><b>BLOCK TIME</b>
-A measure of how long it will take the hashing power of the network to find a solution to the block hash, on average.</div>
-<br>
-<div class="blueTitleNote"><b>HASH RATE</b>
-The estimated number of terahash per second the Bitcoin network is performing.</div>
-<br>
-<div class="blueTitleNote"><b>HASHING POWER</b>
-The hash rate of a particular mining computer.</div>
-<br>
-<div class="blueTitleNote"><b>APPLICATION SPECIFIC INTEGRATED CIRCUIT (ASIC)</b>
-A computer chip built for a specific purpose.</div>
-<br>
-<div class="blueTitleNote"><b>HALVING</b>
-The date, roughly every four years, when the block reward is reduced by half.</div>
+
+{% include callouts/definition.html
+	title="DIFFICULTY"
+	bodyText="The number of leading zeros that a block hash should have."
+%}
+
+{% include callouts/definition.html
+	title="BLOCK REWARD"
+	bodyText="The amount of BTC given to a miner when their block is accepted by the network."
+%}
+
+{% include callouts/definition.html
+	title="BLOCK TIME"
+	bodyText="A measure of how long it will take the hashing power of the network to find a solution to the block hash, on average."
+%}
+
+{% include callouts/definition.html
+	title="HASH RATE"
+	bodyText="The estimated number of terahash per second the Bitcoin network is performing."
+%}
+
+{% include callouts/definition.html
+	title="HASHING POWER"
+	bodyText="The hash rate of a particular mining computer."
+%}
+
+{% include callouts/definition.html
+	title="APPLICATION SPECIFIC INTEGRATED CIRCUIT (ASIC)"
+	bodyText="A computer chip built to be heavily optimized for a particular computational process, such as hashing SHA256."
+%}
+
+{% include callouts/definition.html
+	title="HALVING"
+	bodyText="The date, roughly every four years, when the block reward is reduced by half."
+%}

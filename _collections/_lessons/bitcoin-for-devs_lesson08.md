@@ -61,8 +61,11 @@ How difficult the process is depends a lot on the type of change or BIP that is 
 </li>
 </ul>
 It’s very important to note the difference between a simple code change and a consensus change. Any change affecting the consensus rules on the network will require either a soft fork or a hard fork.
-<div class="tealCallout">In this context “fork” has a different meaning from software fork or a fork in a repo. Here we mean a chain split or a network partition that can result in separate networks.</div>
-&nbsp;
+
+{% include callouts/note.html
+	bodyText="In this context “fork” has a different meaning from software fork or a fork in a repo. Here we mean a chain split or a network partition that can result in separate networks."
+%}
+
 <h3>HARD FORKS VS. SOFT FORKS</h3>
 
 <hr />
@@ -70,26 +73,45 @@ It’s very important to note the difference between a simple code change and a 
 A soft fork is a network upgrade which can be thought of a non-mandatory. Nodes running old versions of the software will still be able to interact with and maintain consensus on the network.
 
 A hard fork is a network upgrade or change that either forces nodes on the network to upgrade or results in a permanent split in the network.
-<div class="blueTitleNote"><b>TEMPORARY FORKS</b>
-The most common way in which a fork occurs is when there are separate groups of nodes that have different copies of the blockchain ledger. This can happen when there’s a high transaction volume, and nodes find multiple new blocks which can be confirmed within the rules of the system. In Proof of Work models, the longest chain will always win, so the network will ultimately return to a global consensus quite quickly.</div>
-<div class="blueTitleNote"><b>BALANCE OF POWER</b>
-There are many different groups in the bitcoin ecosystem that have influence. Miners, developers, wallets and users, exchanges, and merchants. It’s important to remember that while bitcoin core developers can release changes to the protocol, no one has to upgrade to run the new software. That is a choice made by every individual who has a machine running bitcoin.</div>
-&nbsp;
+
+{% include callouts/definition.html
+	title="TEMPORARY FORKS"
+	bodyText="The most common way in which a fork occurs is when there are separate groups of nodes that have different copies of the blockchain ledger. This can happen when there’s a high transaction volume, and nodes find multiple new blocks which can be confirmed within the rules of the system. In Proof of Work models, the longest chain will always win, so the network will ultimately return to a global consensus quite quickly."
+%}
+
+{% include callouts/definition.html
+	title="BALANCE OF POWER"
+	bodyText="There are many different groups in the bitcoin ecosystem that have influence. Miners, developers, wallets and users, exchanges, and merchants. It’s important to remember that while bitcoin core developers can release changes to the protocol, no one has to upgrade to run the new software. That is a choice made by every individual who has a machine running bitcoin."
+%}
 
 The process of transitioning to new consensus rules is called activation.
 
 There have been a number of methods used in Bitcoin to activate a change:
-<div class="blueTitleNote"><b>FLAG DATE</b>
-This is a very simple activation method where a new rule becomes active on a specific date.</div>
-<div class="blueTitleNote"><b>ISM ISSUPERMAJORITY</b>
-This uses miner signaling and was the first version of MASF(described below). This bit of code activates changes once 950 of the last 1000 blocks have signaled for activating the new change.</div>
-<div class="blueTitleNote"><b>BIP9 - VERSION BITS</b>
-Miner signalling, a way for miners to signal readiness for a soft fork by setting bits in the block header nVersion field.</div>
-<div class="blueTitleNote"><b>MASF - MINER ACTIVATED SOFT FORK</b>
-In this scenario blocks signal a version and a soft fork is activated through this signaling.</div>
-<div class="blueTitleNote"><b>UASF - USER ACTIVATED SOFT FORK</b>
-This scenario involves non-mining full nodes updating their software to a version that requires certain rules on the network, perhaps beginning at a flag date after which blocks that do not meet those requirements are not propagated on the network.</div>
-&nbsp;
+
+{% include callouts/definition.html
+	title="FLAG DATE"
+	bodyText="This is a very simple activation method where a new rule becomes active on a specific date."
+%}
+
+{% include callouts/definition.html
+	title="ISM ISSUPERMAJORITY"
+	bodyText="This uses miner signaling and was the first version of MASF(described below). This bit of code activates changes once 950 of the last 1000 blocks have signaled for activating the new change."
+%}
+
+{% include callouts/definition.html
+	title="BIP9 - VERSION BITS"
+	bodyText="Miner signalling, a way for miners to signal readiness for a soft fork by setting bits in the block header nVersion field."
+%}
+
+{% include callouts/definition.html
+	title="MASF - MINER ACTIVATED SOFT FORK"
+	bodyText="In this scenario blocks signal a version and a soft fork is activated through this signaling."
+%}
+
+{% include callouts/definition.html
+	title="UASF - USER ACTIVATED SOFT FORK"
+	bodyText="This scenario involves non-mining full nodes updating their software to a version that requires certain rules on the network, perhaps beginning at a flag date after which blocks that do not meet those requirements are not propagated on the network."
+%}
 
 The above is a rough summary as this is a rather complicated situation. Other networks employ more sophisticated methods for determining consensus and activating changes. The Decred project has an interesting model which you can read about <a href="https://docs.decred.org/governance/introduction-to-decred-governance/">here</a>.
 
