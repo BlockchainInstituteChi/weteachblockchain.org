@@ -76,12 +76,6 @@ button.learnMoreButton.callToAction {
 }
 
 /* Body Sections */
-.imagefloater img {
-    max-width: 80%;
-    padding: 0;
-    margin: 0;
-    margin-top: 0em;
-} 
 .col-sm-6 h1 {
     margin-top: 1em;
 }
@@ -206,11 +200,11 @@ section.container.bciCallToAction {
     text-align: center;
 }
 .imagefloater img {
-    max-width: 50%;
+    max-width: 80%;
     padding: 0;
     margin: 0;
-    margin-top: 5em;
-}
+    margin-top: 0em;
+} 
 .imagefloater.hyperledger img {
     max-width: 75%;
 }
