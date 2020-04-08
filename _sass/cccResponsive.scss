@@ -9,15 +9,15 @@
 	    width: calc(100% - 6em);
 	}
 	.col-sm-6.leftWhite {
-	    width: 70% !important;
-	    flex: 0 0 70%;
-	    max-width: 70% !important;
+    		background: linear-gradient(to right, #fff 70%, #ffff0000);
+    		min-height: calc(100% + 50px);
+    		padding: 3em 0em 3em 6em;
 	}
 	.row {
 	    max-width: calc(100% - 1em);
 	}
 	#map-2 img {
-	    margin-top: 3em;
+	    margin-top: 2em;
 	}
 	.col-sm-6 h1 {
 	    margin-top: 0;
@@ -26,10 +26,24 @@
 	    margin-top: 0.5em;
 	}
 	.bciCallToAction .col-sm-6 {
-	    padding-left: 0;
+    		padding-left: 0;
+    		padding-right: 0em;
 	}
 	.bciCallToAction h1 {
-	    padding-left: 0.4em;
+	    padding-left: 0em;
+	    margin-top: 1.5em;
+	}
+	.bciCallToAction p {
+    		padding-bottom: 0;
+    		padding-top: 0;
+    		font-size: 1em;
+	}
+	.bciCallout img {
+   		 margin: 5em;
+   		 margin-right: 7em;
+    		width: calc(100% - 10em);
+    		margin-top: 2.2em;
+    		margin-bottom: 2em;
 	}
 
 	a.nav-link.hideOnDesktop {
