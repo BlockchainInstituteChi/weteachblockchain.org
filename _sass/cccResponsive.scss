@@ -9,9 +9,17 @@
 	    width: calc(100% - 6em);
 	}
 	.col-sm-6.leftWhite {
-    		background: linear-gradient(to right, #fff 70%, #ffff0000);
-    		min-height: calc(100% + 50px);
-    		padding: 3em 0em 3em 6em;
+	    background: linear-gradient(to right, #fff 95%, #ffff0000);
+	    min-height: calc(100% + 50px);
+	    padding: 3em 0em 3em 2em;
+	}
+	.inPerson p {
+	    padding-right: 0em;
+	    margin: 0em 2em 0em 0em;
+	    font-family: Roboto;
+	    font-size: 1em;
+	    color: black;
+	    font-weight: 300;
 	}
 	.row {
 	    max-width: calc(100% - 1em);
