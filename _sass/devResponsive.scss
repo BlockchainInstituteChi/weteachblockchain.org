@@ -12,6 +12,33 @@ html, body {
     		margin: auto 2em;
     		max-width: calc(100% - 2em);
 	}
+.bciCallToAction input#mce-EMAIL {
+	    width: calc(100% - 2px);
+	    margin-bottom: 1em;
+	    padding: 0.45em;
+	    box-shadow: 0 0 0 1px black;
+	    margin-left: 0.5px;
+	}
+	.col-sm-6.bciCallout {
+	    margin-top: 5em;
+	    margin-bottom: 5em;
+	    margin-right: 0;
+	    background: white;
+	    height: 24em;
+	}
+	.bciCallout img {
+	    margin: 7em;
+	    margin-right: 7em;
+	    width: calc(100% - 14em);
+	    margin-top: 2.2em;
+	    margin-bottom: 2em;
+	    margin: 5em;
+	    margin-right: 7em;
+	    width: calc(100% - 10em);
+	    margin-top: 2.2em;
+	    margin-bottom: 2em;
+	}
+
 }
 
 
@@ -78,33 +105,6 @@ html, body {
 	#free {
 		order: 2;
 	}
-	.bciCallToAction input#mce-EMAIL {
-	    width: calc(100% - 2px);
-	    margin-bottom: 1em;
-	    padding: 0.45em;
-	    box-shadow: 0 0 0 1px black;
-	    margin-left: 0.5px;
-	}
-	.col-sm-6.bciCallout {
-	    margin-top: 5em;
-	    margin-bottom: 5em;
-	    margin-right: 0;
-	    background: white;
-	    height: 24em;
-	}
-	.bciCallout img {
-	    margin: 7em;
-	    margin-right: 7em;
-	    width: calc(100% - 14em);
-	    margin-top: 2.2em;
-	    margin-bottom: 2em;
-	    margin: 5em;
-	    margin-right: 7em;
-	    width: calc(100% - 10em);
-	    margin-top: 2.2em;
-	    margin-bottom: 2em;
-	}
-
 }
 
 
