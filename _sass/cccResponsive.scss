@@ -38,8 +38,8 @@
     		padding-right: 0em;
 	}
 	.bciCallToAction h1 {
-	    padding-left: 0em;
-	    margin-top: 1.5em;
+   		 padding-left: 0em;
+    		margin-top: 2.5em;
 	}
 	.bciCallToAction p {
     		padding-bottom: 0;
@@ -52,6 +52,9 @@
     		width: calc(100% - 10em);
     		margin-top: 2.2em;
     		margin-bottom: 2em;
+	}
+	.col-sm-6.bciCallout {
+    		margin-top: 5.5em !important;
 	}
 
 	a.nav-link.hideOnDesktop {
