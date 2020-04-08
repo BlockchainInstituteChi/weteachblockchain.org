@@ -1,8 +1,16 @@
+html, body {
+    overflow-x:hidden;
+}
+
 /* Tablet */
 @media screen and (max-width: 800px) {
 
 	a.nav-link.hideOnDesktop {
 		display: block;
+	}
+	.row {
+    		margin: auto 2em;
+    		max-width: calc(100% - 2em);
 	}
 }
 
