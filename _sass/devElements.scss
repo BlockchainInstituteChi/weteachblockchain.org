@@ -27,7 +27,7 @@ button.learnMoreButton {
     width: 10em;
     display: inline-block;
     left: calc(50% - 11em);
-    bottom: 0;
+    bottom: 2em;
     background: #e34862;
     color: white;
     text-transform: uppercase;
@@ -58,6 +58,11 @@ button.learnMoreButton.callToAction {
 }
 .col-sm-6 p {
     font-size: 1.15em;
+    margin: 0em 0em 0em 0em;
+    font-family: Roboto;
+    font-size: 1em;
+    color: black;
+    font-weight: 300;
 }
 section.container {
     padding-top: 1em;
