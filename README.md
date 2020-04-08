@@ -347,7 +347,7 @@ A left-aligned image with a text callout can be created using the below snippet.
 ```
 {% include callouts/imageWithTextCallout.html 
     title="CryptoKitties"
-    img="https://theblockchaininstitute.org/wp-content/uploads/2019/02/cryptokitties-200x200.png"
+    image="https://theblockchaininstitute.org/wp-content/uploads/2019/02/cryptokitties-200x200.png"
     bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."
 %}
 ```
