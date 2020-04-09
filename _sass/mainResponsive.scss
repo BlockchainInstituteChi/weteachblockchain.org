@@ -79,6 +79,13 @@
         height: 100vh;
         margin-top: 2em;
     }
+	.searchInterface input {
+    		width: 100%;
+    		border-radius: 0em;
+    		padding: 0.5em;
+    		border-color: black;
+    		font-family: Roboto;
+	}
     span.cancelSearchButton {
         font-size: 3em;
         right: 0.25em;
@@ -99,6 +106,24 @@
         max-height: unset;
         height: -webkit-fill-available;
     }
+	.searchInterface input {
+    		width: 100%;
+    		border-radius: 0em;
+    		padding: 0.5em;
+    		border-color: black;
+    		font-family: Roboto;
+	}
+	.searchResults span.title {
+    		display: block;
+    		text-transform: uppercase;
+    		color: black;
+    		font-family: Kanit;
+    		font-weight: 500;
+	}	
+	.searchResults span.title {
+	    font-family: Kanit;
+	    font-weight: 500;
+	}
 	
 	
 	/*Breadcrumbs*/
