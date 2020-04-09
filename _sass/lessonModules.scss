@@ -243,6 +243,9 @@ span.userName {
 .photoLightbox h1 {
     color: white;
     text-transform: uppercase;
+    margin-left: .2em;
+    margin-top: .6em;
+    font-size: 2em;
 }
 .row.photoLightbox {
     margin: 0;
@@ -253,10 +256,12 @@ span.userName {
 .imageGallery {
     display: block;
     position: relative;
+    margin-bottom: 1em;
 }
 .imageGallery img {
     max-width: calc(25% - 1em);
     padding: 1em;
+    opacity: 75%;
 }
 img#lightBoxImage {
     max-width: 50%;
