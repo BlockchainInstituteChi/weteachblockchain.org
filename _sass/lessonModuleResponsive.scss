@@ -83,7 +83,7 @@
     img#lightBoxImage {
         min-width: 100vw !important;
         margin: 0;
-        margin-top: 50%;
+        margin-top: calc(50vh - 8em);
     }
     
 }
