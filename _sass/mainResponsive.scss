@@ -249,6 +249,27 @@
 	    padding-bottom: .4em;
 	    margin-left: 1em;
 	}
+	.account span {
+	    font-size: 2.5em;
+	    font-family: kanit;
+	    color: black;
+	    display: block;
+	    width: 100%;
+	    margin-left: 4em;
+	    text-align: left;
+	}
+	input.emailInput {
+	    float: right;
+	    display: block;
+	    position: absolute;
+	    right: 5em;
+	    width: calc(73% - 3em);
+	    font-size: 2.25em;
+	    color: black;
+	    font-family: Roboto;
+	    font-style: italic;
+	    padding-left: 0em;
+	}
     
     /* Page Header */
 	
