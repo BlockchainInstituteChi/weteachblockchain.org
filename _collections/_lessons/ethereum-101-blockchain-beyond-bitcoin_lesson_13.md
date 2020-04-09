@@ -5,7 +5,7 @@ module: 4
 title: Further Learning
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/4/further-learning/
 ---
-<img class="aligncenter size-full wp-image-17007" src="https://theblockchaininstitute.org/wp-content/uploads/2019/11/ConclusionNEW-01.png" alt="" width="2447" height="931" />
+<img src="/assets/img/Conclusion-01-2.png"> 
 
 <h3>YOU'VE REACHED THE END OF OUR INTRODUCTION TO ETHEREUM.</h3>
 <hr />
