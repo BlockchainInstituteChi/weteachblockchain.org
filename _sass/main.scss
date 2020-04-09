@@ -297,8 +297,9 @@ span.cancelSearchButton {
 }
 .searchInterface input {
     width: 100%;
-    border-radius: 0.25em;
+    border-radius: 0em;
     padding: 0.5em;
+    font-family: Roboto;
 }
 div#searchResults {
     max-height: 50vh;
@@ -313,6 +314,8 @@ div#searchResults {
     display: block;
     text-transform: uppercase;
     color: black;
+    font-family: Kanit;
+    font-weight: 500;
 }
 .searchResults span.summary {
     font-size: 0.75em;
