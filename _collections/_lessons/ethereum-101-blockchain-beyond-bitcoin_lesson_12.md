@@ -17,7 +17,7 @@ Instead of wasting energy to prove authenticity, a staking model would allow net
 {% include callouts/imageWithCaption.html
 	image="/courses/ethereum-101/Proofs-02.png"
 	title=""
-	bodyText="<b>C:</b> <i>The probability of mining a block is dependent on how much work is done by the miner.</i>  <b>D:</b> <i>Person can "mine" depending on how many coins they hold.</i>"
+	bodyText="<b>C:</b> <i>The probability of mining a block is dependent on how much work is done by the miner.</i>  <b>D:</b> <i>Person can 'mine' depending on how many coins they hold.</i>"
 %}
 
 {% include callouts/imageWithCaption.html
