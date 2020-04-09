@@ -5,6 +5,10 @@
 .pageHeaderImage p {
     color: white;
 }
+.container {
+    padding-right: 0em;
+    padding-left: 0em;
+}
 p {
     padding: 0;
     padding-left: 0.5em;
@@ -115,6 +119,10 @@ span.eventDate {
     font-weight: 300;
     font-family: Roboto;
     line-height: 1.9em;
+}
+.eventOverview .row {
+    padding-left: 0em;
+    padding-right: 0em;
 }
 .row.photoLightbox {
     margin: 6em 0em;
