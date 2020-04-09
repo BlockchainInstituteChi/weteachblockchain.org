@@ -8,18 +8,16 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/3/security-concerns/
 <span class="openingParagraph">
 While the EVM is revolutionary, it's design creates some challenges for developers, which should be well understood before a mainnet launch can be considered. </span>
 
-&nbsp;
 <h3>PRIVACY ISSUES</h3>
 
 <hr />
 
-<img class="aligncenter size-full wp-image-16997" src="https://theblockchaininstitute.org/wp-content/uploads/2019/11/00_PrivateBC-01.png" alt="" width="2169" height="1006" />
+<img src="/assets/img/courses/ethereum-101/00_PrivateBC-01.png" />
 
 <span style="font-weight: 400;">Because all smart contracts are processed by each node on the network, all data that they use is visible to any participant. As a result, sensitive business data can often not be stored on chain, which complicates the design of such systems. Some solutions, such as Enigma, have proposed ways to handle this computation privately, but these are still in the early stages. </span>
 
 <span style="font-weight: 400;">The code of the contracts is also public on the EVM, which means that an attacker can read the code that they're trying to compromise to identify weaknesses.</span>
 
-&nbsp;
 <h3>LOOPHOLES</h3>
 
 <hr />
@@ -31,7 +29,7 @@ While the EVM is revolutionary, it's design creates some challenges for develope
 The DAO hack in 2016 resulted in the loss of a substantial amount of funds by such a large portion of the community that the <a href="https://www.ethereum.org/">Ethereum Foundation</a> proposed a fork in the blockchain. While much of the network adopted the fork, some miners continued to use the old record. This now comprises the cryptocurrency network Ethereum Classic. The miners who adopted the fork, thereby choosing to 'undo' the hack, now represent the core Ethereum network.
 
 </div>
-&nbsp;
+
 <h3>THIRD-PARTY RELIANCE</h3>
 
 <hr />
