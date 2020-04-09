@@ -46,6 +46,9 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	.eventMain h1::before {
+    		left: -4.5em;
+	}
     	.eventsList h1 {
         	margin-left: 0.85em;
     	}
