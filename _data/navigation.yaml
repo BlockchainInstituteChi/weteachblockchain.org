@@ -1,45 +1,63 @@
-- header: Learning
+- header: Learn
   children:
+  - name: Blockchain FAQs
+    link: /faq/
+    class: normal       
+
+  - name: Downloadable Resources
+    link: /downloads/
+    class: normal       
+
   - name: Courses
     link: /courses/
     class: normal
-  - name: Beginner Courses
+
+  - name: Beginner
     link: /courses/novice/
-    class: normal
-  - name: Developer Courses
+    class: child
+
+  - name: Developer
     link: /courses/developers/
-    class: normal
-  - name: Professionals Courses
+    class: child
+
+  - name: Professionals
     link: /courses/professionals/
-    class: normal
-  - name: Downloadable Resources
-    link: /downloads/
-    class: normal
-  - name: Blockchain FAQs
-    link: /faq/
-    class: normal    
-- header: Live
+    class: child
+
+- header: Engage
   children:
-  - name: Crypto Curious Course
-    link: /crypto-curious/
-    class: normal
-  - name: Developer Bootcamp
-    link: /developer-toolkit/
-    class: normal
-  - name: Events
+
+  - name: Blockchain Ambassadors
+    link: /ambassadors/
+    class: normal   
+
+  - name: Community
     link: /events/
     class: normal
+
+  - name: Classroom
+    link: /events/
+    class: normal    
+
+  - name: Crypto Curious Course
+    link: /crypto-curious/
+    class: child
+
+  - name: Developer Bootcamp
+    link: /developer-toolkit/
+    class: child
+
 - header: Contact
   children:
   - name: About
     link: /about/
     class: normal
+
   - name: Contact
     link: /contact-us/
     class: normal        
+
   - name: Press
     link: /press-releases/
     class: normal     
-  - name: Become a Blockchain Ambassador
-    link: /ambassadors/
-    class: normal      
+   

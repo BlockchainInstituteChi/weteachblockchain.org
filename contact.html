@@ -32,6 +32,7 @@ permalink: /contact-us/
         </div>
         <div class="col-sm-6 contactUsForm">
 			<h1>Leave a Message</h1>
+			<span class="errorField"></span>
 			<input type="text" placeholder="Name" id="contactUsName">
 			<input type="text" placeholder="Email" id="contactUsEmail">
 			<input type="text" placeholder="Subject" id="contactUsSubject">
@@ -53,9 +54,9 @@ permalink: /contact-us/
 			message : document.getElementById('contactUsMessageBody').value,
 			token : window.recaptchaToken
 		}
-		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return alert ('You must fill all fields to submit the form.')
-		if ( !validateEmail(formDetails.email) ) return alert ('You must submit a valid email.')
-		if ( !window.recaptchaToken ) return alert('You must verify you are not a robot by clicking the reCaptcha.')
+		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return handleError ('You must fill all fields to submit the form.')
+		if ( !validateEmail(formDetails.email) ) return handleError('You must submit a valid email.')
+		if ( !window.recaptchaToken ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
 		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
@@ -64,10 +65,10 @@ permalink: /contact-us/
 			console.log('xhr response:', xhr.responseText)
 			var response = JSON.parse(xhr.responseText)
 			if (response.success) {
-				alert("Success: " + response.success);
+				handleSuccess("Your Message has been submitted!");
 				window.location = "/"
 			} else {
-				alert("Error: " + JSON.stringify(response));
+				handleError("Error: " + JSON.stringify(response));
 			}
 		}
 		xhr.setRequestHeader('Content-Type', 'application/json');
@@ -83,6 +84,32 @@ permalink: /contact-us/
 		console.log('recaptcha callback triggered', token)
 		window.recaptchaToken = token;
 	}	
+	function handleError ( error ) {
+		var errorContainer = document.getElementsByClassName('errorField')[0];
+			errorContainer.textContent = error;
+	}
+	function handleSuccess ( successMessage ) {
+		var fieldContainer = document.getElementsByClassName('contactUsForm')[0]
+		
+		var container = document.createElement('div')
+			container.className = 'successMessage'
+
+		var span = document.createElement('span')
+			span.textContent = successMessage
+
+		var icon = document.createElement('i')
+			icon.className = "fas fa-check-circle"
+
+		container.appendChild(icon)
+		container.appendChild(span)
+
+		do {
+			fieldContainer.children[0].remove()
+		} while ( fieldContainer.children.length > 0 )
+
+		fieldContainer.appendChild(container)
+
+	}
 
 </script>
 
