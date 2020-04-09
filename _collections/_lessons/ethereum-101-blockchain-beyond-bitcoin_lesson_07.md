@@ -8,27 +8,26 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/3/accountable-design/
 <span class="openingParagraph">
 The most important purpose of the Ethereum blockchain is to provide a reliable way of verifying information and computation over time. Just as Bitcoin was designed to provide maximum accountability and maximum privacy for value transfer, Ethereum is designed from the ground up to be a decentralized computer.</span>
 
-&nbsp;
 <h3>THE STATE OBJECT</h3>
 
 <hr />
 
 <span style="font-weight: 400;">As we've explored already, the consensus mechanisms of the Ethereum Virtual Machine allow computers all over the world to share a common State Object. This unique characteristic allows the EVM to act as both the executive and judicial authority, enabling it to monitor events and track changes, and take corrective action automatically. </span>
 
-&nbsp;
 <h3>MERKLE TREES</h3>
 
 <hr />
 
 <span style="font-weight: 400;">As in the Bitcoin context, the EVM uses a chain of hash signatures to link information over time. In order to increase the amount of information that can be represented within a single hash, tree structures can be used to contain even more information. </span>
 
-<img class="aligncenter size-full wp-image-17021" src="https://theblockchaininstitute.org/wp-content/uploads/2019/11/MerkleTrees-01.png" alt="" width="2528" height="1090" />
-<div class="learnpressImageCaption">In a Merkle Tree, raw data is hashed, and the signatures of many data sets can be combined together to create a single very small signature for a large data set.</div>
-&nbsp;
+{% include callouts/imageWithCaption.html
+	image="/courses/ethereum-101/MerkleTrees-01.png"
+	title=""
+	bodyText="In a Merkle Tree, raw data is hashed, and the signatures of many data sets can be combined together to create a single very small signature for a large data set."
+%}
 
 <span style="font-weight: 400;">In the EVM this technique is employed to allow a very large State Object to exist without a signature of equal size. In fact, the entire hash signatures for the whole EVM make up only a fraction of its size. </span>
 
-&nbsp;
 <h3>TRANSITION FUNCTION</h3>
 
 <hr />
