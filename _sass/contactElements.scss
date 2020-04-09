@@ -76,3 +76,29 @@ strong {
     padding-top: .5em;
     line-height: 1.5em;
 }
+
+/* Error and success handling */
+span.errorField {
+    color: red;
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.successMessage {
+    font-size: 1.35em;
+    text-align: center;
+    display: block;
+    margin-top: 2em;
+}
+.successMessage span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 2em;
+    max-width: 80%;
+}
+.successMessage i {
+    font-size: 3.5em;
+    color: #00800096;
+}

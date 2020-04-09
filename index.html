@@ -146,8 +146,8 @@ ogUrl: https://weteachblockchain.org/
       Not ready to start a full course? Get some answers quick.
     </span>
     <div class="faqThumbnailContainer"> 
-      {% assign faqSample = site.faq | sample: 3 %}
-      {% for item in faqSample limit:3 %}
+      {% assign faqSample = site.faq | sample: 4 %}
+      {% for item in faqSample limit:4 %}
         {% include faqTile.html 
           image=item.image
           link=item.permalink

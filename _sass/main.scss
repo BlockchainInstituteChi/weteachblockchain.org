@@ -130,7 +130,6 @@ a.nav-link:hover {
     text-align: center;
 }   
 
-
 /* Social Nav */
 ul.navbar-nav.flex-row {
     padding-left: 1em;
@@ -204,6 +203,11 @@ li.nav-item.contactUsLink {
 .contactUsLink a {
     text-transform: uppercase;
     color: $brand-red;
+}
+
+/* Hierarchy Handling */
+.hoverNavbox a.nav-link.child::before {
+    content: '-' !important;
 }
 
 /* Account Hoverbox */
