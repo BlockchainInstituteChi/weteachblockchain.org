@@ -21,13 +21,8 @@ After Bitcoin officially launched in 2009, a number of other cryptocurrency proj
 {% include callouts/imageWithTextCallout.html 
     title="Dogecoin"
     image="/courses/ethereum-101/dogecoin-300.png"
-    bodyText=">In some cases, it's proven that it is not as important to innovate technically as it is to build a community around common goals. Dogecoin is essentially a complete clone of the Bitcoin protocol. It can even be mined simultaneously with it, which means it has a very small overhead cost.
-Dogecoin was intended to immortalize the Shiba Inu 'doge' meme, and has gathered quite a bit of support. In 2014, the Dogecoin community made waves by helping to send the Jamaican bobsled team to the Olympics. (This actually happened, we're not kidding!)"
+    bodyText="In some cases, it's proven that it is not as important to innovate technically as it is to build a community around common goals. Dogecoin is essentially a complete clone of the Bitcoin protocol. It can even be mined simultaneously with it, which means it has a very small overhead cost. Dogecoin was intended to immortalize the Shiba Inu 'doge' meme, and has gathered quite a bit of support. In 2014, the Dogecoin community made waves by helping to send the Jamaican bobsled team to the Olympics. (This actually happened, we're not kidding!)"
 %}
-
-
-</div>
-
 
 <h3>UPDATING THE BITCOIN CHAIN</h3>
 
