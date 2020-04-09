@@ -66,7 +66,9 @@ permalink: /contact-us/
 			var response = JSON.parse(xhr.responseText)
 			if (response.success) {
 				handleSuccess("Your Message has been submitted!");
-				window.location = "/"
+				setTimeout ( function () {
+					window.location = "/"
+				}, 3000)
 			} else {
 				handleError("Error: " + JSON.stringify(response));
 			}
