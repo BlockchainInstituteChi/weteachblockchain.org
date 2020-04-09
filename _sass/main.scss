@@ -230,9 +230,10 @@ li.nav-item.contactUsLink {
     top: -0.25em;
 }
 .account div#app {
-    font-size: 0.25em;
+    font-size: .35em;
     color: #4a1f1f;
     font-family: kanit;
+    text-align: right;
 }
 input.emailInput {
     float: right;
@@ -255,7 +256,7 @@ input.emailInput {
     margin-left: -1.55em;
 }
 .account button {
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-transform: uppercase;
     background: #ed0744;
     border: none;
@@ -263,6 +264,7 @@ input.emailInput {
     float: right;
     padding-left: 1em;
     padding-right: 1em;
+    font-weight: 500;
 }
 img.accountLight {
     left: .55em;
