@@ -14,17 +14,18 @@ Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4x
 
 <img src="/assets/img/courses/blockchain-101/error502.png" />
 
-&nbsp;
+
 <h3>A HISTORY OF BITCOIN</h3>
 <iframe id="historyIFrame" scrolling="no" frameBorder="0" src="https://history.theblockchaininstitute.org/" width="100%" min-height="calc(100% - 5em)"></iframe>
 <hr />
 
-<div class="tealCallout">
-<h6>Why Digital Cash?</h6>
-<blockquote>“The advent of high-quality color copiers threatens the security of paper money. The demands of guarding it make paper money expensive. The hassles of handling it (such as vending machines) make paper money undesirable. The use of credit cards and ATM cards is becoming increasingly popular, but those systems lack adequate privacy.”</blockquote>
+{% include callouts/callout.html
+    title="Why Digital Cash"
+    bodyText='The advent of high-quality color copiers threatens the security of paper money. The demands of guarding it make paper money expensive. The hassles of handling it (such as vending machines) make paper money undesirable. The use of credit cards and ATM cards is becoming increasingly popular, but those systems lack adequate privacy.'
+%}
 
 <hr />
 
-&nbsp;
-<div class="bigQuote">"Bitcoin was the beginning for cryptocurrency, however, it was 25 years in the making!"</div>
-&nbsp;
+{% include callouts/bigQuote.html
+  body="Bitcoin was the beginning for cryptocurrency, however, it was 25 years in the making!"
+%}
