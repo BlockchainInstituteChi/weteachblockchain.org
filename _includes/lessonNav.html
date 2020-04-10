@@ -65,18 +65,51 @@
       window.location.href = permalink
 
     }
+
+    function hideButtonsIfPageIsFirstOrLast() {
+      var module = thisLesson.module
+
+      // First, check if this is the first module
+      if ( "1" === module ) {
+
+        if ( thisLesson.link === lessonMap[module - 1].lessons[0].link ) {
+          // this is the first lesson, so hide the back button
+          hideBackButton()
+
+        }
+
+      } else if ( lessonMap.length == module ) {
+
+        // Then, check if this is the last lesson
+        if ( lessonMap[module - 1].lessons[lessonMap[module - 1].lessons.length - 1].link === thisLesson.link ) {
+          hideForwardButton();
+        }
+
+      }
+
+
+
+    }
+
+    function hideBackButton () {
+      document.getElementById('lastLessonButton').className += " d-none"
+    }
+
+    function hideForwardButton () {
+      document.getElementById('nextLessonButton').className += " d-none"
+    }
   </script>
   <section class="lessonNav">
     <div class="row">
       <div class="col-sm-4">
-        <a href="#" onclick="lastLesson()"><i class="fas fa-caret-left"></i> Back</a>
+        <a href="#" id="lastLessonButton" onclick="lastLesson()"><i class="fas fa-caret-left"></i> Back</a>
       </div>
       <div class="col-sm-4">
         <a href="#" onclick="toggleMenu()">Lessons</a>
       </div>
       <div class="col-sm-4">
-        <a href="#"  onclick="nextLesson()">Next <i class="fas fa-caret-right"></i></a>
+        <a href="#" id="nextLessonButton" onclick="nextLesson()">Next <i class="fas fa-caret-right"></i></a>
       </div>
     </div>
-
+    <script defer> hideButtonsIfPageIsFirstOrLast() </script>
   </section>

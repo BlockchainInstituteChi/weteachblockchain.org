@@ -61,6 +61,7 @@ function initSearch () {
 
 
 function toggleDisplaySearchLightbox () {
+
     if ( document.getElementById('searchLightbox').className.split('d-none').length > 1 ) {
 
         if ( typeof ( window.searchData ) === "undefined" ) {
@@ -68,6 +69,7 @@ function toggleDisplaySearchLightbox () {
             initSearch();
         }
 
+        closeOtherLightboxBeforeOpening () 
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className.split('d-none').join('')
 
     } else {
