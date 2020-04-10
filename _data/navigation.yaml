@@ -31,11 +31,11 @@
     link: /ambassadors/
     class: normal   
 
-  - name: Community
+  - name: Community Events
     link: /events/
     class: normal
 
-  - name: Classroom
+  - name: Classroom Sessions
     link: /events/
     class: normal    
 
