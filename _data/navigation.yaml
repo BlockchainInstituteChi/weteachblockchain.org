@@ -13,7 +13,7 @@
     class: normal
 
   - name: Beginner
-    link: /courses/novice/
+    link: /courses/beginners/
     class: child
 
   - name: Developer
