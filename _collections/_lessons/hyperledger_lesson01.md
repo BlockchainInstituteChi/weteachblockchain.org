@@ -25,7 +25,7 @@ Despite the rapid adoption of public distributed ledger systems, there are some 
 
 In the Bitcoin context, it's required that the blockchain act as a core system of trust. While this is still partially true in the private context, it's possible that in many situations the parties involved are already existing partners. In these cases, it may be better to think of the blockchain as a database with very strict controls that limit who can edit which information, and how different users can act within the system.
 
-<img class="aligncenter size-full wp-image-11625" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/PrivateBC-01.png" alt="" width="10195" height="3864" />
+<img src="/assets/img/courses/private-blockchains/PrivateBC-01.png" />
 
 Many IT systems, especially in privacy or high-risk situations such as healthcare or banking, have already implemented very complex database systems with strict access controls. In these cases, a Hyperledger or other private blockchain solution offers an efficient design pattern to provide system designers and stakeholders with reduced risk and robust privacy integration.
 
