@@ -270,3 +270,42 @@ img#lightBoxImage {
     margin: 25%;
     margin-top: calc(25% - 10em);
 }
+
+
+/* Big Quotes */
+.row.bigQuote {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+span.quoteBody {
+    text-align: center;
+    color: grey;
+}
+a.quoteSource {
+    text-align: center;
+    width: 100%;
+    margin-left: 2em;
+}
+// a.quoteSource::before {
+//     content: '- ';
+// }
+
+span.quoteBody::before {
+    content: '“';
+    z-index: -1;
+    font-size: 9em;
+    position: absolute;
+    top: 0.15em;
+    left: 0.25em;
+    color: lightgrey;
+}
+
+span.quoteBody::after {
+    content: '”';
+    z-index: -1;
+    font-size: 9em;
+    position: absolute;
+    top: 0.15em;
+    right: 0.25em;
+    color: lightgrey;
+}
