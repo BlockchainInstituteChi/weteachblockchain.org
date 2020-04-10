@@ -5,8 +5,8 @@ module: 3
 title: Next Steps
 permalink: /courses/hyperledger/3/next-steps
 ---
+<img src="/assets/img/Conclusion-01-2.png" />
 
-<h3><img class="aligncenter size-full wp-image-11295" src="https://theblockchaininstitute.org/wp-content/uploads/2019/07/Conclusion-01-2.png" alt="" width="10195" height="3875" /></h3>
 <h3>YOU'VE COMPLETED OUR HYPERLEDGER COURSE!</h3>
 
 <hr />
