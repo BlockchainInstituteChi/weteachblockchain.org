@@ -6,6 +6,7 @@ date: 2019-12-14
 eventdate: December 14th, 2019
 rsvpUrl: https://www.junioreconomicclub.org/home
 permalink: /events/junior_economic_club_workshop
+Event Type: Classroom
 ---
 <h2>Details</h2>
 Jeremy from the Blockchain Institute led a workshop for the Junior Economic Club of Chicago helping explain what exactly a blockchain is and how they work. The students were able to test out a new activity that let them play the part of a node and simulate the mining process. Prizes were won, fun was had and everyone walked away knowing a little bit more about blockchain and decentralized systems.
