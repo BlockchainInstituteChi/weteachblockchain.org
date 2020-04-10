@@ -16,3 +16,5 @@ permalink: /courses/blockchain-101/01/introduction-to-the-blockchain
 <img src="/assets/img/courses/blockchain-101/IntroductiontotheBlockchain_a-01.png" />
 
 <span style="font-weight: 400;">The architecture of a blockchain allows peers to interact in a trustless system without the aid of an intermediary. Blockchains are able to do this by having the network members reach consensus, a computationally-intensive process secured by cryptography. While there are many apparent benefits to blockchains, the technology is still relatively young and is yet to meet the full demand faced by networks today. Despite these unknowns, there is still a lot of intrigue over the potential impact of blockchain technologies.</span>
+
+---
