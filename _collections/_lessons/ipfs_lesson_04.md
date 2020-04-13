@@ -15,8 +15,9 @@ The really neat thing about using IPFS in the browser is that your files are dow
 
 When you reach the page, you'll be able to upload and download files from IPFS using the browser window.
 
-<img class="wp-image-1158 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1.-Initializing.png" alt="" width="1241" height="519" />
-<div class="learnpressImageCaption">
-Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!
-</div>
+{% include callouts/imageWithCaption.html
+	image="/courses/ipfs/1.-Initializing.png"
+	title=""
+	bodyText="Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!"
+%}
 
