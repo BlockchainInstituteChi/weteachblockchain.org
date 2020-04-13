@@ -11,9 +11,12 @@ permalink: /courses/ipfs/1/current-standards
 <span class="openingParagraph">
 The primary system employed by storage providers in the modern era is to use <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> and <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a> GET and POST requests to pull and place records in servers. While this system has functioned relatively well until now, it has a number of dangerous vulnerabilities derived from its centralized structure.</span>
 
-<img class="aligncenter size-full wp-image-11685" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/P2P_HTTP_IPFS-01-1.png" alt="" width="2816" height="1113" />
-<div class="learnpressImageCaption">Unlike typical online storage, IPFS nodes share the burden of storing data, and are economically incentivised to transmit it to one another. Early versions of this technology allowed the creation of torrents and products like Napster.</div>
-<br>
+{% include callouts/imageWithCaption.html
+	image="/courses/ipfs/P2P_HTTP_IPFS-01-1.png"
+	title=""
+	bodyText="Unlike typical online storage, IPFS nodes share the burden of storing data, and are economically incentivised to transmit it to one another. Early versions of this technology allowed the creation of torrents and products like Napster."
+%}
+
 
 In particular, when HTTP calls are routed, they use the central domain service to request files by their relation to a particular URL. As a result, all files on the network must belong to a particular domain and must be hosted on a particular connected device.
 
