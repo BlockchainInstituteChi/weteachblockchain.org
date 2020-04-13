@@ -277,18 +277,17 @@ img#lightBoxImage {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
 span.quoteBody {
     text-align: center;
     color: grey;
 }
+
 a.quoteSource {
     text-align: center;
     width: 100%;
     margin-left: 2em;
 }
-// a.quoteSource::before {
-//     content: '- ';
-// }
 
 span.quoteBody::before {
     content: '“';

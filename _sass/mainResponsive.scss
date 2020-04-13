@@ -6,6 +6,16 @@
 /* Tablet */
 @media screen and (max-width: 800px ) {
 
+	// Hide My Account Icon on Mobile
+	li#accountToggle {
+		display: none !important;
+	}
+	
+	// Always show my account dropdown
+	div#accountDropdown {
+		display: block !important;
+	}
+
     /* Page Header */
     .pageHeaderImage .col-sm-6 {
         min-width: calc(100vw - 6em);
@@ -39,7 +49,8 @@
     li.nav-item.ml-auto.search {
         width: calc(100% - 2em);
         border: 1px solid $brand-green;
-        margin: 1em;
+		margin: 1em;
+		margin-top: 0;
     }
     li.nav-item.ml-auto.navbox {
         width: calc(100% - 2em);
