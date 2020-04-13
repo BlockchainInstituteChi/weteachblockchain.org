@@ -10,10 +10,13 @@ permalink: /courses/ipfs/1/general-architecture
 <span> <span class="openingParagraph">
 While this course will mainly focus on IPFS, there are a number of proposed solutions to blockchain-based and decentralized storage. The general architecture remains quite similar between them, so it will help to review how these systems operate before comparing them.</span>
 
-<img class="alignnone wp-image-14623 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/StorageWorks-01-1.png" alt="" width="2880" height="2072" />
-<div class="learnpressImageCaption"><b>HOW BLOCKCHAIN STORAGE WORKS:</b> <b>A:</b> <i>Data;</i> <b>B:</b> <i>Shards;</i> <b>C:</b> <i>Encrypted Shards;</i> <b>D:</b> <i>Hashes;</i> <b>E:</b> <i>Blockchain Ledger;</i> <b>F:</b> <i>Distributed Nodes with Synced Ledger;</i> <b>1:</b> <i>Shard Data;</i> <b>2:</b> <i>Encrypt Shards;</i> <b>3:</b> <i>Generate Hashes;</i> <b>4:</b> <i>Replicate Shards;</i> <b>5:</b> <i>Distribute Shards;</i> <b>6:</b> <i>Record Transactions.</i>
-Because blockchains must be stored on all nodes of the network, data on them is expensive. As a result, hashes are used to represent an image of each piece of a file, and the pieces can then be safely distributed to storage nodes without risk of substitution of compromise.</div>
-&nbsp;
+{% include callouts/imageWithCaption.html
+	image="/courses/ipfs/StorageWorks-01-1.png"
+	title="<b>HOW BLOCKCHAIN STORAGE WORKS:</b>"
+	bodyText="<b>A:</b> <i>Data;</i> <b>B:</b> <i>Shards;</i> <b>C:</b> <i>Encrypted Shards;</i> <b>D:</b> <i>Hashes;</i> <b>E:</b> <i>Blockchain Ledger;</i> <b>F:</b> <i>Distributed Nodes with Synced Ledger;</i> <b>1:</b> <i>Shard Data;</i> <b>2:</b> <i>Encrypt Shards;</i> <b>3:</b> <i>Generate Hashes;</i> <b>4:</b> <i>Replicate Shards;</i> <b>5:</b> <i>Distribute Shards;</i> <b>6:</b> <i>Record Transactions.</i>
+Because blockchains must be stored on all nodes of the network, data on them is expensive. As a result, hashes are used to represent an image of each piece of a file, and the pieces can then be safely distributed to storage nodes without risk of substitution of compromise."
+%}
+
 <h3>GENERAL PROCESS</h3>
 
 <hr />
