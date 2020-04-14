@@ -4,7 +4,10 @@ section .row {
  
 
 /* Image with Text Callout */
-.imageWithTextCallout .col-md-8 {
+.row.imageWithTextCallout {
+    margin: 0em;
+}
+.imageWithTextCallout .col-md-9 {
     padding-top: calc(10% - 2em);
 }
 .imageWithTextCallout img {
