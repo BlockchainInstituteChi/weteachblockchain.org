@@ -51,3 +51,4 @@ In 2010, Satoshi Nakamoto handed over control of Bitcoin to the community member
 
 <span style="font-weight: 400;"> But what problems did Bitcoin solve that were the demise of many digital cash projects? Check out our next lesson to find out!</span>
 
+
