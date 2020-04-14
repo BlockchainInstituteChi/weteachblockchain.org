@@ -198,10 +198,10 @@ section .row {
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
-    background-color: #eeefef;
+    background-color: black;
 }
 .terminal .col-md-1 {
-    background: black;
+    background: #333334;
     padding-right: 0;
     padding-left: 0;
     font-size: 1.5em;
@@ -209,7 +209,7 @@ section .row {
 .terminal h1 {
     margin-left: 0;
     padding: 0;
-    color: black;
+    color: white;
     font-size: 1.25em;
     font-weight: 600 !important;
     margin-bottom: .2em;
@@ -227,8 +227,9 @@ section .row {
     left: 37%;
 }
 .terminal span {
-    color: green;
+    color: white;
     font-family: monospace;
+    font-weight: 700;
 }
 span.userName {
     color: purple;
@@ -238,6 +239,10 @@ span.userName {
     background: black;
     padding-left: 0.5em;
     color: white;
+}
+.col-md-11.terminalBody {
+    padding: 0em;
+    margin: 0em;
 }
 
 /* Photo Gallery */
