@@ -1,4 +1,5 @@
 <div class="row imageWithTextCallout">
+    {% include pinkDivider.html %}
     <div class="col-md-3">
         <img src="/assets/img/{{ include.image }}">
     </div>
@@ -6,4 +7,5 @@
         <h4>{{ include.title }}</h4>
         <span>{{ include.bodyText }}</span>
     </div>
+    {% include pinkDividerBottom.html %}
 </div>
