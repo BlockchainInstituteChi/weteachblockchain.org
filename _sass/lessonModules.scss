@@ -12,8 +12,9 @@ section .row {
 }
 .imageWithTextCallout img {
     border-radius: 50%;
-    padding: 25%;
+    padding: 0em;
     vertical-align: top;
+    max-width: 100%;
 }
 
 /* TextCallout */
