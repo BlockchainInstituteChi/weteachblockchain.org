@@ -5,7 +5,7 @@ section .row {
 
 /* Image with Text Callout */
 .row.imageWithTextCallout {
-    margin: 0em;
+    margin: 2em 0em;
     max-width: 100%;
 }
 .imageWithTextCallout .col-md-9 {
@@ -15,7 +15,9 @@ section .row {
     border-radius: 50%;
     padding: 0em;
     vertical-align: top;
-    max-width: 100%;
+    max-width: 70%;
+    position: absolute;
+    left: 15%;
 }
 .imageWithTextCallout h4 {
     text-transform: uppercase;
