@@ -5,6 +5,7 @@ image: 0011_21_PizzaDay.jpg
 date: 2018-05-22
 eventdate: Tuesday, May 22, 2018
 permalink: /events/bitcoin_pizza_day_2018
+Event Type: Community
 ---
 Every year on May 22, Bitcoin supporters around the world celebrate the first recorded purchase of a good ever conducted on the blockchain, which was for two pizzas.
 
