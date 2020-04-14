@@ -276,11 +276,17 @@ img#lightBoxImage {
 .row.bigQuote {
     margin-top: 2em;
     margin-bottom: 2em;
+    position: relative;
+    min-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 span.quoteBody {
     text-align: center;
     color: grey;
+    width: 100%;
+    font-size: 1.25em;
 }
 
 a.quoteSource {
@@ -294,8 +300,8 @@ span.quoteBody::before {
     z-index: -1;
     font-size: 9em;
     position: absolute;
-    top: 0.15em;
-    left: 0.25em;
+    top: -0.5em;
+    left: 0;
     color: lightgrey;
 }
 
@@ -304,7 +310,7 @@ span.quoteBody::after {
     z-index: -1;
     font-size: 9em;
     position: absolute;
-    top: 0.15em;
-    right: 0.25em;
+    top: -0.5em;
+    right: 0;
     color: lightgrey;
 }

@@ -24,16 +24,13 @@ A deterministic wallet is nothing more than a way to regenerate many addresses f
 {% include callouts/imageWithCaption.html
 	image="/courses/blockchain-security/Heirarchical-01.png"
 	title="HIERARCHICAL DETERMINISTIC"
-	bodyText="<b>A:</b> <i>Seed;</i> <b>B:</b> <i>Master Key;</i> <b>C:</b> <i>Child Keys;</i> <b>D:</b> <i>Grandchild Keys.</i>
-Hierarchical deterministic wallets use a seed phrase to generate multiple pseudonymous identities. This increases security by obfuscating the user's transaction history, and can even be implemented to use a new private key for every transaction."
+	bodyText="<b>A:</b> <i>Seed;</i> <b>B:</b> <i>Master Key;</i> <b>C:</b> <i>Child Keys;</i> <b>D:</b> <i>Grandchild Keys.</i>Hierarchical deterministic wallets use a seed phrase to generate multiple pseudonymous identities. This increases security by obfuscating the user's transaction history, and can even be implemented to use a new private key for every transaction."
 %}
 <br>
-<h4>How it works</h4>
-
-<hr />
-
-The best way to understand how HD wallets work is by using one in real time. Fortunately, there is a handy <a href="http://bip32.org/">BIP32 Deterministic Key Generator</a> available online for us to play with! Although the specific derivation paths (algorithms) used vary between tokens, the concept is similar across platforms.
-&nbsp;
+{% include callouts/callout.html
+    title="Try it yourself!"
+    bodyText='The best way to understand how HD wallets work is by using one in real time. Fortunately, there is a handy <a href="http://bip32.org/">BIP32 Deterministic Key Generator</a> available online for us to play with! Although the specific derivation paths (algorithms) used vary between tokens, the concept is similar across platforms.'
+%}
 
 <h3>SEED PHRASES</h3>
 
