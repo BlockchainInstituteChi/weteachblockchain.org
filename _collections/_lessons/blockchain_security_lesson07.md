@@ -15,12 +15,19 @@ Think about it this way: if you're barricaded in a room and there is only a sing
 %}
 
 <h3>ALTERNATIVES TO CENTRALIZATION</h3>
+Depending on the degree of centralization which is acceptable, it is possible to adapt the network topography. Federated system provide a mid-ground for decentralized solutions, but commonly come at the cost of network security.
+
 <hr />
 
-<h4>Federation</h4>
-Federated services allow multiple providers to offer an identical service under a single integration endpoint, but in many cases, these networks do not currently have enough separate providers to ensure stability. As a result, it is possible that a single service like this could be attacked and result in the compromise of the wider network. Sometimes these use bridges to make interacting with the federated servers easier, but the bridge can turn into a point of failure itself.
-<h4>Peer-to-Peer</h4>
-Another option is to leverage a full peer-to-peer environment. This reduces our reliance on bridges and helps alleviate some network constraints that centralized networks are prone to. Of course, this can be very difficult to achieve a substantial mass of interest. This leads to lopsided access for less popular content. For example, looking at the <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent network</a>, the newest content moves fastest, while old contents suffer from lack of nodes hosting the data. One solution to this is to offer economic incentives for users who help to support the diversity of the network. This is a critical area where cryptoeconomics may be a boon for future protocols.
+{% include callouts/definition.html
+	title="Federation"
+	bodyText="Federated services allow multiple providers to offer an identical service under a single integration endpoint, but in many cases, these networks do not currently have enough separate providers to ensure stability. As a result, it is possible that a single service like this could be attacked and result in the compromise of the wider network. Sometimes these use bridges to make interacting with the federated servers easier, but the bridge can turn into a point of failure itself."
+%}
+{% include callouts/definition.html
+	title="Peer-to-Peer"
+	bodyText='Another option is to leverage a full peer-to-peer environment. This reduces our reliance on bridges and helps alleviate some network constraints that centralized networks are prone to. Of course, this can be very difficult to achieve a substantial mass of interest. This leads to lopsided access for less popular content. For example, looking at the <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent network</a>, the newest content moves fastest, while old contents suffer from lack of nodes hosting the data. One solution to this is to offer economic incentives for users who help to support the diversity of the network. This is a critical area where cryptoeconomics may be a boon for future protocols.'
+%}
+
 
 <h3>REDUCING TECHNICAL RISK</h3>
 <hr />
