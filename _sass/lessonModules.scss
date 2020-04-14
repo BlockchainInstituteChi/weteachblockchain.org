@@ -6,6 +6,7 @@ section .row {
 /* Image with Text Callout */
 .row.imageWithTextCallout {
     margin: 0em;
+    max-width: 100%;
 }
 .imageWithTextCallout .col-md-9 {
     padding-top: 1em;
