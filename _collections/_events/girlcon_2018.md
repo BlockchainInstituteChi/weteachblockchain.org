@@ -6,6 +6,7 @@ date: 2018-06-16
 eventdate: Saturday, June 16, 2018
 permalink: /events/girlcon_2018
 rsvpUrl: https://girlcon.com/
+Event Type: Community
 ---
 A special focus of the Blockchain Institute has been to promote education among younger audiences who have the potential to be the next generation of software designers.
 
