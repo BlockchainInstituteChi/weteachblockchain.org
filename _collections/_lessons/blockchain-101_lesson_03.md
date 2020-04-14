@@ -47,7 +47,7 @@ Satoshi's thoughts on the banking system give us some clues as to why he built a
 {% include callouts/imageWithCaption.html
     image="/assets/img/courses/blockchain-101/Hal_Finney_computer_scientist.jpg"
     title="Hal Finney"
-    bodyText="The very first Bitcoin transaction took place between Satoshi and <a href="https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)">Hal Finney</a>, a cypherpunk and programmer. While some suspect that Hal Finney may be the person behind the Satoshi pseudonym, this was never proven. After a five year battle with ALS, Hal Finney passed away in 2014."
+    bodyText="The very first Bitcoin transaction took place between Satoshi and <a href='https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)'>Hal Finney</a>, a cypherpunk and programmer. While some suspect that Hal Finney may be the person behind the Satoshi pseudonym, this was never proven. After a five year battle with ALS, Hal Finney passed away in 2014."
 %}
 
 In 2010, Satoshi Nakamoto handed over control of Bitcoin to the community members and stopped working on it himself. Until that point, all of Bitcoin's code had been written by Nakamoto.
