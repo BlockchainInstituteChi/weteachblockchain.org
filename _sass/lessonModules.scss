@@ -237,8 +237,13 @@ span.userName {
 .shellField {
     font-weight: 200;
     background: black;
-    padding-left: 0.5em;
+    padding-left: 0em;
     color: white;
+    padding-top: .75em;
+}
+.shellField span.userName {
+    font-size: 1.2em;
+    font-weight: 300;
 }
 .col-md-11.terminalBody {
     padding: 0em;
