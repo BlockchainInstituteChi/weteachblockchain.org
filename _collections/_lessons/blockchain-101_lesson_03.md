@@ -25,9 +25,9 @@ What we do know of Satoshi comes from his posts on the P2P Foundation and the co
 
 
 {% include callouts/bigQuote.html
-	body="The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
-	sourceName=
-	sourceUrl=
+	body="03/Jan/2009 Chancellor on brink of second bailout for banks."
+	sourceName="The Times"
+	sourceUrl="https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h"
 %}
 </div></blockquote>
 This line references a Times of London article that discussed an additional bailout for the banks after the 2008 financial crisis.
