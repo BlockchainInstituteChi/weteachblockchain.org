@@ -106,6 +106,16 @@
     img#lightBoxImage {
         margin-top: calc(50vh - 8em);
     }
+span.quoteBody::before {
+    font-size: 6em;
+    top: 0.75em;
+    left: -.23em;
+}
+span.quoteBody::after {
+    font-size: 6em;
+    top: 0.75em;
+    right: -.05em;
+}
     
 }
 
