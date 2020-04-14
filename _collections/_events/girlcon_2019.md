@@ -6,6 +6,7 @@ date: 2019-06-15
 eventdate: Saturday, June 15, 2019
 permalink: /girlcon_2019/
 rsvpUrl: https://girlconchicago.com/
+Event Type: Community
 ---
 Blockchain Institute was proud to sponsor and participate in Girlcon 2019!
 
