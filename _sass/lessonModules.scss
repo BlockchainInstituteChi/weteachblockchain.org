@@ -338,3 +338,20 @@ span.quoteBody::after {
     right: 0.25em;
     color: lightgrey;
 }
+
+/*Pink Strips Divider*/
+section.upPinkStripesDivider {
+    height: 7em;
+    background: url(/assets/img/pink-stripes-divider.png);
+    margin-top: 2em;
+    background-size: cover;
+    min-width: 100%;
+}
+section.downPinkStripesDivider {
+    height: 8em;
+    background: url(/assets/img/pink-stripes-divider-bottom.png);
+    margin-top: 0em;
+    background-size: cover;
+    min-width: 100%;
+    margin-bottom: 2em;
+}
