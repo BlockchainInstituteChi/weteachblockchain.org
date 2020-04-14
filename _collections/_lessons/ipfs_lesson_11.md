@@ -13,10 +13,12 @@ We’re now online, so we can try downloading a file from the network.</span>
 <code class="cli">ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg &gt; cat.jpg
 $ open cat.jpg</code>
 
-<img class="wp-image-1931 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/cat.jpg" alt="Cute kitten photo" width="1280" height="800" />
-<div class="learnpressImageCaption">
-  Here’s a kitty from the decentralized web!
-</div>
+{% include callouts/imageWithCaption.html
+	image="/courses/ipfs/cat.jpg"
+	title=""
+	bodyText="Here’s a kitty from the decentralized web!"
+%}
+
 <br>
 
 If everything is working properly, you should now see an image file open with a picture of a cat! This image file is now on your computer, but you didn’t get it over HTTP, and it may have been downloaded from any of hundreds of IPFS nodes around the world.
