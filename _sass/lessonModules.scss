@@ -43,7 +43,7 @@ section .row {
 /* Image with Caption */
 .row.imageWithCaption {
     min-width: 100%;
-    margin: 1em 0 1em 0;
+    margin: 2em 0 2em 0;
 }
 .imageWithCaption .col-md-12 {
     padding: 0;
@@ -286,6 +286,7 @@ span.userName {
     background: black;
     width: 100%;
     overflow: hidden;
+    margin: 2em 0em;
 }
 .imageGallery {
     display: block;
