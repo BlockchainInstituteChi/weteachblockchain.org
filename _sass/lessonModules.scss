@@ -5,7 +5,8 @@ section .row {
 
 /* Image with Text Callout */
 .row.imageWithTextCallout {
-    margin: 2em .5em;
+    margin: 2em .5em 2em 0em;
+    min-width: 90%;
     max-width: 100%;
 }
 .imageWithTextCallout .col-md-9 {
@@ -42,8 +43,9 @@ section .row {
 
 /* Image with Caption */
 .row.imageWithCaption {
-    min-width: 100%;
-    margin: 2em .5em 2em .5em;
+    min-width: 90%;
+    max-width: 100%;
+    margin: 2em .5em 2em 0em;
 }
 .imageWithCaption .col-md-12 {
     padding: 0;
@@ -66,11 +68,12 @@ section .row {
 .row.definition {
     color: white;
     margin-left: .5em;
-    margin-right: .5em;
-    min-width: 100%;
+    margin-right: 0em;
+    min-width: 90%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #003449;
+    max-width: 100%;
 }
 .definition .col-md-1 {
     background: #415c6b;
@@ -101,11 +104,12 @@ section .row {
 .row.note {
     color: white;
     margin-left: .5em;
-    margin-right: .5em;
-    min-width: 100%;
+    margin-right: 0em;
+    min-width: 90%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #941f6c;
+    max-width: 100%;
 }
 .note .col-md-11 {
     padding-top: 2em;
@@ -128,11 +132,12 @@ section .row {
 .row.callout {
     color: white;
     margin-left: .5em;
-    margin-right: .5em;
-    min-width: 100%;
+    margin-right: 0em;
+    min-width: 90%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #0b9ba4;
+    max-width: 100%;
 }
 .callout .col-md-1 {
     background: #3cb0b6;
@@ -164,11 +169,12 @@ section .row {
 .row.codeSnippet {
     color: black;
     margin-left: .5em;
-    margin-right: .5em;
-    min-width: 100%;
+    margin-right: 0em;
+    min-width: 90%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #eeefef;
+    max-width: 100%;
 }
 .codeSnippet .col-md-1 {
     background: #848486;
@@ -217,11 +223,12 @@ section .row {
 .row.terminal {
     color: black;
     margin-left: .5em;
-    margin-right: .5em;
-    min-width: 100%;
+    margin-right: 0em;
+    min-width: 90%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: black;
+    max-width: 100%;
 }
 .terminal .col-md-1 {
     background: #333334;
@@ -284,9 +291,10 @@ span.userName {
 .row.photoLightbox {
     margin: 0;
     background: black;
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     overflow: hidden;
-    margin: 2em .5em;
+    margin: 2em .5em 2em 0em;
 }
 .imageGallery {
     display: block;
