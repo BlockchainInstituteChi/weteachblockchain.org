@@ -5,7 +5,7 @@ section .row {
 
 /* Image with Text Callout */
 .row.imageWithTextCallout {
-    margin: 2em 0em;
+    margin: 2em .5em;
     max-width: 100%;
 }
 .imageWithTextCallout .col-md-9 {
@@ -43,7 +43,7 @@ section .row {
 /* Image with Caption */
 .row.imageWithCaption {
     min-width: 100%;
-    margin: 2em 0 2em 0;
+    margin: 2em .5em 2em .5em;
 }
 .imageWithCaption .col-md-12 {
     padding: 0;
@@ -65,8 +65,8 @@ section .row {
 /* Definition */
 .row.definition {
     color: white;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5em;
+    margin-right: .5em;
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -100,8 +100,8 @@ section .row {
 /*Note*/
 .row.note {
     color: white;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5em;
+    margin-right: .5em;
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -127,8 +127,8 @@ section .row {
 /*Callout*/
 .row.callout {
     color: white;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5em;
+    margin-right: .5em;
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -163,8 +163,8 @@ section .row {
 /*Code Snippet*/
 .row.codeSnippet {
     color: black;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5em;
+    margin-right: .5em;
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -216,8 +216,8 @@ section .row {
 /* Terminal */
 .row.terminal {
     color: black;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: .5em;
+    margin-right: .5em;
     min-width: 100%;
     margin-bottom: 2em;
     margin-top: 2em;
@@ -286,7 +286,7 @@ span.userName {
     background: black;
     width: 100%;
     overflow: hidden;
-    margin: 2em 0em;
+    margin: 2em .5em;
 }
 .imageGallery {
     display: block;
@@ -309,8 +309,7 @@ img#lightBoxImage {
 
 /* Big Quotes */
 .row.bigQuote {
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin: 3em .5em;
 }
 
 span.quoteBody {
