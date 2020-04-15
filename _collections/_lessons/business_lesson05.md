@@ -13,18 +13,16 @@ While blockchains have shown promise, many have been attracted to the technology
 
 <span style="font-weight: 400;">This phenomenon was illustrated several times over during 2017, which saw between four and five billion dollars invested by way of a new fundraising method via the Ethereum Blockchain known as an Initial Coin Offering (ICO). Like an Initial Public Offering (IPO), an ICO allows investors a first opportunity at buying some newly introduced tokens. By the end of 2017, several ICOs were being conducted each day. ICOs tended to bring in millions of dollars, however, some projects got creative with their fundraising. For example, EOS, a blockchain that allows for the development of dApps, held an ICO a day for a full year, bringing in over four billion dollars. As mentioned, most ICOs were conducted on Ethereum's blockchain.</span>
 
-<img class="aligncenter size-full wp-image-12820" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/WildWest-01.png" alt="" width="9037" height="3249" />
+<img src="/assets/img/courses/blockchain-for-business/WildWest-01.png" />
 
 <span style="font-weight: 400;">The early days of ICOs were like the wild west, with very few regulations. This allowed unaccredited investors to get into the action. However, this has since changed as the United States’ Securities and Exchange Commission has made a clear stance of the sale of cryptocurrencies that may be considered a security. </span><span style="font-weight: 400;">As a result, basic compliance such as Know Your Customer and Anti-Money Laundering laws have largely been instituted for American investors and cryptocurrency exchanges located in that jurisdiction. Despite these restrictions, 2018 saw ICOs continue to be a popular method of raising funds and distributing tokens.</span>
 
-&nbsp;
 <h3>BANKING</h3>
 
 <hr />
 
 <span style="font-weight: 400;">Sending money across international borders is commonplace, however, the associated fees are exorbitant. Bitcoin has already proven to be an inexpensive but efficient way to send money across the globe. Banks and wire transfer services take up to a 20% remittance fee. Additionally, Bitcoin network fees are determined by the size of the data being transacted instead of the amount transferred. Transfer fees can be drastically cut by using cryptocurrency and a blockchain. Sending a large amount of value costs dollars, if not cents, in fees. Several economies are in crisis around the world, including Venezuela. The bolivar has become massively inflated, and there are several accounts of individuals surviving off of Bitcoin transfers from family or friends outside Venezuela’s borders.</span>
 
-&nbsp;
 <h3>AUDITS AND ASSURANCE</h3>
 
 <hr />
@@ -38,7 +36,7 @@ While blockchains have shown promise, many have been attracted to the technology
 
 <span style="font-weight: 400;">The availability of capital has reached new heights with decentralized finance. A loan applicant is no longer at the mercy of a bank, making them much more likely to find a lender. Half of the world lacks basic banking services. These countries have been completely neglected, and have been stuck in a developing stage without gaining any real progress. </span><span style="font-weight: 400;">Microloans have shown that they can greatly impact local and regional economies, and have lifted thousands out of poverty as a result. More of these opportunities will be facilitated by decentralized financial protocols, allowing a more inclusive global economy that addresses those who have been long neglected. </span>
 
-<img class="aligncenter size-full wp-image-12821" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Stablecoins-01.png" alt="" width="9037" height="4188" />
+<img src="/assets/img/courses/blockchain-for-business/Stablecoins-01.png" />
 
 <span style="font-weight: 400;">You can't address decentralized finance and leave out stablecoins. The popularization of these fiat-backed cryptocurrencies has allowed for greater awareness and accessibility of the cryptocurrency ecosystem, including Decentralized Finance (DeFi) projects. Institutions have even started creating their own stablecoins as a means of entering the market. Traditional finance is slowly embracing decentralized finance, not because of choice, but because of survival. While this is a positive sign for decentralized technology, it comes with a price. Traditional financial institutions might have a large role in shaping the DeFi landscape, possibly undermining the decentralized principles that blockchains were built upon.</span>
 
