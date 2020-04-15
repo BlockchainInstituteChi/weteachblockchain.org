@@ -196,10 +196,13 @@ section.lessonNav {
     height: auto;
 }
 .lessonContent span.openingParagraph {
-    color: #00698b;
+    color: #00648c;
     text-transform: uppercase;
     display: block;
-    font-size: 1em;
+    font-size: .9em;
+    font-family: kanit;
+    font-weight: 300;
+    letter-spacing: .02em;
 }
 .lessonContent span {
     color: black;
