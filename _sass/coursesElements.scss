@@ -189,7 +189,7 @@ section.lessonNav {
 /* Content Element Styles */
 .lessonContent iframe {
     width: 100%;
-    margin: 3em 1.7em 3em 1.7em;
+    margin: 3em .5em 3em .5em;
 }
 .lessonContent img {
     width: 100%;
@@ -199,12 +199,30 @@ section.lessonNav {
     color: #00648c;
     text-transform: uppercase;
     display: block;
-    font-size: .9em;
-    font-family: kanit;
-    font-weight: 300;
+    font-size: 1.4em;
+    font-family: Kanit !important;
+    font-weight: 400;
     letter-spacing: .02em;
+    line-height: 1.75em;
+    margin-bottom: 1em;
 }
 .lessonContent span {
     color: black;
     font-size: 0.75em;
+}
+.lessonContent p {
+    padding: 0;
+    padding-left: .5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+    padding-right: .5em;
+}
+.lessonContent h3 {
+    color: black;
+    font-size: 1.5em;
+    padding-left: .25em;
+    margin-top: 2em;
 }
