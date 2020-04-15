@@ -202,7 +202,10 @@ li.nav-item.contactUsLink {
 }
 .contactUsLink a {
     text-transform: uppercase;
-    color: $brand-red;
+    color: #ed0744;
+    font-family: kanit;
+    letter-spacing: .05em;
+    font-weight: 500;
 }
 
 /* Hierarchy Handling */
