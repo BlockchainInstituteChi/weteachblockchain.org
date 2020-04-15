@@ -8,8 +8,6 @@ permalink: /courses/decentralized-storage/1/background/
 <span class="openingParagraph">In the early days of computing, <a href="https://en.wikipedia.org/wiki/Data_storage">storage devices</a> were coupled with processing units in single purpose systems. With the introduction of the internet and high-speed broadband, these two components are now commonly separated, often by hundreds of miles. As cloud services have grown, the notion of storage has shifted from individual hard drives and physical devices to a network of high-availability devices which a client device can access for a fee.
 </span>
 
-
-
 Storage is a key component of computers. <a href="https://en.wikipedia.org/wiki/Player_piano">Player Pianos</a>, dating back to the early 18th century, were the first real form of digital storage. The notches on a steel cylinder pulled tensioned lines, effectively playing a song when the springs were pulled by an attendant. Our modern hard drives are not much more complex than this, using electrical charge rather than the mechanical potential of spring, but otherwise very similar.
 
 {% include callouts/imageWithCaption.html
