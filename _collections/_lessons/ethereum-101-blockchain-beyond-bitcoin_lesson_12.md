@@ -32,4 +32,4 @@ Instead of wasting energy to prove authenticity, a staking model would allow net
 	bodyText="<b>G:</b> <i>POW systems have powerful mining communities, but tend to become centralized over time.</i>  <b>H:</b> <i>POS systems are more decentralized, but must work hard to build communities around their coins.</i>"
 %}
 
-<span style="font-weight: 400;">As the network grows, it is anticipated that a Proof-of-Stake based system would provide a less wasteful solution, while also enabling greater scale of block production. In the meantime, Proof-of=Work has proven to be a suitable solution for most applications.</span>
+<span>As the network grows, it is anticipated that a Proof-of-Stake based system would provide a less wasteful solution, while also enabling greater scale of block production. In the meantime, Proof-of=Work has proven to be a suitable solution for most applications.</span>
