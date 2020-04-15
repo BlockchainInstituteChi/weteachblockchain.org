@@ -18,13 +18,12 @@ Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus me
 <h4>EOS</h4>
 <span style="font-weight: 400;">21 block producers are elected by EOS holders. Block producers are tasked with compiling data into a block, essentially confirming valid transactions to get a block reward. These block producers must stake their EOS, and are randomly chosen to produce the next block. If EOS holders are unhappy with a block producer, they can be voted out and a new block producer is elected. </span><span style="font-weight: 400;">Rewards are very high for block producers, as they collect all transaction fees collected by the network. This provides an incentive for block producers to follow network protocol. </span><span style="font-weight: 400;">This consensus method is known as Delegated Proof-of-Stake or dPoS. It functions as a senate or representative legislative body. EOS holders elect representatives in block producers, who make the crucial decisions and confirmations needed to sustain the network.</span>
 
-&nbsp;
 <h3>A CASE STUDY: THE BTC vs BCH SPLIT</h3>
 
 <hr />
 
-<h4><img class="aligncenter size-full wp-image-12810" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/CaseStudySplit-01.png" alt="" width="9037" height="2912" /></h4>
-&nbsp;
+<img src="/assets/img/courses/blockchain-for-business/CaseStudySplit-01.png" />
+
 <h4>What is the significance of August 1st, 2017 in the Bitcoin community?</h4>
 <span style="font-weight: 400;">One of the most contentious forks in cryptocurrency history occurred when Bitcoin Cash split from the main Bitcoin blockchain, creating a separate chain and cryptocurrency. This happened on August 1st, 2017. That date was the culmination of the scaling debate surrounding blockchain. Essentially, the Bitcoin network had seen a recent increase in activity from the previous year and there had been a huge increase in transaction volume. We’ll talk about scaling in the next lesson but put simply, scaling addresses the question of how the Bitcoin network can handle the extra strain put on the network.</span>
 <h4>How did this affect the bitcoin holders?</h4>
