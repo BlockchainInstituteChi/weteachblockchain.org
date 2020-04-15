@@ -25,7 +25,6 @@ This is the staging repo for static site generation via Jekyll. This repo compil
    * [Responsive Design](#responsive-multi-device)
 10. [Chunk Includes](#chunk-includes)
 
-
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
 
@@ -294,7 +293,8 @@ Definitions have a title and a body value. The title should be plain text, but t
 
 ```
 {% include callouts/callout.html
-	bodyText="<h1>Title</h1><span>html formatted string for the body of the callout</span>"
+   title="Title"
+	bodyText="html formatted string for the body of the callout"
 %}
 ```
 

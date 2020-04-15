@@ -12,7 +12,9 @@ Because the EVM exists exclusively as a peer-to-peer architecture, there are som
 
 <hr />
 
-<span style="font-weight: 400;">Because each node of the network must retain their own copy of the records, the larger the network gets, the more information must constantly be shared. Some projects such as </span><a href="https://bloxroute.com/"><span style="font-weight: 400;">bloXroute</span></a><span style="font-weight: 400;"> have proposed to fix this issue by providing a single channel to transfer new information across the network, but this has limitations as it increases the centralization of the system.</span>
+<span>Because each node of the network must retain their own copy of the records, the larger the network gets, the more information must constantly be shared. Some projects such as </span><a href="https://bloxroute.com/"><>bloXroute</span></a>
+
+<span> have proposed to fix this issue by providing a single channel to transfer new information across the network, but this has limitations as it increases the centralization of the system.</span>
 
 <h3>BLOCK RATE</h3>
 
@@ -20,10 +22,10 @@ Because the EVM exists exclusively as a peer-to-peer architecture, there are som
 
 <img src="/assets/img/courses/ethereum-101/Blocks-01.png" />
 
-<span style="font-weight: 400;">More important than the rate of transfer across the network is the rate that new blocks are added to the chain. In order to ensure that the EVM can have universal consensus, the rate and size of new blocks limits the amount of data and computation which can occur during any interval, even if the network could support more. Solutions such as sharding and proof of stake have been proposed to limit the computational burden on the network while also increasing the amount of data which can be stored. </span>
+<span>More important than the rate of transfer across the network is the rate that new blocks are added to the chain. In order to ensure that the EVM can have universal consensus, the rate and size of new blocks limits the amount of data and computation which can occur during any interval, even if the network could support more. Solutions such as sharding and proof of stake have been proposed to limit the computational burden on the network while also increasing the amount of data which can be stored. </span>
 
 <h3>ARCHIVE SYNC</h3>
 
 <hr />
 
-<span style="font-weight: 400;">In addition to the movement of EVM data across the network, it's also important for new nodes to be able to access historical records with ease. As of 2019, the Ethereum blockchain is slightly over 1 terabyte, so new forms of storage are being explored to help the peer network share this burden more easily. In the next lesson, we'll explore how decentralized storage could be the key to this problem.</span>
+<span>In addition to the movement of EVM data across the network, it's also important for new nodes to be able to access historical records with ease. As of 2019, the Ethereum blockchain is slightly over 1 terabyte, so new forms of storage are being explored to help the peer network share this burden more easily. In the next lesson, we'll explore how decentralized storage could be the key to this problem.</span>

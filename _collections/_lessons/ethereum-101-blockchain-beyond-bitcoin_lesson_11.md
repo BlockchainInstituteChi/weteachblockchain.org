@@ -26,4 +26,4 @@ In 2019, the full size of the Ethereum blockchain exceeded 1TB. While this is no
     bodyText="Storj is the only decentralized storage network currently running on Ethereum. It's Proof-of-Work based consensus algorithm uses custom hardware to handle storage. While this is considered to be a less decentralized option, integrations with Amazon Web Services have recently made headlines and may provide a path towards wider adoption."
 %}
 
-<span style="font-weight: 400;">As features like file storage come online, there will also be a much greater opportunity for new products to integrate additional functionality, such as peer-to-peer content delivery networks or distributed file sharing applications. </span>
+<span>As features like file storage come online, there will also be a much greater opportunity for new products to integrate additional functionality, such as peer-to-peer content delivery networks or distributed file sharing applications. </span>

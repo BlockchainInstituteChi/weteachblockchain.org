@@ -20,7 +20,7 @@ In order to run a new smart contract, the creator must first deploy it to the ch
 
 <hr />
 
-<span style="font-weight: 400;">Once the code is written, the owner must submit the contract and pay for the fuel (Gas) to store the contract on the Ethereum Virtual Machine. Once the contract is submitted, the network will run it whenever someone pays for the appropriate amount of gas. Gas cannot be held in a wallet, but is instead purchased at the time of a transaction in order to fund its execution. The Gas Price, or the amount of Ether required to purchase computation, is scaled automatically to match the current amount of computation available in the network and the current demand for it. This flexible structure ensures that the network will not ever accept more computation demands than it can fulfill. </span>
+<span >Once the code is written, the owner must submit the contract and pay for the fuel (Gas) to store the contract on the Ethereum Virtual Machine. Once the contract is submitted, the network will run it whenever someone pays for the appropriate amount of gas. Gas cannot be held in a wallet, but is instead purchased at the time of a transaction in order to fund its execution. The Gas Price, or the amount of Ether required to purchase computation, is scaled automatically to match the current amount of computation available in the network and the current demand for it. This flexible structure ensures that the network will not ever accept more computation demands than it can fulfill. </span>
 
 <h3>OUTSIDE DATA</h3>
 
@@ -28,10 +28,10 @@ In order to run a new smart contract, the creator must first deploy it to the ch
 
 <img src="/assets/img/courses/ethereum-101/Oracle-01.png" />
 
-<span style="font-weight: 400;">In the event that a smart contract needs to check for information outside of the Ethereum ecosystem, a third party such as an Oracle can be used to add that information to the blockchain. Oracle services provide external data for use in smart contracts, and are held accountable through staking or other incentive mechanisms on-chain. If enough Oracles are used, the information can be considered to be sufficiently reliable. Further consideration of </span><a href="https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/"><span style="font-weight: 400;">Buterin's initial work</span></a><span style="font-weight: 400;"> on the concept may be beneficial.</span>
+<span >In the event that a smart contract needs to check for information outside of the Ethereum ecosystem, a third party such as an Oracle can be used to add that information to the blockchain. Oracle services provide external data for use in smart contracts, and are held accountable through staking or other incentive mechanisms on-chain. If enough Oracles are used, the information can be considered to be sufficiently reliable. Further consideration of </span><a href="https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/"><span >Buterin's initial work</span></a><span > on the concept may be beneficial.</span>
 
 <h3>AN EXPLOSION OF APPLICATIONS</h3>
 
 <hr />
 
-<span style="font-weight: 400;">While the basic functionality of Smart Contracts only goes so far, they can be structured in layers to create more complex functionality. As long as all of the individual contracts are funded with the proper amount of gas, there's nothing stopping developers from building fully integrated apps entirely on these decentralized networks. In the remainder of this module, we'll explore how this concept has been expanded, and how it turned 2017 into a gold rush for software developers.</span>
+<span >While the basic functionality of Smart Contracts only goes so far, they can be structured in layers to create more complex functionality. As long as all of the individual contracts are funded with the proper amount of gas, there's nothing stopping developers from building fully integrated apps entirely on these decentralized networks. In the remainder of this module, we'll explore how this concept has been expanded, and how it turned 2017 into a gold rush for software developers.</span>

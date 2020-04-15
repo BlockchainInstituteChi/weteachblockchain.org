@@ -12,13 +12,13 @@ The most important purpose of the Ethereum blockchain is to provide a reliable w
 
 <hr />
 
-<span style="font-weight: 400;">As we've explored already, the consensus mechanisms of the Ethereum Virtual Machine allow computers all over the world to share a common State Object. This unique characteristic allows the EVM to act as both the executive and judicial authority, enabling it to monitor events and track changes, and take corrective action automatically. </span>
+<span >As we've explored already, the consensus mechanisms of the Ethereum Virtual Machine allow computers all over the world to share a common State Object. This unique characteristic allows the EVM to act as both the executive and judicial authority, enabling it to monitor events and track changes, and take corrective action automatically. </span>
 
 <h3>MERKLE TREES</h3>
 
 <hr />
 
-<span style="font-weight: 400;">As in the Bitcoin context, the EVM uses a chain of hash signatures to link information over time. In order to increase the amount of information that can be represented within a single hash, tree structures can be used to contain even more information. </span>
+<span >As in the Bitcoin context, the EVM uses a chain of hash signatures to link information over time. In order to increase the amount of information that can be represented within a single hash, tree structures can be used to contain even more information. </span>
 
 {% include callouts/imageWithCaption.html
 	image="/courses/ethereum-101/MerkleTrees-01.png"
@@ -26,12 +26,11 @@ The most important purpose of the Ethereum blockchain is to provide a reliable w
 	bodyText="In a Merkle Tree, raw data is hashed, and the signatures of many data sets can be combined together to create a single very small signature for a large data set."
 %}
 
-<span style="font-weight: 400;">In the EVM this technique is employed to allow a very large State Object to exist without a signature of equal size. In fact, the entire hash signatures for the whole EVM make up only a fraction of its size. </span>
+<span >In the EVM this technique is employed to allow a very large State Object to exist without a signature of equal size. In fact, the entire hash signatures for the whole EVM make up only a fraction of its size. </span>
 
-<h3>TRANSITION FUNCTION</h3>
+{% include callouts/definition.html
+	title="TRANSITION FUNCTION"
+	bodyText='In order to add new information to the State Object, the entire network of peers must be able to find consensus on which changes to make. This process is embedded in the core EVM code, and uses a similar solution to the Bitcoin Proof-of-Work consensus algorithm in order to accomplish complex operations within a<a href="https://docs.google.com/document/d/1QYr8pCIOhs9Lb7N1VUUlByFnYg1T6V7zuihBKb-f4lM/edit#byzantine-fault-tolerant"> Byzantine Fault Tolerant system.</a>'
+%}
 
-<hr />
-
-<span style="font-weight: 400;">In order to add new information to the State Object, the entire network of peers must be able to find consensus on which changes to make. This process is embedded in the core EVM code, and uses a similar solution to the Bitcoin Proof-of-Work consensus algorithm in order to accomplish complex operations within a</span><a href="https://docs.google.com/document/d/1QYr8pCIOhs9Lb7N1VUUlByFnYg1T6V7zuihBKb-f4lM/edit#byzantine-fault-tolerant"><span style="font-weight: 400;"> Byzantine Fault Tolerant system.</span></a><span style="font-weight: 400;"> </span>
-
-<span style="font-weight: 400;">As will soon become apparent, this is no small feat. Providing Byzantine Fault Tolerance across a Turing Complete Machine is the collective work of hundreds of people all over the world, and is at the heart of what makes the Ethereum Virtual Machine so revolutionary. In the following lessons, we'll explore the challenges that this task presented, and how they can influence the design of the apps that run on this network. </span>
+<span >As will soon become apparent, this is no small feat. Providing Byzantine Fault Tolerance across a Turing Complete Machine is the collective work of hundreds of people all over the world, and is at the heart of what makes the Ethereum Virtual Machine so revolutionary. In the following lessons, we'll explore the challenges that this task presented, and how they can influence the design of the apps that run on this network. </span>
