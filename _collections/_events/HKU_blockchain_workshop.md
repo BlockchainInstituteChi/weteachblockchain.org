@@ -12,7 +12,7 @@ Digital Ledger technology and distributed computing have come a long way. The Bl
 <img src="/assets/img/Prezi_Screenshot.png"> 
 
 {% include callouts/imageWithCaption.html
-	image="/courses/blockchain-for-business/HongKong UniversityTeam.jpg"
+	image="HongKong UniversityTeam.jpg"
 	title=""
 	bodyText="Taylor Gerring pictured with the Hong Kong University team."
 %}
