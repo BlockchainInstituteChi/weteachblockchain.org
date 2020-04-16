@@ -12,7 +12,7 @@ learnMoreText: Our Free Blockchain 101 course
 
 {% include callouts/callout.html 
     title="Blockchain"
-    bodyText="<i>(noun)</i><br><span>A distributed ledger which stores data in such a fashion that it cannot be edited without the participants knowledge.</span>"
+    bodyText="<span>A distributed ledger which stores data in such a fashion that it cannot be edited without the participants knowledge.</span>"
 %}
 
 <span>The name blockchain largely refers to the structure of the technology. Blocks contain data that represents transactions, and when a block is created or “mined”, all the data contained in the block is added to the chain. Permanently. All ledgers are updated to include this new data. When all of the computers on the network have the same data in their copy of the ledger, this is called reaching consensus. Blocks are then linked together to form a chain and can be referenced at any time, hence the name blockchain.</span>
