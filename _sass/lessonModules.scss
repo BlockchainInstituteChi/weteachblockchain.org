@@ -55,9 +55,11 @@ section .row {
 }
 .caption {
     background: #2b2b2b;
-    margin-top: 0.5em;
-    padding: 1em 1.5em;
+    margin-top: 0em;
+    padding: 2em 2em;
     color: white;
+    font-family: Roboto;
+    line-height: 2em;
 }
 .imageWithCaption h4 {
     text-transform: uppercase;
