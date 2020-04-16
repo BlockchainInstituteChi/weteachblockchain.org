@@ -5,7 +5,7 @@ section .row {
 
 /* Image with Text Callout */
 .row.imageWithTextCallout {
-    margin: 2em 0em 2em 0em;
+    margin: 2em 0em 2em .5em;
     min-width: 90%;
     max-width: 98.5%;
 }
@@ -45,7 +45,7 @@ section .row {
 .row.imageWithCaption {
     min-width: 90%;
     max-width: 98.5%;
-    margin: 2em .5em 2em 0em;
+    margin: 2em 0em 2em .5em;
 }
 .imageWithCaption .col-md-12 {
     padding: 0;
@@ -291,10 +291,10 @@ span.userName {
 .row.photoLightbox {
     margin: 0;
     background: black;
-    min-width: 100%;
+    min-width: 90%;
     max-width: 98.5%;
     overflow: hidden;
-    margin: 2em .5em 2em 0em;
+    margin: 2em 0em 2em .5em;
 }
 .imageGallery {
     display: block;
