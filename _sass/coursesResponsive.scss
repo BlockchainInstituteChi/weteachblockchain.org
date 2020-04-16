@@ -14,10 +14,23 @@
 	span.courseTag {
 	    font-size: .65em;
 	}
+	iframe#historyIFrame {
+    		min-height: 560px;
+	}
+	.courseHeader a {
+		margin: 0em 2em;
+	}
+	.courseHeader h1 {
+    		margin-left: 1em;
+
+	}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden;
+	}
 
     /* Course path buttons */
     .row.pathButtons .col-sm-4 {
@@ -69,6 +82,9 @@ section .row {
 .hasColorTag::before {
     margin-right: 0.75em;
 }
+	iframe#historyIFrame {
+    		min-height: 800px;
+	}
 }
 
 
