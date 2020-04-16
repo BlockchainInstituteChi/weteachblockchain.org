@@ -11,7 +11,6 @@ permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 
 <iframe src="https://www.youtube.com/embed/yNycDHwS6gw?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-</div>
 <span class="openingParagraph">We've gone over the architecture of decentralized networks, but how do they stay secure? This is a much more difficult problem than addressing the security concerns of a client-server model, as only one server has to be secure. Decentralized networks have to get more creative in order to maintain security, as you have many nodes with equal power trying to coordinate information; there are more actors and more potential for security flaws. 
 </span>
 
