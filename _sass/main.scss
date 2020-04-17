@@ -521,7 +521,7 @@ section.pageHeaderImage .row {
 	max-width: 80%;
 }
 .pageHeaderImage a.callToActionButton {
-    background: $brand-red;
+    background: #ed0744;
     padding: 1em 3em;
     margin-top: 2em;
     margin-bottom: 6em;
@@ -530,6 +530,13 @@ section.pageHeaderImage .row {
     display: block;
     width: fit-content;
     margin-left: 0;
+}
+a.callToActionButton {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: auto;
+    text-align: center;
+    font-family: kanit;
 }
 
 /* Breadcrumbs */
