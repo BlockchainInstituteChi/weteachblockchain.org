@@ -35,14 +35,14 @@
 	h1.hasColorTag.red {
     		margin-left: -4.3em;
 	}
-	.faqTile {
-	    min-height: 0px;
-	    width: calc(100% - 1.5em);
-	    display: inline-block;
-	    overflow: hidden;
-	    margin: 0em 0em 1em 0em;
-	    text-align: left;
-	}
+.faqTile {
+    min-height: 0px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0em .5em 1em .5em;
+    text-align: left;
+}
 	.row.container {
 	    padding: 0em;
 	}
