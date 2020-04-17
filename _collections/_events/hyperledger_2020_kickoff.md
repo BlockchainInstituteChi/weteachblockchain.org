@@ -1,5 +1,5 @@
 ---
-title: Hyperledger 2020 Chicago Kickoff
+title: Hyperledger 2020 Kickoff
 layout: event
 image: Hyperledger-blockchain-tech-for-business-534x300.jpeg
 date: 2020-05-28
