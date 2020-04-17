@@ -103,12 +103,14 @@ nav a.nav-link {
     font-weight: 500;
 }
 a.nav-link.donateNow {
-    background: $brand-red;
+    background: #ed0744;
     color: white !important;
     font-weight: 600;
     padding-left: 1em !important;
     padding-right: 1em !important;
     margin-left: 1em;
+    font-family: kanit;
+    letter-spacing: .05em;
 }
 a.nav-link.donateNow:hover {
     color: white !important;
