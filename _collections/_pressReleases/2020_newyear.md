@@ -1,10 +1,10 @@
-<img src="/assets/img/2020_header.png"> 
-
 ---
 title: 2020 New Year
 date: 2020-01-05
 eventdate: January 5th, 2020
 ---
+
+<img src="/assets/img/2020_header.png"> 
 
 <p>The past year has been a really exciting one for us! We want to extend a huge thank you to everyone that made it possible. Before we get into our plans for 2020 we thought a quick look back at all of our accomplishments from 2019 would be the best way to ring in the new year.</p>
 
