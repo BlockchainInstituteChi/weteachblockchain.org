@@ -6,9 +6,6 @@ title: Centralization vs Decentralization
 permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 ---
 
-<span> 
-<div style="text-align: center;">
-
 <iframe src="https://www.youtube.com/embed/DmcMLBkxy8M?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 </div>
