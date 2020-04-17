@@ -8,7 +8,6 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <iframe src="https://www.youtube.com/embed/DmcMLBkxy8M?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-</div>
 <span class="openingParagraph">Decentralized networks give users much more control over the rules and maintenance of that network. Let’s explore how information is confirmed, or mined, and added to the blockchain. But first, we’ll examine the differences between centralized and decentralized networks.
 </span>
 &nbsp;
