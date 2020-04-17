@@ -2,21 +2,31 @@
 layout: lesson
 course: hyperledger
 module: 3
-title: Updating Records
-permalink: /courses/hyperledger/3/updating-records
+title: Further Design Considerations
+permalink: /courses/hyperledger/3/further-design-considerations
 ---
 
 <span class="openingParagraph">
-Now let's assume Alex moves to Canada. It's cold in the Winter, so now Alex needs a hybrid instead of an all-electric Tesla. If Alex wants to buy Valeria's Prius, we'll need to update the blockchain to reflect this change.</span>
+Now that you've got the basics, there are a few things to keep in mind as you begin to plan your project. Launching a project on a new protocol like this can be complicated, so it helps to ask the right questions from the beginning.</span>
+&nbsp;
 
-<h4>Task:</strong> update car0 -&gt; set owner: Valeria to Alex</h4>
-<ol>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Application layer calls ( Smart Contract SDK ).changeCarOwner with the new object</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">The SDK processes this object and generates a new transaction that issues a change of the color to red</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Now, the state database updates to include the new transaction, similar to the UTXO calculation in bitcoin, and updates the color to match the new transaction</span></li>
- 	<li style="font-weight: 400;"><span style="font-weight: 400;">Then, once all of this is complete, the chaincode SDK will return a success response to the application layer</span></li>
-</ol>
+<h3>GENERAL ARCHITECTURE</h3>
 
-The payload would need to look like this:
-https://gist.github.com/alexander-morris/a9a67b0bc47d5f6829f9769a6d2d584d
-<span style="font-weight: 400;">We can then verify this by running node query.js again, and we’ll see that CAR0 now has an owner: Alex</span>
+<hr />
+
+<img src="/assets/img/courses/private-blockchains/Blueprints-01.png" />
+
+Since Hyperledger networks are intended to act as common records between multiple legal entities, it's imperative that they're well planned with consideration for the laws of the presiding jurisdictions. Before any code is written, the first step should be to identify an appropriate validator model for all actions that will be tracked by the system. It's important to ensure that the system is designed so that no single bad actor could compromise the long term records while also minimizing the increase in overhead due to validation activities. A best practice is to plan validation events to match existing paper documentation. Ink signatures should be replaced with digital signatures where possible, and any critical information should be recorded to the Hyperledger network.
+
+<h3>PLANNING YOUR PROJECT</h3>
+
+<hr />
+
+As your team develops a better understanding of the requirements of your system, the next stage will be to identify a minimum viable solution. Hyperledger nodes can be deployed locally on client devices, or delivered using a hosted cloud solution. Depending on the scale of the network, it may be practical to test the functionality in a small test environment before deploying to a fully hosted solution.
+<h4>Up Next</h4>
+Now that you're up to date on Hyperledger, you'll want to look at planning your project. You may want to review our <a href="/courses/blockchain-security/">Blockchain Security Course</a> to identify potential issues with your planned architecture. Additionally, you might want to consider trying <a href="https://aws.amazon.com/marketplace/pp/B0797GK9YY">Amazon</a> or <a href="https://cloud.oracle.com/blockchain">Oracle</a>'s hosted blockchain options.
+
+
+<hr />
+
+<em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em>
