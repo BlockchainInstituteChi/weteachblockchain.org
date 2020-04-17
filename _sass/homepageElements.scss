@@ -236,6 +236,7 @@ section.faqList {
     font-size: .8em;
     line-height: .4em;
     font-style: italic;
+    display: none;
 }
 .faqTile h3 {
     text-transform: uppercase;
@@ -248,4 +249,10 @@ section.faqList {
 }
 .faqTile.column {
     width: 100%;
+}
+
+.ourMission a.callToActionButton {
+    display: block;
+    float: left;
+    margin-top: 1em;
 }

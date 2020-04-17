@@ -17,16 +17,16 @@ ogUrl: https://weteachblockchain.org/
 	img="Homepage_Banner.jpg" 
 	header="#WeTeachBlockchain" 
 	text="Blockchain is the <b>future</b> but you can’t wait to learn about it. We are a 501(c)(3) nonprofit organization dedicated to providing educational resources for you no matter who you are. Start your blockchain journey today with one of our <b>free</b> online or in-person courses." 
-	ctaText="What is a Blockchain?" 
+	ctaText="Learn More" 
 	ctaLink="/faq/what-is-blockchain/" 
 %}
 
 
 <section class="onlineCourses blueDivider">
   <div class="row">
-    <h1 class="coursesHeaderHP">Check Out Our Online Courses</h1>
+    <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
     <span class="descriptionText">
-      Start your Free blockchain education from the comfort of home.
+      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
     </span>
     <div class="coursesThumbnailContainer"> 
       {% assign sorted = site.courses | sort: 'tags' %}
@@ -41,23 +41,7 @@ ogUrl: https://weteachblockchain.org/
         %}
       {% endfor %}
     </div>
-    <a href="/courses/" target="_blank" class="callToActionButton">Browse our Free Courses</a>
-  </div>
-</section>
-
-<section class="ourMission">
-  <div class="row">
-      <div class="col-sm-6 hpMission" style="background:url(/assets/img/Homepage_Mission.jpg);background-size:cover;background-position:center;">
-
-      </div>
-      <div class="col-sm-6">
-        <h1 class="blueBar right">
-          Our Mission
-        </h1>
-        <span>
-          The Blockchain Institute was founded to help everyone understand blockchain and further its adoption, development, and use. We do this by providing free courses and other educational materials. Whether you are just curious, applying blockchain to your field or interested in building with it, we are here for you.
-        </span>
-      </div>
+    <a href="/courses/" target="_blank" class="callToActionButton">View our Full Catalogue</a>
   </div>
 </section>
 
@@ -88,7 +72,7 @@ ogUrl: https://weteachblockchain.org/
   
           {% endfor %}
         </div>
-        <a href="/events/" target="_blank" class="callToActionButton">Attend a Blockchain Event</a>
+        <a href="/events/" target="_blank" class="callToActionButton">Attend an Event</a>
       </div>
       
   </div>
@@ -97,11 +81,11 @@ ogUrl: https://weteachblockchain.org/
 
 
 <section class="pathsList">
-	<h1 class="hasColorTag teal">Education Paths</h1>
+	<h1 class="hasColorTag teal">Not sure where to start?</h1>
 	<div class="row">
 		<div class="col-sm-12">
 			<span class="descriptionText pathDescriptionHP">
-				Want to learn what a blockchain is? How it will affect your industry? How to build with it? Start Here. 
+			  We have something for everyone no matter your skill level. Begin your blockchain education now.
 			</span>
 		</div>
 	</div>
@@ -110,7 +94,6 @@ ogUrl: https://weteachblockchain.org/
 			<a target="_blank" href="/courses/novice/">
 				<img src="/assets/img/Novice_button.jpg">
         <h5>Novices</h5>
-        <span>FREE COURSES</span>
 			</a>
 
 		</div>
@@ -118,7 +101,6 @@ ogUrl: https://weteachblockchain.org/
 			<a target="_blank" href="/courses/developers/">
 				<img src="/assets/img/Developers_button.jpg">
 				<h5>Developers</h5>
-        <span>FREE COURSES</span>
 			</a>
 			
 		</div>
@@ -126,14 +108,13 @@ ogUrl: https://weteachblockchain.org/
 			<a target="_blank" href="/courses/professionals/">
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Industries</h5>
-        <span>FREE COURSES</span>
 			</a>
 			
 		</div>
 		
   </div>
   <div class="row ctaCenter">
-    <a href="/courses/" target="_blank" class="callToActionButton">BROWSE OUR FREE COURSES</a>
+    <a href="/courses/" target="_blank" class="callToActionButton">SEE OUR FULL CATALOGUE</a>
   </div>
 </section>
 
@@ -141,9 +122,9 @@ ogUrl: https://weteachblockchain.org/
 
 <section class="faq">
   <div class="row">
-    <h1 class="redBar">Got A Question?</h1>
+    <h1 class="redBar">Quick Answers</h1>
     <span class="descriptionText">
-      Not ready to start a full course? Get some answers quick.
+      Not ready to start a full course? Get answers to commonly asked questions.
     </span>
     <div class="faqThumbnailContainer"> 
       {% assign faqSample = site.faq | sample: 4 %}
@@ -156,7 +137,24 @@ ogUrl: https://weteachblockchain.org/
         %}
       {% endfor %}
     </div>
-    <a href="/faq/" target="_blank" class="callToActionButton faqCTA">Check out our Blockchain FAQ!</a>
+    <a href="/faq/" target="_blank" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
+
+<section class="ourMission">
+  <div class="row">
+      <div class="col-sm-6 hpMission" style="background:url(/assets/img/Homepage_Mission.jpg);background-size:cover;background-position:center;">
+
+      </div>
+      <div class="col-sm-6">
+        <h1 class="blueBar right">
+          Our Vision
+        </h1>
+        <span>
+          We see a world where digital systems preserve autonomy and individuals have control of their own assets without intermediaries. The Blockchain Institute was founded to help everyone understand blockchain and further its adoption, development, and use. We teach blockchain, and so can you!
+        </span><br>
+        <a href="/ambassadors/" target="_blank" class="callToActionButton">Become an Ambassador</a>
+      </div>
   </div>
 </section>
 
