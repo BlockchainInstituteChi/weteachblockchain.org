@@ -5,7 +5,6 @@ module: 2
 title: Centralization vs Decentralization
 permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 ---
-{::nomarkdown}
 
 <span> 
 <div style="text-align: center;">
@@ -18,7 +17,6 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 &nbsp;
 
 <h3>WHAT IS CENTRALIZATION?</h3>
-<hr />
 
 <span style="font-weight: 400;">In order to understand the goals and benefits of decentralized technology, we must first examine the problems created by centralized systems. While efficient, centralized servers or data repositories are an easy target for those looking to exploit your personal information. Constant hacks make it impossible to have confidence that your personal data will be kept safe by the third parties we use to conduct business. This leads to an inefficient system with the huge hidden cost of sacrificing your privacy. Not only are centralized servers more attractive targets to attack, but the data obtained by “trusted” parties is also often monetized without user knowledge. Of course, the user never sees any of this financial gain. Data privacy does not exist on the centralized internet we have built. By decentralizing the storage and processing of data, we would no longer have to rely on the websites and service providers that willingly collect and sell customers data for a premium.</span>
 
