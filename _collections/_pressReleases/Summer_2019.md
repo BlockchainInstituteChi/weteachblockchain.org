@@ -2,9 +2,8 @@
 title: Blockchain Institute Summer 2019 Update
 date: 2019-07-02
 eventdate: July 2, 2019
+image: /assets/img/girlcon_summer2019_newsletter.jpg
 ---
-<img src="/assets/img/girlcon_summer2019_newsletter.jpg">
-
 <p>One of Blockchain Institute’s primary focuses in the 2nd quarter of 2019 was getting involved with the community. To achieve this goal, staff members participated in several Chicago-based events, which provided opportunities to spread the blockchain gospel and further educate the masses regarding the many benefits of this transformative technology.</p>
 
 <p>Moreover, we here at the institute have been working diligently to add additional modules to our ever-growing list of blockchain courses. With that in mind, it’s time to take a closer look at some quarter two highlights.</p>
