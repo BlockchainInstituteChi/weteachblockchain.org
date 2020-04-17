@@ -2,9 +2,8 @@
 title: Announcing The Crypto Curious Course!
 date: 2019-10-23
 eventdate: October 23rd, 2019
+image: /assets/img/Crypto_Curious_Course_optimized.jpg
 ---
-<img src="/assets/img/Crypto_Curious_Course_optimized.jpg">
-
 <p>It’s finally time for our first in-person class at the Blockchain Institute!</p> 
 
 <p><b>The Crypto Curious Course</b> is a Free 4-hour workshop with a simple goal: You will walk away from it understanding how transactions work on a blockchain and see the powerful potential of decentralized technology.</p>
