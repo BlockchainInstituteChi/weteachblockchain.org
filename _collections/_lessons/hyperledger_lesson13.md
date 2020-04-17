@@ -2,16 +2,21 @@
 layout: lesson
 course: hyperledger
 module: 3
-title: Creating Records
-permalink: /courses/hyperledger/3/creating-a-record
+title: Updating Records
+permalink: /courses/hyperledger/3/updating-records
 ---
 
 <span class="openingParagraph">
-A car dealership isn't much without being able to track cars. In order to add new cars to the database, we'll need to use invoke.js with a slightly different payload. If we wanted to add a new Purple Tata Nano owned by someone named Alex, this payload would look like this:</span>
+Now let's assume Alex moves to Canada. It's cold in the Winter, so now Alex needs a hybrid instead of an all-electric Tesla. If Alex wants to buy Valeria's Prius, we'll need to update the blockchain to reflect this change.</span>
+        
+{% include callouts/callout.html
+	title="Task: update car0 - set owner: Valeria to Alex"
+	bodyText="<ol><li><span>Application layer calls ( Smart Contract SDK ).changeCarOwner with the new object</span></li><li><span>The SDK processes this object and generates a new transaction that issues a change of the color to red</span></li><li><span>Now, the state database updates to include the new transaction, similar to the UTXO calculation in bitcoin, and updates the color to match the new transaction</span></li><li><span>Then, once all of this is complete, the chaincode SDK will return a success response to the application layer</span></li></ol>"
+%}
 
-https://gist.github.com/alexander-morris/48f85e11ae5dfdcaa4895f4ae7e97845
-The rest of the script can remain unchanged since it's just going to pass this payload to the server. One thing to keep in mind here is that in this case, we're passing the ID "CAR10", which we wouldn't have without first querying the database to see what the last car in the list was numbered.
-<span style="font-weight: 400;">You can now push the record to the Hyperledger: </span>
-<code class="cli">node invoke.js</code>
-<span style="font-weight: 400;">Verify by retrieving all cars:</span>
-<code class="cli">node query.js</code>
+{% include callouts/callout.html
+	title="Example Payload"
+	bodyText="<script src='https://gist.github.com/alexander-morris/a9a67b0bc47d5f6829f9769a6d2d584d.js'>"
+%}
+            
+<span>We can then verify this by running node query.js again, and we’ll see that CAR0 now has an owner: Alex</span>

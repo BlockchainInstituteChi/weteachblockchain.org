@@ -49,10 +49,13 @@ Now that we have the network up and running, let's see what files were generated
 %} 
 
 There are a few commands available from the network launch script.
-<code class="cli">./byfn.sh up // Turns on the network</code>
-<code class="cli">./byfn.sh down // Shuts down the network</code>
-<code class="cli">./byfn.sh generate // Generates a new network</code>
+
+{% include callouts/terminal.html
+  title="Managing the network"
+  user="alex@ubuntu"
+  directory="~/dev/fabric-samples/"
+  bodyText="./byfn.sh up // Turns on the network,./byfn.sh down // Shuts down the network,./byfn.sh generate // Generates a new network"
+%} 
+
 
 Once the install is complete, you'll see a nice ascii art printout of the word END, which means everything worked!
-
-&nbsp;

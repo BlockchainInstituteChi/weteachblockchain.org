@@ -37,9 +37,11 @@ We'll need curl to download some example files. (
 %}     
 
 <h4>Docker</h4>
+Docker is a tool that creates controlled execution environments to support node simulations.
 For this course we'll need you to have docker and docker-compose. (<a href="https://www.docker.com/"> Install Here </a>)
+
 {% include callouts/terminal.html
-	title="Check that homebrew is installed"
+	title="Check that docker is installed"
 	user="alex@ubuntu"
 	directory="~/"
 	bodyText="docker --version, docker-compose ---version"
@@ -49,7 +51,7 @@ For this course we'll need you to have docker and docker-compose. (<a href="http
 Go is a scripting language which can be used to write Hyperledger chaincode. ( <a href="https://golang.org/doc/install">Install Here </a>)
 
 {% include callouts/terminal.html
-	title="Check that homebrew is installed"
+	title="Check that Go is installed"
 	user="alex@ubuntu"
 	directory="~/"
 	bodyText="go version"
