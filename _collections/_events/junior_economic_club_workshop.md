@@ -16,4 +16,4 @@ The <a href="https://www.junioreconomicclub.org/home" target="_blank" rel="noope
 <img src="/assets/img/IMG_6793_JEC.jpg">
 <img src="/assets/img/IMG_6772_JEC.jpg">
 
-To schedule an event or workshop please <a href="/contact-us/" data-ce-key="545">Contact Us</a> and make sure to <a href="https://theblockchaininstitute.us18.list-manage.com/subscribe?u=ed27e0082d5f7e8d5cd3e3622&id=d50da5888a" target="_blank">join our mailing list</a> for news and updates directly in your inbox.
+<h3>To schedule an event or workshop please <a href="/contact-us/" data-ce-key="545">Contact Us</a> and make sure to <a href="https://theblockchaininstitute.us18.list-manage.com/subscribe?u=ed27e0082d5f7e8d5cd3e3622&id=d50da5888a" target="_blank">Join Our Mailing List</a> for news and updates directly in your inbox.</H3>
