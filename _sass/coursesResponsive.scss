@@ -14,10 +14,26 @@
 	span.courseTag {
 	    font-size: .65em;
 	}
+	iframe#historyIFrame {
+    		min-height: 560px;
+	}
+	.courseHeader a {
+		margin: 0em 2em;
+	}
+	.courseHeader h1 {
+    		margin-left: 1em;
+
+	}
+	section.lessonContent {
+	    margin: 0em 0em;
+	}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden;
+	}
 
     /* Course path buttons */
     .row.pathButtons .col-sm-4 {
@@ -32,9 +48,9 @@
         margin-right: -1em;
     }
 	
-	.hasColorTag {
-    		margin-left: -1.76em;
-	}
+.hasColorTag {
+    margin-left: -2em;
+}
 	.col-sm-6 {
     		padding-left: .5em;
     		padding-right: .5em;
@@ -53,18 +69,31 @@
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
-
-    a.startCourseButton {
-        width: 100%;
-        text-align: center;
-        font-size: 1.5em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }
 section .row {
     min-height: 0em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.hasColorTag::before {
+    margin-right: 0.75em;
+}
+	iframe#historyIFrame {
+    		min-height: 800px;
+	}
+.courseHeader a {
+    margin: 0em 1em;
+}
+.courseHeader h1 {
+    margin-left: .5em;
+}
+section.courseOverview {
+    margin: .5em;
+}
+section.breadcrumbs.indvCoursePage {
+    margin-left: .5em;
+}
+section.lessonContent {
+    margin: 0em 0em;
 }
 }
 

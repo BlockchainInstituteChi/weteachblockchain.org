@@ -28,4 +28,5 @@ Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4x
 
 {% include callouts/bigQuote.html
   body="Bitcoin was the beginning for cryptocurrency, however, it was 25 years in the making!"
+
 %}

@@ -8,7 +8,6 @@ date: 2019-11-05
 rsvpUrl: 
 permalink: /events/bitcoin_halving_mining_meetup
 ---
-<h2> Details </h2>
 The Halving refers to upcoming changes to the Bitcoin production rate. This meetup sponsored by our partner organization will help you learn what you need to know.
 The halving has already occurred twice, each time boosting Bitcoin's price by at least 10x, will this time be the same?
 

@@ -94,6 +94,7 @@ a.startCourseButton {
     display: inline-block;
     font-weight: 600;
     letter-spacing: 0.05em;
+    font-family: kanit;
 }
 
 /* Overview */
@@ -152,21 +153,22 @@ section.courseSections {
 section.courseHeader {
     background: url(/assets/img/lesson-header-banner.png);
     background-size: cover;
-    min-height: 6em;
+    min-height: 9em;
     height: fit-content;
 }
 .courseHeader a {
     color: white;
-    padding-left: 1em;
-    padding-top: 1em;
+    padding-left: .5em;
+    padding-top: 2.5em;
     display: block;
-    font-weight: 500;
+    font-weight: 400;
+    margin: 0em 1.9em;
 }
 .courseHeader h1 {
     color: white;
     text-transform: uppercase;
-    font-size: 2.5em;
-    margin-left: 0.15em;
+    font-size: 2em;
+    margin-left: 1em;
     padding-bottom: 0.5em;
 }
 
@@ -176,6 +178,9 @@ section.lessonNav, section.lessonNav a {
     text-transform: uppercase;
     color: black;
     padding-bottom: 1em;
+    font-family: kanit;
+    font-weight: 500;
+    letter-spacing: .04em;
 }
 section.lessonNav {
     padding: 2em;
@@ -186,21 +191,51 @@ section.lessonNav {
 }
 
 /* Content Element Styles */
+section.lessonContent {
+    margin: 0em 6em;
+}
 .lessonContent iframe {
     width: 100%;
-    margin: auto;
+    margin: 3em .5em 3em .5em;
 }
 .lessonContent img {
     width: 100%;
     height: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 .lessonContent span.openingParagraph {
-    color: #00698b;
+    color: #00648c;
     text-transform: uppercase;
     display: block;
-    font-size: 1em;
+    font-size: 1.4em;
+    font-family: Kanit !important;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 1.75em;
+    margin-bottom: 1em;
 }
 .lessonContent span {
     color: black;
-    font-size: 0.75em;
+    font-size: 1em;
+    font-weight: 300 !important;
+}
+.lessonContent p {
+    padding: 0;
+    padding-left: .5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+    padding-right: .5em;
+}
+.lessonContent h3 {
+    color: black;
+    font-size: 1.5em;
+    padding-left: .25em;
+    margin-top: 2em;
+}
+iframe#historyIFrame {
+    min-height: 600px;
 }

@@ -19,7 +19,8 @@ Blockchain technology has a lot of people excited. However, it is important to n
 
 <hr />
 
-<img class="aligncenter size-full wp-image-14584" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/ScalingProblem-01.png" alt="" width="4507" height="2166" />
+<img src="/assets/img/courses/blockchain-for-business/ScalingProblem-01.png" />
+
 <span style="font-weight: 400;">Blockchains need to get to a point to where they can handle real word transaction demands. Visa processes around 24,000 transactions per second. Bitcoin does around 7 tx/s and Ethereum does about 15 tx/s. Without finding a more efficient way for decentralized nodes to reach consensus, blockchain technology's impact on the world may be limited.</span>
 <h3>USER EXPERIENCE</h3>
 
@@ -30,7 +31,8 @@ Blockchain technology has a lot of people excited. However, it is important to n
 
 <hr />
 
-<img class="aligncenter size-full wp-image-14585" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/dApps-01.png" alt="" width="4507" height="1945" />
+<img src="/assets/img/courses/blockchain-for-business/dApps-01.png" />
+
 <span style="font-weight: 400;">The ecosystem needs to get to the point where users are not even aware they are using blockchain technology. This requires increased ease of use and cost-effectiveness. Otherwise, the status quo stays in place.</span>
 <h3>SECURITY</h3>
 

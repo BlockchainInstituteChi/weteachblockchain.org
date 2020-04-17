@@ -17,7 +17,8 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 
 <span style="font-weight: 400;">A wallet is the cryptocurrency equivalent of a bank account that allows you to send and receive cryptocurrency. Wallets don’t actually store your cryptocurrency. Instead, the funds are stored on a blockchain and the wallet acts as an interface that allows you control of your funds. </span><span style="font-weight: 400;">A wallet is just a graphical interface that easily allows you to manage your address and store your keys. Not all cryptocurrencies can be stored in one wallet. some wallets are currency-specific, and some support multiple currencies. </span><span style="font-weight: 400;">As long as you have control of your private keys, you have full control of your cryptocurrency. It is risky to keep your cryptocurrency on an exchange because they have control of your private keys. There have been several hacked exchanges that have lost significant amounts of money.</span>
 
-<img class="aligncenter size-full wp-image-12832" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Wallets-01.png" alt="" width="9037" height="3632" />
+<img src="/assets/img/courses/blockchain-for-business/Wallets-01.png" />
+
 <h4>Paper Wallets</h4>
 <span style="font-weight: 400;">Keeping cryptocurrency “offline” is known as cold storage. The cryptocurrency is not stored on a web-based app or computer; it is just suspended until you are ready to restore a wallet using your seed phrase or private keys.</span>
 <h4>Hardware Wallets</h4>
@@ -29,11 +30,10 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 <h4>Web Wallets</h4>
 <span style="font-weight: 400;">Similar to desktop wallets, web wallets provide a website that allows you to interface with the blockchain. While many projects also provide web wallets, several popular websites offer multi-token web wallets such as </span><span style="font-weight: 400;">MEW and </span><span style="font-weight: 400;">MyCrypto</span>
 
-<img class="aligncenter size-full wp-image-13530" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Phishing-01.png" alt="" width="9037" height="3632" />
+<img src="/assets/img/courses/blockchain-for-business/Phishing-01.png" />
 
 <span style="font-weight: 400;">A major issue with web wallets is that they are especially susceptible to phishing. Phishing is an exploitative tactic where someone creates a look-alike website, and some of these sites are pretty much clones with very similar URL addresses. These fake sites have a login section that records your username and password. They then take this stolen information and use it to access your funds. There are a couple of ways to defend against phishing. The first is not to click on any unknown links and ALWAYS check the web address you type into the URL bar. </span><span style="font-weight: 400;">If you plan on interacting with the Ethereum network, it’s recommended that you download Metamask, using it together with a web wallet. Metamask automatically blocks these fake websites. Always double-check web addresses, but no one is perfect. Metamask provides an extra layer of security.</span>
 
-&nbsp;
 <h3>CRYPTOCURRENCY EXCHANGES</h3>
 
 <hr />
@@ -49,7 +49,11 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 
 <span style="font-weight: 400;">Because Decentralized Exchanges are harder to use, they do not have the same liquidity that you find in centralized platforms. Additionally, if you lose your password you can’t contact customer support. There is no third party to reverse any transactions. Most of t</span><span style="font-weight: 400;">hese platforms also do not offer margin trading and stop losses like many centralized platforms. Decentralized exchanges can also more readily list an ICO or token because they don’t have a central server to shut down. </span><span style="font-weight: 400;">Because of KYC and AML regulations, legitimate Decentralized Exchanges do not support fiat conversions, as this would introduce a point of centralization.</span>
 
-<img class="aligncenter size-full wp-image-13688" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Metamask-01.png" alt="" width="9037" height="2662" /><span class="imageCaption"><span class="mainImageTitle">METAMASK</span> // Metamask.io</span>
+{% include callouts/imageWithCaption.html
+	image="/courses/blockchain-for-business/Metamask-01.png"
+	title="METAMASK // Metamask.io"
+	bodyText=""
+%}
 
 <span style="font-weight: 400;">Another important thing to note is that the keys entered are not transmitted over the network, but rather stored in the browser cache. Make sure to protect yourself from phishing sites with extensions like Metamask, which will alert you if they feel you have gone to a potential phishing site.</span>
 

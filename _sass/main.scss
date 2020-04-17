@@ -103,12 +103,14 @@ nav a.nav-link {
     font-weight: 500;
 }
 a.nav-link.donateNow {
-    background: $brand-red;
+    background: #ed0744;
     color: white !important;
     font-weight: 600;
     padding-left: 1em !important;
     padding-right: 1em !important;
     margin-left: 1em;
+    font-family: kanit;
+    letter-spacing: .05em;
 }
 a.nav-link.donateNow:hover {
     color: white !important;
@@ -202,7 +204,10 @@ li.nav-item.contactUsLink {
 }
 .contactUsLink a {
     text-transform: uppercase;
-    color: $brand-red;
+    color: #ed0744;
+    font-family: kanit;
+    letter-spacing: .05em;
+    font-weight: 500;
 }
 
 /* Hierarchy Handling */
@@ -518,7 +523,7 @@ section.pageHeaderImage .row {
 	max-width: 80%;
 }
 .pageHeaderImage a.callToActionButton {
-    background: $brand-red;
+    background: #ed0744;
     padding: 1em 3em;
     margin-top: 2em;
     margin-bottom: 6em;
@@ -527,6 +532,24 @@ section.pageHeaderImage .row {
     display: block;
     width: fit-content;
     margin-left: 0;
+}
+a.callToActionButton {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin: auto;
+    text-align: center;
+    font-family: kanit;
+}
+
+/*Paths*/
+.pathButtons h5 {
+    color: white;
+    position: absolute;
+    top: calc( 50% - 0.5em);
+    width: 100%;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 1.3em;
 }
 
 /* Breadcrumbs */
@@ -700,4 +723,8 @@ section.social {
     padding-top: 4em;
     padding-bottom: 4em;
     margin-bottom: 0;
+}
+iframe#twitter-widget-0 {
+    background: #00000096;
+    border-radius: 0.5em;
 }

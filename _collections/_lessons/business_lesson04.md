@@ -14,7 +14,7 @@ Blockchains are a fairly new technology, with the first one, Bitcoin, debuting a
 
 <hr />
 
-<img class="aligncenter size-full wp-image-12815" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Scaling-01.png" alt="" width="9095" height="2166" />
+<img src="/assets/img/courses/blockchain-for-business/Scaling-01.png" />
 
 <span style="font-weight: 400;">The second-generation blockchains looked to solve this scalability issue, however, most came to find they had to sacrifice either speed, security, or decentralization to explore scalability. </span><span style="font-weight: 400;">This is described as the </span><b>scalability trilemma</b><span style="font-weight: 400;">, and it's something that's on the mind of blockchains developers.</span>
 
@@ -25,14 +25,15 @@ Blockchains are a fairly new technology, with the first one, Bitcoin, debuting a
 
 <hr />
 
-<img class="aligncenter size-full wp-image-12817" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/ScalingBitcoin.png" alt="" width="9095" height="2166" />
+<img src="/assets/img/courses/blockchain-for-business/ScalingBitcoin.png" />
 
 <span style="font-weight: 400;">Bitcoin scaling has been a very contentious issue. The most promising Bitcoin project designed to address the scalability issue facing Bitcoin is the Lightning Network. </span><span style="font-weight: 400;">The Lightning network conducts off-chain transactions that sync with the blockchain at the open or close of transaction channels. The Lightning Network is designed to make Bitcoin easier to use in everyday commerce settings. This design keeps the security of normal/on-chain Bitcoin transactions and at any time these parties can settle on-chain. </span><span style="font-weight: 400;">Channels are open between individuals or entities that are going to be doing continued business. The structure of the network allows for these smaller transactions to be executed without waiting for the confirmations needed on the Bitcoin blockchain, making transactions much faster. The Lightning Network has long been cited as a possible solution for everyday spending and routing of bitcoin through these party channels.</span>
 <h3>ETHEREUM</h3>
 
 <hr />
 
-<img class="aligncenter size-full wp-image-12816" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/ScalingEth.png" alt="" width="9095" height="2166" />
+<img src="/assets/img/courses/blockchain-for-business/ScalingEth.png" />
+
 <h4>PLASMA</h4>
 <span style="font-weight: 400;">Ethereum-based Plasma introduced a novel scaling solution that could enable Ethereum to reach many more transactions per second. Like payment channels in the Bitcoin Lightning Network, Plasma is a technique for conducting off-chain transactions while relying on the underlying Ethereum blockchain to ground its security. The goal is to take computational operations away from the Ethereum “main chain” and perform them “off-chain” instead. These techniques are still able to sufficiently guarantee a certain level of security and finality.</span>
 
@@ -46,7 +47,7 @@ Blockchains are a fairly new technology, with the first one, Bitcoin, debuting a
 
 <span style="font-weight: 400;">This might seem like an excellent scaling solution; however, it comes with its own set of problems. If you segment the blockchain and become part of one shard, it makes it near impossible to interact with a different shard without adding a separate protocol. Additionally, to prevent any type of double-spending, you must lock your funds into a specific shard, restricting your interaction to those in the shared shard. </span><span style="font-weight: 400;">While sharding might address scaling in a certain capacity, it does so in a very limiting way. Could there be specific use cases where sharding is a viable solution? Sure. Any situation where you can be restricted to one neighborhood without hindering functionality. However, the limitations facing sharding might not make the method a reasonable scaling solution for all projects.</span>
 
-<img class="aligncenter size-full wp-image-12814" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/ScalingSunrise-01.png" alt="" width="4507" height="1907" />
+<img src="/assets/img/courses/blockchain-for-business/ScalingSunrise-01.png" />
 
 <span style="font-weight: 400;">Blockchain technology is promising, but it is still in its infancy. While these systems have been designed and utilized, they have not been able to meet excessive demand placed upon the network, resulting in exorbitant fees and stalled transactions. The failure of blockchains to meet high demands is what is known as the scalability issue. Current technology only allows a decentralized network to process a handful of transactions per second, an untenable status quo if the technology is to enter the mainstream. However, several projects are looking to solve the scalability issue, each in their unique way. These ideas can be put into two categories, on-chain vs off-chain scaling. On-chain scaling looks to improve the current status quo by adjusting block storage while off-chain scaling projects have created parallel networks to help alleviate the pressure put on the main chain. While the scaling problem has yet to be solved, there are promising innovations on the horizon, ready to tackle this issue.</span>
 

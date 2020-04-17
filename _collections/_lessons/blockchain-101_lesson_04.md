@@ -11,7 +11,7 @@ permalink: /courses/blockchain-101/01/from-digital-currency-to-cryptocurrency
 
 <span class="openingParagraph">All the digital currencies that existed prior to Bitcoin had one feature in common, a central server or authority. While these systems worked, they had a serious drawback that was lamented by many in the digital currency community; they were centralized services. </span>
 
-<span style="font-weight: 400;"> This centralization ran counter to the peer-to-peer dream of many digital pioneers, like the renown “<a href="https://en.wikipedia.org/wiki/Cypherpunk" target="_blank" rel="noopener noreferrer">cypherpunks</a>,” and introduced security and privacy risks. However, this centralization existed for one very good reason, the “Double-Spend Problem.” This term, “Double Spend Problem”, refers to the fact that digital goods are very easy to copy. Someone in possession of a digital token, even one that is managed with cryptography, can still copy that token rapidly and repeatedly. It doesn’t take long to realize that a currency who anyone holder can easily make copies of won’t hold it’s value for long.</span>
+<span> This centralization ran counter to the peer-to-peer dream of many digital pioneers, like the renown “<a href="https://en.wikipedia.org/wiki/Cypherpunk" target="_blank" rel="noopener noreferrer">cypherpunks</a>,” and introduced security and privacy risks. However, this centralization existed for one very good reason, the “Double-Spend Problem.” This term, “Double Spend Problem”, refers to the fact that digital goods are very easy to copy. Someone in possession of a digital token, even one that is managed with cryptography, can still copy that token rapidly and repeatedly. It doesn’t take long to realize that a currency who anyone holder can easily make copies of won’t hold it’s value for long.</span>
 
 <img src="/assets/img/courses/blockchain-101/1-01.png" />
 
@@ -25,7 +25,6 @@ permalink: /courses/blockchain-101/01/from-digital-currency-to-cryptocurrency
 
 <img src="/assets/img/courses/blockchain-101/Hannah2a-11.png" />
 
-&nbsp;
 <h3>DEFINING CRYPTOCURRENCY</h3>
 
 <hr />

@@ -9,7 +9,7 @@ permalink: /courses/decentralized-storage/1/decentralized-storage/
 
 <em>Welcome to the basics of decentralized storage and why we need it! Before you get started, if you haven't already checked out the <a href="/courses/blockchain-101/">Blockchain 101</a> course, it will explain terms and concepts helpful to this course.</em>
 
-<img class="aligncenter wp-image-1697 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/DecentralizedStorage.png" alt="Decentralized Storage" width="9037" height="4188" />
+<img src="/assets/img/courses/decentralized-storage/DecentralizedStorage.png" />
 
 Given the continually decreasing cost of storage, why should we care about decentralized storage at all? Traditional centralized storage has solved many of the engineering problems with storing a large set of data spread over many servers. <a href="https://www.dropbox.com">Dropbox</a> has largely solved the user experience problem of these types of technology and found a successful revenue model in business subscriptions. Is political decentralization really worth achieving?
 
@@ -17,4 +17,3 @@ What follows is an overview of what decentralized storage is, how it differs ver
 
 In this course, you will learn why it's important to pursue decentralized storage as an alternative to traditional storage systems, which types of systems are available today and some strategies you can employ when designing systems that include digital storage.
 
-&nbsp;

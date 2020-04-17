@@ -14,23 +14,21 @@ The early internet was a wild place. Browser developers waged virtual “wars”
 
 <hr />
 
-<img class="aligncenter size-full wp-image-13736" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Web2point0-01.png" alt="" width="9037" height="3280" />
+<img src="/assets/img/courses/blockchain-for-business/Web2point0-01.png" />
 
 <span style="font-weight: 400;">Digg, a popular community-sourced news website, changed things. Unlike traditional news sites like Slashdot, which required the whole webpage to be reloaded to fetch information, new web technologies allowed for in-place information updates that were based on user-submitted content. This update is a boon to devices with limited bandwidth since a few bytes would need to be transmitted instead of reloading the entire page. This more inclusive version of the web became known as Web 2.0 and is more or less where things currently stand. However, now that we have blockchains, what do the internet of value and decentralized storage mean for our worldwide web?</span>
 
-&nbsp;
 <h3>INTERNET OF VALUE</h3>
 
 <hr />
 
 <span style="font-weight: 400;">The first piece of the new web puzzle comes from Bitcoin. As the first blockchain cryptocurrency token with a tradable value, Bitcoin provides the internet with a native payment method. No longer being tied to traditional payment networks like credit cards frees technologists allows for innovation in the payments and finance industries. Once value transfer is as fast as the internet, new possibilities such as microtransactions enable all sorts of new revenue models. </span>
 
-&nbsp;
 <h3>PRIVACY AND SECURITY</h3>
 
 <hr />
 
-<img class="aligncenter size-full wp-image-13738" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/PrivacySecurity-01.png" alt="" width="9037" height="3280" />
+<img src="/assets/img/courses/blockchain-for-business/PrivacySecurity-01.png" />
 
 <span style="font-weight: 400;">Given the recent revelations about how much data is being tracked and watched by large corporations and governments, people have become increasingly cautious about what information they share. One obvious example of this is sharing credit card details over the internet to make a purchase. Although we have technology like SSL to secure our browser connections, the data is often retained by the seller and can end up in the hands of hackers who steal it from poorly secured databases. The solution is to reveal less information and ensure that it is encrypted when needed. Building an improved web atop the latest cryptographic technologies will help ensure users of the internet can keep  </span>
 <h3>DECENTRALIZED STORAGE</h3>
@@ -42,7 +40,7 @@ The early internet was a wild place. Browser developers waged virtual “wars”
 
 <hr />
 
-<img class="aligncenter size-full wp-image-13737" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Identity-01.png" alt="" width="9037" height="3280" />
+<img src="/assets/img/courses/blockchain-for-business/Identity-01.png" />
 
 <span style="font-weight: 400;">If all this anonymity makes you wonder about how we’ll deal with trust and reputation online, then you’re not alone. We already have a digital identity online that is made up of all our data uploaded to social media and other websites. The major problem is that we don’t own or control that data. Blockchain technology can enable digital uniqueness that will help users deal with an increasingly digital world. </span>
 

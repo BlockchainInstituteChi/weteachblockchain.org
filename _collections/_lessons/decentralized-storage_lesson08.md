@@ -15,20 +15,23 @@ Since it would be impractical to expect everyone to upgrade their software for d
 
 When you reach the page, you'll be able to upload and download files from IPFS using the browser window.
 
-<img class="aligncenter wp-image-1158 size-full" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/1.-Initializing.png" alt="" width="1241" height="519" />
-<div class="learnpressImageCaption">Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!</div>
+{% include callouts/imageWithCaption.html
+	image="/courses/decentralized-storage/1.-Initializing.png"
+	title=""
+	bodyText="Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!"
+%}
+
 <h4></h4>
-&nbsp;
+
 <h3>WHAT'S HAPPENING?</h3>
 
 <hr />
 
 Everything here is working just like it did in the command line interface. Once the node is done initializing, it will have its own ID and addresses and will begin to network with other IPFS peers throughout the network. You can see the connected peers in the lower left portion of the user interface:
 
-<img class="aligncenter size-full wp-image-11267" src="https://theblockchaininstitute.org/wp-content/uploads/2019/01/Peers.jpg" alt="" width="999" height="434" />
+<img src="/assets/img/courses/decentralized-storage/Peers.jpg" />
+
 These are IPFS addresses. They can make things difficult to read, but you’ll notice there are patterns
 depending on the client software being used and the location of the node. When your node uploads or requests a file, these other nodes will receive your request and either serve the file themselves or offer to route information to a node that can serve the file.
 
 The peers we see above are operating for free to facilitate the network, which presents some problems if we want to get things running at a larger scale. Instead, a number of solutions have been proposed to compensate nodes for storing files. This problem is largely unsolved though several projects are attempting to solve this issue along with tackling many others.
-
-&nbsp;

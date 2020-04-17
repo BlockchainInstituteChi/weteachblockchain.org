@@ -8,7 +8,6 @@ rsvpUrl: https://www.junioreconomicclub.org/home
 permalink: /events/junior_economic_club_workshop
 Event Type: Classroom
 ---
-<h2>Details</h2>
 Jeremy from the Blockchain Institute led a workshop for the Junior Economic Club of Chicago helping explain what exactly a blockchain is and how they work. The students were able to test out a new activity that let them play the part of a node and simulate the mining process. Prizes were won, fun was had and everyone walked away knowing a little bit more about blockchain and decentralized systems.
 The <a href="https://www.junioreconomicclub.org/home" target="_blank" rel="noopener noreferrer">Junior Economic Club of Chicago</a> is a student-led 501©(3) nonprofit that exposes high school students to the fields of economics, finance, and business.		
 
@@ -17,4 +16,4 @@ The <a href="https://www.junioreconomicclub.org/home" target="_blank" rel="noope
 <img src="/assets/img/IMG_6793_JEC.jpg">
 <img src="/assets/img/IMG_6772_JEC.jpg">
 
-To schedule an event or workshop please <a href="/contact-us/" data-ce-key="545">Contact Us</a> and make sure to join our mailing list for news and updates directly in your inbox.
+<h3>To schedule an event or workshop please <a href="/contact-us/" data-ce-key="545">Contact Us</a> and make sure to <a href="https://theblockchaininstitute.us18.list-manage.com/subscribe?u=ed27e0082d5f7e8d5cd3e3622&id=d50da5888a" target="_blank">Join Our Mailing List</a> for news and updates directly in your inbox.</H3>

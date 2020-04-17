@@ -20,7 +20,7 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">A popular way of addressing potential protocol changes is by going through a proposal implementation process. Each blockchain has a different process for addressing community introduced proposals, but each involves a rigorous process before a recommendation is approved for implementation.</span>
 
-<img class="aligncenter size-full wp-image-12804" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/BIP-01.png" alt="" width="9037" height="3266" />
+<img src="/assets/img/courses/blockchain-for-business/BIP-01.png" />
 
 <span style="font-weight: 400;">Bitcoin uses a proposal process through the introduction of BIPs. A Bitcoin Improvement Proposal (BIP) is a design document for introducing new features or upgrades to the Bitcoin software. This is the standard way of communicating ideas since Bitcoin has no central structure or leadership.</span>
 
@@ -37,7 +37,8 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">When there is a protocol change, the blockchain’s software must be updated. This is done through a process known as a </span><b>fork</b><span style="font-weight: 400;">. There are multiple types of forks, but all have the goal of updating the blockchain’s protocols.</span>
 
-<img class="aligncenter size-full wp-image-12806" src="https://theblockchaininstitute.org/wp-content/uploads/2019/08/Fork-01.png" alt="" width="9037" height="2912" />
+<img src="/assets/img/courses/blockchain-for-business/Fork-01.png" />
+
 <h4>Hard Fork</h4>
 <ul>
  	<li>A hard fork is a protocol change that makes previously valid blocks invalid or vice versa. A hard fork can append the ledger or make major protocol changes.</li>

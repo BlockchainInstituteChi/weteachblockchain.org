@@ -6,6 +6,7 @@ date: 2019-09-30
 eventdate: Monday, September 30, 2019
 permalink: /events/voiceofblockchain2019
 rsvpUrl: https://voiceofblockchain.com/
+Event Type: Community
 ---
 <h2>Details</h2>
 The Annual Voice of Blockchain conference in Chicago brings together decentralized ledger professionals from across America and around the world. This years' topics include sovereign identity and digital privacy among others.

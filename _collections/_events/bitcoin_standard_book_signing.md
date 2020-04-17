@@ -12,5 +12,8 @@ One of the ways the institute has helped build the Chicago community is by attra
 
 We teamed up with the Bitcoin and Open Blockchain Meetup once again to help promote the new book 'The Bitcoin Standard' and share some educational resources with the community. <a href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/events/253210845/" target="_blank">See the event online</a>.
 
-<img src="https://theblockchaininstitute.org/wp-content/uploads/2018/10/IMG_6403-2.jpg" alt="" width="4032" height="3024" /> 
-A packed house for the book signing and panel event
+{% include callouts/imageWithCaption.html
+	image="IMG_6403-2.jpg"
+	title=""
+	bodyText="A packed house for the book signing and panel event"
+%}

@@ -12,5 +12,6 @@ Once you open the page, an IPFS node will start to run right in your browser. Th
 
 Once the node has finished initializing, you'll see the node details appear in the upper left corner as so:
 
-<img class="aligncenter size-full wp-image-11692" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/UsingtheIF.jpg" alt="" width="747" height="262" />
+<img src="/assets/img/courses/ipfs/UsingtheIF.jpg" />
+
 The IPFS client has set up a new node running in your browser window. The <strong>Logs </strong>output shows the last event, which in this case is telling us that the file with ID <code>QmT6s9dZXRFbxGhvSW68BdZEFF9mHaTW6erH3TNMrRGZfX</code><em> (a photo of Alex's dog) </em>has been downloaded successfully to your node.

@@ -12,18 +12,15 @@ The IPFS web portal makes uploading and sharing files using IPFS easy. As a demo
 
 Here's the image:
 
-<img class="aligncenter size-full wp-image-11694" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/Dog.jpg" alt="" width="1639" height="766" />
+<img src="/assets/img/courses/ipfs/Dog.jpg" />
 
-&nbsp;
 <h3>UPLOADING</h3>
 
 <hr />
 
 You can now click and drag files onto the drop box on the right to upload them to your node. Once uploaded, you'll see them added to the list as shown below.
 
-<img class="aligncenter size-full wp-image-11695" src="https://theblockchaininstitute.org/wp-content/uploads/2019/02/FilesUpload.jpg" alt="" width="1135" height="578" />
-
-&nbsp;
+<img src="/assets/img/courses/ipfs/FilesUpload.jpg" />
 
 <h3>SHARING</h3>
 <hr />

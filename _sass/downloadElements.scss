@@ -1,3 +1,6 @@
+html, body {
+    overflow-x:hidden;
+}
 .downloadsRowContainer {
     display: block;
     width: 100%;
@@ -6,8 +9,14 @@
     margin-top: .5em;
 }
 .tileItem.downloadItem {
-    margin-left: .75em;
+    margin-left: .5em;
     margin-right: -.15em;
     display: inline-flex;
     width: 23%;
+}
+h1 {
+    font-weight: 500 !important;
+    font-size: 2.5em;
+    padding-left: 0.175em;
+    color: black;
 }
