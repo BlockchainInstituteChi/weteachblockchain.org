@@ -8,7 +8,6 @@ permalink: /courses/blockchain-101/02/peer-to-peer-networks
 
 <iframe width="1024" height="475" src="https://www.youtube.com/embed/tijkEhUOf_o?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</div>
 
 <span class="openingParagraph">As discussed before, decentralized networks give users greater control over their information. This is largely achieved through peer-to-peer networks.
 </span>
