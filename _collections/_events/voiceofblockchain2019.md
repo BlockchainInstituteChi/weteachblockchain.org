@@ -28,6 +28,9 @@ The Annual Voice of Blockchain conference in Chicago brings together decentraliz
 	bodyText="And finally, our content lead, Jeremy Cogan, provided some insight into technology adoption and our role as an educational organization."
 %}
 
-For all the event photos, please check out our photo archive here: <a style="background-color: #ffffff;" href="https://theblockchaininstitute.org/voice-of-blockchain-2019-photo-archive/">https://theblockchaininstitute.org/voice-of-blockchain-2019-photo-archive/</a>
+{% include callouts/imageGallery.html
+        title="More Event Photos!"
+        imageList="20190930_fjs_coincollect_5.jpg,20190930_fjs_coincollect_7/jpg,20190930_fjs_coincollect_9.jpg,20190930_fjs_coincollect_18.jpg,20190930_fjs_coincollect_25.jpg,20190930_fjs_coincollect_26.jpg,20190930_fjs_coincollect_32.jpg,20190930_fjs_coincollect_42.jpg,20190930_fjs_coincollect_46.jpg,20190930_fjs_coincollect_48.jpg,20190930_fjs_coincollect_49.jpg,20190930_fjs_coincollect_53.jpg,20190930_fjs_coincollect_56.jpg,20190930_fjs_coincollect_57.jpg,20190930_fjs_coincollect_58.jpg,20190930_fjs_coincollect_61.jpg,20191001_fjs_coincollect_72.jpg,20191001_fjs_coincollect_73.jpg,20191001_fjs_coincollect_75.jpg,20191001_fjs_coincollect_77.jpg,20191001_fjs_coincollect_78.jpg,20191001_fjs_coincollect_79.jpg,20191001_fjs_coincollect_84.jpg,20191001_fjs_coincollect_85.jpg"
+%}
 
-For tickets and more information visit <a href="https://voiceofblockchain.com/" target="_blank">voiceofblockchain.com</a>
+<h3>For tickets and more information visit <a href="https://voiceofblockchain.com/" target="_blank">voiceofblockchain.com</a></h3>
