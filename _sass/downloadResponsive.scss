@@ -19,6 +19,16 @@
     .downloadsRowContainer {
         overflow-x: hidden;
     }
+h1 {
+    padding-left: 0.3em;
+}
+.tileItem h1 {
+    margin-left: 0em;
+}
+.tileItem img {
+    width: calc(100% - 1em);
+}
+
 
 }
 
