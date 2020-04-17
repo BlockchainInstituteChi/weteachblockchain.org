@@ -320,13 +320,18 @@ img#lightBoxImage {
 
 /* Big Quotes */
 .row.bigQuote {
-    margin: 3em 5em;
-    max-width: 98.5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    min-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 span.quoteBody {
     text-align: center;
     color: grey;
+    width: 100%;
     font-family: Open Sans;
     font-style: italic;
     font-size: 1.4em;
@@ -345,9 +350,9 @@ span.quoteBody::before {
     content: '“';
     z-index: -1;
     font-size: 9em;
-    position: absolute;
-    top: 0.7em;
-    left: 0em;
+    position: absolute;=
+    top: -0.5em;
+    left: 0;
     color: lightgrey;
     font-family: Arial, sans-serif;
 }
@@ -357,8 +362,8 @@ span.quoteBody::after {
     z-index: -1;
     font-size: 9em;
     position: absolute;
-    top: 0.7em;
-    right: .15em;
+    top: -0.5em;
+    right: 0;
     color: lightgrey;
     font-family: Arial, sans-serif;
 }
