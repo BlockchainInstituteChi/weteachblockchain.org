@@ -24,8 +24,6 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <img src="/assets/img/courses/blockchain-101/CvD.jpg" />
 
-&nbsp;
-
 <h3>BLOCKCHAINS ARE DECENTRALIZED</h3>
 <hr />
 
