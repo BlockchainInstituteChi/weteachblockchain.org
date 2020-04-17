@@ -1,5 +1,5 @@
 ---
-title: BITDEVS CHI – Socratic Seminar 6
+title: Socratic Seminar 6
 layout: event
 image: bitdevschithumb.jpeg
 date: 2020-02-19
