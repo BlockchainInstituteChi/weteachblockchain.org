@@ -5,8 +5,6 @@ module: 2
 title: How are Blockchains Secure?
 permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 ---
-
-<span> 
 <div>
 
 <iframe src="https://www.youtube.com/embed/yNycDHwS6gw?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
@@ -21,10 +19,8 @@ permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 <span style="font-weight: 400;">Blockchains are decentralized and distributed across peer-to-peer networks that are continually updated to reflect every transaction. Because they are not contained in a central location, blockchains do not have a single point of failure and cannot be changed by hacking a single computer. It would require massive amounts of computing power to control a 51% majority of all nodes on the blockchain. We'll go over 51% attacks in an upcoming lesson within this section of the course.</span>
 
 <span style="font-weight: 400;">Decentralized networks offer users an opportunity to preserve their digital identities. In order for decentralized networks to get to this point of viability, they had to address the security concerns presented by these networks. There are several technical components of a blockchain and the information contained in each block that is crucial to its functionality. </span>
-&nbsp;
 
 <h3>COMPONENTS OF A BLOCK</h3>
-<hr />
 
 <img src="/assets/img/courses/blockchain-101/BitcoinBlock-01.png" />
 
