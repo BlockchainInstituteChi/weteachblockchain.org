@@ -28,11 +28,9 @@
       </ul>
 
       <div id="searchLightbox" class="searchBox d-none">
-        <div class="searchInterface">
-          <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults()">
-          <div id="searchResults" class="searchResults">
-            
-          </div>
+        <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults('searchResults', 'searchInput')">
+        <div id="searchResults" class="searchResults">
+          <span class="loading">Loading ... </span>
         </div>
       </div>
 

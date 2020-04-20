@@ -135,7 +135,14 @@
 	    font-family: Kanit;
 	    font-weight: 500;
 	}
-	
+	div#searchLightbox {
+		left: 0;
+		width: 100vw;
+		top: calc(10vh - 1em);
+		z-index: 1001;
+		height: 90vh;
+		position: fixed;
+	}
 	
 	/*Breadcrumbs*/
 	section.breadcrumbs {

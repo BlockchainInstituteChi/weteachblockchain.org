@@ -285,31 +285,32 @@ li.nav-item.search {
     padding-left: 0.5em;
     // border-left: lightgrey 1px solid;
 }
-.searchInterface {
-    width: 50%;
-    background: white;
-    margin: auto;
-    margin-top: 4em;
-    border-radius: 0.5em;
-    padding: 1em;
+.searchBox::-webkit-scrollbar, .searchResults::-webkit-scrollbar {
+    display: none !important;
 }
-span.cancelSearchButton {
-    color: white;
-    font-size: 3em;
+.searchBox {
+    display: block;
     position: absolute;
-    right: calc( 25% - 1em);
+    width: 50vw;
+    max-width: 100%;
+    float: right;
+    right: 17em;
+    background: white;
+    top: 1.25em;
+    z-index: 100;
 }
-.searchInterface input {
+.searchBox input {
     width: 100%;
     border-radius: 0em;
     padding: 0.5em;
     font-family: Roboto;
 }
-div#searchResults {
+.searchResults {
     max-height: 50vh;
     overflow: scroll;
     height: 50vh;
     overflow-x: hidden;
+    height: fit-content;
 }
 .searchResults img {
     max-width: 20%;
@@ -344,6 +345,13 @@ div#searchResults {
     max-width: 100%;
     margin: auto;
     padding: 0.5em;
+}
+.searchResults span.loading  {
+    padding-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    text-align: center;
 }
 
 /* Lightbox */
