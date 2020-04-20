@@ -10,8 +10,9 @@ permalink: /courses/hyperledger/1/hyperledger-architecture/
 <span class="openingParagraph">
 This brief video was created by IBM to explain why Hyperledger is different. IBM is among the core developers of this new protocol and has committed in-house resources to build this solution for industrial blockchains. A number of other major software companies including Oracle and the Linux Foundation have also committed in-house teams to support the development of the Hyperledger protocol.
 </span>
-<div class="fullWidthIframeContainer"><iframe class="askAnExpert" src="https://www.youtube.com/embed/EKa5Gh9whgU" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
-<span class="imageCaption"><span class="mainImageTitle"><br>BUILDING A BLOCKCHAIN FOR BUSINESS WITH THE HYPERLEDGER PROJECT</br></span> // IBM Developer</span>
+
+<iframe class="askAnExpert" src="https://www.youtube.com/embed/EKa5Gh9whgU" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<span class="imageCaption"><span class="mainImageTitle"><b>BUILDING A BLOCKCHAIN FOR BUSINESS WITH THE HYPERLEDGER PROJECT</b></span> // IBM Developer</span>
 
 <h3>WHY IS HYPERLEDGER DIFFERENT?</h3>
 
