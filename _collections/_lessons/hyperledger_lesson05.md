@@ -5,10 +5,8 @@ module: 1
 title: Design Considerations
 permalink: /courses/hyperledger/1/design-considerations/
 ---
-<br>
-<br>
-<p></p>
-<h3>Node Roles and Privileges</h3>
+
+<p><h3>Node Roles and Privileges</h3></p>
 Before you start designing your project, it may help to consider the various stakeholders involved and how they will participate in the network. Which nodes will need access to which information?
 
 {% include callouts/note.html
