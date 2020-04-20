@@ -7,7 +7,7 @@ permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 ---
 
 <span> 
-<div style="text-align: center;">
+<div>
 
 <iframe src="https://www.youtube.com/embed/yNycDHwS6gw?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
