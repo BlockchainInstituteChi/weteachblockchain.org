@@ -75,7 +75,6 @@
       <div class="row container">
         <div class="col-md-9 eventFAQ">
           <h1>{{ page.title }}</h1>
-          <span class="author">{{ page.author }}</span>
           <div class="faqBody">
             {{ content }}
 
@@ -89,14 +88,14 @@
         </div>
   
         <div class="col-md-3 faqSidebar">
-          {% assign sorted = site.faq | sample: 3 %}
+          {% assign sorted = site.faq | sample: 3 | sort: 'weight' %}
           {% for faq in sorted limit:3 %}
   
               <div class="faqTile column"> 
                 <a target="_blank" href="{{ faq.permalink }}">
                   <img src="/assets/img/{{faq.image}}"/>
                     <h1>{{ faq.title }}</h1>
-                    <span>{{ faq.author }}</span>
+                    <span>{{ faq.tag }}</span>
                 </a>
               </div>
   

@@ -16,12 +16,13 @@ permalink: /faq/
 <section class="faqList upcoming">
 	<h1 class="hasColorTag red">FAQs</h1>
 	<div class="row">
-		{% for item in site.faq %}
+		{% assign faqs = site.faq | sort: 'weight' %}
+		{% for item in faqs  %}
 			{% include faqTile.html 
 				image=item.image
 				link=item.permalink
 				title=item.title
-				author=item.author
+				author=item.tag
 			%}
 		{% endfor %}
 	</div>
