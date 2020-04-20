@@ -10,7 +10,7 @@ permalink: /courses/hyperledger/1/hyperledger-background/
 Blockchain (or Distributed Ledger) technology as we know it provides a unique system of trust within a network. The ledger tracks the events or data generated within a system and is distributed amongst a network of peers to ensure that none of them can tamper with the information once it is saved.
 
 While public blockchain technology originally emerged as a solution to provide distributed trust within the Bitcoin network, the technology has progressed a long way since 2008. With the introduction of the Ethereum Virtual Machine, the concept of a blockchain system expanded to include not only the distributed ledger but also distributed software that could run on a peer network.
-<iframe src="https://www.youtube.com/embed/biHMZDmm8qc" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
+<iframe class="askAnExpert" src="https://www.youtube.com/embed/biHMZDmm8qc" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe>
 
 <span class="imageCaption"><span class="mainImageTitle">ASK AN EXPERT: WHAT'S THE DIFFERENCE BETWEEN PUBLIC AND PRIVATE BLOCKCHAINS?</span><span> // Blockchain.WTF</span>
 
