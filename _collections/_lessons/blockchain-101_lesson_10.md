@@ -6,11 +6,9 @@ title: Asymmetric Encryption
 permalink: /courses/blockchain-101/02/asymmetric-encryption
 ---
 
-<div>
 
 <iframe src="https://www.youtube.com/embed/2f-IrPdTOwk?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-</div>
 <span class="openingParagraph">We've gone over the security features of blockchains, but let's look at security on an individual level. What aspects of blockchains ensure personal security?
 </span>
 
