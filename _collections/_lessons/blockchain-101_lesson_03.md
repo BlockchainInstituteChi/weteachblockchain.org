@@ -9,12 +9,9 @@ permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 <iframe src="https://www.youtube.com/embed/QV3CAPpNKDo?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 <span class="openingParagraph">Despite Bitcoin's open nature, we still know very little about its creator. Satoshi Nakamoto is the name used by the person or people that created Bitcoin and wrote the Bitcoin whitepaper.</span>
-&nbsp;
-
 
 <h3>WHO IS SATOSHI NAKAMOTO?</h3>
 
-<hr />
 <img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.png" />
 
 Who is the mysterious creator behind Bitcoin? We don’t know much more than the name, Satoshi Nakamoto, which first appeared on the paper <a href="https://bitcoin.org/bitcoin.pdf">“Bitcoin: A Peer-to-Peer Electronic Cash”</a> which was distributed by a cryptography mailing list in 2008. While there are a few suspects, Nakamoto’s identity remains a mystery.
