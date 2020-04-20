@@ -5,18 +5,18 @@ module: 1
 title: Transaction Flow
 permalink: /courses/hyperledger/1/transaction-flow/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.</span>
 
 In a Hyperledger app, a transaction can be required to find multiple endorsements from trusted parties within the system before it can be added to the blockchain. Endorsements can be configured to ensure a minimal risk of fraud within the system. An example of this might be to require a business partner to verify certain details of a transaction before it is written to the public ledger. Once all necessary endorsements have been met, the transaction is passed to an ordering node, which will add it to the chain, or Validated Ledger.
 
 {% include callouts/note.html
-	bodyText='<em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
+	bodyText="<em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>"
 %}
 
 <h3>GENERAL TRANSACTION FLOW</h3>
-
-<hr />
 
 <h4>1. Client Initiates Transactions</h4>
 To initiate a transaction, the client creates a properly formatted proposal via the Hyperledger Software Development Kit (SDK), and signs it from their identity, and then transmits it to the network for approval.
