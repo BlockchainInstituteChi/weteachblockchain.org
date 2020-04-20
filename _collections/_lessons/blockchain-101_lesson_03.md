@@ -43,7 +43,6 @@ This line references a Times of London article that discussed an additional bail
 
 Satoshi's thoughts on the banking system give us some clues as to why he built a monetary alternative that is decentralized and trustless.
 
-<img src= />
 {% include callouts/imageWithTextCallout.html
     image="/assets/img/courses/blockchain-101/Hal_Finney_computer_scientist.jpg"
     title="Hal Finney"
