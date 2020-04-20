@@ -2,6 +2,7 @@
 title: Chicago’s Blockchain Institute Granted 501(c)(3) Non-profit Status
 date: 2019-04-17
 eventdate: April 17, 2019
+image: ""
 ---
 
 On March 25, 2019, Chicago’s Blockchain Institute was officially granted status as a 501(c)(3) Public Charity.

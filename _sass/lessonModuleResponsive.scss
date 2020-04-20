@@ -108,17 +108,17 @@
     }
 span.quoteBody::before {
     font-size: 6em;
-    top: 0.75em;
+    top: 0.25em;
     left: -.23em;
 }
 span.quoteBody::after {
     font-size: 6em;
-    top: 0.75em;
-    right: -.05em;
+    bottom: 0;
+    right: -0.05em;
+    top: unset;
 }
 .row.bigQuote {
-    margin: 3em 2em;
-    max-width: 98.5%;
+    margin: 0;
 }
     
 }

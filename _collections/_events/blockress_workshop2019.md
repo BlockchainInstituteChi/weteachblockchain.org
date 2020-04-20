@@ -6,6 +6,7 @@ date: 2019-04-02
 eventdate: Tuesday, April 2, 2019
 permalink: /events/blockress_workshop2019/
 rsvpUrl: #
+eventType: Community
 ---
 The 3rd International Blockchain Congress took place April 2nd at Chicago’s AON Center. Over 50 Blockchain professionals spoke on various enterprise blockchain topics.
 

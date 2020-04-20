@@ -13,8 +13,61 @@ permalink: /events/
 	ctaLink="/contact-us/" 
 %}
 
+<script>
+	setTimeout(checkEventType, 1000);
+	
+	function checkEventType () { 
+		
+		var currentUrlParts = window.location.href.split('/');
+		var searchString = "";
+	
+		// first, remove slashes and header elements
+		for ( var x = 4; x < currentUrlParts.length; x++ ) {
+			searchString += " " + decodeURIComponent(currentUrlParts[x])
+		}
+		searchString.replace(/[^a-zA-Z ]/g, "")
+		console.log('searchstring: ', searchString.trim())
+
+		if ( "#Community" == searchString.trim() ) {
+			console.log('community mode')
+			filterEvents('Community')
+		} else if ( "#Classroom" == searchString.trim() ) {
+			console.log('classroom mode')
+			filterEvents('Classroom')
+		} else {
+			console.log('no event type detected')
+		}
+	
+	}
+	
+	function filterEvents(type) {
+		var events = document.getElementsByClassName('eventTile')
+		for (e of events) {
+			console.log('checking tile ', e)
+			if ( e.className.includes(type) ) {
+	
+			} else {
+				e.className = e.className + " d-none"
+			}
+		}
+		setFilterMessage(type)
+	}
+
+	function setFilterMessage (type) {
+		document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className.replace('d-none','')
+		document.getElementsByClassName('eventFilter')[0].textContent = type;
+	}
+
+</script>
+
+
 <section class="header">
 	<p>Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;Get in touch with us about sponsorships, speakers, or running a workshop for your next event. In need of space? Our headquarters at the&nbsp;<a class="externaLink" href="https://hackha.us/" target="_blank" rel="noopener">HackHaus</a>&nbsp;in Chicago provides an environment for a wide range of activities.</p>
+	<a href="#">
+		<span class="eventFilterNotification d-none">
+			Filter Applied: <strong class="eventFilter"></strong> (click to clear)
+		</span>
+	</a>
 </section>
 
 {% assign sorted = site.events | sort: 'date' | reverse %}
@@ -39,6 +92,7 @@ permalink: /events/
 					image=event.image 
 					title=event.title 
 					date=event.eventdate
+					type=event.eventType
 				%}
 
 			{% endif %}
@@ -58,6 +112,7 @@ permalink: /events/
 					image=event.image 
 					title=event.title 
 					date=event.eventdate
+					type=event.eventType
 				%}
 			{% endif %}
 		{% endfor %}

@@ -3,7 +3,8 @@ title: What is Decentralized Storage?
 image: DStorage.png
 permalink: /faq/decentralized-storage/
 layout: faq
-author: Concept
+tag: APPLICATIONS
+weight: 6
 ---
 <span>Data transmitted over the internet is often processed and stored in large-scale servers. These centralized servers are controlled by internet service providers and web services like Google and Amazon. This is known as the client-server model and it is the backbone of our world wide web. It is the most efficient way to send information back and forth between users. Data is sent from one user, funneled through a centralized server, and then sent to its intended recipient; the centralized server does most of the processing and is the key facilitator in this transfer.</span>
 

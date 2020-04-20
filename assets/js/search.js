@@ -78,23 +78,37 @@ function toggleDisplaySearchLightbox () {
      
 }
 
-function refreshSearchResults () {
+function displayNoResultsMessage ( searchContainer, searchTerm ) {
+    
+    var container = document.getElementById(searchContainer)
+    deleteAllSearchResults(container)
+    var span = document.createElement('span')
+        span.textContent = "No results for '" + searchTerm + "' "
+        span.className = "loading"
+
+    document.getElementById(searchContainer).appendChild(span)
+}
+
+function refreshSearchResults (searchResultsContainer, searchInput) {
+    
     if ( typeof (window.searchData) != "undefined") {
-        var searchTerm = document.getElementById('searchInput').value;
+        var searchTerm = document.getElementById(searchInput).value;
         var searchResult = window.searchIndex.search(searchTerm)
 
-        console.log("found search result: ", searchResult)
+        if ( 1 > searchResult.length ) {
+            displayNoResultsMessage ( searchResultsContainer, searchTerm )
+        } else {
+            displaySearchResults(searchResult, searchResultsContainer);
+        }
         
-        displaySearchResults(searchResult);
-
     } else {
         alert('Error fetching search index. Please contact support.')
     }
 }
 
-function displaySearchResults (results) {
+function displaySearchResults (results, container) {
 
-    var resultsContainer = document.getElementById('searchResults');
+    var resultsContainer = document.getElementById(container);
 
     deleteAllSearchResults(resultsContainer)
 

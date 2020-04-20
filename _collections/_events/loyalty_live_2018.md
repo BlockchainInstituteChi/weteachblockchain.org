@@ -6,7 +6,7 @@ date: 2018-10-16
 eventdate: Tuesday, October 16th, 2018
 permalink: /events/loyalty_live_2018
 rsvpUrl: https://www.loyaltylive18.com/
-Event Type: Community
+eventType: Community
 ---
 From October 16-18 the Loyalty Live Blockchain Conference took place in Chicago. Experts in the loyalty and blockchain fields met to discuss how the two can intersect. 
 

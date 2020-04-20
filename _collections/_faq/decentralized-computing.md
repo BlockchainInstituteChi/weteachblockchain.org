@@ -3,7 +3,8 @@ title: What is Decentralized Computing?
 image: decentralized_computing_open.jpg
 permalink: /faq/decentralized-computing/
 layout: faq
-author: Concept
+tag: APPLICATIONS
+weight: 5
 ---
 <span>Distributed computing has long been a theoretical concept in computer science, but in 2015 the Ethereum foundation took that theory one step closer to reality. Ethereum’s stated goal and innovation was to create an economic incentive for participants to join this public network and help maintain a global, distributed, computer system.</span>
 
