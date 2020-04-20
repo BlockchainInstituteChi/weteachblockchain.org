@@ -53,6 +53,7 @@ permalink: /contact-us/
 			subject : document.getElementById('contactUsSubject').value,
 			message : document.getElementById('contactUsMessageBody').value,
 			token : window.recaptchaToken
+			ambassador : false
 		}
 		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return handleError ('You must fill all fields to submit the form.')
 		if ( !validateEmail(formDetails.email) ) return handleError('You must submit a valid email.')
