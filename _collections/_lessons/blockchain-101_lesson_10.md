@@ -6,8 +6,7 @@ title: Asymmetric Encryption
 permalink: /courses/blockchain-101/02/asymmetric-encryption
 ---
 
-<span> 
-<div style="text-align: center;">
+<div>
 
 <iframe src="https://www.youtube.com/embed/2f-IrPdTOwk?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
@@ -22,10 +21,8 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 <ul>
  	<li style="font-weight: 400;"><b>A digital signature</b><span style="font-weight: 400;"> is a message or transaction signed with the sender’s private key, and it can be verified by anyone who has access to the sender’s public key. This process verifies that the sender has access to the needed corresponding private key, and is therefore likely to be associated with public key as well. This encryption ensures that the message is unchanged between the sender and the receiver.</span></li>
 </ul>
-&nbsp;
-<h3><b>PUBLIC AND PRIVATE KEYS</b></h3>
 
-<hr />
+<h3><b>PUBLIC AND PRIVATE KEYS</b></h3>
 
 <span style="font-weight: 400;">Communication between nodes is a key part of decentralized networks. Nodes use a method known as </span><b>asymmetric encryption</b><span style="font-weight: 400;"> in order to sign transactions to prove where they came from. Within this method, public and private keys are absolutely essential for the encryption and decryption of messages. Public keys can be dispersed widely, whereas private keys are only known to the owner.</span>
 
@@ -35,16 +32,12 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 <img src="/assets/img/courses/blockchain-101/PublicKey-01-1.png" />
 
-&nbsp;
-
 <h3><b>HASHING</b></h3>
-
-<hr />
 
 <span style="font-weight: 400;">Hashing is the process of creating an irreversible “digest” as a means to organize data. The hash function takes an input of any length (a message, for example), and returns a fixed-length string of seemingly random numbers and letters, which is called the hash value (also known as a message digest, digital fingerprint, or digest). </span><span style="font-weight: 400;">  Simply put, hashing is a more efficient way to identify long strings of data.</span>
 
-<h4>Try it yourself!</h4>
-<span>Try typing your name in the window below to see the hash digest!</span>
+
+<span>Try it yourself! Try typing your name in the window below to see the hash digest!</span>
 <iframe src="https://fluffy-umbrella.theblockchaininstitute.org" width="100%" height="100px"></iframe>
 
 <span style="font-weight: 400;">By now, you should understand that blockchains are a combination of existing technologies like cryptography and peer-to-peer networking, combined with an incentive layer to power a globally uncensorable network. By overlaying these technologies onto our existing processes, we can build new ways of working digitally.</span>
