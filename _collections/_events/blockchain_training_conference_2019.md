@@ -6,6 +6,7 @@ date: 2019-09-28
 eventdate: Wednesday, August 28, 2019
 permalink: /events/blockchain_training_conference_2019
 rsvpUrl: https://blockchaintraining.org/home/home/
+eventType: Community
 ---
 
 In August, The Blockchain Institute's Managing Director, Hannah Rosenberg, taught a session at the <a href="https://blockchaintraining.org/home/home/" target="_blank" rel="noopener">Blockchain Training Conference</a> in Denver.
