@@ -33,7 +33,7 @@ If an Endorsing Peer receives a transaction with a valid signature from a known 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-02.png"
 	title="ENDORSING PEERS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
-	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i></div>"
+	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i>"
 %}
 
 <h4>3. Proposal Responses are Inspected</h4>
@@ -80,4 +80,4 @@ The full flow is seen in the figure below:
 	bodyText="<b>A:</b> <i>Collect TRANSACTION-ENDORSED Msgs into a valid endorsement that satisfies endorsementPolicy (chaincodeID) broadcast(endorsement);</i> <b>B:</b> <i>tx=&lt;clientID, chaincodeID, txPayload, timeStamp, clientSig&gt;;</i> <b>C:</b> <i>Simulate/Execute tx Sign TRANSACTION-ENDORSED;</i> <b>D:</b> <i>Verify endorsement, readset if OK, apply writeset to state;</i> <b>E:</b> <i>Ordering service;</i> <b>F:</b> <i>VClient (C);</i> <b>G:</b> <i>Endorsing Peer (EP1);</i> <b>H:</b> <i>Endorsing Peer (EP2);</i> <b>I:</b> <i>Endorsing Peer (EP3);</i> <b>J:</b> <i>Orderers;</i> <b>K:</b> <i>(Committing) Peer (CP1).</i>"
 %}
 
-<div>If this all seems very complicated, don't worry! The SDK takes care of most of the work, as we'll see in the next lesson.</div>
+<p>If this all seems very complicated, don't worry! The SDK takes care of most of the work, as we'll see in the next lesson.<p>
