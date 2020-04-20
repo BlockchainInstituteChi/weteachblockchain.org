@@ -18,6 +18,7 @@ permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 
 <span style="font-weight: 400;">Blockchains are decentralized and distributed across peer-to-peer networks that are continually updated to reflect every transaction. Because they are not contained in a central location, blockchains do not have a single point of failure and cannot be changed by hacking a single computer. It would require massive amounts of computing power to control a 51% majority of all nodes on the blockchain. We'll go over 51% attacks in an upcoming lesson within this section of the course.</span>
 
+
 <span style="font-weight: 400;">Decentralized networks offer users an opportunity to preserve their digital identities. In order for decentralized networks to get to this point of viability, they had to address the security concerns presented by these networks. There are several technical components of a blockchain and the information contained in each block that is crucial to its functionality. </span>
 
 <h3>COMPONENTS OF A BLOCK</h3>
@@ -26,5 +27,5 @@ permalink: /courses/blockchain-101/02/how-are-blockchains-secure
 
 <span style="font-weight: 400;">Each block is limited by the amount of information it can hold. Blocks vary in size depending on the chain, as does each network’s time to completely validate the block, also known as a “block time.” Bitcoin’s blocks are 1MB and take about 8 minutes to validate. Blocks are designed to hold confirmed transactions. They provide a record that is then added to the chain permanently and can be referenced at a later time. The key components of a block both help identify and secure the blockchain.</span>
 
+
 <span style="font-weight: 400;">Since a copy of the blockchain is stored on each computer on the network, that requested data can be retrieved easily and quickly. Additionally, this architecture allows nodes to act as reliable validators. The further the chain progresses, the harder it is to alter data, as each subsequent block would have to be changed as well. This process would easily alert other nodes to any malicious action. Essentially, to change historical data that has been added to the chain, it would have to be rewound, appending one block at a time. Additionally, blocks are transparent. Data is compiled into each block when it is created, and any attempt to alter confirmed data results in a completely different hash, easily alerting other nodes that invalid information is trying to be added to the blockchain. We’ll go into more detail about hashing in the next lesson.</span>
-<h3></h3>
