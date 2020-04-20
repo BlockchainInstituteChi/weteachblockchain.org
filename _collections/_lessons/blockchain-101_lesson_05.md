@@ -10,10 +10,8 @@ permalink: /courses/blockchain-101/01/the-byzantine-generals-problem
 
 
 <span class="openingParagraph">The Byzantine Generals’ Problem is a classic problem faced by any distributed computer system network. It addresses the question of how a distributed computer network can reach a reliable consensus even when some of the nodes (computers) on the network may attempt to pass along fraudulent information. The internet has opened up many new avenues for commerce and education, but how can we trust a random person across the world?</span>
-&nbsp;
 
 <h3>THE SCENARIO:</h3>
-<hr />
 
 <span style="font-weight: 400;">Imagine that the powerful Byzantine Empire has decided to capture a city. Of course, there is fierce resistance from within the city. The Byzantine Army has completely encircled the city. A good strategy, however, this has separated the Byzantine army into separate encampments. In order to ensure that the army can surround the city, the army has to split up into groups led by different generals. It now has many divisions with each division being commanded by its own general. The generals communicate between each as well as between all under their command within their division only through messengers. How can the generals efficiently and accurately communicate without fear of their message or plans being compromised?</span>
 
