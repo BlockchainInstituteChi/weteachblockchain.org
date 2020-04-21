@@ -60,8 +60,8 @@ permalink: /contact-us/
 		if ( !window.recaptchaToken ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
-		// xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
-		xhr.open("POST", "http://localhost:8888/contact/", true);
+		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
+		// xhr.open("POST", "http://localhost:8888/contact/", true);
 		xhr.onreadystatechange = function() { 
         if (xhr.readyState == 4 && xhr.status == 200)
 			console.log('xhr response:', xhr.responseText)
