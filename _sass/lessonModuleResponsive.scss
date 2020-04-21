@@ -28,6 +28,26 @@
 .imageWithTextCallout .col-md-3 {
     margin-bottom: 10em;
 }
+span.quoteBody::after {
+    content: '”';
+    z-index: -1;
+    font-size: 3em;
+    position: absolute;
+    top: 0.15em;
+    right: -0.23em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+span.quoteBody::before {
+    content: '“';
+    z-index: -1;
+    font-size: 3em;
+    position: absolute;
+    top: 0.15em;
+    left: -0.35em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
 } 
 
 /* Mobile */
@@ -110,15 +130,13 @@
         margin-top: calc(50vh - 8em);
     }
 span.quoteBody::before {
-    font-size: 6em;
-    top: 0.25em;
-    left: -.23em;
+    font-size: 2.5em;
+    left: -.31em;
 }
 span.quoteBody::after {
-    font-size: 6em;
+    font-size: 2.5em;
     bottom: 0;
-    right: -0.05em;
-    top: unset;
+    right: -0.13em;
 }
 .row.bigQuote {
     margin: 0;
