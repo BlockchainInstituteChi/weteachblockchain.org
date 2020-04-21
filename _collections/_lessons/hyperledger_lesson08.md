@@ -15,7 +15,8 @@ Because Hyperledger networks require multiple nodes operating with different rol
 <h3><b>INSTALLATION PROCEDURE</b></h3>
 
 
-<span">Before we start, you'll want to make sure the first network example is down. Be sure to run this command from the first-network directory.</span>
+Before we start, you'll want to make sure the first network example is down. Be sure to run this command from the first-network directory.
+
 {% include callouts/terminal.html
     title="shut down the network and clear docker"
     user="alex@ubuntu"
