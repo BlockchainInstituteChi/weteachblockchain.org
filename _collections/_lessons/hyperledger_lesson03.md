@@ -17,6 +17,7 @@ In a Hyperledger app, a transaction can be required to find multiple endorsement
 %}
 
 <h3>GENERAL TRANSACTION FLOW</h3>
+<br>
 
 <h4>1. Client Initiates Transactions</h4>
 To initiate a transaction, the client creates a properly formatted proposal via the Hyperledger Software Development Kit (SDK), and signs it from their identity, and then transmits it to the network for approval.
