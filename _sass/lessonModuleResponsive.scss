@@ -100,21 +100,21 @@
     img#lightBoxImage {
         margin-top: calc(50vh - 8em);
     }
-span.quoteBody::before {
-    font-size: 6em;
-    top: 0.25em;
-    left: -.23em;
-}
-span.quoteBody::after {
-    font-size: 6em;
-    bottom: 0;
-    right: -0.05em;
-    top: unset;
-}
-.row.bigQuote {
-    margin: 0;
-}
-    
+    span.quoteBody::before {
+        font-size: 6em;
+        top: 0.25em;
+        left: -.23em;
+    }
+    span.quoteBody::after {
+        font-size: 6em;
+        bottom: 0;
+        right: -0.05em;
+        top: unset;
+    }
+    .row.bigQuote {
+        margin: 0;
+    }
+        
 }
 
 /* Very Small Mobile */
