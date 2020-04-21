@@ -78,6 +78,26 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
+<section class="faq">
+  <div class="row">
+    <h1 class="redBar">Quick Answers</h1>
+    <span class="descriptionText">
+      Not ready to start a full course? Get answers to commonly asked questions.
+    </span>
+    <div class="faqThumbnailContainer"> 
+      {% assign faqSample = site.faq | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+        {% include faqTile.html 
+          image=item.image
+          link=item.permalink
+          title=item.title
+          author=item.author
+        %}
+      {% endfor %}
+    </div>
+    <a href="/faq/" target="_blank" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
 
 
 <section class="pathsList">
@@ -118,28 +138,6 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-
-
-<section class="faq">
-  <div class="row">
-    <h1 class="redBar">Quick Answers</h1>
-    <span class="descriptionText">
-      Not ready to start a full course? Get answers to commonly asked questions.
-    </span>
-    <div class="faqThumbnailContainer"> 
-      {% assign faqSample = site.faq | sample: 4 %}
-      {% for item in faqSample limit:4 %}
-        {% include faqTile.html 
-          image=item.image
-          link=item.permalink
-          title=item.title
-          author=item.author
-        %}
-      {% endfor %}
-    </div>
-    <a href="/faq/" target="_blank" class="callToActionButton faqCTA">Get the FAQs</a>
-  </div>
-</section>
 
 <section class="ourMission">
   <div class="row">

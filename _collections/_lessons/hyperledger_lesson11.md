@@ -5,7 +5,8 @@ module: 3
 title: Chaincode on the Node
 permalink: /courses/hyperledger/3/chaincode-review
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 In the previous lesson, we covered how to connect to and query the Hyperledger node. Now, we'll explore how the node can be configured to respond to those requests.</span>
 

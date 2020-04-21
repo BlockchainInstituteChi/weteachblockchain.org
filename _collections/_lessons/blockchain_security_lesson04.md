@@ -5,7 +5,10 @@ module: 2
 title: Individual Account Compromise
 permalink: /courses/blockchain-security/2/individual-account-compromise/
 ---
-<span class="openingParagraph">Generally, good password management and key management practices are fundamental to ensuring the security of digital assets. </span>&nbsp;
+<br>
+<br>
+<span class="openingParagraph">Generally, good password management and key management practices are fundamental to ensuring the security of digital assets. </span>
+
 Software review, careful audits, and change management should also be high priorities for any decentralized projects. Storing private keys in a publicly accessible place can introduce a crime of opportunity when not already present. In addition, a weak quality password could make it possible for any computer with a modern video card to crack your password. The problem is made worse by the existence of inexpensive, on-demand processing, for example, through a traditional cloud provider. Finally, ensuring your source of entropy/randomness was sufficient during account creation may not be something the end-user has control over, however, this can be a major weakness after keys were already thought to have been secured.
 
 <img src="/assets/img/courses/blockchain-security/BadActor-01.png" />

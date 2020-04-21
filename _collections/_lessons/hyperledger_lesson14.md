@@ -5,14 +5,12 @@ module: 3
 title: Further Design Considerations
 permalink: /courses/hyperledger/3/further-design-considerations
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 Now that you've got the basics, there are a few things to keep in mind as you begin to plan your project. Launching a project on a new protocol like this can be complicated, so it helps to ask the right questions from the beginning.</span>
-&nbsp;
 
 <h3>GENERAL ARCHITECTURE</h3>
-
-<hr />
 
 <img src="/assets/img/courses/private-blockchains/Blueprints-01.png" />
 
@@ -20,7 +18,6 @@ Since Hyperledger networks are intended to act as common records between multipl
 
 <h3>PLANNING YOUR PROJECT</h3>
 
-<hr />
 
 As your team develops a better understanding of the requirements of your system, the next stage will be to identify a minimum viable solution. Hyperledger nodes can be deployed locally on client devices, or delivered using a hosted cloud solution. Depending on the scale of the network, it may be practical to test the functionality in a small test environment before deploying to a fully hosted solution.
 <h4>Up Next</h4>

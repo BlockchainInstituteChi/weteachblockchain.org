@@ -10,7 +10,6 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <span class="openingParagraph">Decentralized networks give users much more control over the rules and maintenance of that network. Let’s explore how information is confirmed, or mined, and added to the blockchain. But first, we’ll examine the differences between centralized and decentralized networks.
 </span>
-&nbsp;
 
 <h3>WHAT IS CENTRALIZATION?</h3>
 
@@ -32,7 +31,7 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 {% include callouts/imageWithTextCallout.html 
     title="Napster"
-    img="courses/blockchain-101/napster_logo-1.png"
+    image="courses/blockchain-101/napster_logo-1.png"
     bodyText="A good example of a peer-to-peer network was Napster. Napster was a semi-centralized website that utilized a file sharing protocol that doesn't rely on any one server, company, or entity to function. Bitcoin works in somewhat the same way; it doesn't require a bank to act as a central arbiter between two people who want to exchange value. The protocol empowers them to do it themselves.<br><strong>Fun Fact: At the height of its popularity Napster had nearly 80 million users!</strong>"
 %}
 

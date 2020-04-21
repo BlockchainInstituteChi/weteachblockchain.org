@@ -7,17 +7,16 @@ permalink: /courses/hyperledger/3/launch-sample-app
 ---
 
 {% include callouts/note.html
-    bodyText="<i> If you haven’t gone through the environment setup steps, please visit the <a href='https://theblockchaininstitute.org/courses/hyperledger-101/lessons/setting-up-your-developer-environment/'previous section</a>.</i>"
+    bodyText="If you haven’t gone through the environment setup steps, please visit the <a href='https://theblockchaininstitute.org/courses/hyperledger-101/lessons/setting-up-your-developer-environment/'previous section</a>."
 %}
 
 Because Hyperledger networks require multiple nodes operating with different roles, we'll need to simulate not just a single node, but a whole network. In this case, we'll use the docker containers provided by the Hyperledger consortium to set up a testing network. Docker allows us to run several virtual machines, each with a chosen purpose, and will help to simulate a wider network.
 
-&nbsp;
 <h3><b>INSTALLATION PROCEDURE</b></h3>
 
-<hr />
 
-<span">Before we start, you'll want to make sure the first network example is down. Be sure to run this command from the first-network directory.</span>
+Before we start, you'll want to make sure the first network example is down. Be sure to run this command from the first-network directory.
+
 {% include callouts/terminal.html
     title="shut down the network and clear docker"
     user="alex@ubuntu"

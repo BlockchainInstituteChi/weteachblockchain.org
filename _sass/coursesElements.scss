@@ -45,6 +45,10 @@
     padding-top: 1em;
     padding-bottom: 1em;
 }
+section.pathsList.pathPage {
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
 
 /* CourseListing */
 section.coursesList.coursePathHeader {
@@ -194,6 +198,11 @@ section.lessonNav {
 section.lessonContent {
     margin: 0em 6em;
 }
+.lessonContent h4 {
+    margin-left: .32em;
+    margin-top: 2em;
+    margin-right: 18em;
+}
 .lessonContent iframe {
     width: 100%;
     margin: 3em .5em 3em .5em;
@@ -202,7 +211,7 @@ section.lessonContent {
     width: 100%;
     height: auto;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 .lessonContent span.openingParagraph {
     color: #00648c;
@@ -235,7 +244,14 @@ section.lessonContent {
     font-size: 1.5em;
     padding-left: .25em;
     margin-top: 2em;
+    margin-right: 10em;
 }
 iframe#historyIFrame {
     min-height: 600px;
+}
+iframe.askAnExpert {
+    margin-bottom: 0em;
+}
+topTitle{
+    margin-top: 2em;
 }
