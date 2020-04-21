@@ -90,6 +90,9 @@
 .terminal .col-md-1 {
     padding-bottom: 3em;
 }
+.row.terminal {
+    min-width: 90%;
+}
 .imageWithTextCallout img {
     max-width: 100%;
     position: initial;
