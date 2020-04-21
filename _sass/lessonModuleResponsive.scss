@@ -120,6 +120,9 @@ span.quoteBody::after {
 .row.bigQuote {
     margin: 0;
 }
+.imageWithCaption h4 {
+    overflow-wrap: break-word;
+}
     
 }
 
