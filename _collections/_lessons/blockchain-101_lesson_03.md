@@ -17,16 +17,13 @@ permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 Who is the mysterious creator behind Bitcoin? We don’t know much more than the name, Satoshi Nakamoto, which first appeared on the paper <a href="https://bitcoin.org/bitcoin.pdf">“Bitcoin: A Peer-to-Peer Electronic Cash”</a> which was distributed by a cryptography mailing list in 2008. While there are a few suspects, Nakamoto’s identity remains a mystery.
 
 What we do know of Satoshi comes from his posts on the P2P Foundation and the code behind Bitcoin. This line of text was embedded in the bitcoin genesis block, mined on January 3rd, 2009:
-<blockquote>
-<div class="bigQuote">
-
 
 {% include callouts/bigQuote.html
 	body="03/Jan/2009 Chancellor on brink of second bailout for banks."
 	sourceName="The Times"
 	sourceUrl="https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h"
 %}
-</div></blockquote>
+
 This line references a Times of London article that discussed an additional bailout for the banks after the 2008 financial crisis.
 
 <img src="/assets/img/courses/blockchain-101/Newspaper.jpg" />
