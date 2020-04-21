@@ -5,7 +5,8 @@ module: 3
 title: Updating Records
 permalink: /courses/hyperledger/3/updating-records
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 Now let's assume Alex moves to Canada. It's cold in the Winter, so now Alex needs a hybrid instead of an all-electric Tesla. If Alex wants to buy Valeria's Prius, we'll need to update the blockchain to reflect this change.</span>
         
