@@ -129,24 +129,24 @@ span.quoteBody::before {
     img#lightBoxImage {
         margin-top: calc(50vh - 8em);
     }
-span.quoteBody::before {
-    font-size: 2.25em;
-    left: -.4em;
-}
-span.quoteBody::after {
-    font-size: 2.25em;
-    bottom: 0;
-    right: -0.22em;
-}
-.row.bigQuote {
-    margin: 0;
-}
-.imageWithCaption h4 {
-    overflow-wrap: break-word;
-}
-.lessonContent h4 {
-    margin-right: 0em;
-}
+    span.quoteBody::before {
+        font-size: 2.25em;
+        left: -.4em;
+    }
+    span.quoteBody::after {
+        font-size: 2.25em;
+        bottom: 0;
+        right: -0.22em;
+    }
+    .row.bigQuote {
+        margin: 0;
+    }
+    .imageWithCaption h4 {
+        overflow-wrap: break-word;
+    }
+    .lessonContent h4 {
+        margin-right: 0em;
+    }
     
 }
 
