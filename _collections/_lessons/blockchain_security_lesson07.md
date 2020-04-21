@@ -5,7 +5,9 @@ module: 3
 title: Centralized Points of Failure
 permalink: /courses/blockchain-security/3/centralized-points-of-failure/
 ---
-<span class="openingParagraph">Centralized points of failure represent salacious opportunities for would-be adversaries to attack. </span>&nbsp;
+<br>
+<br>
+<span class="openingParagraph">Centralized points of failure represent salacious opportunities for would-be adversaries to attack. </span>
 Think about it this way: if you're barricaded in a room and there is only a single way in and out of the room, where does it make the most sense for your enemy to attack? The single point, of course! In a similar way, when we rely on a single service to a point of reliance, we can say that it is a single point of failure since its loss would mean a major catastrophe for us.
 
 {% include callouts/imageWithCaption.html
@@ -16,8 +18,6 @@ Think about it this way: if you're barricaded in a room and there is only a sing
 
 <h3>ALTERNATIVES TO CENTRALIZATION</h3>
 Depending on the degree of centralization which is acceptable, it is possible to adapt the network topography. Federated system provide a mid-ground for decentralized solutions, but commonly come at the cost of network security.
-
-<hr />
 
 {% include callouts/definition.html
 	title="Federation"
