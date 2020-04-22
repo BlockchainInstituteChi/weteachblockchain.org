@@ -5,6 +5,8 @@ module: 4
 title: Data Storage
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/4/data-storage/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 In 2019, the full size of the Ethereum blockchain exceeded 1TB. While this is not a restrictive amount of space for an enterprise computer, it's much larger than the average consumer can hope to support. Because this file is the source of truth for the entire system, it's very important that the future of Ethereum supports some kind of decentralized storage.</span>
 
