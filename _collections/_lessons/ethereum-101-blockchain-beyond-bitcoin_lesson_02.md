@@ -27,8 +27,6 @@ After Bitcoin officially launched in 2009, a number of other cryptocurrency proj
 
 <h3>UPDATING THE BITCOIN CHAIN</h3>
 
-<hr />
-
 <span >After the 2009 launch, Bitcoin was operating with a network of nodes willingly running the same software. The software had been distributed over the popular file sharing website Github, so changes to the code were discussed on moderated internet forums. Nodes on the network could then choose whether to run the new code, ensuring that no one person could take control. New ideas quickly began to circulate and even contradict one another, so more formal governance standards were implemented.</span>
 
 <span >During the early part of 2014, developers began to propose new ways that the chain could be used. Among them, the idea of colored coins circulated. This concept proposed that the transaction data which was stored on the blockchain could be used to attribute value in units other than Bitcoin, which some consider to be the first altcoins. In the next lesson, we'll explore how this idea was adapted to create the modern idea of blockchain systems.</span>
