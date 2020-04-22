@@ -5,18 +5,16 @@ module: 3
 title: Accountable Design
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/3/accountable-design/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 The most important purpose of the Ethereum blockchain is to provide a reliable way of verifying information and computation over time. Just as Bitcoin was designed to provide maximum accountability and maximum privacy for value transfer, Ethereum is designed from the ground up to be a decentralized computer.</span>
 
 <h3>THE STATE OBJECT</h3>
 
-<hr />
-
 <span >As we've explored already, the consensus mechanisms of the Ethereum Virtual Machine allow computers all over the world to share a common State Object. This unique characteristic allows the EVM to act as both the executive and judicial authority, enabling it to monitor events and track changes, and take corrective action automatically. </span>
 
 <h3>MERKLE TREES</h3>
-
-<hr />
 
 <span >As in the Bitcoin context, the EVM uses a chain of hash signatures to link information over time. In order to increase the amount of information that can be represented within a single hash, tree structures can be used to contain even more information. </span>
 
