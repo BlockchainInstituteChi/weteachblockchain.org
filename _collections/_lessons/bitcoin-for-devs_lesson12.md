@@ -106,8 +106,8 @@ Before we move on let's take a quick look at wallets in the context of internet 
 
 Further Reading:
 <ul>
- 	<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener noreferrer">BIP 39</a></li>
- 	<li><a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4">Chapter 5 of Mastering Bitcoin 2nd Edition</a>
+ 	<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP 39</a></li>
+ 	<li><a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4">Chapter 5 of Mastering Bitcoin 2nd Edition</a></li>
  	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc">Github</a></li>
 </ul>
 
