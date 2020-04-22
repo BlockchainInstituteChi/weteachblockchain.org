@@ -5,6 +5,8 @@ module: 2
 title: Unique Digital Assets
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/unique-ditial-assets/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 While ERC-20 tokens serve well to support marketplaces and other situations where supply and demand controls are necessary, there are a range of other applications that are not well-served by interchangeable tokens. In particular, it is very useful to have unique tokens which are indivisible. As an example, consider a property title, collectible, or art, where fungibility is not required, and verifying uniqueness is what creates the value.</span>
 
