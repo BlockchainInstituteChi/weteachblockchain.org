@@ -5,6 +5,8 @@ module: 1
 title: Introducing Ethereum
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereum/
 ---
+<br>
+<br>
 <span class="openingParagraph">In 2013, a cryptocurrency researcher named Vitalik Buterin wrote a whitepaper proposing a wider conceptual version of the blockchain. Buterin labeled his concept as Ethereum, and suggested that it would provide greater utility by allowing block data to include executable code which peers could run for each other in a complete computing environment. </span>
 
 {% include callouts/imageWithCaption.html
