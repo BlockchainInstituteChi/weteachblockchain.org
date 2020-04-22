@@ -5,8 +5,8 @@ module: 2
 title: Public and Private Keys
 permalink: /courses/bitcoin-for-developers/2/public-and-private-keys
 ---
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">Asymmetric cryptographic algorithms were first developed in the 1970s and are fundamental to so many of the technologies we use today. It’s used on any secured page on the internet, on your cell phone, at your bank, etc.</span>
 
 The first asymmetric algorithms:
