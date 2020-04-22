@@ -254,12 +254,13 @@
         text-align: center;
         padding-left: 0;
     }
-    .footer li.nav-item {
-        margin-left: 0;
-        font-size: 1.5em;
-        padding: 0.25em;
-        padding-left: 0;
-    }
+.footer li.nav-item {
+    margin-left: 0;
+    font-size: 1.5em;
+    padding: 0.25em;
+    padding-left: 0;
+    padding-top: .5em;
+}
 	h4.float-right {
     		float: none !important;
 	}
@@ -282,9 +283,6 @@
 	/*Nav*/
 	.navbar-brand img {
     		padding-left: 0em;
-	}
-	ul.navbar-nav.flex-row {
-    		display: none !important;
 	}
 	.hoverNavbox.account {
 	    background: #e6e6e6;
