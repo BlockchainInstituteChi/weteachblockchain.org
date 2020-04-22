@@ -6,7 +6,8 @@ title: Decentralization and Consensus
 permalink: /courses/bitcoin-for-developers/2/decentralization-consensus
 ---
 
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 <b>Bitcoin</b> was built to enable decentralized agreement, or consensus, on data. Bitcoin’s Proof-of-Work, a mining consensus algorithm, was built to achieve this goal and maintaining this decentralization is fundamental to the systems structure and security model. However, this is a very different structure than most of us are used to working with. Interacting with a blockchain is not like querying a database; it is much more complex.</span>
 
@@ -42,7 +43,8 @@ A “full node” is a computer that is running bitcoin software and maintaining
 %}
 
 We briefly covered the mining process in lesson two, Enter the Blockchain Part I, and here we’ll dive a bit deeper into consensus algorithms and maintaining consensus long term with governance systems.
-<div class="bigQuote">“A consensus algorithm is a process in computer science used to achieve agreement on a single data value among distributed processes or systems. Consensus algorithms are designed to achieve reliability in a network involving multiple unreliable nodes. Solving that issue — known as the consensus problem — is important in distributed computing and multi-agent systems.”
+<div class="bigQuote">
+	<span class="quoteBody">“A consensus algorithm is a process in computer science used to achieve agreement on a single data value among distributed processes or systems. Consensus algorithms are designed to achieve reliability in a network involving multiple unreliable nodes. Solving that issue — known as the consensus problem — is important in distributed computing and multi-agent systems.”</span>
 <strong><a href="https://whatis.techtarget.com/definition/consensus-algorithm"> whatis.com</a></strong></div>
 &nbsp;
 
@@ -76,7 +78,7 @@ Proof-of-Work, discussed in our second lesson, is only one step in this process 
 </ul>
 While we won’t dive into differing consensus algorithms here, it is important to note that many options have been developed since the invention of Nakamoto proof-of-work consensus in 2008.
 
-{% include callouts/callout.html 
-	title="INCENTIVES AND GAME THEORY"
-	bodyText='While Bitcoin is a software project, the network that it creates is sustained and managed with incentives and game theory. Let’s take a look at how that protects the network in the below video: <iframe width="910" height="512" src="https://www.youtube.com/embed/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-%}
+<h3>INCENTIVES AND GAME THEORY</h3>
+<p>While Bitcoin is a software project, the network that it creates is sustained and managed with incentives and game theory. Let’s take a look at how that protects the network in the below video:</p>
+<iframe width="910" height="512" src="https://www.youtube.com/embed/oo-20sLqp3M?list=PLkFjuupTY0WQvkwWZ9QYctjyyZuVg6lLK" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
