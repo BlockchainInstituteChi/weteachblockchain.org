@@ -388,6 +388,9 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 }
 
 /* Footer */
+.col-md-3.bciLogo {
+    padding-top: 2.4em;
+}
 .container-fluid.footer {
     background: #2b2b2b;
     color: #aeaeae;
@@ -401,9 +404,10 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 .footer h4 {
     text-transform: uppercase;
     font-size: 1.25em;
+    color: #848484;
 }
 .footer a {
-    color: darkgrey;
+    color: #848484;
 }
 .footer a:hover {
     color: #2fae9f;
@@ -448,6 +452,7 @@ button.mc_signup:hover {
     display: block;
     width: 100%;
     text-align: center;
+    color: #848484;
 }
 .linkList {
     margin: auto;
@@ -463,7 +468,7 @@ button.mc_signup:hover {
 }
 .footer li.nav-item {
     font-size: 1.5em;
-    padding-top: 0.5em;
+    padding-top: 1.1em;
 }
 
 /* Footer alignment issues */
