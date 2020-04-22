@@ -8,7 +8,7 @@
         {% for row in rows %}
             <div class="snippetField">
                 <span class="lineNumber">{{ forloop.index }}</span> 
-                <pre>{{ row | remove: "'" }}</pre>
+                {{ row | remove: "'" }}
             </div>
         {% endfor %}  
     </div>
