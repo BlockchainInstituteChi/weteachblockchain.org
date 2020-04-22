@@ -15,9 +15,19 @@ permalink: /events/
 
 <script>
 	setTimeout(checkEventType, 1000);
+	setTimeout(setEventClickListener, 1000);
 	
+	function setEventClickListener () {
+		var eventsButtons = document.getElementsByClassName('eventsNav')
+		for (button of eventsButtons) {
+			button.addEventListener('click', function () {
+				clearEventFilters()
+				checkEventType()
+			})
+		}
+	}
+
 	function checkEventType () { 
-		
 		var currentUrlParts = window.location.href.split('/');
 		var searchString = "";
 	
@@ -26,16 +36,13 @@ permalink: /events/
 			searchString += " " + decodeURIComponent(currentUrlParts[x])
 		}
 		searchString.replace(/[^a-zA-Z ]/g, "")
-		console.log('searchstring: ', searchString.trim())
 
 		if ( "#Community" == searchString.trim() ) {
-			console.log('community mode')
 			filterEvents('Community')
 		} else if ( "#Classroom" == searchString.trim() ) {
-			console.log('classroom mode')
 			filterEvents('Classroom')
 		} else {
-			console.log('no event type detected')
+			// no events filter specified
 		}
 	
 	}
@@ -43,7 +50,6 @@ permalink: /events/
 	function filterEvents(type) {
 		var events = document.getElementsByClassName('eventTile')
 		for (e of events) {
-			console.log('checking tile ', e)
 			if ( e.className.includes(type) ) {
 	
 			} else {
@@ -53,17 +59,32 @@ permalink: /events/
 		setFilterMessage(type)
 	}
 
+	function clearEventFilters () {
+		var eventTiles = document.getElementsByClassName('eventTile')
+		for ( e of eventTiles ) {
+			e.className = e.className.split('d-none').join(' ')
+		}
+		unsetFilterMessage()
+	}
+
 	function setFilterMessage (type) {
 		document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className.replace('d-none','')
-		document.getElementsByClassName('eventFilter')[0].textContent = type;
+		document.getElementsByClassName('eventFilter')[0].textContent = type
 	}
+
+	function unsetFilterMessage () {
+		if ( !document.getElementsByClassName('eventFilterNotification')[0].className.includes('d-none') ) {
+			document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className + ' d-none'
+			document.getElementsByClassName('eventFilter')[0].textContent = ""
+		}
+	}	
 
 </script>
 
 
 <section class="header">
 	<p>Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Chicago Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;Get in touch with us about sponsorships, speakers, or running a workshop for your next event. In need of space? Our headquarters at the&nbsp;<a class="externaLink" href="https://hackha.us/" target="_blank" rel="noopener">HackHaus</a>&nbsp;in Chicago provides an environment for a wide range of activities.</p>
-	<a href="#">
+	<a onclick="clearEventFilters()">
 		<span class="eventFilterNotification d-none">
 			Filter Applied: <strong class="eventFilter"></strong> (click to clear)
 		</span>
