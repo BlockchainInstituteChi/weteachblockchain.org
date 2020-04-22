@@ -5,6 +5,8 @@ module: 4
 title: Proof Of Stake
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/4/proof-of-stake/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 Instead of wasting energy to prove authenticity, a staking model would allow network participants with substantial Ether holdings to stake these coins as collateral. While this proposal is still in the early stages, other cryptocurrency networks such as Tezos have successfully implemented staking as a way to streamline block production. </span>
 
