@@ -5,7 +5,8 @@ module: 3
 title: Introduction to Wallets and Addresses
 permalink: /courses/bitcoin-for-developers/3/intro-to-wallets-and-addresses
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 In bitcoin, a wallet is a bit of an abstract. The bitcoin protocol doesn’t contain the notion of wallets. This concept is created by user interfaces for user comfort.</span>
 
