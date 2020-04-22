@@ -111,5 +111,5 @@ Further reading:
  	<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki" target="_blank" rel="noopener noreferrer">BIP 44</a></li>
  	<li><a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4" target="_blank" rel="noopener noreferrer">Chapter 5 of Mastering Bitcoin 2nd Edition</a>
  	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc" target="_blank" rel="noopener noreferrer">Github</a></li>
-</ul>
+
 
