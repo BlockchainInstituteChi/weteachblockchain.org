@@ -5,7 +5,8 @@ module: 1
 title: Early Alternative Cryptocurrencies
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/early-alternative-cryptocurrencies
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 After Bitcoin officially launched in 2009, a number of other cryptocurrency projects launched similar concepts. Most used some variation on the Bitcoin code, usually with minor changes to the rules of the network. While their creators were usually outspoken software developers or enthusiasts within the online community, these new forms of currency quickly took hold. It became apparent that experimentation in this sector could be quite profitable. </span>
 {% include callouts/imageWithTextCallout.html 
