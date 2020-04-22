@@ -5,7 +5,8 @@ module: 3
 title: Wallet History and Mnemonic Seeds
 permalink: /courses/bitcoin-for-developers/3/wallet-history-mnemonic-seeds
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 The following two lessons were written with the goal of providing a good foundation for building or working with Bitcoin wallets. As such we’ll cover a bit of history and then the current de facto standard for Bitcoin wallets which consists of four BIPS, 39, 32, 43 &amp; 44.</span>
 
@@ -13,13 +14,9 @@ These BIP’s cover mnemonic seeds and hierarchical deterministic(HD) wallets.
 
 <h3>HISTORY</h3>
 
-<hr />
-
 Cryptocurrency wallets have evolved substantially since the first wallet which was included in the original version of the Bitcoin core client. Let’s first discuss some of the history of Bitcoin wallets to understand why these improvements came about.
 
 <h3>JBOK, OR JUST A BUNCH OF KEYS WALLETS</h3>
-
-<hr />
 
 <img src="/assets/img/courses/bitcoin-for-developers/KWallets-01.png" />
 
@@ -40,8 +37,6 @@ Also, backing up a wallet meant storying what was essentially a database file. T
 To solve these problems mnemonic seeds and HD wallets were created.
 <h3>MNEMONIC SEEDS</h3>
 
-<hr />
-
 The process outlined in <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener noreferrer">BIP 39</a> is the current best practice for creating wallets with mnemonic seeds.
 
 So, what is a mnemonic seed?
@@ -57,10 +52,7 @@ HD wallets, which we will cover in depth in the next lesson, have a parent priva
 
 It is, however, important to note that the “seed” is more than just the parent private key. The seed also contains the “chain code”. This is a bit of data which is necessary for the derivation of the child keys, which we’ll discuss in the next lesson.
 
-&nbsp;
 <h3>HOW THIS WORKS</h3>
-
-<hr />
 
 This is a simplified version of the process which is meant simply to give you a starting point. For a more in-depth explanation please see the BIP 39 <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki" target="_blank" rel="noopener noreferrer">repo</a>, and chapter 5 of <a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4" target="_blank" rel="noopener noreferrer">Master Bitcoin 2nd Edition.</a>
 
@@ -83,8 +75,6 @@ Once the mnemonic phrase and salt has been selected, they are run through a “k
 %}
 
 <h3>TAKEAWAYS</h3>
-
-<hr />
 
 The mnemonic phrase, the parent private key and the seed are not the same things.
 
@@ -113,7 +103,6 @@ Before we move on let's take a quick look at wallets in the context of internet 
 	title="PAPER WALLETS"
 	bodyText="A paper wallet is a common type of 'cold storage'. It’s a method of storing keys offline. This can be done by writing out your wallet seed or private keys on a piece of paper and storing it somewhere safe such as a home fire safe. There are stainless steel versions of these types of wallets that allow you to etch your wallet seeds into a steel plate which provides improved durability."
 %}
-<hr />
 
 Further Reading:
 <ul>
@@ -125,4 +114,4 @@ Further Reading:
 <hr />
 
 
-We’ll have a look at chain codes and HD wallets in the next lesson.
+<p>We’ll have a look at chain codes and HD wallets in the next lesson.</p>
