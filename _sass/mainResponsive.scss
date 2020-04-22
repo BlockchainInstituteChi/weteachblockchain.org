@@ -12,8 +12,11 @@
 	}
 	
 	// Always show my account dropdown
-	div#accountDropdown {
+	.hoverNavbox.account {
 		display: block !important;
+		margin-top: 0.5em;
+		width: 100vw;
+		margin-left: -1em;
 	}
 
     /* Page Header */
@@ -62,7 +65,10 @@
         text-transform: uppercase;
         color: $brand-green;
         vertical-align: -webkit-baseline-middle;
-        font-size: 1.15em;
+		font-size: 1.15em;
+		float: left;
+		margin-left: calc(50% - 2em);
+		margin-top: 0.25em;
     }
     ul.navbar-nav.ml-auto {
         margin-right: 0;
@@ -71,7 +77,10 @@
         margin-left: 0.5em;
         margin-right: 0.5em;
         margin-top: 0.5em;
-    }
+	}
+	li.nav-item.donations {
+		margin-top: -1em;
+	}
 	li#accountToggle {
 	    text-align: center;
 	    margin-left: 0em !important;
@@ -91,11 +100,11 @@
         margin-top: 2em;
     }
 	.searchInterface input {
-    		width: 100%;
-    		border-radius: 0em;
-    		padding: 0.5em;
-    		border-color: black;
-    		font-family: Roboto;
+		width: 100%;
+		border-radius: 0em;
+		padding: 0.5em;
+		border-color: black;
+		font-family: Roboto;
 	}
     span.cancelSearchButton {
         font-size: 3em;
@@ -118,18 +127,18 @@
         height: -webkit-fill-available;
     }
 	.searchInterface input {
-    		width: 100%;
-    		border-radius: 0em;
-    		padding: 0.5em;
-    		border-color: black;
-    		font-family: Roboto;
+		width: 100%;
+		border-radius: 0em;
+		padding: 0.5em;
+		border-color: black;
+		font-family: Roboto;
 	}
 	.searchResults span.title {
-    		display: block;
-    		text-transform: uppercase;
-    		color: black;
-    		font-family: Kanit;
-    		font-weight: 500;
+		display: block;
+		text-transform: uppercase;
+		color: black;
+		font-family: Kanit;
+		font-weight: 500;
 	}	
 	.searchResults span.title {
 	    font-family: Kanit;
@@ -138,12 +147,22 @@
 	div#searchLightbox {
 		left: 0;
 		width: 100vw;
-		top: calc(10vh - 1em);
 		z-index: 1001;
-		height: 90vh;
 		position: fixed;
+		height: 100vh;
+		top: 0;
 	}
-	
+	li.nav-item.ml-auto.search {
+		margin-bottom: -0.5em;
+	}
+	span.cancelSearchButton {
+		display: block;
+		position: absolute;
+		right: 0.5em;
+		top: 0.25em;
+		font-size: 1.5em;
+	}
+
 	/*Breadcrumbs*/
 	section.breadcrumbs {
     		padding-top: 0em;
@@ -217,11 +236,11 @@
     		height: fit-content;
     		margin-right: .5em;
 	}
-.upcomingEventsFooter .row {
-    width: 100%;
-    margin: auto 2em;
-    max-width: calc(100%);
-}
+	.upcomingEventsFooter .row {
+		width: 100%;
+		margin: auto 2em;
+		max-width: calc(100%);
+	}
   	.tileItem {
     		width: calc(31.3% - 1em);
     		min-height: 12em;
@@ -289,6 +308,9 @@
 	    width: 91%;
 	    padding-bottom: .4em;
 	    margin-left: 1em;
+	}
+	.search a, .navbox a {
+		padding-bottom: 0.25em;
 	}
 	.account span {
 	    font-size: 2.5em;

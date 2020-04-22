@@ -182,3 +182,7 @@ function lookupResultRecord (searchResult) {
     return record;
 
 }
+
+function cancelSearch () {
+    document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className + " d-none"
+}
