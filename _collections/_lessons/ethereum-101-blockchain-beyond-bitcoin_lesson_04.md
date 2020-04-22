@@ -5,6 +5,8 @@ module: 2
 title: Smart Contracts
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/
 ---
+<br>
+<br>
 <span class="openingParagraph">One of the main benefits of the Ethereum blockchain is the addition of Smart Contracts. These allow code to be submitted to the State Transition, and to have their output added to the ledger. Contracts and accounts are identical during execution within the EVM, so a peer-to-peer payment is treated just like any other computation. In the Ethereum world, every action that can be registered can be encoded in software, and the entire network is able to compute the outcome simultaneously.</span>
 
 {% include callouts/imageWithCaption.html
