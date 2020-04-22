@@ -14,8 +14,6 @@ One thing which is important to understand about decentralized design patterns i
 
 <h3>HOW ARE TOKENS CREATED?</h3>
 
-<hr />
-
 <span >To create a new token, a smart contract is written to track the value that is sent to it. When a user sends money to the contract, they'll be issued tokens from the available supply. The tokens will be 'sent' to the same address that funded the contract call. In most applications, other users can also deploy other functionality. In many cases, an Initial Coin Offering (ICO) is structured to sell a certain amount of the initial supply, and subsequent tokens are then released as incentives within the network. </span>
 
 {% include callouts/imageWithCaption.html
@@ -34,8 +32,6 @@ One thing which is important to understand about decentralized design patterns i
 <span >Augur facilitates a marketplace for predictions. In this environment, the </span><span >REP token is used to stake a bet, and rewards are then dispersed in the same fashion.</span><span > Because Augur uses REP tokens for voting and dispute resolution, it's important that these exist as a separate form of token. If Ethereum tokens were used instead, any large Ethereum holder could sway decisions without actually having contributed to the network themselves. </span>
 
 <h3>LIMITATIONS</h3>
-
-<hr />
 
 <img src="/assets/img/courses/ethereum-101/Limitations-01.png" />
 
