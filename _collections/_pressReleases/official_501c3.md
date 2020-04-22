@@ -1,13 +1,13 @@
 ---
-title: Chicago’s Blockchain Institute Granted 501(c)(3) Non-profit Status
+title: Chicago’s Blockchain Institute Granted <span class="no-wrap">501(c)(3)</span> Non-profit Status
 date: 2019-04-17
 eventdate: April 17, 2019
 image: ""
 ---
 
-On March 25, 2019, Chicago’s Blockchain Institute was officially granted status as a 501(c)(3) Public Charity.
+On March 25, 2019, Chicago’s Blockchain Institute was officially granted status as a <span class="no-wrap">501(c)(3)</span> Public Charity.
 
-Blockchain Institute works to promote the adoption, development, and use of blockchain technology by providing free education to the public. Based in Chicago’s Uptown neighborhood, Blockchain Institute aims to educate those looking to gain knowledge or sharpen their skills on this emerging technology. As they have received their 501(c)(3) status, they are now able to accept a variety of cryptocurrencies, along with USD; these tax-exempt donations will help further their mission.
+Blockchain Institute works to promote the adoption, development, and use of blockchain technology by providing free education to the public. Based in Chicago’s Uptown neighborhood, Blockchain Institute aims to educate those looking to gain knowledge or sharpen their skills on this emerging technology. As they have received their <span class="no-wrap">501(c)(3)</span> status, they are now able to accept a variety of cryptocurrencies, along with USD; these tax-exempt donations will help further their mission.
 
 Blockchain Institute was established by Taylor Gerring, a Co-founder of the Ethereum Foundation; Andrew Gordon of Gordon Law Group; and Hannah Rosenberg, organizer of Chicago’s largest crypto community group—The Bitcoin and Open Blockchain Meetup.
 
