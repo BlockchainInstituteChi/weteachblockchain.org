@@ -5,7 +5,8 @@ module: 1
 title: Enter the Blockchain - Part I
 permalink:  /courses/bitcoin-for-developers/1/enter-the-blockchain-part-i
 ---
-
+<br>
+<br>
 <span class="openingParagraph">The Bitcoin blockchain was created to allow a network to coordinate and reach “consensus,” or agreement on shared data. Blockchains were created to solve the problem of how do users coordinate data with people, around the world, who they don’t know or trust?</span>
 
 In this lesson and the next, we’ll walk through how the Bitcoin network comes to agreement on transaction data.
@@ -15,7 +16,7 @@ But first, lets cover hashing as it is an integral part of the Bitcoin “Proof-
 A hash function takes an input value and creates an output value deterministic of the input value. For any input value X, you will always receive the same output value Y whenever the hash function is run. In this way, every input has a determined output.
 
 <img src="/assets/img/courses/bitcoin-for-developers/1_b-02.png" />
-<h4>Properties of hashes:</h4>
+<h3>Properties of hashes:</h3>
 <br>
 <ul>
  	<li>    Fixed length</li>
@@ -33,7 +34,7 @@ Bitcoin uses hash in many ways. For example, they are used to create transaction
 %}
 
 {% include callouts/note.html
-	bodyText='<i>The </i><a href="https://en.bitcoinwiki.org/wiki/SHA-256"><i>SHA-256</i></a><i> hash algorithm is used extensively in bitcoin.</i>'
+	bodyText='The <a href="https://en.bitcoinwiki.org/wiki/SHA-256">SHA-256</a> hash algorithm is used extensively in bitcoin.'
 %}
 
 And now that hashes are out of the way, let's get back to understanding how the Bitcoin network makes decisions on which data is correct, and which is not.
