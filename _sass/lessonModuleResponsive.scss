@@ -159,6 +159,13 @@ span.quoteBody::before {
 .row.codeSnippet {
     min-width: 90%;
 }
+.snippetField {
+    font-family: monospace;
+    background: #eeefef;
+    margin: 1em 0em;
+    font-size: 1.2em;
+    overflow-wrap: break-word;
+}
     
 }
 
