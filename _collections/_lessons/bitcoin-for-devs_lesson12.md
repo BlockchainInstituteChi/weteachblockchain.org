@@ -111,7 +111,5 @@ Further Reading:
  	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc">Github</a></li>
 </ul>
 
-<hr />
-
 
 <p>We’ll have a look at chain codes and HD wallets in the next lesson.</p>
