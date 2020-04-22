@@ -5,8 +5,8 @@ module: 1
 title: Enter the Blockchain - Part II
 permalink: /courses/bitcoin-for-developers/1/enter-the-blockchain-part-ii/
 ---
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 So let’s head back to our example where you are attempting a <b>double spend</b> on the Bitcoin network. You have broadcast two valid transactions for 1 BTC each, one to Alice and one to Bob in an attempt to spend the same bitcoin twice.</span>
 
