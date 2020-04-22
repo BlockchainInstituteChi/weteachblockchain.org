@@ -5,8 +5,8 @@ module: 1
 title: A Bitcoin History Lesson
 permalink: /courses/bitcoin-for-developers/1/bitcoin-history-lesson
 ---
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 This course was designed for developers with no prior blockchain experience, so we’ll start right at the beginning by answering the question, <b>what problem was the first blockchain, Bitcoin, built to solve?</b></span>
 
