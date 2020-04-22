@@ -5,8 +5,8 @@ module: 2
 title: Asymmetric Cryptography
 permalink: /courses/bitcoin-for-developers/2/asymmetric-cryptography
 ---
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 Cryptocurrencies are called so because <b>cryptography</b> is the material they are built with. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.</span>
 
