@@ -4,7 +4,7 @@ html, body {
 .downloadsRowContainer {
     display: block;
     width: 100%;
-    overflow-x: scroll;
+    // overflow-x: scroll;
     margin-bottom: 3em;
     margin-top: .5em;
 }
@@ -13,6 +13,10 @@ html, body {
     margin-right: -.15em;
     display: inline-flex;
     width: 23%;
+    margin-bottom: 4em;
+}
+.downloadItem img {
+    background: grey;
 }
 h1 {
     font-weight: 500 !important;
