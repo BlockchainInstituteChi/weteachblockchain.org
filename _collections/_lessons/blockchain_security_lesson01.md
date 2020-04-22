@@ -5,7 +5,8 @@ module: 1
 title: Primer & Introduction
 permalink: /courses/blockchain-security/1/primer-introduction/
 ---
-
+<br>
+<br>
 <span class="openingParagraph">Security is a large and complex topic that cannot be fully addressed in a single online course. </span>
 What this aims to teach is some prevalent issues common to users and developers of decentralized systems. As there are many technologies involved in the use of blockchains, each with its own area of concern, we cannot address all of them in detail. However, if you want to know what practical steps can be taken to secure yourself or the system you work on, this course is for you!
 

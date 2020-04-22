@@ -5,6 +5,8 @@ module: 1
 title: Validated Ledger
 permalink: /courses/hyperledger/1/validated-ledger/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 In the Hyperledger environment, the Validated or VLedger represents the present sum of all successfully validated transactions. Transactions which are not successfully validated or endorsed will be exempt from this list, making it a useful tool for efficiency among peer nodes.</span>
 

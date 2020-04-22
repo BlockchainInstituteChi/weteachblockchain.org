@@ -384,6 +384,14 @@ A twitter feed like the one on the homepage can be included using the following 
 
 # Snippet to swap image prefix if image is an external url
 
+```
     <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
-  
+```
 
+# No Wrap Span
+
+Sometimes it is necessary to prevent a segment from breaking across a line break. For example, 501(c)(3) will break on the ( or ) characters, making it less than desirable from an appearance / reader's standpoint. To resolve this, we can wrap the section we don't want to break across a line with a span, like so:
+```
+<span class="nowrap">501(c)(3)</span>
+```
+This will now be presented ona  single line, without breaking!

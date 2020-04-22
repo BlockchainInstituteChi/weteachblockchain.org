@@ -5,7 +5,10 @@ module: 3
 title: Bad Data & DoS
 permalink: /courses/blockchain-security/3/bad-data-dos/
 ---
-<span class="openingParagraph">In a public blockchain, even valid network congestion can cause issues. </span>&nbsp;
+<br>
+<br>
+<span class="openingParagraph">In a public blockchain, even valid network congestion can cause issues. </span>
+
 In the Ethereum network, valid traffic requests from the Cryptokitties project in 2017 led to an overwhelming transaction volume, and ultimately over-congestion of the network for several days. Ethereum's <a href="http://theblockchaininstitute.org/what-is-ethereums-gas/" target="_blank" rel="noopener noreferrer">Gas pricing algorithm</a> has the ability to adjust upwards to balance the demand but requires a (somewhat passive) vote of miners to achieve.
 
 Similarly, the Bitcoin network prevents network congestion by prioritizing older transactions, which makes it impossible for a single user to send themselves transactions over and over again. Through this configuration, a user could only run transactions until they ran out of BTC to send, which makes these attacks fairly inefficient.

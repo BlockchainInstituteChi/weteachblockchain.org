@@ -5,6 +5,8 @@ module: 2
 title: Setting up your Developer Environment
 permalink: /courses/hyperledger/2/setting-up-your-developer-environment/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 As you might expect, there are a myriad of ways to setup up a local development environment and configurations can vary widely. We'll help you get started with some basics and hopefully save you some headaches. To start, open up a shell and let's get on with the good stuff! For each dependency listed below, run the command shown to verify that it's installed correctly. If it is not installed, you will need to install binaries from either a package manager or directly.</span>
 

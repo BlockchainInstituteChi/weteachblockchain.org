@@ -5,19 +5,18 @@ module: 1
 title: Transaction Flow
 permalink: /courses/hyperledger/1/transaction-flow/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.</span>
 
 In a Hyperledger app, a transaction can be required to find multiple endorsements from trusted parties within the system before it can be added to the blockchain. Endorsements can be configured to ensure a minimal risk of fraud within the system. An example of this might be to require a business partner to verify certain details of a transaction before it is written to the public ledger. Once all necessary endorsements have been met, the transaction is passed to an ordering node, which will add it to the chain, or Validated Ledger.
 
 {% include callouts/note.html
-	bodyText='<em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
+	bodyText='<b>NOTE:</b><em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
 %}
 
 <h3>GENERAL TRANSACTION FLOW</h3>
-
-<hr />
-
 <h4>1. Client Initiates Transactions</h4>
 To initiate a transaction, the client creates a properly formatted proposal via the Hyperledger Software Development Kit (SDK), and signs it from their identity, and then transmits it to the network for approval.
 
@@ -33,7 +32,7 @@ If an Endorsing Peer receives a transaction with a valid signature from a known 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-02.png"
 	title="ENDORSING PEERS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
-	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i></div>"
+	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i>"
 %}
 
 <h4>3. Proposal Responses are Inspected</h4>
@@ -80,4 +79,4 @@ The full flow is seen in the figure below:
 	bodyText="<b>A:</b> <i>Collect TRANSACTION-ENDORSED Msgs into a valid endorsement that satisfies endorsementPolicy (chaincodeID) broadcast(endorsement);</i> <b>B:</b> <i>tx=&lt;clientID, chaincodeID, txPayload, timeStamp, clientSig&gt;;</i> <b>C:</b> <i>Simulate/Execute tx Sign TRANSACTION-ENDORSED;</i> <b>D:</b> <i>Verify endorsement, readset if OK, apply writeset to state;</i> <b>E:</b> <i>Ordering service;</i> <b>F:</b> <i>VClient (C);</i> <b>G:</b> <i>Endorsing Peer (EP1);</i> <b>H:</b> <i>Endorsing Peer (EP2);</i> <b>I:</b> <i>Endorsing Peer (EP3);</i> <b>J:</b> <i>Orderers;</i> <b>K:</b> <i>(Committing) Peer (CP1).</i>"
 %}
 
-<div>If this all seems very complicated, don't worry! The SDK takes care of most of the work, as we'll see in the next lesson.</div>
+<p>If this all seems very complicated, don't worry! The SDK takes care of most of the work, as we'll see in the next lesson.<p>

@@ -5,6 +5,8 @@ module: 3
 title: 51% Attack / Network Hijack
 permalink: /courses/blockchain-security/3/51-attack-network-hijack/
 ---
+<br>
+<br>
 <span class="openingParagraph">As we covered in the previous section, public blockchains depend on a network of nodes to maintain the system and store all of the pertinent data.</span>
 
 In the event that a single actor is able to take control of more than 50% of the nodes, it is possible for them to update the history of the chain with new records. This presents a substantial vulnerability for systems such as Bitcoin, in which there is a large amount of wealth available to anyone who can compromise the network.
@@ -13,7 +15,7 @@ While it is possible for a bad actor to overtake a network, this does not mean t
 
 {% include callouts/imageWithCaption.html
 	image="/courses/blockchain-security/Attack-01-1.png"
-	title=""
+	title="51% Attack"
 	bodyText="In a 51% attack, a malicious actor takes over a majority of the network's nodes, which allows them to propose and confirm transactions without the need for approval from anyone else in the network."
 %}
 

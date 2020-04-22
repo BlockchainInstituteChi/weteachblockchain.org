@@ -6,6 +6,7 @@ date: 2018-08-11
 eventdate: Saturday, August 11, 2018
 permalink: /events/bitcoin_standard_book_signing
 rsvpUrl: https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/events/253210845/
+eventType: Community
 ---
 
 One of the ways the institute has helped build the Chicago community is by attracting experts to speak at local events, which ensures that Chicago's blockchain enthusiasts can stay up to date and involved in this rapidly evolving industry.

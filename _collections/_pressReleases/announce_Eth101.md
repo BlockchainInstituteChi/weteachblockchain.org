@@ -2,9 +2,8 @@
 title: New Online Course - Ethereum 101
 date: 2019-12-22
 eventdate: December 22nd, 2019
+image: /assets/img/eth_gift.png
 ---
-<img src="/assets/img/eth_gift.png">
-
 <p>Happy holidays from the Blockchain Institute team. To help celebrate we have a gift for you. A brand new course live on our website ready for you to enjoy right now.</p>
 
 <p>Go take a look and be sure to let us know what you think!</p>

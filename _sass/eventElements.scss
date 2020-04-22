@@ -33,8 +33,7 @@ section.eventsHeader {
     height: fit-content;
 }
 section.eventsList {
-    background: #86868608;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 5em;
 }
 section.breadcrumbs {
@@ -155,7 +154,7 @@ h3 {
     max-width: 100%;
     height: auto;
     margin-top: 0em;
-    padding-bottom: 5em;
+    padding-bottom: 0em;
 }
 .row.photoLightbox {
     margin-bottom: 6em;
@@ -190,4 +189,9 @@ a.rsvp.disabled {
 }
 section.upPinkStripesDivider {
     margin-top: 0em;
+}
+
+span.eventFilterNotification {
+    padding-left: 0.5em;
+    color: orange;
 }

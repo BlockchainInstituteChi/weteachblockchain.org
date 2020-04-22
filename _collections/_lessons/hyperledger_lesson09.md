@@ -5,7 +5,8 @@ module: 3
 title: Configure the Fabric
 permalink: /courses/hyperledger/3/configure-settings
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 Now that we have the core Hyperledger node running, we can use our node.js client to interact with it and send queries. Before we can get started, though, we'll need to launch our node and configure some users and permissions.</span>
 
@@ -38,7 +39,9 @@ Now that the node is running, we'll need to run a script to set up an admin user
 
         
 {% include callouts/note.html
-    bodyText="To see how this works, review lines 45-55 in enrollAdmin.js. The enroll method on line 53 is the key interaction with the Hyperledger node. <script src='https://gist.github.com/alexander-morris/a9a401c648cbeb5d2cd3fb4b65cf8b13.js'></script>"
+    bodyText="To see how this works, review lines 45-55 in enrollAdmin.js. The enroll method on line 53 is the key interaction with the Hyperledger node. 
+<br>
+<script src='https://gist.github.com/alexander-morris/a9a401c648cbeb5d2cd3fb4b65cf8b13.js'></script>"
 %}
 
 Every application requires this functionality to register a first user (our admin) who can then register subsequent users. The admin user shouldn’t ever be used to update/query the ledger, and really only exists as a root source of trust in the system. This is somewhat similar to how the genesis block is added in public blockchains.
@@ -56,7 +59,9 @@ To add a regular user, we can use the following script:
 
 {% include callouts/callout.html
     title="Registering Users:"
-    bodyText="To see how this is being executed, open up registerUser.js and take a peak. In particular, the createUser call now has slightly different parameters.<script src='https://gist.github.com/alexander-morris/8493a22160cecb2e062ce642a239c48e.js'><script>"
+    bodyText="To see how this is being executed, open up registerUser.js and take a peak. In particular, the createUser call now has slightly different parameters.
+<br>
+<script src='https://gist.github.com/alexander-morris/8493a22160cecb2e062ce642a239c48e.js'><script>"
 %}
 
 Congratulations - Now that you can create users you're now ready to move on to editing the ledger.

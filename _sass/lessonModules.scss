@@ -10,15 +10,18 @@ section .row {
     max-width: 98.5%;
 }
 .imageWithTextCallout .col-md-9 {
-    padding-top: 1em;
+    padding-top: 0em;
+    margin-bottom: 1em;
 }
 .imageWithTextCallout img {
-    border-radius: 50%;
+    border-radius: 0%;
     padding: 0em;
     vertical-align: top;
     max-width: 70%;
     position: absolute;
-    left: 15%;
+    left: 10%;
+    height: auto;
+    margin-top: 0em;
 }
 .imageWithTextCallout h4 {
     text-transform: uppercase;
@@ -30,6 +33,9 @@ section .row {
     color: black;
     font-weight: 400;
     line-height: 1.75em;
+}
+.imageWithTextCallout .col-md-3 {
+    margin-bottom: 14em;
 }
 
 /* TextCallout */
@@ -45,13 +51,15 @@ section .row {
 .row.imageWithCaption {
     min-width: 90%;
     max-width: 98.5%;
-    margin: 2em .5em 2em .5em;
+    margin: 0em .5em 2em .5em;
 }
 .imageWithCaption .col-md-12 {
     padding: 0;
 }
 .imageWithCaption img {
     max-width: 100%;
+    margin-top: .5em;
+    margin-bottom: 1em;
 }
 .caption {
     background: #2b2b2b;
@@ -64,6 +72,8 @@ section .row {
 .imageWithCaption h4 {
     text-transform: uppercase;
     font-size: 1.2em;
+    margin-left: 0em;
+    margin-top: 0em;
 }
 
 /* Definition */
@@ -92,6 +102,7 @@ section .row {
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 1.5em;
+    font-family: roboto;
 }
 .definition h1 {
     margin-left: 0;
@@ -108,7 +119,7 @@ section .row {
     color: white;
     margin-left: .5em;
     margin-right: .5em;
-    min-width: 90%;
+    min-width: 98%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #941f6c;
@@ -136,7 +147,7 @@ section .row {
     color: white;
     margin-left: .5em;
     margin-right: .5em;
-    min-width: 90%;
+    min-width: 98%;
     margin-bottom: 2em;
     margin-top: 2em;
     background-color: #0b9ba4;
@@ -228,9 +239,9 @@ section .row {
     color: black;
     margin-left: .5em;
     margin-right: .5em;
-    min-width: 90%;
+    min-width: 98%;
     margin-bottom: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: black;
     max-width: 98.5%;
 }
@@ -352,19 +363,18 @@ span.quoteBody::before {
     z-index: -1;
     font-size: 9em;
     position: absolute;
-    top: -0.5em;
-    left: 0;
+    top: 0.15em;
+    left: -0.35em;
     color: lightgrey;
     font-family: Arial, sans-serif;
 }
-
 span.quoteBody::after {
     content: '”';
     z-index: -1;
     font-size: 9em;
     position: absolute;
-    top: -0.5em;
-    right: 0;
+    top: 0.15em;
+    right: -0.2em;
     color: lightgrey;
     font-family: Arial, sans-serif;
 }

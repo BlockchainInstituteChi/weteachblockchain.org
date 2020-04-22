@@ -32,12 +32,12 @@
     class: normal   
 
   - name: Community Events
-    link: /events/
-    class: normal
+    link: /events/#Community
+    class: normal eventsNav
 
   - name: Classroom Sessions
-    link: /events/
-    class: normal    
+    link: /events/#Classroom
+    class: normal eventsNav   
 
   - name: Crypto Curious Course
     link: /crypto-curious/

@@ -5,7 +5,8 @@ module: 3
 title: Connecting to the Fabric
 permalink: /courses/hyperledger/3/connecting-to-the-fabric
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 Before we move on to interactions with the ledger, it will help to review how the ledger is updated in Query.js. ( see fabric-samples/fabcar/query.js)</span>
 

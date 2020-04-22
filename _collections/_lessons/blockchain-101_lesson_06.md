@@ -25,7 +25,6 @@ Because a blockchain is designed as a distributed ledger, many computers (nodes)
 <img src="/assets/img/courses/blockchain-101/3609aef6-9da8-437f-921f-a8a4f442e66b.png" />
 
 <h4></h4>
-&nbsp;
 
 <h3 style="text-align: left;">WHAT MAKES A BLOCKCHAIN?</h3>
 <hr />

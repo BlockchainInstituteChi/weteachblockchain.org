@@ -26,6 +26,14 @@
           </a>
         </li>
       </ul>
+
+      <div id="searchLightbox" class="searchBox d-none">
+        <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults('searchResults', 'searchInput')">
+        <div id="searchResults" class="searchResults">
+          <span class="loading">Loading ... </span>
+        </div>
+      </div>
+
       <div id="accountDropdown" class="hoverNavbox account d-none">
         <div class="row">
           <div class="col-sm-3">
@@ -51,8 +59,9 @@
               {% for child in item.children %}
                 <li class="nav-item">
                   <a class="nav-link {{ child.class }}" href="{{ child.link }}">
-                  {{ child.name }}
-                </a></li> 
+                    {{ child.name }}
+                  </a>
+                </li> 
               {% endfor %}
             </ul>
           </div>
@@ -64,13 +73,3 @@
 
   </div>
 </nav>
-
-<div id="searchLightbox" class="lightbox d-none">
-  <span class="cancelSearchButton" onclick="toggleDisplaySearchLightbox()">×</span>
-  <div class="searchInterface">
-    <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults()">
-    <div id="searchResults" class="searchResults">
-      
-    </div>
-  </div>
-</div>

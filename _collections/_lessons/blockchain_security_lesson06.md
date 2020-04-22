@@ -5,19 +5,17 @@ module: 2
 title: HD Wallets & Seed Phrases
 permalink: /courses/blockchain-security/2/hd-wallets-seed-phrases/
 ---
+<br>
+<br>
 <span class="openingParagraph">The first thing to know about Hierarchical Deterministic (HD) Wallets &amp; Seed Phrases is that they're not a piece of software, but rather a specification for how cryptocurrency wallets can more reliably generate and store addresses from a single private key. In fact, hardware wallets predominantly are enabled by this key innovation.</span>
-&nbsp;
 
 <h3>THE REALITY</h3>
 
-<hr />
 
 No singular specification has dominated the blockchain industry or even a particular token. Many wallets have failed to implement the specification in a way that is easy to import and export from vendor to vendor. However, HD wallets and seed phrases still play a valuable role in the everyday use of blockchain software.
-&nbsp;
 
 <h3>HIERARCHICAL DETERMINISTIC</h3>
 
-<hr />
 
 A deterministic wallet is nothing more than a way to regenerate many addresses from a single <em>extended</em> private key. We call it extended because it is twice the length of a normal key, which allows us to perform some cool math tricks. We won't get into the fancy math here, but it is helpful to understand how the keys are generated.
 
@@ -34,6 +32,5 @@ A deterministic wallet is nothing more than a way to regenerate many addresses f
 
 <h3>SEED PHRASES</h3>
 
-<hr />
 
 Seed Phrases are a user-friendly representation of the Extended Private Key used in an HD Wallet. The typically come in the form of 12-, 18-, or 24-word English words. They are the basis for backing up and restoring a hardware wallet. If the device were ever lost, restoring the wallet is as simple as re-entering the Seed Phrase into a new device. This method can also be used with software wallets and generally is seen as the preferred way to backup and restore cryptocurrency wallets.

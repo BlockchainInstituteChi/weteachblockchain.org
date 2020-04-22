@@ -1,7 +1,13 @@
+html, body {
+    overflow-x:hidden;
+}
 section {
     padding-top: 4em;
 }
-
+section.oops {
+    padding-top: 0em;
+    margin-bottom: 6em;
+}
 .oops span {
     display: block;
     width: 100%;
@@ -32,4 +38,23 @@ section {
     border: none;
     font-weight: 500;
     padding: 0.5em;
+}
+h1.hasColorTag.red {
+    margin-left: -1.62em;
+}
+
+
+.FourOFourSearchResults {
+    margin: 5em;
+    margin-top: 0;
+    border-left: 1px solid grey;
+    border-right: 1px solid gray;
+    height: 100%;
+    margin-bottom: 0;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+a.searchResultLink {
+    border: none;
 }

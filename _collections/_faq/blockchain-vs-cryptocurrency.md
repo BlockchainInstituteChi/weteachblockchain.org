@@ -3,9 +3,10 @@ title: Blockchain vs Cryptocurrency
 image: Difference.png
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
-author: What's The Difference?
+tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
+weight: 2
 ---
 
 <h3>What is a Blockchain?</h3>

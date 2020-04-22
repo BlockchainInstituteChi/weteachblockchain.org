@@ -25,10 +25,36 @@
 .terminal .col-md-1 span {
     left: 33%;
 } 
+.imageWithTextCallout .col-md-3 {
+    margin-bottom: 10em;
+}
+span.quoteBody::after {
+    content: '”';
+    z-index: -1;
+    font-size: 3em;
+    position: absolute;
+    top: 0.15em;
+    right: -0.3em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+span.quoteBody::before {
+    content: '“';
+    z-index: -1;
+    font-size: 3em;
+    position: absolute;
+    top: 0.15em;
+    left: -0.45em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+.imageWithTextCallout .col-md-3 {
+    margin-bottom: 1em;
+}
     .definition i {
         position: inherit;
         margin: 0em;
@@ -84,6 +110,9 @@
 .terminal .col-md-1 {
     padding-bottom: 3em;
 }
+.row.terminal {
+    min-width: 90%;
+}
 .imageWithTextCallout img {
     max-width: 100%;
     position: initial;
@@ -100,20 +129,24 @@
     img#lightBoxImage {
         margin-top: calc(50vh - 8em);
     }
-span.quoteBody::before {
-    font-size: 6em;
-    top: 0.75em;
-    left: -.23em;
-}
-span.quoteBody::after {
-    font-size: 6em;
-    top: 0.75em;
-    right: -.05em;
-}
-.row.bigQuote {
-    margin: 3em 2em;
-    max-width: 98.5%;
-}
+    span.quoteBody::before {
+        font-size: 2.25em;
+        left: -.4em;
+    }
+    span.quoteBody::after {
+        font-size: 2.25em;
+        bottom: 0;
+        right: -0.22em;
+    }
+    .row.bigQuote {
+        margin: 0;
+    }
+    .imageWithCaption h4 {
+        overflow-wrap: break-word;
+    }
+    .lessonContent h4 {
+        margin-right: 0em;
+    }
     
 }
 

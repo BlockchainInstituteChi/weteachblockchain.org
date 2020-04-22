@@ -5,6 +5,8 @@ module: 2
 title: Cryptocurrency Wallets
 permalink: /courses/blockchain-security/2/cryptocurrency-wallets/
 ---
+<br>
+<br>
 <span class="openingParagraph">Cryptocurrency wallets is an essential concept to master for anyone interested in blockchains.</span>
 
 Although the software we use to manage cryptocurrencies is called a "wallet", no actual value is held in the wallet itself. Instead, it is a management interface for interacting with your private keys and blockchain networks. Because balances are tracked by the blockchain itself, cryptocurrency wallets mainly automate the process of signing cryptographic messages and broadcasting them to peer nodes in the network.

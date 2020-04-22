@@ -9,27 +9,21 @@ permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 <iframe src="https://www.youtube.com/embed/QV3CAPpNKDo?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 <span class="openingParagraph">Despite Bitcoin's open nature, we still know very little about its creator. Satoshi Nakamoto is the name used by the person or people that created Bitcoin and wrote the Bitcoin whitepaper.</span>
-&nbsp;
-
 
 <h3>WHO IS SATOSHI NAKAMOTO?</h3>
 
-<hr />
 <img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.png" />
 
 Who is the mysterious creator behind Bitcoin? We don’t know much more than the name, Satoshi Nakamoto, which first appeared on the paper <a href="https://bitcoin.org/bitcoin.pdf">“Bitcoin: A Peer-to-Peer Electronic Cash”</a> which was distributed by a cryptography mailing list in 2008. While there are a few suspects, Nakamoto’s identity remains a mystery.
 
 What we do know of Satoshi comes from his posts on the P2P Foundation and the code behind Bitcoin. This line of text was embedded in the bitcoin genesis block, mined on January 3rd, 2009:
-<blockquote>
-<div class="bigQuote">
-
 
 {% include callouts/bigQuote.html
 	body="03/Jan/2009 Chancellor on brink of second bailout for banks."
 	sourceName="The Times"
 	sourceUrl="https://www.thetimes.co.uk/article/chancellor-alistair-darling-on-brink-of-second-bailout-for-banks-n9l382mn62h"
 %}
-</div></blockquote>
+
 This line references a Times of London article that discussed an additional bailout for the banks after the 2008 financial crisis.
 
 <img src="/assets/img/courses/blockchain-101/Newspaper.jpg" />
@@ -43,9 +37,8 @@ This line references a Times of London article that discussed an additional bail
 
 Satoshi's thoughts on the banking system give us some clues as to why he built a monetary alternative that is decentralized and trustless.
 
-<img src= />
-{% include callouts/imageWithCaption.html
-    image="/assets/img/courses/blockchain-101/Hal_Finney_computer_scientist.jpg"
+{% include callouts/imageWithTextCallout.html
+    image="courses/blockchain-101/Hal_Finney_computer_scientist.jpg"
     title="Hal Finney"
     bodyText="The very first Bitcoin transaction took place between Satoshi and <a href='https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)'>Hal Finney</a>, a cypherpunk and programmer. While some suspect that Hal Finney may be the person behind the Satoshi pseudonym, this was never proven. After a five year battle with ALS, Hal Finney passed away in 2014."
 %}

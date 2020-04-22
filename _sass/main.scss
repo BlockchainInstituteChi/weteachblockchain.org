@@ -43,6 +43,12 @@ a {
 .col-sm-6 img {
     max-width: 100%;
 }
+
+/* No wrap spans are used for the 501(c)(3) designation among other things */
+span.no-wrap {
+    white-space: nowrap;
+}
+
 section.container {
     margin: 0;
     max-height: unset !important;
@@ -145,10 +151,9 @@ a.nav-link i:hover {
 li.nav-item.navbox {
     padding-right: 0.5em;
     padding-left: 0;
-    // border-left: lightgrey 1px solid;
 }
 
-/* Hover Nav Box */
+/*  Hover Nav Box  */ 
 .hoverNavbox {
     width: 65%;
     position: absolute;
@@ -213,6 +218,8 @@ li.nav-item.contactUsLink {
 /* Hierarchy Handling */
 .hoverNavbox a.nav-link.child::before {
     content: '-' !important;
+    color: transparent;
+    padding-left: 1em;
 }
 
 /* Account Hoverbox */
@@ -286,31 +293,32 @@ li.nav-item.search {
     padding-left: 0.5em;
     // border-left: lightgrey 1px solid;
 }
-.searchInterface {
-    width: 50%;
-    background: white;
-    margin: auto;
-    margin-top: 4em;
-    border-radius: 0.5em;
-    padding: 1em;
+.searchBox::-webkit-scrollbar, .searchResults::-webkit-scrollbar {
+    display: none !important;
 }
-span.cancelSearchButton {
-    color: white;
-    font-size: 3em;
+.searchBox {
+    display: block;
     position: absolute;
-    right: calc( 25% - 1em);
+    width: 50vw;
+    max-width: 100%;
+    float: right;
+    right: 17em;
+    background: white;
+    top: 1.25em;
+    z-index: 100;
 }
-.searchInterface input {
+.searchBox input {
     width: 100%;
     border-radius: 0em;
     padding: 0.5em;
     font-family: Roboto;
 }
-div#searchResults {
+.searchResults {
     max-height: 50vh;
     overflow: scroll;
     height: 50vh;
     overflow-x: hidden;
+    height: fit-content;
 }
 .searchResults img {
     max-width: 20%;
@@ -346,6 +354,13 @@ div#searchResults {
     margin: auto;
     padding: 0.5em;
 }
+.searchResults span.loading  {
+    padding-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+    text-align: center;
+}
 
 /* Lightbox */
 .lightbox {
@@ -373,6 +388,9 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 }
 
 /* Footer */
+.col-md-3.bciLogo {
+    padding-top: 2.4em;
+}
 .container-fluid.footer {
     background: #2b2b2b;
     color: #aeaeae;
@@ -386,9 +404,10 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 .footer h4 {
     text-transform: uppercase;
     font-size: 1.25em;
+    color: #848484;
 }
 .footer a {
-    color: darkgrey;
+    color: #848484;
 }
 .footer a:hover {
     color: #2fae9f;
@@ -433,6 +452,7 @@ button.mc_signup:hover {
     display: block;
     width: 100%;
     text-align: center;
+    color: #848484;
 }
 .linkList {
     margin: auto;
@@ -448,7 +468,7 @@ button.mc_signup:hover {
 }
 .footer li.nav-item {
     font-size: 1.5em;
-    padding-top: 0.5em;
+    padding-top: 1.1em;
 }
 
 /* Footer alignment issues */
@@ -727,4 +747,18 @@ section.social {
 iframe#twitter-widget-0 {
     background: #00000096;
     border-radius: 0.5em;
+}
+a.startCourseButton:hover {
+    color: white !important;
+    background-color: #0b9ba4 !important;
+}
+.pageHeaderImage .no-wrap {
+    white-space: nowrap;
+    font-size: .9em;
+    font-weight: 200;
+    font-family: Open Sans;
+    line-height: 1.9;
+    letter-spacing: .1px;
+    margin-top: 1em;
+    max-width: 80%;
 }
