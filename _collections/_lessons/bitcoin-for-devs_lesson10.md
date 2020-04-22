@@ -5,7 +5,8 @@ module: 3
 title: What is a Bitcoin?
 permalink: /courses/bitcoin-for-developers/3/what-is-a-bitcoin
 ---
-
+<br>
+<br>
 <span class="openingParagraph">
 We’ll dive into bitcoin wallets in the next few lessons, but, in order to understand what a wallet is doing, you need to understand what a bitcoin actually is.</span>
 
