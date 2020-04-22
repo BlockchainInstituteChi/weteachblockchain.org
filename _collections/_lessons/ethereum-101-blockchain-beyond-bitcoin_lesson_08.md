@@ -5,6 +5,8 @@ module: 3
 title: Security Concerns
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/3/security-concerns/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 While the EVM is revolutionary, it's design creates some challenges for developers, which should be well understood before a mainnet launch can be considered. </span>
 
