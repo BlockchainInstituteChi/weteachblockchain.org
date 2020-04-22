@@ -108,8 +108,7 @@ Further Reading:
 <ul>
  	<li><a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP 39</a></li>
  	<li><a href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4">Chapter 5 of Mastering Bitcoin 2nd Edition</a></li>
- 	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc">Github</a></li>
-</ul>
+ 	<li>Via <a href="https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc">Github</a></li></ul>
 
 
 <p>We’ll have a look at chain codes and HD wallets in the next lesson.</p>
