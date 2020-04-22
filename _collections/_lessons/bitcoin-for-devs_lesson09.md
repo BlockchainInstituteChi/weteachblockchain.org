@@ -5,7 +5,8 @@ module: 3
 title: Bitcoin Nodes
 permalink: /courses/bitcoin-for-developers/3/bitcoin-nodes
 ---
-
+<br>
+<br>
 <span class="openingParagraph">Now that we’ve covered the history behind Bitcoin and have a theoretical understanding of how blockchains function, let’s see it in action.</span>
 
 Thus far when we have said “node” we meant “full node”. As mentioned, full nodes keeps a complete copy of the Bitcoin blockchain and participates in network consensus by checking and forwarding valid transactions. They download every block and transaction and check them against Bitcoin’s consensus rules.
@@ -21,7 +22,8 @@ Thus far when we have said “node” we meant “full node”. As mentioned, fu
  	<li>Distribute valid data</li>
 </ul>
 In these ways, a full node contributes to network “consensus”.
-<div class="tealCallout"><b>SPV nodes reminder:</b> Lightweight or thin clients are nodes that use Simplified Payment Verification. SPV is a method for verifying that particular transactions were included in a block without downloading the entire blockchain. This allows you to run software that interacts with the bitcoin network on low resource machines, such as running a wallet on a smartphone. However, using SPV instead of full nodes means the loss of some privacy and security.</div>
+
+{% include callouts/note.html title="SPV nodes reminder:" bodyText='Lightweight or thin clients are nodes that use Simplified Payment Verification. SPV is a method for verifying that particular transactions were included in a block without downloading the entire blockchain. This allows you to run software that interacts with the bitcoin network on low resource machines, such as running a wallet on a smartphone. However, using SPV instead of full nodes means the loss of some privacy and security.' %}
 
 Before we can set up a node there are two more things to consider. Do we want to run on mainnet, testnet or regtest? And which Bitcoin implementation do we want to use?
 {% include callouts/definition.html
