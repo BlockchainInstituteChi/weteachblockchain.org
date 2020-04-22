@@ -17,8 +17,6 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 
 <h3>BIRTH OF THE MACHINE</h3>
 
-<hr />
-
 <img src="/assets/img/courses/ethereum-101/EthState-01.png" />
 
 <span >Rather than the blockchain existing as a ledger of transactions, Buterin proposed that the chain might instead serve as a source of communal truth for the results of computations. In this new version, the network of peers collectively transitioned from one state to another, and the ledger recorded these transitions communally. The rules of this transition and functionality are encompassed in the consensus rules, which you may want to </span><a href="https://github.com/ethereumbook/ethereumbook/blob/develop/14consensus.asciidoc"><span >explore on Github</span></a><span >. Collectively, the group of peers are referred to as the </span><b>Ethereum Virtual Machine (EVM).</b>
@@ -31,26 +29,18 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 
 <h3>FUNDAMENTAL DIFFERENCES</h3>
 
-<hr />
-
 <span >While Ethereum and Bitcoin are similar, the rules of the EVM have been constructed with different priorities in mind. In particular, Ethereum's blocks are limited in computational effort, while Bitcoin's blocks are limited in storage space. In addition, new Ethereum blocks are mined every 10-19 seconds, whereas new Bitcoin blocks are mined every ten minutes. </span>
 
 <h3>GROWTH OF THE NETWORK</h3>
-
-<hr />
 
 <img src="/assets/img/courses/ethereum-101/EthereumGrowth-1.jpg" />
 <span >In the weeks and months after the release of the whitepaper, developers across the Bitcoin ecosystem and from other communities quickly proposed a myriad of additional applications and options for this new version of the blockchain.  The subjects that emerged now provide the framework for decentralization and </span><a href="/web3/"><span >Web 3</span></a><span >. Distributed computing and storage are expected to provide a new internet which is governed by a group of collaborating peers.</span>
 
 <h3>PREVENTING SPAM</h3>
 
-<hr />
-
 <span >Because the EVM is an open system, there is a substantial risk of a rogue actor attempting to subvert the network by running code which repeats endlessly or otherwise monopolizes the computational power of the network. In order to prevent this, a pricing unit known as ”gas” must be paid in order to run computations. Gas is purchased at the time a smart contract is triggered, and must be paid with Ether. Because the price of gas can vary independently from the price of Ether, and will increase when many parties try to purchase it simultaneously, this provides an economic disincentive to prevent spam within the network. </span>
 
 <h3>GOVERNANCE</h3>
-
-<hr />
 
 <span >Just like in the early days of Bitcoin, Ethereum's initial direction took shape over forums and via Github. As the project progressed, the non-profit Ethereum Foundation was established to provide oversight of the growth of the fledgling currency. </span>
 
