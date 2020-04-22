@@ -5,6 +5,8 @@ module: 2
 title: Fungible Tokens
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 One thing which is important to understand about decentralized design patterns is that they are not ever constant. While many smart contracts follow the same formats, each is an independent object which can be configured in any way that suits its purpose. </span>
 
