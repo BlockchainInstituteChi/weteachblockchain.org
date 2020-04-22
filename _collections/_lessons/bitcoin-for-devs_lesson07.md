@@ -43,10 +43,8 @@ A “full node” is a computer that is running bitcoin software and maintaining
 %}
 
 We briefly covered the mining process in lesson two, Enter the Blockchain Part I, and here we’ll dive a bit deeper into consensus algorithms and maintaining consensus long term with governance systems.
-<div class="bigQuote">
-	<span class="quoteBody">“A consensus algorithm is a process in computer science used to achieve agreement on a single data value among distributed processes or systems. Consensus algorithms are designed to achieve reliability in a network involving multiple unreliable nodes. Solving that issue — known as the consensus problem — is important in distributed computing and multi-agent systems.”</span>
-<strong><a href="https://whatis.techtarget.com/definition/consensus-algorithm"> whatis.com</a></strong></div>
-&nbsp;
+
+{% include callouts/bigQuote.html body="A consensus algorithm is a process in computer science used to achieve agreement on a single data value among distributed processes or systems. Consensus algorithms are designed to achieve reliability in a network involving multiple unreliable nodes. Solving that issue — known as the consensus problem — is important in distributed computing and multi-agent systems." sourceName="Whatis.com" sourceUrl="https://whatis.techtarget.com/definition/consensus-algorithm" %}
 
 It’s rather remarkable that a collection of computers, with no central authority, can come to an agreement on the state of the network. This process is called emergent consensus. We call it emergent because it is not brought about explicitly but through the interplay of four processes which happen independently on nodes throughout the network.
 <ul>
@@ -58,7 +56,7 @@ It’s rather remarkable that a collection of computers, with no central authori
 The longest, valid chain with the most accumulated proof-of-work is the chain that a node is programmed to follow. Accumulated proof-of-work can be thought of as a measure of the amount of hashing power or computing power that went into making that chain of blocks.
 
 Proof-of-Work, discussed in our second lesson, is only one step in this process and can be replaced with other consensus mechanisms such as Proof-of-Stake.
-<h3><b>PUBLIC NETWORK CONSENSUS ALGORITHMS</b></h3>
+<h3>PUBLIC NETWORK CONSENSUS ALGORITHMS</h3>
 
 <hr />
 
