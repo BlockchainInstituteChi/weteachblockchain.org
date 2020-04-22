@@ -43,6 +43,12 @@ a {
 .col-sm-6 img {
     max-width: 100%;
 }
+
+/* No wrap spans are used for the 501(c)(3) designation among other things */
+span.no-wrap {
+    white-space: nowrap;
+}
+
 section.container {
     margin: 0;
     max-height: unset !important;
