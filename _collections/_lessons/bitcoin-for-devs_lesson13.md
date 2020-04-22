@@ -6,14 +6,12 @@ title: HD Wallets
 permalink: /courses/bitcoin-for-developers/3/hd-wallets
 ---
 
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 The methods explained in BIP’s <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki" target="_blank" rel="noopener noreferrer">32</a>, <a href="https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki" target="_blank" rel="noopener noreferrer">43</a> &amp; <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki" target="_blank" rel="noopener noreferrer">44</a> are best practice for Bitcoin wallets, and necessary for interoperability with other Bitcoin wallets.</span>
-&nbsp;
 
 <h3>WHAT IS AN HD WALLET?</h3>
-
-<hr />
 
 There are two types of deterministic wallets, sequential and hierarchical. Here we’ll focus on the industry standard, hierarchical.
 
@@ -33,8 +31,6 @@ The root of the chain code is derived from the wallet seed. As the wallet key tr
 	bodyText="<b>A:</b> <i>Mnemonic Phrase;</i> <b>B:</b> <i>Seed;</i> <b>C:</b> <i>One-Way Hash Function;</i> <b>D:</b> <i>Left;</i> <b>E:</b> <i>Right;</i> <b>F:</b> <i>Master Private Key;</i> <b>G:</b> <i>Master Public Key;</i> <b>H:</b> <i>Master Chain Code.</i>"
 %}
 
-<br>
-
 To create a wallet key tree you need the master or parent private key and corresponding public key, the root or parent chain code, and and index number (which we’ll discuss shortly). All of this is run through a hashing function and split into a child private key a corresponding public key and a child chain code.
 
 The below image is helpful in visualizing this process.
@@ -44,7 +40,6 @@ The below image is helpful in visualizing this process.
 	title=""
 	bodyText="<b>A:</b> <i>Parent Private Key;</i> <b>B:</b> <i>Parent Public Key;</i> <b>C:</b> <i>Parent Chain Code;</i> <b>D:</b> <i>Index Number;</i> <b>E:</b> <i>One-Way Hash Function;</i> <b>F:</b> <i>Left;</i> <b>G:</b> <i>Right;</i> <b>H:</b> <i>Child Private Key;</i> <b>I:</b> <i>Child Public Key;</i> <b>J:</b> <i>Child Chain Code.</i>"
 %}
-<br>
 
 This process has some really neat features. Child keys and subsequent addresses derived in this fashion are indistinguishable from nondeterministic keys and address. They function entirely as “normal” keys. And child key can not be used to find a parent or sibling keys. You would need both the child private key and the child chain code to derive more children.
 
@@ -59,7 +54,6 @@ This is particularly useful in an e-commerce scenario. Image an online retailer 
 	title=""
 	bodyText="<b>A:</b> <i>Parent Public Key;</i> <b>B:</b> <i>Parent Chain Code;</i> <b>C:</b> <i>Index Number;</i> <b>D:</b> <i>One-Way Hash Function;</i> <b>E:</b> <i>Left;</i> <b>F:</b> <i>Right;</i> <b>G:</b> <i>Child Public Key;;</i> <b>H:</b> <i>Child Chain Code.</i>"
 %}
-<br>
 
 While an extended public key, or xpub, is very useful it comes with some potential risks. An xpub key contains the chain code, which, if the xpub private key were somehow also know could be used to derive all other child private keys.
 
@@ -70,7 +64,6 @@ A solution to this problem is a “hardened key”. This is an alternative deriv
 	title=""
 	bodyText="<b>A:</b> <i>Parent Private Key;</i> <b>B:</b> <i>Parent Chain Code;</i> <b>C:</b> <i>Index Number;</i> <b>D:</b> <i>One-Way Hash Function;</i> <b>E:</b> <i>Left;</i> <b>F:</b> <i>Right;</i> <b>G:</b> <i>Child Private Key;</i> <b>H:</b> <i>Child Public Key;</i> <b>I:</b> <i>Child Chain Code.</i>"
 %}
-<br>
 
 Using the hardened key derivation function the resulting child private key and chain code are completely different from what would have existed using the standard key derivation function. The new, hardened, branch of keys can be used to produce extended public keys that are not vulnerable to a chain code leak as the chain code they contain cannot be exploited to reveal any private keys.
 
@@ -79,14 +72,11 @@ In an e-commerce setting, it is best for any xpub keys used on the server to hav
 In part two of Bitcoin for Developers we’ll take a deep dive into Bitcoin transactions and cover how to integrate bitcoin payments into an e-commerce shop.
 <h3>INDEX AND PATH</h3>
 
-<hr />
 
 As you may have noticed mentioned when describing key derivation, an index identifier is used.
 
 The index is a 32-bit integer that is used to distinguish between normal vs hardened keys. The index is split into two ranges, the first portion is reserved for normal derivation and the second portion reserved for hardened derivation.
 <h3>THE PATH</h3>
-
-<hr />
 
 Keys in an HD wallet are identified using a path naming convention. Here each level of the tree is separated by a slash.
 
@@ -113,8 +103,6 @@ The “change” level has two subtrees, one for creating receiving addresses an
 And lastly, the fifth level is the address index as describes as above.
 
 So, the third child of the master public key on the Bitcoin network might look something like this… M/44/0/0/0/2.
-<br>
-<hr />
 
 Further reading:
 <ul>
