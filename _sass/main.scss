@@ -218,6 +218,8 @@ li.nav-item.contactUsLink {
 /* Hierarchy Handling */
 .hoverNavbox a.nav-link.child::before {
     content: '-' !important;
+    color: transparent;
+    padding-left: 1em;
 }
 
 /* Account Hoverbox */
