@@ -6,7 +6,8 @@ title: Governance
 permalink: /courses/bitcoin-for-developers/2/governance
 ---
 
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 So, we have a decentralized network, that no one entity can control. How do we make changes and upgrades to that network?</span>
 
