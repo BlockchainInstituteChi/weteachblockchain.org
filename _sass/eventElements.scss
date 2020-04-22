@@ -195,3 +195,6 @@ span.eventFilterNotification {
     padding-left: 0.5em;
     color: orange;
 }
+.eventBody ::before{
+    display: contents;
+}
