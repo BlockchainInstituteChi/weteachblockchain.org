@@ -747,3 +747,13 @@ a.startCourseButton:hover {
     color: white !important;
     background-color: #0b9ba4 !important;
 }
+span.no-wrap {
+    white-space: nowrap;
+    font-size: .9em;
+    font-weight: 200;
+    font-family: Open Sans;
+    line-height: 1.9;
+    letter-spacing: .1px;
+    margin-top: 1em;
+    max-width: 80%;
+}
