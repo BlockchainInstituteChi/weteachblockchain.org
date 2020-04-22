@@ -5,6 +5,8 @@ module: 3
 title: Identifying Opportunities
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/3/identifying-opportunities/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 Throughout this module we've explored how the Ethereum Virtual Machine can be used to build decentralized applications. Because these systems are quite complex, it's important to avoid trying to shoehorn the wrong business model into a decentralized format. The following process can serve as a litmus test to identify if a problem needs a decentralized solution.</span>
 
