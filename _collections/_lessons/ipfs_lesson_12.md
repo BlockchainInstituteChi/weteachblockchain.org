@@ -22,7 +22,7 @@ This will generate a hash of your string message and store it at a new ipfs hash
 {% include callouts/terminal.html 
   user="alex@ubuntu" 
   directory="~/" 
-  bodyText="hash="curl "https://ipfs.io/ipfs/$hash"" 
+  bodyText="curl "https://ipfs.io/ipfs/$hash"" 
   %}
 
 This should now return:
