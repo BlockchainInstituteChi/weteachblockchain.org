@@ -20,20 +20,31 @@ After downloading, untar the archive, and move the ipfs binary somewhere in your
     directory="~/fabric-samples/"
     bodyText="tar xvfz go-ipfs.tar.gz
 $ cd go-ipfs
-$ ./install.sh</code>"
+$ ./install.sh"
 %}
 
 Test it out:
-<code class="cli">ipfs help
+
+{% include callouts/terminal.html
+    user="alex@ubuntu"
+    directory="~/fabric-samples/"
+    bodyText="ipfs help
 USAGE:
 ipfs - Global p2p merkle-dag filesystem.
-...</code>
+..."
+%}
+
 <h4>Windows</h4>
 After downloading, unzip the archive, and move ipfs.exe somewhere in your %PATH%.
 Test it out:
-<code class="cli">ipfs help
+
+{% include callouts/terminal.html
+    user="alex@ubuntu"
+    directory="~/fabric-samples/"
+    bodyText="ipfs help
 USAGE:
 $ ipfs - Global p2p merkle-dag filesystem.
-...</code>
+..."
+%}
 
 Congratulations! You now have a working IPFS installation on your computer. Now let's see what it can do!
