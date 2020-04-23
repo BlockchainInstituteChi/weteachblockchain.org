@@ -6,8 +6,9 @@ title: The IFPS Dashboard
 permalink: /courses/blockchain-101/3/the-ifps-dashboard
 ---
 
-
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 Now that you’re up and running, you may want to also check out the localhosted network that shows connected peers and files stored.</span>
 
 {% include callouts/note.html

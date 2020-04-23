@@ -6,8 +6,9 @@ title: Storing Files
 permalink: /courses/ipfs/3/storing-files
 ---
 
-
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 You can also push files to the network:</span>
 
 {% include callouts/terminal.html

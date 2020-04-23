@@ -23,6 +23,7 @@ We’re now online, so we can try downloading a file from the network.</span>
 
 If everything is working properly, you should now see an image file open with a picture of a cat! This image file is now on your computer, but you didn’t get it over HTTP, and it may have been downloaded from any of hundreds of IPFS nodes around the world.
 
+
 {% include callouts/terminal.html
 	title="The title of the example"
 	user="alex@ubuntu"

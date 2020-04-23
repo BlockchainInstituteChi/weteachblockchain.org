@@ -5,8 +5,8 @@ module: 1
 title: Background
 permalink: /courses/ipfs/1/background
 ---
-
 <span class="openingParagraph">
+
 As with any technology,<a href="https://ipfs.io/"> InterPlanetary File System</a> (IPFS) is a combination of solutions to problems that had existed in the past. Storage technology is at the core of everything we think of as computers.</span>
 
 Player Pianos, dating back to the <a href="https://en.wikipedia.org/wiki/Player_piano" rel="noopener">early 18th century</a>, were the first real form of digital storage. The notches on a steel cylinder pulled tensioned lines, effectively playing a song when the springs were pulled by an attendant. Our modern hard drives are not much more complex than this, using electrical charge rather than the mechanical potential of a spring, but otherwise very similar.
