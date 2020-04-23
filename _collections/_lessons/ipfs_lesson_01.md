@@ -5,8 +5,8 @@ module: 1
 title: Background
 permalink: /courses/ipfs/1/background
 ---
-
-
+<br>
+<br>
 <span><span class="openingParagraph">
 As with any technology,<a href="https://ipfs.io/"> InterPlanetary File System</a> (IPFS) is a combination of solutions to problems that had existed in the past. Storage technology is at the core of everything we think of as computers.</span>
 <br>
