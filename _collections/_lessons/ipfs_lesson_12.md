@@ -14,7 +14,7 @@ You can also push files to the network:</span>
 {% include callouts/terminal.html 
   user="alex@ubuntu" 
   directory="~/" 
-  bodyText="hash="`echo "I <3 The Blockchain Institute -$(whoami)" | ipfs add -q`" 
+  bodyText="hash=`echo "I <3 The Blockchain Institute -$(whoami)" | ipfs add -q`" 
   %}
 
 This will generate a hash of your string message and store it at a new ipfs hash url. 
