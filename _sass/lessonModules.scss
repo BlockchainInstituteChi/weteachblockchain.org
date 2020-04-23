@@ -141,6 +141,19 @@ section .row {
     top: 40%;
     left: 39%;
 }
+.note a {
+    color: darkgrey;
+    font-weight: 500;
+}
+.note pre {
+    display: inline-block;
+    vertical-align: text-top;
+    color: green;
+    background: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.1em;
+}
 
 /*Callout*/
 .row.callout {

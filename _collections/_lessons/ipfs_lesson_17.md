@@ -5,8 +5,6 @@ module: 4
 title: Next Steps
 permalink: /courses/ipfs/4/next-steps
 ---
-
-
 <img src="/assets/img/Conclusion-01-2.png" />
 
 <h3>YOU'VE COMPLETED OUR IPFS COURSE!</h3>

@@ -5,10 +5,6 @@ module: 4
 title: Other Tokens or Projects
 permalink: /courses/ipfs/4/other-tokens-or-projects
 ---
-
-
-<br>
-<br>
 <span class="openingParagraph">
 For the sake of this course, we've mostly focused on IPFS since it's easy to visualize what's happening, but there are a number of players entering the decentralized storage space. Each of them have chosen to accomplish this goal in slightly different ways. Generally, the framework for a decentralized storage network can be summarized as shown below.</span>
 
@@ -60,5 +56,5 @@ Storj has recently announced compatibility with Amazon's S3 storage solution, wh
 
 <hr />
 <em>Congratulations, you're now a decentralized storage aficionado. As always, please feel free to contact us if you're interested in more content related to this topic, or if there's anything we can do to clarify the lessons explained in this course. Happy #buidling!</em>
-<h3></h3>
+
 <em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em>
