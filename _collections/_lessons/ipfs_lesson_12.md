@@ -10,9 +10,25 @@ permalink: /courses/ipfs/3/storing-files
 <br>
 <span class="openingParagraph">
 You can also push files to the network:</span>
-<code class="cli">hash=`echo "I <3 The Blockchain Institute -$(whoami)" | ipfs add -q`</code>
+
+{% include callouts/terminal.html 
+  user="alex@ubuntu" 
+  directory="~/" 
+  bodyText="hash="`echo "I <3 The Blockchain Institute -$(whoami)" | ipfs add -q`" 
+  %}
+
 This will generate a hash of your string message and store it at a new ipfs hash url. 
-<code class="cli"> curl "https://ipfs.io/ipfs/$hash"</code>
+
+{% include callouts/terminal.html 
+  user="alex@ubuntu" 
+  directory="~/" 
+  bodyText="hash="curl "https://ipfs.io/ipfs/$hash"" 
+  %}
+
 This should now return:
-<code class="cli">I <3 The Blockchain Institute -< your username ></code>
-</span>
+
+{% include callouts/terminal.html 
+  user="alex@ubuntu" 
+  directory="~/" 
+  bodyText="hash="I <3 The Blockchain Institute -< your username >" 
+  %}
