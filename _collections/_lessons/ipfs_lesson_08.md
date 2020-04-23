@@ -16,7 +16,6 @@ You can download the binaries for <a href="https://dist.ipfs.io/#go-ipfs">IPFS b
 After downloading, untar the archive, and move the ipfs binary somewhere in your executables $PATH using the install.sh script:
 
 {% include callouts/terminal.html
-    title="shut down the network and clear docker"
     user="alex@ubuntu"
     directory="~/fabric-samples/"
     bodyText="tar xvfz go-ipfs.tar.gz
