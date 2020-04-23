@@ -5,7 +5,9 @@ module: 3
 title: Environment Setup
 permalink: /courses/ipfs/3/environment-setup
 ---
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 As with anything truly revolutionary, IPFS takes some getting used to. In this module, we’ll cover how to set up your own node and push / pull files from the network. Since IPFS is a new protocol, you’ll need to install their bundle so that your device will be able to communicate with other IPFS nodes.</span>
 <h3>PRE-BUILT BINARY INSTALL</h3>
 <hr />
