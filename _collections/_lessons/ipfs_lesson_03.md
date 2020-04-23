@@ -19,28 +19,25 @@ Because blockchains must be stored on all nodes of the network, data on them is 
 
 <h3>GENERAL PROCESS</h3>
 
-<hr />
-
 <ol>
  	<li>
 <h4>Shard Data</h4>
-In order to optimize storage and retrieval of files, data is broken down into tiny packets which can each be stored on a different node.</li>
+<p>In order to optimize storage and retrieval of files, data is broken down into tiny packets which can each be stored on a different node.</p></li>
  	<li>
 <h4>Encryption</h4>
-Each shard is encrypted to anonymize and sterilize the data before public storage.</li>
+<p>Each shard is encrypted to anonymize and sterilize the data before public storage.</p></li>
  	<li>
 <h4>Signatures</h4>
-In order to uniquely track each shard or file, a hash signature is created that represents each unit of storage uniquely. This will be used to verify that nodes are storing the correct files at the correct addresses.</li>
+<p>In order to uniquely track each shard or file, a hash signature is created that represents each unit of storage uniquely. This will be used to verify that nodes are storing the correct files at the correct addresses.</p></li>
  	<li>
 <h4>Replication</h4>
-In a decentralized network, it's important to have multiple redundant versions of each file. This allows nodes to join and leave the network as they see fit without the file being unavailable.</li>
+<p>In a decentralized network, it's important to have multiple redundant versions of each file. This allows nodes to join and leave the network as they see fit without the file being unavailable.</p></li>
  	<li>
 <h4>Distribution</h4>
-Shards are then distributed across the network to a group of nodes to maximize availability.</li>
+<p>Shards are then distributed across the network to a group of nodes to maximize availability.</p></li>
  	<li>
 <h4>Recording</h4>
-In a truly decentralized network, a ledger or blockchain can be used to record when and where files are stored, and to ensure that parties are held accountable for breaches of trust.</li>
+<p>In a truly decentralized network, a ledger or blockchain can be used to record when and where files are stored, and to ensure that parties are held accountable for breaches of trust.</p></li>
 </ol>
-&nbsp;
 
 In the next section, we'll cover in more detail how IPFS implements this functionality.
