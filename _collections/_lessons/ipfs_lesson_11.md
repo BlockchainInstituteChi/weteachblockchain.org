@@ -6,8 +6,9 @@ title: Retrieving Files
 permalink: /courses/ipfs/3/retrieving-files
 ---
 
-
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 We’re now online, so we can try downloading a file from the network.</span>
 
 <code class="cli">ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg &gt; cat.jpg
