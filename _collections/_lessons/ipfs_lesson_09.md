@@ -15,7 +15,7 @@ Now that you have installed the IPFS software, you’ll need to configure your l
 
 {% include callouts/terminal.html
     user="alex@ubuntu"
-    directory="~/fabric-samples/"
+    directory="~/"
     bodyText="ipfs init
 initializing ipfs node at /Users/alexandermorris/.go-ipfs
 generating 2048-bit RSA keypair...done
@@ -26,6 +26,6 @@ Congratulations – you’re now the proud owner of your very own IPFS node! You
 
 {% include callouts/terminal.html
     user="alex@ubuntu"
-    directory="~/fabric-samples/"
+    directory="~/"
     bodyText="$ ipfs cat /ipfs/QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/quick-start"
 %}
