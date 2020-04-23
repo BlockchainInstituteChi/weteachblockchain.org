@@ -7,7 +7,8 @@ permalink: /courses/ipfs/4/other-tokens-or-projects
 ---
 
 
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 For the sake of this course, we've mostly focused on IPFS since it's easy to visualize what's happening, but there are a number of players entering the decentralized storage space. Each of them have chosen to accomplish this goal in slightly different ways. Generally, the framework for a decentralized storage network can be summarized as shown below.</span>
 
