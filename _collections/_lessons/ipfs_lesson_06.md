@@ -11,19 +11,15 @@ permalink: /courses/ipfs/2/uploading-and-sharing-files
 The IPFS web portal makes uploading and sharing files using IPFS easy. As a demonstration, we'll store this photo of Alex's dog on IPFS and share it with ourselves. </span>
 
 Here's the image:
-
 <img src="/assets/img/courses/ipfs/Dog.jpg" />
 
 <h3>UPLOADING</h3>
-
-<hr />
 
 You can now click and drag files onto the drop box on the right to upload them to your node. Once uploaded, you'll see them added to the list as shown below.
 
 <img src="/assets/img/courses/ipfs/FilesUpload.jpg" />
 
 <h3>SHARING</h3>
-<hr />
 
 You can also send a link to this page to allow others to easily download the same file. Just click the 'Link' button on the right once your upload is complete. The IPFS address of this file is:<code>QmT6s9dZXRFbxGhvSW68BdZEFF9mHaTW6erH3TNMrRGZfX</code> so if you'd like to download it through the web interface, you could do so at <em><a href="https://try-ipfs.theblockchaininstitute.org/?q=QmT6s9dZXRFbxGhvSW68BdZEFF9mHaTW6erH3TNMrRGZfX">https://try-ipfs.theblockchaininstitute.org/?q=QmT6s9dZXRFbxGhvSW68BdZEFF9mHaTW6erH3TNMrRGZfX</a></em>.
 
