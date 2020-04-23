@@ -14,9 +14,16 @@ As with anything truly revolutionary, IPFS takes some getting used to. In this m
 You can download the binaries for <a href="https://dist.ipfs.io/#go-ipfs">IPFS binaries</a> on a variety of platforms. This can be used directly as demonstrated below, or a variety of other methods may be available for installation depending on your platform. For a full list of options, including building from source, see the official <a href="https://docs.ipfs.io/introduction/install/">IPFS Installation documentation</a>.
 <h4>Mac / Linux</h4>
 After downloading, untar the archive, and move the ipfs binary somewhere in your executables $PATH using the install.sh script:
-<code class="cli">tar xvfz go-ipfs.tar.gz
+
+{% include callouts/terminal.html
+    title="shut down the network and clear docker"
+    user="alex@ubuntu"
+    directory="~/fabric-samples/"
+    bodyText="tar xvfz go-ipfs.tar.gz
 $ cd go-ipfs
-$ ./install.sh</code>
+$ ./install.sh</code>"
+%}
+
 Test it out:
 <code class="cli">ipfs help
 USAGE:
