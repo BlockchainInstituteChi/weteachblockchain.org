@@ -17,7 +17,7 @@ After downloading, untar the archive, and move the ipfs binary somewhere in your
 
 {% include callouts/terminal.html
     user="alex@ubuntu"
-    directory="~/fabric-samples/"
+    directory="~/"
     bodyText="tar xvfz go-ipfs.tar.gz
 $ cd go-ipfs
 $ ./install.sh"
@@ -27,7 +27,7 @@ Test it out:
 
 {% include callouts/terminal.html
     user="alex@ubuntu"
-    directory="~/fabric-samples/"
+    directory="~/"
     bodyText="ipfs help
 USAGE:
 ipfs - Global p2p merkle-dag filesystem.
@@ -40,7 +40,7 @@ Test it out:
 
 {% include callouts/terminal.html
     user="alex@ubuntu"
-    directory="~/fabric-samples/"
+    directory="~/"
     bodyText="ipfs help
 USAGE:
 $ ipfs - Global p2p merkle-dag filesystem.
