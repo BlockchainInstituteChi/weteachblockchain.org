@@ -5,9 +5,9 @@ module: 2
 title: Uploading and Sharing Files
 permalink: /courses/ipfs/2/uploading-and-sharing-files
 ---
-
-
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 The IPFS web portal makes uploading and sharing files using IPFS easy. As a demonstration, we'll store this photo of Alex's dog on IPFS and share it with ourselves. </span>
 
 Here's the image:
