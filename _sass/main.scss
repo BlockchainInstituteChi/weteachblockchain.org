@@ -680,6 +680,9 @@ section.upcomingEventsFooter {
     width: 100%;
     height: auto;
     text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EFEFEF;
 }
 .tileItem h1 {
     text-transform: uppercase;
