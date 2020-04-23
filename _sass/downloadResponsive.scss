@@ -5,9 +5,10 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-	.tileItem.downloadItem {
-    		min-height: 6em;
-	}
+.tileItem.downloadItem {
+    min-height: 6em;
+    width: calc(25% - 1em);
+}
 } 
 
 /* Mobile */
