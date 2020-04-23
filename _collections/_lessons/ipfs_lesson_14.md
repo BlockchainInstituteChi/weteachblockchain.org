@@ -6,8 +6,8 @@ title: Key Challenges
 permalink: /courses/IPFS/4/key-challenges
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 While it seems like a simple issue, paying someone to store a file is actually much more complex than most other decentralized activities. In particular, the main issue comes when the network is expected to store more than one copy of a file.</span>
 &nbsp;
