@@ -5,8 +5,9 @@ module: 2
 title: How does it work?
 permalink: /courses/ipfs/2/how-does-it-work
 ---
-
-<span><span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 IPFS depends on using a network of connected peer devices to store and distribute files. The node running in your browser is able to discover other nodes on the network. Conveniently, IPFS peers use RSA Encryption to verify their public keys, which prevents imposter attacks.</span>
 
 <img src="/assets/img/courses/ipfs/Peers_How.jpg" />
