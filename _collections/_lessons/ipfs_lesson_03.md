@@ -5,9 +5,9 @@ module: 1
 title: General Architecture 
 permalink: /courses/ipfs/1/general-architecture
 ---
-
-
-<span> <span class="openingParagraph">
+<br>
+<br>
+<span class="openingParagraph">
 While this course will mainly focus on IPFS, there are a number of proposed solutions to blockchain-based and decentralized storage. The general architecture remains quite similar between them, so it will help to review how these systems operate before comparing them.</span>
 
 {% include callouts/imageWithCaption.html
