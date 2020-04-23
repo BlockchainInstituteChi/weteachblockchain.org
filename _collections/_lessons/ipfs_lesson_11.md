@@ -14,7 +14,7 @@ We’re now online, so we can try downloading a file from the network.</span>
 {% include callouts/terminal.html 
 	user="alex@ubuntu" 
 	directory="~/" 
-	bodyText="ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg &gt; cat.jpg
+	bodyText="$ ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg > cat.jpg
 $ open cat.jpg" %}
 
 
