@@ -8,12 +8,18 @@ html, body {
     margin-bottom: 3em;
     margin-top: .5em;
 }
-.tileItem.downloadItem {
+.downloadItem {
     margin-left: .5em;
     margin-right: -.15em;
     display: inline-flex;
     width: 23%;
     margin-bottom: 4em;
+    min-height: 0px;
+    width: calc(25% - 1em);
+    display: inline-block;
+    overflow: hidden;
+    margin: 1em 0.1em 1em 0.5em;
+    text-align: left;
 }
 .downloadItem img {
     background: grey;
