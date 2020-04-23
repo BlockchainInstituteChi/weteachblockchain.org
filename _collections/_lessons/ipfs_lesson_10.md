@@ -6,8 +6,8 @@ title: Going Online
 permalink: /courses/ipfs/3/going-online
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 Now that you have IPFS installed and your node has an address, you can take the node online and join the network. You may want to use a separate shell window for this.</span>
 
