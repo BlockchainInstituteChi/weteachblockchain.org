@@ -30,5 +30,5 @@ This should now return:
 {% include callouts/terminal.html 
   user="alex@ubuntu" 
   directory="~/" 
-  bodyText="hash="I <3 The Blockchain Institute -< your username >" 
+  bodyText="I <3 The Blockchain Institute -< your username >" 
   %}
