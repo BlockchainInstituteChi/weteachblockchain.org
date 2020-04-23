@@ -12,19 +12,19 @@ Every year on May 22, Bitcoin supporters around the world celebrate the first re
 The Blockchain Institute sponsored the Bitcoin and Open Blockchain's Pizza Day event in May 2018 with a record turnout that received  mainstream media attention. 
 
 {% include callouts/imageWithCaption.html
-	image="courses/blockchain-for-business/IMG_0223.jpg"
+	image="IMG_0223.jpg"
 	title=""
 	bodyText="Director Hannah Rosenberg explains Bitcoin and Pizza day live on local TV!"
 %}
 
 {% include callouts/imageWithCaption.html
-	image="courses/blockchain-for-business/IMG_0214.jpg"
+	image="IMG_0214.jpg"
 	title=""
 	bodyText="Jeremy Cogan being interviewed by Chicago’s Channel 2 News"
 %}
 
 {% include callouts/imageWithCaption.html
-	image="courses/blockchain-for-business/IMG_0162.jpg"
+	image="IMG_0162.jpg"
 	title=""
 	bodyText="The pizza has arrived!"
 %}
