@@ -5,6 +5,8 @@ module: 1
 title: Digital Storage Background
 permalink: /courses/decentralized-storage/1/background/
 ---
+<br>
+<br>
 <span class="openingParagraph">In the early days of computing, <a href="https://en.wikipedia.org/wiki/Data_storage">storage devices</a> were coupled with processing units in single purpose systems. With the introduction of the internet and high-speed broadband, these two components are now commonly separated, often by hundreds of miles. As cloud services have grown, the notion of storage has shifted from individual hard drives and physical devices to a network of high-availability devices which a client device can access for a fee.
 </span>
 
