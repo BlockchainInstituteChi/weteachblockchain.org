@@ -6,8 +6,8 @@ title: Cryptocurrencies and Financial Markets
 permalink: /courses/blockchain-for-business/2/cryptocurrencies-and-financial-markets
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 While blockchains have shown promise, many have been attracted to the technology because of its first application, Bitcoin. It’s tough to ignore bitcoin’s increase in price over time, going from a matter of cents to thousands of dollars in less than a decade. The variations in price have led to speculators trying to make money by trading (or holding) bitcoin and other cryptocurrencies. </span>
 
@@ -19,18 +19,12 @@ While blockchains have shown promise, many have been attracted to the technology
 
 <h3>BANKING</h3>
 
-<hr />
-
 <span style="font-weight: 400;">Sending money across international borders is commonplace, however, the associated fees are exorbitant. Bitcoin has already proven to be an inexpensive but efficient way to send money across the globe. Banks and wire transfer services take up to a 20% remittance fee. Additionally, Bitcoin network fees are determined by the size of the data being transacted instead of the amount transferred. Transfer fees can be drastically cut by using cryptocurrency and a blockchain. Sending a large amount of value costs dollars, if not cents, in fees. Several economies are in crisis around the world, including Venezuela. The bolivar has become massively inflated, and there are several accounts of individuals surviving off of Bitcoin transfers from family or friends outside Venezuela’s borders.</span>
 
 <h3>AUDITS AND ASSURANCE</h3>
 
-<hr />
-
 <span style="font-weight: 400;">Tax law is complex and leads to expensive and time-consuming audits. A blockchain could take assurance to a higher level, as it provides transparency and detailed records. Instead of taxes being filed yearly, a blockchain-based accounting system could settle records in a significantly shorter amount of time. For many, the laws surrounding taxation can be difficult to navigate, so any implementation of blockchain technology may face several practical and regulatory obstacles. </span><span style="font-weight: 400;">Decentralized technologies are slowly making their way into the institutions that surround us. Decentralized technology, at its root, is all about shifting the concentration of power or access from the few to the many. Finance is no exception, as its introduction to decentralized technology has resulted in projects that provide more access to the financial services that were restricted by borders and economic barriers.</span>
 <h3>DECENTRALIZED FINANCE</h3>
-
-<hr />
 
 <span style="font-weight: 400;">Traditional barriers to economic activity result in friction that makes transacting difficult and expensive. The introduction of Bitcoin in 2009 was the first trustless means of digital transaction. Third parties have thrived on facilitating these transactions, resulting in exorbitant costs and gatekeeping. Decentralized finance is about to change this paradigm. </span><span style="font-weight: 400;">Lending, trading, and investing have long been restricted to accredited institutions or individuals. While there are reasons and advantages to this system, the fact remains that these barriers restrict markets, creating interference where none is due or warranted. Decentralized projects, while still required to abide by required regulations, the barriers to lending and investing have been largely lowered. Decentralized technology has forced us to reconsider our traditional approaches to finance. The creation of viable token economies and widely accessible applications have made this a reality.</span>
 
