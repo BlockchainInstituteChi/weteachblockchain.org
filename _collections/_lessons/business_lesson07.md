@@ -46,30 +46,10 @@ permalink: /courses/blockchain-for-business/2/blockchain-government-and-regulati
 
 <span style="font-weight: 400;">Traditionally, securities are defined by the Howey test. Formed in 1934 under the Security Exchange Act, the Howey test consists of four parts:</span>
 <ul>
- 	<li style="list-style-type: none;">
-<ul>
- 	<li style="list-style-type: none;">
-<ul>
- 	<li style="list-style-type: none;">
-<ul>
- 	<li style="list-style-type: none;">
-<ul>
- 	<li style="list-style-type: none;">
-<ul>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Is it an investment of money or assets?</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Is the investment of money or assets in a common enterprise?</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Is there an exception of profits from the investment?</span></li>
  	<li style="font-weight: 400;"><span style="font-weight: 400;">Does any profit come from the efforts of a promoter or third party?</span></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 
 <h3>TAXATION</h3>
