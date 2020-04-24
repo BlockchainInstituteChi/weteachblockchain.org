@@ -19,6 +19,4 @@ Storage is a key component of computers. <a href="https://en.wikipedia.org/wiki/
   A distributed network is a type of computer network that is spread over different nodes. This provides a single data communication network, which can be managed jointly or separately by each network. Besides sharing information within the network, a distributed network often also delegates processing."
 %}
 
-<br>
-
 Decentralized storage is a combination of solutions to these problems that have evolved over time. The main goal of IPFS (InterPlanetary File System) is to provide a commonly-addressable namespace for networks of computers to use to share their storage. This is done through <a href="https://en.wikipedia.org/wiki/Content-addressable_storage">content-addressable storage</a> enabled by <a href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle Trees</a>.
