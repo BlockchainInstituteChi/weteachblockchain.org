@@ -17,7 +17,8 @@ weight: 2
 <h3>Transferring Digital Assets</h3>
 <span> When a cryptocurrency transaction occurs, the sender broadcasts a message to the network indicating that they are transferring assets under their control to another user on the network. They specify the receiver's public address within the network, and the owner can only access assets transferred to that address if they have the corresponding cryptographic key.</span>
 
-<span><strong>Fun Fact:</strong> The first ever purchase of physical goods using cryptocurrency was on May 22, 2010, when Laszlo Hanyecz purchased two Papa John's pizzas on the Bitcoin network for 10,000 BTC. These may also have been the most expensive pizzas ever purchased. The total value of those 10,000 bitcoin is now over $65M USD.</span>
+<span><strong>{% include callouts/callout.html title="Fun Fact" bodyText="The first ever purchase of physical goods using cryptocurrency was on May 22, 2010, when Laszlo Hanyecz purchased two Papa John's pizzas on the Bitcoin network for 10,000 BTC. These may also have been the most expensive pizzas ever purchased. The total value of those 10,000 bitcoin is now over $65M USD."</span> %}
+
 
 <h3>Network Security &amp; Blockchain</h3>
 <span>A blockchain is a digital file which new information can be added to over time. Data is added to this file in blocks, which are linked together with an encryption function to form a chain. Most blockchains are shared between a wide network of peers, which means that once the data is confirmed by a majority of the network, it cannot be edited.</span>
