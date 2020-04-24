@@ -15,7 +15,7 @@ weight: 4
 <span>The name first appeared on the paper “Bitcoin: A Peer-to-Peer Electronic Cash” that was distributed by a cryptography mailing list in 2008. The very first Bitcoin transaction took place between Satoshi and Hal Finney, a programmer that was part of the cypherpunk movement. While some suspect that Hal Finney may actually be the person behind the Satoshi pseudonym, it was never proven. After a five-year battle with ALS, Hal Finney passed away in 2014.</span>
 
 {% include callouts/note.html
-	bodyText="Sound interesting? <a href='https://staging.weteachblockchain.org/downloads/bitcoin_whitepaper.pdf' target='_blank'>You can read the full Bitcoin Whitepaper here</a>"
+	bodyText="Read the Bitcoin Whitepaper: <a href='https://staging.weteachblockchain.org/downloads/bitcoin_whitepaper.pdf' target='_blank'>Bitcoin: A Peer-to-Peer Electronic Cash</a>"
 %}
 
 <span>In 2010, Satoshi handed over control of the Bitcoin network to the community members. Up to that point, all of Bitcoin’s code had been written by him. Bitcoin’s goal is to act as a payment processor with a built in cryptocurrency. Bitcoin’s evolution has proven it to be a reliable way to send money anywhere in the world, all while avoiding the high fees and long settlement times associated with transferring currency across borders.</span>
@@ -23,7 +23,7 @@ weight: 4
 <span>Ethereum is able to compute anything given enough resources and is therefore known as "Turing-complete." In simpler terms, it can simulate a computer. Bitcoin’s main focus is payments and is not Turing-complete. It only provides a simple mechanism to distribute money. This contrast reflects Ethereum’s main goal, to become the so-called “World Computer”, allowing rules to be written in any way that can be expressed by code, allowing smart contracts to function.</span>
 
 {% include callouts/note.html
-	bodyText="Read the Ethereum Whitepaper<a href='https://staging.weteachblockchain.org/downloads/ethereum_whitepaper.pdf' target='_blank'>A Next Generation Smart Contract and Decentralized Application Platform</a>"
+	bodyText="Read the Ethereum Whitepaper: <a href='https://staging.weteachblockchain.org/downloads/ethereum_whitepaper.pdf' target='_blank'>A Next Generation Smart Contract and Decentralized Application Platform</a>"
 %}
 
 <span>While Bitcoin has transaction fees, Ethereum uses a similar pricing mechanism known as gas. Each smart contract or transaction requires a set amount of gas to execute computation, which must be purchased with ether at the time of the transaction. The price of gas varies based off of network activity and congestion.</span>
