@@ -5,6 +5,8 @@ module: 3
 title: Retrieving Files
 permalink: /courses/ipfs/3/retrieving-files
 ---
+<br>
+<br>
 <span class="openingParagraph">
 We’re now online, so we can try downloading a file from the network.</span>
 
