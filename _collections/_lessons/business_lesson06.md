@@ -12,6 +12,13 @@ permalink: /courses/blockchain-for-business/2/buying-selling-and-trading-cryptoc
 <div class="purpleNote"><b>NOTE:</b> <i>THIS LESSON IS NOT INTENDED TO BE FINANCIAL ADVICE. RATHER, IT IS A GUIDE ON BUYING, SELLING, AND TRADING CRYPTOCURRENCY IF YOU DECIDE TO MAKE AN INVESTMENT.</i></div>
 <span class="openingParagraph">
 Getting into cryptocurrency may seem intimidating, but if you have the proper tools and knowledge, the process isn’t so difficult. Follow this guide before you make your first cryptocurrency purchase.</span>
+
+
+{% include callouts/note.html
+	bodyText="<b>NOTE:</b> THIS LESSON IS NOT INTENDED TO BE FINANCIAL ADVICE. RATHER, IT IS A GUIDE ON BUYING, SELLING, AND TRADING CRYPTOCURRENCY IF YOU DECIDE TO MAKE AN INVESTMENT."
+%}
+
+
 <h3>CRYPTOCURRENCY WALLETS</h3>
 
 <span style="font-weight: 400;">A wallet is the cryptocurrency equivalent of a bank account that allows you to send and receive cryptocurrency. Wallets don’t actually store your cryptocurrency. Instead, the funds are stored on a blockchain and the wallet acts as an interface that allows you control of your funds. </span><span style="font-weight: 400;">A wallet is just a graphical interface that easily allows you to manage your address and store your keys. Not all cryptocurrencies can be stored in one wallet. some wallets are currency-specific, and some support multiple currencies. </span><span style="font-weight: 400;">As long as you have control of your private keys, you have full control of your cryptocurrency. It is risky to keep your cryptocurrency on an exchange because they have control of your private keys. There have been several hacked exchanges that have lost significant amounts of money.</span>
