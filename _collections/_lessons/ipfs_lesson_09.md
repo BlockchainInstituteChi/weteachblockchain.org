@@ -5,6 +5,8 @@ module: 3
 title: Running a Node
 permalink: /courses/ipfs/3/running-a-node
 ---
+<br>
+<br>
 <span class="openingParagraph">
 Now that you have installed the IPFS software, you’ll need to configure your local node. Your node’s address is shown in the last line as ‘peer identity’.</span>
 
