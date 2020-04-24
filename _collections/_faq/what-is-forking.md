@@ -22,10 +22,11 @@ weight: 5
 {% include callouts/callout.html
    title="Permanent Forks:"
 	bodyText="<strong>Soft Forks:</strong>
-<span>A soft fork is a network upgrade which can be thought of as non-mandatory. Nodes running older versions of the software will still be able to interact with and maintain consensus on the network.</span>
+<span>A network upgrade which can be thought of as non-mandatory. Nodes running older versions of the software will still be able to interact with and maintain consensus on the network.</span>
+<br>
 <br>
 <strong>Hard Forks:</strong>
-<span>A hard fork is a network software upgrade or change that either forces nodes on the network to upgrade or results in a permanent split in the network.</span>"
+<span>A network software upgrade or change that either forces nodes on the network to upgrade or results in a permanent split in the network.</span>"
 %}
 
 <span>If nodes are running the old version of the software, they will end up with their own version of blockchain data, completely separate from the nodes that upgraded. This situation results in the creation of two separate networks.</span>
