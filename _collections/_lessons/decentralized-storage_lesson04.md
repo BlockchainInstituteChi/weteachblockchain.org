@@ -23,7 +23,7 @@ For the sake of this course, we've mostly focused on IPFS since it's easy to vis
 
 5: The encrypted shards are replicated across many peer nodes, which each share a copy of the common ledger (<b>F</b>)
 
-6: The shard hashes are recorded to the blockchain (<b>E</b>) for reference during retrieval</div>"
+6: The shard hashes are recorded to the blockchain (<b>E</b>) for reference during retrieval"
 %}
 
 Because blockchains must be stored on all nodes of the network, data on them is expensive. As a result, hashes are used to represent an image of each piece of a file, and the pieces can then be safely distributed to storage nodes without risk of substitution of compromise.
