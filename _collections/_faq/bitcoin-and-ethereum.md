@@ -14,7 +14,7 @@ weight: 4
 
 {% include callouts/callout.html
    title=""
-	bodyText="Read the <a href="/downloads/bitcoin_whitepaper.pdf" target="_blank">Bitcoin Whitepaper</a>"
+	bodyText="Read the <a href='https://staging.weteachblockchain.org/downloads/bitcoin_whitepaper.pdf' target='_blank'>Bitcoin Whitepaper</a>"
 %}
 
 <span>In 2010, Satoshi handed over control of the Bitcoin network to the community members. Up to that point, all of Bitcoin’s code had been written by him. Bitcoin’s goal is to act as a payment processor with a built in cryptocurrency. Bitcoin’s evolution has proven it to be a reliable way to send money anywhere in the world, all while avoiding the high fees and long settlement times associated with transferring currency across borders.</span>
@@ -23,7 +23,7 @@ weight: 4
 
 {% include callouts/callout.html
    title=""
-	bodyText="Read the <a href="downloads/ethereum_whitepaper.pdf" target="_blank">Ethereum Whitepaper</a>"
+	bodyText="Read the <a href='https://staging.weteachblockchain.org/downloads/ethereum_whitepaper.pdf' target='_blank'>Ethereum Whitepaper</a>"
 %}
 
 <span>While Bitcoin has transaction fees, Ethereum uses a similar pricing mechanism known as gas. Each smart contract or transaction requires a set amount of gas to execute computation, which must be purchased with ether at the time of the transaction. The price of gas varies based off of network activity and congestion.</span>
