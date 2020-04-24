@@ -5,6 +5,8 @@ module: 4
 title: Other Tokens or Projects
 permalink: /courses/ipfs/4/other-tokens-or-projects
 ---
+<br>
+<br>
 <span class="openingParagraph">
 For the sake of this course, we've mostly focused on IPFS since it's easy to visualize what's happening, but there are a number of players entering the decentralized storage space. Each of them have chosen to accomplish this goal in slightly different ways. Generally, the framework for a decentralized storage network can be summarized as shown below.</span>
 
@@ -23,8 +25,6 @@ The Sia blockchain is then mined using a similar Proof of Work algorithm to the 
 %}
 
 <h3>THE ETHEREUM ECOSYSTEM</h3>
-
-<hr />
 
 The Ethereum Blockchain, launched in 2015, offers the ability to run Smart Contract code on the decentralized network of mining computers. Just as these decentralized applications require decentralized storage, they also provide a uniquely flexible framework for managing storage nodes and accountability.
 
@@ -46,15 +46,12 @@ Storj has recently announced compatibility with Amazon's S3 storage solution, wh
 
 <h3>OTHER</h3>
 
-<hr />
-
 {% include callouts/imageWithTextCallout.html 
     title="The TOR Project"
     image="/courses/ipfs/Tor.png"
     bodyText="The TOR Browser is one of the oldest privacy tools on the internet, dating back to the early 2000s. A recent protocol innovation from their research arm, Tahoe LAFS, promises additional security in a similar solution to Filecoin's proposed Proof of Spacetime. <a href='https://blog.torproject.org/tor-heart-tahoe-lafs' target='_blank' rel='noopener noreferrer'>See More Here</a>"
 %}
 
-<hr />
-<em>Congratulations, you're now a decentralized storage aficionado. As always, please feel free to contact us if you're interested in more content related to this topic, or if there's anything we can do to clarify the lessons explained in this course. Happy #buidling!</em>
+Congratulations, you're now a decentralized storage aficionado. As always, please feel free to contact us if you're interested in more content related to this topic, or if there's anything we can do to clarify the lessons explained in this course. Happy #buidling!
 
-<em>We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!</em>
+We're here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org - we'd love to hear from you!
