@@ -23,7 +23,7 @@ weight: 5
    title="Permanent Forks:"
 	bodyText="<strong>Soft Forks:</strong>
 <span>A soft fork is a network upgrade which can be thought of as non-mandatory. Nodes running older versions of the software will still be able to interact with and maintain consensus on the network.</span>
-
+<br>
 <strong>Hard Forks:</strong>
 <span>A hard fork is a network software upgrade or change that either forces nodes on the network to upgrade or results in a permanent split in the network.</span>"
 %}
