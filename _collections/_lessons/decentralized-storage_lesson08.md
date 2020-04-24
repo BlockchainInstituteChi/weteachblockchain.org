@@ -5,13 +5,13 @@ module: 3
 title: Decentralization in the Browser
 permalink: /courses/decentralized-storage/3/decentralization-in-the-browser/
 ---
+<br>
+<br>
 <span class="openingParagraph">
 Since it would be impractical to expect everyone to upgrade their software for decentralized storage such as IPFS right away, teams like those at <a href="https://protocol.ai/" target="_blank" rel="noopener noreferrer">Protocol Labs</a> are developing different modules that allow the technology to run in nontraditional places. For example, any website to easily integrate peer-to-peer storage into their services by making use of <a href="https://en.wikipedia.org/wiki/WebRTC">WebRTC</a> technologies built into modern browsers.</span>
 &nbsp;
 
 <h3>USING THE INTERFACE</h3>
-
-<hr />
 
 When you reach the page, you'll be able to upload and download files from IPFS using the browser window.
 
@@ -21,11 +21,7 @@ When you reach the page, you'll be able to upload and download files from IPFS u
 	bodyText="Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!"
 %}
 
-<h4></h4>
-
 <h3>WHAT'S HAPPENING?</h3>
-
-<hr />
 
 Everything here is working just like it did in the command line interface. Once the node is done initializing, it will have its own ID and addresses and will begin to network with other IPFS peers throughout the network. You can see the connected peers in the lower left portion of the user interface:
 
