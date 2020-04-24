@@ -5,6 +5,8 @@ module: 2
 title: Limitations
 permalink: /courses/decentralized-storage/2/limitations/
 ---
+<br>
+<br>
 <span class="openingParagraph">WHILE DECENTRALIZED STORAGE IS VERY APPEALING FOR MANY APPLICATIONS, IT'S IMPORTANT TO UNDERSTAND THAT LIKE ANY SYSTEM, IT CAN ONLY BE EXTENDED SO FAR.</span>
 
 <h3>Public Data</h3>
