@@ -5,6 +5,8 @@ module: 2
 title: Advantages
 permalink: /courses/decentralized-storage/2/advantages/
 ---
+<br>
+<br>
 <span class="openingParagraph">DESPITE THE LIMITATIONS DISCUSSED IN THE PREVIOUS LESSON, DECENTRALIZED STORAGE HAS POWERFUL BENEFITS WHEN DEPLOYED IN THE CORRECT SITUATIONS.</span>
 
 <h3>Data Persistence</h3>
