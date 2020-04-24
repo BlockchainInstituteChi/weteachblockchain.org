@@ -5,6 +5,8 @@ module: 2
 title: Technical Overview
 permalink: /courses/decentralized-storage/2/technical_overview
 ---
+<br>
+<br>
 <span class="openingParagraph">In this module, we'll explore how IPFS stores files.</span>
 For the sake of this course, we've mostly focused on IPFS since it's easy to visualize what's happening, but there are a number of players entering the decentralized storage space, and each of them has chosen to accomplish this goal in slightly different ways. Generally, the framework for a decentralized storage network can be summarized as shown below. If you would like a deeper dive into this decentralized storage technology, check out <a href="/courses/ipfs/">our full course on IPFS</a>.
 
