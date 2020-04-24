@@ -6,8 +6,8 @@ title: Governance Experiments
 permalink: /courses/blockchain-for-business/1/governance-experiments
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus mechanisms. However, they are not the only methods for getting nodes to verify and agree upon data. Other projects have experimented with rather unique ways of achieving consensus:</span>
 <h4>Dash</h4>
@@ -20,8 +20,6 @@ Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus me
 
 <h3>A CASE STUDY: THE BTC vs BCH SPLIT</h3>
 
-<hr />
-
 <img src="/assets/img/courses/blockchain-for-business/CaseStudySplit-01.png" />
 
 <h4>What is the significance of August 1st, 2017 in the Bitcoin community?</h4>
@@ -31,8 +29,6 @@ Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus me
 <h4>What is the split in the ideology?</h4>
 <span style="font-weight: 400;">The disagreement originated over conflicting ideas on how to scale the Bitcoin blockchain for increased global demand. </span><span style="font-weight: 400;">One group wanted to increase the block capacity from 1MB to 2MB to hold more data. Satoshi Nakamoto specifically stated that scaling should occur on-chain, bolstering the block increase argument as it more closely followed Satoshi’s original vision. This group would eventually split off into the Bitcoin Cash blockchain. </span><span style="font-weight: 400;">The Bitcoin Core developers wanted to upgrade the internal structure of blocks to be more efficient and flexible for future growth. Importantly, this contains a fix to a long-standing bug in Bitcoin call transaction malleability. The addition of SegWit, a protocol upgrade that stores data more efficiently within the 1MB block by utilizing block headers was Bitcoin Core’s solution to this problem. The addition of SegWit also enabled the viability of second-layer solutions.</span>
 <h3>SCALING STRATEGIES</h3>
-
-<hr />
 
 <span style="font-weight: 400;">Bitcoin Core is still roughly 1MB while Bitcoin Cash increased to 8MB during the split.  Bitcoin Cash would eventually increase to 32 MB per block. </span>
 
