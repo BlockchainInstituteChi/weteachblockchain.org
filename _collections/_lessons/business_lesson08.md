@@ -6,13 +6,12 @@ title: E-Commerce and Blockchain Technology
 permalink: /courses/blockchain-for-business/3/ecommerce-and-blockchain-technology
 ---
 
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 While cryptocurrency has gained great popularity in recent years, we are still yet to see mass use of cryptocurrency for everyday payments. There are many reasons for cryptocurrency’s lack of adoption in commerce, including ease of use and the speculative aspect. However, the rise in popularity has led to more businesses expressing interest in cryptocurrency. This has led many businesses to offer cryptocurrency payment options. The emergence of stablecoins, a cryptocurrency which is supposed to maintain a specific monetary value, may accelerate cryptocurrency use in e-commerce. </span>
 
 <h3>REPLACEMENT FOR CASH?</h3>
-
-<hr />
 
 <img src="/assets/img/courses/blockchain-for-business/CashReplacement-01-1.png" />
 
@@ -20,15 +19,11 @@ While cryptocurrency has gained great popularity in recent years, we are still y
 
 <h3>INTERNATIONAL SETTLEMENT</h3>
 
-<hr />
-
 <span style="font-weight: 400;">The global expansion of commerce and the addition of online shopping has led merchants and consumers to trend towards E-commerce, everyday shopping or business conducted via the internet. E-commerce requires a significant amount of trust between uncoordinated parties. Additionally, the consumers, merchants, and manufacturers that exchange inventory and capital often use different financial institutions to facilitate commerce.</span>
 
 <span style="font-weight: 400;">While e-commerce has opened up a global market, this has brought up several issues for banks and lenders that now need to work with untrusted institutions across several borders. The biggest issue for these financial institutions is the settlement of funds and fees. The transfer of money across borders to unrelated organizations takes several days. Introducing blockchain technology to e-commerce may lessen the friction associated with e-commerce, making for a more efficient flow of capital. These benefits extend to the merchant, who now does not have to wait as long for their earned funds to reach their bank accounts, allowing for maximum efficiency. Significant portions of a small or medium business’ budget go towards paying these cross-border fees. Whether it be faster settlements between banks or a more consistent cash supply for merchants, blockchain technology is set to change how e-commerce is conducted. </span>
 
 <h3>CHARGEBACKS AND OUTDATED TECHNOLOGY</h3>
-
-<hr />
 
 <img src="/assets/img/courses/blockchain-for-business/Chargebacks-01.png" />
 
@@ -37,12 +32,8 @@ While cryptocurrency has gained great popularity in recent years, we are still y
 <span style="font-weight: 400;">The payment options of yesterday were never intended to account for the rise in popularity of microtransactions. Apps and streaming services have struggled with how to properly reward creators based off of the use of their service. Second layer technologies, like the Bitcoin’s Lightning Network, allow users the ability to conduct direct transactions on a per-view basis, possibly even paying per minute of consumption. </span>
 <h3>DATA PRIVACY</h3>
 
-<hr />
-
 <span style="font-weight: 400;">A benefit of shopping in the physical world is that you maintain some sort of digital privacy. Of course, you would have to make an actual appearance in a store to make a purchase which is not the most private action. However, those purchases do not require your personal data to change hands. Your personal information is not required to make a purchase. This is in stark contrast to e-commerce, which often requires the purchaser to disclose their credit card, identity, and address. This has led hackers to target large corporations, which have become a treasure trove of personal data. Security has become a major aspect of e-commerce and can be supplemented by blockchain technology. By using cryptocurrency for payments, a direct purchase can be made while limiting the amount of data the user has to expose. </span>
 <h3>COST REDUCTION</h3>
-
-<hr />
 
 <span style="font-weight: 400;">Every one of these problems present in e-commerce have one thing in common: they make transacting more costly. If introducing blockchain technology into the e-commerce process can solve even one of these issues, overall costs are more likely to decline. Each third-party service rendered unnecessary by blockchain technology will result in fewer costs passed on to the merchant and consumer. There is more than a privacy argument to be made; blockchain technology provides the prospect of fewer costs to the merchant, making them more competitive in their respective areas of focus.</span>
 
