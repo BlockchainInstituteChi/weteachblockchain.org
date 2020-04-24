@@ -8,7 +8,7 @@ learnMoreLink: https://staging.weteachblockchain.org/courses/ethereum-101-blockc
 learnMoreText: The Fungible Tokens Section of Ethereum 101
 weight: 5
 ---
-<span>In the brave new world of cryptographic assets, it can be confusing to determine what is what. When talking about cryptocurrency, the terms "coin" and "token" are often used interchangeably, even though this is not quite correct. There are a few subtle differences between coins and tokens.</span>
+<span>In the brave new world of cryptographic assets, it can be confusing to determine what is what. When talking about cryptocurrency, the terms <strong>"coin"</strong> and <strong>"token"</strong> are often used interchangeably, even though this is not quite correct. There are a few subtle differences between coins and tokens.</span>
 
 {% include callouts/callout.html
    title="<strong>Coins </strong>- Bitcoin, Ethereum, Monero"
@@ -22,14 +22,14 @@ weight: 5
 {% include callouts/callout.html
    title="<strong>Tokens </strong>- Golem, 0x Protocol, Gemini Dollar"
 	bodyText="<ul>
- 	<li>Do not have their own blockchain network, or build on top of an existing network</li>
+ 	<li>Do not have their own blockchain network, or are build on top of an existing network</li>
  	<li>Cannot be earned for mining or network maintenance</li>
  	<li>Can be earned for providing specific on-chain services</li>
 </ul>"
 %}
 
 {% include callouts/callout.html
-   title="<strong>Assets </strong>-<a href='https://www.cryptokitties.co/'>Cryptokitties</a>, Property Titles"
+   title="<strong>Assets </strong>- <a href='https://www.cryptokitties.co/'>Cryptokitties</a>, Property Titles"
 	bodyText="<ul>
  	<li>Are not divisible but can be traded</li>
  	<li>Cannot be earned for mining or network maintenance</li>
