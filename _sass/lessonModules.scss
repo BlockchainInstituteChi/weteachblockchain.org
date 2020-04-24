@@ -408,3 +408,9 @@ section.downPinkStripesDivider {
     min-width: 100%;
     margin-bottom: 2em;
 }
+
+
+/* Overrides */
+.shellField, .note pre, .note a {
+    word-wrap: break-word !important;
+}
