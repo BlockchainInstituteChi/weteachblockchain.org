@@ -7,13 +7,12 @@ permalink: /courses/blockchain-for-business/2/buying-selling-and-trading-cryptoc
 ---
 
 
-<span>
+<br>
+<br>
 <div class="purpleNote"><b>NOTE:</b> <i>THIS LESSON IS NOT INTENDED TO BE FINANCIAL ADVICE. RATHER, IT IS A GUIDE ON BUYING, SELLING, AND TRADING CRYPTOCURRENCY IF YOU DECIDE TO MAKE AN INVESTMENT.</i></div>
 <span class="openingParagraph">
 Getting into cryptocurrency may seem intimidating, but if you have the proper tools and knowledge, the process isn’t so difficult. Follow this guide before you make your first cryptocurrency purchase.</span>
 <h3>CRYPTOCURRENCY WALLETS</h3>
-
-<hr />
 
 <span style="font-weight: 400;">A wallet is the cryptocurrency equivalent of a bank account that allows you to send and receive cryptocurrency. Wallets don’t actually store your cryptocurrency. Instead, the funds are stored on a blockchain and the wallet acts as an interface that allows you control of your funds. </span><span style="font-weight: 400;">A wallet is just a graphical interface that easily allows you to manage your address and store your keys. Not all cryptocurrencies can be stored in one wallet. some wallets are currency-specific, and some support multiple currencies. </span><span style="font-weight: 400;">As long as you have control of your private keys, you have full control of your cryptocurrency. It is risky to keep your cryptocurrency on an exchange because they have control of your private keys. There have been several hacked exchanges that have lost significant amounts of money.</span>
 
@@ -35,8 +34,6 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 <span style="font-weight: 400;">A major issue with web wallets is that they are especially susceptible to phishing. Phishing is an exploitative tactic where someone creates a look-alike website, and some of these sites are pretty much clones with very similar URL addresses. These fake sites have a login section that records your username and password. They then take this stolen information and use it to access your funds. There are a couple of ways to defend against phishing. The first is not to click on any unknown links and ALWAYS check the web address you type into the URL bar. </span><span style="font-weight: 400;">If you plan on interacting with the Ethereum network, it’s recommended that you download Metamask, using it together with a web wallet. Metamask automatically blocks these fake websites. Always double-check web addresses, but no one is perfect. Metamask provides an extra layer of security.</span>
 
 <h3>CRYPTOCURRENCY EXCHANGES</h3>
-
-<hr />
 
 <span style="font-weight: 400;">When it comes to buying cryptocurrency, there are two types of exchanges where they are purchased.</span>
 
