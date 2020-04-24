@@ -5,9 +5,11 @@ module: 3
 title: Multiple Tokens & Projects
 permalink: /courses/decentralized-storage/3/other-tokens/
 ---
+
+<br>
+<br>
 <h3>LEADING PROJECTS</h3>
 
-<hr />
 
 {% include callouts/imageWithTextCallout.html 
     title="Maidsafe"
@@ -31,8 +33,6 @@ The Sia blockchain is then mined using a similar Proof of Work algorithm to the 
 
 <h3>THE ETHEREUM ECOSYSTEM</h3>
 
-<hr />
-
 The Ethereum Blockchain, launched in 2015, offers the ability to run Smart Contract code on the decentralized network of mining computers. Just as these decentralized applications require decentralized storage, they also provide a uniquely flexible framework for managing storage nodes and accountability.
 
 {% include callouts/imageWithTextCallout.html 
@@ -52,8 +52,6 @@ Storj acts similar to how torrents do and have recently announced compatibility 
 %}
 
 <h3>OTHER</h3>
-
-<hr />
 
 {% include callouts/imageWithTextCallout.html 
     title="The TOR Project"
