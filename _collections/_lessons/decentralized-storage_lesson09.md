@@ -6,8 +6,6 @@ title: Multiple Tokens & Projects
 permalink: /courses/decentralized-storage/3/other-tokens/
 ---
 
-<br>
-<br>
 <h3>LEADING PROJECTS</h3>
 
 
