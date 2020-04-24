@@ -9,7 +9,6 @@ permalink: /courses/blockchain-for-business/2/buying-selling-and-trading-cryptoc
 
 <br>
 <br>
-<div class="purpleNote"><b>NOTE:</b> <i>THIS LESSON IS NOT INTENDED TO BE FINANCIAL ADVICE. RATHER, IT IS A GUIDE ON BUYING, SELLING, AND TRADING CRYPTOCURRENCY IF YOU DECIDE TO MAKE AN INVESTMENT.</i></div>
 <span class="openingParagraph">
 Getting into cryptocurrency may seem intimidating, but if you have the proper tools and knowledge, the process isn’t so difficult. Follow this guide before you make your first cryptocurrency purchase.</span>
 
