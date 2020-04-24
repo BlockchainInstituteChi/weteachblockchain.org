@@ -6,13 +6,11 @@ title: Scaling to Meet Demand
 permalink: /courses/blockchain-for-business/2/scaling-to-meet-demand
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 Blockchains are a fairly new technology, with the first one, Bitcoin, debuting about a decade ago. The goal for early blockchains was clear: They were trying to prove themselves as a secure, decentralized monetary system. Bitcoin became a store of value, but by the design of having blocks created every ten minutes. Since transactions are only confirmed when a block is created, it's not exactly a fast solution. Most blockchains work fine when they aren't being tested by immense traffic on the network. But as soon as more people use the network, backlogs and bottlenecks are a very real possibility. To use the network at scale some changes had to be made.</span>
 <h3>THE SCALING PROBLEM</h3>
-
-<hr />
 
 <img src="/assets/img/courses/blockchain-for-business/Scaling-01.png" />
 
@@ -23,14 +21,10 @@ Blockchains are a fairly new technology, with the first one, Bitcoin, debuting a
 <span style="font-weight: 400;">But fortunately, innovators are working on scalability solutions as we speak, whether it be the lightning network, sharding, or state channels. This problem is facing every blockchain and each is trying to come up with their solutions. And while these solutions will bring us closer to achieving all the desirable aspects of a blockchain, will these solutions bring blockchains to this place, the blockchain promised land so to speak? It will likely get us closer to our goal, but even with these solutions implemented it is unlikely that all three criteria could be completely satisfied. Only time will tell.</span>
 <h3>BITCOIN</h3>
 
-<hr />
-
 <img src="/assets/img/courses/blockchain-for-business/ScalingBitcoin.png" />
 
 <span style="font-weight: 400;">Bitcoin scaling has been a very contentious issue. The most promising Bitcoin project designed to address the scalability issue facing Bitcoin is the Lightning Network. </span><span style="font-weight: 400;">The Lightning network conducts off-chain transactions that sync with the blockchain at the open or close of transaction channels. The Lightning Network is designed to make Bitcoin easier to use in everyday commerce settings. This design keeps the security of normal/on-chain Bitcoin transactions and at any time these parties can settle on-chain. </span><span style="font-weight: 400;">Channels are open between individuals or entities that are going to be doing continued business. The structure of the network allows for these smaller transactions to be executed without waiting for the confirmations needed on the Bitcoin blockchain, making transactions much faster. The Lightning Network has long been cited as a possible solution for everyday spending and routing of bitcoin through these party channels.</span>
 <h3>ETHEREUM</h3>
-
-<hr />
 
 <img src="/assets/img/courses/blockchain-for-business/ScalingEth.png" />
 
