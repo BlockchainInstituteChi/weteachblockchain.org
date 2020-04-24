@@ -6,8 +6,8 @@ title: The Supply Chain and Blockchain
 permalink: /courses/blockchain-for-business/3/supply-chain-and-blockchain
 ---
 
-
-<span>
+<br>
+<br>
 <span class="openingParagraph">
 Every single transaction you’re a part of needs trust to be executed. You have to trust the vendor to deliver on your purchase. The vendor needs a guarantee that the buyer will pay. Trust is even being put in the currency used to make the purchase. But not every transaction goes straight from buyer to seller. Products are sold, bought, and resold several times, and are often transported by several different handlers. Trust is needed for each step of the supply chain.</span>
 
@@ -17,23 +17,17 @@ Every single transaction you’re a part of needs trust to be executed. You have
 
 <h3>LOTS OF POSSIBILITIES FOR PROBLEMS</h3>
 
-<hr />
-
 <img src="/assets/img/courses/blockchain-for-business/Problems-01.png" />
 
 <span style="font-weight: 400;">All of these problems cost money, and most of that cost will ultimately get passed on to the consumer. It’s a closed system that operates on a lot of faith, and that doesn’t always work out. The blockchain can offer transparency that could reduce recalls, shipping times and cost.</span>
 
 <h3>HOW CAN BLOCKCHAINS HELP MAINTAIN TRUST &amp; ACCOUNTABILITY?</h3>
 
-<hr />
-
 <span style="font-weight: 400;">The term blockchain is thrown around loosely, but there’s an important distinction to make. Blockchains like Bitcoin and Ethereum are what are known as open blockchains. Anyone can use them while maintaining a certain level of anonymity, but the information that is transmitted is public.</span>
 
 <span style="font-weight: 400;">A permissioned blockchain that partially maintains the same structure could offer the solutions to these supply chain problems. the parties are known but the information transacted is restricted to permissioned parties. This type of blockchain is perfect for business. Business entities aren’t going to throw around their proprietary information to be seen by the public and competitors. They want to operate on a need to know basis. A permissioned blockchain allows businesses to do exactly that.</span>
 
 <h3>TRUST AMONG UNTRUSTED PARTIES</h3>
-
-<hr />
 
 <span style="font-weight: 400;">But how can a blockchain address a “damaged goods” scenario that we described above? The answer is that blockchain alone can’t do this. It can, however, be paired with something called the Internet of Things and act as a permanent immutable ledger. </span><span style="font-weight: 400;">The Internet of Things describes the interconnectivity of everyday objects via the internet. Ever hear about someone using their phone to control their thermostat? That’s the Internet of Things in action. While the term describes everyday objects, the IoT can also describe a network of sensors. And these sensors could be used to transmit data to the blockchain.</span>
 
@@ -42,8 +36,6 @@ Every single transaction you’re a part of needs trust to be executed. You have
 <span style="font-weight: 400;">Let’s use food as an example. Produce has to be kept at a certain temperature, or the shipment can spoil or even become unsafe. There are thousands of recalls of unsafe products each year and several outbreaks of foodborne disease, with some even resulting in death. By using the IoT paired with a blockchain, temperature data could be constantly monitored. If the temperature could be monitored by sensors, so could other conditions, like humidity, idle time, and any bumps or jostling of cargo. </span><span style="font-weight: 400;">If any of these sensors detect a condition outside of the predetermined range, that data would be permanently recorded on the blockchain, alerting the appropriate parties that the shipment has fallen out of agreed upon range. At that point, the receiver can refuse the shipment. </span><span style="font-weight: 400;">If the shipment meets conditions, it is then accepted with the assurance that the shipping conditions were okay. This transparency given to proper parties can give producers and consumers alike more confidence in their purchases and consumption.</span>
 
 <h3>IT'S ALREADY HAPPENING</h3>
-
-<hr />
 
 <span style="font-weight: 400;">We are already seeing blockchains putting these plans in action. Projects like IOTA and Waltonchain are using different methods to track products along the shipping process. While these cases are still in their test stage, early results seem promising. </span><span style="font-weight: 400;">While the blockchain may not revolutionize the supply chain overnight, it wouldn’t be surprising to see a gradual shift towards the technology over time.</span>
 
