@@ -8,21 +8,18 @@ learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 2
 ---
-
 <h3>What is a Blockchain?</h3>
 <span>Blockchains are distributed ledgers that are secured by cryptography. They are essentially public databases where everyone can add to or view the database at any time. Instead of the data residing on a single centralized server, the data is copied across thousands and thousands of computers worldwide, allowing each computer access to this database. Transactions are compiled into data-holding vehicles known as "blocks". The consecutive string of every block ever executed makes up a blockchain: a distributed database of chronologically ordered transactions.</span> 
 
 {% include callouts/note.html
-	bodyText="<a href='https://staging.weteachblockchain.org/faq/what-is-blockchain/' target='_blank'>Learn more about blockchains.</a>"
+	bodyText="<a href='https://staging.weteachblockchain.org/faq/what-is-blockchain/' target='_blank'>Visit our <strong>What is a Blockchain FAQ</strong> to learn more</a>"
 %}
 
 <h3>What is Cryptocurrency?</h3>
 <span>A cryptocurrency is a digital store of value with the primary use of buying and selling goods, services, or property. Popular examples include bitcoin and litecoin. These digital currencies are cryptographically secured against counterfeit and often are not issued or controlled by any centralized authority. Instead, the governance of the network is left up to the participants. Cryptocurrencies can be referred to as tokens or coins.</span> 
 
-<img src="/assets/img/courses/blockchain-101/Cryptocurrencies-01-1.png">
-
 {% include callouts/note.html
-	bodyText="<a href='https://staging.weteachblockchain.org/faq/what-is-cryptocurrency/' target='_blank'>Learn more about cryptocurrencies.</a>"
+	bodyText="<a href='https://staging.weteachblockchain.org/faq/what-is-cryptocurrency/' target='_blank'>Visit our <strong>What is Cryptocurrency FAQ</strong> to learn more</a>"
 %}
 
 <h3>What's the Difference?</h3>
