@@ -6,7 +6,8 @@ title: Governance and Forks
 permalink: /courses/blockchain-for-business/1/governance-and-forks
 ---
 
-
+<br>
+<br>
 <span>
 <span class="openingParagraph">
 While private blockchains can be designed or changed to suit the needs of a particular organization, public blockchains have a much more difficult time making changes because of their egalitarian decentralized networks.</span>
@@ -15,8 +16,6 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">The goal within a public blockchain is creating a balance of power. Developers, miners, exchanges, users, and merchants all have a role to play in the ecosystem, giving them the ability to have input in the governance of the network and power. Developers write and release the code, but no one has to run that code. Miners can agree to mine blocks to new standards, but individual nodes can refuse to accept and forward blocks that don't meet those standards. Users and merchants have the power to run the software that they feel is best. The public blockchain ecosystem has a set of built-in checks and balances. Each group gets to represent their interests.</span>
 <h3>PROTOCOL CHANGES</h3>
-
-<hr />
 
 <span style="font-weight: 400;">A popular way of addressing potential protocol changes is by going through a proposal implementation process. Each blockchain has a different process for addressing community introduced proposals, but each involves a rigorous process before a recommendation is approved for implementation.</span>
 
@@ -32,8 +31,6 @@ Decentralized systems are designed to bring power back to the people. This intro
 </ul>
 <span style="font-weight: 400;">Ethereum has its own implementation protocols, taking approved Ethereum Request for Comments (ERC) and turning them into Ethereum Improvement Proposals (EIP).</span>
 <h3>A FORK IN THE CHAIN</h3>
-
-<hr />
 
 <span style="font-weight: 400;">When there is a protocol change, the blockchain’s software must be updated. This is done through a process known as a </span><b>fork</b><span style="font-weight: 400;">. There are multiple types of forks, but all have the goal of updating the blockchain’s protocols.</span>
 
