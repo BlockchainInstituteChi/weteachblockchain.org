@@ -8,9 +8,9 @@ learnMoreLink: https://staging.weteachblockchain.org/courses/ethereum-101-blockc
 learnMoreText: Our Ethereum 101 Course
 weight: 4
 ---
-<span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
-
 <img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.png">
+
+<span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
 
 <span>The name first appeared on the paper “Bitcoin: A Peer-to-Peer Electronic Cash” that was distributed by a cryptography mailing list in 2008. The very first Bitcoin transaction took place between Satoshi and Hal Finney, a programmer that was part of the cypherpunk movement. While some suspect that Hal Finney may actually be the person behind the Satoshi pseudonym, it was never proven. After a five-year battle with ALS, Hal Finney passed away in 2014.</span>
 
