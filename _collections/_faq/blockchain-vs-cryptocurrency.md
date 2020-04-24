@@ -19,7 +19,7 @@ weight: 2
 <h3>What is Cryptocurrency?</h3>
 <span>A cryptocurrency is a digital store of value with the primary use of buying and selling goods, services, or property. Popular examples include bitcoin and litecoin. These digital currencies are cryptographically secured against counterfeit and often are not issued or controlled by any centralized authority. Instead, the governance of the network is left up to the participants. Cryptocurrencies can be referred to as tokens or coins.</span> 
 
-<img src="/assets/img/courses/blockchain-101/Cryptocurrencies-01-1">
+<img src="/assets/img/courses/blockchain-101/Cryptocurrencies-01-1.png">
 
 {% include callouts/note.html
 	bodyText="<a href='https://staging.weteachblockchain.org/faq/what-is-cryptocurrency/' target='_blank'>Learn more about cryptocurrencies.</a>"
