@@ -5,6 +5,8 @@ module: 2
 title: Use Cases
 permalink: /courses/decentralized-storage/2/use-cases/
 ---
+<br>
+<br>
 <span class="openingParagraph">When a new technology is proposed, it's creators often claim it can solve a wide range of problems. In this lesson, we'll explore the current scenarios where decentralized storage has been found to be advantageous. </span>
 <h3>Storing Public Blockchains</h3>
 While the community seems to generate new applications for decentralized storage daily, the original purpose of this technology was intended as a means of supporting blockchain networks. In most current applications, a peer node needs to download the entire blockchain in order to validate transactions or mine new blocks. This application has not yet been entirely finalized, but the team at <a href="https://ethersphere.github.io/swarm-home/">Swarm</a> are actively working on a proposal to allow the Ethereum blockchain to be shared collectively between mining nodes. This has the potential to not only help the network scale to meet demand, but also to open up opportunities for more users to engage in mining or other activities.
