@@ -409,6 +409,13 @@ section.downPinkStripesDivider {
     margin-bottom: 2em;
 }
 
+/* Fixing links  */
+.definition a, .note a, .callout a, .terminal a, .codeSnippet a, .imageWithCaption a {
+    color: lightblue;
+}
+.definition a:hover, .note a:hover, .callout a:hover, .terminal a:hover, .codeSnippet a:hover, .imageWithCaption a:hover  {
+    text-decoration: underline !important;
+}
 
 /* Overrides */
 .shellField, .note pre, .note a {
