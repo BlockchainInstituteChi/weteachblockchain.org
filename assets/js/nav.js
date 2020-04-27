@@ -2,6 +2,7 @@ function toggleDisplayNavBox () {
 
     if ( document.getElementById('navBox').className.split('d-none').length > 1 ) {
         closeOtherLightboxBeforeOpening () 
+        showLightboxShadow()
         document.getElementById('navBox').className = document.getElementById('navBox').className.split('d-none').join('')
     } else {
         document.getElementById('navBox').className = document.getElementById('navBox').className + ' d-none'
@@ -14,7 +15,8 @@ function toggleDisplayAccountBox () {
     var accountBox = document.getElementById('accountDropdown');
 
     if ( accountBox.className.split('d-none').length > 1 ) {
-        closeOtherLightboxBeforeOpening () 
+        closeOtherLightboxBeforeOpening() 
+        showLightboxShadow()
         document.getElementById('accountDropdown').className = accountBox.className.split('d-none').join('')
     } else {
         document.getElementById('accountDropdown').className = accountBox.className + ' d-none'
@@ -36,4 +38,13 @@ function closeOtherLightboxBeforeOpening () {
         }
     }
 
+}
+
+function showLightboxShadow () {
+    document.getElementById('navAutoCloseCover').className = document.getElementById('navAutoCloseCover').className.split('d-none').join('')
+}
+
+function closeAllLightboxes ( ) {
+    document.getElementById('navAutoCloseCover').className += " d-none"
+    closeOtherLightboxBeforeOpening ()
 }

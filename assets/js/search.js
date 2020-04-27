@@ -70,6 +70,7 @@ function toggleDisplaySearchLightbox () {
         }
 
         closeOtherLightboxBeforeOpening () 
+        showLightboxShadow()
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className.split('d-none').join('')
 
     } else {

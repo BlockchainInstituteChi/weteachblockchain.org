@@ -226,6 +226,7 @@ li.nav-item.contactUsLink {
 .account .col-sm-3, .account .col-sm-9 {
     padding: 0;
     margin: 0;
+    min-height: 40px;
 }
 .account .row {
     margin: 0;
@@ -374,6 +375,17 @@ span.cancelSearchButton {
     left: 0;
     top: 0;
     z-index: 1000;
+}
+
+/* Lightbox shadow */
+.navAutoCloseCover {
+    width: 100vw;
+    z-index: 999;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background: transparent;
 }
 
 /* Mobile Nav Toggle */

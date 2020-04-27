@@ -51,7 +51,7 @@
         </script>
       </div>
       
-      <div id="navBox" class="hoverNavbox d-none">
+      <div id="navBox" class="hoverNavbox d-none"  tabindex="3" onfocusout="closeOtherLightboxBeforeOpening()">
         <div class="row">
           {% for item in site.data.navigation %}
           <div class="col-sm-4">
@@ -74,3 +74,5 @@
 
   </div>
 </nav>
+
+<div class="navAutoCloseCover d-none" id="navAutoCloseCover" onclick="closeAllLightboxes()"></div>
