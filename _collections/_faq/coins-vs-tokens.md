@@ -29,7 +29,7 @@ weight: 5
 %}
 
 {% include callouts/callout.html
-   title="<strong>Assets </strong>- <a href='https://www.cryptokitties.co/'>Cryptokitties</a>, Property Titles"
+   title="<strong>Assets </strong>- Cryptokitties, Property Titles"
 	bodyText="<ul>
  	<li>Are not divisible but can be traded</li>
  	<li>Cannot be earned for mining or network maintenance</li>
