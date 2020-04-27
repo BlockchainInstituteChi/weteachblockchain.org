@@ -6,8 +6,20 @@ layout: faq
 tag: APPLICATIONS
 weight: 5
 ---
-<span>Distributed computing has long been a theoretical concept in computer science, but in 2015 the Ethereum foundation took that theory one step closer to reality. Ethereum’s stated goal and innovation was to create an economic incentive for participants to join this public network and help maintain a global, distributed, computer system.</span>
+Distributed computing has long been a theoretical concept in computer science, but in 2015 the Ethereum foundation took that theory one step closer to reality. Ethereum’s stated goal and innovation was to create an economic incentive for participants to join this public network and help maintain a global, distributed, computer system.
 
-<span>Since 2015, Ethereum has risen to have one of the largest cryptocurrency communities, and a range of other similar projects have launched to provide more specialized versions of the Ethereum's unique decentralized computing network. 
+{% include callouts/callout.html
+    title="Read the Whitepaper"
+    bodyText="While decentralized storage has been a concept for a long time, the 2015 whitepaper by Vitalik Buterin is still one of the most concise resources. <a href='/downloads/ethereum_whitepaper.pdf'>Click here to read the whitepaper!</a>"
+%}
+
+Since 2015, Ethereum has risen to have one of the largest cryptocurrency communities, and a range of other similar projects have launched to provide more specialized versions of the Ethereum's unique decentralized computing network. 
+
+
+{% include callouts/imageWithCaption.html
+	image="/courses/ethereum-101/EthereumNode-01-1.png"
+	title="How do Smart Contracts allow decentralized computing?"
+	bodyText="Ethereum Nodes store code, which can be executed by users who pay for the execution using Ethereum tokens. In this way, the network can act autonomously, without a centralized owner."
+%}
 
 <span>Also, see our <a href="https://staging.weteachblockchain.org/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage</a> course for more interesting ideas about building distributed computing ecosystems.</span>
