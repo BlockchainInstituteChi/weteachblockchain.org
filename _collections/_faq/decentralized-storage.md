@@ -14,7 +14,7 @@ weight: 6
 Data transmitted over the internet is often processed and stored in large-scale servers. These centralized servers are controlled by internet service providers and web services like Google and Amazon. This is known as the client-server model and it is the backbone of our world wide web. It is the most efficient way to send information back and forth between users. Data is sent from one user, funneled through a centralized server, and then sent to its intended recipient; the centralized server does most of the processing and is the key facilitator in this transfer.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/decentralized-storage/StorageWorks-01-1.png"
+	image="/StorageWorks_nocaption-01.jpg"
 	title="HOW DECENTRALIZED STORAGE WORKS"
 	bodyText="Decentralized storage is only possible because a large number of computers share the load. In order to store a file on the decentralized web, it is broken into many very small pieces, each of which has a unique signature associated with it. These are then distributed to the members of the network!"
 %}
