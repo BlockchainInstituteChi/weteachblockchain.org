@@ -10,11 +10,11 @@ weight: 3
 ---
 <span>While blockchain was created as a solution for the Bitcoin payment network, the concept has been adopted across a range of sectors and is expected to make a major impact in the way that we handle data storage. This technology even has the potential to change the underlying structure of the internet. Currently, there are many projects exploring how blockchain technology can create change.</span>
 
-<img src="/assets/img/blockchain_world.png">
+<img src="/assets/img/courses/blockchain-for-business/Food-01.png">
 
 {% include callouts/callout.html title="Communication" bodyText="By using encryption and decentralization-based technologies, absolute privacy can be achieved in messaging and communication. Currently, communication services rely on central servers that can store your private information, ultimately making it prone to hacks. Decentralized communication offers a more secure alternative, as it does not rely on a central server to transfer messages." %}
 
-{% include callouts/callout.html title="Identity" bodyText="Identity theft is a major problem that has already affected a significant portion of the population. With so many hacks occuring, chances are your information has been compromised at least once. Decentralized applications are being created that are designed to give the user complete control over their self-sovereign identity, where users are able to prove who they are in order to interact digitally in a trusted manner." %}
+{% include callouts/callout.html title="Identity" bodyText="Identity theft is a major problem that has already affected a significant portion of the population. With so many hacks occurring, chances are your information has been compromised at least once. Decentralized applications are being created that are designed to give the user complete control over their self-sovereign identity, where users are able to prove who they are in order to interact digitally in a trusted manner." %}
 
 {% include callouts/callout.html title="Supply Chain" bodyText="The supply chain describes the process of getting a created good or commodity from its point of creation until it ultimately ends up in the hands of the consumer. This is a long process and many parties are involved in this process. Blockchains offer more transparent and auditable supply chain data that can provide accountability if any problem arises." %}
 
