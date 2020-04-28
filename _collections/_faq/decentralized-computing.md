@@ -17,7 +17,7 @@ Since 2015, Ethereum has risen to have one of the largest cryptocurrency communi
 
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ethereum-101/EthereumNode-01-1.png"
+	image="/EthereumNode_nocaption-01.jpg"
 	title="How do Smart Contracts allow decentralized computing?"
 	bodyText="Ethereum Nodes store code, which can be executed by users who pay for the execution using Ethereum tokens. In this way, the network can act autonomously, without a centralized owner."
 %}
