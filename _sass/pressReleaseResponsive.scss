@@ -8,7 +8,9 @@
 	html, body {
 	    overflow-x:hidden;
 	}
-	
+.pressReleases img {
+    max-width: calc(100% - 1em);
+}
 } 
 
 /* Mobile */
