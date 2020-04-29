@@ -22,7 +22,7 @@ weight: 5
 {% include callouts/callout.html
    title="<strong>Tokens </strong>- Golem, 0x Protocol, Gemini Dollar"
 	bodyText="<ul>
- 	<li>Do not have their own blockchain network, or are build on top of an existing network</li>
+ 	<li>Do not have their own blockchain network, or are built on top of an existing network</li>
  	<li>Cannot be earned for mining or network maintenance</li>
  	<li>Can be earned for providing specific on-chain services</li>
 </ul>"
