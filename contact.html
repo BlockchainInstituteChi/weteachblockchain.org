@@ -37,13 +37,15 @@ permalink: /contact-us/
 			<input type="text" placeholder="Email" id="contactUsEmail">
 			<input type="text" placeholder="Subject" id="contactUsSubject">
 			<textarea placeholder="Your message here" id="contactUsMessageBody"></textarea>
-			<div class="g-recaptcha" data-callback="recaptchaVerify" data-sitekey="6LdlEHkUAAAAAHpHvXxmG1mbtKGq1Pz3T0CbuP2N"></div>
+			<!-- <div class="g-recaptcha" data-callback="recaptchaVerify" data-sitekey="6LdlEHkUAAAAAHpHvXxmG1mbtKGq1Pz3T0CbuP2N"></div> -->
+			<div class="h-captcha" data-sitekey="3fe93b4a-9521-4c22-a75e-7a573781f75f"></div>
 			<button onclick="submitContactUsForm()">Submit</button>
 		</div>
     </div>
 </section>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+<script src="https://hcaptcha.com/1/api.js" async defer></script>
 
 <script>
 	function submitContactUsForm() {
@@ -52,16 +54,16 @@ permalink: /contact-us/
 			email : document.getElementById('contactUsEmail').value,
 			subject : document.getElementById('contactUsSubject').value,
 			message : document.getElementById('contactUsMessageBody').value,
-			token : window.recaptchaToken,
+			token : window.captchaToken,
 			ambassador : false
 		}
 		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return handleError ('You must fill all fields to submit the form.')
 		if ( !validateEmail(formDetails.email) ) return handleError('You must submit a valid email.')
-		if ( !window.recaptchaToken ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
+		if ( !window.captchaToken ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
-		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
-		// xhr.open("POST", "http://localhost:8888/contact/", true);
+		// xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
+		xhr.open("POST", "http://localhost:8888/contact/", true);
 		xhr.onreadystatechange = function() { 
         if (xhr.readyState == 4 && xhr.status == 200)
 			console.log('xhr response:', xhr.responseText)
@@ -86,7 +88,7 @@ permalink: /contact-us/
 	}
 	function recaptchaVerify (token) {
 		console.log('recaptcha callback triggered', token)
-		window.recaptchaToken = token;
+		window.captchaToken = token;
 	}	
 	function handleError ( error ) {
 		var errorContainer = document.getElementsByClassName('errorField')[0];
