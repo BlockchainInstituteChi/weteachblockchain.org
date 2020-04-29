@@ -25,4 +25,4 @@ Regardless of which blockchain you use, there are no avoiding key management con
     bodyText='Remember that <em>private keys</em> are little more than randomly generated numbers that serve a master key to your wallet or profile. Since they are private and thus <strong>never</strong> to be shared, <em>public keys</em> are generated from the private key. In this way, the numbers are "linked" since one is born from the other. The public key allows other people to perform the following activities:<ul><li>Encrypt a message specifically for you from them</li><li>Verify a cryptographically signed challenge phrase</li></ul>'
 %}
 
-<em>More information is available about <a href="https://theblockchaininstitute.org/courses/blockchain-101/lessons/public-key-cryptography/">Public Key Cryptography</a> in the Blockchain 101 Course.</em>
+<em>More information is available about <a href="https://staging.weteachblockchain.org/courses/blockchain-101/02/asymmetric-encryption">Public Key Cryptography</a> in the Blockchain 101 Course.</em>
