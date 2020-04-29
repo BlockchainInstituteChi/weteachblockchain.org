@@ -13,7 +13,7 @@ In order to integrate privacy and permissions into the Hyperledger architecture,
 In a Hyperledger app, a transaction can be required to find multiple endorsements from trusted parties within the system before it can be added to the blockchain. Endorsements can be configured to ensure a minimal risk of fraud within the system. An example of this might be to require a business partner to verify certain details of a transaction before it is written to the public ledger. Once all necessary endorsements have been met, the transaction is passed to an ordering node, which will add it to the chain, or Validated Ledger.
 
 {% include callouts/note.html
-	bodyText='<b>NOTE:</b><em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
+	bodyText='<b>NOTE: </b><em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
 %}
 
 <h3>GENERAL TRANSACTION FLOW</h3>
