@@ -34,7 +34,7 @@ span.quoteBody::after {
     font-size: 3em;
     position: absolute;
     top: 0.15em;
-    right: -0.3em;
+    right: -0.1em;
     color: lightgrey;
     font-family: Arial, sans-serif;
 }
@@ -44,9 +44,13 @@ span.quoteBody::before {
     font-size: 3em;
     position: absolute;
     top: 0.15em;
-    left: -0.45em;
+    left: -0.25em;
     color: lightgrey;
     font-family: Arial, sans-serif;
+}
+span.quoteBody {
+    margin-left: 1em;
+    margin-right: 1em;
 }
 } 
 
@@ -135,12 +139,12 @@ span.quoteBody::before {
     }
     span.quoteBody::before {
         font-size: 2.25em;
-        left: -.4em;
+        left: -.15em;
     }
     span.quoteBody::after {
         font-size: 2.25em;
         bottom: 0;
-        right: -0.22em;
+        right: -0.02em;
     }
     .row.bigQuote {
         margin: 0;
