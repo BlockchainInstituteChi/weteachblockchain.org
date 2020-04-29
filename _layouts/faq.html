@@ -88,17 +88,19 @@
         </div>
   
         <div class="col-md-3 faqSidebar">
-          {% assign sorted = site.faq | sample: 3 | sort: 'weight' %}
-          {% for faq in sorted limit:3 %}
-  
+          {% assign maxCount = 3 %}
+          {% assign count = 0 %}
+          {% for faq in site.faq %}
+            {% if faq.title != page.title and count < maxCount %}
               <div class="faqTile column"> 
-                <a target="_blank" href="{{ faq.permalink }}">
+                <a href="{{ faq.permalink }}">
                   <img src="/assets/img/{{faq.image}}"/>
                     <h1>{{ faq.title }}</h1>
                     <span>{{ faq.tag }}</span>
                 </a>
               </div>
-  
+              {% assign count = count | plus : 1 %}
+            {% endif %}
           {% endfor %}
         </div>
       </div>

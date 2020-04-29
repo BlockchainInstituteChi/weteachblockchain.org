@@ -17,3 +17,5 @@ Hopefully, you’re now feeling confident in your understanding of decentralized
  	<li><span>Blockchain Security</span></li>
  	<li><a href="http://theblockchaininstitute.org/web3"><span>Web 3 Center</span></a></li>
 </ul>
+
+{% include courseEndButtons.html %}
