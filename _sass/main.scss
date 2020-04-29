@@ -751,7 +751,20 @@ span.courseTag.beginner {
     background: $brand-green;
 } 
 
-
+/* Edit on Github */
+.sourceDetails {
+    color: transparent;
+    float: right;
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+}
+.sourceDetails a {
+    color: transparent;
+}
+.sourceDetails:hover {
+    color: #1ec4cf;
+}
 
 /* Social Footer */
 section.social {

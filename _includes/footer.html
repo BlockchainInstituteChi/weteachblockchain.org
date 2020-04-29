@@ -40,7 +40,20 @@
 	<div class="linkList">
 		<a href="/press-releases/">Press</a> <a href="/courses/">Courses</a> <a href="/about/">About</a> <a href="/contact-us/">Contact</a> <a href="/events/">Events</a>
 	</div>
-  </div>
+	<div class="sourceDetails">
+		<a target="_blank" href="https://github.com/BlockchainInstituteChi/wtb_staging/" id="editOnGithubButton">Edit on Github</a>
+		<script>
+			var path = "{{ page.path }}"
+			if ( "_" === path.charAt(0) ) {
+				path = "_collections/" + path
+			}
+			path = "https://github.com/BlockchainInstituteChi/wtb_staging/tree/master/" + path
+			console.log(path)
+
+			document.getElementById('editOnGithubButton').href = path;
+		</script>
+	</div>
+</div>
 </div>
 <script defer>
 	// fix clicks on menu in mobile
