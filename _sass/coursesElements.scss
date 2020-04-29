@@ -262,16 +262,20 @@ topTitle{
 
 /* Course Buttons */
 a.courseEndButton {
-    padding: 1em;
-    background: $brand-blue;
+    padding: 1em 3em;
+    background: #00648C;
     color: white;
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.15em;
     display: inline-block;
     min-width: fit-content;
     width: 10em;
     text-align: center;
     font-weight: 600;
+    letter-spacing: .05em;
+    font-family: kanit;
+    margin-top: 2em;
+    margin-bottom: 4em;
 }
 a.courseEndButton.moreCourses {
     background: $brand-red;
