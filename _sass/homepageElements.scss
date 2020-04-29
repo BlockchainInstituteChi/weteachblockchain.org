@@ -141,7 +141,7 @@ span.descriptionText.eventDescriptionHP {
     margin-top: 2em; 
     margin-bottom: 4em;
     display: block;
-    width: fit-content;
+    width: -webkit-fill-available;
     padding-left: 3em;
     padding-right: 3em;
 }
