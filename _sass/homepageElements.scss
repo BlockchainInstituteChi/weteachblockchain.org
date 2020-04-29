@@ -66,7 +66,7 @@ span.descriptionText.pathDescriptionHP {
 
 /* CTA Buttons */
 a.callToActionButton {
-    background: $brand-red;
+    background: #ed0744;
     padding: 1em 3em;
     color: white;
     font-weight: 600;
@@ -74,6 +74,7 @@ a.callToActionButton {
     margin: auto;
     text-align: center;
     text-transform: uppercase;
+    width: calc(100% - 1em);
 }
 .col-sm-6 a:hover {
     color: #FFFFFF;
