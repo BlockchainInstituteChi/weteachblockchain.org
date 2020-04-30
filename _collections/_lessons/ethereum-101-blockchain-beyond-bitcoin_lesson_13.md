@@ -15,7 +15,6 @@ Hopefully, you’re now feeling confident in your understanding of decentralized
  	<li><span>Intro to IPFS</span></li>
  	<li><span>Private Blockchains - Hyperledger 101</span></li>
  	<li><span>Blockchain Security</span></li>
- 	<li><a href="http://theblockchaininstitute.org/web3"><span>Web 3 Center</span></a></li>
 </ul>
 
 {% include courseEndButtons.html %}
