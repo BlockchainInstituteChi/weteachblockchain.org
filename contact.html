@@ -44,7 +44,6 @@ permalink: /contact-us/
     </div>
 </section>
 
-<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 <script src="https://hcaptcha.com/1/api.js" async defer></script>
 
 <script>
@@ -54,16 +53,18 @@ permalink: /contact-us/
 			email : document.getElementById('contactUsEmail').value,
 			subject : document.getElementById('contactUsSubject').value,
 			message : document.getElementById('contactUsMessageBody').value,
-			token : window.captchaToken,
+			token : hcaptcha.getResponse(),
 			ambassador : false
 		}
+
+		console.log('formDetails', formDetails)
 		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return handleError ('You must fill all fields to submit the form.')
 		if ( !validateEmail(formDetails.email) ) return handleError('You must submit a valid email.')
-		if ( !window.captchaToken ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
+		if ( ( !formDetails.token ) || ( "" == formDetails.token ) ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
 		
 		var xhr = new XMLHttpRequest();
-		// xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
-		xhr.open("POST", "http://localhost:8888/contact/", true);
+		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
+		// xhr.open("POST", "http://localhost:8888/contact/", true);
 		xhr.onreadystatechange = function() { 
         if (xhr.readyState == 4 && xhr.status == 200)
 			console.log('xhr response:', xhr.responseText)
@@ -86,10 +87,6 @@ permalink: /contact-us/
 		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		return re.test(String(email).toLowerCase());
 	}
-	function recaptchaVerify (token) {
-		console.log('recaptcha callback triggered', token)
-		window.captchaToken = token;
-	}	
 	function handleError ( error ) {
 		var errorContainer = document.getElementsByClassName('errorField')[0];
 			errorContainer.textContent = error;
