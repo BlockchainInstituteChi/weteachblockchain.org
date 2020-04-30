@@ -4,7 +4,7 @@ image: coins-vs-tokens.png
 permalink: /faq/coins-vs-tokens/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
-learnMoreLink: https://staging.weteachblockchain.org/courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
+learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
 learnMoreText: The Fungible Tokens Section of Ethereum 101
 weight: 5
 ---
