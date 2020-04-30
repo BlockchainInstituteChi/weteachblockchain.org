@@ -421,3 +421,6 @@ section.downPinkStripesDivider {
 .shellField, .note pre, .note a {
     word-wrap: break-word !important;
 }
+.callout h1::before, .shellField h1::before, .definition h1::before, .note h1::before {
+    display: none;
+}
