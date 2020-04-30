@@ -27,4 +27,4 @@ However, there are significant issues with storing large amount of data in these
 
 Blockchain technology offers an alternative way for information to be stored, known as peer-to-peer storage. Instead of a centralized, vulnerable server, information is duplicated and stored by every single user of the network.  When information is downloaded by a user, pieces of the desired file are gathered from several users' storage. While there can be efficiency drawbacks to this structure, it is much more secure, and as more members begin to use these standards, efficiency will increase as well!
 
-<span>Check out <a href="https://try-ipfs.theblockchaininstitute.org/" target="_blank" rel="noopener">our IPFS Demo </a> or our free <a href="https://staging.weteachblockchain.org/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage Course.</a></span>
+<span>Check out <a href="https://try-ipfs.theblockchaininstitute.org/" target="_blank" rel="noopener">our IPFS Demo </a> or our free <a href="/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage Course.</a></span>
