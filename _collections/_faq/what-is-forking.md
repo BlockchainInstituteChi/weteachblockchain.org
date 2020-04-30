@@ -4,7 +4,7 @@ image: Forking.png
 permalink: /faq/what-is-forking/
 layout: faq
 tag: CONCEPTS
-learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
+learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 5
 ---
