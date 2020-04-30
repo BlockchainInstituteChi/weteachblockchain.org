@@ -1,6 +1,6 @@
 # Blockchain Institute
 
-This is the staging repo for static site generation via Jekyll. This repo compiles to the site at https://staging.weteachblockchain.org/ and the progress can be observed from the 'Environments' tab on the Github repo. Be sure to log in as a verified collaborator to see this tab.
+This repo compiles to the site at https://weteachblockchain.org/ and the progress can be observed from the 'Environments' tab on the Github repo. Be sure to log in as a verified collaborator to see this tab.
 
 ## Contents
 1. [About](#about)
