@@ -4,7 +4,7 @@ image: RealWorld.png
 permalink: /faq/what-can-blockchain-do/
 layout: faq
 tag: APPLICATIONS
-learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
+learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 3
 ---
