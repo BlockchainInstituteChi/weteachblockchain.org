@@ -16,8 +16,11 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 %}
 
 <h3>BIRTH OF THE MACHINE</h3>
-
-<img src="/assets/img/courses/ethereum-101/EthState-01.png" />
+{% include callouts/imageWithCaption.html
+	image="courses/ethereum-101/EthState-01.png"
+	title="The State Machine"
+	bodyText="Because Ethereum is a complete virtual machine, and not simply a data block like Bitcoin, it is possible to store more complex information. In particular, when a new address is created on the network, as shown above, the network uses a state transition event to track the changes. The <b>state</b> of the machine is maintained communally by all notes, making it possible to treat it as essentially tamper-proof."
+%}
 
 <span >Rather than the blockchain existing as a ledger of transactions, Buterin proposed that the chain might instead serve as a source of communal truth for the results of computations. In this new version, the network of peers collectively transitioned from one state to another, and the ledger recorded these transitions communally. The rules of this transition and functionality are encompassed in the consensus rules, which you may want to </span><a href="https://github.com/ethereumbook/ethereumbook/blob/develop/14consensus.asciidoc"><span >explore on Github</span></a><span >. Collectively, the group of peers are referred to as the </span><b>Ethereum Virtual Machine (EVM).</b>
 <h4>Aside: Turing Completeness</h4>
