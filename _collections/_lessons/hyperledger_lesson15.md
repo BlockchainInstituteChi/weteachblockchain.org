@@ -11,6 +11,6 @@ permalink: /courses/hyperledger/3/next-steps
 
 <hr />
 
-As a master of private blockchains, you're now ready to start exploring use cases. Don't stop now! Brush up on your architecture knowledge with our <a href="https://staging.weteachblockchain.org/courses/blockchain-security/">Blockchain Security</a> course or head to our <a href="https://staging.weteachblockchain.org/courses/">courses</a> page to see what else we have to offer.
+As a master of private blockchains, you're now ready to start exploring use cases. Don't stop now! Brush up on your architecture knowledge with our <a href="/courses/blockchain-security/">Blockchain Security</a> course or head to our <a href="/courses/">courses</a> page to see what else we have to offer.
 
 {% include courseEndButtons.html %}
