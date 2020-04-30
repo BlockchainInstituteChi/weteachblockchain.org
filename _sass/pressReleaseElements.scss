@@ -13,7 +13,7 @@ section.pressReleases {
 
 /* Release Items */
 .pressReleases img {
-    max-width: 100%;
+    width: calc(100% - 1em);
     margin-left: .5em;
 }
 .pressReleases h1 {
@@ -45,6 +45,7 @@ section.pressReleases {
     font-weight: 300;
     font-family: Roboto;
     line-height: 1.9em;
+    width: calc(100% - 1em);
 }
 .pressReleases .col-md-12 {
     margin-top: 5em;
