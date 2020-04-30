@@ -22,4 +22,4 @@ Since 2015, Ethereum has risen to have one of the largest cryptocurrency communi
 	bodyText="Ethereum Nodes store code, which can be executed by users who pay for the execution using Ethereum tokens. In this way, the network can act autonomously, without a centralized owner."
 %}
 
-<span>Also, see our <a href="https://staging.weteachblockchain.org/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage</a> course for more interesting ideas about building distributed computing ecosystems.</span>
+<span>Also, see our <a href="/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage</a> course for more interesting ideas about building distributed computing ecosystems.</span>
