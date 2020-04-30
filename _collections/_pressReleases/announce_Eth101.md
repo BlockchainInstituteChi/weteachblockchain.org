@@ -8,7 +8,7 @@ image: /assets/img/eth_gift.png
 
 <p>Go take a look and be sure to let us know what you think!</p>
 
-<h3><a href="https://staging.weteachblockchain.org/courses/ethereum-101-blockchain-beyond-bitcoin/" target="_blank">Ethereum 101: Blockchain Beyond Money</a></h3>
+<h3><a href="/courses/ethereum-101-blockchain-beyond-bitcoin/" target="_blank">Ethereum 101: Blockchain Beyond Money</a></h3>
 
 <p><i>In this course, we’ll explore how the concept of a blockchain has evolved, and help you get familiar with the terminology and concepts of decentralized computing with Ethereum as an example.</i></p>
 
