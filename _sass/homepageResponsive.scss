@@ -119,6 +119,15 @@
 	.col-sm-6.hpMission {
 		min-width: 450px;
 	}
+	.ourMission a.callToActionButton {
+	    width: 100%;
+	}
+	.ourMission .col-sm-6 {
+	    padding-bottom: 3em;
+	    padding-left: .5em;
+	    padding-right: .5em;
+	    width: 100%;
+	}
 	/* Events */
 	.eventsContainer .eventTile {
 		width: 100%;
@@ -134,7 +143,7 @@
   
 	a.callToActionButton {
 		float: right;
-
+		width: calc(100% - 1em);
 	}
 	.eventNavHandles {
 		display: block!important;
@@ -166,6 +175,9 @@
 	.eventTile {
 		max-width: calc(100vw - 4em);
 		float: left;
+	}
+	.events a.callToActionButton {
+	    width: 100%;
 	}
 
 	/* Courses */
