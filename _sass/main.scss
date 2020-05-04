@@ -809,3 +809,12 @@ a.callToActionButton:hover {
 a.buttonStyle:hover {
     background: #0B9BA4 !important;
 }
+
+
+/* Disable Account */
+li#accountToggle {
+    display: none !important;
+}
+div#accountDropdown {
+    display: none !important;
+}
