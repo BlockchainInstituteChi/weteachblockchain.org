@@ -21,7 +21,7 @@ When you reach the page, you'll be able to upload and download files from IPFS u
 
 {% include callouts/imageWithCaption.html
 	image="/courses/decentralized-storage/1.-Initializing.png"
-	title=""
+	title="Wait for the note to initialize"
 	bodyText="Once your node has finished initializing, you can upload files and share them with others using the 'Link' button. They'll then be able to download them from your node, right in your browser window!"
 %}
 
