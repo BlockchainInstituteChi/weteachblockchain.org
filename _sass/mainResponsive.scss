@@ -1,5 +1,6 @@
-/* Desktop */
-@media screen and (max-width: 1000px) {
+/* Bootstrap Tablet Trigger */ 
+/* Bootstrap collapses the nav at 992px */
+@media screen and (max-width: 992px) {
     .sourceDetails {
 	display: none;
     }
