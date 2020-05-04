@@ -35,6 +35,9 @@
 	h1.hasColorTag.red {
     		margin-left: -4.3em;
 	}
+	.hasColorTag::before {
+    	margin-left: -1em;
+	}
 .faqTile {
     min-height: 0px;
     width: 100%;
@@ -76,6 +79,10 @@ section .row {
 	}
 	section.pageHeaderImage .row {
 	    padding: 0em;
+	}
+	section.faqList {
+	    padding-left: .5em;
+	    padding-right: .5em;
 	}
 }
 
