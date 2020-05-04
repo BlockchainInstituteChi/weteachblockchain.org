@@ -1,18 +1,14 @@
 /* Desktop */
 @media screen and (max-width: 1000px) {
     .sourceDetails {
-		display: none;
-	}
-}
-
-/* Tablet */
-@media screen and (max-width: 800px ) {
+	display: none;
+    }
 
 	// Hide My Account Icon on Mobile
 	li#accountToggle {
 		display: none !important;
 	}
-	
+
 	// Always show my account dropdown
 	.hoverNavbox.account {
 		display: block !important;
@@ -25,30 +21,7 @@
 		width: fit-content;
 	}
 
-    /* Page Header */
-    .pageHeaderImage .col-sm-6 {
-        min-width: calc(100vw - 6em);
-		margin: auto 2em;   
-	}
-	.col-sm-6 h1 {
-		margin-top: 0.5em;
-	}
-	
-	.pageHeaderImage p {
-		max-width: 100%;
-	}
-	
-	.pageHeaderImage .col-sm-6 h1 {
-    		font-size: 2em;
-	}
-	.pageHeaderImage a.callToActionButton {
-		padding: 1em 3em; 
-	}
-	section.pageHeaderImage {
-	    margin-bottom: 3em;
-	}
-    
-    /* Nav (Mobile General) */
+    	/* Nav (Mobile General) */
 	.hoverNavbox {
         width: 100%;
         left: 0;
@@ -167,6 +140,34 @@
 		right: 0.5em;
 		top: 0.25em;
 		font-size: 1.5em;
+	}
+	
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+
+    /* Page Header */
+    .pageHeaderImage .col-sm-6 {
+        min-width: calc(100vw - 6em);
+		margin: auto 2em;   
+	}
+	.col-sm-6 h1 {
+		margin-top: 0.5em;
+	}
+	
+	.pageHeaderImage p {
+		max-width: 100%;
+	}
+	
+	.pageHeaderImage .col-sm-6 h1 {
+    		font-size: 2em;
+	}
+	.pageHeaderImage a.callToActionButton {
+		padding: 1em 3em; 
+	}
+	section.pageHeaderImage {
+	    margin-bottom: 3em;
 	}
 
 	/*Breadcrumbs*/
