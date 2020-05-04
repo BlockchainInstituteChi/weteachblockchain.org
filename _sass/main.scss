@@ -748,7 +748,13 @@ span.courseTag.professional {
 } 
 span.courseTag.beginner {
     background: $brand-green;
-} 
+}
+
+/* Homepage fix */
+.onlineCourses span.courseTag {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 
 /* Edit on Github */
 .sourceDetails {
