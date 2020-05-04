@@ -9,7 +9,11 @@ permalink: /courses/decentralized-storage/3/decentralization-in-the-browser/
 <br>
 <span class="openingParagraph">
 Since it would be impractical to expect everyone to upgrade their software for decentralized storage such as IPFS right away, teams like those at <a href="https://protocol.ai/" target="_blank" rel="noopener noreferrer">Protocol Labs</a> are developing different modules that allow the technology to run in nontraditional places. For example, any website to easily integrate peer-to-peer storage into their services by making use of <a href="https://en.wikipedia.org/wiki/WebRTC">WebRTC</a> technologies built into modern browsers.</span>
-&nbsp;
+
+{% include callouts/callout.html 
+	title="Try the online IPFS portal!"
+	bodyText="Visit <a href='https://try-ipfs.weteachblockchain.org'>try-ipfs.weteachblockchain.org</a> to try using the Interplanetary File System to share files directly with other users."
+%}
 
 <h3>USING THE INTERFACE</h3>
 
