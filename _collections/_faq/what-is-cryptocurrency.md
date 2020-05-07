@@ -7,6 +7,7 @@ tag: CONCEPTS
 learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 2
+sticky: true
 ---
 <h3>Background</h3>
 <span> Cryptocurrencies such as bitcoin or ether are scarce digital assets which exist on a decentralized network of computers. The currencies, which are referred to as coins or tokens, can be used within their network as a digital store of value or a medium of exchange.</span>
