@@ -14,7 +14,7 @@ As you might expect, there are a myriad of ways to setup up a local development 
 	bodyText="These installation instructions are specifically for Mac OS X. Ubuntu installation instructions will be the same, but Homebrew will not be required."
 %}
 
-<h3>Dependencies</h3>
+<h3>DEPENDENCIES</h3>
 Before we get started, use the following commands to verify that you have the correct software installed. If it fails, click the link in each description for full installation details. 
 
 <h4>Homebrew</h4>
