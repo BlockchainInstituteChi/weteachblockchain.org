@@ -7,6 +7,7 @@ tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Free Blockchain 101 course
 weight: 1
+sticky: true
 ---
 
 <span>A blockchain is a decentralized ledger that records all transactions. Each transaction that is conducted leaves a permanent record that can be referenced at any time. The structure of the blockchain allows these transactions to be self executing and immutable. Once validated, data is permanently recorded to the blockchain and cannot be altered in any way. </span>
