@@ -47,8 +47,6 @@ h1.hasColorTag.red {
 .FourOFourSearchResults {
     margin: 5em;
     margin-top: 0;
-    border-left: 1px solid grey;
-    border-right: 1px solid gray;
     height: 100%;
     margin-bottom: 0;
     padding-right: 3em;
@@ -57,4 +55,9 @@ h1.hasColorTag.red {
 
 a.searchResultLink {
     border: none;
+}
+
+.searchResults img {
+    width: 20%;
+    height: auto;
 }
