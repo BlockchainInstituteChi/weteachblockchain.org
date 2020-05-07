@@ -12,7 +12,7 @@ permalink: /courses/hyperledger/3/launch-sample-app
 
 Because Hyperledger networks require multiple nodes operating with different roles, we'll need to simulate not just a single node, but a whole network. In this case, we'll use the docker containers provided by the Hyperledger consortium to set up a testing network. Docker allows us to run several virtual machines, each with a chosen purpose, and will help to simulate a wider network.
 
-<h3><b>INSTALLATION PROCEDURE</b></h3>
+<h3>INSTALLATION PROCEDURE</h3>
 
 
 Before we start, you'll want to make sure the first network example is down. Be sure to run this command from the first-network directory.
