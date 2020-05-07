@@ -18,8 +18,6 @@ While this course will mainly focus on IPFS, there are a number of proposed solu
 
 <h3>GENERAL PROCESS</h3>
 
-<hr />
-
 <h4>Shard Data</h4>
 In order to optimize storage and retrieval of files, data is broken down into tiny packets which can each be stored on a different node.
 
