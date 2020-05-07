@@ -7,6 +7,7 @@ tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 5
+sticky: true
 ---
 <img src="/assets/img/courses/blockchain-for-business/Fork-01.png">
 
