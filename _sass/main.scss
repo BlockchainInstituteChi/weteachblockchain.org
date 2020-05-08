@@ -87,8 +87,13 @@ h1 {
     color: black;
 }
 p {
-    font-size: 1.5em;
-    padding: 1em;
+    padding: 0;
+    padding-left: 0.5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
 }
 
 /* Colors */
