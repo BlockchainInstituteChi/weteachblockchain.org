@@ -8,6 +8,9 @@ a.callToActionButton {
 .row.ambassadorRow {
     margin-bottom: 2em;
 }
+.ambassadorRow img {
+    margin-bottom: 2em;
+}
 .col-sm-4{
     padding-left: .5em;
     padding-right: .5em;
@@ -30,12 +33,16 @@ a.callToActionButton {
 }
 .educationHeader h4 {
     letter-spacing: .02em;
+    margin-left: 0em;
+}
 }
 .communitynHeader h4 {
     letter-spacing: .02em;
+    margin-left: 0em;
 }
 .promotionHeader h4 {
     letter-spacing: .02em;
+    margin-left: 0em;
 }
 .ambassadorRow .subtitle {
     padding: 0em;
@@ -59,6 +66,13 @@ dd {
 }
 section#joinNow {
     margin-bottom: 6em;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0em;
+    padding-left: 0em;
+    margin-right: auto;
+    margin-left: auto;
 }
 .contactUsForm h1 {
     margin-top: -.2em;
