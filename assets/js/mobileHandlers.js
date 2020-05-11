@@ -1,7 +1,7 @@
 // This file handles updates to the page for mobile 
 var mobiCheck = mobileCheck();
 
-console.log('isMobile?', mobiCheck);
+// console.log('isMobile?', mobiCheck);
 
 window.onload = function () {
     reviseForMobile();

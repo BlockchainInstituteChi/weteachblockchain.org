@@ -36,7 +36,7 @@ permalink: /ambassadors/
 		// xhr.open("POST", "http://localhost:8888/contact/", true);
 		xhr.onreadystatechange = function() { 
         if (xhr.readyState == 4 && xhr.status == 200)
-			console.log('xhr response:', xhr.responseText)
+			// console.log('xhr response:', xhr.responseText)
 			var response = JSON.parse(xhr.responseText)
 			if (response.success) {
 				handleSuccess("Your Message has been submitted!");

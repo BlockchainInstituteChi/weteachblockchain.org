@@ -4,7 +4,8 @@ const magic = new Magic("pk_live_EA466C1563BC5CFF");
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
-  console.log('magic render triggered')
+  // console.log('magic render triggered')
+
   const isLoggedIn = await magic.user.isLoggedIn();
   /* Show login form if user is not logged in */
   let html = `
@@ -17,7 +18,7 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
-    console.log(userMetadata)
+    // console.log(userMetadata)
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <button onclick="handleLogout()">Logout</button>
@@ -49,7 +50,7 @@ const handleLogout = async () => {
 
 
 function toggleAccountImage () {
-  console.log('toggle displayNavbOX TRIGGERED')
+  // console.log('toggle displayNavbOX TRIGGERED')
   var images = document.getElementsByClassName('accountLight');
 
   for ( var img of images) {
