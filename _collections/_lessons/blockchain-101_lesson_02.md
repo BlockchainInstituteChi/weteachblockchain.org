@@ -16,7 +16,7 @@ Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4x
 
 
 <h3>A HISTORY OF BITCOIN</h3>
-<iframe id="historyIFrame" scrolling="no" frameBorder="0" src="https://history.theblockchaininstitute.org/" width="100%" min-height="calc(100% - 5em)"></iframe>
+<iframe id="historyIFrame" scrolling="no" frameBorder="0" src="https://history.weteachblockchain.org/" width="100%" min-height="calc(100% - 5em)"></iframe>
 <hr />
 
 {% include callouts/callout.html
