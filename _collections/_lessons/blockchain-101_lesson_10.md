@@ -36,7 +36,7 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 
 <span>Try it yourself! Try typing your name in the window below to see the hash digest!</span>
-<iframe src="https://fluffy-umbrella.theblockchaininstitute.org" width="100%" height="100px"></iframe>
+<iframe src="https://fluffy-umbrella.weteachblockchain.org" width="100%" height="100px"></iframe>
 
 <span style="font-weight: 400;">By now, you should understand that blockchains are a combination of existing technologies like cryptography and peer-to-peer networking, combined with an incentive layer to power a globally uncensorable network. By overlaying these technologies onto our existing processes, we can build new ways of working digitally.</span>
 
