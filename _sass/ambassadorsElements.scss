@@ -111,7 +111,18 @@ section#joinNow {
 }
 .h-captcha {
     float: left;
+    display: block;
+    width: 100%;
 }
 .contactUsForm button {
     float: left;
+    display: block;
+    margin-top: 0.5em;
 }
+
+.col-sm-8.contactUsForm {
+    text-align: left;
+    margin: auto;
+}
+
+
