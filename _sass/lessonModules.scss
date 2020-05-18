@@ -426,3 +426,23 @@ section.downPinkStripesDivider {
 .callout h1::before, .shellField h1::before, .definition h1::before, .note h1::before {
     display: none;
 }
+
+.imageGalleryNav {
+    color: white;
+    font-size: 5em;
+    position: fixed;
+    top: calc(50vh - 2.5em);
+}
+span#lastImage {
+    left: 0.5em;
+}
+span#nextImage {
+    right: 0.5em;
+}
+span.imageLightboxCancel {
+    position: fixed;
+    top: 0.25em;
+    right: 0.5em;
+    color: #b93a3a70;
+    font-size: 2.5em;
+}
