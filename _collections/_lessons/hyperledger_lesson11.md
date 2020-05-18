@@ -17,11 +17,9 @@ In this example, the file Fabcar.js contains our chaincode SDK. This file gives 
 	bodyText="The chaincode is all stored in a single folder in fabric-samples/chaincode. The Fabcar.js script is located at fabric-samples/chaincode/fabcar/node/fabcar.js."
 %}
 
-<h5>Query All Cars (line 145)</h5>
-
 {% include callouts/callout.html
-	title="Title"
-	bodyText="This function simply returns all of the cars in the database as we saw in the last example. <script src='https://gist.github.com/alexander-morris/02bd87637892fc746f1a489d36e86cdb'></script>"
+	title="Query All Cars (line 145)"
+	bodyText="<span>This function simply returns all of the cars in the database as we saw in the last example.</span><script src='https://gist.github.com/alexander-morris/02bd87637892fc746f1a489d36e86cdb'></script>"
 %}
 
 As you can see, all that's really happening here is a quick query that pulls cars 0 - 999 by their IDs. The SDK is taking care of the heavy lifting and abstracting all of this away so that we can just play through the iterator object, which is just an extension of the state object that we have at our node. In this way, a highly secure blockchain IDE can be used with comparable ease to a standard database.
@@ -44,7 +42,7 @@ To see how this is happening, you'll want to take a look under the hood and chec
 
 {% include callouts/callout.html
 	title="Under the Hood"
-	bodyText="<script src='https://gist.github.com/alexander-morris/c393208505312bfdf6ce4ec421f99381.js'></script>The actual call to the peer network is similar to the functionality we saw for in query.js. From line 45 - 50 we see the same user authentication, and then the transaction processing and housekeeping happen on line 56.<script src='https://gist.github.com/alexander-morris/978c208f352f0fdc9785b1937892b95a.js'></script>"
+	bodyText="<script src='https://gist.github.com/alexander-morris/c393208505312bfdf6ce4ec421f99381.js'></script><span>The actual call to the peer network is similar to the functionality we saw for in query.js. From line 45 - 50 we see the same user authentication, and then the transaction processing and housekeeping happen on line 56.</span><script src='https://gist.github.com/alexander-morris/978c208f352f0fdc9785b1937892b95a.js'></script>"
 
 %}
 
