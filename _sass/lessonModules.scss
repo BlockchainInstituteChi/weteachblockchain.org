@@ -339,7 +339,7 @@ span.userName {
 img#lightBoxImage {
     max-width: 50%;
     margin: 25%;
-    margin-top: calc(25vh - 10%)
+    margin-top: calc(25vh - 5%)
 }
 
 
@@ -429,7 +429,7 @@ section.downPinkStripesDivider {
 
 .imageGalleryNav {
     color: white;
-    font-size: 5em;
+    font-size: 3em;
     position: fixed;
     top: calc(50vh - 2.5em);
 }
@@ -443,6 +443,6 @@ span.imageLightboxCancel {
     position: fixed;
     top: 0.25em;
     right: 0.5em;
-    color: #b93a3a70;
+    color: #ed0744;
     font-size: 2.5em;
 }
