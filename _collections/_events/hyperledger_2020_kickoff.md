@@ -17,6 +17,7 @@ eventType: Community
   <li>Soton Rosanwo</li>
   <li>Dev Bharel</li>
   <li>Sean O'Kelly</li>
+  <li>Tom Klein</li>	
   <li>Moderated by our very own Alex Morris!</li>
 </ul>"
 %}
