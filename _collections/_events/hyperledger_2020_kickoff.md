@@ -18,8 +18,8 @@ eventType: Community
   <li>Dev Bharel</li>
   <li>Sean O'Kelly</li>
   <li>Tom Klein</li>	
-  <li>Moderated by our very own Alex Morris!</li>
+  <li>Moderated by our very own Alex Morris!</li> 
 </ul>"
 %}
 
-<h3>Join us for food, drinks, and a panel discussion focused on Hyperledger use cases and applications.</h3>
+<h3>This event will be hosted via webinar! RSVP today to get the link.</h3>
