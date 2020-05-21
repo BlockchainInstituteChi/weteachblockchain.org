@@ -147,7 +147,7 @@ function addResultToResultsContainer (container, data) {
 
     var summary = document.createElement('span')
         summary.className = "summary"
-        summary.textContent = data.summary
+        summary.textContent = removeHTMLEntities(data.summary)
 
     var row = document.createElement('div')
         row.className = "row"
@@ -157,7 +157,7 @@ function addResultToResultsContainer (container, data) {
 
     var title = document.createElement('span')
         title.className = "title"
-        title.textContent = data.title
+        title.textContent = removeHTMLEntities(data.title)
 
     // var score = document.createElement('span')
     //     score.className = "score"
@@ -186,4 +186,9 @@ function lookupResultRecord (searchResult) {
 
 function cancelSearch () {
     document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className + " d-none"
+}
+
+function removeHTMLEntities (string) {
+    console.log('removing HTML entitites from ', string)
+    return decodeURI(string.replace('&amp;','&'));
 }

@@ -96,7 +96,7 @@ permalink: /events/
 
 {% for event in sorted %}
 	{% if event.date > site.time  %}
-		{% assign i = i | plus:1 %}
+		{% assign futureposts = futureposts | plus:1 %}
 	{% endif %}
 {% endfor %}
 
