@@ -83,7 +83,7 @@ button.learnMoreButton.callToAction {
 }
 section.container {
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
 }
 .inPerson p {
     padding-right: 0em;
@@ -186,18 +186,13 @@ section.container.bciCallToAction {
 
 
 /* In Person Section */
-.inPerson {
-    background-image: url(/assets/img/WTBORG_InPersonCourse.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-}
 .col-sm-6.leftWhite {
     background: linear-gradient(to right, white 90%, #ffff0000);
     min-height: calc(100% + 50px);
     padding: 3em 0em 3em 6em;
 }
 .inPerson p {
-    padding-right: 9em;
+    padding-right: 2em;
 }
 .leftWhite ul {
     max-width: calc(100% - 10em);
@@ -220,4 +215,25 @@ section.container.bciBannerImage.bciHandImage {
 /* MapSpace */
 .mapSpace h1 {
     margin-top: -0.3em;
+}
+
+/*Carousel*/
+.carousel {
+    position: relative;
+    margin-top: 10em;
+    max-width: 42%;
+    margin-bottom: 15em;
+}
+.carousel-item img {
+    margin-bottom: 0em;
+}
+.carousel-item {
+    border-style: solid;   
+    border-color: #ed0744;
+    border-width: .05em;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    opacity: 1;
+    background-color: #ed0744;
 }

@@ -60,6 +60,12 @@
 	a.nav-link.hideOnDesktop {
 		display: block;
 	}
+	.carousel {
+		position: relative;
+		margin-top: 4.5em;
+		max-width: 42%;
+		margin-bottom: 35em;
+	}
 } 
 
 /* Mobile */
@@ -135,12 +141,18 @@ button.learnMoreButton {
     		margin-left: 1.5em;
     		margin-right: 1.5em;
 	}
+	section.container {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
 
 	/* in-person */
 
 	section.inPerson {
-	    padding-right: 0;
-	}
+		padding-right: 0;
+		padding-top: 2em;
+		padding-bottom: 0;
+		}
 	.col-sm-6.leftWhite {
 	    background: white;
 	}
@@ -165,7 +177,19 @@ button.learnMoreButton {
     		margin-right: 1.5em;
 	}
 
+/*Carousel*/
+
+.carousel {
+    position: relative;
+    margin-top: 0em;
+    max-width: 100%;
+    margin-bottom: 5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
+
+}
+
 
 
 @media screen and (max-width: 330px) {
