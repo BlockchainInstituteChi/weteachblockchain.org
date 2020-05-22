@@ -1,0 +1,291 @@
+.pageHeaderImage a.callToActionButton {
+    background: #ed0744;
+    padding: 1em 3em;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: fit-content;
+    margin-left: 0;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+/*Color bars*/
+.hasColorTag {
+    margin-left: -1.43em;
+}
+
+/* Path Options */
+.col-sm-4 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.col-sm-12 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.pathButtons img {
+    max-width: 100%;
+}
+.pathButtons a {
+    max-width: 100%;
+    position: relative;
+    display: block;
+}
+.pathButtons h5 {
+    color: white;
+    position: absolute;
+    top: calc( 50% - 0.5em);
+    width: 100%;
+    text-align: center;
+}
+
+.row.pathButtons {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+section.pathsList.pathPage {
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+/* CourseListing */
+section.coursesList.coursePathHeader {
+    margin-top: 0em;
+}
+section.coursesList {
+    margin-top: 3em;
+}
+.courseListing img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+.row.courseListing {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.courseListing h3 {
+    text-transform: uppercase;
+    color: black;
+    margin-top: -0.25em;
+    margin-bottom: 0;
+    font-size: 1.25em;
+}
+.courseListing .author {
+    color: #2fae9f;
+    text-transform: uppercase;
+    display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
+    line-height: 1.35em;
+    margin-bottom: .5em;
+}
+span.summary {
+    font-size: 0.75em;
+    display: block;
+}
+a.startCourseButton {
+    background: #ed0744;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 1em;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-family: kanit;
+}
+a.startCourseButton:hover {
+    color: white !important;
+    background-color: #ed0744 !important;
+}
+
+/* Overview */
+.courseOverview h1 {
+    padding-left: 0;
+}
+.courseOverview span.author {
+    display: block;
+    width: 100%;
+    color: $brand-green;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+.courseOverview span.summary {
+    font-size: 1em;
+    color: black;
+    font-weight: 200;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* Course Sections Overview */
+    section.breadcrumbs.indvCoursePage {
+        margin-left: .1em;
+    }
+.moduleInfo {
+    width: 100%;
+}
+section.courseSections {
+    padding-top: 2em;
+    padding-bottom: 8em;
+}
+.moduleInfo h2 {
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+}
+.moduleInfo span {
+    color: $brand-blue;
+}
+.moduleChildren {
+    margin-top: 2em;
+    border-top: black 1px solid;
+}
+.lessonListing {
+    border-bottom: 1px black solid;
+}
+.lessonListing h3 {
+    color: $brand-red;
+    font-size: 1.25em;
+    padding-top: 0.5em;
+}
+
+/* Lesson View */
+section.courseHeader {
+    background: url(/assets/img/lesson-header-banner.png);
+    background-size: cover;
+    min-height: 9em;
+    height: fit-content;
+}
+.courseHeader a {
+    color: white;
+    padding-left: .5em;
+    padding-top: 2.5em;
+    display: block;
+    font-weight: 400;
+    margin: 0em 1.9em;
+}
+.courseHeader h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+/* Lesson Nav */
+section.lessonNav, section.lessonNav a {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 1em;
+    font-family: kanit;
+    font-weight: 500;
+    letter-spacing: .04em;
+}
+section.lessonNav {
+    padding: 2em;
+    font-size: 1.25em;
+}
+.lessonNav a:hover{
+    text-decoration: underline !important;
+}
+
+/* Content Element Styles */
+section.lessonContent {
+    margin: 0em 6em;
+}
+.lessonContent h4 {
+    margin-left: .32em;
+    margin-top: 2em;
+    margin-right: 18em;
+}
+.lessonContent iframe {
+    width: 100%;
+    margin: 3em .5em 3em .5em;
+}
+.lessonContent img {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.lessonContent span.openingParagraph {
+    color: #00648c;
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4em;
+    font-family: Kanit !important;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+}
+.lessonContent span {
+    color: black;
+    font-size: 1em;
+    font-weight: 300 !important;
+}
+.lessonContent p {
+    padding: 0;
+    padding-left: .5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+    padding-right: .5em;
+    min-width: 100%;
+}
+.lessonContent h3 {
+    color: black;
+    font-size: 1.5em;
+    padding-left: .25em;
+    margin-top: 2em;
+    margin-right: 10em;
+    width: 100%;
+}
+iframe#historyIFrame {
+    min-height: 600px;
+}
+iframe.askAnExpert {
+    margin-bottom: 0em;
+}
+topTitle{
+    margin-top: 2em;
+}
+.lessonContent ul {
+    min-width: 100%;
+}
+
+/* Course Buttons */
+a.courseEndButton {
+    padding: 1em 3em;
+    background: #00648C;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    display: inline-block;
+    min-width: fit-content;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: .05em;
+    font-family: kanit;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+a.courseEndButton.moreCourses {
+    background: $brand-red;
+    margin-left: 1em;
+}
+.imageWithTextCallout h4 {
+    margin-left: 0em;
+    margin-right: 0em;
+}

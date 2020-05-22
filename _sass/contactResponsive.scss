@@ -1,0 +1,35 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	html, body {
+    		overflow-x:hidden;
+	}
+	.col-sm-6 h1 {
+    		margin-top: -.25em;
+	}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	
+    .contactUsForm h1 {
+        margin-top: 2em;
+    }
+    .contactUsForm button {
+        width: 100%;
+    }
+	.col-sm-6 img {
+    		max-width: 100%;
+	}
+
+    
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

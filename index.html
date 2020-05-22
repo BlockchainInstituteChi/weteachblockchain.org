@@ -1,0 +1,231 @@
+---
+layout: default
+title: We Teach Blockchain
+stylesheet: homepage.css
+ogTitle: Blockchain Institute
+ogDesc: We are a nonprofit organization with the mission of educating the world on all things related to blockchain, cryptocurrency, and decentralized technology. Sign up for an in-person class or take a free online course today!
+ogImage: https://weteachblockchain.org/assets/img/headerBackgroundTile.jpg
+ogUrl: https://weteachblockchain.org/
+---
+<script>
+  function bic_showMailChimp () {
+    console.log('display mc triggered')
+  }
+</script>
+
+{% include pageHeader.html 
+	img="Homepage_Banner.jpg" 
+	header="#WeTeachBlockchain" 
+	text="Blockchain is the <b>future</b> but you can’t wait to learn about it. We are a <span class='no-wrap'>501(c)(3)</span> nonprofit organization dedicated to providing educational resources for you no matter who you are. Start your blockchain journey today with one of our <b>free</b> online or in-person courses." 
+	ctaText="Learn More" 
+	ctaLink="/faq/what-is-blockchain/" 
+%}
+
+
+<section class="onlineCourses blueDivider">
+  <div class="row">
+    <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
+    <span class="descriptionText">
+      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
+    </span>
+    <div class="coursesThumbnailContainer"> 
+      {% assign sorted = site.courses | sort: 'tags' %}
+      {% for course in sorted %}
+        {% include courseTile.html 
+          image=course.image
+          title=course.title 
+          author=course.author 
+          summary=course.summary 
+          link=course.permalink 
+          tag=course.primaryTag	
+        %}
+      {% endfor %}
+    </div>
+    <a href="/courses/" class="callToActionButton">View Course Catalogue</a>
+  </div>
+</section>
+
+<section class="events" style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
+  <div class="row">
+      <div class="col-sm-6">
+
+      </div>
+      <div class="col-sm-6 ourEvents">
+        <h1 class="blueBar right">
+          Join an Event
+        </h1>
+        <span class="descriptionText eventDescriptionHP">
+          Want to get involved and meet others that share our vision? 
+        </span>
+        <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
+        <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
+        <div class="eventsContainer">
+          {% assign sorted = site.events | sort: 'date' | reverse %}
+          {% for event in sorted limit:4 %}
+  
+              {% include eventTile.html
+                link=event.permalink 
+                image=event.image 
+                title=event.title 
+                date=event.eventdate
+              %}
+  
+          {% endfor %}
+        </div>
+        <a href="/events/" class="callToActionButton">Attend an Event</a>
+      </div>
+      
+  </div>
+</section>
+
+<section class="faq">
+  <div class="row">
+    <h1 class="redBar">Quick Answers</h1>
+    <span class="descriptionText">
+      Not ready to start a full course? Get answers to commonly asked questions.
+    </span>
+    <div class="faqThumbnailContainer"> 
+      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+        {% include faqTile.html 
+          image=item.image
+          link=item.permalink
+          title=item.title
+          author=item.author
+        %}
+      {% endfor %}
+    </div>
+    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
+
+
+<section class="pathsList">
+	<h1 class="hasColorTag teal">Not sure where to start?</h1>
+	<div class="row">
+		<div class="col-sm-12">
+			<span class="descriptionText pathDescriptionHP">
+			  We have something for everyone no matter your skill level. Begin your blockchain education now.
+			</span>
+		</div>
+	</div>
+	<div class="row pathButtons">
+		<div class="col-sm-4 novText">
+			<a href="/courses/beginners/">
+				<img src="/assets/img/Novice_button.jpg">
+				<h5>Beginners</h5>
+			</a>
+		</div>
+		<div class="col-sm-4 devText">
+			<a href="/courses/developers/">
+				<img src="/assets/img/Developers_button.jpg">
+				<h5>Developers</h5>
+			</a>
+		</div>
+		<div class="col-sm-4 indText">
+			<a href="/courses/professionals/">
+				<img src="/assets/img/Professionals_button.jpg">
+				<h5>Professionals</h5>
+			</a>
+		</div>
+		
+  </div>
+  <div class="row ctaCenter">
+    <a href="/courses/" class="callToActionButton">View All Courses</a>
+  </div>
+</section>
+
+
+<section class="ourMission">
+  <div class="row">
+      <div class="col-sm-6 hpMission" style="background:url(/assets/img/Homepage_Mission.jpg);background-size:cover;background-position:center;">
+
+      </div>
+      <div class="col-sm-6">
+        <h1 class="blueBar right">
+          Our Vision
+        </h1>
+        <span>
+          We see a world where digital systems preserve autonomy and individuals have control of their own assets without intermediaries. The Blockchain Institute was founded to help everyone understand blockchain and further its adoption, development, and use. We teach blockchain, and so can you!
+        </span><br>
+        <a href="/ambassadors/"  class="callToActionButton">Become an Ambassador</a>
+      </div>
+  </div>
+</section>
+
+{% include socialFooter.html %}
+
+<script>
+
+window.onload = function  () {
+  checkAndReviseForMobile()
+}
+
+window.onresize = function () {
+  checkAndReviseForMobile()
+}
+
+function checkAndReviseForMobile() {
+  if ( window.innerWidth < 450 ) {
+    reformatEventsToScrollRight ();
+    limitCourses (4)
+  }
+}
+
+function reformatEventsToScrollRight () {
+  console.log('page loaded and ran ')
+  var hpEventsBanner = document.createElement('div')
+      hpEventsBanner.className = "hpEventsScrollBanner";  
+
+  var hpEventsContainer = document.getElementsByClassName('eventsContainer')[0];
+
+  var hpEvents = document.getElementsByClassName('eventsContainer')[0].children
+
+  var setLength = hpEvents.length;
+
+  do {
+    hpEventsBanner.appendChild(hpEvents[0])
+  } while ( hpEvents[0] )
+  
+  hpEventsContainer.appendChild(hpEventsBanner);
+}
+  
+function limitCourses (limit) {
+  var courseTiles = document.getElementsByClassName('coursesThumbnailContainer')[0].children;
+  for ( var i = 0; i < limit; i++ ) {
+    courseTiles[ Math.floor(Math.random() * courseTiles.length) ].remove()
+  }
+}
+
+function showNextEvent () {
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos + marginRatio * width ) > ( 3 * marginRatio * width ) ) {
+    events.scrollLeft = 0;
+  } else {
+    events.scrollLeft +=  marginRatio * width;
+  }
+
+}
+
+function showLastEvent () {
+  var events = document.getElementsByClassName('eventsContainer')[0]
+  var width = events.clientWidth;
+  var marginRatio = 1.05;
+  var currentPos = events.scrollLeft;
+  if ( ( currentPos - marginRatio * width ) > 0 ) {
+    events.scrollLeft -= marginRatio * width;
+  } else {
+    events.scrollLeft = marginRatio * width * 3;
+  }
+
+}
+
+</script>
+
+<!-- Testimonials go here -->
+
+<!-- Recent tweets integration goes here -->
+

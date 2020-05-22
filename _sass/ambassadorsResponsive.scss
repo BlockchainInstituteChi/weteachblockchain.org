@@ -1,0 +1,44 @@
+dt {
+    color: #2fae9f;
+}
+
+p.subtitle {
+    font-size: 75%;
+    color: black;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.col-sm-4.educationHeader {
+    		padding-bottom: 1em;
+	}
+	.col-sm-4.communityHeader {
+    		padding-bottom: 1em;
+	}
+	.col-sm-8.contactUsForm {
+	    padding-right: .5em;
+	    padding-left: .5em;
+	}
+	
+    
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

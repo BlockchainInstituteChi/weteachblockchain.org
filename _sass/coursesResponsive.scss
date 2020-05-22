@@ -1,0 +1,114 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	html, body {
+    		overflow-x:hidden;
+	}
+	.hasColorTag {
+    		margin-left: -3.7em;
+	}
+	span.courseTag {
+	    font-size: .65em;
+	}
+	iframe#historyIFrame {
+    		min-height: 560px;
+	}
+	.courseHeader a {
+		margin: 0em 2em;
+	}
+	.courseHeader h1 {
+    		margin-left: 1em;
+
+	}
+	section.lessonContent {
+	    margin: 0em 0em;
+	}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden;
+	}
+
+    /* Course path buttons */
+    .row.pathButtons .col-sm-4 {
+        margin-bottom: 1em;
+        
+    }
+
+    /* Course Listings */
+    span.courseTag {
+        float: right;
+        position: relative;
+        margin-right: -1em;
+    }
+	
+.hasColorTag {
+    margin-left: -2em;
+}
+	.col-sm-6 {
+    		padding-left: .5em;
+    		padding-right: .5em;
+	}
+
+    .col-sm-2.courseTagContainer {
+        position: absolute;
+        margin-top: 1em;
+        max-width: 80vw;
+    }
+
+    a.startCourseButton {
+        width: 100%;
+        text-align: center;
+        font-size: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+section .row {
+    min-height: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.hasColorTag::before {
+    margin-right: 0.75em;
+}
+	iframe#historyIFrame {
+    		min-height: 800px;
+	}
+.courseHeader a {
+    margin: 0em 1em;
+}
+.courseHeader h1 {
+    margin-left: .5em;
+}
+section.courseOverview {
+    margin: .5em;
+}
+section.breadcrumbs.indvCoursePage {
+    margin-left: .5em;
+}
+section.lessonContent {
+    margin: 0em 0em;
+}
+.lessonContent h3 {
+    margin-right: 1em;
+}
+a.courseEndButton {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+a.courseEndButton.moreCourses {
+    margin-left: 0em;
+}
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

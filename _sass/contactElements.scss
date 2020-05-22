@@ -1,0 +1,104 @@
+
+/* About Us*/
+.header .col-sm-6 {
+    text-align: left;
+}
+.header p {
+    padding: 0.5em;
+}
+a.callToActionButton.rightRedBrick {
+    background: $brand-red;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 0.25em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 0.5em;
+}
+
+/* Contact Details */
+.col-sm-6 a {
+    color: grey;
+    font-size: .8em;
+}
+.col-sm-6 {
+    padding-right: .5em;
+    padding-left: .5em;
+}
+.col-sm-6 img {
+    max-width: 98%;
+}
+.locationDetails span {
+    display: block;
+    font-size: 1.35em;
+}
+.locationDetails strong {
+    color: #0B9BA4;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+/* Contact Form */
+.contactUsForm h1 {
+    margin-top: -0.25em;
+    padding-left: 0em;
+}
+.contactUsForm input, .contactUsForm textarea {
+    width: 100%;
+    padding: .75em;
+    font-size: 1em;
+    border: #ed0744 1px solid;
+    margin-bottom: 0.5em;
+    font-family: Open Sans;
+}
+.contactUsForm textarea {
+    min-height: 9em;
+}
+.contactUsForm button {
+    width: 60%;
+    background: #ed0744;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.contactUsForm button:hover {
+    background: $brand-teal;
+}
+.locationDetails {
+    padding-top: .5em;
+    line-height: 1.5em;
+}
+
+/* Error and success handling */
+span.errorField {
+    color: red;
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.successMessage {
+    font-size: 1.35em;
+    text-align: center;
+    display: block;
+    margin-top: 2em;
+}
+.successMessage span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 2em;
+    max-width: 80%;
+}
+.successMessage i {
+    font-size: 3.5em;
+    color: #00800096;
+}

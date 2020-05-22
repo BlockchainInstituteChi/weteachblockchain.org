@@ -1,0 +1,43 @@
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	
+		{% assign sorted = site.events | sort: 'date' | reverse | limit: 4 %}
+		{% assign futureposts = 0 %}
+
+		{% for event in sorted %}
+			{% if event.date > site.time  %}
+				{% assign i = i | plus:1 %}
+			{% endif %}
+		{% endfor %}
+
+		{% if futureposts == 0 %} 
+			<h1>Recent Events</h1>
+			<div class="row">
+			<!-- No upcoming posts, displaying recent posts instead -->
+			{% for event in sorted limit: 4 %}
+				{% if event.date < site.time  %}
+					{% include eventTile.html
+						link=event.permalink 
+						image=event.image 
+						title=event.title 
+						date=event.eventdate
+					%}
+				{% endif %}
+			{% endfor %}
+		{% else %}
+			<h1>Upcoming Events</h1>
+			<div class="row">
+			{% for event in sorted limit: 4 %}
+				{% if event.date > site.time  %}
+					{% include eventTile.html
+						link=event.permalink 
+						image=event.image 
+						title=event.title 
+						date=event.eventdate
+					%}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		
+	</div>
+
+</section>

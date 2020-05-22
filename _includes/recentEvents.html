@@ -1,0 +1,18 @@
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Recent Events</h1>
+	<div class="row">
+		{% assign sorted = site.events | sort: 'date' | reverse | limit: 4 %}
+		{% for event in sorted limit: 4 %}
+	
+			{% if event.date < site.time  %}
+				{% include eventTile.html
+					link=event.permalink 
+					image=event.image 
+					title=event.title 
+					date=event.eventdate
+				%}
+			{% endif %}
+		{% endfor %}
+	</div>
+
+</section>

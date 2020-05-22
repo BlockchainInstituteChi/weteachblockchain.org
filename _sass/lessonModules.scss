@@ -1,0 +1,448 @@
+section .row {
+    min-height: 0em;
+}
+ 
+
+/* Image with Text Callout */
+.row.imageWithTextCallout {
+    margin: 0em .5em 0em .5em;
+    min-width: 90%;
+    max-width: 98.5%;
+}
+.imageWithTextCallout .col-md-9 {
+    padding-top: 0em;
+    margin-bottom: 1em;
+}
+.imageWithTextCallout img {
+    border-radius: 0%;
+    padding: 0em;
+    vertical-align: top;
+    max-width: 70%;
+    position: absolute;
+    left: 10%;
+    height: auto;
+    margin-top: 0em;
+}
+.imageWithTextCallout h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #dc354f;
+    font-size: 1.25em;
+}
+.imageWithTextCallout span {
+    color: black;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+.imageWithTextCallout .col-md-3 {
+    margin-bottom: 14em;
+}
+
+/* TextCallout */
+.row.textCallout {
+    min-width: 100%;
+    background: $brand-dark-blue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em 0 1em 0;
+}
+
+/* Image with Caption */
+.row.imageWithCaption {
+    min-width: 90%;
+    max-width: 98.5%;
+    margin: 0em .5em 2em .5em;
+}
+.imageWithCaption .col-md-12 {
+    padding: 0;
+}
+.imageWithCaption img {
+    max-width: 100%;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+.caption {
+    background: #2b2b2b;
+    margin-top: 0em;
+    padding: 2em 2em;
+    color: white;
+    font-family: Roboto;
+    line-height: 2em;
+}
+.imageWithCaption h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-left: 0em;
+    margin-top: 0em;
+}
+
+/* Definition */
+.row.definition {
+    color: white;
+    margin-left: .5em;
+    margin-right: .5em;
+    min-width: 98%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #003449;
+    max-width: 98.5%;
+}
+.definition .col-md-1 {
+    background: #415c6b;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.definition i {
+    position: absolute;
+    top: 40%;
+    left: 39%;
+}
+.definition .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    font-family: roboto;
+}
+.definition h1 {
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+
+/*Note*/
+.row.note {
+    color: white;
+    margin-left: .5em;
+    margin-right: .5em;
+    min-width: 98%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #941f6c;
+    max-width: 98.5%;
+}
+.note .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+}
+.note .col-md-1 {
+    background: #aa4c8a;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.note i {
+    position: absolute;
+    top: 40%;
+    left: 39%;
+}
+.note a {
+    color: darkgrey;
+    font-weight: 500;
+}
+.note pre {
+    display: inline-block;
+    vertical-align: text-top;
+    color: green;
+    background: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.1em;
+}
+
+/*Callout*/
+.row.callout {
+    color: white;
+    margin-left: .5em;
+    margin-right: .5em;
+    min-width: 98%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #0b9ba4;
+    max-width: 98.5%;
+    font-family: roboto;
+}
+.callout .col-md-1 {
+    background: #3cb0b6;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.callout h1 {
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+.callout .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+}
+.callout i.fa, .callout i.fab, .callout i.fas {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+/*Code Snippet*/
+.row.codeSnippet {
+    color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    min-width: 98%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #eeefef;
+    max-width: 98.5%;
+}
+.codeSnippet .col-md-1 {
+    background: #848486;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.codeSnippet h1 {
+    margin-left: 0;
+    padding: 0;
+    color: black;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+.codeSnippet .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.codeSnippet i {
+    position: absolute;
+    top: 43%;
+    left: 39%;
+    color: #fff;
+}
+.snippetField {
+    font-family: monospace;
+    background: #eeefef;
+    margin: 1em 0em;
+}
+.codeSnippet pre {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 0.85em;
+    vertical-align: bottom;
+}
+.snippetField .lineNumber {
+    font-size: 0.85em;
+    color: #612626;
+}
+
+/* Terminal */
+.row.terminal {
+    color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    min-width: 98%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    background-color: black;
+    max-width: 98.5%;
+}
+.terminal .col-md-1 {
+    background: #333334;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.5em;
+}
+.terminal h1 {
+    margin-left: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 600 !important;
+    margin-bottom: .2em;
+    text-transform: uppercase;
+}
+.terminal .col-md-11 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+.terminal .col-md-1 span {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+.terminal span {
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+span.userName {
+    color: purple;
+}
+.shellField {
+    font-weight: 200;
+    background: black;
+    padding-left: 0em;
+    color: white;
+    padding-top: .75em;
+}
+.shellField span.userName {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.col-md-11.terminalBody {
+    padding: 0em;
+    margin: 0em;
+}
+
+/* Photo Gallery */
+.photoLightbox h2 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-left: 1em;
+    color: white;
+}
+.row.photoLightbox {
+    margin: 0;
+    background: black;
+    min-width: 90%;
+    max-width: 98.5%;
+    overflow: hidden;
+    margin: 2em .5em 2em .5em;
+}
+.imageGallery {
+    display: block;
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: .4em;
+    margin-right: .4em;
+}
+.imageGallery img {
+    max-width: calc(25% - 1em);
+    padding: 1em;
+    opacity: 75%;
+}
+img#lightBoxImage {
+    max-width: 50%;
+    margin: 25%;
+    margin-top: calc(25vh - 5%)
+}
+
+
+/* Big Quotes */
+.row.bigQuote {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    position: relative;
+    min-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+span.quoteBody {
+    text-align: center;
+    color: grey;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: italic;
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+a.quoteSource {
+    text-align: center;
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 1em;
+}
+
+span.quoteBody::before {
+    content: '“';
+    z-index: -1;
+    font-size: 9em;
+    position: absolute;
+    top: 0.15em;
+    left: -0.35em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+span.quoteBody::after {
+    content: '”';
+    z-index: -1;
+    font-size: 9em;
+    position: absolute;
+    top: 0.15em;
+    right: -0.2em;
+    color: lightgrey;
+    font-family: Arial, sans-serif;
+}
+
+/*Pink Strips Divider*/
+section.upPinkStripesDivider {
+    height: 7em;
+    background: url(/assets/img/pink-stripes-divider.png);
+    margin-top: 2em;
+    background-size: cover;
+    min-width: 100%;
+}
+section.downPinkStripesDivider {
+    height: 8em;
+    background: url(/assets/img/pink-stripes-divider-bottom.png);
+    margin-top: 0em;
+    background-size: cover;
+    min-width: 100%;
+    margin-bottom: 2em;
+}
+
+/* Fixing links  */
+.definition a, .note a, .callout a, .terminal a, .codeSnippet a, .imageWithCaption a {
+    color: lightblue;
+}
+.definition a:hover, .note a:hover, .callout a:hover, .terminal a:hover, .codeSnippet a:hover, .imageWithCaption a:hover  {
+    text-decoration: underline !important;
+}
+
+/* Overrides */
+.shellField, .note pre, .note a {
+    word-wrap: break-word !important;
+}
+.callout h1::before, .shellField h1::before, .definition h1::before, .note h1::before {
+    display: none;
+}
+
+.imageGalleryNav {
+    color: white;
+    font-size: 3em;
+    position: fixed;
+    top: calc(50vh - 2.5em);
+}
+span#lastImage {
+    left: 0.5em;
+}
+span#nextImage {
+    right: 0.5em;
+}
+span.imageLightboxCancel {
+    position: fixed;
+    top: 0.25em;
+    right: 0.5em;
+    color: #ed0744;
+    font-size: 2.5em;
+}

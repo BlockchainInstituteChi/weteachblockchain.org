@@ -1,0 +1,223 @@
+/* Tablet */
+@media screen and (max-width: 800px) {
+
+	/* Paths */
+	.pathsList h1 {
+	    margin: auto auto auto -3.45em;
+	    padding-left: 0em;
+	    font-size: 2em;
+	}
+		.pathButtons h5 {
+	    color: white;
+	    position: absolute;
+	    top: calc( 50% - 0.8em);
+	    width: 100%;
+	    text-align: center;
+	    font-size: .95em;
+	}
+	.pathButtons span {
+    		color: white;
+    		position: absolute;
+    		top: calc( 50% + .5em);
+    		font-size: .6em;
+    		font-style: italic;
+   		width: 100%;
+   		text-align: center;
+   		z-index: 1;
+    		left: 0;
+	}
+	/*Mission*/
+	.col-sm-6.hpMission {
+    		min-height: 300px;
+	}
+	h1.blueBar.right {
+    		font-size: 2em;
+	}
+	section.ourMission {
+    		margin-bottom: 0;
+    		min-height: 300px;
+	}
+	.ourMission .col-sm-6 {
+	    padding-bottom: 3em;
+	}
+	/*Events*/
+	.col-sm-6.ourEvents {
+    		margin-top: 2em;
+	}
+	/* Courses */
+	.coursesThumbnailContainer .courseTile {
+		width: calc(50% - 1em);
+		margin-bottom: 1em;
+	}
+	h1.coursesHeaderHP {
+    		padding-left: .25em;
+    		font-size: 2em;
+	}
+
+	/* FAQ */
+	h1.redBar {
+    		font-size: 2em;
+	}
+	.faqTile h1 {
+		font-size: 1em;
+	}
+
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	
+	/* General */
+	.pageHeaderImage .col-sm-6 h1 {
+	    font-size: 2em;
+	}
+	.pathButtons .col-sm-4 {
+		margin-bottom: 1em;
+	}
+
+	/* Fix for overflow scroll bug */
+	body {
+		overflow-x: hidden;
+		min-width: 100vw;
+		width: 100vw;
+	}
+	
+	/* Paths */
+	.pathsList h1 {
+	    margin: auto auto auto  -1.4em;
+	    padding-left: 0em;
+	    font-size: 1.75em;
+	}
+	.pathButtons h5 {
+	    color: white;
+	    position: absolute;
+	    top: calc( 50% - 0.8em);
+	    width: 100%;
+	    text-align: center;
+	    font-size: .95em;
+	}
+	.pathButtons span {
+    		color: white;
+    		position: absolute;
+    		top: calc( 50% + .5em);
+    		font-size: .6em;
+    		font-style: italic;
+   		width: 100%;
+   		text-align: center;
+   		z-index: 1;
+    		left: 0;
+	}
+	/*Missions*/
+	h1.blueBar.right {
+    		font-size: 1.75em;
+		margin-top: 2em;
+	}
+	section.ourMission {
+    		margin-bottom: 4em;
+	}
+	.col-sm-6.hpMission {
+		min-width: 450px;
+	}
+	.ourMission a.callToActionButton {
+	    width: 100%;
+	}
+	.ourMission .col-sm-6 {
+	    padding-bottom: 3em;
+	    padding-left: .5em;
+	    padding-right: .5em;
+	    width: 100%;
+	}
+	/* Events */
+	.eventsContainer .eventTile {
+		width: 100%;
+		width: calc(50% - 3em);
+	}
+	.eventsContainer {
+		height: 100vh;
+		overflow-y: scroll;
+	}
+	.eventTile h1 {
+		margin-top: 0em;
+	}
+  
+	a.callToActionButton {
+		float: right;
+		width: calc(100% - 1em);
+	}
+	.eventNavHandles {
+		display: block!important;
+		position: absolute;
+		left: -0.35em;
+		font-size: 2.5em;
+		height: 50%;
+		background: #ffffff42;
+		padding-top: 3em;
+	}
+	.fa-chevron-right.eventNavHandles {
+		left: unset;
+		right: -0.35em;
+	}
+	section.events {
+		overflow: hidden;
+	}
+	.eventsContainer {
+		float: left;
+		display: block;
+		height: fit-content;
+		overflow-x: scroll;
+		max-width: 100%;
+	}
+	.hpEventsScrollBanner {
+		height: 16em;
+		width: 500vw;
+	}
+	.eventTile {
+		max-width: calc(100vw - 4em);
+		float: left;
+	}
+	.events a.callToActionButton {
+	    width: 100%;
+	}
+
+	/* Courses */
+	.coursesThumbnailContainer .courseTile {
+    		width: calc(100% - 1em);
+	}
+	.onlineCourses a.callToActionButton {
+		margin-top: 2em;
+	}
+	.col-sm-6.ourEvents {
+	    	margin-top: 0em;
+	}
+
+	/* FAQ */
+	h1.redBar {
+    		font-size: 1.75em;
+    		padding-left: .25em;
+	}
+	.faqTile {
+    		width: 100%;
+    		margin-left: 0;
+    		padding-left: .5em;
+    		padding-right: .5em;
+	}
+	
+	
+
+	/* Hide 'recent courses' section on HP */
+	section.upcomingEventsFooter {
+		display: none;
+	}
+
+}
+
+
+@media screen and (max-width: 330px) {
+
+	/* #weteachblockchain title width */
+	.pageHeaderImage .col-sm-6 h1 {
+	    font-size: 1.75em;
+	}
+
+}

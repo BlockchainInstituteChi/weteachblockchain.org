@@ -1,0 +1,179 @@
+---
+layout: default
+title: Component Legend
+stylesheet: courses.css
+ogTitle: Blockchain Institute
+ogDesc: Legend for components
+ogImage: https://weteachblockchain.org/assets/img/headerBackgroundTile.jpg
+ogUrl: https://weteachblockchain.org/legend/
+---
+
+{% include pageHeader.html 
+	img="Homepage_Banner.jpg" 
+	header="Component Legend" 
+	text="The section below shows mock ups of all of the components which can be used on FAQ and lesson pages." 
+%}
+ 
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Definitions</h1>
+
+            {% include callouts/definition.html
+                title="HASHING"
+                bodyText="Creating a unique identifier for a specific piece of data."
+            %}
+        </div>
+
+    </div>
+    
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Notes</h1>
+        
+            {% include callouts/note.html
+                bodyText="plain text body of the note. Will be prefixed with the word 'NOTE:' in bold."
+            %}
+
+        </div>
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        
+        <div class="col-sm-12">
+            <h1>Callouts</h1>
+        
+            {% include callouts/callout.html
+                title="Title"
+                bodyText="html formatted string for the body of the callout"
+            %}
+            
+        </div>
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        
+        <div class="col-sm-12">
+            <h1>Code Snippets</h1>
+            
+            {% include callouts/codeSnippet.html
+                title="The title of the snippet"
+                bodyText="'Lines of code', 'for(as many as you need) {', '  indented with spaces', '}' "
+             %}
+        
+            
+        </div>
+        
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Terminal</h1>
+         
+             {% include callouts/terminal.html
+                title="The title of the example"
+                user="alex@ubuntu"
+                directory="~/"
+                bodyText="A list of commands, separated by commas, and including a "
+             %}             
+            
+        </div>
+        
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Image Gallery Lightbox</h1>
+        
+             {% include callouts/imageGallery.html
+                title="The title of the gallery"
+                imageList="courses/bitcoin-for-developers/1_b-01.png,courses/bitcoin-for-developers/AliceBobKeys-01.png,/courses/bitcoin-for-developers/1_b-01.png,headshots/alex.jpg,map.png,TheBigPicture-01.png"
+             %}             
+            
+        </div>
+        
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Images With Captions</h1>
+            
+            {% include callouts/imageWithCaption.html
+                image="Token-Creation-Cycle-01.jpg"
+                title="The Token Lifecycle"
+                bodyText="1. Tokens are distributed as rewards when a new block is mined. 2. ... "
+            %}
+            
+        </div>
+        
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Image with Text Callout</h1>
+            <span>Images with right aligned callouts can be used when listing brands or concepts that each have an associated image. The images will have a circular border.</span>
+            
+            {% include callouts/imageWithTextCallout.html 
+                title="CryptoKitties"
+                image="Cryptokitties.png"
+                bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."
+            %}
+            
+        </div>
+        
+        
+    </div>
+
+</section>
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Pink Dividers</h1>
+            <span>Pink dividers can be used to separate content.</span>
+            
+            <h3>Top Divider</h3>
+            {% include pinkDivider.html %}
+        
+            <h3>Bottom Divider</h3>
+            {% include pinkDividerBottom.html %}
+            
+        </div>
+        
+
+    </div>
+
+</section>
+
+<section>
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Big Quotes</h1>
+            {% include callouts/bigQuote.html
+                body="Public-key cryptography, or asymmetric cryptography, is a cryptographic system that uses pairs of keys: public keys which may be disseminated widely, and private keys which are known only to the owner. The generation of such keys depends on cryptographic algorithms based on mathematical problems to produce one-way functions. Effective security only requires keeping the private key private; the public key can be openly distributed without compromising security."
+                sourceName="Wikipedia"
+                sourceUrl="https://en.wikipedia.org/wiki/Public-key_cryptography"
+            %}  
+        </div>
+
+    </div>
+
+</section>
+

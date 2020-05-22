@@ -1,0 +1,16 @@
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Recent Courses</h1>
+	<div class="row">
+		{% assign sorted = site.courses | sample: 4 %}
+		{% for course in sorted limit: 4 %}
+            <div class="tileItem"> 
+                <a target="_blank" href="{{ course.permalink }}">
+                    <img src="/assets/img/{{course.image}}"/>
+                    <h1>{{ course.title }}</h1>
+                    <span>{{ course.author }}</span>
+                </a>
+            </div>
+		{% endfor %}
+	</div>
+
+</section>

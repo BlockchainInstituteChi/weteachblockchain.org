@@ -1,0 +1,73 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	section.blueBrickDivider {
+    		height: 2em;
+    		background: #00648c;
+    		margin-bottom: 1.2em;
+	}
+	.header .row {
+    		margin-bottom: 6em;
+	}
+	.hasColorTag::before {
+    		margin-left: -.4em;
+	}
+	h1.hasColorTag.blue {
+    		margin-bottom: 1.75em;
+	}
+	h1.hasColorTag.redRight {
+    		margin-bottom: 1.75em;
+	}
+	.row.person_team {
+    		margin-bottom: 3em;
+	}
+	.row.person_board {
+    		margin-bottom: 3em;
+	}
+	.team img, .board img {
+    		max-width: calc(100% + 3em);
+    		height: 12em;
+	}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden;
+	}
+	a.callToActionButton.rightRedBrick {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        display: block;
+        margin-bottom: 1em;
+        margin-left: 0;
+	margin-bottom: 2.75em;
+    }
+	.header img {
+    		max-width: 100%;
+	}
+	.header .row {
+    		margin-bottom: 3em;
+	}
+	.col-sm-5.leftBlueBrick {
+    		padding-top: 1em;
+	}
+	.col-sm-9 {
+    		padding-left: .5em;
+    		padding-right: .5em;
+	}
+	.hasColorTag {
+    		margin-left: -4.85em;
+	}
+
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

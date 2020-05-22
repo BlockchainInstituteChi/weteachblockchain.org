@@ -1,0 +1,43 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	h1.hasColorTag.red {
+    		margin-left: -3.95em;
+	}
+	a.searchResultLink {
+		width: 100%;
+	}
+	
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	h1.hasColorTag.red {
+	    margin-left: -3.05em;
+	    font-size: 1.35em;
+	}
+	.row {
+	    margin: auto 1.5em;
+	    max-width: calc(100% - 2em);
+	}
+	.oops input {
+	    width: 85%;
+	}
+	.oops button.searchButton {
+	    width: 100%;
+	}
+	.oops a {
+	    width: 15%;
+	}
+	
+
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

@@ -1,0 +1,43 @@
+collections_dir: _collections/
+
+future: true
+
+collections:
+  events: 
+    layout: event
+    output: true  
+
+  courses:
+    output: true
+
+  modules:
+    output: false
+    
+  lessons:
+    output: true
+
+  team:
+    output: false
+
+  board:
+    output: false
+
+  pressReleases:
+    output: false    
+
+  faq:
+    output: true        
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+include: ["node_modules"]
+exclude: []

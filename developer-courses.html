@@ -1,0 +1,73 @@
+---
+layout: default
+title: Developer Courses
+stylesheet: courses.css
+permalink: /courses/developers/
+---
+
+{% include pageHeader.html 
+	img="Developers-Banner.jpg" 
+	header="Developers" 
+	text="If we want to build a new internet, we need all the help we can get. Our developer courses can help you begin your career as a blockchain software professional. <br>All of our courses are 100% Free. Don't wait - Start today!" 
+	ctaText="Start Bitcoin for Developers" 
+	ctaLink="/courses/bitcoin-for-developers/" 
+%}
+
+<section class="breadcrumbs bcCoursePath">
+	<div class="row">
+		<div class="col-sm-12">
+			<a href="/">Home</a> / <a href="/courses/">Courses</a> / <a href="#">Developers</a>
+		</div>
+	</div>
+</section>
+
+<section class="coursesList coursePathHeader">
+	<h1 class="hasColorTag purple">Courses</h1>
+	{% assign sorted = site.courses | sort: 'tags' %}
+	{% for course in sorted %}
+	
+		{% if course.tags contains "developer" %}
+
+			{% include courseListing.html 
+				image=course.image
+				title=course.title 
+				author=course.author 
+				summary=course.summary 
+				link=course.permalink 
+				tag="developer"
+			%}
+		{% endif %}
+	{% endfor %}
+</section>
+
+<section class="pathsList pathPage">
+	<h1 class="hasColorTag teal">Paths</h1>
+	<div class="row">
+		<div class="col-sm-12">
+			<span>
+				Looking for something different?
+			</span>
+		</div>
+	</div>
+	<div class="row pathButtons">
+		<div class="col-sm-4">
+			<a href="/courses/beginners/">
+				<img src="/assets/img/Novice_button.jpg">
+				<h5>Beginners</h5>
+			</a>
+
+		</div>
+		<div class="col-sm-4">
+			<a href="/courses/professionals/">
+				<img src="/assets/img/Professionals_button.jpg">
+				<h5>Professionals</h5>
+			</a>
+			
+		</div>
+		
+	</div>
+</section>
+
+{% include pinkDivider.html %}
+
+{% include upcomingEvents.html %}

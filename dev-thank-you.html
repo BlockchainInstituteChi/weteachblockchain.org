@@ -1,0 +1,37 @@
+---
+layout: default
+title: Thank you for registering!
+stylesheet: thank-you.css
+permalink: /developer-toolkit/thank-you/
+---
+
+<header class="jumbotron text-left tileHeader">
+	  <div class="col-sm-4">
+	  	  <h1>See you <strong class="red">there</strong>!</h1>
+	  	  <span>You're on the list, but please make sure to RSVP on Eventbrite to save your seat.</span>	
+	      <a href="https://www.eventbrite.com/e/blockchain-developer-bootcamp-tickets-85569830667"><button class="learnMoreButton callToAction">Get Tickets</button></a>
+	  </div>
+</header>
+
+<script>
+  fbq('track', 'CompleteRegistration', {
+	value: 1,
+	currency: 'USD',
+  });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 707680373 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-707680373"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-707680373');
+</script>
+
+<!-- Event snippet for Dev Bootcamp Sign-up conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-707680373/mKFbCI7B4bYBEPWwudEC'});
+</script>
+

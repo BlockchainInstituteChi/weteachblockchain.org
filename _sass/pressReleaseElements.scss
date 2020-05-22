@@ -1,0 +1,59 @@
+
+/* Headers */
+.pageHeaderImage a.callToActionButton {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+/*Sections*/
+section.pressReleases {
+    margin-top: -4em;
+    margin-bottom: 6em;
+}
+
+/* Release Items */
+.pressReleases img {
+    width: calc(100% - 1em);
+    margin-left: .5em;
+}
+.pressReleases h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: .05em;
+    margin-top: 1em;
+}
+.pressReleases span {
+    color: #2fae9f;
+    text-transform: uppercase;
+    display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
+    margin-bottom: 2em;
+    margin-left: .6em;
+}
+.pressReleases h3 {
+    padding-left: .3em;
+    padding-top: .5em;
+    color: #0b9ba4;
+}
+.pressReleases p {
+    padding: 0;
+    padding-left: 0.5em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+    width: calc(100% - 1em);
+}
+.pressReleases .col-md-12 {
+    margin-top: 5em;
+    padding: 0em;
+}
+
+.pressReleases span.no-wrap {
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 0;
+}

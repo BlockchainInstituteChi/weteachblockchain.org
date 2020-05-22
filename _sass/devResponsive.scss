@@ -1,0 +1,142 @@
+html, body {
+    overflow-x:hidden;
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+
+	a.nav-link.hideOnDesktop {
+		display: block;
+	}
+	.row {
+    		margin: auto 2em;
+    		max-width: calc(100% - 2em);
+	}
+.bciCallToAction input#mce-EMAIL {
+	    width: calc(100% - 2px);
+	    margin-bottom: 1em;
+	    padding: 0.45em;
+	    box-shadow: 0 0 0 1px black;
+	    margin-left: 0.5px;
+	}
+	.col-sm-6.bciCallout {
+	    margin-top: 5em;
+	    margin-bottom: 5em;
+	    margin-right: 0;
+	    background: white;
+	    height: 24em;
+	}
+	.bciCallout img {
+	    margin: 7em;
+	    margin-right: 7em;
+	    width: calc(100% - 14em);
+	    margin-top: 2.2em;
+	    margin-bottom: 2em;
+	    margin: 5em;
+	    margin-right: 7em;
+	    width: calc(100% - 10em);
+	    margin-top: 2.2em;
+	    margin-bottom: 2em;
+	}
+
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.nav-link.donateNow {
+
+	    margin-right: 0.5em;
+
+	}
+	h1 {
+	    margin-left: 0em;
+	}
+	p {
+    font-size: 1.5em;
+	    padding: 1em;
+	    padding-left: 0em;
+	    padding-right: 0em;
+	}
+	header.jumbotron.text-left.tileHeader {
+	    background: url(/assets/img/dev_mobile_banner.png);
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    position: relative;
+	}
+	button.learnMoreButton {
+	    left: 0;
+	    display: inline-block;
+	    font-size: 1em;
+	    width: 38%;
+	    margin: 1.5em;
+	}
+	button.learnMoreButton.callToAction {
+	    left: 50%;
+	}
+	.bciCallToAction h1 {
+    		margin-top: 3em;
+	}
+	.row {
+	    max-width: unset;
+	    margin: unset;
+	}
+	.row {
+	    margin: 0 1em;
+	    max-width: 100%;
+	}
+	section.container {
+	    padding-top: 0em;
+	    padding-bottom: 3em;
+	}	
+	section#learnMore {
+	    margin-top: 3em;
+	}
+	.container-fluid.footer {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	/* Mobile Image Handling */
+	#curatedMap {
+		display: none;
+	}
+
+	#wallets {
+		order: 2;
+	}
+
+	#fundamentals {
+		order: 2;
+	}
+
+	#layer-2 {
+		order: 2;
+	}
+
+	#private {
+		order: 2;
+	}
+
+	#free {
+		order: 2;
+	}
+	.imagefloater img {
+    max-width: 80%;
+	    padding: 0;
+	    margin: 0;
+	    margin-top: 0em;
+	    margin-bottom: 3em;
+	}
+}
+
+
+@media screen and (max-width: 330px) {
+	button.learnMoreButton {
+		font-size: 1.75em !important;
+	}
+	.col-sm-6 h1 {
+	    font-size: 1.95em !important;
+	    margin-left: 0.3em !important;
+	}
+}

@@ -1,0 +1,30 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+	html, body {
+	    overflow-x:hidden;
+	}
+.pressReleases img {
+    max-width: calc(100% - 1em);
+}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	html, body {
+    		overflow-x:hidden !important;
+	}
+    .pressReleases .col-md-12 {
+        padding-left: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

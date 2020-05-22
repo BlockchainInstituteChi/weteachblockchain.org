@@ -1,0 +1,95 @@
+/* Tablet */
+@media screen and (max-width: 800px) {
+	html, body {
+    		overflow-x:hidden;
+	}
+	section.header {
+    		margin-bottom: 2em;
+	}
+	h1.hasColorTag.teal {
+    		margin-left: -3.65em;
+    		margin-bottom: .5em;
+	}
+	.eventMain h1::before {
+    		left: -4.25em;
+	}
+	a.rsvp {
+    		padding: 0.5em 1em 0.5em 1em;
+    		background: #ed0744;
+   		color: white;
+		font-weight: 500;
+		display: block;
+    		float: right;
+    		top: .5em;
+    		position: absolute;
+    		right: 0em;
+	}
+	.col-md-3.eventSidebar {
+    		margin-top: 0em;
+    		padding: 0em;
+	}
+	.eventTile h1 {
+    		text-transform: uppercase;
+    		color: black;
+    		font-size: 1.25em;
+    		padding-top: .5em;
+    		line-height: 1em;
+    		padding-left: 0em;
+    		margin-bottom: 0em;
+    		text-transform: uppercase;
+    		font-size: 1em;
+    		margin-top: 0em;
+    		line-height: 1em;
+	}
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.eventMain h1::before {
+    		left: -4.5em;
+	}
+
+	.eventTile {
+        	width: 100%;
+		margin: .4em;
+    	}
+	section.header {
+	    margin-left: 2em;
+  	    margin-right: 2em;
+	}
+	.eventSidebar .eventTile {
+    		width: 95.5%;
+	}
+	.row.container {
+    		padding: 0em;
+	}
+	.col-md-9.eventMain {
+    		padding: 0em .5em 0em 0.5em;
+	}
+	.breadcrumbs .row {
+	    margin-left: .6em;
+	}
+	a.rsvp {
+    		font-size: .75em;
+	}
+	section.eventOverview {
+	    margin-bottom: 4em;
+	}
+	h1.hasColorTag.teal {
+    		margin-left: -1.8em;
+    		margin-bottom: .5em;
+	}
+	section.breadcrumbs {
+    		padding-top: 0em;
+    		padding-left: 1em;
+	}
+	.eventSidebar .eventTile {
+    		width: 96.4%;
+	}
+}
+
+
+@media screen and (max-width: 330px) {
+
+}

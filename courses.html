@@ -1,0 +1,74 @@
+---
+layout: default
+title: Courses
+stylesheet: courses.css
+permalink: /courses/
+---
+
+{% include pageHeader.html 
+	img="Courses-Banner.jpg" 
+	header="Course Catalog" 
+	text="Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, your industry is looking for blockchain solutions, or you are just curious, we're here to help! All of our courses are 100% FREE. Start now." 
+	ctaText="Learn Blockchain Free Today!" 
+	ctaLink="/courses/blockchain-101/" 
+%}
+
+<section class="breadcrumbs">
+	<div class="row container">
+		<div class="col-sm-12">
+			<a href="/">Home</a> / <a href="#">Courses</a>
+		</div>
+	</div>
+</section>
+
+<section class="pathsList">
+	<h1 class="hasColorTag teal">Education Paths</h1>
+	<div class="row">
+		<div class="col-sm-12">
+			<span>
+				Select an option from the list below to see courses for your needs. 
+			</span>
+		</div>
+	</div>
+	<div class="row pathButtons">
+		<div class="col-sm-4">
+			<a href="/courses/beginners/">
+				<img src="/assets/img/Novice_button.jpg">
+				<h5>Beginners</h5>
+			</a>
+		</div>
+		<div class="col-sm-4">
+			<a href="/courses/developers/">
+				<img src="/assets/img/Developers_button.jpg">
+				<h5>Developers</h5>
+			</a>
+		</div>
+		<div class="col-sm-4">
+			<a href="/courses/professionals/">
+				<img src="/assets/img/Professionals_button.jpg">
+				<h5>Professionals</h5>
+			</a>
+			
+		</div>
+		
+	</div>
+</section>
+
+<section class="coursesList">
+	<h1 class="hasColorTag purple">Courses</h1>
+	{% assign sorted = site.courses | sort: 'tags' %}
+	{% for course in sorted %}
+		{% include courseListing.html 
+			image=course.image
+			title=course.title 
+			author=course.author 
+			summary=course.summary 
+			link=course.permalink 
+			tag=course.primaryTag	
+		%}
+	{% endfor %}
+</section>
+
+{% include pinkDivider.html %}
+
+{% include upcomingEvents.html %}

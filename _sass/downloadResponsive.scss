@@ -1,0 +1,39 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+.tileItem.downloadItem {
+    min-height: 6em;
+    width: calc(25% - 1em);
+}
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.downloadsRowContainer .tileItem {
+        width: 100%;
+        margin-bottom: 2.5em;
+    }
+    .downloadsRowContainer {
+        overflow-x: hidden;
+    }
+h1 {
+    padding-left: 0.3em;
+}
+.tileItem h1 {
+    margin-left: 0em;
+}
+.tileItem img {
+    width: calc(100% - 1em);
+}
+
+
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

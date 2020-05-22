@@ -1,0 +1,78 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark static-top">
+    <a class="navbar-brand" href="/">
+      <img src="/assets/img/logo.jpg" width="200px" alt="">
+    </a>
+    <!-- <ul class="navbar-nav flex-row">
+      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fab fa-twitter"></i></a></li>
+      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
+      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
+    </ul> -->
+    <button class="navbar-toggler" id="normalNavBarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">  
+        <!-- <li class="nav-item contactUsLink">
+          <a href="/contact-us/">Contact Us</a>
+        </li> -->
+        <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
+        <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
+        <li class="nav-item ml-auto" id="accountToggle"><a class="nav-link px-s fload-right" onclick="toggleDisplayAccountBox()" ><i class="fas fa-user-circle"></i></a></li>
+        <li class="nav-item donations">
+          <a class="nav-link donateNow" target="_blank" href="http://donate.weteachblockchain.org">
+          Donate!
+          </a>
+        </li>
+      </ul>
+
+      <div id="searchLightbox" class="searchBox d-none">
+        <span class="cancelSearchButton" onclick="cancelSearch()">✖</span>
+        <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults('searchResults', 'searchInput')">
+        <div id="searchResults" class="searchResults">
+          <span class="loading">Loading ... </span>
+        </div>
+      </div>
+
+      <div id="accountDropdown" class="hoverNavbox account d-none">
+        <div class="row">
+          <div class="col-sm-3">
+            <!-- @jason - please replace these with appropriate images and upload them to -->
+            <img class="accountLight redlight d-none" src="/assets/img/icon/redlight.png">
+            <img class="accountLight greyswirl" src="/assets/img/icon/greyswirl.png">
+          </div>
+          <div class="col-sm-9">
+            <div id="app">Loading...</div>
+          </div>
+        </div>
+        <script>
+          renderMagic();
+        </script>
+      </div>
+      
+      <div id="navBox" class="hoverNavbox d-none"  tabindex="3" onfocusout="closeOtherLightboxBeforeOpening()">
+        <div class="row">
+          {% for item in site.data.navigation %}
+          <div class="col-sm-4">
+            <h3>{{ item.header }}</h3>
+            <ul> 
+              {% for child in item.children %}
+                <li class="nav-item">
+                  <a class="nav-link {{ child.class }}" href="{{ child.link }}">
+                    {{ child.name }}
+                  </a>
+                </li> 
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}  
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<div class="navAutoCloseCover d-none" id="navAutoCloseCover" onclick="closeAllLightboxes()"></div>

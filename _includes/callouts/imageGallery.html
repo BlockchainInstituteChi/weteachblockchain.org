@@ -1,0 +1,102 @@
+<div class="row photoLightbox">
+    <div class="col-md-12">
+        <h2>{{ include.title }}</h2>
+        {% assign images = include.imageList | split: ',' %}
+        <div class="imageGallery">
+            {% for image in images %}
+                <img onclick="toggleFullScreen('{{ image }}')" src="/assets/img/{{ image }}">
+            {% endfor %} 
+        </div> 
+    </div>
+</div>
+
+<div id="imageLightbox" class="lightbox d-none">
+    <span class="imageLightboxCancel" onclick="toggleFullScreen()">✖</span>
+    <img id="lightBoxImage" src="">
+    <span id="lightBoxCaption"></span>
+    <span id="lastImage" class="imageGalleryNav" onclick="lastImage()"><i class="fas fa-chevron-left"></i></span>
+    <span id="nextImage" class="imageGalleryNav" onclick="nextImage()"><i class="fas fa-chevron-right"></i></span>
+</div>
+
+<script>
+
+var imageList = [
+    {% for image in images %}
+        '{{ image }}',
+    {% endfor %} 
+]
+
+function getCurrentIndex () {
+    return imageList.indexOf(document.getElementById('lightBoxImage').src.split('/').pop())
+}
+
+function lastImage () {
+    setImage (imageList[getCurrentIndex() - 1]) 
+    hideOrDisplayNavButtons()    
+}
+
+function nextImage () {
+    var ci = getCurrentIndex()
+    setImage (imageList[getCurrentIndex() + 1]) 
+    hideOrDisplayNavButtons()
+}
+
+function hideOrDisplayNavButtons () {
+    var ci = getCurrentIndex()
+    if ( imageList.length === (ci + 1) ) {
+        hideNextButton();
+    } else {
+        displayNextButton();
+    }
+
+    if ( 0 === ci ) {
+        hideLastButton()
+    } else {
+        displayLastButton();
+    }
+
+}
+
+function hideNextButton () {
+    document.getElementById('nextImage').className += " d-none"
+}
+
+function displayNextButton () {
+    document.getElementById('nextImage').className = document.getElementById('nextImage').className.split("d-none").join('')
+}
+
+function hideLastButton () {
+    document.getElementById('lastImage').className += " d-none"
+}
+
+function displayLastButton () {
+    document.getElementById('lastImage').className = document.getElementById('lastImage').className.split("d-none").join('')
+}
+
+function toggleFullScreen (imageName) {
+    console.log('toggleFullScreen triggered for image', imageName)
+
+    // First check if the image is already set
+    var image = document.getElementById('lightBoxImage')
+    if ( !imageName || ( imageName === '' ) || ( imageName === ' ' ) ) {
+        // do nothing
+    } else {
+        setImage(imageName)
+    }
+
+    // display the lightbox
+    var imageLightbox = document.getElementById('imageLightbox')
+    if ( imageLightbox.className.split('d-none').length > 1 ) {
+        document.getElementById('imageLightbox').className = imageLightbox.className.split('d-none').join('')
+    } else {
+        document.getElementById('imageLightbox').className = imageLightbox.className + ' d-none'
+    }  
+
+    hideOrDisplayNavButtons()
+}
+
+function setImage (imageName) {
+    document.getElementById('lightBoxImage').src = "/assets/img/" + imageName;
+}
+
+</script>

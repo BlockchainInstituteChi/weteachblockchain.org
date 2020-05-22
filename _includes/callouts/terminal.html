@@ -1,0 +1,21 @@
+<div class="row terminal">
+    <div class="col-md-1">
+        <span>>_</span>
+    </div>
+    <div class="col-md-11">
+        <h1>{{ includes.title }}</h1>
+        <div class="col-md-11 terminalBody">
+            <h1>{{ include.title }}</h1>
+            {% assign rows = include.bodyText | split: ',' %}
+            {% for row in rows %}
+                <div class="shellField">
+                   <span class="userName">
+                       {{ include.user }}:
+                       <span class="directory"> {{ include.directory}} </span>$ 
+                    </span> 
+                    {{ row }}
+                </div>
+            {% endfor %}  
+        </div>
+    </div>
+</div>

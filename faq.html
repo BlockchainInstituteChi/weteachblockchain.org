@@ -1,0 +1,30 @@
+---
+layout: default
+title: Frequently Asked Questions
+stylesheet: faq.css
+permalink: /faq/
+---
+
+{% include pageHeader.html 
+	img="FAQ-banner.png" 
+	header="Frequently Asked Questions" 
+    text="Not sure where to start? Feeling lost in a world of new terms and concepts? Our FAQs explain information in digestible bits to help you get started."	
+    ctaText="What FAQ should we do next? Let us know!" 
+	ctaLink="/contact-us/" 
+%}
+
+<section class="faqList upcoming">
+	<h1 class="hasColorTag red">FAQs</h1>
+	<div class="row">
+		{% assign faqs = site.faq | sort: 'weight' %}
+		{% for item in faqs  %}
+			{% include faqTile.html 
+				image=item.image
+				link=item.permalink
+				title=item.title
+				author=item.tag
+			%}
+		{% endfor %}
+	</div>
+</section>
+
