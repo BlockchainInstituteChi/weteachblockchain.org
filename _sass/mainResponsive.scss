@@ -420,12 +420,12 @@
         width: 88%;
         margin-bottom: 0em;
     }
-.upcomingEventsFooter h1 {
-    margin-left: 0.5em;
-    padding-left: 0.15em;
-    margin-bottom: 0.5em;
-    width: 10em;
-}
+	.upcomingEventsFooter h1 {
+		margin-left: 0.5em;
+		padding-left: 0.15em;
+		margin-bottom: 0.5em;
+		width: 10em;
+	}
 	.hasColorTag {
     		margin-left: -1.5em;
 	}
@@ -453,8 +453,14 @@
     		display: inline-flex;
 	}
 	
- 
+	/* Nav Sidebar Adjustments */
+	ul.navbar-nav.ml-auto.desktopNav {
+		display: none;
+	}
 
+	.mobileNavSidebar {
+		display: block;
+	}
 }
 
 

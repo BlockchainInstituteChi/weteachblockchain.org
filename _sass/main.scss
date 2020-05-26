@@ -849,3 +849,55 @@ div#accountDropdown {
 .uppercase {
     text-transform: uppercase;
 }
+.mobileNavSidebar {
+    display: none;
+}
+.mobileNavSidebar {
+    display: none;
+    width: calc(100vw - 3em);
+    position: absolute;
+    height: calc(100vh - 5.05em);
+    left: 3em;
+    top: 5.05em;
+    background: #149ba4;
+    z-index: 999;
+    color: white;
+    float: left;
+    overflow: scroll;
+}
+.mobileNavSidebar li {
+    list-style: none;
+    text-align: left;
+}
+.mobileNavSidebar h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    margin-top: 0.25em;
+}
+.mobileNavSidebar a {
+    color: white !important;
+}
+.mobileNavSidebar ul {
+    margin-left: 0;
+    padding: 0;
+}
+.mobileNavSidebar .master li {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px white solid;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.25em;
+}
+.mobileNavSidebar .master .donate {
+    background: red;
+    border: 1px red solid;
+}
+.mobileNavSidebar .master a {
+    font-weight: 500;
+}
+.mobileNavSidebar .master i.fa.fa-search {
+    color: white;
+}

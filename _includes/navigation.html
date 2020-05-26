@@ -13,7 +13,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">  
+      <ul class="navbar-nav ml-auto desktopNav">  
         <!-- <li class="nav-item contactUsLink">
           <a href="/contact-us/">Contact Us</a>
         </li> -->
@@ -26,6 +26,33 @@
           </a>
         </li>
       </ul>
+
+      <div class="mobileNavSidebar">
+        {% for item in site.data.navigation %}
+            <h3>{{ item.header }}</h3>
+            <ul> 
+              {% for child in item.children %}
+                <li class="nav-item">
+                  <a class="nav-link {{ child.class }}" href="{{ child.link }}">
+                    {{ child.name }}
+                  </a>
+                </li> 
+              {% endfor %}
+            </ul>
+          {% endfor %}  
+          <ul class="master">
+            <li class="search">
+              <a onclick="toggleDisplaySearchLightbox()" href="#">
+                <i class="fa fa-search"></i> Search 
+              </a>
+            </li>
+            <li class="donate">
+              <a target="_blank" href="http://donate.weteachblockchain.org">
+              Donate!
+              </a>
+            </li>
+          </ul>
+      </div>
 
       <div id="searchLightbox" class="searchBox d-none">
         <span class="cancelSearchButton" onclick="cancelSearch()">✖</span>
