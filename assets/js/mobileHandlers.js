@@ -12,9 +12,15 @@ window.onresize = function () {
 }
 
 function reviseForMobile () {
+    
     if (mobiCheck) {
-        toggleDisplayNavBox ();
-        document.getElementById('navBoxToggle').className = "d-none";
+
+        // The following two lines were disabled after the mobile sidebar was added on May 26, 2020
+        // They remain here for reference only :) - Alex
+        
+        // toggleDisplayNavBox ();
+        // document.getElementById('navBoxToggle').className = "d-none";
+
     }
 }
 

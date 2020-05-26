@@ -281,13 +281,13 @@
         text-align: center;
         padding-left: 0;
     }
-.footer li.nav-item {
-    margin-left: 0;
-    font-size: 1.5em;
-    padding: 0.25em;
-    padding-left: 0;
-    padding-top: .5em;
-}
+	.footer li.nav-item {
+		margin-left: 0;
+		font-size: 1.5em;
+		padding: 0.25em;
+		padding-left: 0;
+		padding-top: .5em;
+	}
 	h4.float-right {
     		float: none !important;
 	}
@@ -302,7 +302,17 @@
         text-align: center;
     }
 
-
+	/* Nav Sidebar Adjustments */
+	ul.navbar-nav.ml-auto.desktopNav {
+		display: none;
+	}
+	.mobileNavSidebar {
+		top: calc(4.72em - 1px);
+		display: block;
+	}
+	div#navbarResponsive {
+		height: 0 !important;
+	}
 } 
 
 /* Mobile */
@@ -453,12 +463,8 @@
     		display: inline-flex;
 	}
 	
-	/* Nav Sidebar Adjustments */
-	ul.navbar-nav.ml-auto.desktopNav {
-		display: none;
-	}
-
 	.mobileNavSidebar {
+		top: calc(5.05em - 1px);
 		display: block;
 	}
 }

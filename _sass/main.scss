@@ -854,16 +854,18 @@ div#accountDropdown {
 }
 .mobileNavSidebar {
     display: none;
-    width: calc(100vw - 3em);
     position: absolute;
     height: calc(100vh - 5.05em);
-    left: 3em;
-    top: 5.05em;
+    max-width: 250px;
+    min-width: 250px;
+    right: -1px;
+    left: unset;
     background: #149ba4;
     z-index: 999;
     color: white;
-    float: left;
-    overflow: scroll;
+    float: right;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .mobileNavSidebar li {
     list-style: none;
@@ -892,8 +894,8 @@ div#accountDropdown {
     margin-bottom: 0.25em;
 }
 .mobileNavSidebar .master .donate {
-    background: red;
-    border: 1px red solid;
+    background: $brand-red;
+    border: 1px $brand-red solid;
 }
 .mobileNavSidebar .master a {
     font-weight: 500;
