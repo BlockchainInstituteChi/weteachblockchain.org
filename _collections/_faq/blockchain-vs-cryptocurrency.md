@@ -1,6 +1,6 @@
 ---
 title: Blockchain vs Cryptocurrency
-image: Difference.png
+image: Difference.jpg
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
@@ -8,7 +8,7 @@ learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
 weight: 2
 ---
-<img src="/assets/img/courses/blockchain-101/Blockchain-01-1.png">
+<img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg">
 
 <h3>What is a Blockchain?</h3>
 <span>Blockchains are distributed ledgers that are secured by cryptography. They are essentially public databases where everyone can add to or view the database at any time. Instead of the data residing on a single centralized server, the data is copied across thousands and thousands of computers worldwide, allowing each computer access to this database. Transactions are compiled into data-holding vehicles known as "blocks". The consecutive string of every block ever executed makes up a blockchain: a distributed database of chronologically ordered transactions.</span> 

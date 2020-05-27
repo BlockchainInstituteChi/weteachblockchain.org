@@ -2,7 +2,7 @@
 title: 2018 In Review
 date: 2018-12-31
 eventdate: December 31st, 2018
-image: /assets/img/bi_edu.png
+image: /assets/img/bi_edu.jpg
 ---
 
 <p>The Blockchain Institute was founded in 2018 to promote the adoption and development of distributed ledger technology. The founding year has been an exciting one for blockchain and decentralized technology.</p>

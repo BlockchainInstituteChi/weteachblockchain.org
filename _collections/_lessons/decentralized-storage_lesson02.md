@@ -13,7 +13,7 @@ permalink: /courses/decentralized-storage/1/background/
 Storage is a key component of computers. <a href="https://en.wikipedia.org/wiki/Player_piano">Player Pianos</a>, dating back to the early 18th century, were the first real form of digital storage. The notches on a steel cylinder pulled tensioned lines, effectively playing a song when the springs were pulled by an attendant. Our modern hard drives are not much more complex than this, using electrical charge rather than the mechanical potential of spring, but otherwise very similar.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/decentralized-storage/DistributedNetworks-01.png"
+	image="/courses/decentralized-storage/DistributedNetworks-01.jpg"
 	title="<b>DISTRIBUTED NETWORKS:</b>"
 	bodyText="<b>A:</b> <i>Centralized;</i> <b>B:</b> <i>Decentralized;</i> <b>C:</b> <i>Distributed.</i>
   A distributed network is a type of computer network that is spread over different nodes. This provides a single data communication network, which can be managed jointly or separately by each network. Besides sharing information within the network, a distributed network often also delegates processing."

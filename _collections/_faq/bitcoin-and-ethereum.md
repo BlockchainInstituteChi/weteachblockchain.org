@@ -1,6 +1,6 @@
 ---
 title: Bitcoin vs Ethereum
-image: Difference_BC-Eth.png
+image: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
 tag: WHAT'S THE DIFFERENCE? 
@@ -8,7 +8,7 @@ learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: Our Ethereum 101 Course
 weight: 4
 ---
-<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.png">
+<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg">
 
 <span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
 

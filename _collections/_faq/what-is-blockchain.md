@@ -1,6 +1,6 @@
 ---
 title: What is a Blockchain?
-image: blockchain.png
+image: blockchain.jpg
 permalink: /faq/what-is-blockchain/
 layout: faq
 tag: CONCEPTS 

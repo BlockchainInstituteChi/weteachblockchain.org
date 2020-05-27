@@ -16,7 +16,7 @@ We think of Bitcoin and cryptocurrency as a rather new technology, and it is, bu
 
 When HTTP error codes were being created, code 402 Payment Required, was held for future use.
 
-<img src="/assets/img/courses/bitcoin-for-developers/Hannah5b-01-s.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah5b-01-s.jpg" />
 
 Subsequently, there were many digital currency experiments prior to Bitcoin. Here’s a list of some fairly successful ones:
 
@@ -32,7 +32,7 @@ While these systems worked, they had a serious drawback that was lamented by man
 
 Digital goods are very easy to copy. As in copy/paste easy to copy.
 
-<img src="/assets/img/courses/bitcoin-for-developers/1-01.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/1-01.jpg" />
 
 When you have a string of data that represents a digital coin, you can use cryptography to prove origin, but you can’t prevent duplication.
 
@@ -40,7 +40,7 @@ For example, let’s imagine that Alice has only one coin and yet she owes both 
 
 A central server can be used to prevent double spends--but is there another way?
 
-<img src="/assets/img/courses/bitcoin-for-developers/1-02.png"  />
+<img src="/assets/img/courses/bitcoin-for-developers/1-02.jpg"  />
 
 In the server-client model, payments can’t go directly from Alice to Bob, instead they first need to go through the central server which does the work of debiting Alice’s account and crediting Bob’s account.
 
@@ -51,7 +51,7 @@ The<a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener noref
 The whitepaper should certainly be read by anyone looking to understand this technology and its origins. But to summarized, Satoshi wanted to replace the centralized server with a peer-to-peer network which would then do the work of keeping track of who has what and when.
 
 {% include callouts/imageWithCaption.html
-    image="courses/bitcoin-for-developers/ByzantineGenerals2-01.png"
+    image="courses/bitcoin-for-developers/ByzantineGenerals2-01.jpg"
     title="The Byzantine Generals Problem"
     bodyText="<i>General;</i> <b>B:</b> <i>Traitor.</i> Byzantine Generals problem is an old fashioned analogy for a modern computing problem. The analogy is an army of generals encircling an enemy city. To defeat the enemy the generals must attack at the same time. However, there may be traitors amongst them. How do they coordinate this data and agree upon an attack time in hostile territory with the possibility of traitors?"
 %}

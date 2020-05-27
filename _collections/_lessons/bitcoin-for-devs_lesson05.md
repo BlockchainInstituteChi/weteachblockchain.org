@@ -20,12 +20,12 @@ Cryptocurrencies are called so because <b>cryptography</b> is the material they 
 
 Alice and Bob want to communicate securely with one another.
 
-<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-02.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-02.jpg" />
 
 To do this Alice creates a message to Bob and scrambles it using a specific formula also called an encryption algorithm. This is done using a secret, or a key.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/SharedKey-01.png"
+	image="/courses/bitcoin-for-developers/SharedKey-01.jpg"
 	title="Encryption Process"
 	bodyText="<b>A:</b> <i>Plain text;</i> <b>B:</b> <i>Encryption Algorithm;</i> <b>C:</b> <i>Cypher text;</i> <b>D:</b> <i>Shared Key.</i>"
 %}
@@ -48,7 +48,7 @@ If Bob knows this formula, then Alice can securely transmit this message to Bob,
 
 This works just fine; the problem is with transmitting the key to Bob. How do you securely transfer the key? Anyone who intercepts it will be able to read all the communication between Alice and Bob.
 
-<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-05.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-05.jpg" />
 
 This is a fundamental weakness in symmetric cryptography that was solved by asymmetric cryptography. Lets see how it's done in the next lesson!
 

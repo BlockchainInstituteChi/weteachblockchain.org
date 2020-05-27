@@ -10,14 +10,14 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 <span class="openingParagraph">In 2013, a cryptocurrency researcher named Vitalik Buterin wrote a whitepaper proposing a wider conceptual version of the blockchain. Buterin labeled his concept as Ethereum, and suggested that it would provide greater utility by allowing block data to include executable code which peers could run for each other in a complete computing environment. </span>
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ethereum-101/Vitalik-01.png"
+	image="/courses/ethereum-101/Vitalik-01.jpg"
 	title=""
 	bodyText="VITALIK BUTERIN // Forbes.com"
 %}
 
 <h3>BIRTH OF THE MACHINE</h3>
 {% include callouts/imageWithCaption.html
-	image="courses/ethereum-101/EthState-01.png"
+	image="courses/ethereum-101/EthState-01.jpg"
 	title="The State Machine"
 	bodyText="Because Ethereum is a complete virtual machine, and not simply a data block like Bitcoin, it is possible to store more complex information. In particular, when a new address is created on the network, as shown above, the network uses a state transition event to track the changes. The <b>state</b> of the machine is maintained communally by all notes, making it possible to treat it as essentially tamper-proof."
 %}
@@ -26,7 +26,7 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 <h4>Aside: Turing Completeness</h4>
 <span >When a computer is not limited to the execution of a particular type of computation task, we call this Turing complete. Another way of referring to this state is computational universality, because broadly speaking, all Turing complete machines are interchangeable.</span>
 
-<img src="/assets/img/courses/ethereum-101/Turing-01.png" />
+<img src="/assets/img/courses/ethereum-101/Turing-01.jpg" />
 
 <span >In a decentralized context, this means that any code submitted to the network can be computed reliably by every node. The EVM is thereby able to operate as a single computer even though it runs on separate devices all around the world.</span>
 
@@ -47,7 +47,7 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 
 <span >Just like in the early days of Bitcoin, Ethereum's initial direction took shape over forums and via Github. As the project progressed, the non-profit Ethereum Foundation was established to provide oversight of the growth of the fledgling currency. </span>
 
-<img src="/assets/img/courses/ethereum-101/Governance-01.png" />
+<img src="/assets/img/courses/ethereum-101/Governance-01.jpg" />
 
 <span >Once a proposed idea has gained momentum through community discussion, it can be formalized as an Ethereum Request for Comment (ERC). If an ERC is adopted by the community, a clearly defined Ethereum Implementation Proposal (EIP) can be created, and developers can begin to collaborate to build the new feature. Once a formal EIP has been produced, funding is sometimes allocated in the form of a bounty from the Foundation or other parties within the Ethereum community. </span>
 

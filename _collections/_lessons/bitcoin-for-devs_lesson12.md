@@ -18,7 +18,7 @@ Cryptocurrency wallets have evolved substantially since the first wallet which w
 
 <h3>JBOK, OR JUST A BUNCH OF KEYS WALLETS</h3>
 
-<img src="/assets/img/courses/bitcoin-for-developers/KWallets-01.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/KWallets-01.jpg" />
 
 This type of wallet is simply a collection of randomly generated private keys with no particular relation to one another.
 
@@ -69,7 +69,7 @@ Once the seed words have been selected, a “<a href="https://en.wikipedia.org/w
 Once the mnemonic phrase and salt has been selected, they are run through a “key stretching function”. This function hashes the data 2048 times! Which produces the 512-bit wallet seed.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/Mnemonicseeds-01-1.png"
+	image="/courses/bitcoin-for-developers/Mnemonicseeds-01-1.jpg"
 	title="<b>MNEMONIC TO SEED</b>"
 	bodyText="<b>A:</b> <i>Mnemonic Code Words;</i> <b>B:</b> <i>Salt;</i> <b>C:</b> <i>Key Stretching Function;</i> <b>A:</b> <i>M512-Bit Seed.</i>"
 %}

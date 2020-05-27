@@ -1,6 +1,6 @@
 ---
 title: What is Decentralized Storage?
-image: DStorage.png
+image: DStorage.jpg
 permalink: /faq/decentralized-storage/
 layout: faq
 tag: APPLICATIONS

@@ -14,12 +14,12 @@ permalink: /courses/blockchain-101/03/application-of-smart-contracts
 
 {% include callouts/imageWithTextCallout.html 
     title="CryptoKitties"
-    image="/courses/blockchain-101/cryptokitties.png"
+    image="/courses/blockchain-101/cryptokitties.jpg"
     bodyText="A popular collectible dApp released in 2017. Users could bid on digital cats in the form of ERC-721 tokens. This proved to be one of the first “viral” dApps which rapidly gained popularity. As a result, the Ethereum network quickly became overloaded, as it could not process the transactions that were being conducted, resulting in a backlog and very high fees. This incident displayed the limitations of the Ethereum blockchain and showed that the network would have to scale to meet real-world demand."
 %}
 {% include callouts/imageWithTextCallout.html
     title="Uport"
-    image="/courses/blockchain-101/uport.png"
+    image="/courses/blockchain-101/uport.jpg"
     bodyText="Large internet based entities, such as Google and Facebook, offer identity management features.<br>This requires users to submit personal data, the likes of which are often targeted in hacks. <br>If any of these services were to experience a catastrophic failure, it would be very difficult to use any applications that used these third parties as a means of verification. Uport acts as a platform for decentralized verification of identity."
 %}
 {% include callouts/imageWithTextCallout.html 

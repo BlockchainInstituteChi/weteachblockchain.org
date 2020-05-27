@@ -1,6 +1,6 @@
 ---
 title: Coins vs Tokens
-image: coins-vs-tokens.png
+image: coins-vs-tokens.jpg
 permalink: /faq/coins-vs-tokens/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?

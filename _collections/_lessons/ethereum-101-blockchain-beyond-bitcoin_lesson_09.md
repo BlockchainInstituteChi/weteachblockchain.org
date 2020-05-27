@@ -20,7 +20,7 @@ Throughout this module we've explored how the Ethereum Virtual Machine can be us
 
 <hr />
 
-<img src="/assets/img/courses/ethereum-101/Challenges_Advantages-01.png" />
+<img src="/assets/img/courses/ethereum-101/Challenges_Advantages-01.jpg" />
 
 <span>The first step is to verify that the problem you want to solve is actually possible to approach with a decentralized solution. </span>
 <ol>
@@ -35,7 +35,7 @@ Throughout this module we've explored how the Ethereum Virtual Machine can be us
 
 <hr />
 
-<img src="/assets/img/courses/ethereum-101/Challenges_Advantages-02.png" />
+<img src="/assets/img/courses/ethereum-101/Challenges_Advantages-02.jpg" />
 
 <span >If the answer to all of the last questions was "Yes" then it may also help to confirm that a blockchain-based solution is appropriate. There could be an easier or cheaper alternative, so it's best to consider whether a decentralized solution is actually the optimal course.</span>
 <ol>

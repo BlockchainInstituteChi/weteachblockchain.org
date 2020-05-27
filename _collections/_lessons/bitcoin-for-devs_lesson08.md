@@ -27,7 +27,7 @@ Proposed changes should first be discussed on the <a href="https://lists.linuxfo
 Once a proposed change becomes a BIP it goes through peer review and the below process.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/Process-01.png"
+	image="/courses/bitcoin-for-developers/Process-01.jpg"
 	title=""
 	bodyText="<b>A:</b> <i>Draft;</i> <b>B:</b> <i>Deferred;</i> <b>C:</b> <i>Accepted;</i> <b>D:</b> <i>Rejected;</i> <b>E:</b> <i>Withdrawn;</i> <b>F:</b> <i>Final;</i> <b>G:</b> <i>Replaced;</i> <b>H:</b> <i>Active.</i>"
 %}

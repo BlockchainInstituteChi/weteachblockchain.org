@@ -5,7 +5,7 @@ module: 3
 title: Next Steps
 permalink: /courses/hyperledger/3/next-steps
 ---
-<img src="/assets/img/Conclusion-01-2.png" />
+<img src="/assets/img/Conclusion-01-2.jpg" />
 
 <h3>YOU'VE COMPLETED OUR HYPERLEDGER COURSE!</h3>
 

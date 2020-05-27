@@ -21,7 +21,7 @@ In a Hyperledger app, a transaction can be required to find multiple endorsement
 To initiate a transaction, the client creates a properly formatted proposal via the Hyperledger Software Development Kit (SDK), and signs it from their identity, and then transmits it to the network for approval.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-01.png"
+	image="/courses/private-blockchains/TransactionFlow-01.jpg"
 	title="CLIENT INITIATES TRANSACTIONS // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>Client A;</i> <b>B:</b> <i>SDK;</i> <b>C:</b> <i>Proposal;</i> <b>D:</b> <i>Peers.</i>"
 %}
@@ -30,7 +30,7 @@ To initiate a transaction, the client creates a properly formatted proposal via 
 If an Endorsing Peer receives a transaction with a valid signature from a known peer, they can execute it and sign a Proposal Response, which can be passed to the wider network as a change to the state object.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-02.png"
+	image="/courses/private-blockchains/TransactionFlow-02.jpg"
 	title="ENDORSING PEERS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i>"
 %}
@@ -39,7 +39,7 @@ If an Endorsing Peer receives a transaction with a valid signature from a known 
 Proposal Responses are transmitted across the network and inspected by each node independently using the SDK. The nodes can then endorse the proposal as well, or simply act as witnesses.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-03.png"
+	image="/courses/private-blockchains/TransactionFlow-03.jpg"
 	title="PROPOSAL RESPONSES ARE INSPECTED // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>SDK.</i>"
 %}
@@ -48,7 +48,7 @@ Proposal Responses are transmitted across the network and inspected by each node
 Once a predetermined minimum endorsements is met, the client software can assemble them into a Transaction, or State Transition, which is passed to the Ordering nodes, which will add it to the blockchain.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-04.png"
+	image="/courses/private-blockchains/TransactionFlow-04.jpg"
 	title="CLIENT ASSEMBLES... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>SDK;</i> <b>B:</b> <i>Channels;</i> <b>C:</b> <i>Ordering Service;</i> <b>D:</b> <i>Ordered Transactions.</i>"
 %}
@@ -57,7 +57,7 @@ Once a predetermined minimum endorsements is met, the client software can assemb
 Ordering nodes accomplish consensus through a complex process known as Proof of Authority, which enables them to determine which order the transactions should fall into based on a predetermined hierarchy between known nodes.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-05.png"
+	image="/courses/private-blockchains/TransactionFlow-05.jpg"
 	title="THE TRANSACTION IS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>Ordering Service;</i> <b>B:</b> <i>Peers;</i> <b>C:</b> <i>Transaction.</i>"
 %}
@@ -66,7 +66,7 @@ Ordering nodes accomplish consensus through a complex process known as Proof of 
 Once the State Object has been updated, and the Verified Ledger is confirmed by the Ordering Nodes, each client node can now read the new information with confidence.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-06.png"
+	image="/courses/private-blockchains/TransactionFlow-06.jpg"
 	title="THE LEDGER IS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>Appending Transaction;</i> <b>B:</b> <i>App.</i>"
 %}
@@ -74,7 +74,7 @@ Once the State Object has been updated, and the Verified Ledger is confirmed by 
 The full flow is seen in the figure below:
 
 {% include callouts/imageWithCaption.html
-	image="/courses/private-blockchains/TransactionFlow-07.png"
+	image="/courses/private-blockchains/TransactionFlow-07.jpg"
 	title="FULL FLOW // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
 	bodyText="<b>A:</b> <i>Collect TRANSACTION-ENDORSED Msgs into a valid endorsement that satisfies endorsementPolicy (chaincodeID) broadcast(endorsement);</i> <b>B:</b> <i>tx=&lt;clientID, chaincodeID, txPayload, timeStamp, clientSig&gt;;</i> <b>C:</b> <i>Simulate/Execute tx Sign TRANSACTION-ENDORSED;</i> <b>D:</b> <i>Verify endorsement, readset if OK, apply writeset to state;</i> <b>E:</b> <i>Ordering service;</i> <b>F:</b> <i>VClient (C);</i> <b>G:</b> <i>Endorsing Peer (EP1);</i> <b>H:</b> <i>Endorsing Peer (EP2);</i> <b>I:</b> <i>Endorsing Peer (EP3);</i> <b>J:</b> <i>Orderers;</i> <b>K:</b> <i>(Committing) Peer (CP1).</i>"
 %}

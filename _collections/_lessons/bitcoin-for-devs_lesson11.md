@@ -17,7 +17,7 @@ Wallets are built for two primary functions:
 </ul>
 Here we will focus primarily on the second function and look at how wallets store private keys, interact with the blockchain and construct, sign and transmit transactions. Primarily we’ll focus on a wallets roll as a keychain for the private keys that control a users funds on the blockchain.
 
-<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.jpg" />
 
 First, let’s take a step back and learn the relationship between public/private key pairs and bitcoin addresses.
 
@@ -69,7 +69,7 @@ The first 4 bytes of this are then added to the end of the address.
 When an address is typed into a wallet Base58Check code, the decoding software will calculate the checksum of the address on it’s own and compare it to the checksum included in the address. If the two do not match, the address entered is invalid.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/WalletsandAddresses-01-1.png"
+	image="/courses/bitcoin-for-developers/WalletsandAddresses-01-1.jpg"
 	title="<b>BASE58CHECK ENCODING</b>"
 	bodyText="<b>1:</b> <i>Add Version Prefix;</i> <b>2:</b> <i>Hash (Version Prefix + Payload);</i> <b>3:</b> <i>Add First 4 Bytes as Checksum;</i> <b>4:</b> <i>Encode in Base-58.</i> <b>A:</b> <i>Payload;</i> <b>B:</b> <i>Version;</i> <b>C:</b> <i>SHA256;</i> <b>D:</b> <i>First 4 Bytes;</i> <b>E:</b> <i>Checksum;</i> <b>F:</b> <i>Base58 Encode;</i> <b>G:</b> <i>Base58Check Encoded Payload.</i>"
 %}
@@ -88,7 +88,7 @@ To create a 2 of 3 multi-sig P2SH address a script requiring a valid signature f
 The version prefix that is used depends on which network the address is intended for and whether it is a P2SH (Pay to Script Hash) or P2PKH (Pay to Public Key Hash) address.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/WalletsandAddresses-02.png"
+	image="/courses/bitcoin-for-developers/WalletsandAddresses-02.jpg"
 	title=" "
 	bodyText="<b>A:</b> <i>Type;</i> <b>B:</b> <i>Version Prefix (Hex);</i> <b>C:</b> <i>Base58 Result Prefix;</i> <b>D:</b> <i>Bitcoin Address;</i> <b>E:</b> <i>Pay-To-Script-Hash Address;</i> <b>F:</b> <i>Bitcoin Testnet Address.</i>"
 %}

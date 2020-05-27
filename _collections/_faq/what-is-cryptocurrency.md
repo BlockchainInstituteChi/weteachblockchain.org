@@ -1,6 +1,6 @@
 ---
 title: What is Cryptocurrency?
-image: Crypto2.png
+image: Crypto2.jpg
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
 tag: CONCEPTS
@@ -12,7 +12,7 @@ sticky: true
 <h3>Background</h3>
 <span> Cryptocurrencies such as bitcoin or ether are scarce digital assets which exist on a decentralized network of computers. The currencies, which are referred to as coins or tokens, can be used within their network as a digital store of value or a medium of exchange.</span>
 
-<img src="/assets/img/generate_crypto.png">
+<img src="/assets/img/generate_crypto.jpg">
 
 <h3>Digital Ownership</h3>
 <span> In the same way that ownership of a house or a car is controlled by whoever holds the deed, a cryptographic asset is owned by whoever holds the private cryptographic key that is registered with the network. The difference with cryptographic assets is that instead of a central registry, a network of many peers keeps track of who owns each asset.</span>

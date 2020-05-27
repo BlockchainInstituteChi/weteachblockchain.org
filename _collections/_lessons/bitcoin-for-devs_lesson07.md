@@ -13,7 +13,7 @@ permalink: /courses/bitcoin-for-developers/2/decentralization-consensus
 
 Let’s start by taking a look at the beginning of digital, decentralized networks in an effort to gain some insight into this structure.
 
-<img src="/assets/img/courses/bitcoin-for-developers/DecentralizedCircles-01-01.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/DecentralizedCircles-01-01.jpg" />
 
 These networks began with the internet. While the internet itself soon developed a client-server model, many networks online developed a truly decentralized, peer-to-peer structure. Some examples being:
 <ul>
@@ -23,7 +23,7 @@ These networks began with the internet. While the internet itself soon developed
 </ul>
 The decentralized network that is most commonly known is likely BitTorrent which is used for peer-to-peer (P2P) file sharing. It might be helpful to keep this architecture in your head when visualizing the bitcoin network.
 
-<img src="/assets/img/courses/bitcoin-for-developers/DecentralComm-01-small.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/DecentralComm-01-small.jpg" />
 
 Bitcoin is a decentralized, P2P network in a very similar fashion to a file sharing network. (Learn about decentralized file storage<a href="https://theblockchaininstitute.org/courses/decentralized-storage/"> here</a>.)
 
@@ -37,7 +37,7 @@ The software is constantly connecting with peers to receive network data and tra
 A “full node” is a computer that is running bitcoin software and maintaining a complete copy of the bitcoin blockchain. In contrast, a “light client” is a computer, or sometimes a mobile phone, that is running bitcoin software, but that does not maintain a complete copy of the blockchain. This is often done to save space on a machine or mobile phone. For example, a bitcoin wallet running on a smartphone. In this scenario incoming transactions are validated via a process called <a href="https://en.bitcoinwiki.org/wiki/Simplified_Payment_Verification" target="_blank" rel="noopener noreferrer">SPV</a>, or Simplified Payment Verification.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/bitcoin-for-developers/FullNodeLightClient-01.png"
+	image="/courses/bitcoin-for-developers/FullNodeLightClient-01.jpg"
 	title="Full Node or Light Client"
 	bodyText='<b>WHY RUN A FULL NODE:</b> <i>Running a full node provides a greater level of autonomy, influence in network decisions (see</i><a href="https://en.wikipedia.org/wiki/User_activated_soft_fork" target="_blank" rel="noopener noreferrer"> <i>UASF</i></a><i>) and increased privacy and security. Light clients rely on other full nodes on the network to provide them with data. A light client has to query another node to find data on a transaction that it is interested in. This can reveal the financial interests of the light client operator.</i>'
 %}

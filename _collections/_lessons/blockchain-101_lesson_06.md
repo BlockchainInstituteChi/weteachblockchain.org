@@ -16,13 +16,13 @@ The name blockchain largely refers to the structure of the technology. Blocks co
 
 <span style="font-weight: 400;">The Bitcoin blockchain was created to allow a network to coordinate and reach “consensus” on shared data. Blockchains were created to solve the problem of </span><b>coordinating data with people around the world, who don’t know or trust each other.</b>
 
-<img src="/assets/img/courses/blockchain-101/1-03.png" />
+<img src="/assets/img/courses/blockchain-101/1-03.jpg" />
 
 <span style="font-weight: 400;">The first thing to keep in mind here is that Bitcoin, and any other public blockchain, is a truly <strong>peer-to-peer network.</strong> There is no Bitcoin Corporation; there is no one entity in control. When trying to visualize this process, it is helpful to keep the picture of <strong>nodes</strong> (computers) on a shared network, all running the same or compatible software, in your head. </span>
 
 Because a blockchain is designed as a distributed ledger, many computers (nodes) are connected to form a network. As previously mentioned, this structure is referred to as a <strong>decentralized </strong>or<strong> a peer-to-peer (P2P) network.</strong> If someone wants to hack the network, they must get into all of these connection points at the same time. The chances of this occurring are extremely low, which is a testament to the security used in blockchain technology.
 
-<img src="/assets/img/courses/blockchain-101/3609aef6-9da8-437f-921f-a8a4f442e66b.png" />
+<img src="/assets/img/courses/blockchain-101/3609aef6-9da8-437f-921f-a8a4f442e66b.jpg" />
 
 <h4></h4>
 

@@ -11,7 +11,7 @@ permalink: /courses/blockchain-security/3/centralized-points-of-failure/
 Think about it this way: if you're barricaded in a room and there is only a single way in and out of the room, where does it make the most sense for your enemy to attack? The single point, of course! In a similar way, when we rely on a single service to a point of reliance, we can say that it is a single point of failure since its loss would mean a major catastrophe for us.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/blockchain-security/SinglePoint-01.png"
+	image="/courses/blockchain-security/SinglePoint-01.jpg"
 	title="SINGLE POINT OF FAILURE:"
 	bodyText="<b>A:</b> <i>Computer;</i> <b>B:</b> <i>Router;</i> <b>C:</b> <i>Application Server.</i><br>In centralized networks, devices communicate across common channels and not directly with eachother. This can result in increased risk of catastrophic failure or network hijack."
 %}

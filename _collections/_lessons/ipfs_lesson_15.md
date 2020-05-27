@@ -10,7 +10,7 @@ permalink: /courses/ipfs/4/tokens-using-ipfs
 <span class="openingParagraph">Currently, the only token using IPFS is <a href="https://filecoin.io/">Filecoin</a>, which promotes a unique <a href="https://filecoin.io/proof-of-replication.pdf">Proof of Spacetime and Replication algorithm</a>. While Filecoin is still in development, it has the potential to lead a revolution in the way that we share value and exchange information online. The graphic below depicts how a token can be used as an incentive mechanism in a storage network.</span>
 
 {% include callouts/imageWithCaption.html
-    image="/courses/ipfs/LifeCycle-01.png"
+    image="/courses/ipfs/LifeCycle-01.jpg"
     title="FILECOIN: LIFECYCLE OF A FILE"
     bodyText="<b>A:</b> <i>Client;</i>  <b>B:</b> <i>Miner;</i>  <b>C:</b> <i>The Filecoin Blockchainz;</i>  <b>D:</b> <i>Bids and asks are matched on the Storage Market, and secured on the blockchain;</i>  <b>E:</b> <i>Proof of Replication;</i>  <b>F:</b> <i>Proof of Replication &amp; Allocation Table Hash;</i>  <b>G:</b> <i>The Retrieval Market continuously optimize for maximum delivery speed and minimal bandwidth usage across distance, around power outage, overloaded servers, and hostile censorship.</i>"
 %}

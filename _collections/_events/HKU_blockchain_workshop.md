@@ -10,7 +10,7 @@ eventType: Community
 ---
 Digital Ledger technology and distributed computing have come a long way. The Blockchain Institute's founder, Taylor Gerring spoke earlier this month at Hong Kong University's Blockchain Center. The institute will be working with the university to provide blockchain educational material. The talk covered the history of blockchain and introduced new ideas on how it can push into the next decade.
 
-<img src="/assets/img/Prezi_Screenshot.png"> 
+<img src="/assets/img/Prezi_Screenshot.jpg"> 
 
 {% include callouts/imageWithCaption.html
 	image="HongKong UniversityTeam.jpg"

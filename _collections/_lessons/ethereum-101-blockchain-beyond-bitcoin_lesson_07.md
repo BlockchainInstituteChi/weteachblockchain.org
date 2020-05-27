@@ -19,7 +19,7 @@ The most important purpose of the Ethereum blockchain is to provide a reliable w
 <span >As in the Bitcoin context, the EVM uses a chain of hash signatures to link information over time. In order to increase the amount of information that can be represented within a single hash, tree structures can be used to contain even more information. </span>
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ethereum-101/MerkleTrees-01.png"
+	image="/courses/ethereum-101/MerkleTrees-01.jpg"
 	title=""
 	bodyText="In a Merkle Tree, raw data is hashed, and the signatures of many data sets can be combined together to create a single very small signature for a large data set."
 %}

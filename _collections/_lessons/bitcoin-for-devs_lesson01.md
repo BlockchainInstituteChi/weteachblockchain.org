@@ -7,7 +7,7 @@ permalink: /courses/bitcoin-for-developers/1/prelude
 ---
 <br>
 <br>
-<img src="/assets/img/courses/bitcoin-for-developers/Bitcoin-Dev-01.png" alt="Bitcoin for Developers"/>
+<img src="/assets/img/courses/bitcoin-for-developers/Bitcoin-Dev-01.jpg" alt="Bitcoin for Developers"/>
 
 <span class="openingParagraph">Welcome to Blockchain Institute’s <strong>Bitcoin for Developers</strong> series of courses. This series was created for <strong>experienced developers</strong> who are comfortable in a <strong>UNIX based command line</strong> and want to <strong>learn</strong> how to work with <strong>blockchain technology</strong>, specifically the<strong> Bitcoin Blockchain Network</strong>. If you are new to Bitcoin, or haven't already browsed through <a href="/courses/blockchain-101/">Blockchain 101</a> and <a href="/courses/blockchain-security/">Blockchain Security</a>, now would be a great time!</span>
 
