@@ -10,7 +10,7 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/
 <span class="openingParagraph">One of the main benefits of the Ethereum blockchain is the addition of Smart Contracts. These allow code to be submitted to the State Transition, and to have their output added to the ledger. Contracts and accounts are identical during execution within the EVM, so a peer-to-peer payment is treated just like any other computation. In the Ethereum world, every action that can be registered can be encoded in software, and the entire network is able to compute the outcome simultaneously.</span>
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ethereum-101/EthereumNode-01-1.png"
+	image="/courses/ethereum-101/EthereumNode-01-1.jpg"
 	title=""
 	bodyText="<b>A:</b> <i>CREATE SOLIDITY SMART CONTRACT;</i> <b>B:</b> <i>COMPILE USING SOLIDITY COMPILER (SOLC);</i> <b>C:</b> <i>PERFORM DEPLOYMENT;</i> <b>D:</b> <i>STORES THE ABI AND CONTRACT ADDRESS;</i> <b>E:</b> <i>INSTANTIATES THE CONTRACT;</i> <b>F:</b> <i>INVOKE CONTRACT METHODS FOR DATA STORAGE;</i> <b>G:</b> <i>Passes the .sol file;</i> <b>H:</b> <i>Using the bytecode invokes deployment via Web3js;</i> <b>I:</b> <i>Returns the contract address and the ABI;</i> <b>J:</b> <i>Passes the address of the ABI of the contract;</i> <b>K:</b> <i>Passes all the parameters for the contract methods;</i> <b>L:</b> <i>Signs and passes Ether to perform the operation;</i> <b>M:</b> <i>ETHEREUM NODE.</i>"
 %}
@@ -24,7 +24,7 @@ In order to run a new smart contract, the creator must first deploy it to the ch
 
 <h3>OUTSIDE DATA</h3>
 
-<img src="/assets/img/courses/ethereum-101/Oracle-01.png" />
+<img src="/assets/img/courses/ethereum-101/Oracle-01.jpg" />
 
 <span >In the event that a smart contract needs to check for information outside of the Ethereum ecosystem, a third party such as an Oracle can be used to add that information to the blockchain. Oracle services provide external data for use in smart contracts, and are held accountable through staking or other incentive mechanisms on-chain. If enough Oracles are used, the information can be considered to be sufficiently reliable. Further consideration of </span><a href="https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/"><span >Buterin's initial work</span></a><span > on the concept may be beneficial.</span>
 

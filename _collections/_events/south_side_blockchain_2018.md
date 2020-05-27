@@ -1,7 +1,7 @@
 ---
 title: South Side Blockchain Meetup
 layout: event
-image: south_side_blockchain_logo.png
+image: south_side_blockchain_logo.jpg
 date: 2018-10-13
 eventdate: Saturday, October 13th, 2018
 permalink: /events/south_side_blockchain_2018

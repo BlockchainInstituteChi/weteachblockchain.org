@@ -10,7 +10,7 @@ permalink: /courses/decentralized-storage/1/conventional-protocols/
 <span class="openingParagraph">The primary system employed by storage providers in 2018 is used to bridge their network to more traditional HTTP(S) GET and POST requests. This allows, the client to read and store records in servers. While client-server connections have functioned relatively well until now, they suffer from some disadvantages that are addressed by a peer-to-peer structure.</span>
 
 {% include callouts/imageWithCaption.html
-	image="/courses/decentralized-storage/P2P_HTTP_IPFS-01.png"
+	image="/courses/decentralized-storage/P2P_HTTP_IPFS-01.jpg"
 	title=""
 	bodyText="Unlike typical online storage, IPFS nodes share the burden of storing data, and are economically incentivised to transmit it to one another. Early versions of this technology allowed the creation of torrents and products like Napster."
 %}

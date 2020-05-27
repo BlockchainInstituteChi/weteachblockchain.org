@@ -12,7 +12,7 @@ Now that you've got the basics, there are a few things to keep in mind as you be
 
 <h3>GENERAL ARCHITECTURE</h3>
 
-<img src="/assets/img/courses/private-blockchains/Blueprints-01.png" />
+<img src="/assets/img/courses/private-blockchains/Blueprints-01.jpg" />
 
 Since Hyperledger networks are intended to act as common records between multiple legal entities, it's imperative that they're well planned with consideration for the laws of the presiding jurisdictions. Before any code is written, the first step should be to identify an appropriate validator model for all actions that will be tracked by the system. It's important to ensure that the system is designed so that no single bad actor could compromise the long term records while also minimizing the increase in overhead due to validation activities. A best practice is to plan validation events to match existing paper documentation. Ink signatures should be replaced with digital signatures where possible, and any critical information should be recorded to the Hyperledger network.
 

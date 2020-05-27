@@ -357,7 +357,7 @@ A gallery grid of images, 4 per row. Clicking on an image enters full screen mod
 ```
   {% include callouts/imageGallery.html
       title="The title of the gallery"
-      imageList="courses/bitcoin-for-developers/1_b-01.png,courses/bitcoin-for-developers/AliceBobKeys-01.png,/courses/bitcoin-for-developers/1_b-01.png,headshots/alex.jpg,map.png,TheBigPicture-01.png"
+      imageList="courses/bitcoin-for-developers/1_b-01.jpg,courses/bitcoin-for-developers/AliceBobKeys-01.jpg,/courses/bitcoin-for-developers/1_b-01.jpg,headshots/alex.jpg,map.jpg,TheBigPicture-01.jpg"
    %} 
 ```    
 

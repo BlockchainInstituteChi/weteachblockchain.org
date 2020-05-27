@@ -12,7 +12,7 @@ permalink: /courses/blockchain-101/01/the-birth-of-digital-money
 
 Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors" target="_blank" rel="noopener noreferrer">Error 402</a>? It’s an HTTP error message for not enough funds or when payment is required, and it has been there since the inception of the World Wide Web. This is proof that the internet was built with a native currency in mind. This was first addressed by David Chaum, a <a href="https://en.wikipedia.org/wiki/Cypherpunk" target="_blank" rel="noopener noreferrer">"cypherpunk"</a> dedicated to creating anonymous electronic money.
 
-<img src="/assets/img/courses/blockchain-101/error502.png" />
+<img src="/assets/img/courses/blockchain-101/error502.jpg" />
 
 
 <h3>A HISTORY OF BITCOIN</h3>

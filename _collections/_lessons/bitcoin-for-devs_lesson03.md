@@ -15,7 +15,7 @@ But first, lets cover hashing as it is an integral part of the Bitcoin “Proof-
 
 A hash function takes an input value and creates an output value deterministic of the input value. For any input value X, you will always receive the same output value Y whenever the hash function is run. In this way, every input has a determined output.
 
-<img src="/assets/img/courses/bitcoin-for-developers/1_b-02.png" />
+<img src="/assets/img/courses/bitcoin-for-developers/1_b-02.jpg" />
 <h3>Properties of hashes:</h3>
 <br>
 <ul>
@@ -43,14 +43,14 @@ The first thing to keep in mind here is that this is a truly peer-to-peer networ
 
 When trying to visualize this process, it is helpful to keep the picture of nodes (computers) on a distributed network in your head. Remember, bitcoin is not a business or corporation, there is no CEO, no one entity is in control of it. Bitcoin is simply a network of computers all running the same, or compatible, software.
 
-<img src="/assets/img/courses/bitcoin-for-developers/1-03.png"  />
+<img src="/assets/img/courses/bitcoin-for-developers/1-03.jpg"  />
 
 
 Let’s walk through the Bitcoin blockchain proof-of-work consensus process with an example:
 
 You have one bitcoin that you are trying to double spend. You create a perfectly valid bitcoin transaction sending your 1 BTC (the abbreviation for the currency unit of Bitcoin) to Alice. You sign that transaction and broadcast it to the Bitcoin peer-to-peer (P2P) network. However, at the same time, you create an also perfectly valid transaction sending that 1 BTC to Bob, sign and broadcast it. <b>How will the network decide which transaction is valid and which transaction is to be rejected as a double spend?</b>
 
-<img src="/assets/img/courses/bitcoin-for-developers/1_b-01.png"  />
+<img src="/assets/img/courses/bitcoin-for-developers/1_b-01.jpg"  />
 
 Every node on the Bitcoin network contributes to “consensus,” the process by which the data is agreed upon and becomes the ‘truth’ on the network. However, certain nodes, called <b>miners</b>, play a very important role in this process.
 
@@ -58,7 +58,7 @@ The Bitcoin software creates a competition between mining nodes who do the work 
 
 The mining reward plays a very important role in providing economic incentives to do the work of maintaining the network. Miners, who are simply people running computers with a lot of processing power, are competing with each other to create a valid block of Bitcoin transaction data that will be accepted by the network. When a miners block of data is accepted by the network, they are given some bitcoin as a “mining reward” or “block reward” This happens in a special transaction called a coinbase transaction (not to be confused with Coinbase the company).
 
-<img src="/assets/img/courses/bitcoin-for-developers/Halving-01.png"  />
+<img src="/assets/img/courses/bitcoin-for-developers/Halving-01.jpg"  />
 
 When the Bitcoin network was launched in 2009, the reward was 50 BTC per block. This reward halves (called halving) every 4 years (or 210,000 mined blocks) until it reaches an amount too small to transfer on the Bitcoin network. This was originally scheduled for the year 2140, but due to variations in difficulty adjustments, will likely occur before then.
 

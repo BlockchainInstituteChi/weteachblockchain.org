@@ -16,7 +16,7 @@ permalink: /courses/blockchain-101/02/what-is-cryptocurrency-mining
 
 <h3>PROOF-OF-WORK</h3>
 
-<p><img src="/assets/img/courses/blockchain-101/PoW-01.png" /></p>
+<p><img src="/assets/img/courses/blockchain-101/PoW-01.jpg" /></p>
 
 <p><span style="font-weight: 400;">The first blockchains used <strong>Proof-of-Work</strong> as a way to achieve consensus. Blocks go through a complex, energy consuming process of trial and error when they are trying to create a new, sufficiently random hash. In order to do this, nodes try to be the first to guess a value that meets specific criteria. The time and effort expended by these computers act as proof that they put in sufficient work needed to help maintain the network, and is appropriately known as Proof-of-Work. The miner that solves the equation that results in the creation of a block receives a reward in the form of a coin or coins, creating an economic incentive for users to mine blocks. Block rewards also act as an incentive for miners to contribute to the security of the system. The higher the blockchain’s hash rate, the more secure the chain will be. The more processing power a miner has, the more likely they are to solve the next block and receive the block reward as they are able to attempt to guess the most variables in the least amount of time.</span></p>
 
@@ -24,7 +24,7 @@ permalink: /courses/blockchain-101/02/what-is-cryptocurrency-mining
 
 <h3>PROOF-OF-STAKE</h3>
 
-<p><img src="/assets/img/courses/blockchain-101/PoS-01.png" /></p>
+<p><img src="/assets/img/courses/blockchain-101/PoS-01.jpg" /></p>
 
 <p><span style="font-weight: 400;"><strong>Proof-of-Stake</strong> (PoS) has gained popularity as a potential alternative to Proof-of-Work by completely disregarding the “race” to find a specific variable. Instead, a node is selected to write the next block. There are different ways of selecting validators within Proof-of-Stake models, but the most common selection method is proportional to the amount of cryptocurrency staked. In other words, the more cryptocurrency that is staked by a node, the more likely that </span><span style="font-weight: 400;">node is to be selected as the next block’s writer. </span></p>
 

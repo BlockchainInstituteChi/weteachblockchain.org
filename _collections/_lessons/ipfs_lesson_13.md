@@ -18,7 +18,7 @@ Now that you’re up and running, you may want to also check out the localhosted
 The IPFS Web GUI supports many useful features, and also features interesting data sets about the decentralized storage network. 
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ipfs/webui-connection.png"
+	image="/courses/ipfs/webui-connection.jpg"
 	title=""
 	bodyText="The webUI View has lots of additional features for non-command line users!"
 %}

@@ -20,7 +20,7 @@ No singular specification has dominated the blockchain industry or even a partic
 A deterministic wallet is nothing more than a way to regenerate many addresses from a single <em>extended</em> private key. We call it extended because it is twice the length of a normal key, which allows us to perform some cool math tricks. We won't get into the fancy math here, but it is helpful to understand how the keys are generated.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/blockchain-security/Heirarchical-01.png"
+	image="/courses/blockchain-security/Heirarchical-01.jpg"
 	title="HIERARCHICAL DETERMINISTIC"
 	bodyText="<b>A:</b> <i>Seed;</i> <b>B:</b> <i>Master Key;</i> <b>C:</b> <i>Child Keys;</i> <b>D:</b> <i>Grandchild Keys.</i>Hierarchical deterministic wallets use a seed phrase to generate multiple pseudonymous identities. This increases security by obfuscating the user's transaction history, and can even be implemented to use a new private key for every transaction."
 %}

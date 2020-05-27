@@ -14,7 +14,7 @@ While the EVM is revolutionary, it's design creates some challenges for develope
 
 <hr />
 
-<img src="/assets/img/courses/ethereum-101/00_PrivateBC-01.png" />
+<img src="/assets/img/courses/ethereum-101/00_PrivateBC-01.jpg" />
 
 <span >Because all smart contracts are processed by each node on the network, all data that they use is visible to any participant. As a result, sensitive business data can often not be stored on chain, which complicates the design of such systems. Some solutions, such as Enigma, have proposed ways to handle this computation privately, but these are still in the early stages. </span>
 

@@ -17,7 +17,7 @@ One thing which is important to understand about decentralized design patterns i
 <span >To create a new token, a smart contract is written to track the value that is sent to it. When a user sends money to the contract, they'll be issued tokens from the available supply. The tokens will be 'sent' to the same address that funded the contract call. In most applications, other users can also deploy other functionality. In many cases, an Initial Coin Offering (ICO) is structured to sell a certain amount of the initial supply, and subsequent tokens are then released as incentives within the network. </span>
 
 {% include callouts/imageWithCaption.html
-	image="/courses/ethereum-101/SmartContract-01-1.png"
+	image="/courses/ethereum-101/SmartContract-01-1.jpg"
 	title=""
 	bodyText="<b>A:</b> <i>Smart Contract;</i> <b>B:</b> <i>Ether;</i> <b>C:</b> <i>Token;</i> <b>D:</b> <i>Investor.</i> A smart contract can be used to generate Tokens when a user pays into it with Ethereum. The contract then tracks the user's Token Balance over time and allows them to transfer the balance to another user, or deploy it with other compatible functionality."
 %}
@@ -33,7 +33,7 @@ One thing which is important to understand about decentralized design patterns i
 
 <h3>LIMITATIONS</h3>
 
-<img src="/assets/img/courses/ethereum-101/Limitations-01.png" />
+<img src="/assets/img/courses/ethereum-101/Limitations-01.jpg" />
 
 <span >While the ERC-20 token distribution model was quite popular during 2017, this framework has some structural issues which preclude some interesting use cases. In particular, it's important to note that tokens cannot be used to purchase gas, so the contracts that support these networks still need to hold and pay with Ether for any computations that occur.</span>
 

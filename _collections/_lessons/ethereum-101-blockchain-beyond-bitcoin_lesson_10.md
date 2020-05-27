@@ -19,7 +19,7 @@ Because the EVM exists exclusively as a peer-to-peer architecture, there are som
 
 <h3>BLOCK RATE</h3>
 
-<img src="/assets/img/courses/ethereum-101/Blocks-01.png" />
+<img src="/assets/img/courses/ethereum-101/Blocks-01.jpg" />
 
 <span>More important than the rate of transfer across the network is the rate that new blocks are added to the chain. In order to ensure that the EVM can have universal consensus, the rate and size of new blocks limits the amount of data and computation which can occur during any interval, even if the network could support more. Solutions such as sharding and proof of stake have been proposed to limit the computational burden on the network while also increasing the amount of data which can be stored. </span>
 

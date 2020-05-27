@@ -17,6 +17,6 @@ While ERC-20 tokens serve well to support marketplaces and other situations wher
 
 {% include callouts/imageWithTextCallout.html 
     title="CRYPTOKITTIES"
-    image="/courses/ethereum-101/cryptokitties.png"
+    image="/courses/ethereum-101/cryptokitties.jpg"
     bodyText="Adorable, colorful, fluffy in pixelated 2D, and entirely yours, forever. These cute collectibles can be yours today if you send some Ether to the right smart contract. In this context, the smart contract randomizes certain characteristics such as the color or appearance, which makes each kitty unique, even though they all come from the same contract."
 %}

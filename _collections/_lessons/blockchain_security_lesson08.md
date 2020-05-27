@@ -14,7 +14,7 @@ In the event that a single actor is able to take control of more than 50% of the
 While it is possible for a bad actor to overtake a network, this does not mean that the network must accept the new version of the blockchain as proposed by the bad actor. In fact, a 51% attack is generally so expensive to maintain that efforts are short lived when they do occur. In the event of a 51% attack, the bad actor would need to not only maintain a majority of the network’s hashing power, but they would also need to somehow convince the other nodes that they should adopt new information while disregarding their existing record of the network.
 
 {% include callouts/imageWithCaption.html
-	image="/courses/blockchain-security/Attack-01-1.png"
+	image="/courses/blockchain-security/Attack-01-1.jpg"
 	title="51% Attack"
 	bodyText="In a 51% attack, a malicious actor takes over a majority of the network's nodes, which allows them to propose and confirm transactions without the need for approval from anyone else in the network."
 %}

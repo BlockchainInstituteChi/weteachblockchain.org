@@ -8,7 +8,7 @@ permalink: /courses/blockchain-for-business/3/conclusion
 
 
 <span>
-<img src="/assets/img/Conclusion-01-2.png" />
+<img src="/assets/img/Conclusion-01-2.jpg" />
 
 <h3>YOU'VE COMPLETED OUR BLOCKCHAIN FOR BUSINESS COURSE!</h3>
 
