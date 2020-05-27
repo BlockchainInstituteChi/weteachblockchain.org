@@ -307,11 +307,36 @@
 		display: none;
 	}
 	.mobileNavSidebar {
-		top: calc(4.72em - 1px);
-		display: block;
+	    top: calc(4.72em - 1px);
+	    display: block;
+	    padding: 2em;
+	    max-width: 500px;
 	}
 	div#navbarResponsive {
 		height: 0 !important;
+	}
+	a.nav-link.normal {
+	    font-family: "Open Sans";
+	    text-transform: none;
+	    line-height: 1.7em;
+	    letter-spacing: .01em;
+	    font-weight: 300;
+	    font-size: 1em;
+	}
+	a.nav-link.child {
+	    font-family: "Open Sans";
+	    text-transform: none;
+	    line-height: 1.7em;
+	    letter-spacing: .01em;
+	    font-weight: 300;
+	    font-size: 1em;
+	    margin-left: 2em;
+	}
+	.mobileNavSidebar .master a {
+	    font-weight: 500;
+	    font-family: Kanit;
+	    font-weight: 600;
+	    letter-spacing: .05em;
 	}
 } 
 
@@ -466,6 +491,22 @@
 	.mobileNavSidebar {
 		top: calc(5.05em - 1px);
 		display: block;
+	}
+	
+	/*NavSideBar*/
+	.mobileNavSidebar {
+	    max-width: 300px;
+	}
+	a.nav-link.normal {
+	    line-height: 1.8em;
+	    font-size: .95em;
+	}
+	a.nav-link.child {
+	    line-height: 1.8em;
+	    font-size: .95em;
+	}
+	.mobileNavSidebar h3 {
+	    font-size: 1.35em;
 	}
 }
 
