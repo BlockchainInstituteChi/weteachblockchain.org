@@ -5,25 +5,26 @@ This repo compiles to the site at https://weteachblockchain.org/ and the progres
 ## Contents
 1. [About](#about)
 2. [Directory Map](#directory-map)
-3. [Instructions](#instructions)
+3. [Local Setup Instructions For Contributors](#local-setup-instructions-for-contributors)
+4. [Instructions](#instructions)
    * [General Structure](#general-structure)
    * [Layouts](#layouts)
    * [Title](#title)
    * [Stylesheets](#stylesheet)
    * [Open Graph Protocol](#open-graph-protocol-og)
-4. [Adding Images](#adding-images)
-5. [Navigation Header / Menu](#navigation-header)
+5. [Adding Images](#adding-images)
+6. [Navigation Header / Menu](#navigation-header)
    * [Nav Data](#nav-data)
    * [Nav Layout](#nav-layout)
-6. [Pages](#pages)
-7. [Events](#events)
-8. [Courses Portal](#courses-portal)
-9. [CSS / Styles](#css)
+7. [Pages](#pages)
+8. [Events](#events)
+9. [Courses Portal](#courses-portal)
+10. [CSS / Styles](#css)
    * [SCSS Structure](#scss-structure)
    * [Variables](#variables)
    * [Bootstrap](#bootstrap)
    * [Responsive Design](#responsive-multi-device)
-10. [Chunk Includes](#chunk-includes)
+11. [Chunk Includes](#chunk-includes)
 
 ## About
 This site uses the [Jekyll templating engine](https://jekyllrb.com/) to generate static HTML pages and hosts them using Github pages from the `master` branch of this repo.
@@ -33,7 +34,7 @@ Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/
 ***Commits made to the master branch of this repo will trigger a github pages build, which will go live after 2-3 minutes!***
 
 ## Local Setup Instructions For Contributors
-If you're not comfortable setting up the repo locally, [Click Here](https://github.com/blockchaininstitutechi/weteachblockchain.org/contributors_guide.md) for the full instructions to configure VSCode and Github Desktop. The process takes about 15 minutes, and then you'll be ready to start contributing full features!
+If you're not comfortable setting up the repo locally, [Click Here](https://github.com/blockchaininstitutechi/weteachblockchain.org/CONTRIBUTORS_GUIDE.md) for the full instructions to configure VSCode and Github Desktop. The process takes about 15 minutes, and then you'll be ready to start contributing full features!
 
 ## Directory Map
 `Main Folder`<br>
