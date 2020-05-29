@@ -32,6 +32,8 @@ Jekyll uses a combination of [Markdown](https://github.com/adam-p/markdown-here/
 
 ***Commits made to the master branch of this repo will trigger a github pages build, which will go live after 2-3 minutes!***
 
+## Local Setup Instructions For Contributors
+If you're not comfortable setting up the repo locally, [Click Here](https://github.com/blockchaininstitutechi/weteachblockchain.org/contributors_guide.md) for the full instructions to configure VSCode and Github Desktop. The process takes about 15 minutes, and then you'll be ready to start contributing full features!
 
 ## Directory Map
 `Main Folder`<br>
