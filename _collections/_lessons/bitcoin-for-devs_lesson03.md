@@ -43,7 +43,7 @@ The first thing to keep in mind here is that this is a truly peer-to-peer networ
 
 When trying to visualize this process, it is helpful to keep the picture of nodes (computers) on a distributed network in your head. Remember, bitcoin is not a business or corporation, there is no CEO, no one entity is in control of it. Bitcoin is simply a network of computers all running the same, or compatible, software.
 
-<img src="/assets/img/courses/bitcoin-for-developers/1-03.jpg"  />
+<img src="/assets/img/courses/bitcoin-for-developers/1_b-03.jpg"  />
 
 
 Let’s walk through the Bitcoin blockchain proof-of-work consensus process with an example:
