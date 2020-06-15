@@ -2,6 +2,9 @@
 
 This repo compiles to the site at https://weteachblockchain.org/ and the progress can be observed from the 'Environments' tab on the Github repo. Be sure to log in as a verified collaborator to see this tab.
 
+# NOTE
+To make changes, please checkout a new branch and then create a pull request to the staging branch. Once your pull request is merged to staging, you can preview it here: https://weteachblockchain-org-wine.vercel.app/
+
 ## Contents
 1. [About](#about)
 2. [Directory Map](#directory-map)
