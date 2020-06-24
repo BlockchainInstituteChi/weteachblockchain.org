@@ -5,7 +5,7 @@ permalink: /faq/bitcoin-and-ethereum/
 layout: faq
 tag: WHAT'S THE DIFFERENCE? 
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
-learnMoreText: Our Ethereum 101 Course
+learnMoreText: our Ethereum 101 course
 learnMoreImage: EthereumGrowth-1.jpg
 weight: 4
 ---
