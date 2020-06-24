@@ -6,6 +6,7 @@ layout: faq
 tag: WHAT'S THE DIFFERENCE? 
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: Our Ethereum 101 Course
+learnMoreImage: Difference_BC-Eth.jpg
 weight: 4
 ---
 <img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg">
