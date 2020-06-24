@@ -6,6 +6,7 @@ layout: faq
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
+learnMoreImage: BC101-01.jpg
 weight: 2
 ---
 <img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg">
