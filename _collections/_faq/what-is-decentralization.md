@@ -6,6 +6,7 @@ layout: faq
 tag: CONCEPTS
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: Our Decentralized Storage Course
+learnMoreImage: DecentralizedStorage.jpg
 weight: 2
 ---
 
