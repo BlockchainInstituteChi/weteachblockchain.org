@@ -4,7 +4,7 @@ image: decentralized_computing_open.jpg
 permalink: /faq/decentralized-computing/
 layout: faq
 learnMoreLink: /courses/decentralized-storage/
-learnMoreText: our Decentralized Storage Course
+learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
 tag: APPLICATIONS
 weight: 5
