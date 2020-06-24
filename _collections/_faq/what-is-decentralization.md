@@ -5,7 +5,7 @@ permalink: /faq/what-is-decentralization/
 layout: faq
 tag: CONCEPTS
 learnMoreLink: /courses/decentralized-storage/
-learnMoreText: Our Decentralized Storage Course
+learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
 weight: 2
 ---
