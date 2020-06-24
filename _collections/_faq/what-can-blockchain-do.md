@@ -6,6 +6,7 @@ layout: faq
 tag: APPLICATIONS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
+learnMoreImage: BC101-01.jpg
 weight: 3
 ---
 <span>While blockchain was created as a solution for the Bitcoin payment network, the concept has been adopted across a range of sectors and is expected to make a major impact in the way that we handle data storage. This technology even has the potential to change the underlying structure of the internet. Currently, there are many projects exploring how blockchain technology can create change.</span>
