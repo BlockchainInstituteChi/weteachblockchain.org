@@ -5,7 +5,7 @@ permalink: /faq/what-can-blockchain-do/
 layout: faq
 tag: APPLICATIONS
 learnMoreLink: /courses/blockchain-101/
-learnMoreText: Our Blockchain 101 Course
+learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
 weight: 3
 ---
