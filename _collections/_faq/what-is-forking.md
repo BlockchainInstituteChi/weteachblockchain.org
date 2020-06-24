@@ -6,6 +6,7 @@ layout: faq
 tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
+learnMoreImage: BC101-01.jpg
 weight: 5
 sticky: true
 ---
