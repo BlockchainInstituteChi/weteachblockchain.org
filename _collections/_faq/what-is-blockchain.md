@@ -5,7 +5,7 @@ permalink: /faq/what-is-blockchain/
 layout: faq
 tag: CONCEPTS 
 learnMoreLink: /courses/blockchain-101/
-learnMoreText: Our Free Blockchain 101 course
+learnMoreText: our free Blockchain 101 course
 learnMoreImage: BC101-01.jpg
 weight: 1
 sticky: true
