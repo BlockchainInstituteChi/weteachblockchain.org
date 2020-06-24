@@ -5,7 +5,7 @@ permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/blockchain-101/
-learnMoreText: Our Blockchain 101 Course
+learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
 weight: 2
 ---
