@@ -6,6 +6,7 @@ layout: faq
 tag: CONCEPTS
 learnMoreLink: https://staging.weteachblockchain.org/courses/blockchain-101/
 learnMoreText: Our Blockchain 101 Course
+learnMoreImage: BC101-01.jpg
 weight: 2
 sticky: true
 ---
