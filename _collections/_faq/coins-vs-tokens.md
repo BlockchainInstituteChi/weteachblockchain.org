@@ -5,7 +5,7 @@ permalink: /faq/coins-vs-tokens/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
-learnMoreText: The Fungible Tokens Section of Ethereum 101
+learnMoreText: the Fungible Tokens section of Ethereum 101
 learnMoreImage: EthereumGrowth-1.jpg
 weight: 5
 ---
