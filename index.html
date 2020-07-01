@@ -22,6 +22,65 @@ ogUrl: https://weteachblockchain.org/
 %}
 
 
+<section class="pathsList">
+	<h1 class="hasColorTag teal">Not sure where to start?</h1>
+	<div class="row">
+		<div class="col-sm-12">
+			<span class="descriptionText pathDescriptionHP">
+			  We have something for everyone no matter your skill level. Begin your blockchain education now.
+			</span>
+		</div>
+	</div>
+	<div class="row pathButtons">
+		<div class="col-sm-4 novText">
+			<a href="/courses/beginners/">
+				<img src="/assets/img/Novice_button.jpg">
+				<h5>Beginners</h5>
+			</a>
+		</div>
+		<div class="col-sm-4 devText">
+			<a href="/courses/developers/">
+				<img src="/assets/img/Developers_button.jpg">
+				<h5>Developers</h5>
+			</a>
+		</div>
+		<div class="col-sm-4 indText">
+			<a href="/courses/professionals/">
+				<img src="/assets/img/Professionals_button.jpg">
+				<h5>Professionals</h5>
+			</a>
+		</div>
+		
+  </div>
+  <div class="row ctaCenter">
+    <a href="/courses/" class="callToActionButton">View All Courses</a>
+  </div>
+</section>
+
+
+<section class="faq">
+  <div class="row">
+    <h1 class="redBar">Quick Answers</h1>
+    <span class="descriptionText">
+      Not ready to start a full course? Get answers to commonly asked questions.
+    </span>
+    <div class="faqThumbnailContainer"> 
+      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+        {% include faqTile.html 
+          image=item.image
+          link=item.permalink
+          title=item.title
+          author=item.author
+        %}
+      {% endfor %}
+    </div>
+    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
+
+
+
 <section class="onlineCourses blueDivider">
   <div class="row">
     <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
@@ -78,62 +137,9 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-<section class="faq">
-  <div class="row">
-    <h1 class="redBar">Quick Answers</h1>
-    <span class="descriptionText">
-      Not ready to start a full course? Get answers to commonly asked questions.
-    </span>
-    <div class="faqThumbnailContainer"> 
-      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
-      {% for item in faqSample limit:4 %}
-        {% include faqTile.html 
-          image=item.image
-          link=item.permalink
-          title=item.title
-          author=item.author
-        %}
-      {% endfor %}
-    </div>
-    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
-  </div>
-</section>
 
 
-<section class="pathsList">
-	<h1 class="hasColorTag teal">Not sure where to start?</h1>
-	<div class="row">
-		<div class="col-sm-12">
-			<span class="descriptionText pathDescriptionHP">
-			  We have something for everyone no matter your skill level. Begin your blockchain education now.
-			</span>
-		</div>
-	</div>
-	<div class="row pathButtons">
-		<div class="col-sm-4 novText">
-			<a href="/courses/beginners/">
-				<img src="/assets/img/Novice_button.jpg">
-				<h5>Beginners</h5>
-			</a>
-		</div>
-		<div class="col-sm-4 devText">
-			<a href="/courses/developers/">
-				<img src="/assets/img/Developers_button.jpg">
-				<h5>Developers</h5>
-			</a>
-		</div>
-		<div class="col-sm-4 indText">
-			<a href="/courses/professionals/">
-				<img src="/assets/img/Professionals_button.jpg">
-				<h5>Professionals</h5>
-			</a>
-		</div>
-		
-  </div>
-  <div class="row ctaCenter">
-    <a href="/courses/" class="callToActionButton">View All Courses</a>
-  </div>
-</section>
+
 
 
 <section class="ourMission">
