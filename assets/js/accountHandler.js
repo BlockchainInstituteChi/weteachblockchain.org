@@ -1,6 +1,7 @@
 
 /* 2️⃣ Initialize Magic Instance */
-const magic = new Magic("pk_live_EA466C1563BC5CFF");
+const magic = new Magic("pk_test_203D0BB15B42A4C8");
+const serverUrl = "http://localhost:8888/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
@@ -18,7 +19,7 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
-    // console.log(userMetadata)
+    console.log(userMetadata)
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <button onclick="handleLogout()">Logout</button>
@@ -29,18 +30,24 @@ const renderMagic = async () => {
   document.getElementById("app").innerHTML = html;
 };
 
-/* 4️⃣ Implement Login Handler */
 const handleLogin = async e => {
   e.preventDefault();
   const email = new FormData(e.target).get("email");
   if (email) {
-    /* One-liner login 🤯 */
-    await magic.auth.loginWithMagicLink({ email });
+    const didToken = await magic.auth.loginWithMagicLink({ email });
+    console.log('didToken', didToken)
+    await fetch(`${serverUrl}/login`, {
+      headers: new Headers({
+        Authorization: "Bearer " + didToken
+      }),
+      withCredentials: true,
+      credentials: "same-origin",
+      method: "POST"
+    });
     renderMagic();
   }
 };
 
-/* 5️⃣ Implement Logout Handler */
 const handleLogout = async () => {
   await magic.user.logout();
   renderMagic();
