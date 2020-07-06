@@ -72,12 +72,35 @@ function toggleAccountImage () {
 
 const handlePageNotification = async () => {
   console.log('ran page load notification')
-  await fetch(`${serverUrl}/updateCurrentPage`, {
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' +  window.localStorage.didToken,
-    },
-    body: JSON.stringify({ currentPage: window.location.href }),
-    method: "POST"
-  });
+  try {
+    await fetch(`${serverUrl}/updateCurrentPage`, {
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' +  window.localStorage.didToken,
+      },
+      body: JSON.stringify({ currentPage: window.location.href }),
+      method: "POST"
+    }).then(handleAuthErrors).then( response => console.log('response from page update', response))
+    
+  } catch (err) {
+    console.log('uncaught exception in update call', err)
+    handleBadPageStatusNotification()
+  }
+  
 };
+
+function handleAuthErrors(response) {
+  console.log('handleAuthErrors received', response)
+  if (!response.ok) {
+      handleBadPageStatusNotification();
+      throw Error(response.statusText);
+  }
+  return response;
+}
+
+function handleBadPageStatusNotification() {
+  handleLogout()
+  console.log('could not authenticate the user')
+  alert('Your login session has expired. Please log in again!')
+  // toggleDisplayAccountBox();
+}
