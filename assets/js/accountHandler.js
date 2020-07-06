@@ -20,6 +20,7 @@ const renderMagic = async () => {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
     console.log(userMetadata)
+    handlePageNotification()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <button onclick="handleLogout()">Logout</button>
@@ -36,12 +37,11 @@ const handleLogin = async e => {
   if (email) {
     const didToken = await magic.auth.loginWithMagicLink({ email });
     console.log('didToken', didToken)
+    window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
     await fetch(`${serverUrl}/login`, {
       headers: new Headers({
         Authorization: "Bearer " + didToken
       }),
-      withCredentials: true,
-      credentials: "same-origin",
       method: "POST"
     });
     renderMagic();
@@ -69,3 +69,15 @@ function toggleAccountImage () {
     }  
   }
 }
+
+const handlePageNotification = async () => {
+  console.log('ran page load notification')
+  await fetch(`${serverUrl}/updateCurrentPage`, {
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer ' +  window.localStorage.didToken,
+    },
+    body: JSON.stringify({ currentPage: window.location.href }),
+    method: "POST"
+  });
+};
