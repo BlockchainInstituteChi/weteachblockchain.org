@@ -57,7 +57,6 @@ const handleLogout = async () => {
 
 
 function toggleAccountImage () {
-  // console.log('toggle displayNavbOX TRIGGERED')
   var images = document.getElementsByClassName('accountLight');
 
   for ( var img of images) {
@@ -84,7 +83,7 @@ const handlePageNotification = async () => {
     
   } catch (err) {
     console.log('uncaught exception in update call', err)
-    handleBadPageStatusNotification()
+    // handleBadPageStatusNotification()
   }
   
 };
@@ -102,5 +101,4 @@ function handleBadPageStatusNotification() {
   handleLogout()
   console.log('could not authenticate the user')
   alert('Your login session has expired. Please log in again!')
-  // toggleDisplayAccountBox();
 }
