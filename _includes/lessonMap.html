@@ -11,7 +11,8 @@
                     {% if lesson.module == module.number %}
                       {
                         link: "{{ lesson.permalink }}",
-                        title: "{{ lesson.title }}"
+                        title: "{{ lesson.title }}",
+                        slug: "{{ lesson.title | strip | replace: ' ', '-' | url_encode | downcase }}"
                       },
                     {% endif %}
                   {% endif %}

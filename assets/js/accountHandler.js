@@ -71,13 +71,30 @@ function toggleAccountImage () {
 
 const handlePageNotification = async () => {
   console.log('ran page load notification')
+
+  if ( !window.lessonMap ) {
+    var payload = { 
+      currentPage: window.location.href 
+    }
+  } else {
+    var courseDetails = getCoursePageDetails ( )
+    var payload = {
+      currentPage : window.location.href,
+      isCoursePage : true,
+      slug : courseDetails.slug,
+      title : courseDetails.title
+    }
+  }
+
+  console.log('payload', payload)
+
   try {
     await fetch(`${serverUrl}/updateCurrentPage`, {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ' +  window.localStorage.didToken,
       },
-      body: JSON.stringify({ currentPage: window.location.href }),
+      body: JSON.stringify(payload),
       method: "POST"
     }).then(handleAuthErrors).then( response => console.log('response from page update', response))
     
@@ -87,6 +104,21 @@ const handlePageNotification = async () => {
   }
   
 };
+
+function getCoursePageDetails ( ) {
+  var path = window.location.pathname
+  console.log('path', path)
+  for ( module of lessonMap ) {
+    for ( lesson of module.lessons ) {
+      if ( lesson.link === path )
+      return {
+        slug : lesson.slug,
+        title : lesson.title
+      }
+    }
+  }
+
+}
 
 function handleAuthErrors(response) {
   console.log('handleAuthErrors received', response)

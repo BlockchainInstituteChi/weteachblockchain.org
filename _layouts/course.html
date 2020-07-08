@@ -104,11 +104,13 @@
               <div class="moduleInfo">
                 <h2>{{module.title}}</h2>
                 <span>{{ module.summary }}</span>
+                <span class="progressDiv" id="progress_module_{{ module.number }}"></span>
                 <div class="moduleChildren">
                   {% for lesson in site.lessons %}
                     {% if lesson.course == page.slug %}
                       {% if lesson.module == module.number %}
                         <div class="lessonListing"> 
+                            <span class="progressDiv" id="progress_{{ lesson.id }}"></span>
                             <a target="_blank" href="{{ lesson.permalink }}">
                                 <h3>{{ lesson.title }}</h3>
                             </a>
@@ -132,6 +134,15 @@
     {% include lessonMap.html 
         slug=page.slug 
     %}
+    <script>
+      function populateCourseProgress () {
+        // get user data
+
+        // iterate through lesson map and compare to courseProgress
+
+        // populate 'progress' divs for each lesson with the correct class
+      }
+    </script>
     <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
     <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
   </body>
