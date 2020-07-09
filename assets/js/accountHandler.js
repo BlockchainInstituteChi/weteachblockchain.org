@@ -19,8 +19,9 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
-    console.log(userMetadata)
+    // console.log(userMetadata)
     handlePageNotification()
+    // getUserData()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <button onclick="handleLogout()">Logout</button>
@@ -36,7 +37,7 @@ const handleLogin = async e => {
   const email = new FormData(e.target).get("email");
   if (email) {
     const didToken = await magic.auth.loginWithMagicLink({ email });
-    console.log('didToken', didToken)
+    // console.log('didToken', didToken)
     window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
     await fetch(`${serverUrl}/login`, {
       headers: new Headers({
@@ -55,7 +56,24 @@ const handleLogout = async () => {
   toggleAccountImage();
 };
 
+// const getUserData = async () =>{
+//   console.log('fetching user data')
 
+//   try {
+//     await fetch(`${serverUrl}/data`, {
+//       headers: {
+//         'Content-Type': 'application/json',
+//         'Authorization': 'Bearer ' +  window.localStorage.didToken,
+//       },
+//       method: "GET"
+//     }).then(handleAuthErrors).then( response => console.log('response from user data request', response))
+    
+//   } catch (err) {
+//     console.log('uncaught exception in get user data call', err)
+//     // handleBadPageStatusNotification()
+//   }
+// }
+ 
 function toggleAccountImage () {
   var images = document.getElementsByClassName('accountLight');
 
@@ -70,7 +88,7 @@ function toggleAccountImage () {
 }
 
 const handlePageNotification = async () => {
-  console.log('ran page load notification')
+  // console.log('ran page load notification')
 
   if ( !window.lessonMap ) {
     var payload = { 
@@ -87,7 +105,7 @@ const handlePageNotification = async () => {
     }
   }
 
-  console.log('payload', payload)
+  // console.log('payload', payload)
 
   try {
     await fetch(`${serverUrl}/updateCurrentPage`, {
@@ -97,7 +115,15 @@ const handlePageNotification = async () => {
       },
       body: JSON.stringify(payload),
       method: "POST"
-    }).then(handleAuthErrors).then( response => console.log('response from page update', response))
+    })
+    .then( handleAuthErrors )
+    .then( response => response.json() )
+    .then((responseJSON) => {
+      // do stuff with responseJSON here...
+      // console.log(responseJSON);
+      window.userData = responseJSON[0]
+      console.log( 'set userdata', window.userData, new Date () )
+    })
     
   } catch (err) {
     console.log('uncaught exception in update call', err)
@@ -107,8 +133,9 @@ const handlePageNotification = async () => {
 };
 
 function getCoursePageDetails ( ) {
+  
   var path = window.location.pathname
-  console.log('path', path)
+  // console.log('path', path)
   for ( module of window.lessonMap.modules ) {
     for ( lesson of module.lessons ) {
       if ( lesson.link === path )
@@ -128,7 +155,7 @@ function getCoursePageDetails ( ) {
 }
 
 function handleAuthErrors(response) {
-  console.log('handleAuthErrors received', response)
+  // console.log('handleAuthErrors received', response)
   if (!response.ok) {
       handleBadPageStatusNotification();
       throw Error(response.statusText);
@@ -138,6 +165,6 @@ function handleAuthErrors(response) {
 
 function handleBadPageStatusNotification() {
   handleLogout()
-  console.log('could not authenticate the user')
+  // console.log('could not authenticate the user')
   alert('Your login session has expired. Please log in again!')
 }

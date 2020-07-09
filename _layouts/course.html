@@ -104,13 +104,15 @@
               <div class="moduleInfo">
                 <h2>{{module.title}}</h2>
                 <span>{{ module.summary }}</span>
-                <span class="progressDiv" id="progress_module_{{ module.number }}"></span>
+                <!-- <span class="progressDiv" id="progress_module_{{ module.number }}"></span> -->
                 <div class="moduleChildren">
                   {% for lesson in site.lessons %}
                     {% if lesson.course == page.slug %}
                       {% if lesson.module == module.number %}
                         <div class="lessonListing"> 
-                            <span class="progressDiv" id="progress_{{ lesson.id }}"></span>
+                            <span class="progressDiv" id="progress_{{ lesson.title | strip | replace: ' ', '-' | remove: '\' | remove: '!' | remove: '?' | remove: '&' | replace: '%', '-percent' | replace: '--', '-' | replace: '--', '-' | url_encode | downcase }}">
+                              <i class="fa fa-check" aria-hidden="true"></i>
+                            </span>
                             <a target="_blank" href="{{ lesson.permalink }}">
                                 <h3>{{ lesson.title }}</h3>
                             </a>
@@ -134,13 +136,39 @@
     {% include lessonMap.html 
         slug=page.slug 
     %}
-    <script>
+    <script defer>
+
+      // delay the load of the progress bars until the page has loaded properly
+      setTimeout(populateCourseProgress, 5000)
+
       function populateCourseProgress () {
+        console.log('ran course progress update', new Date () )
         // get user data
+        if ( !window.userData ) {
+          console.log('no user data available - prompting user to login')
+          displayUserLoginPrompt();
+        } else {
+          console.log('userData', window.userData)
+          // iterate through lesson map and compare to courseProgress
+          for ( module of window.lessonMap.modules ) {
+            for ( lesson of module.lessons ) {
+              if ( window.userData.pages.includes( lesson.slug ) ) {
+                displayCompletedIcon(lesson.slug)
+              }
+            }
+          }
 
-        // iterate through lesson map and compare to courseProgress
+        }
 
-        // populate 'progress' divs for each lesson with the correct class
+      }
+      function displayCompletedIcon( slug ) {
+        console.log( slug )
+        var progressSpan = document.getElementById( 'progress_' + slug )
+        console.log('got div', progressSpan)
+            progressSpan.className += " display"
+      }
+      function displayUserLoginPrompt ( ) {
+        console.log ( 'please log in to track progress' )
       }
     </script>
     <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>

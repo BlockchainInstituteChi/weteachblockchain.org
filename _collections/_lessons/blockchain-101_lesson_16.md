@@ -3,7 +3,7 @@ layout: lesson
 course: blockchain-101
 module: 3
 title: Applications of Smart Contracts
-permalink: /courses/blockchain-101/03/application-of-smart-contracts
+permalink: /courses/blockchain-101/03/applications-of-smart-contracts
 ---
 
 <iframe width="1024" height="475" src="https://www.youtube.com/embed/sUXTl4TMUlc?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

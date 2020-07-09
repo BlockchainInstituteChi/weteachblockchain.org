@@ -289,3 +289,17 @@ a.courseEndButton.moreCourses {
     margin-left: 0em;
     margin-right: 0em;
 }
+
+
+// CourseProgress
+span.progressDiv {
+    display: none;
+    color: green;
+    position: relative;
+    float: right;
+    top: 0.5em;
+    right: 0.5em;
+}
+span.progressDiv.display {
+    display: inline-block;
+}
