@@ -117,7 +117,7 @@ function getCoursePageDetails ( ) {
       }
     }
   }
-
+  
 }
 
 function handleAuthErrors(response) {
