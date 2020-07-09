@@ -8,7 +8,7 @@
       module : "{{ page.module }}",
     };
     function lastLesson () {
-      var thisModule = window.lessonMap[thisLesson.module - 1];
+      var thisModule = window.lessonMap.modules[thisLesson.module - 1];
       for (var i = 0; i < thisModule.lessons.length; i++ ) {
         if ( thisModule.lessons[i].link === thisLesson.link ) {
           // check if last lesson is in the same module
@@ -16,13 +16,13 @@
             window.location.href = thisModule.lessons[i - 1].link
           } else {
             // if not, proceed to last module
-            window.location.href = window.lessonMap[thisLesson.module - 2].lessons[window.lessonMap[thisLesson.module - 2].lessons.length - 1].link
+            window.location.href = window.lessonMap.modules[thisLesson.module - 2].lessons[window.lessonMap.modules[thisLesson.module - 2].lessons.length - 1].link
           }
         }
       }
     }
     function nextLesson () {
-      var thisModule = window.lessonMap[thisLesson.module - 1];
+      var thisModule = window.lessonMap.modules[thisLesson.module - 1];
       for (var i = 0; i < thisModule.lessons.length; i++ ) {
         if ( thisModule.lessons[i].link === thisLesson.link ) {
           // check if next lesson is in the same module
@@ -30,7 +30,7 @@
             window.location.href = thisModule.lessons[i + 1].link
           } else {
             // if not, proceed to next module
-            window.location.href = window.lessonMap[thisLesson.module].lessons[0].link
+            window.location.href = window.lessonMap.modules[thisLesson.module].lessons[0].link
           }
         }
 
@@ -43,6 +43,7 @@
         {% endif %}
       {% endfor %}
 
+      // something weird is going on here... no course object should be available here.
       window.location.href = permalink
 
     }
@@ -53,16 +54,16 @@
       // First, check if this is the first module
       if ( "1" === module ) {
 
-        if ( thisLesson.link === window.lessonMap[module - 1].lessons[0].link ) {
+        if ( thisLesson.link === window.lessonMap.modules[module - 1].lessons[0].link ) {
           // this is the first lesson, so hide the back button
           hideBackButton()
 
         }
 
-      } else if ( window.lessonMap.length == module ) {
+      } else if ( window.lessonMap.modules.length == module ) {
 
         // Then, check if this is the last lesson
-        if ( window.lessonMap[module - 1].lessons[window.lessonMap[module - 1].lessons.length - 1].link === thisLesson.link ) {
+        if ( window.lessonMap.modules[module - 1].lessons[window.lessonMap.modules[module - 1].lessons.length - 1].link === thisLesson.link ) {
           hideForwardButton();
         }
 

@@ -3,7 +3,7 @@ layout: course
 title: Blockchain 101
 primaryTag : beginner
 tags: beginner professional
-slug: blockchain101
+slug: blockchain-101
 permalink: /courses/blockchain-101/
 author: Jeremy Cogan
 image: BC101-01.jpg

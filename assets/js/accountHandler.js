@@ -82,7 +82,8 @@ const handlePageNotification = async () => {
       currentPage : window.location.href,
       isCoursePage : true,
       slug : courseDetails.slug,
-      title : courseDetails.title
+      title : courseDetails.title,
+      course : courseDetails.course
     }
   }
 
@@ -108,14 +109,20 @@ const handlePageNotification = async () => {
 function getCoursePageDetails ( ) {
   var path = window.location.pathname
   console.log('path', path)
-  for ( module of lessonMap ) {
+  for ( module of window.lessonMap.modules ) {
     for ( lesson of module.lessons ) {
       if ( lesson.link === path )
       return {
         slug : lesson.slug,
-        title : lesson.title
+        title : lesson.title,
+        course : window.lessonMap.slug
       }
     }
+  }
+  return {
+    slug : 'course-directory',
+    title : 'course-directory',
+    course : window.lessonMap.slug
   }
   
 }

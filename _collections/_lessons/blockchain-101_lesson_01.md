@@ -1,7 +1,7 @@
 
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: Introduction to the Blockchain
 permalink: /courses/blockchain-101/01/introduction-to-the-blockchain

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: From Digital Currency to Cryptocurrency
 permalink: /courses/blockchain-101/01/from-digital-currency-to-cryptocurrency

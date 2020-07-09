@@ -1,27 +1,31 @@
 <script>
-    var lessonMap = [
-      {% for module in site.modules %}
-          {% if module.course == include.slug %}
-            {
-              name: "{{ module.title }}",
-              summary : "{{ module.summary }}",
-              lessons : [
-                {% for lesson in site.lessons %}
-                  {% if lesson.course == include.slug %}
-                    {% if lesson.module == module.number %}
-                      {
-                        link: "{{ lesson.permalink }}",
-                        title: "{{ lesson.title }}",
-                        slug: "{{ lesson.title | strip | replace: ' ', '-' | remove: '\' | remove: '!' | remove: '?' | remove: '&' | replace: '%', '-percent' | url_encode | downcase }}"
-                      },
+    var lessonMap = {
+      slug : "{{ include.slug }}",
+      modules : [
+        {% for module in site.modules %}
+            {% if module.course == include.slug %}
+              {
+                name: "{{ module.title }}",
+                summary : "{{ module.summary }}",
+                lessons : [
+                  {% for lesson in site.lessons %}
+                    {% if lesson.course == include.slug %}
+                      {% if lesson.module == module.number %}
+                        {
+                          link: "{{ lesson.permalink }}",
+                          title: "{{ lesson.title }}",
+                          slug: "{{ lesson.title | strip | replace: ' ', '-' | remove: '\' | remove: '!' | remove: '?' | remove: '&' | replace: '%', '-percent' | replace: '--', '-' | replace: '--', '-' | url_encode | downcase }}"
+                        },
+                      {% endif %}
                     {% endif %}
-                  {% endif %}
-                {% endfor %}
-              ],
-            },
-          {% endif %}
-      {% endfor %}
-    ];
+                  {% endfor %}
+                ],
+              },
+            {% endif %}
+        {% endfor %}
+      ]
+    }
+
     window.lessonMap = lessonMap;
     console.log('lessonMap', window.lessonMap)
 </script>

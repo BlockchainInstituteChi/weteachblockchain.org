@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: Properties of a Blockchain
 permalink: /courses/blockchain-101/01/properties-of-a-blockchain

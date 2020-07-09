@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: The Birth of Digital Money
 permalink: /courses/blockchain-101/01/the-birth-of-digital-money

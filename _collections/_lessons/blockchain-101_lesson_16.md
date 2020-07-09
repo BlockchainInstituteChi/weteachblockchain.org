@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 3
 title: Applications of Smart Contracts
 permalink: /courses/blockchain-101/03/application-of-smart-contracts

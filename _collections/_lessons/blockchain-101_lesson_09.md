@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 2
 title: How are Blockchains Secure?
 permalink: /courses/blockchain-101/02/how-are-blockchains-secure

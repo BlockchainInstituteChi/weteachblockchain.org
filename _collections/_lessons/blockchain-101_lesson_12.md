@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 2
 title: What is Cryptocurrency Mining?
 permalink: /courses/blockchain-101/02/what-is-cryptocurrency-mining
