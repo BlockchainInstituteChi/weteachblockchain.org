@@ -1,11 +1,12 @@
 header.jumbotron.text-left.tileHeader {
     padding: 0;
+    max-height: 45em !important;
 }
 
-.col-sm-4 {
+.col-sm-5 {
     height: 100vh;
     background: white;
-    padding: 1em;
+    padding: 2em;
     padding-top: 10%;
 }
 
@@ -39,5 +40,9 @@ a {
 }
 
 button.learnMoreButton.callToAction {
-    background: #d75895;
+    background: #ed0744;
+    font-weight: 500;
+}
+a.thankYouButton {
+    font-family: Kanit, sans-serif;
 }
