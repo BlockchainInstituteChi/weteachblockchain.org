@@ -410,7 +410,7 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 
 /* Jumbotron */
 .tileHeader {
-    background: url(/assets/img/headerBackgroundTile.jpg);
+    background: url(/assets/img/ThankYouBG.jpg);
     background-size: cover;
 }
 .jumbotron .col-sm-6 {
@@ -754,20 +754,29 @@ span.courseTag {
     text-transform: uppercase;
     text-align: center;
     margin: auto;
-    background: black;
+    background: white;
     display: block;
     margin-top: -0.5em;
     color: white;
-    font-size: .85em;
+    font-size: .75em;
 }
 span.courseTag.developer {
-    background: $brand-blue;
+    color: $brand-blue;
+    border: $brand-blue;
+    border-width: thin;
+    border-style: solid;
 } 
 span.courseTag.professional {
-    background: $brand-purple;
+    color: $brand-purple;
+    border: $brand-purple;
+    border-width: thin;
+    border-style: solid;
 } 
 span.courseTag.beginner {
-    background: $brand-green;
+    color: $brand-green;
+    border: $brand-green;
+    border-width: thin;
+    border-style: solid;
 }
 
 /* Homepage fix */
