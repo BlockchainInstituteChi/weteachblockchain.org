@@ -1,6 +1,6 @@
 ---
 name: Alex Morris
 role: Research & Technology Development
-summary: Alex began his interest in software in the robotics and automation industry, and now manages technical contributions at the Institute. Originally hailing from Canada, he's a boardsports and rock climbing enthusiast, and is now working on the transition from piano to guitar. A number of his libraries and tools are published on our Github repo, but we're happy to help if you've got an interesting problem to solve. 
+summary: Alex is passionate about open ocean sailing and digital self-sovreignty. He leads technology at the Institute, and also produces some courses and other content on our website. 
 headshot: AlexM.png
 ---

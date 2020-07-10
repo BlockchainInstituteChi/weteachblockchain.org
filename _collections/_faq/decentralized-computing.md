@@ -3,6 +3,9 @@ title: What is Decentralized Computing?
 image: decentralized_computing_open.jpg
 permalink: /faq/decentralized-computing/
 layout: faq
+learnMoreLink: /courses/decentralized-storage/
+learnMoreText: our Decentralized Storage course
+learnMoreImage: DecentralizedStorage.jpg
 tag: APPLICATIONS
 weight: 5
 ---
@@ -19,7 +22,7 @@ Since 2015, Ethereum has risen to have one of the largest cryptocurrency communi
 {% include callouts/imageWithCaption.html
 	image="/EthereumNode_nocaption-01.jpg"
 	title="How do Smart Contracts allow decentralized computing?"
-	bodyText="Ethereum Nodes store code, which can be executed by users who pay for the execution using Ethereum tokens. In this way, the network can act autonomously, without a centralized owner. That means that when smart contracts manage storage, they can pay the storage provider automatically, and without any middleman."
+	bodyText="Ethereum Nodes store code, which can be executed by users who pay for the execution using Ethereum tokens. In this way, the network can act autonomously, without a centralized owner."
 %}
 
 <span>Also, see our <a href="/courses/decentralized-storage/" target="_blank" rel="noopener">Decentralized Storage</a> course for more interesting ideas about building distributed computing ecosystems.</span>

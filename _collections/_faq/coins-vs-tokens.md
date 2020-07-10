@@ -5,7 +5,8 @@ permalink: /faq/coins-vs-tokens/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
-learnMoreText: The Fungible Tokens Section of Ethereum 101
+learnMoreText: the Fungible Tokens section of Ethereum 101
+learnMoreImage: EthereumGrowth-1.jpg
 weight: 5
 ---
 <span>In the brave new world of cryptographic assets, it can be confusing to determine what is what. When talking about cryptocurrency, the terms <strong>"coin"</strong> and <strong>"token"</strong> are often used interchangeably, even though this is not quite correct. There are a few subtle differences between coins and tokens.</span>

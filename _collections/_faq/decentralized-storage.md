@@ -3,6 +3,9 @@ title: What is Decentralized Storage?
 image: DStorage.jpg
 permalink: /faq/decentralized-storage/
 layout: faq
+learnMoreLink: /courses/decentralized-storage/
+learnMoreText: our Decentralized Storage course
+learnMoreImage: DecentralizedStorage.jpg
 tag: APPLICATIONS
 weight: 6
 ---
