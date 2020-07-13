@@ -38,7 +38,9 @@ const renderMagic = async () => {
 // some pages do not have messages, but for those that do, they will be hidden
 function hideUserLoginPrompt ( ) {
   console.log ( 'please log in to track progress' )
-  document.getElementsByClassName('userLoginPrompt').className += ' hidden';
+  for ( div of document.getElementsByClassName('userLoginPrompt') ) {
+    div.className += ' d-none';
+  }
 }
 
 const handleLogin = async e => {

@@ -1,0 +1,10 @@
+<script>
+    window.coursesMap = [
+    {% for course in site.courses %}{
+        slug : "{{ course.slug }}",
+        course : "{{ course.title }}"
+    },{% endfor %}
+    ];
+
+    console.log('courseMap', window.coursesMap)
+</script>

@@ -1,5 +1,5 @@
 <script>
-    var lessonMap = {
+    window.lessonMap = {
       slug : "{{ include.slug }}",
       modules : [
         {% for module in site.modules %}
@@ -26,6 +26,5 @@
       ]
     }
 
-    window.lessonMap = lessonMap;
     console.log('lessonMap', window.lessonMap)
 </script>
