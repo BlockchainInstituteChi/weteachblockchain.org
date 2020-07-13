@@ -95,7 +95,15 @@
         <span class="summary">{{ page.summary }}</span>
         <span class="disclaimer">We’re here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org – we’d love to hear from you!</span>
       </div>  
-    </div>
+    </section>
+
+    <section class="userLoginPrompt">
+      <div class="row">
+        <h3>Please log in to track your progress.</h3> 
+        <span>Log in to start tracking course progress. Your tracking will be 100% confidential, but will allow you to see which lessons you've viewed in the past, as well as earn badges towards achievements!</span>
+        <a onclick="toggleDisplayAccountBox()">login</a>
+      </div>
+    </section>
     
     <section class="courseSections">
       <div class="row">
@@ -138,38 +146,42 @@
     %}
     <script defer>
 
-      // delay the load of the progress bars until the page has loaded properly
-      setTimeout(populateCourseProgress, 5000)
-
+      // this function will be triggered from accountHandler.js when the userdata is loaded
       function populateCourseProgress () {
         console.log('ran course progress update', new Date () )
         // get user data
         if ( !window.userData ) {
           console.log('no user data available - prompting user to login')
-          displayUserLoginPrompt();
+          // displayUserLoginPrompt();
         } else {
           console.log('userData', window.userData)
           // iterate through lesson map and compare to courseProgress
-          for ( module of window.lessonMap.modules ) {
-            for ( lesson of module.lessons ) {
-              if ( window.userData.pages.includes( lesson.slug ) ) {
-                displayCompletedIcon(lesson.slug)
+          for ( course of window.userData ) {
+            if ( course.tag === window.lessonMap.slug ) {
+              // var check_cp = 1;
+              for ( module of window.lessonMap.modules ) {
+                for ( lesson of module.lessons ) {
+                  if ( course.pages.includes( lesson.slug ) ) {
+                    displayCompletedIcon(lesson.slug)
+                  }
+                }
               }
             }
           }
+          // if ( check_cp != 1 ) {
+          //   displayUserLoginPrompt ();
+          // }
 
         }
 
       }
+
+      // this function displays a check mark next to completed lessons
       function displayCompletedIcon( slug ) {
-        console.log( slug )
         var progressSpan = document.getElementById( 'progress_' + slug )
-        console.log('got div', progressSpan)
             progressSpan.className += " display"
       }
-      function displayUserLoginPrompt ( ) {
-        console.log ( 'please log in to track progress' )
-      }
+
     </script>
     <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
     <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>

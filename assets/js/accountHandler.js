@@ -21,6 +21,7 @@ const renderMagic = async () => {
     const userMetadata = await magic.user.getMetadata();
     // console.log(userMetadata)
     handlePageNotification()
+    hideUserLoginPrompt()
     // getUserData()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
@@ -31,6 +32,14 @@ const renderMagic = async () => {
 
   document.getElementById("app").innerHTML = html;
 };
+
+
+// this function hides a prompt for the user to log in if user data is available
+// some pages do not have messages, but for those that do, they will be hidden
+function hideUserLoginPrompt ( ) {
+  console.log ( 'please log in to track progress' )
+  document.getElementsByClassName('userLoginPrompt').className += ' hidden';
+}
 
 const handleLogin = async e => {
   e.preventDefault();
@@ -101,7 +110,8 @@ const handlePageNotification = async () => {
       isCoursePage : true,
       slug : courseDetails.slug,
       title : courseDetails.title,
-      course : courseDetails.course
+      course : courseDetails.course,
+      totalLessons : courseDetails.totalLessons
     }
   }
 
@@ -120,9 +130,14 @@ const handlePageNotification = async () => {
     .then( response => response.json() )
     .then((responseJSON) => {
       // do stuff with responseJSON here...
-      // console.log(responseJSON);
-      window.userData = responseJSON[0]
+      console.log('got user data w/ current page', responseJSON);
+      window.userData = responseJSON
       console.log( 'set userdata', window.userData, new Date () )
+
+      // if this is a course directory page - populate progress 
+      if ( typeof ( populateCourseProgress ) != 'undefined' ) {
+        populateCourseProgress()
+      }
     })
     
   } catch (err) {
@@ -131,6 +146,14 @@ const handlePageNotification = async () => {
   }
   
 };
+
+function getTotalLessonsCount ( ) {
+  var totalCount = 0;
+  for ( module of window.lessonMap.modules ) {
+    totalCount += module.lessons.length
+  }
+  return totalCount
+}
 
 function getCoursePageDetails ( ) {
   
@@ -142,14 +165,16 @@ function getCoursePageDetails ( ) {
       return {
         slug : lesson.slug,
         title : lesson.title,
-        course : window.lessonMap.slug
+        course : window.lessonMap.slug,
+        totalLessons : getTotalLessonsCount()
       }
     }
   }
   return {
     slug : 'course-directory',
     title : 'course-directory',
-    course : window.lessonMap.slug
+    course : window.lessonMap.slug,
+    totalLessons : getTotalLessonsCount()
   }
   
 }

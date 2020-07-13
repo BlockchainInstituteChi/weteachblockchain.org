@@ -903,3 +903,30 @@ a.buttonStyle:hover {
 .mobileNavSidebar .master i.fa.fa-search {
     color: white;
 }
+
+// login functionality
+section.userLoginPrompt {
+    margin-top: 1em;
+}
+.userLoginPrompt .row {
+    border: 1px solid red;
+    padding: 1em;
+}
+.userLoginPrompt a {
+    background: red;
+    padding: 1em;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 500;
+    float: left;
+    margin-top: 1em;
+}
+.userLoginPrompt h3 {
+    text-transform: uppercase;
+}
+.userLoginPrompt span {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+

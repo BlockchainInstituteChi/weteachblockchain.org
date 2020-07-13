@@ -1,5 +1,6 @@
 function toggleDisplayNavBox () {
 
+    window.scrollTo(0,0)
     console.log('nav box display toggle triggered', new Date (), event.target );
 
     if ( document.getElementById('navBox').className.split('d-none').length > 1 ) {
@@ -12,7 +13,7 @@ function toggleDisplayNavBox () {
 }
 
 function toggleDisplayAccountBox () {
-
+    window.scrollTo(0,0)
     // console.log('toggle displayNavbOX TRIGGERED')
     var accountBox = document.getElementById('accountDropdown');
 
