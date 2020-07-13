@@ -1,12 +1,15 @@
 <div class="row courseListing"> 
     <div class="col-sm-4">
         <img src="/assets/img/{{include.image}}"/>
+        <div id="progress_{{include.slug}}" class="courseProgress">
+            <span id="progress_{{include.slug}}_number"></span>
+        </div>
     </div>
     <div class="col-sm-6">
         <h3>{{ include.title }}</h3>
         <span class="author">{{ include.author }}</span>
         <span class="summary">{{ include.summary }}</span>
-        <a class="startCourseButton" href="{{ include.link }}">Start Course</a>
+        <a id="start_{{include.slug}}" class="startCourseButton" href="{{ include.link }}">Start Course</a>
     </div>
     <div class="col-sm-2 courseTagContainer">
         <a href="/courses/{{include.tag}}s">

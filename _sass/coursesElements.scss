@@ -303,3 +303,24 @@ span.progressDiv {
 span.progressDiv.display {
     display: inline-block;
 }
+
+.courseProgress {
+    height: calc(100% - 1em);
+    width: calc(100% - 1em);
+    background: #808080d9;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.courseProgress.display {
+    display: block;
+}
+.courseProgress span {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-top: calc(25% - 1em);
+    font-size: 1.5em;
+    color: white;
+}

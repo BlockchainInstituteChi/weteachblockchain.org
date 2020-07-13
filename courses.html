@@ -67,39 +67,14 @@ permalink: /courses/
 			summary=course.summary 
 			link=course.permalink 
 			tag=course.primaryTag	
+			slug=course.slug
 		%}
 	{% endfor %}
 </section>
 
 {% include coursesMap.html %}
 
-<script defer>
-
-	// this function will be triggered from accountHandler.js when the userdata is loaded
-	function populateCourseProgress () {
-	  console.log('ran course progress update', new Date () )
-	  // get user data
-	  if ( !window.userData ) {
-		console.log('no user data available - prompting user to login')
-		// displayUserLoginPrompt();
-	  } else {
-		console.log('userData', window.userData)
-		// iterate through lesson map and compare to courseProgress
-		for ( course of window.userData ) {
-		  
-		}
-
-	  }
-
-	}
-
-	// this function displays a check mark next to completed lessons
-	function displayCourseCompletion ( slug ) {
-	  var progressSpan = document.getElementById( 'progress_' + slug )
-		  progressSpan.className += " display"
-	}
-
-</script>
+{% include coursesProgressCalculator.html %}
 
 {% include pinkDivider.html %}
 

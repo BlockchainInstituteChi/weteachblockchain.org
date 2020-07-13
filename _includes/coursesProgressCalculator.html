@@ -1,0 +1,34 @@
+<script defer>
+
+	// this function will be triggered from accountHandler.js when the userdata is loaded
+	function populateCourseProgress () {
+	  console.log('ran course progress update', new Date () )
+	  // get user data
+	  if ( window.userData ) {
+		console.log('userData', window.userData)
+		// iterate through lesson map and compare to courseProgress
+		for ( course of window.userData ) {
+			displayCourseCompletion(course.tag, getCurrentProgress(course))
+		}
+
+	  }
+
+	}
+
+	// this function displays a check mark next to completed lessons
+	function displayCourseCompletion ( slug, progress ) {
+
+        console.log('displaying progress for course', slug, progress)
+
+	    document.getElementById( 'progress_' + slug ).className += " display"
+        document.getElementById('progress_' + slug + '_number').innerHTML = progress + "% Complete"
+        document.getElementById('start_' + slug).innerHTML = "RESUME COURSE"
+
+	}
+
+    function getCurrentProgress ( courseCompletion ) {
+        console.log('calculating % progress for ', courseCompletion, 'dividing', courseCompletion.pages.length, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
+        return Math.round( (courseCompletion.pages.length - 1) / courseCompletion.totalLessons * 100)
+    }
+
+</script>

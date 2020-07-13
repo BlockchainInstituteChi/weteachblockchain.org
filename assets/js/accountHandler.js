@@ -107,17 +107,18 @@ const handlePageNotification = async () => {
     }
   } else {
     var courseDetails = getCoursePageDetails ( )
+    
     var payload = {
       currentPage : window.location.href,
       isCoursePage : true,
-      slug : courseDetails.slug,
+      page : courseDetails.slug,
       title : courseDetails.title,
       course : courseDetails.course,
       totalLessons : courseDetails.totalLessons
     }
   }
 
-  // console.log('payload', payload)
+  console.log('payload', payload)
 
   try {
     await fetch(`${serverUrl}/updateCurrentPage`, {
