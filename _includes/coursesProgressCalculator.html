@@ -2,10 +2,10 @@
 
 	// this function will be triggered from accountHandler.js when the userdata is loaded
 	function populateCourseProgress () {
-	  console.log('ran course progress update', new Date () )
+	//   console.log('ran course progress update', new Date () )
 	  // get user data
 	  if ( window.userData ) {
-		console.log('userData', window.userData)
+		// console.log('userData', window.userData)
 		// iterate through lesson map and compare to courseProgress
 		for ( course of window.userData ) {
 			displayCourseCompletion(course)
@@ -55,12 +55,12 @@
 		for ( course of window.coursesMap ) {
 			if ( course.slug === thisCourse.tag ) {
 				for ( lesson of course.lessons ) {
-					console.log('checking ', lesson.slug, 'vs', thisCourse.pages)
+					// console.log('checking ', lesson.slug, 'vs', thisCourse.pages)
 					if ( thisCourse.pages.includes( lesson.slug ) && ( done != 1 ) ) {
-						console.log('match found!')
+						// console.log('match found!')
 						done = 1;
 					} else { 
-						console.log('returning ', lesson.link)
+						// console.log('returning ', lesson.link)
 						return lesson.link;
 					}
 				}
