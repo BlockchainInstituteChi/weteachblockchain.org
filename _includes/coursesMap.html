@@ -3,15 +3,12 @@
     {% for course in site.courses %}{
         slug : "{{ course.slug }}",
         course : "{{ course.title }}",
-        modules : [
+        lessons : [
             {% for module in site.modules %}
                 {% if module.course == course.slug %}
-                {
-                    name: "{{ module.title }}",
-                    summary : "{{ module.summary }}",
-                    lessons : [
+                
                     {% for lesson in site.lessons %}
-                        {% if lesson.course == include.slug %}
+                        {% if lesson.course == course.slug %}
                         {% if lesson.module == module.number %}
                             {
                             link: "{{ lesson.permalink }}",
@@ -21,8 +18,6 @@
                         {% endif %}
                         {% endif %}
                     {% endfor %}
-                    ],
-                },
                 {% endif %}
             {% endfor %}
         ]

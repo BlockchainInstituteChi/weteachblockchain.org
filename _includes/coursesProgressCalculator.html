@@ -8,7 +8,7 @@
 		console.log('userData', window.userData)
 		// iterate through lesson map and compare to courseProgress
 		for ( course of window.userData ) {
-			displayCourseCompletion(course.tag, getCurrentProgress(course))
+			displayCourseCompletion(course)
 		}
 
 	  }
@@ -16,15 +16,18 @@
 	}
 
 	// this function displays a check mark next to completed lessons
-	function displayCourseCompletion ( slug, progress ) {
+	function displayCourseCompletion ( course ) {
 
-		console.log('displaying progress for course', slug, progress)
-		
+		// console.log('displaying progress for course', slug, progress)
+		var slug = course.tag;
+		var progress = getCurrentProgress(course);
+
 		if ( progress < 100 ) {
 
 			document.getElementById( 'progress_' + slug ).className += " display"
 			document.getElementById('progress_' + slug + '_number').innerHTML = progress + "% Complete"
 			document.getElementById('start_' + slug).innerHTML = "RESUME COURSE"
+			document.getElementById('start_' + slug).href = getNextLesson( course )
 
 		} else if ( progress === 100 ) {
 
@@ -37,8 +40,33 @@
 	}
 
     function getCurrentProgress ( courseCompletion ) {
-        console.log('calculating % progress for ', courseCompletion, 'dividing', courseCompletion.pages.length, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
-        return Math.round( (courseCompletion.pages.length - 1) / courseCompletion.totalLessons * 100)
+		if ( courseCompletion.pages.includes('course-directory') ) {
+			var totalPages = (courseCompletion.pages.length - 1)
+		} else {
+			var totalPages = courseCompletion.pages.length
+		}
+
+        // console.log('calculating % progress for ', courseCompletion, 'dividing', totalPages, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
+        return Math.round( totalPages / courseCompletion.totalLessons * 100)
     }
+
+	function getNextLesson ( thisCourse ) {
+		var done = 0;
+		for ( course of window.coursesMap ) {
+			if ( course.slug === thisCourse.tag ) {
+				for ( lesson of course.lessons ) {
+					console.log('checking ', lesson.slug, 'vs', thisCourse.pages)
+					if ( thisCourse.pages.includes( lesson.slug ) && ( done != 1 ) ) {
+						console.log('match found!')
+						done = 1;
+					} else { 
+						console.log('returning ', lesson.link)
+						return lesson.link;
+					}
+				}
+			} 
+		}
+
+	}
 
 </script>
