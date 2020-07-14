@@ -21,6 +21,8 @@ permalink: /courses/beginners/
 	</div>
 </section>
 
+{% include loginToTrackProgress.html %}
+
 <section class="coursesList coursePathHeader">
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
@@ -65,6 +67,10 @@ permalink: /courses/beginners/
 		
 	</div>
 </section>
+
+{% include coursesMap.html %}
+
+{% include coursesProgressCalculator.html %}
 
 {% include pinkDivider.html %}
 

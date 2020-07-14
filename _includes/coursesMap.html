@@ -2,7 +2,30 @@
     window.coursesMap = [
     {% for course in site.courses %}{
         slug : "{{ course.slug }}",
-        course : "{{ course.title }}"
+        course : "{{ course.title }}",
+        modules : [
+            {% for module in site.modules %}
+                {% if module.course == course.slug %}
+                {
+                    name: "{{ module.title }}",
+                    summary : "{{ module.summary }}",
+                    lessons : [
+                    {% for lesson in site.lessons %}
+                        {% if lesson.course == include.slug %}
+                        {% if lesson.module == module.number %}
+                            {
+                            link: "{{ lesson.permalink }}",
+                            title: "{{ lesson.title }}",
+                            slug: "{{ lesson.title | strip | replace: ' ', '-' | remove: '\' | remove: '!' | remove: '?' | remove: '&' | replace: '%', '-percent' | replace: '--', '-' | replace: '--', '-' | url_encode | downcase }}"
+                            },
+                        {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                    ],
+                },
+                {% endif %}
+            {% endfor %}
+        ]
     },{% endfor %}
     ];
 

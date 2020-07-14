@@ -18,12 +18,22 @@
 	// this function displays a check mark next to completed lessons
 	function displayCourseCompletion ( slug, progress ) {
 
-        console.log('displaying progress for course', slug, progress)
+		console.log('displaying progress for course', slug, progress)
+		
+		if ( progress < 100 ) {
 
-	    document.getElementById( 'progress_' + slug ).className += " display"
-        document.getElementById('progress_' + slug + '_number').innerHTML = progress + "% Complete"
-        document.getElementById('start_' + slug).innerHTML = "RESUME COURSE"
+			document.getElementById( 'progress_' + slug ).className += " display"
+			document.getElementById('progress_' + slug + '_number').innerHTML = progress + "% Complete"
+			document.getElementById('start_' + slug).innerHTML = "RESUME COURSE"
 
+		} else if ( progress === 100 ) {
+
+			document.getElementById( 'progress_' + slug ).className += " display"
+			document.getElementById('progress_' + slug + '_number').innerHTML = "Complete!"
+			document.getElementById('start_' + slug).innerHTML = "RETAKE COURSE"
+			document.getElementById('start_' + slug).className += " complete"
+
+		}
 	}
 
     function getCurrentProgress ( courseCompletion ) {
