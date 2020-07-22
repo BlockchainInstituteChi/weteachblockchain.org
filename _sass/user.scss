@@ -1,0 +1,25 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    padding-left: 0;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.025em;
+}
+
+ul.userNavigation {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.userNavigation li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    color: $brand-teal;
+}
