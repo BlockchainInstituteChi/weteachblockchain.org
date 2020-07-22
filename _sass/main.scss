@@ -912,3 +912,49 @@ div#accountDropdown {
 .mobileNavSidebar .master i.fa.fa-search {
     color: white;
 }
+
+
+/* Factoids */
+section.factoid {
+    max-width: 90vw;
+    margin: auto;
+    display: block;
+    margin-bottom: 5em;
+    border-top: 1px red solid;
+    border-bottom: 1px red solid;
+    padding-top: 4em;
+    padding-bottom: 3.5em;
+}
+span.didYouKnow {
+    transform: rotate(-90deg);
+    padding: 0.5em 1em 0.5em 1em;
+    background: red;
+    max-height: 3.5em;
+    color: white;
+    font-weight: 700;
+    left: 1.05em;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    position: absolute;
+}
+.mainFocus h1 {
+    font-size: 9.5em;
+    margin-top: -0.5em;
+    width: 100%;
+    text-align: center;
+}
+.mainFocus span {
+    font-size: 3.5em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    margin-top: -1em;
+    position: relative;
+    display: block;
+}
+.explanation span {
+    font-size: 2.5em;
+    float: right;
+    font-style: italic;
+    font-weight: 300;
+}
