@@ -21,13 +21,15 @@ const renderMagic = async () => {
     const userMetadata = await magic.user.getMetadata();
     // console.log(userMetadata)
     handlePageNotification()
-    hideUserLoginPrompt()
+    // hideUserLoginPrompt()
     // getUserData()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <button onclick="handleLogout()">Logout</button>
     `;
     toggleAccountImage();
+  } else {
+    showUserLoginPrompt()
   }
 
   document.getElementById("app").innerHTML = html;
@@ -36,10 +38,21 @@ const renderMagic = async () => {
 
 // this function hides a prompt for the user to log in if user data is available
 // some pages do not have messages, but for those that do, they will be hidden
-function hideUserLoginPrompt ( ) {
+// function hideUserLoginPrompt ( ) {
+//   console.log ( 'please log in to track progress' )
+//   for ( div of document.getElementsByClassName('userLoginPrompt') ) {
+//     div.className += ' d-none';
+//   }
+// }
+function showUserLoginPrompt ( ) {
   console.log ( 'please log in to track progress' )
   for ( div of document.getElementsByClassName('userLoginPrompt') ) {
-    div.className += ' d-none';
+    if ( !div.className.includes('shown') ) {
+      console.log('showing user login prompt')
+      div.className += ' shown';
+    } else {
+      console.log('already showing user login prompt')
+    }
   }
 }
 

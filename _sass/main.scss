@@ -907,6 +907,7 @@ a.buttonStyle:hover {
 // login functionality
 section.userLoginPrompt {
     margin-top: 1em;
+    display: none;
 }
 .userLoginPrompt .row {
     border: 1px solid red;
@@ -930,3 +931,6 @@ section.userLoginPrompt {
     width: 100%;
 }
 
+.shown {
+    display: block !important;
+}
