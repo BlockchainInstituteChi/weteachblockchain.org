@@ -923,7 +923,6 @@ section.factoid {
     border-top: 1px red solid;
     border-bottom: 1px red solid;
     padding-top: 4em;
-    padding-bottom: 3.5em;
 }
 span.didYouKnow {
     transform: rotate(-90deg);
@@ -938,15 +937,15 @@ span.didYouKnow {
     position: absolute;
 }
 .mainFocus h1 {
-    font-size: 9.5em;
+    font-size: 14.5em;
     margin-top: -0.5em;
-    width: 100%;
-    text-align: center;
+    text-align: left;
+    padding-left: 0;
 }
 .mainFocus span {
     font-size: 3.5em;
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: black;
     margin-top: -1em;
     position: relative;
