@@ -154,6 +154,9 @@ const handlePageNotification = async () => {
       if ( typeof ( populateCourseProgress ) != 'undefined' ) {
         populateCourseProgress()
       }
+      if ( typeof ( displayUserData ) != 'undefined' ) {
+        displayUserData()
+      }      
     })
     
   } catch (err) {

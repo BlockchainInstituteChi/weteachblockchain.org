@@ -1,0 +1,69 @@
+---
+title: User Profile
+layout: default
+stylesheet: userProfile.css
+ogTitle: Blockchain Institute
+ogDesc: We are a nonprofit organization with the mission of educating the world on all things related to blockchain, cryptocurrency, and decentralized technology. Sign up for an in-person class or take a free online course today!
+ogImage: https://weteachblockchain.org/assets/img/headerBackgroundTile.jpg
+ogUrl: https://weteachblockchain.org/
+---
+
+{% include loginToTrackProgress.html %}
+
+<section class="userProfileHeader">
+    <div class="container row">
+        <h1 id="userEmail">User Email</h1>
+        <ul class="userNavigation">
+            <li>Course Progress</li>
+            <li>Delete Account</li>
+        </ul>
+    </div>
+</section>
+
+<section id="courseProgress" class="userDetails">
+    <div class="container row">
+        <h1>Completed Courses</h1>
+        
+    </div>
+</section>
+
+<script>
+
+    function displayUserData ( ) {
+        if ( window.userData ) {
+            for ( course of window.userData ) {
+
+                var slug = course.tag;
+                course.progress = getCurrentProgress(course);
+
+                if ( course.progress < 100 ) {
+                    displayCourseProgress( course, false )
+                } else {
+                    displayCourseProgress( course, true )
+                }
+
+            }
+        }
+    }
+
+    function displayCourseProgress ( course, isComplete ) {
+        if ( isComplete ) {
+            console.log('displaying complete course', course )
+        } else {
+            console.log('displaying in progress course', course )
+        }
+    }
+
+    function getCurrentProgress ( courseCompletion ) {
+		if ( courseCompletion.pages.includes('course-directory') ) {
+			var totalPages = (courseCompletion.pages.length - 1)
+		} else {
+			var totalPages = courseCompletion.pages.length
+		}
+
+        // console.log('calculating % progress for ', courseCompletion, 'dividing', totalPages, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
+        return Math.round( totalPages / courseCompletion.totalLessons * 100)
+    }
+</script>
+
+{% include coursesMap.html %}

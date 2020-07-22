@@ -3,6 +3,7 @@
     {% for course in site.courses %}{
         slug : "{{ course.slug }}",
         course : "{{ course.title }}",
+        image : "{{ course.image }}",
         lessons : [
             {% for module in site.modules %}
                 {% if module.course == course.slug %}
