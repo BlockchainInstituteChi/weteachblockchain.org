@@ -338,6 +338,38 @@
 	    font-weight: 600;
 	    letter-spacing: .05em;
 	}
+	/*Factoid*/
+	section.factoid {
+		margin: 2.5em;
+		margin-bottom: 4.5em;
+	}
+	span.didYouKnow {
+		left: -2em;
+	}
+	.mainFocus h1 {
+		margin-top: -.45em;
+		font-size: 8.5em;
+    	margin-left: .2em;
+	}
+	.mainFocus span {
+		font-size: 2em;
+		margin-left: .9em;
+		line-height: 1.2em;
+	}
+	span.didYouKnow {
+		left: -1.3em;
+		font-size: 1em;
+	}
+	.col-sm-6.explanation {
+		font-size: .56em;
+		max-width: 45%;
+	}
+	.factoid .row {
+		margin-top: 5em;
+	}
+	.mainFocus a {
+		margin-left: 2.44em;
+	}
 } 
 
 /* Mobile */
@@ -508,11 +540,34 @@
 	.mobileNavSidebar h3 {
 	    font-size: 1.35em;
 	}
+
+	/*Factoid*/
+	span.didYouKnow {
+		left: -2.5em;
+		font-size: 1em;
+	}
+	section.factoid {
+		margin: 1.5em;
+	}
+	.col-sm-6.explanation {
+		max-width: 100%;
+		margin-top: 4em;
+		margin-left: 2.75em;
+	}
 }
 
 
 @media screen and (max-width: 330px) {
 	h1 {
         font-size: 2em;
-    }
+	}
+	span.didYouKnow {
+		left: -2.55em;
+	}
+	.col-sm-6.explanation {
+		font-size: .56em;
+		max-width: 100%;
+		margin-top: 5em;
+		text-align: center;
+	}
 }
