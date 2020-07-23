@@ -1,0 +1,39 @@
+<section id="loader" class="loader">
+    <img src="/assets/img/loading.gif">
+</section>
+
+<style>
+    /* Loader */
+    section#loader {
+        height: 80vh;
+        text-align: center;
+    }
+    .loader img {
+        width: 25%;
+    }
+</style>
+<script>
+
+    /*
+        note: 
+        Add the line below to any JS file to turn off the loader
+        It is on by default
+
+        if ( window.toggleLoader ) window.toggleLoader()
+
+        usually best practice is to add the loader as an include element to the top of the page
+        and then add the line above after your api calls succeed / fail and are handled
+    */
+    window.toggleLoader = function () {
+        console.log('toggling loader display')
+
+        var loader = document.getElementById('loader')
+
+        if ( loader.className.includes('d-none') ) {
+            loader.className = loader.className.replace('d-none', '')
+        } else {
+            loader.className += ' d-none'
+        }
+
+    }
+</script>

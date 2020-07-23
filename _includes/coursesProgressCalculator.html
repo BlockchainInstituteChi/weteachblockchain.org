@@ -25,16 +25,16 @@
 		if ( progress < 100 ) {
 
 			document.getElementById( 'progress_' + slug ).className += " display"
-			document.getElementById('progress_' + slug + '_number').innerHTML = progress + "% Complete"
-			document.getElementById('start_' + slug).innerHTML = "RESUME COURSE"
-			document.getElementById('start_' + slug).href = getNextLesson( course )
+			document.getElementById( 'progress_' + slug + '_number').innerHTML = progress + "% Complete"
+			document.getElementById( 'start_' + slug).innerHTML = "RESUME COURSE"
+			document.getElementById( 'start_' + slug).href = getNextLesson( course )
 
 		} else if ( progress === 100 ) {
 
 			document.getElementById( 'progress_' + slug ).className += " display"
-			document.getElementById('progress_' + slug + '_number').innerHTML = "Complete!"
-			document.getElementById('start_' + slug).innerHTML = "RETAKE COURSE"
-			document.getElementById('start_' + slug).className += " complete"
+			document.getElementById( 'progress_' + slug + '_number').innerHTML = "Complete!"
+			document.getElementById( 'start_' + slug).innerHTML = "RETAKE COURSE"
+			document.getElementById( 'start_' + slug).className += " complete"
 
 		}
 	}

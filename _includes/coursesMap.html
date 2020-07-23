@@ -4,6 +4,9 @@
         slug : "{{ course.slug }}",
         course : "{{ course.title }}",
         image : "{{ course.image }}",
+        author : "{{ course.author }}",
+        tag : "{{ course.primaryTag }}",
+        permalink : "{{ course.permalink }}",
         lessons : [
             {% for module in site.modules %}
                 {% if module.course == course.slug %}

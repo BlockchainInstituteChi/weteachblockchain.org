@@ -1,7 +1,7 @@
 
 /* 2️⃣ Initialize Magic Instance */
 const magic = new Magic("pk_test_203D0BB15B42A4C8");
-const serverUrl = "http://localhost:8888/user"
+window.serverUrl = "http://localhost:8888/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
@@ -25,7 +25,7 @@ const renderMagic = async () => {
     // getUserData()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
-      <button onclick="handleLogout()">Logout</button>
+      <button onclick="window.handleLogout()">Logout</button>
     `;
     toggleAccountImage();
   } else {
@@ -46,10 +46,15 @@ const renderMagic = async () => {
 // }
 function showUserLoginPrompt ( ) {
   console.log ( 'please log in to track progress' )
+  
   for ( div of document.getElementsByClassName('userLoginPrompt') ) {
     if ( !div.className.includes('shown') ) {
       console.log('showing user login prompt')
       div.className += ' shown';
+
+      // the line below hides the loader when the login box has been displayed
+      if ( window.toggleLoader ) window.toggleLoader()
+
     } else {
       console.log('already showing user login prompt')
     }
@@ -63,28 +68,30 @@ const handleLogin = async e => {
     const didToken = await magic.auth.loginWithMagicLink({ email });
     // console.log('didToken', didToken)
     window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
-    await fetch(`${serverUrl}/login`, {
+    await fetch(`${window.serverUrl}/login`, {
       headers: new Headers({
         Authorization: "Bearer " + didToken
       }),
       method: "POST"
     });
     renderMagic();
+    location.reload();
   }
 };
 
-const handleLogout = async () => {
+window.handleLogout = async () => {
   await magic.user.logout();
   renderMagic();
   toggleDisplayAccountBox();
   toggleAccountImage();
+  location.reload();
 };
 
 // const getUserData = async () =>{
 //   console.log('fetching user data')
 
 //   try {
-//     await fetch(`${serverUrl}/data`, {
+//     await fetch(`${window.serverUrl}/data`, {
 //       headers: {
 //         'Content-Type': 'application/json',
 //         'Authorization': 'Bearer ' +  window.localStorage.didToken,
@@ -134,7 +141,7 @@ const handlePageNotification = async () => {
   console.log('payload', payload)
 
   try {
-    await fetch(`${serverUrl}/updateCurrentPage`, {
+    await fetch(`${window.serverUrl}/updateCurrentPage`, {
       headers: {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ' +  window.localStorage.didToken,
@@ -208,7 +215,7 @@ function handleAuthErrors(response) {
 }
 
 function handleBadPageStatusNotification() {
-  handleLogout()
+  window.handleLogout()
   // console.log('could not authenticate the user')
   alert('Your login session has expired. Please log in again!')
 }
