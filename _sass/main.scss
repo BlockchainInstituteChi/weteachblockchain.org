@@ -912,3 +912,76 @@ div#accountDropdown {
 .mobileNavSidebar .master i.fa.fa-search {
     color: white;
 }
+
+
+/* Factoids */
+section.factoid {
+    max-width: 90vw;
+    margin: 6.5em;
+    display: block;
+    margin-bottom: 5em;
+    border-top: 1px #ed0744 solid;
+    border-bottom: 1px #ed0744 solid;
+    height: auto;
+}
+span.didYouKnow {
+    transform: rotate(-90deg);
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    background: #ed0744;
+    max-height: 3.5em;
+    color: white;
+    font-weight: 700;
+    left: 1.05em;
+    font-size: 1.4em;
+    margin-top: 1.6em;
+    position: absolute;
+    font-family: kanit;
+}
+.mainFocus h1 {
+    font-size: 14.5em;
+    margin-top: -0.5em;
+    text-align: left;
+    padding-left: 0;
+    font-weight: 700 !important;
+    margin-bottom: 0em;
+}
+.mainFocus span {
+    font-size: 2.5em;
+    width: 100%;
+    text-align: left;
+    color: black;
+    margin-top: -1em;
+    position: relative;
+    display: block;
+    font-family: Kanit;
+    font-weight: 700;
+    letter-spacing: .5em;
+    margin-left: .1em;
+    line-height: .85em;
+}
+.mainFocus a {
+    margin-left: .2em;
+    font-size: .75em;
+    color: #0b9ba4;
+    text-decoration: underline !important;
+    letter-spacing: .15em;
+}
+.explanation span {
+    font-size: 2.25em;
+    float: right;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: -.5em;
+}
+.factoid .row {
+    margin-top: 7em;
+    margin-bottom: 3em;
+    margin-right: 0em;
+}
+.col-sm-6.mainFocus {
+    margin-right: .1em;
+    max-width: 30em;
+}
+.mainFocus a:hover {
+    color: black !important;
+}
