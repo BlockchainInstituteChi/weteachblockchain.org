@@ -95,7 +95,11 @@ ogUrl: https://weteachblockchain.org/
     }
 
     function displayUserData ( ) {
+        // console.log('displayUserData triggered')
+
         if ( window.userData ) {
+
+            console.log('window userdata is good')
 
             var divsToShow = document.getElementsByClassName('mustLogin')
             // console.log('showing divs', divsToShow)
@@ -110,21 +114,38 @@ ogUrl: https://weteachblockchain.org/
 
             if ( window.toggleLoader ) window.toggleLoader()
 
-            if ( window.userData.length < 0 ) {
-                // then display course
-                for ( course of window.userData ) {
+            // console.log( 'window.userdata.length', window.userData.length, ( window.userData.length < 1 ) )
 
+            if ( window.userData.length > 0 ) {
+                // console.log( 'userdata', window.userData )
+                // then display course
+
+                var pp = {
+                        inProgress : false,
+                        complete : false
+                    }
+
+                for ( course of window.userData ) {
+                    // console.log('loading course', course)
                     var slug = course.tag;
                     course.progress = getCurrentProgress(course);
 
                     if ( course.progress < 100 ) {
+                        // console.log('in progresss course')
+                        pp.inProgress = true
                         displayCourseProgress( course, false )
                     } else {
+                        // console.log('completed course')
+                        pp.complete = true
                         displayCourseProgress( course, true )
                     }
 
                 }
+                // console.log(pp)
+                if ( pp.complete != true ) setNoProgressMessage('completedCourses')
+                if ( pp.inProgress != true ) setNoProgressMessage('activeCourses')
             } else {
+                console.log( 'window.userData.length', window.userData.length )
                 setNoProgressMessage('completedCourses')
                 setNoProgressMessage('activeCourses')
             }

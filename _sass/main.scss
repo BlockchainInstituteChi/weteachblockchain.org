@@ -935,3 +935,12 @@ section.userLoginPrompt {
     display: block !important;
 }
 
+#app a {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    background: #0b9ba4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.25em;
+    float: right;
+    margin-left: 0.5em;
+}

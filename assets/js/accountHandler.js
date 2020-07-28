@@ -1,7 +1,8 @@
 
 /* 2️⃣ Initialize Magic Instance */
 const magic = new Magic("pk_test_203D0BB15B42A4C8");
-window.serverUrl = "http://localhost:8888/user"
+// window.serverUrl = "http://localhost:8888/user"
+window.serverUrl = "https://app-staging.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
@@ -25,7 +26,9 @@ const renderMagic = async () => {
     // getUserData()
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
+      <a href="/userProfile.html">My Account</a>
       <button onclick="window.handleLogout()">Logout</button>
+
     `;
     toggleAccountImage();
   } else {
@@ -153,21 +156,23 @@ const handlePageNotification = async () => {
     .then( response => response.json() )
     .then((responseJSON) => {
       // do stuff with responseJSON here...
-      console.log('got user data w/ current page', responseJSON);
+      // console.log('got user data w/ current page', responseJSON);
       window.userData = responseJSON
-      console.log( 'set userdata', window.userData, new Date () )
+      // console.log( 'set userdata', window.userData, new Date () )
 
       // if this is a course directory page - populate progress 
       if ( typeof ( populateCourseProgress ) != 'undefined' ) {
         populateCourseProgress()
       }
+      // console.log('trying to displayUserData', displayUserData)
       if ( typeof ( displayUserData ) != 'undefined' ) {
+        console.log('triggering display User data')
         displayUserData()
       }      
     })
     
   } catch (err) {
-    console.log('uncaught exception in update call', err)
+    // console.log('uncaught exception in update call', err)
     // handleBadPageStatusNotification()
   }
   
