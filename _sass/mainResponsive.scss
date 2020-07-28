@@ -1,6 +1,38 @@
 /* Bootstrap Tablet Trigger */ 
 /* Bootstrap collapses the nav at 992px */
 @media screen and (max-width: 992px) {
+
+	div#accountDropdown {
+		display: none !important;
+	}
+	input.emailInput {
+		width: 100%;
+		display: block;
+		position: relative;
+		float: right;
+		right: 0;
+		font-size: 1em;    
+		margin-bottom: 0.25em;
+	}
+	.mobileLogin {
+		display: block;
+		position: relative;
+	}
+	#mobileApp span {
+		display: block;
+		width: 100%;
+	}
+	#mobileApp form {
+		position: relative;
+		overflow: hidden;
+		height: fit-content !important;
+	}
+	button.logout {
+		background: #ee4245;
+		color: white;
+		border: none;
+	}
+
     .sourceDetails {
 	display: none;
     }

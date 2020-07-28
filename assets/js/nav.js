@@ -13,18 +13,21 @@ function toggleDisplayNavBox () {
 }
 
 function toggleDisplayAccountBox () {
-    window.scrollTo(0,0)
-    // console.log('toggle displayNavbOX TRIGGERED')
-    var accountBox = document.getElementById('accountDropdown');
+    console.log( 'attempting to display account box', window.innerWidth )
 
-    if ( accountBox.className.split('d-none').length > 1 ) {
-        closeOtherLightboxBeforeOpening() 
-        showLightboxShadow()
-        document.getElementById('accountDropdown').className = accountBox.className.split('d-none').join('')
-    } else {
-        document.getElementById('accountDropdown').className = accountBox.className + ' d-none'
-    }  
-
+    if ( window.innerWidth > 992 ) {
+        window.scrollTo(0,0)
+        // console.log('toggle displayNavbOX TRIGGERED')
+        var accountBox = document.getElementById('accountDropdown');
+    
+        if ( accountBox.className.split('d-none').length > 1 ) {
+            closeOtherLightboxBeforeOpening() 
+            showLightboxShadow()
+            document.getElementById('accountDropdown').className = accountBox.className.split('d-none').join('')
+        } else {
+            document.getElementById('accountDropdown').className = accountBox.className + ' d-none'
+        }  
+    }
 }
 
 function closeOtherLightboxBeforeOpening () {

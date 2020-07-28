@@ -14,7 +14,7 @@ const renderMagic = async () => {
     <form onsubmit="handleLogin(event)">
       <span>Enter your email below to log in.</span>
       <input class="emailInput" type="email" name="email" required="required" placeholder="Enter your email" />
-      <button  class="logout"  type="submit">Send</button>
+      <button  class="logout"  type="submit">Log In</button>
     </form>
   `;
   if (isLoggedIn) {
@@ -34,8 +34,13 @@ const renderMagic = async () => {
   } else {
     showUserLoginPrompt()
   }
-
-  document.getElementById("app").innerHTML = html;
+  if ( window.innerWidth > 992 ) {
+    console.log('displaying desktop login')
+    document.getElementById("app").innerHTML = html;
+  } else {
+    console.log('displaying mobile login')
+    document.getElementById("mobileApp").innerHTML = html;
+  }
 };
 
 
