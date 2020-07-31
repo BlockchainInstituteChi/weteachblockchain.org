@@ -218,6 +218,9 @@ section.container.bciBannerImage.bciHandImage {
 section.upPinkStripesDivider {
     margin-top: 0em;
 }
+section.upcomingEventsFooter {
+    margin-bottom: 5.75em;
+}
 
 /* MapSpace */
 .mapSpace h1 {
@@ -252,6 +255,15 @@ li {
     width: 5%;
     opacity: 1;
     background-color: #ed0744;
+}
+.inPerson h4 {
+    text-transform: uppercase;
+    font-size: .8vw;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    line-height: .3em;
+    letter-spacing: .05em;
 }
 
 /*Do More*/

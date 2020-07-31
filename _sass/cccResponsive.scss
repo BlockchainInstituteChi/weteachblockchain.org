@@ -4,7 +4,7 @@
 }
 
 /* Tablet */
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 800px) {
 	.leftWhite ul {
 	    width: calc(100% - 6em);
 	}
@@ -39,7 +39,7 @@
 	}
 	.bciCallToAction h1 {
    		 padding-left: 0em;
-    		margin-top: 2.5em;
+         margin-top: 2.5em;
 	}
 	.bciCallToAction p {
     		padding-bottom: 0;
@@ -49,9 +49,9 @@
 	.bciCallout img {
    		 margin: 5em;
    		 margin-right: 7em;
-    		width: calc(100% - 10em);
-    		margin-top: 2.2em;
-    		margin-bottom: 2em;
+    	 width: calc(100% - 10em);
+    	 margin-top: 2.2em;
+    	 margin-bottom: 2em;
 	}
 	.col-sm-6.bciCallout {
     		margin-top: 5.5em !important;
@@ -97,9 +97,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 	.nav-link.donateNow {
-
 	    margin-right: 0.5em;
-
 	}
 	h1 {
 	    margin-left: 0em;
@@ -251,6 +249,18 @@ button.learnMoreButton {
 div#carouselExampleControls {
     padding: 0em;
     margin-top: -1em;
+}
+.upcomingEventsFooter h1 {
+    margin-left: .75em !important;
+    font-size: 1.75em;
+}
+.upcomingEventsFooter .tileItem h1 {
+    margin-left: -.175em !important;
+    margin-bottom: 0em;
+}
+.inPerson h4 {
+    font-size: 3vw;
+    line-height: 2em;
 }
 
 }
