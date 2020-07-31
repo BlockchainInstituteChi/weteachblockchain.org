@@ -359,13 +359,15 @@
 	span.didYouKnow {
 		left: -1.3em;
 		font-size: 1em;
+		margin-top: 1.2em;
 	}
 	.col-sm-6.explanation {
 		font-size: .56em;
 		max-width: 45%;
 	}
 	.factoid .row {
-		margin-top: 5em;
+		margin-top: 8.25em;
+		margin-bottom: 6.5em;
 	}
 	.mainFocus a {
 		margin-left: 2.44em;
@@ -556,6 +558,22 @@
 		max-width: 100%;
 		margin-top: 4em;
 		margin-left: 2.75em;
+	}
+	.explanation span {
+		font-size: 5.5vw;
+		float: right;
+		font-style: italic;
+		font-weight: 200;
+		margin-top: 1.4em;
+		margin-left: 1.35em;
+	}
+	.explanation a {
+		font-size: 3vw;
+		letter-spacing: .1em;
+		margin-left: 2.5em;
+	}
+	.factoid .row {
+		margin-bottom: 3.2em;
 	}
 }
 
