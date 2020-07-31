@@ -938,15 +938,15 @@ span.didYouKnow {
     font-family: kanit;
 }
 .mainFocus h1 {
-    font-size: 14.5em;
-    margin-top: -0.5em;
+    font-size: 18vw;
+    margin-top: -0.45em;
     text-align: left;
     padding-left: 0;
     font-weight: 700 !important;
     margin-bottom: 0em;
 }
 .mainFocus span {
-    font-size: 2.5em;
+    font-size: 4vw;
     width: 100%;
     text-align: left;
     color: black;
@@ -967,15 +967,19 @@ span.didYouKnow {
     letter-spacing: .15em;
 }
 .explanation span {
-    font-size: 2.25em;
+    font-size: 2.5vw;
     float: right;
     font-style: italic;
     font-weight: 200;
-    margin-top: -.5em;
+    margin-top: -1.4em;
+}
+.explanation a {
+    font-size: 1vw;
+    letter-spacing: .1em;
 }
 .factoid .row {
     margin-top: 7em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
     margin-right: 0em;
 }
 .col-sm-6.mainFocus {
