@@ -4,7 +4,7 @@
 }
 
 /* Tablet */
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 800px) {
 	.leftWhite ul {
 	    width: calc(100% - 6em);
 	}
@@ -39,7 +39,7 @@
 	}
 	.bciCallToAction h1 {
    		 padding-left: 0em;
-    		margin-top: 2.5em;
+         margin-top: 2.5em;
 	}
 	.bciCallToAction p {
     		padding-bottom: 0;
@@ -49,9 +49,9 @@
 	.bciCallout img {
    		 margin: 5em;
    		 margin-right: 7em;
-    		width: calc(100% - 10em);
-    		margin-top: 2.2em;
-    		margin-bottom: 2em;
+    	 width: calc(100% - 10em);
+    	 margin-top: 2.2em;
+    	 margin-bottom: 2em;
 	}
 	.col-sm-6.bciCallout {
     		margin-top: 5.5em !important;
@@ -60,26 +60,50 @@
 	a.nav-link.hideOnDesktop {
 		display: block;
 	}
+	.col-sm-6.leftWhite {
+		background: #efefef;
+	}
 	.carousel {
 		position: relative;
 		margin-top: 4.5em;
 		max-width: 42%;
 		margin-bottom: 35em;
 	}
+	section.cccVideoPlaylist {
+		padding-top: 4.2em;
+		padding-bottom: 3.5em;
+	}
+	.cccVideoPlaylist.col-sm-6 {
+		min-height: 14.1em;
+	}
+	section.inPerson {
+		padding-bottom: 1.7em;
+	}
+	.tileItem {
+		width: 23.05%;
+	}
+	iframe {
+		height: 84%;
+	}
+	section.container.mapSpace {
+		margin-top: 5.5em;
+		margin-bottom: 2.5em;
+	}
+	section.upcomingEventsFooter {
+		margin-bottom: 3em;
+	}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
 	.nav-link.donateNow {
-
 	    margin-right: 0.5em;
-
 	}
 	h1 {
 	    margin-left: 0em;
 	}
 	header.jumbotron.text-left.tileHeader {
-	    background: url(/assets/img/ccc_mobile_banner.jpg);
+	    background: url(/assets/img/CCC_videoHeader.jpg);
 	    background-size: cover;
 	    background-position: 50% 50%;
 	    position: relative;
@@ -150,12 +174,10 @@ button.learnMoreButton {
 
 	section.inPerson {
 		padding-right: 0;
-		padding-top: 2em;
+		padding-top: 3em;
 		padding-bottom: 0;
-		}
-	.col-sm-6.leftWhite {
-	    background: white;
 	}
+
 	.inPerson p {
 	    padding-right: 1em;
 	}
@@ -176,6 +198,43 @@ button.learnMoreButton {
 	.col-sm-6.bciCallout {
     		margin-right: 1.5em;
 	}
+	section.cccVideoPlaylist {
+		padding-top: 4em;
+		padding-bottom: 4em;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	iframe {
+		height: 81%;
+	}
+	.cccVideoPlaylist h1 {
+		margin-left: .34em;
+	}
+	section.doMore {
+		padding-right: .5em;
+		padding-left: .5em;
+	}
+	.doMore h1 {
+		margin-bottom: 1em;
+		color: white;
+		padding-left: .6em;
+	}
+	section.container.mapSpace {
+		margin-top: 5em;
+		margin-bottom: 3.5em;
+	}
+	.cccVideoPlaylist h2 {
+		padding-left: 0em;
+	}
+	.cccVideoPlaylist span {
+		padding-left: 0em;
+	}
+	.cccVideoPlaylist p {
+		padding-left: 0em;
+	}
+
+
+
 
 /*Carousel*/
 
@@ -186,6 +245,22 @@ button.learnMoreButton {
     margin-bottom: 5em;
     margin-left: 1.5em;
     margin-right: 1.5em;
+}
+div#carouselExampleControls {
+    padding: 0em;
+    margin-top: -1em;
+}
+.upcomingEventsFooter h1 {
+    margin-left: .75em !important;
+    font-size: 1.75em;
+}
+.upcomingEventsFooter .tileItem h1 {
+    margin-left: -.175em !important;
+    margin-bottom: 0em;
+}
+.inPerson h4 {
+    font-size: 3vw;
+    line-height: 2em;
 }
 
 }

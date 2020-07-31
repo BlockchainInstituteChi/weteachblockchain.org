@@ -61,6 +61,18 @@
 	.faqTile h1 {
 		font-size: 1em;
 	}
+	/*CCC*/
+element.style {
+    background: url(/assets/img/CCC_HPheader.jpg);
+    background-size: 100vw;
+    background-position: left;
+}
+.pageHeaderImage .col-sm-6 {
+    margin-left: 6em;
+    padding-left: .5em;
+    margin-top: 3.5em;
+    padding-right: 5em;
+}
 
 }
 
@@ -203,7 +215,19 @@
     		padding-right: .5em;
 	}
 	
-	
+
+
+
+	/*CCC*/
+	element.style {
+		background-size: cover;
+		background-position: unset;
+	}
+	.pageHeaderImage .col-sm-6 {
+		padding-right: .5em;
+	}
+
+
 
 	/* Hide 'recent courses' section on HP */
 	section.upcomingEventsFooter {
