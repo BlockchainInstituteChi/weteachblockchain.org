@@ -25,7 +25,7 @@ permalink: /courses/beginners/
 
 <section class="coursesList coursePathHeader">
 	<h1 class="hasColorTag purple">Courses</h1>
-	{% assign sorted = site.courses | sort: 'tags' %}
+	{% assign sorted = site.courses | sort: 'title' %}
     {% for course in sorted %}
 		{% if course.tags contains "beginner" %}
 			{% include courseListing.html 

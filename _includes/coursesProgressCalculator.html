@@ -22,7 +22,12 @@
 		var slug = course.tag;
 		var progress = getCurrentProgress(course);
 
-		if ( progress < 100 ) {
+		if ( progress === 0 ) {
+
+			document.getElementById( 'start_' + slug).innerHTML = "RESUME COURSE"
+			document.getElementById( 'start_' + slug).href = getNextLesson( course )			
+
+		} else if ( progress < 100 ) {
 
 			document.getElementById( 'progress_' + slug ).className += " display"
 			document.getElementById( 'progress_' + slug + '_number').innerHTML = progress + "% Complete"
