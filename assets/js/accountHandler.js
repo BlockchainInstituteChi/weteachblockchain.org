@@ -251,7 +251,7 @@ function setGravatarImageUrl ( email ) {
 
   } else {
 
-    console.log('tried to append second account icon but failed')
+    // console.log('tried to append second account icon but failed')
 
   }
 
