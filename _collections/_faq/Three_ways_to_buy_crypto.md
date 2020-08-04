@@ -41,7 +41,7 @@ weight: 4
 <h2>How do Crypto ATMs Work?</h2>
 <span>These machines function just as normal ATMs would, except they facilitate cash to cryptocurrency exchanges. There are generally two types of cryptocurrency ATMs. One-way ATMs will only allow you to purchase crypto, while two-way ATMs have the additional ability to sell cryptocurrency for fiat.</span>
 {% include callouts/callout.html
-    bodyText="If you're in the Chicagoland area and want to try a cryptocurrency ATM, <a href="/contact-us/" target="_blank">visit our headquarters!</a>"
+    bodyText="If you're in the Chicagoland area and want to try a cryptocurrency ATM, <a href='/contact-us/' target='_blank'>visit our headquarters!</a>"
 %}
 <h2>Pros & Cons of Buying Crypto with ATMs</h2>
 <h3>Pros</h3>
