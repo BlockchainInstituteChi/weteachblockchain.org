@@ -62,11 +62,10 @@
 		font-size: 1em;
 	}
 	/*CCC*/
-element.style {
-    background: url(/assets/img/CCC_HPheader.jpg);
-    background-size: 100vw;
-    background-position: left;
-}
+	section.pageHeaderImage {
+		background-size: inherit !important;
+		background-position: inherit !important;
+	}
 .pageHeaderImage .col-sm-6 {
     margin-left: 6em;
     padding-left: .5em;
@@ -87,7 +86,11 @@ element.style {
 	.pathButtons .col-sm-4 {
 		margin-bottom: 1em;
 	}
-
+	.pageHeaderImage .col-sm-6 {
+		min-width: calc(100vw - 2em);
+		margin: auto 1.5em;
+	}
+	
 	/* Fix for overflow scroll bug */
 	body {
 		overflow-x: hidden;
