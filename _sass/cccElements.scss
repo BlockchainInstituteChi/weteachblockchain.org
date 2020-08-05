@@ -252,7 +252,7 @@ li {
     border-width: .05em;
 }
 .carousel-control-prev, .carousel-control-next {
-    width: 5%;
+    width: 2%;
     opacity: 1;
     background-color: #ed0744;
 }
@@ -265,6 +265,20 @@ li {
     line-height: .3em;
     letter-spacing: .05em;
 }
+.carousel-inner {
+    margin-bottom: 1em;
+}
+a.callToActionButton.cccDownloadButton {
+    background: #ed0744;
+    padding: 1em 3em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
 
 /*Do More*/
 .doMore h3 {
