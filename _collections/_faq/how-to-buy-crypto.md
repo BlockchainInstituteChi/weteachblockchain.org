@@ -1,6 +1,6 @@
 ---
 title: Three ways to buy crypto like Bitcoin, Ethereum, and others
-Image:
+image: HowToBuyFAQ.jpg
 permalink: /faq/3-ways-to-buy-crypto/
 layout: faq
 tag: CONCEPTS
