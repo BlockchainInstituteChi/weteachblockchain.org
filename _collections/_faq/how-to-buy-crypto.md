@@ -17,6 +17,7 @@ weight: 2
     bodyText='Not yet feeling confident enough to send & receive blockchain transactions? Enroll in <a href="/crypto-curious/" target="_blank">The Crypto Curious Course</a> and go from Curious to Confident!'
 %}
 <h2>1. Buy Crypto via Online Exchanges</h2>
+<img src="/assets/img/Exchanges.jpg">
 <h3>What are cryptocurrency exchanges?</h3> 
 <span>Crypto exchanges, like a stock market, operate as a network of buyers and sellers. Large institutions buy and sell in substantial volumes, meaning that you can usually find someone to buy from.</span>
 <span>The past few years have been eventful for cryptocurrency exchanges. They went from navigating uncertain regulations and providing basic, yet confusing, crypto management software to gaining legal accreditation and putting out easier-to-use tools.</span>
@@ -40,6 +41,7 @@ weight: 2
   <li>Some exchanges manage your private key, or crypto master password, which can be compromised if the exchange is hacked. We recommend transferring your cryptocurrency to your own wallet after purchasing on an exchange.</li>
 </ul>
 <h2>2. Buy Bitcoin at a Cryptocurrency ATM</h2>
+<img src="/assets/img/cryptoATM.jpg">
 <h3>What are cryptocurrency ATMs?</h3>
 <span>Cryptocurrency ATMs are a way to buy crypto from a physical location. Most are located in public places, convenience stores, and shopping centers, and allow payment with credit cards or cash.</span>
 <h3>How do Crypto ATMs Work?</h3>
@@ -59,6 +61,7 @@ weight: 2
   <li>High Fees - While these machines provide a great amount of convenience, they usually take a significant fee. While many online exchanges will take around 5% of your purchase as a fee, some cryptocurrency ATMs take up to an 18% fee.</li>
 </ul>
 <h2>3. Buy Bitcoin & Ethereum in Direct Private Transaction</h2>
+<img src="/assets/img/PrivateTransaction.jpg">
 <span>Before exchanges gained traction, a popular way to purchase cryptocurrency had been to find someone willing to sell cryptocurrency in your local area.</span>
 <h3>How do Direct Transactions Work?</h3>
 <span>Services like localbitcoins.com and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
