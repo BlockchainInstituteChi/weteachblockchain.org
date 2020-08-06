@@ -29,7 +29,8 @@ sticky: true
 <span>Other popular cryptocurrency exchanges include <a href="https://www.binance.com/" target="_blank">Binance</a> and <a href="https://gemini.com/" target="_blank">Gemini</a>. Availability varies by location.</span>
 
 {% include callouts/callout.html
-    bodyText="Interested in buying a token that isn’t listed on a centralized exchange? Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions without the need for a third party."
+    title="Interested in buying a token that isn’t listed on a centralized exchange?"
+    bodyText="Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party."
 %}
 <h3>Pros & Cons of buying bitcoin via exchange</h3>
 <h4>Pros</h4>
