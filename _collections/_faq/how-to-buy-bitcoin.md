@@ -43,7 +43,7 @@ sticky: true
 </ul>
 <h2>2. Buy Bitcoin at a Cryptocurrency ATM</h2>
 <img src="/assets/img/cryptoATM.jpg">
-<h3>What are cryptocurrency ATMs?</h3>
+<h3>What are Cryptocurrency ATMs?</h3>
 <span>Cryptocurrency ATMs are a way to buy bitcoin from a physical location. Most are located in public places, convenience stores, and shopping centers, and allow payment with credit cards or cash.</span>
 <h3>How do Crypto ATMs Work?</h3>
 <span>These machines function just as normal ATMs would, except they facilitate cash to cryptocurrency exchanges. There are generally two types of cryptocurrency ATMs. One-way ATMs will only allow you to purchase crypto, while two-way ATMs have the additional ability to sell cryptocurrency for fiat.</span>
