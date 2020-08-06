@@ -12,8 +12,8 @@ const renderMagic = async () => {
   /* Show login form if user is not logged in */
   let html = `
     <form class="loginForm" onsubmit="handleLogin(event)">
-      <span>Enter your email below to log in.</span>
-      <input class="emailInput" type="email" name="email" required="required" placeholder="Enter your email" />
+      <span>Enter any email below to sign in.</span>
+      <input class="emailInput" type="email" name="email" required="required" placeholder="your_name@any_site.xyz" />
       <button  class="logout"  type="submit">Log In</button>
     </form>
   `;
