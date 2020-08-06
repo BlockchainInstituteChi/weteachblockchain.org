@@ -11,25 +11,25 @@ weight: 2
 sticky: true
 ---
 
-<span>One of the biggest problems that has kept the average person from buying <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> has been the previous difficulty of the purchasing process. Simply put, people were too intimidated by the process. As a result, many who were interested in crypto would end up declining to take the leap of purchasing cryptocurrency. Whether you want to buy Bitcoin, buy Ethereum, or buy crypto <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with 3 different ways to trade cryptocurrencies!</span>
+<span>One of the biggest problems that has kept the average person from buying <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> has been the previous difficulty of the purchasing process. Simply put, people were too intimidated by the process. As a result, many who were interested in crypto would end up declining to take the leap of purchasing cryptocurrency. Whether you want to buy Bitcoin, buy Ethereum, or buy other cryptocurrencies <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with 3 different ways to trade cryptocurrencies!</span>
 
-<span>These were valid concerns a few years ago, as the cryptocurrency ecosystem and the tools to enter it were still in early development. The past few years have seen a lot of innovation in the space, providing much easier ways to enter the blockchain community by purchasing cryptocurrency. Confusing applications have been improved, resulting in a much easier crypto purchasing process. The idea that it is difficult for the average person to buy crypto has now been turned into a misconception. Each purchasing method varies in ease of use, fees, and identity verification. Here are the top ways to buy cryptocurrency:</span>
+<span>These were valid concerns a few years ago, as the cryptocurrency ecosystem and the tools to enter it were still in early development. The past few years have seen a lot of innovation in the space, providing much easier ways to enter the blockchain community by purchasing cryptocurrency. Confusing applications have been improved, resulting in a much easier crypto purchasing process. The idea that it is difficult for the average person to buy bitcoin has now been turned into a misconception. Each purchasing method varies in ease of use, fees, and identity verification. Here are the top ways to buy bitcoin:</span>
 {% include callouts/callout.html
     bodyText='Not yet feeling confident enough to send & receive blockchain transactions? Enroll in <a href="/crypto-curious/" target="_blank">The Crypto Curious Course</a> and go from Curious to Confident!'
 %}
-<h2>1. Buy Crypto via Online Exchanges</h2>
+<h2>1. Buy Bitcoin via Online Exchanges</h2>
 <img src="/assets/img/Exchanges.jpg">
 <h3>What are cryptocurrency exchanges?</h3> 
 <span>Crypto exchanges, like a stock market, operate as a network of buyers and sellers. Large institutions buy and sell in substantial volumes, meaning that you can usually find someone to buy from.</span>
 <span>The past few years have been eventful for cryptocurrency exchanges. They went from navigating uncertain regulations and providing basic, yet confusing, crypto management software to gaining legal accreditation and putting out easier-to-use tools.</span>
 <h3>How do Crypto Exchanges Work?</h3>
 <span>These cryptocurrency exchanges function just like any stock trading platform or foreign currency exchange. They use simple market mechanics to facilitate trades. Often, a cryptocurrency trading platform has a very similar interface to online stock trading interfaces.</span>
-<span>While there are many exchanges that allow you to buy cryptocurrency, the most popular for new users is Coinbase. Headquartered in San Francisco, the exchange has received the necessary regulatory approval to operate over 100 countries, giving its users extra peace of mind. Coinbase.com offers users the option to use fiat currency to buy cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Ethereum Classic, Litecoin, Tezos, and many others, already serving over 15 million customers.</span>  
+<span>While there are many exchanges that allow you to buy bitcoin, the most popular for new users is Coinbase. Headquartered in San Francisco, the exchange has received the necessary regulatory approval to operate over 100 countries, giving its users extra peace of mind. Coinbase.com offers users the option to use fiat currency to buy various cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Ethereum Classic, Litecoin, Tezos, and many others, already serving over 15 million customers.</span>  
 
 {% include callouts/callout.html
     bodyText='Other popular cryptocurrency exchanges include <a href="https://www.binance.com/" target="_blank">Binance</a> and <a href="https://gemini.com/" target="_blank">Gemini</a>. Availability varies by location.'
 %}
-<h3>Pros & Cons of buying crypto via exchange</h3>
+<h3>Pros & Cons of buying bitcoin via exchange</h3>
 <h4>Pros</h4>
 <ul>
   <li>Online exchanges allow the purchase of cryptocurrency at any time.</li>
@@ -44,13 +44,13 @@ sticky: true
 <h2>2. Buy Bitcoin at a Cryptocurrency ATM</h2>
 <img src="/assets/img/cryptoATM.jpg">
 <h3>What are cryptocurrency ATMs?</h3>
-<span>Cryptocurrency ATMs are a way to buy crypto from a physical location. Most are located in public places, convenience stores, and shopping centers, and allow payment with credit cards or cash.</span>
+<span>Cryptocurrency ATMs are a way to buy bitcoin from a physical location. Most are located in public places, convenience stores, and shopping centers, and allow payment with credit cards or cash.</span>
 <h3>How do Crypto ATMs Work?</h3>
 <span>These machines function just as normal ATMs would, except they facilitate cash to cryptocurrency exchanges. There are generally two types of cryptocurrency ATMs. One-way ATMs will only allow you to purchase crypto, while two-way ATMs have the additional ability to sell cryptocurrency for fiat.</span>
 {% include callouts/callout.html
     bodyText="If you're in the Chicagoland area and want to try a cryptocurrency ATM, <a href='/contact-us/' target='_blank'>visit our headquarters!</a>"
 %}
-<h3>Pros & Cons of Buying Crypto with ATMs</h3>
+<h3>Pros & Cons of Buying Bitcoin with ATMs</h3>
 <h4>Pros</h4>
 <ul>
   <li>No payment processor transfer delay, as most crypto ATMs accept cash.</li>
@@ -66,7 +66,7 @@ sticky: true
 <span>Before exchanges gained traction, a popular way to purchase cryptocurrency had been to find someone willing to sell cryptocurrency in your local area.</span>
 <h3>How do Direct Transactions Work?</h3>
 <span>Services like localbitcoins.com and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
-<h3>Pros & Cons to Buy Crypto with Direct Transactions</h3>
+<h3>Pros & Cons to Buy Bitcoin with Direct Transactions</h3>
 <h4>Pros</h4>
 <ul>
   <li>No third parties needed.</li>
