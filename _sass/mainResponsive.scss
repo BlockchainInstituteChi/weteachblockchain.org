@@ -349,11 +349,9 @@
 	.mainFocus h1 {
 		margin-top: -.45em;
 		font-size: 8.5em;
-    	margin-left: .2em;
 	}
 	.mainFocus span {
 		font-size: 2em;
-		margin-left: .9em;
 		line-height: 1.2em;
 	}
 	span.didYouKnow {
@@ -361,16 +359,22 @@
 		font-size: 1em;
 		margin-top: 1.2em;
 	}
-	.col-sm-6.explanation {
-		font-size: .56em;
-		max-width: 45%;
-	}
 	.factoid .row {
-		margin-top: 8.25em;
-		margin-bottom: 6.5em;
+		margin-top: 5.25em;
+		margin-bottom: 3.5em;
 	}
 	.mainFocus a {
 		margin-left: 2.44em;
+	}
+	.col-sm-5.mainFocus {
+		margin-left: -7vw;
+	}
+	.col-sm-7.explanation {
+		margin-left: 9vw;
+		max-width: 35vw;
+	}
+	.explanation span {
+		font-size: 2.55vw;
 	}
 } 
 
@@ -565,15 +569,21 @@
 		font-style: italic;
 		font-weight: 200;
 		margin-top: 1.4em;
-		margin-left: 1.35em;
+		margin-left: -1.1em;
 	}
 	.explanation a {
 		font-size: 3vw;
 		letter-spacing: .1em;
-		margin-left: 2.5em;
+		margin-left: -2em;
 	}
 	.factoid .row {
-		margin-bottom: 3.2em;
+		margin-bottom: 4.1em;
+		margin-left: 4em;
+		margin-right: 0em;
+	}
+	.col-sm-7.explanation {
+		margin-left: 0;
+		max-width: 80vw;
 	}
 }
 

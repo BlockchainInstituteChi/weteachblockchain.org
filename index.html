@@ -32,6 +32,62 @@ ogUrl: https://weteachblockchain.org/
 %}
 
 
+<section class="faq">
+  <div class="row">
+    <h1 class="redBar">Frequently Asked Questions</h1>
+    <span class="descriptionText">
+      Not ready to start a full course? Get answers to commonly asked questions.
+    </span>
+    <div class="faqThumbnailContainer"> 
+      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+        {% include faqTile.html 
+          image=item.image
+          link=item.permalink
+          title=item.title
+          author=item.author
+        %}
+      {% endfor %}
+    </div>
+    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
+
+
+{% include factoid.html  
+  bigNumber="39.7"
+  bigNumberSubtext="BILLION"
+  bigNumberSourceText="SOURCE"
+  bigNumberSourceLink="https://www.marketsandmarkets.com/Market-Reports/blockchain-technology-market-90100890.html#:~:text=%5B253%20Pages%20Report%5D%20The%20global,67.3%25%20during%202020%E2%80%932025."
+  explanationText="The global blockchain market is expected to grow from $3B to $39.7B by 2025."  
+%}
+
+
+<section class="onlineCourses blueDivider">
+  <div class="row">
+    <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
+    <span class="descriptionText">
+      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
+    </span>
+    <div class="coursesThumbnailContainer"> 
+      {% assign sorted = site.courses | sort: 'tags' %}
+      {% for course in sorted %}
+        {% include courseTile.html 
+          image=course.image
+          title=course.title 
+          author=course.author 
+          summary=course.summary 
+          link=course.permalink 
+          tag=course.primaryTag	
+        %}
+      {% endfor %}
+    </div>
+    <a href="/courses/" class="callToActionButton">View Course Catalogue</a>
+  </div>
+</section>
+
+
+
 <section class="pathsList">
 	<h1 class="hasColorTag teal">Not sure where to start?</h1>
 	<div class="row">
@@ -67,59 +123,12 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-{% include factoid.html  
-  bigNumber="39.7"
-  bigNumberSubtext="BILLION"
-  bigNumberSourceText="SOURCE"
-  bigNumberSourceLink="https://www.marketsandmarkets.com/Market-Reports/blockchain-technology-market-90100890.html#:~:text=%5B253%20Pages%20Report%5D%20The%20global,67.3%25%20during%202020%E2%80%932025."
-  explanationText="The global blockchain market is expected to grow from $3B to $39.7B by 2025."  
-%}
-
-<section class="faq">
-  <div class="row">
-    <h1 class="redBar">Frequently Asked Questions</h1>
-    <span class="descriptionText">
-      Not ready to start a full course? Get answers to commonly asked questions.
-    </span>
-    <div class="faqThumbnailContainer"> 
-      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
-      {% for item in faqSample limit:4 %}
-        {% include faqTile.html 
-          image=item.image
-          link=item.permalink
-          title=item.title
-          author=item.author
-        %}
-      {% endfor %}
-    </div>
-    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
-  </div>
-</section>
 
 
 
-<section class="onlineCourses blueDivider">
-  <div class="row">
-    <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
-    <span class="descriptionText">
-      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
-    </span>
-    <div class="coursesThumbnailContainer"> 
-      {% assign sorted = site.courses | sort: 'tags' %}
-      {% for course in sorted %}
-        {% include courseTile.html 
-          image=course.image
-          title=course.title 
-          author=course.author 
-          summary=course.summary 
-          link=course.permalink 
-          tag=course.primaryTag	
-        %}
-      {% endfor %}
-    </div>
-    <a href="/courses/" class="callToActionButton">View Course Catalogue</a>
-  </div>
-</section>
+
+
+
 
 <section class="events" style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
   <div class="row">

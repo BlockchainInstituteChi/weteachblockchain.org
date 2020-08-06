@@ -915,7 +915,7 @@ div#accountDropdown {
 
 
 /* Factoids */
-section.factoid {
+section.factoid{
     max-width: 90vw;
     margin: 6.5em;
     display: block;
@@ -924,29 +924,29 @@ section.factoid {
     border-bottom: 1px #ed0744 solid;
     height: auto;
 }
-span.didYouKnow {
+span.didYouKnow{
     transform: rotate(-90deg);
     padding: 0.5em 1.5em 0.5em 1.5em;
     background: #ed0744;
     max-height: 3.5em;
     color: white;
     font-weight: 700;
-    left: 1.05em;
-    font-size: 1.4em;
-    margin-top: 1.6em;
+    left: 10vw;
+    font-size: 1.2vw;
+    margin-top: 1.85em;
     position: absolute;
     font-family: kanit;
-}
+    }
 .mainFocus h1 {
-    font-size: 18vw;
+    font-size: 13vw;
     margin-top: -0.45em;
     text-align: left;
     padding-left: 0;
-    font-weight: 700 !important;
     margin-bottom: 0em;
+    font-weight: 700 !important;
 }
 .mainFocus span {
-    font-size: 4vw;
+    font-size: 3vw;
     width: 100%;
     text-align: left;
     color: black;
@@ -957,8 +957,8 @@ span.didYouKnow {
     font-weight: 700;
     letter-spacing: .5em;
     margin-left: .1em;
-    line-height: .85em;
-}
+    line-height: 1em;
+}    
 .mainFocus a {
     margin-left: .2em;
     font-size: .75em;
@@ -966,26 +966,30 @@ span.didYouKnow {
     text-decoration: underline !important;
     letter-spacing: .15em;
 }
-.explanation span {
-    font-size: 2.5vw;
+.explanation span{
+    font-size: 2vw;
     float: right;
     font-style: italic;
     font-weight: 200;
-    margin-top: -1.4em;
+    margin-top: -1em;
 }
-.explanation a {
-    font-size: 1vw;
+.explanation a{
+    font-size: .8vw;
     letter-spacing: .1em;
 }
 .factoid .row {
-    margin-top: 8.25em;
-    margin-bottom: 5em;
-    margin-right: 0em;
+    margin-top: 6.25em;
+    margin-bottom: 4.1em;
+    margin-left: 8em;
+    margin-right: 4.5em;
 }
-.col-sm-6.mainFocus {
-    margin-right: .1em;
-    max-width: 30em;
-}
-.mainFocus a:hover {
+.mainFocus a:hover{
     color: black !important;
+}
+.col-sm-7.explanation{
+    margin-left: 0vw;
+    max-width: 30vw;
+}
+.col-sm-5.mainFocus{
+    margin-left: 5.75vw;
 }
