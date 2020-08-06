@@ -1,5 +1,5 @@
 ---
-title: How Do I Buy Bitcoin?
+title: How To Buy Bitcoin
 image: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
