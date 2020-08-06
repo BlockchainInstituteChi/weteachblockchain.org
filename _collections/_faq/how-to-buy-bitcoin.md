@@ -24,13 +24,13 @@ sticky: true
 <span>The past few years have been eventful for cryptocurrency exchanges. They went from navigating uncertain regulations and providing basic, yet confusing, crypto management software to gaining legal accreditation and putting out easier-to-use tools.</span>
 <h3>How do Crypto Exchanges Work?</h3>
 <span>These cryptocurrency exchanges function just like any stock trading platform or foreign currency exchange. They use simple market mechanics to facilitate trades. Often, a cryptocurrency trading platform has a very similar interface to online stock trading interfaces.</span>
-<span>While there are many exchanges that allow you to buy bitcoin, the most popular for new users is Coinbase. Headquartered in San Francisco, the exchange has received the necessary regulatory approval to operate over 100 countries, giving its users extra peace of mind. Coinbase.com offers users the option to use fiat currency to buy various cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Ethereum Classic, Litecoin, Tezos, and many others, already serving over 15 million customers.</span>  
+<span>While there are many exchanges that allow you to buy bitcoin, the most popular for new users is <a href="https://www.coinbase.com/" target="_blank">Coinbase</a>. Headquartered in San Francisco, the exchange has received the necessary regulatory approval to operate over 100 countries, giving its users extra peace of mind. Coinbase.com offers users the option to use fiat currency to buy various cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Ethereum Classic, Litecoin, Tezos, and many others, already serving over 15 million customers.</span>  
 
 <span>Other popular cryptocurrency exchanges include <a href="https://www.binance.com/" target="_blank">Binance</a> and <a href="https://gemini.com/" target="_blank">Gemini</a>. Availability varies by location.</span>
 
 {% include callouts/callout.html
-    title="Interested in buying a token that isn’t listed on a centralized exchange?"
-    bodyText="Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party."
+    title="Centralized exchanges vs Decentralized exchanges"
+    bodyText="Interested in buying a token that isn’t listed on a centralized exchange? Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party."
 %}
 <h3>Pros & Cons of buying bitcoin via exchange</h3>
 <h4>Pros</h4>
