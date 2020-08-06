@@ -26,8 +26,10 @@ sticky: true
 <span>These cryptocurrency exchanges function just like any stock trading platform or foreign currency exchange. They use simple market mechanics to facilitate trades. Often, a cryptocurrency trading platform has a very similar interface to online stock trading interfaces.</span>
 <span>While there are many exchanges that allow you to buy bitcoin, the most popular for new users is Coinbase. Headquartered in San Francisco, the exchange has received the necessary regulatory approval to operate over 100 countries, giving its users extra peace of mind. Coinbase.com offers users the option to use fiat currency to buy various cryptocurrencies such as Bitcoin, Bitcoin Cash, Ethereum, Ethereum Classic, Litecoin, Tezos, and many others, already serving over 15 million customers.</span>  
 
+<span>Other popular cryptocurrency exchanges include <a href="https://www.binance.com/" target="_blank">Binance</a> and <a href="https://gemini.com/" target="_blank">Gemini</a>. Availability varies by location.</span>
+
 {% include callouts/callout.html
-    bodyText='Other popular cryptocurrency exchanges include <a href="https://www.binance.com/" target="_blank">Binance</a> and <a href="https://gemini.com/" target="_blank">Gemini</a>. Availability varies by location.'
+    bodyText="Interested in buying a token that isn’t listed on a centralized exchange? Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions without the need for a third party."
 %}
 <h3>Pros & Cons of buying bitcoin via exchange</h3>
 <h4>Pros</h4>
