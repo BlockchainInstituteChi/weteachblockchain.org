@@ -28,6 +28,12 @@
       </ul>
 
       <div class="mobileNavSidebar">
+        <div class="mobileLogin">
+          <div id="mobileApp">Loading...</div>
+          <script>
+            renderMagic();
+          </script>
+        </div>
         {% for item in site.data.navigation %}
             <h3>{{ item.header }}</h3>
             <ul> 
@@ -52,12 +58,6 @@
               </a>
             </li>
           </ul>
-          <div class="mobileLogin">
-            <div id="mobileApp">Loading...</div>
-            <script>
-              renderMagic();
-            </script>
-          </div>
       </div>
 
       <div id="searchLightbox" class="searchBox d-none">
