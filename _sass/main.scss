@@ -947,8 +947,11 @@ section.userLoginPrompt {
 
 img.gravatar {
     border-radius: 50%;
-    width: 3.5em;
+    width: 50%;
     display: block !important;
+    position: absolute;
+    top: -0.25rem;
+    left: -0.25rem;
 }
 
 img#accountImg {

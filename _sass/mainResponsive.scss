@@ -1,3 +1,46 @@
+
+// Mobile login 
+#mobileApp h1 {
+    font-size: 0.85em;
+}
+
+#mobileApp a, #mobileApp button {
+    padding: 0.25em 0.5em 0.25em 0.5em !important;
+    background: white;
+    color: #149ba4 !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+}
+
+#mobileApp button {
+    padding-top: 0.12rem !important;
+    padding-bottom: 0.12rem !important;
+    background: #ee4245;
+    color: white !important;
+}
+#mobileApp input.emailInput {
+    width: calc(100% - 2rem);
+    right: unset;
+    font-size: 1.15em;
+}
+// form.loginForm {
+//     margin-bottom: 1em;
+// }
+.loginForm button {
+    float: right;
+    z-index: 9999 !important;
+    display: block;
+    position: relative;
+    margin-top: 1px !important;
+    border: 1px solid #ee4245 !important;
+}
+div#mobileApp {
+    border-bottom: 1px solid white;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
 /* Bootstrap Tablet Trigger */ 
 /* Bootstrap collapses the nav at 992px */
 @media screen and (max-width: 992px) {

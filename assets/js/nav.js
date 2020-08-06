@@ -27,7 +27,9 @@ function toggleDisplayAccountBox () {
         } else {
             document.getElementById('accountDropdown').className = accountBox.className + ' d-none'
         }  
-    }
+    } else {
+        window.toggleNavBarDisplay()
+    }   
 }
 
 function closeOtherLightboxBeforeOpening () {

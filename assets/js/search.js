@@ -1,11 +1,11 @@
 
 function initSearch () {
 
-    // console.log('initSearch Ran')
+    console.log('initSearch Ran')
 
     $.getJSON('/map.json', function(data){
 
-        // console.log('got map data', data)
+        console.log('got map data', data)
 
         window.searchData = data;
 
@@ -17,13 +17,13 @@ function initSearch () {
             this.metadataWhitelist = ['title', 'summary', 'permalink']
             // this.field('title')
             
-            z = 0;
-            data.lessons.forEach(function (doc) {
-              doc.id = 'lessons-' + z
-              this.add(doc)
-              z++
-            }, this)
-
+            p = 0
+            data.faq.forEach(function (doc) {
+                doc.id = 'faq-' + p
+                this.add(doc)
+                p++
+            }, this)     
+        
             y = 0
             data.courses.forEach(function (doc) {
                 doc.id = 'courses-' + y
@@ -31,6 +31,13 @@ function initSearch () {
                 y++
               }, this)
 
+            z = 0;
+            data.lessons.forEach(function (doc) {
+                doc.id = 'lessons-' + z
+                this.add(doc)
+                z++
+            }, this)
+  
             x = 0
             data.modules.forEach(function (doc) {
                 doc.id = 'modules-' + x
@@ -44,6 +51,7 @@ function initSearch () {
                 this.add(doc)
                 r++
               }, this)
+         
   
           })
 
@@ -94,6 +102,7 @@ function refreshSearchResults (searchResultsContainer, searchInput) {
     
     if ( typeof (window.searchData) != "undefined") {
         var searchTerm = document.getElementById(searchInput).value;
+        // console.log('about to search', searchTerm + " faq^10")
         var searchResult = window.searchIndex.search(searchTerm)
 
         if ( 1 > searchResult.length ) {
@@ -147,7 +156,8 @@ function addResultToResultsContainer (container, data) {
 
     var summary = document.createElement('span')
         summary.className = "summary"
-        summary.textContent = removeHTMLEntities(data.summary)
+        summary.textContent = data.summary
+        // summary.textContent = removeHTMLEntities(data.summary)
 
     var row = document.createElement('div')
         row.className = "row"
@@ -157,7 +167,8 @@ function addResultToResultsContainer (container, data) {
 
     var title = document.createElement('span')
         title.className = "title"
-        title.textContent = removeHTMLEntities(data.title)
+        title.textContent = data.title
+        // title.textContent = removeHTMLEntities(data.title)
 
     // var score = document.createElement('span')
     //     score.className = "score"

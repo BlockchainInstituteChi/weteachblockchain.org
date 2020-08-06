@@ -11,7 +11,7 @@ const renderMagic = async () => {
   const isLoggedIn = await magic.user.isLoggedIn();
   /* Show login form if user is not logged in */
   let html = `
-    <form onsubmit="handleLogin(event)">
+    <form class="loginForm" onsubmit="handleLogin(event)">
       <span>Enter your email below to log in.</span>
       <input class="emailInput" type="email" name="email" required="required" placeholder="Enter your email" />
       <button  class="logout"  type="submit">Log In</button>
@@ -29,7 +29,7 @@ const renderMagic = async () => {
       <h1>Logged in as ${userMetadata.email}</h1>
       <a href="/userProfile.html">My Account</a>
       <button onclick="window.handleLogout()">Logout</button>
-
+      <br>
     `;
     toggleAccountImage();
   } else {
