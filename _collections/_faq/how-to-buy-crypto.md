@@ -8,6 +8,7 @@ learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
 weight: 2
+sticky: true
 ---
 
 <span>One of the biggest problems that has kept the average person from buying <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> has been the previous difficulty of the purchasing process. Simply put, people were too intimidated by the process. As a result, many who were interested in crypto would end up declining to take the leap of purchasing cryptocurrency. Whether you want to buy Bitcoin, buy Ethereum, or buy crypto <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with 3 different ways to trade cryptocurrencies!</span>
