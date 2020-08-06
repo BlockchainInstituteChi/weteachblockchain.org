@@ -29,3 +29,7 @@ weight: 2
 <span>Blockchains can enable decentralized platforms which require a cryptocurrency. The blockchain is the technology that serves as the distributed ledger and allows a network to maintain consensus. Distributed consensus enables the network to track transactions, and enables the transfer of value and information.</span>
 
 <span>Cryptocurrencies are the tokens used within these networks to send value and pay for these transactions, or to provide network incentives. Furthermore, you can see them as a tool on the blockchain, in some cases serving as a resource or utility, or even to digitize the ownership of an asset.</span>
+
+{% include callouts/callout.html
+	bodyText='<a href="/faq/how-to-buy-bitcoin/" target="_blank">Learn how to buy bitcoin and other cryptocurrencies</a>'
+%}
