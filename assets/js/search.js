@@ -17,13 +17,13 @@ function initSearch () {
             this.metadataWhitelist = ['title', 'summary', 'permalink']
             // this.field('title')
             
-            z = 0;
-            data.lessons.forEach(function (doc) {
-              doc.id = 'lessons-' + z
-              this.add(doc)
-              z++
-            }, this)
-
+            p = 0
+            data.faq.forEach(function (doc) {
+                doc.id = 'faq-' + p
+                this.add(doc)
+                p++
+            }, this)     
+        
             y = 0
             data.courses.forEach(function (doc) {
                 doc.id = 'courses-' + y
@@ -31,6 +31,13 @@ function initSearch () {
                 y++
               }, this)
 
+            z = 0;
+            data.lessons.forEach(function (doc) {
+                doc.id = 'lessons-' + z
+                this.add(doc)
+                z++
+            }, this)
+  
             x = 0
             data.modules.forEach(function (doc) {
                 doc.id = 'modules-' + x
@@ -44,13 +51,7 @@ function initSearch () {
                 this.add(doc)
                 r++
               }, this)
-
-            p = 0
-            data.faq.forEach(function (doc) {
-                doc.id = 'faq-' + p
-                this.add(doc)
-                p++
-            }, this)              
+         
   
           })
 
@@ -101,6 +102,7 @@ function refreshSearchResults (searchResultsContainer, searchInput) {
     
     if ( typeof (window.searchData) != "undefined") {
         var searchTerm = document.getElementById(searchInput).value;
+        // console.log('about to search', searchTerm + " faq^10")
         var searchResult = window.searchIndex.search(searchTerm)
 
         if ( 1 > searchResult.length ) {
