@@ -37,3 +37,5 @@ weight: 5
  	<li>Can represent real-world items</li>
 </ul>"
 %}
+
+<span> Now that you know the difference between different cryptographic assets, <a href="/faq/how-to-buy-bitcoin/" target="_blank">learn how to buy bitcoin and other coins and tokens.</a></span> 
