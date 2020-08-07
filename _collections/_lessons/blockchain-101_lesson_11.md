@@ -15,6 +15,10 @@ permalink: /courses/blockchain-101/02/blockchains-vs-cryptocurrency
 
 <p><span style="font-weight: 400;">The blockchain is the technology that serves as the distributed ledger that forms the network. This network creates a means for transacting and enables the transfer of value and information. A blockchain is a platform which allows cryptocurrencies to exist. </span><span style="font-weight: 400;">Cryptocurrencies are coins or tokens used within these networks to send value and pay for these transactions. Furthermore, you can see them as a tool on the blockchain, in some cases serving as a resource or utility function. Other times they are used to digitize the value of an asset.</span></p>
 
+{% include callouts/note.html
+	bodyText='When you are ready, <a href="/faq/how-to-buy-bitcoin/" target="_blank">learn how to buy bitcoin</a> or another cryptocurrency.'
+%}
+
 <p><span style="font-weight: 400;">In other words, blockchains serve as the base technology, in which cryptocurrencies are a part of the ecosystem. They go hand in hand, and a cryptocurrency is often necessary to transact on a blockchain. Without the blockchain, we would not have a way for these transactions to be recorded and transferred in a transparent way. </span><span style="font-weight: 400;">A blockchain is a technical design pattern which allows networks to exist without relying on a central authority for network management and maintenance. A cryptocurrency is usually (but not always) a required part of a blockchain ecosystem, and is used to incentivize users to secure the network.</span></p>
 
 <p><img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg" /></p>
