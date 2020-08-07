@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD:_collections/_faq/how-to-buy-bitcoin.md
 title: How To Buy Bitcoin
 image: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
+=======
+title: Three ways to buy crypto like Bitcoin, Ethereum, and others
+Image: HowToBuyFAQ.jpg
+permalink: /faq/3-ways-to-buy-crypto/
+>>>>>>> staging:_collections/_faq/how-to-buy-crypto.md
 layout: faq
 tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
