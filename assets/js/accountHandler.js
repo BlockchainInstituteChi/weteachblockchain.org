@@ -20,17 +20,14 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
-    setGravatarImageUrl(userMetadata.email)
-    // console.log(userMetadata)
+    setGravatarImageUrl( userMetadata.email )
     handlePageNotification()
-    // hideUserLoginPrompt()
-    // getUserData()
+
     html = `
       <h1>Logged in as ${userMetadata.email}</h1>
       <a href="/userProfile.html">My Account</a>
       <button onclick="window.handleLogout()">Logout</button>
-      <br>
-    `;
+      <br>`;
     toggleAccountImage();
   } else {
     showUserLoginPrompt()
@@ -75,8 +72,9 @@ const handleLogin = async e => {
   const email = new FormData(e.target).get("email");
   if (email) {
     const didToken = await magic.auth.loginWithMagicLink({ email });
-    // console.log('didToken', didToken)
+
     window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
+    
     await fetch(`${window.serverUrl}/login`, {
       headers: new Headers({
         Authorization: "Bearer " + didToken
@@ -161,20 +159,9 @@ const handlePageNotification = async () => {
     .then( handleAuthErrors )
     .then( response => response.json() )
     .then((responseJSON) => {
-      // do stuff with responseJSON here...
-      // console.log('got user data w/ current page', responseJSON);
-      window.userData = responseJSON
-      // console.log( 'set userdata', window.userData, new Date () )
 
-      // if this is a course directory page - populate progress 
-      if ( typeof ( populateCourseProgress ) != 'undefined' ) {
-        populateCourseProgress()
-      }
-      // console.log('trying to displayUserData', displayUserData)
-      if ( typeof ( displayUserData ) != 'undefined' ) {
-        console.log('triggering display User data')
-        displayUserData()
-      }      
+      setUserData(responseJSON)
+
     })
     
   } catch (err) {
@@ -183,6 +170,22 @@ const handlePageNotification = async () => {
   }
   
 };
+
+function setUserData ( userData ) {
+  window.userData = userData
+  window.localStorage.setItem( 'user', JSON.stringify(userData) )
+  
+  // if this is a course directory page - populate progress 
+  if ( typeof ( populateCourseProgress ) != 'undefined' ) {
+    populateCourseProgress()
+  }
+  
+  if ( typeof ( displayUserData ) != 'undefined' ) {
+    console.log('triggering display User data')
+    displayUserData()
+  }     
+
+}
 
 function getTotalLessonsCount ( ) {
   var totalCount = 0;
@@ -240,7 +243,9 @@ function setGravatarImageUrl ( email ) {
   userImg.src = gravatarUrl
 
   // then, hide the icon and replace with avatar
-  document.getElementsByClassName('fa-user-circle')[0].remove()
+  if ( document.getElementsByClassName('fa-user-circle')[0] ) {
+    document.getElementsByClassName('fa-user-circle')[0].remove()
+  }
 
   if ( !document.getElementById('accountImg') ) {
 

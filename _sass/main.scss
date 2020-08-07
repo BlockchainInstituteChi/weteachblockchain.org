@@ -256,6 +256,7 @@ li.nav-item.contactUsLink {
     background: #e6e6e6;
     width: 30%;
     padding-bottom: .4em;
+    right: 10.6em;
 }
 .account img {
     width: 2em;
@@ -282,6 +283,7 @@ input.emailInput {
     font-family:  $secondary-font;
     font-style: italic;
     padding-left: 0em;
+    margin-top: 1.5px;
 }
 .account span {
     font-size: 3em;
@@ -306,6 +308,8 @@ input.emailInput {
 img.accountLight {
     left: .55em;
     top: .5em;
+    min-width: calc(100% - 3.5rem);
+    height: auto;
 }
 
 /* Search */
