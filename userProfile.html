@@ -89,6 +89,8 @@ ogUrl: https://weteachblockchain.org/
             } catch (err) {
                 console.log('uncaught exception in update call', err)
             }
+        } else if ( document.getElementById('confirmDeleteEmail').value == "" ) {
+            alert('You must enter your email to delete your account.')
         } else {
             alert('Email does not match your account. Try again.')
         }     
