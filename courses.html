@@ -56,16 +56,21 @@ permalink: /courses/
 
 <section class="coursesList">
 	<h1 class="hasColorTag purple">Courses</h1>
-	{% assign sorted = site.courses | sort: 'tags' %}
-	{% for course in sorted %}
-		{% include courseListing.html 
-			image=course.image
-			title=course.title 
-			author=course.author 
-			summary=course.summary 
-			link=course.permalink 
-			tag=course.primaryTag	
-		%}
+	{% assign courseTypes = site.courses | group_by: 'primaryTag' %}
+	{% assign courseTypesSorted = courseTypes | sort: "name" %}
+	{% for group in courseTypesSorted %}
+		{% assign sorted = group.items | sort: 'title'  %}
+		{% for course in sorted %}
+			{% include courseListing.html 
+				image=course.image
+				title=course.title 
+				author=course.author 
+				summary=course.summary 
+				link=course.permalink 
+				tag=course.primaryTag	
+				slug=course.slug
+			%}
+		{% endfor %}
 	{% endfor %}
 </section>
 
