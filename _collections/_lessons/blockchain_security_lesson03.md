@@ -6,13 +6,30 @@ title: Independence Is Essential
 permalink: /courses/blockchain-security/1/independence-is-essential/
 
 ---
-<h3>KEY MANAGEMENT</h3>
-<hr />
+<br>
+<br>
+<span class="openingParagraph">A blockchain is a way of structuring a collection of digital signatures.</span>
 
-With disintermediation comes reduced support and increased risks of personal compromise. In a public context, there is no backup plan or password reset. If you drop your wallet on the sidewalk, you lose your money. Similarly, if you don't look after your house keys or private keys, it could result in being <strong>irrevocably locked out</strong>.
+Keeping your keys secure is the first step to using decentralized systems safely. While similar, organizations and individuals have slightly different needs when it comes to security. We'll cover the tools that can be used later on in this series.
 
-Especially in public environments, proper key management is incredibly important. If your project is running on a public blockchain, a compromised key could mean having your funds hijacked, or smart contracts compromised. Currently, there is little in the way of "undo" functionality for these types of scenarios. In private blockchains, an ecosystem where there may be a greater degree of control, it's still very important to ensure that information can still be securely added and stored on the chain. In the same way that it's important for users to secure their passwords for personal accounts, they should ensure that their keys are stored securely and backed up to minimize risks of being lost or inaccessible.
+<h3>Personal Key Management</h3>
+If you own any cryptocurrencies, you may benefit from careful planning. It's easier than it sounds!
+
+With disintermediation comes reduced support and increased risks of personal compromise. In public blockchains such as Bitcoin or Ethereum, there is no backup plan or password reset. If you drop your wallet on the sidewalk, you lose your money. Similarly, if you don't look after your house keys or private keys, it could result in being <strong>irrevocably locked out</strong>.
+
+{% include callouts/note.html
+	bodyText="Your digital signature controls your stake in a blockchain. <br> <br><b>If someone is able to access your Private Key, they can sign your assets over to themselves!</b>"
+%}
 
 <img src="/assets/img/courses/blockchain-security/LaptopX.jpg" />
+
+<h3>Businesses and Key Management</h3>
+Especially in public blockchains, proper key management is incredibly important. If your project is running on a public blockchain, a compromised key could mean having your funds hijacked, or smart contracts compromised. Currently, there is little in the way of "undo" functionality for these types of scenarios. In private blockchains, an ecosystem where there may be a greater degree of control, it's still very important to ensure that information can still be securely added and stored on the chain. In the same way that it's important for users to secure their passwords for personal accounts, they should ensure that their keys are stored securely and backed up to minimize risks of being lost or inaccessible.
+
+
+{% include callouts/callout.html
+    title="It's turtles all the way down"
+	bodyText="The entire purpose of blockchains is to store signatures that verify information, so without properly storing your keys, your blockchain empire may come crumbling down. "
+%}
 
 In the case of decentralized applications, this means that there is always a risk that your organization could lose control of a smart contract or other assets if the keys are lost, and there is no recourse. As a result, it is always recommended to consult with technical experts prior to engaging in any on-chain business or when dealing with large amounts of cryptocurrency. They can help ensure that proper recovery techniques are in place including multi-signature shared control.
