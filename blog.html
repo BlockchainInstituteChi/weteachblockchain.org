@@ -16,7 +16,8 @@ permalink: /blog/
 <section class="eventsList upcoming">
 	<h1 class="hasColorTag red">Recent Posts</h1>
 	<div class="row">
-		{% for post in posts %}
+        {{ site.posts }} 
+		{% for post in site.posts %}
                 <span>HA!</span>
 				{% include blogTile.html
 					link=post.permalink 

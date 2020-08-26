@@ -3,6 +3,9 @@ collections_dir: _collections/
 future: true
 
 collections:
+  posts:
+    output: true
+
   events: 
     layout: event
     output: true  
