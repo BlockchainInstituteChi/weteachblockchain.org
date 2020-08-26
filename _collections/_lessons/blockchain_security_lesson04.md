@@ -9,7 +9,7 @@ permalink: /courses/blockchain-security/2/individual-account-compromise/
 <br>
 <span class="openingParagraph">In the past, an 8 digit password was nearly impossible to crack, but in 2020, it's not only possible - it's easy. </span>
 
-Staying safe online is about more than just a strong secret key. Avoiding illegal torrents and other un-verified downloads is a good place to start, but when it comes to corporate e-governance, things get even more complicated. Software review, careful audits, and change management should also be high priorities for any decentralized projects. Storing private keys in a publicly accessible place can introduce a crime of opportunity when not already present. 
+Staying safe online is about more than just a strong secret key. Avoiding illegal torrents and other un-verified downloads is a good place to start, but when it comes to corporate e-governance, things get even more complicated. Software review, careful audits, and change management should all be high priorities for any decentralized projects. Storing private keys in a publicly accessible place can introduce a crime of opportunity when not already present. 
 
 In addition, a weak quality password could make it possible for any computer with a modern video card to crack your password. The problem is made worse by the existence of inexpensive, on-demand processing, for example, through a traditional cloud provider. Finally, ensuring your source of entropy/randomness was sufficient during account creation may not be something the end-user has control over, however, this can be a major weakness after keys were already thought to have been secured.
 
@@ -22,6 +22,8 @@ Aside from actual wallets being hacked, there is always the risk that a develope
 %}
 
 <h3>The Bright Side</h3>
-While this might all seem a bit intense, some say that cryptocurrency has actually resulted in a substantial increase in the strength of modern cryptography. Now - if you're smart enough to hack, you can make quite a substantial return. Once a bug is exploited (usually quite noticeably) the network will often patch the hole and implement a fork, at which point the attacker is rewarded and the system is forced to improve. Unfortunately, not all security flaws are wide ranging enough to require a fork, and so there is always the risk that a system can be undermined from within, or without. 
+While this might all seem a bit intense, some say that cryptocurrency has actually resulted in a substantial increase in the strength of modern cryptography. Now - if you're smart enough to hack, you can make quite a substantial return. Once a bug is exploited (usually quite noticeably) the network will often patch the hole and implement a fork, at which point the attacker is rewarded, albeit indirectly, and the system is forced to improve. 
+
+Unfortunately, not all security flaws are wide ranging enough to require a fork, and so there is always the risk that a system can be undermined from within, or without. In the next lessons, we'll cover how to protect yourself from these kinds of systemic risks.
 
 

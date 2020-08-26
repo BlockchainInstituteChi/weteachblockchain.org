@@ -9,17 +9,17 @@ permalink: /courses/blockchain-security/2/cryptocurrency-wallets/
 <br>
 <span class="openingParagraph">It's important to have the right tool for the job.</span>
 
-Although the software we use to manage cryptocurrencies is called a "wallet", no actual value is held in the wallet itself. Instead, it is a management interface for interacting with your private keys and blockchain networks. Because balances are tracked by the blockchain itself, cryptocurrency wallets mainly automate the process of signing cryptographic messages and broadcasting them to peer nodes in the network.
+Although the software we use to manage cryptocurrencies is called a "wallet", no actual value is held in the wallet itself. Instead, it is a management interface for interacting with your private keys and blockchain networks. Modern cryptocurrency wallets are more like a chequebook, which doesn't hold any actual assets directly, but can sign them to another person. Because balances are tracked by the blockchain itself, cryptocurrency wallets mainly automate the process of signing cryptographic messages and broadcasting them to peer nodes in the network.
 
 {% include callouts/callout.html
     title="What's in a wallet?"
-    bodyText="A wallet contains assets, but instead is a software tool used to manage your Private Keys. Modern wallets also calculate account balances and provide one-click transaction processing, which is otherwise a fairly complicated process."
+    bodyText="A wallet doesn't directly contain assets, but instead is a software tool used to manage your Private Keys. Modern wallets also calculate account balances and provide one-click transaction processing, which is otherwise a fairly complicated process."
 %}
 
 {% include callouts/imageWithTextCallout.html 
     title="Hot Wallets"
     image="/courses/blockchain-security/Jaxx.png"
-    bodyText="Hot wallets are wallets where the funds are instantly accessible and low value. Usually, these are used as mobile apps and run on a smart phone or website. Quick access comes at the cost of reduced security, so these wallets are meant to hold only the amount of cash you might carry in your pocket. The idea is that once funds reach a certain level, you might want to transfer them somewhere more secure, like a savings account.<br><br>With hot wallets, the keys are stored in the wallet software, which makes them easy to use, but prone to compromise."
+    bodyText="Hot wallets store funds for immediate use, and are thereby less secure. Usually, these are used as mobile apps and run on a smart phone or website. Quick access comes at the cost of reduced security, so these wallets are meant to hold only the amount of cash you might carry in your pocket. The idea is that once funds reach a certain level, you might want to transfer them somewhere more secure, like a hardware or cold storage wallet.<br><br>With hot wallets, the keys are stored in the wallet software, which makes them easy to use, but prone to compromise."
 %}
 
 {% include callouts/imageWithTextCallout.html 
@@ -37,7 +37,7 @@ Although the software we use to manage cryptocurrencies is called a "wallet", no
 {% include callouts/imageWithTextCallout.html 
     title="Hardware Wallets"
     image="/courses/blockchain-security/9E1D71A1-A3CD-425E-8AD7-D24B51340AE5.png"
-    bodyText="Hardware wallets offer some of the best balance of ease-of-use and security at the cost of... well, price! Buying a dedicated device will always be more costly than using paper and pen, but the added convenience and security is worth it. A variety of devices are available from several vendors at multiple price points. The Ledger Nano S is one of the most popular devices in large part due to its wide token support, and currently sells for just under $50 USD.<br><br>The Blockchain Institute uses a <a href='https://trezor.io/'>Trezor Model T</a> to store our donations, which helps us ensure that they are used for the right purposes."
+    bodyText="Hardware wallets offer some of the best balance of ease-of-use and security, but are somewhat more expensive. Buying a dedicated device will always be more costly than using paper and pen, but the added convenience and security is worth it. The Ledger Nano S is one of the most popular devices in large part due to its wide token support, and currently sells for just under $50 USD.<br><br>The Blockchain Institute uses a <a href='https://trezor.io/'>Trezor Model T</a> to store our donations, which helps us ensure that they are used for the prescribed purposes."
 %}
 
 <h3>Choosing the Right Wallet</h3>

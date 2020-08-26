@@ -56,7 +56,7 @@ Once you open <a href="http://bip32.org/">the BIP 32 Generator</a> you'll see th
 {% include callouts/upsideDownImageWithCaption.html
 	image="courses/blockchain-security/bip32-2.png"
 	title="2. Get an Address"
-	bodyText="Scroll down and check your generated address. You can click the dropdown to check the next derived address."
+	bodyText="Scroll down and check your generated address. You can click the dropdown to set the derivation path, and change the Account (k) field to get a new address at that path."
 %}
 
 {% include callouts/upsideDownImageWithCaption.html

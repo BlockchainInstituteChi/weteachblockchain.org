@@ -15,7 +15,7 @@ Keeping your keys secure is the first step to using decentralized systems safely
 <h3>Personal Key Management</h3>
 If you own any cryptocurrencies, you may benefit from careful planning. It's easier than it sounds!
 
-With disintermediation comes reduced support and increased risks of personal compromise. In public blockchains such as Bitcoin or Ethereum, there is no backup plan or password reset. If you drop your wallet on the sidewalk, you lose your money. Similarly, if you don't look after your house keys or private keys, it could result in being <strong>irrevocably locked out</strong>.
+With disintermediation comes reduced support and increased risk of personal compromise. In public blockchains such as Bitcoin or Ethereum, there is no backup plan or password reset. If you drop your wallet on the sidewalk, you lose your money. Similarly, if you don't look after your private keys, it could result in being <strong>irrevocably locked out</strong>.
 
 {% include callouts/note.html
 	bodyText="Your digital signature controls your stake in a blockchain. <br> <br><b>If someone is able to access your Private Key, they can sign your assets over to themselves!</b>"
