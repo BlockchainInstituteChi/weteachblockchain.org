@@ -16,19 +16,21 @@ permalink: /blog/
 <section class="eventsList upcoming">
 	<h1 class="hasColorTag red">Recent Posts</h1>
 	<div class="row">
-        {{ site.posts }} 
-		{% for post in site.posts %}
-                <span>HA!</span>
-				{% include blogTile.html
-					link=post.permalink 
-					image=post.image 
-					title=post.title 
-					date=post.eventdate
-					type=post.eventType
-				%}
+		<div class="container">
+			<div class="card-columns">
+				{% for post in site.posts %}
+						{% include blogTile.html
+							link=post.permalink 
+							image=post.image 
+							title=post.title 
+							date=post.date
+							type=post.Type
+						%}
+				{% endfor %}
+			</div>
+		</div>
+	</masonry>
 
-		{% endfor %}
-	</div>
 </section>
 
 {% include pinkDivider.html %}

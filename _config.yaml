@@ -3,7 +3,7 @@ collections_dir: all_collections
 
 future: true
 
-keep_files: ['assets/img/', 'node_modules/']
+keep_files: ['node_modules/']
 unpublished: true
 
 collections:
