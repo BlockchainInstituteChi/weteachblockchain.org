@@ -7,8 +7,9 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/early-alternative-c
 ---
 <br>
 <br>
-<span class="openingParagraph">
-After Bitcoin officially launched in 2009, a number of other cryptocurrency projects launched similar concepts. Most used some variation on the Bitcoin code, usually with minor changes to the rules of the network. While their creators were usually outspoken software developers or enthusiasts within the online community, these new forms of currency quickly took hold. It became apparent that experimentation in this sector could be quite profitable. </span>
+<span class="openingParagraph">After Bitcoin officially launched in 2009, a number of other cryptocurrency projects launched similar concepts.. </span>
+Most used some variation on the Bitcoin code, usually with minor changes to the rules of the network. Most of their their creators were usually outspoken software developers or enthusiasts within the online community, but the communities grew quickly, and enabled a thriving ecosystem.
+
 {% include callouts/imageWithTextCallout.html 
     title="Litecoin"
     image="/courses/ethereum-101/252px-6_Full_Logo_S-2.png"
