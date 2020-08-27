@@ -19,13 +19,15 @@ permalink: /blog/
 		<div class="container">
 			<div class="card-columns">
 				{% for post in site.posts %}
-						{% include blogTile.html
-							link=post.permalink 
-							image=post.image 
-							title=post.title 
-							date=post.date
-							type=post.Type
-						%}
+					{% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
+					{% include blogTile.html
+						link=post.permalink 
+						image=post.image 
+						title=post.title 
+						date=post.date
+						type=post.Type
+						summary=summary
+					%}
 				{% endfor %}
 			</div>
 		</div>
