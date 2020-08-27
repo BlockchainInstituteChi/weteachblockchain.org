@@ -3,7 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-08-27 11:02:58 -0500
 categories: jekyll update
-image: "Justin.jpg"
+thumbnail: "Justin.jpg"
+banner: "JustinWIDE.jpg"
 published: true
 permalink: /posts/08/01/welcome
 ---

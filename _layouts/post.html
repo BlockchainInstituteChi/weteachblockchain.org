@@ -67,7 +67,7 @@
           display: unset !important;
         }
       </style>
-      <link rel=stylesheet href='/assets/css/events.css' type=text/css>
+      <link rel=stylesheet href='/assets/css/blog.css' type=text/css>
   </head>
   <body>
     <div class="navBarContainer">
@@ -75,39 +75,35 @@
     </div>
 
     {% include pageHeader.html 
-      img=page.image
+      img=page.banner
     %}
     
     <section class="breadcrumbs container">
       <div class="row">
-          <a href="/">Home</a> / <a href="/events/">Events</a> / <a href="#">{{page.title}}</a>
+          <a href="/">Home</a> / <a href="/blog/">Blog</a> / <a href="#">{{page.title}}</a>
       </div>
     </section>
     <section class="eventOverview">
       <div class="row container">
         <div class="col-md-9 eventMain">
-          {% include eventDetails.html 
-            title=page.title
-            date=page.eventdate 
-            rsvpLink=page.rsvpUrl  
-            dateTime=page.date
-          %}
-
           <div class="eventBody">
             {{ content }}
           </div>
         </div>
   
-        <div class="col-md-3 eventSidebar">
-          {% assign sorted = site.events | sort: 'date' | reverse %}
-          {% for event in sorted limit:3 %}
+        <div class="col-md-3 blogSidebar">
+          {% assign sorted = site.posts | sort: 'date' | reverse %}
+          {% for post in sorted limit:3 %}
   
-              {% include eventTile.html
-                link=event.permalink 
-                image=event.image 
-                title=event.title 
-                date=event.eventdate
-              %}
+            {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
+            {% include blogTile.html
+              link=post.permalink 
+              image=post.thumbnail 
+              title=post.title 
+              date=post.date
+              type=post.Type
+              summary=summary
+            %}
   
           {% endfor %}
         </div>

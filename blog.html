@@ -6,7 +6,7 @@ permalink: /blog/
 ---
 
 {% include pageHeader.html 
-	img="Events-Banner.jpg" 
+	img="BlogHeader.jpg" 
 	header="Blog" 
     text="This is our blog!"	
     ctaText="Join our writing team!" 
@@ -22,7 +22,7 @@ permalink: /blog/
 					{% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
 					{% include blogTile.html
 						link=post.permalink 
-						image=post.image 
+						image=post.thumbnail 
 						title=post.title 
 						date=post.date
 						type=post.Type
