@@ -1,9 +1,16 @@
-collections_dir: _collections/
+
+collections_dir: all_collections
 
 future: true
 
+keep_files: ['assets/img/', 'node_modules/']
+unpublished: true
+
 collections:
+  # permalink: /:name
+
   posts:
+    layout: post
     output: true
 
   events: 
