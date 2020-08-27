@@ -11,6 +11,8 @@ eventType: Community
 ---
 <a href="https://www.nvisia.com/" target="_blank">Nvisia</a> in partnership with the <a href="https://chicagoblockchain.org/" target="_blank">Chicago Blockchain Center</a> and hosted at the Blockchain Institute are pleased to present the first Hyperledger meetup of 2020 in Chicago.
 
+<iframe width="900" height="506" src="https://www.youtube.com/embed/XqjsDcYODhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {% include callouts/callout.html
    title="Featuring the following speakers:"
 	bodyText="<ul>
