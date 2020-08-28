@@ -98,7 +98,12 @@
             {{ content }}
 
             {% include aboutTheAuthor.html author=author %}
-
+            
+            {% include learnMoreSection.html 
+              link=page.learnMoreLink
+              text=page.learnMoreText
+              image=page.learnMoreImage
+            %}
           </div>
         </div>
   
