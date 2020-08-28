@@ -8,6 +8,9 @@ unpublished: true
 
 collections:
   # permalink: /:name
+  authors:
+    layout: author
+    output: true
 
   posts:
     layout: post

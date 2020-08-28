@@ -231,3 +231,17 @@ a.readMoreLink {
 .card:hover {
     margin-top: 0.25rem;
 }
+
+// Authors
+a.authorLink {
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+}
+.aboutTheAuthor h3 {
+    margin-top: -0.45rem;
+}
+.aboutTheAuthor .row {
+    margin: 0;
+    border-top: 1px solid #8080804d;
+    padding-top: 2rem;
+}

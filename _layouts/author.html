@@ -75,43 +75,38 @@
     </div>
 
     {% include pageHeader.html 
-      img=page.banner
+        img=page.banner 
+        header=page.name 
+        text=page.content	
+        ctaText="Learn More" 
+        ctaLink=page.learnMoreLink 
     %}
     
     <section class="breadcrumbs container">
       <div class="row">
-          <a href="/">Home</a> / <a href="/blog/">Blog</a> / <a href="#">{{page.title}}</a>
+          <a href="/"> Home </a> / <a href="/blog/"> Blog </a> / <a href="#"> {{page.name}} </a>
       </div>
     </section>
-    <section class="blogOverview">
-      <div class="row container">
-        <div class="col-md-9 blogMain">
-          <div class="blogBody">
-            {{ content }}
-
-            {% include aboutTheAuthor.html key=page.author %}
-
-          </div>
+    <section class="authorOverview">
+        <!-- <h1 class="hasColorTag red">Recent Posts</h1> -->
+        <div class="row">
+            <div class="container">
+                <div class="card-columns">
+                    {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+                    {% for post in filtered_posts %}
+                        {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
+                        {% include blogTile.html
+                            link=post.permalink 
+                            image=post.thumbnail 
+                            title=post.title 
+                            date=post.date
+                            type=post.Type
+                            summary=summary
+                        %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-  
-        <div class="col-md-3 blogSidebar">
-          {% assign sorted = site.posts | sort: 'date' | reverse %}
-          {% for post in sorted limit:3 %}
-  
-            {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
-            {% include blogTile.html
-              link=post.permalink 
-              image=post.thumbnail 
-              title=post.title 
-              date=post.date
-              type=post.Type
-              summary=summary
-            %}
-  
-          {% endfor %}
-        </div>
-      </div>
-
     </section>
     
     {% include pinkDivider.html %}
