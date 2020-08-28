@@ -44,6 +44,13 @@ function initSearch () {
                 this.add(doc)
                 r++
               }, this)
+
+            p = 0
+            data.posts.forEach(function (doc) {
+                doc.id = 'posts-' + p
+                this.add(doc)
+                p++
+              }, this)
   
           })
 

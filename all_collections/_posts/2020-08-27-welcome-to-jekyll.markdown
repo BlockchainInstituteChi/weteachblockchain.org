@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  Nothing is Impossible!
 date:   2020-08-27 11:02:58 -0500
 categories: jekyll update
 thumbnail: "authors/Justin.jpg"
@@ -9,26 +9,14 @@ author: "justin"
 published: true
 permalink: /posts/08/01/welcome-to-jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+This life is nothing short of an evolving network of higher being. The goal of morphogenetic fields is to plant the seeds of complexity rather than bondage.
+Although you may not realize it, you are intergalactic.
+Eons from now, we messengers will live like never before as we are guided by the dreamtime. This circuit never ends. The multiverse is approaching a tipping point.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+The infinite is beaming with sonar energy. Health is the driver of nature. Today, science tells us that the essence of nature is rebirth.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Visitor, look within and empower yourself. It can be difficult to know where to begin. Have you found your quest?
 
-Jekyll also offers powerful support for code snippets: 
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The harmonizing of joy is now happening worldwide.
+The complexity of the present time seems to demand a redefining of our essences if we are going to survive. Stagnation is the antithesis of truth. You may be ruled by delusion without realizing it. Do not let it erase the richness of your story.

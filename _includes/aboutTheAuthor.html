@@ -1,18 +1,13 @@
-{% assign filtered_authors = site.authors | where: 'short_name', include.key %}
-{% for contributor in filtered_authors %}
-    {% assign author = contributor %}
-{% endfor %}
-
 <div class="container aboutTheAuthor">
-    <div class="row">
-        <div class="col-sm-3">
-            <img class="headshot" src="/assets/img/{{ author.headshot }}">
+    <a href="{{ include.author.permalink }}">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="headshot" src="/assets/img/{{ include.author.headshot }}">
+            </div>
+            <div class="col-sm-9">
+                <h3>{{ include.author.name }}</h3>
+                <span>{{ include.author.content }}</span>
+            </div>
         </div>
-        <div class="col-sm-9">
-            <h3>{{ author.name }}</h3>
-            <span>{{ author.content }}</span>
-            <a href="{{ author.permalink }}" target="_blank">Learn More about {{ author.name }}</span></a>
-        </div>
-    </div>
-
+    </a>
 </div>

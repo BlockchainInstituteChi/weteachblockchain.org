@@ -80,9 +80,20 @@ h1.hasColorTag.teal {
     margin-bottom: 0em;
 }
 
+// sidebar 
+.blogSidebar h3 {
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 1.75rem;
+}
 .blogSidebar .blogTile {
     width: 93.1%;
 }
+.blogSidebar .card {
+    margin: 1rem;
+    margin-left: 0;
+}
+
 .blogMain h1 {
     margin-top: 0em;
     margin-bottom: 0.2em;
@@ -95,16 +106,6 @@ span.blogDate {
     line-height: 1.5;
     color: darkgrey;
     text-align: left;
-}
-.blogMain h1::before {
-    background: #ed0744;
-    width: 120px;
-    height: 1em;
-    content: "_";
-    color: #ff000000;
-    position: absolute;
-    left: -3.5em;
-    top: 0.15em;
 }
 .blogBody {
     padding: 0.75em 0em;
@@ -218,7 +219,7 @@ span.blogFilterNotification {
     padding-top: 0;
 }
 .card p {
-    padding: 0.5rem;
+    padding: 0.65rem;
     padding-top: 0;
     margin-bottom: 0;
 }
@@ -226,6 +227,12 @@ a.readMoreLink {
     width: 100%;
     text-align: center !important;
 }
+.card a.byAuthor {
+    margin-left: 0.75rem;
+    margin-bottom: 0;
+}
+
+
 
 // Card hover effect
 .card:hover {
@@ -233,6 +240,9 @@ a.readMoreLink {
 }
 
 // Authors
+img.headshot {
+    margin-bottom: 1rem;
+}
 a.authorLink {
     margin-left: 0.5rem;
     text-transform: uppercase;
@@ -245,3 +255,14 @@ a.authorLink {
     border-top: 1px solid #8080804d;
     padding-top: 2rem;
 }
+.aboutTheAuthor span {
+    color: grey;
+}
+a.byAuthor {
+    color: #0b9ba4;
+    margin-top: -0.75rem !important;
+    display: block;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+

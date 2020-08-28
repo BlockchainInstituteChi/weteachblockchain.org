@@ -87,14 +87,23 @@
       <div class="row container">
         <div class="col-md-9 blogMain">
           <div class="blogBody">
+            <h1>{{ page.title }}</h1>
+            {% assign filtered_authors = site.authors | where: 'short_name', page.author %}
+            {% for contributor in filtered_authors %}
+                {% assign author = contributor %}
+            {% endfor %}
+
+            <a href="{{ author.permalink }}" class="byAuthor">by {{ author.name }}</a>
+            
             {{ content }}
 
-            {% include aboutTheAuthor.html key=page.author %}
+            {% include aboutTheAuthor.html author=author %}
 
           </div>
         </div>
   
         <div class="col-md-3 blogSidebar">
+          <h3>Recent Posts</h3>
           {% assign sorted = site.posts | sort: 'date' | reverse %}
           {% for post in sorted limit:3 %}
   
@@ -103,7 +112,7 @@
               link=post.permalink 
               image=post.thumbnail 
               title=post.title 
-              date=post.date
+              author=post.author
               type=post.Type
               summary=summary
             %}
