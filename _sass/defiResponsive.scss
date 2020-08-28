@@ -1,0 +1,283 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+	.leftWhite ul {
+	    width: calc(100% - 6em);
+	}
+	.col-sm-6.leftWhite {
+	    background: linear-gradient(to right, #fff 95%, #ffff0000);
+	    min-height: calc(100% + 50px);
+	    padding: 3em 0em 3em 2em;
+	}
+	.inPerson p {
+	    padding-right: 0em;
+	    margin: 0em 2em 0em 0em;
+	    font-family: Roboto;
+	    font-size: 1em;
+	    color: black;
+	    font-weight: 300;
+	}
+	.row {
+	    max-width: calc(100% - 1em);
+	}
+	#map-2 img {
+	    margin-top: 2em;
+	}
+	.col-sm-6 h1 {
+	    margin-top: 0;
+	}
+	.leftWhite h1 {
+	    margin-top: 0.5em;
+	}
+	.bciCallToAction .col-sm-6 {
+    		padding-left: 0;
+    		padding-right: 0em;
+	}
+	.bciCallToAction h1 {
+   		 padding-left: 0em;
+         margin-top: 2.5em;
+	}
+	.bciCallToAction p {
+    		padding-bottom: 0;
+    		padding-top: 0;
+    		font-size: 1em;
+	}
+	.bciCallout img {
+   		 margin: 5em;
+   		 margin-right: 7em;
+    	 width: calc(100% - 10em);
+    	 margin-top: 2.2em;
+    	 margin-bottom: 2em;
+	}
+	.col-sm-6.bciCallout {
+    		margin-top: 5.5em !important;
+	}
+
+	a.nav-link.hideOnDesktop {
+		display: block;
+	}
+	.col-sm-6.leftWhite {
+		background: #efefef;
+	}
+	.carousel {
+		position: relative;
+		margin-top: 4.5em;
+		max-width: 42%;
+		margin-bottom: 35em;
+	}
+	section.cccVideoPlaylist {
+		padding-top: 4.2em;
+		padding-bottom: 3.5em;
+	}
+	.cccVideoPlaylist.col-sm-6 {
+		min-height: 14.1em;
+	}
+	section.inPerson {
+		padding-bottom: 1.7em;
+	}
+	.tileItem {
+		width: 23.05%;
+	}
+	iframe {
+		height: 84%;
+	}
+	section.container.mapSpace {
+		margin-top: 5.5em;
+		margin-bottom: 2.5em;
+	}
+	section.upcomingEventsFooter {
+		margin-bottom: 3em;
+    }
+    .defi-explained a {
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.nav-link.donateNow {
+	    margin-right: 0.5em;
+	}
+	h1 {
+	    margin-left: 0em;
+	}
+	header.jumbotron.text-left.tileHeader {
+	    background: url(/assets/img/CCC_videoHeader.jpg);
+	    background-size: cover;
+	    background-position: 50% 50%;
+	    position: relative;
+	}
+	.col-sm-6.leftWhite {
+    		padding: 1em 0em 3em 1em;
+	}
+
+	.curatedMap {
+		display: none;
+	}
+
+button.learnMoreButton {
+    margin: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 1em;
+    width: 38%;
+    margin: 1.5em;
+}
+	.col-sm-6 {
+    		padding-left: 1em;
+    		padding-right: 1em;
+	}
+	.col-sm-6.leftWhite {
+	    flex: unset !important;
+	    width: 100% !important;
+	    max-width: unset !important;
+	}
+	
+	.leftWhite ul {
+	    width: calc(100% - 2em);
+	    max-width: unset !important;
+	}
+	.row {
+	    margin: 0;
+	    max-width: 100%;
+	}
+	
+	.container-fluid.footer {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	button.learnMoreButton.callToAction {
+	    left: 50%;
+	}
+	
+	#map-1 {
+		order: 2;
+	}
+
+	#map-2 {
+		order: 2;
+	}
+	div#map-2 {
+    		padding-left: 0em;
+    		padding-right: 0em;
+    		margin-left: 1.5em;
+    		margin-right: 1.5em;
+	}
+	section.container {
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	/* in-person */
+
+	section.inPerson {
+		padding-right: 0;
+		padding-top: 3em;
+		padding-bottom: 0;
+	}
+
+	.inPerson p {
+	    padding-right: 1em;
+	}
+.bciCallToAction .col-sm-6 {
+    margin-top: .5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.bciCallToAction h1 {
+    margin-top: 1.25em;
+}
+	.bciCallToAction p {
+    		margin: 1em 0em 0em 0em;
+	}
+	#events {
+		order: 2;
+	}	
+	.col-sm-6.bciCallout {
+    		margin-right: 1.5em;
+	}
+	section.cccVideoPlaylist {
+		padding-top: 4em;
+		padding-bottom: 4em;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	iframe {
+		height: 81%;
+	}
+	.cccVideoPlaylist h1 {
+		margin-left: .34em;
+	}
+	section.doMore {
+		padding-right: .5em;
+		padding-left: .5em;
+	}
+	.doMore h1 {
+		margin-bottom: 1em;
+		color: white;
+		padding-left: .6em;
+	}
+	section.container.mapSpace {
+		margin-top: 5em;
+		margin-bottom: 3.5em;
+	}
+	.cccVideoPlaylist h2 {
+		padding-left: 0em;
+	}
+	.cccVideoPlaylist span {
+		padding-left: 0em;
+	}
+	.cccVideoPlaylist p {
+		padding-left: 0em;
+	}
+
+
+
+
+/*Carousel*/
+
+.carousel {
+    position: relative;
+    margin-top: 0em;
+    max-width: 100%;
+    margin-bottom: 5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+div#carouselExampleControls {
+    padding: 0em;
+    margin-top: -1em;
+}
+.upcomingEventsFooter h1 {
+    margin-left: .75em !important;
+    font-size: 1.75em;
+}
+.upcomingEventsFooter .tileItem h1 {
+    margin-left: -.175em !important;
+    margin-bottom: 0em;
+}
+.inPerson h4 {
+    font-size: 3vw;
+    line-height: 2em;
+}
+
+}
+
+
+
+@media screen and (max-width: 330px) {
+	button.learnMoreButton {
+		font-size: 1.75em !important;
+	}
+	.col-sm-6 h1 {
+	    font-size: 1.95em !important;
+	    margin-left: 0.3em !important;
+	}
+}
