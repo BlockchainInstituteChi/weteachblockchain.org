@@ -29,7 +29,7 @@ In order to run a new smart contract, the creator must first deploy it to the ch
 
 {% include callouts/definition.html 
 	title="ORACLE"
-	bodyText="In the event that a smart contract needs to check for information outside of the Ethereum ecosystem, a third party such as an Oracle can be used to add that information to the blockchain. Oracle services provide external data for use in smart contracts, and are held accountable through staking or other incentive mechanisms on-chain. If enough Oracles are used, the information can be considered to be sufficiently reliable. Further consideration of </span><a href='https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/'>Buterin's initial work</a> on the concept may be beneficial."
+	bodyText="In the event that a smart contract needs to check for information outside of the Ethereum ecosystem, a third party such as an Oracle can be used to add that information to the blockchain. Oracle services provide external data for use in smart contracts, and are held accountable through staking or other incentive mechanisms on-chain. If enough Oracles are used, the information can be considered to be sufficiently reliable. Further consideration of <a href='https://blog.ethereum.org/2014/07/22/ethereum-and-oracles/'>Buterin's initial work</a> on the concept may be beneficial."
 %}
 
 <h3>AN EXPLOSION OF APPLICATIONS</h3>
