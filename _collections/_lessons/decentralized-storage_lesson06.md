@@ -7,7 +7,16 @@ permalink: /courses/decentralized-storage/2/advantages/
 ---
 <br>
 <br>
-<span class="openingParagraph">DESPITE THE LIMITATIONS DISCUSSED IN THE PREVIOUS LESSON, DECENTRALIZED STORAGE HAS POWERFUL BENEFITS WHEN DEPLOYED IN THE CORRECT SITUATIONS.</span>
+<span class="openingParagraph">Things are just getting started...</span>
+Despite the limitations discussed inthe previous lesson, decentralized storage has powerful benefits when deployed in the correct situations.
+
+{% include callouts/definition.html 
+    title="Idempotence"
+    bodyText="'The property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application.' - In decentralized technology, the system always knows, for certain, what the state of the system is. This is substantially more secure than traditional systems."
+%}
+
+<h1>The Bright Side</h1>
+Decentralized systems are coming soon, and the change will be substantial.
 
 <h3>DATA PERSISTENCE</h3>
 It is difficult to delete data if a sufficient number of peers want to keep it. Once a file has been shared with the network, it only takes one node to keep it available. This makes it nearly impossible for an attacker to take the files hostage, or for a tyrannical government to suppress free speech. Beyond this, it means that users can rest assured that their personal documents can be stored safely as long as at least one of their devices holds a copy, and these files can then easily be replicated to the other devices. In practice this works similarly to an iCloud or Google backup, but exists without the need for a third party. 

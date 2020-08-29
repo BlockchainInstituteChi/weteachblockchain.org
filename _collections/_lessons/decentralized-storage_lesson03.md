@@ -7,7 +7,15 @@ permalink: /courses/decentralized-storage/1/conventional-protocols/
 ---
 <br>
 <br>
-<span class="openingParagraph">The primary system employed by storage providers in 2018 is used to bridge their network to more traditional HTTP(S) GET and POST requests. This allows, the client to read and store records in servers. While client-server connections have functioned relatively well until now, they suffer from some disadvantages that are addressed by a peer-to-peer structure.</span>
+<span class="openingParagraph">Most applications already use distributed data stores.</span>
+The primary system employed by storage providers in 2018 is used to bridge their network to more traditional HTTP(S) GET and POST requests. This allows, the client to read and store records in servers. While client-server connections have functioned relatively well until now, they suffer from some disadvantages that are addressed by a peer-to-peer structure.
+
+{% include callouts/callout.html 
+	title="More people online means more distributed data"
+	bodyText="In 2020, most web developers take advantage of a Content Distribution Network (CDN) to store their files in easy to access servers, which ensures that their customers can download it quickly when they interact with their products."
+%}
+
+With the creation of decentralized storage, it is now possible for individual peers within the network to broadcast directly to one another, instead of sharing through a centrally located pipeline. Blockchain technology is a key component of this system, because it is what allows the nodes to stay synchronized.
 
 {% include callouts/imageWithCaption.html
 	image="/courses/decentralized-storage/P2P_HTTP_IPFS-01.jpg"
