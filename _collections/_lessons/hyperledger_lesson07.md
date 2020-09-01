@@ -23,7 +23,7 @@ This folder contains some example launch scripts to help you set up a hyperledge
 
 {% include callouts/callout.html
     title="BYFN.sh"
-    bodyText="<br><strong>B</strong>uild <br><strong>Y</strong>our <br><strong>F</strong>irst <br><strong>N</strong>etwork"
+    bodyText="The Hyperledger team has compiled this script to help us easily set up a whole network at once. It will deploy our chain code to a number of Docker containers, and help us simulate a network!<br>~ <strong>B</strong>uild <br>~ <strong>Y</strong>our <br>~ <strong>F</strong>irst <br>~ <strong>N</strong>etwork"
 %}
 
 Let's try running the starter script, and we can explore how it generates the network.

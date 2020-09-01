@@ -7,12 +7,18 @@ permalink: /courses/hyperledger/1/validated-ledger/
 ---
 <br>
 <br>
-<span class="openingParagraph">
-In the Hyperledger environment, the Validated or VLedger represents the present sum of all successfully validated transactions. Transactions which are not successfully validated or endorsed will be exempt from this list, making it a useful tool for efficiency among peer nodes.</span>
+<span class="openingParagraph">Validating Transactions</span>
+In the Hyperledger environment, the Validated or VLedger represents the present sum of all successfully validated transactions. Transactions which are not successfully validated or endorsed will be exempt from this list, making it a useful tool for efficiency among peer nodes.
+
+{% include callouts/note.html
+	bodyText="Instead of the ethereum State Object or the bitcoin consensus chain, Hyperledger makes use of a collective Validated Ledger, which is shared among all network participants and contains only the transactions which have received appropriate endorsements and approvals."
+%}
+
+The following graphic shows the process for validating a new transaction. Once the transaction is validated, it can be added to the Validated Ledger.
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/ValLedger-01.jpg"
-	title="ILLUSTRATION OF THE VALIDATION PROCESS // https://hyperledger-fabric.readthedocs.io/en/release-1.3/arch-deep-dive.html"
+	title="ILLUSTRATION OF THE VALIDATION PROCESS // <a href='https://hyperledger-fabric.readthedocs.io/en/release-1.3/arch-deep-dive.html' target='_blank'>HYPERLEDGER DOCS</a>"
 	bodyText="<b>A:</b> <i>PeerLedger;</i>  <b>B:</b> <i>Validated ledger;</i>  <b>C:</b> <i>Block;</i>  <b>D:</b> <i>Submitting client;</i>  <b>E:</b> <i>PeerLedger;</i>  <b>F:</b> <i>Validated Ledger (VL);</i>  <b>G:</b> <i>Genesis block;</i>  <b>H:</b> <i>Peer;</i>  <b>I:</b> <i>Block forming;</i>  <b>J:</b> <i>Verify endorsement, readset, If OK then apply writeset, Else Invalid transaction (blob);</i>  <b>K:</b> <i>Ordering service;</i>  <b>L:</b> <i>Orderers.</i>"
 %}
 
