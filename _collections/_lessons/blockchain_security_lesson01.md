@@ -5,8 +5,8 @@ module: 1
 title: Primer & Introduction
 permalink: /courses/blockchain-security/1/primer-introduction/
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/PkWZ9pKAdV8?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">Getting started on your journey to safe crypto use</span>
 What this course aims to teach is some prevalent issues common to users and developers of decentralized systems. As there are many technologies involved in the use of blockchains, each with its own area of concern, we cannot address all of them in detail. However, if you want to know what practical steps can be taken to secure yourself or the system you work on, this course is for you!
 

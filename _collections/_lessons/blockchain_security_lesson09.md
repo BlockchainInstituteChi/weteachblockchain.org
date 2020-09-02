@@ -5,8 +5,8 @@ module: 3
 title: Bad Data & DoS
 permalink: /courses/blockchain-security/3/bad-data-dos/
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/hwRr4uFrbWI?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">In a public blockchain, even valid network congestion can cause issues. </span>
 
 In the Ethereum network, valid traffic requests from the Cryptokitties project in 2017 led to an overwhelming transaction volume, and ultimately over-congestion of the network for several days. Ethereum's <a href="http://theblockchaininstitute.org/what-is-ethereums-gas/" target="_blank" rel="noopener noreferrer">Gas pricing algorithm</a> has the ability to adjust upwards to balance the demand but requires a (somewhat passive) vote of miners to achieve.

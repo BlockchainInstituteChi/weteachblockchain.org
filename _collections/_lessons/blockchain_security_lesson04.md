@@ -5,8 +5,8 @@ module: 2
 title: Individual Account Compromise
 permalink: /courses/blockchain-security/2/individual-account-compromise/
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/45l8Hka5Zxw?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">In the past, an 8 digit password was nearly impossible to crack, but in 2020, it's not only possible - it's easy. </span>
 
 Staying safe online is about more than just a strong secret key. Avoiding illegal torrents and other un-verified downloads is a good place to start, but when it comes to corporate e-governance, things get even more complicated. Software review, careful audits, and change management should all be high priorities for any decentralized projects. Storing private keys in a publicly accessible place can introduce a crime of opportunity when not already present. 

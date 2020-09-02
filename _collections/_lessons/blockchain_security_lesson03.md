@@ -6,8 +6,8 @@ title: Independence Is Essential
 permalink: /courses/blockchain-security/1/independence-is-essential/
 
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/VqgISgbnxtg?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">A blockchain is a way of structuring a collection of digital signatures.</span>
 
 Keeping your keys secure is the first step to using decentralized systems safely. While similar, organizations and individuals have slightly different needs when it comes to security. We'll cover the tools that can be used later on in this series.
