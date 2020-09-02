@@ -5,6 +5,8 @@ module: 3
 title: Keeping Yourself Secure
 permalink: /courses/blockchain-security/3/keeping-yourself-secure/
 ---
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/KQIrpRvb7cs?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3>IDENTIFYING FUTURE PROBLEMS</h3>
 
 Congrats, if you made it this far, you're now well versed in basics of blockchain security! Now that you're familiar with the most common issues, we wanted to provide a few tips for you to identify vulnerabilities as they evolve. In general, there are three categories of vulnerabilities:

@@ -5,8 +5,8 @@ module: 2
 title: Cryptocurrency Wallets
 permalink: /courses/blockchain-security/2/cryptocurrency-wallets/
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/3aH-HT3rbY0?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">It's important to have the right tool for the job.</span>
 
 Although the software we use to manage cryptocurrencies is called a "wallet", no actual value is held in the wallet itself. Instead, it is a management interface for interacting with your private keys and blockchain networks. Modern cryptocurrency wallets are more like a chequebook, which doesn't hold any actual assets directly, but can sign them to another person. Because balances are tracked by the blockchain itself, cryptocurrency wallets mainly automate the process of signing cryptographic messages and broadcasting them to peer nodes in the network.
