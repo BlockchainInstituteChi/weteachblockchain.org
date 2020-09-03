@@ -47,6 +47,16 @@
     link: /developer-toolkit/
     class: child
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+  - name: Decentralized Finance
+    link: /decentralized-finance-course/
+    class: child    
+
+>>>>>>> Stashed changes
 - header: Contact
   children:
   - name: About
