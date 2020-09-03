@@ -7,8 +7,8 @@ permalink: /courses/blockchain-101/2/using-the-interface
 ---
 <br>
 <br>
-<span class="openingParagraph">
-Once you open the page, an IPFS node will start to run right in your browser. This is similar to how many games will load a client locally, and use it to connect to the wider network. The website you're viewing is running a small IPFS node with local javascript storage in your browser. Don't worry - it will be automatically turned off and cleared if you close the window. In fact, every refresh of this page will have a different node ID and address. You can see the details of the node in the top left corner of the user interface.</span>
+<span class="openingParagraph">What's in a node?</span>
+Once you open the page, an IPFS node will start to run right in your browser. This is similar to how many games will load a client locally, and use it to connect to the wider network. The website you're viewing is running a small IPFS node with local javascript storage in your browser. Don't worry - it will be automatically turned off and cleared if you close the window. In fact, every refresh of this page will have a different node ID and address. You can see the details of the node in the top left corner of the user interface.
 
 Once the node has finished initializing, you'll see the node details appear in the upper left corner as so:
 
