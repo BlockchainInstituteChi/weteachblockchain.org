@@ -1,3 +1,6 @@
+{% assign startCourseLink = site.lessons
+    | where_exp:"lesson", "lesson.course==include.slug" 
+    | first %}
 <div class="row courseListing"> 
     <div class="col-sm-4">
         <img src="/assets/img/{{include.image}}"/>
@@ -6,7 +9,7 @@
         <h3>{{ include.title }}</h3>
         <span class="author">{{ include.author }}</span>
         <span class="summary">{{ include.summary }}</span>
-        <a class="startCourseButton" href="{{ include.link }}">Start Course</a>
+        <a class="startCourseButton" href="{{ startCourseLink.permalink }}">Start Course</a>
     </div>
     <div class="col-sm-2 courseTagContainer">
         <a href="/courses/{{include.tag}}s">
