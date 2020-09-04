@@ -5,7 +5,9 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-
+    .deleteConfirmation {
+        height: 28vh;
+    }
 } 
 
 /* Mobile */
@@ -38,7 +40,15 @@
 	    width: 80vw;
         left: 10vw;
         top: 4rem;
-	}
+    }
+    a.deleteButton {
+        margin: 2em 1.5em;
+    }
+    div#deleteConfirmation {
+        width: 84vw;
+        left: 8vw;
+        top: 4rem;
+    }
 }
 
 

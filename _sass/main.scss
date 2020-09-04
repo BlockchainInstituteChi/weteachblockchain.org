@@ -145,7 +145,7 @@ ul.navbar-nav.ml-auto {
     margin-right: 1em;
 }
 a.nav-link:hover {
-    color: #2fae9f !important;
+    color: #0b9ba4 !important;
 }
 .navbar-brand img {
     padding-left: 1em;
@@ -159,10 +159,10 @@ ul.navbar-nav.flex-row {
     padding-left: 1em;
 }
 nav i {
-    color: #2fae9f;
+    color: #0b9ba4;
 }
 a.nav-link i:hover {
-    color: #0d72aa;
+    color: #00648c;
 }
 li.nav-item.navbox {
     padding-right: 0.5em;
@@ -917,20 +917,23 @@ section.userLoginPrompt {
     display: none;
 }
 .userLoginPrompt .row {
-    border: 1px solid red;
+    border: 1px solid #ed0744;
     padding: 1em;
 }
 .userLoginPrompt a {
-    background: red;
-    padding: 1em;
+    background: #ed0744;
+    padding: 1em 3em;
     text-transform: uppercase;
     color: white !important;
-    font-weight: 500;
+    font-weight: 600;
     float: left;
     margin-top: 1em;
+    font-family: kanit, sans-serif;
+    letter-spacing: .05em;
 }
 .userLoginPrompt h3 {
     text-transform: uppercase;
+    margin-right: 0em;
 }
 .userLoginPrompt span {
     display: block;
@@ -943,13 +946,14 @@ section.userLoginPrompt {
 }
 
 #app a {
-    padding: 0.2em 0.5em 0.2em 0.5em;
+    padding: .08em 1em;
     background: #0b9ba4;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2.25em;
+    font-weight: 500;
+    font-size: 2.5em;
     float: right;
     margin-left: 0.5em;
+    font-family: Kanit, sans-serif;
 }
 
 img.gravatar {

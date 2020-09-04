@@ -294,7 +294,7 @@ a.courseEndButton.moreCourses {
 // CourseProgress
 span.progressDiv {
     display: none;
-    color: green;
+    color: #0Fa54C;
     position: relative;
     float: right;
     top: 0.5em;
@@ -307,7 +307,6 @@ span.progressDiv.display {
 .courseProgress {
     height: calc(100% - 1em);
     width: calc(100% - 1em);
-    background: #808080d9;
     position: absolute;
     top: 0;
     display: none;
@@ -320,10 +319,14 @@ span.progressDiv.display {
     text-align: center;
     position: relative;
     display: block;
-    margin-top: calc(25% - 1em);
-    font-size: 1.5em;
+    font-size: 1.1em;
     color: white;
+    font-family: kanit, sans-serif;
+    text-transform: uppercase;
+    background: #ed0744;
+    padding-top: .25em;
+    padding-bottom: .25em;
 }
 a.startCourseButton.complete {
-    background: green;
+    background: #a30071;
 }

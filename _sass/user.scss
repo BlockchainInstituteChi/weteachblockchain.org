@@ -8,6 +8,7 @@
 }
 section.userProfileHeader {
     overflow-x: hidden;
+    padding-bottom: 2em;
 }
 
 h1 {
@@ -18,9 +19,10 @@ h1 {
 }
 h2 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     color: black;
     letter-spacing: 0.025em;
+    font-size: 1.5em;
 }
 
 ul.userNavigation {
@@ -42,7 +44,7 @@ span.separator {
     min-width: 0;
 }
 .courseList {
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     overflow-x: hidden;
 }
 span#userPubkey {
@@ -53,7 +55,7 @@ span#userPubkey {
 
 /* Course Tiles */
 .courseTile {
-    max-width: 20%;
+    max-width: 25%;
     overflow: hidden;
     display: inline-block;
     padding-right: 1em;
@@ -69,9 +71,10 @@ span#userPubkey {
     text-align: left;
     text-transform: uppercase;
     margin-top: 0.25em;
-    font-size: 1.75em;
+    font-size: 1.2em;
     margin-bottom: 0;
     cursor: pointer;
+    line-height: 1em;
 }
 span.courseAuthor {
     color: $brand-teal;
@@ -80,12 +83,14 @@ span.courseAuthor {
     width: 100%;
     text-align: left;
     display: block;
+    font-size: .75em;
 }
 a.courseCategory {
     background: $brand-green;
     padding: 0.25em 0.5em 0.25em 0.5em;
     color: white !important;
     text-transform: uppercase;
+    font-size: .6em;
 }
 a.courseCategory.developer {
     background: $brand-blue;
@@ -110,8 +115,8 @@ span.noProgressMessage {
 
 /* Delete Functionality */
 a.deleteButton {
-    padding: 0.5em 2em;
-    background: red;
+    padding: .5em 2em;
+    background: #ed0744;
     color: white !important;
     display: block;
     text-align: center;
@@ -121,13 +126,14 @@ a.deleteButton {
     cursor: pointer;
     max-width: 500px;
     margin: auto;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    font-family: kanit, sans-serif;
 }
 .deleteConfirmation {
     position: fixed;
     width: 50vw;
     z-index: 100;
-    height: 50vh;
+    height: 35vh;
     top: 25vh;
     background: white;
     left: 25vw;
@@ -155,15 +161,13 @@ input#confirmDeleteEmail {
     display: block;
     margin: auto;
     border: none;
-    background: red;
+    background: #ed0744;
     color: white;
     font-weight: 500;
     padding: 0.25em 2em;
     margin-bottom: 1em;
 }
 
-
-
-
-
-
+section#courseProgress {
+    margin-bottom: 6em;
+}
