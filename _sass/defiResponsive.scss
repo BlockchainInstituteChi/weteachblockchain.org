@@ -21,7 +21,6 @@
 	    color: black;
 	    font-weight: 300;
 	}
-
 	#map-2 img {
 	    margin-top: 2em;
 	}
@@ -89,10 +88,16 @@
 	}
 	section.upcomingEventsFooter {
 		margin-bottom: 3em;
+    }
+    .defi-explained a {
+        margin: auto;
+        margin-top: 1rem;
+    }
+    section.pageHeaderImage {
+		margin-bottom: 0em;
 	}
-	.cccExplained a {
-		margin: auto;
-		margin-top: 1rem;
+	.defi-explained .col-md-6 {
+		padding-left: .5em;
 	}
 } 
 
@@ -264,11 +269,14 @@ div#carouselExampleControls {
     font-size: 3vw;
     line-height: 2em;
 }
-.cccExplained .col-md-6 {
+
+
+
+.defi-explained .col-md-6 {
     padding-left: 1.5em;
     padding-right: 1.5em;
 }
-.cccExplained h1 {
+.defi-explained h1 {
     margin-bottom: .75em;
     padding: 0 .9em;
 }

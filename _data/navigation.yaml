@@ -47,6 +47,10 @@
     link: /developer-toolkit/
     class: child
 
+  - name: Decentralized Finance
+    link: /decentralized-finance-course/
+    class: child    
+
 - header: Contact
   children:
   - name: About
