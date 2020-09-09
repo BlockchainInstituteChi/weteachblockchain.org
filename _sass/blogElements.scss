@@ -221,15 +221,16 @@ span.blogFilterNotification {
 .card p {
     padding: 0.65rem;
     padding-top: 0;
-    margin-bottom: 0;
+    margin: 0em .25em .5em .25em;
 }
 a.readMoreLink {
     width: 100%;
     text-align: center !important;
 }
 .card a.byAuthor {
-    margin-left: 0.75rem;
-    margin-bottom: 0;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-size: .9em;
 }
 .card {
     border-radius: 0;
@@ -251,21 +252,53 @@ a.authorLink {
     text-transform: uppercase;
 }
 .aboutTheAuthor h3 {
-    margin-top: -0.45rem;
+    margin-top: -0.2rem;
 }
 .aboutTheAuthor .row {
     margin: 0;
     border-top: 1px solid #8080804d;
     padding-top: 2rem;
 }
-.aboutTheAuthor span {
-    color: grey;
-}
+
 a.byAuthor {
     color: #0b9ba4;
-    margin-top: -0.75rem !important;
+    margin-top: -0.25rem !important;
     display: block;
     font-style: italic;
     margin-bottom: 1.5rem;
 }
 
+h1.hasColorTag.red {
+    margin-left: -1.9em;
+}
+.card-columns {
+    margin: 2em .5em 6em;
+}
+.card h1 {
+    margin: .5em .2em;
+    font-size: 1.75em;
+}
+.aboutTheAuthor span {
+    padding: 0;
+    padding-left: 0em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.aboutTheAuthor .row {
+    margin: 0;
+    border-top: 1px solid #8080804d;
+    padding-top: 3rem;
+    max-width: 95%;
+}
+.aboutTheAuthor .col-sm-3 {
+    padding-left: 0em;
+}
+.container.aboutTheAuthor {
+    margin-top: 3em;
+}
+section.blogOverview {
+    margin-bottom: 6em;
+}
