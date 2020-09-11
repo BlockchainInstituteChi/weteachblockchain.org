@@ -239,9 +239,9 @@ a.readMoreLink {
 
 
 // Card hover effect
-.card:hover {
-    margin-top: 0.25rem;
-}
+// .card:hover {
+//     margin-top: 0.25rem;
+// }
 
 // Authors
 img.headshot {
@@ -302,3 +302,14 @@ h1.hasColorTag.red {
 section.blogOverview {
     margin-bottom: 6em;
 }
+
+// Tweaks for 4 columns
+.row .container {
+    max-width: 90%;
+}
+.card-columns {
+    column-count: 4;
+    column-width: 0.25rem;
+    min-height: 100rem;
+}
+
