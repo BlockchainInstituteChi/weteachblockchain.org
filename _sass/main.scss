@@ -251,6 +251,7 @@ li.nav-item.contactUsLink {
     margin: 0;
     padding: 0.5em;
     position: relative;
+    padding-bottom: 0;
 }
 .hoverNavbox.account {
     background: #e6e6e6;
@@ -971,4 +972,10 @@ img#accountImg {
     border: 1px #3cb0a2 solid;
     border-radius: 50%;
     margin-top: -0.1em;
+}
+.account .col-sm-3 {
+    position: relative;
+}
+.account img {
+    position: relative;
 }
