@@ -1,6 +1,6 @@
 
 /* 2️⃣ Initialize Magic Instance */
-const magic = new Magic("pk_test_203D0BB15B42A4C8");
+const magic = new Magic("pk_live_EA466C1563BC5CFF");
 // window.serverUrl = "http://localhost:8888/user"
 window.serverUrl = "https://app.weteachblockchain.org/user"
 
