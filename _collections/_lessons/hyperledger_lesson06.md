@@ -7,8 +7,10 @@ permalink: /courses/hyperledger/2/setting-up-your-developer-environment/
 ---
 <br>
 <br>
-<span class="openingParagraph">
-As you might expect, there are a myriad of ways to setup up a local development environment and configurations can vary widely. We'll help you get started with some basics and hopefully save you some headaches. To start, open up a shell and let's get on with the good stuff! For each dependency listed below, run the command shown to verify that it's installed correctly. If it is not installed, you will need to install binaries from either a package manager or directly.</span>
+<span class="openingParagraph">It's as easy as 1, 2, 3, 4, 5, 6 ... 42... 101... etc.</span>
+Keep in mind, setting up one node is just the beginning. To fully test Hyperledger, you'll want to create an entire local network using Docker. We'll get to that shortly.
+
+As you might expect, there are a myriad of ways to setup up a local development environment and configurations can vary widely. We'll help you get started with some basics and hopefully save you some headaches. To start, open up a shell and let's get on with the good stuff! For each dependency listed below, run the command shown to verify that it's installed correctly. If it is not installed, you will need to install binaries from either a package manager or directly.
 
 {% include callouts/note.html
 	bodyText="These installation instructions are specifically for Mac OS X. Ubuntu installation instructions will be the same, but Homebrew will not be required."

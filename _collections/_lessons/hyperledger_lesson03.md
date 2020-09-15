@@ -7,13 +7,13 @@ permalink: /courses/hyperledger/1/transaction-flow/
 ---
 <br>
 <br>
-<span class="openingParagraph">
-In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.</span>
+<span class="openingParagraph">How are blocks created?</span>
+In order to integrate privacy and permissions into the Hyperledger architecture, there are a few additional features which have been added on top of the Bitcoin design pattern. In the Hyperledger context, clients still propose transactions to the network, but the process for validating these transactions is slightly different.
 
-In a Hyperledger app, a transaction can be required to find multiple endorsements from trusted parties within the system before it can be added to the blockchain. Endorsements can be configured to ensure a minimal risk of fraud within the system. An example of this might be to require a business partner to verify certain details of a transaction before it is written to the public ledger. Once all necessary endorsements have been met, the transaction is passed to an ordering node, which will add it to the chain, or Validated Ledger.
+In a Hyperledger app, a transaction must find multiple endorsements from trusted parties within the system before it can be added to the blockchain. Endorsements can be configured to ensure a minimal risk of fraud within the system. An example of this might be to require a business partner to verify certain details of a transaction before it is written to the public ledger. Once all necessary endorsements have been met, the transaction is passed to an ordering node, which will add it to the chain, or Validated Ledger.
 
 {% include callouts/note.html
-	bodyText='<b>NOTE: </b><em>You can find the full docs <a href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
+	bodyText='<b>NOTE: </b><em>You can find the full docs <a target="_blank" href="https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html">here</a>.</em>'
 %}
 
 <h3>GENERAL TRANSACTION FLOW</h3>
@@ -22,7 +22,7 @@ To initiate a transaction, the client creates a properly formatted proposal via 
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-01.jpg"
-	title="CLIENT INITIATES TRANSACTIONS // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="CLIENT INITIATES TRANSACTIONS // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>Client A;</i> <b>B:</b> <i>SDK;</i> <b>C:</b> <i>Proposal;</i> <b>D:</b> <i>Peers.</i>"
 %}
 
@@ -31,7 +31,7 @@ If an Endorsing Peer receives a transaction with a valid signature from a known 
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-02.jpg"
-	title="ENDORSING PEERS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="ENDORSING PEERS... // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>App;</i> <b>B:</b> <i>Signed Proposal Response;</i> <b>C:</b> <i>Signatures;</i> <b>D:</b> <i>Peers.</i>"
 %}
 
@@ -40,7 +40,7 @@ Proposal Responses are transmitted across the network and inspected by each node
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-03.jpg"
-	title="PROPOSAL RESPONSES ARE INSPECTED // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="PROPOSAL RESPONSES ARE INSPECTED // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>SDK.</i>"
 %}
 
@@ -49,7 +49,7 @@ Once a predetermined minimum endorsements is met, the client software can assemb
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-04.jpg"
-	title="CLIENT ASSEMBLES... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="CLIENT ASSEMBLES... // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>SDK;</i> <b>B:</b> <i>Channels;</i> <b>C:</b> <i>Ordering Service;</i> <b>D:</b> <i>Ordered Transactions.</i>"
 %}
 
@@ -58,7 +58,7 @@ Ordering nodes accomplish consensus through a complex process known as Proof of 
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-05.jpg"
-	title="THE TRANSACTION IS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="THE TRANSACTION IS... // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>Ordering Service;</i> <b>B:</b> <i>Peers;</i> <b>C:</b> <i>Transaction.</i>"
 %}
 
@@ -67,7 +67,7 @@ Once the State Object has been updated, and the Verified Ledger is confirmed by 
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-06.jpg"
-	title="THE LEDGER IS... // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="THE LEDGER IS... // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>Appending Transaction;</i> <b>B:</b> <i>App.</i>"
 %}
 
@@ -75,7 +75,7 @@ The full flow is seen in the figure below:
 
 {% include callouts/imageWithCaption.html
 	image="/courses/private-blockchains/TransactionFlow-07.jpg"
-	title="FULL FLOW // https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html"
+	title="FULL FLOW // <a target='_blank' href='https://hyperledger-fabric.readthedocs.io/en/latest/txflow.html'>Hyperledger Docs</a>"
 	bodyText="<b>A:</b> <i>Collect TRANSACTION-ENDORSED Msgs into a valid endorsement that satisfies endorsementPolicy (chaincodeID) broadcast(endorsement);</i> <b>B:</b> <i>tx=&lt;clientID, chaincodeID, txPayload, timeStamp, clientSig&gt;;</i> <b>C:</b> <i>Simulate/Execute tx Sign TRANSACTION-ENDORSED;</i> <b>D:</b> <i>Verify endorsement, readset if OK, apply writeset to state;</i> <b>E:</b> <i>Ordering service;</i> <b>F:</b> <i>VClient (C);</i> <b>G:</b> <i>Endorsing Peer (EP1);</i> <b>H:</b> <i>Endorsing Peer (EP2);</i> <b>I:</b> <i>Endorsing Peer (EP3);</i> <b>J:</b> <i>Orderers;</i> <b>K:</b> <i>(Committing) Peer (CP1).</i>"
 %}
 

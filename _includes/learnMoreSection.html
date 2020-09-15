@@ -2,6 +2,7 @@
 {% if include.text %}
 
 <h3>Learn More</h3>
+{% if include.image %} <a href="{{ include.link }}"><img src="/assets/img/{{ include.image }}" class="learnMoreImage"></a> {% endif %}
 <p>For more information on this topic please visit <a href="{{ include.link }}">{{ include.text }}</a>.</p>
 
 {% endif %}

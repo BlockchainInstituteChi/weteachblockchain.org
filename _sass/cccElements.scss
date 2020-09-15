@@ -19,13 +19,12 @@ section.container {
 
 /* Jumbotron */
 .tileHeader {
-    background: url(/assets/img/ccc_desktop_banner.jpg);
+    background: url(/assets/img/CCC_videoHeader.jpg);
     background-size: cover;
-    background-position: 50% 50%;
-    min-height: 100vh;
+    background-position: 50%;
 }
 header.jumbotron {
-    min-height: 100vh !important;
+    min-height: 50vh !important;
 }
 .tileHeader button {
     background: #fb443d;
@@ -92,6 +91,9 @@ section.container {
     font-size: 1em;
     color: black;
     font-weight: 300;
+}
+.inPerson h1 {
+    margin-left: -.05em;
 }
 .mapSpace h1 {
     margin-top: 0.2em;
@@ -187,9 +189,8 @@ section.container.bciCallToAction {
 
 /* In Person Section */
 .col-sm-6.leftWhite {
-    background: linear-gradient(to right, white 90%, #ffff0000);
     min-height: calc(100% + 50px);
-    padding: 3em 0em 3em 6em;
+    padding: 3em 0em 0em 6em;
 }
 .inPerson p {
     padding-right: 2em;
@@ -205,22 +206,40 @@ section.container.bciCallToAction {
     margin: unset;
 }
 section.inPerson {
-    padding-top: 0;
-    padding-bottom: 0;
-} 
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: #efefef;
+}
 section.container.bciBannerImage.bciHandImage {
     padding-top: 0;
+}
+
+/*Pink Stripe Section*/
+section.upPinkStripesDivider {
+    margin-top: 0em;
+}
+section.upcomingEventsFooter {
+    margin-bottom: 5.75em;
 }
 
 /* MapSpace */
 .mapSpace h1 {
     margin-top: -0.3em;
 }
+section.container.mapSpace {
+    margin-top: 7em;
+    margin-bottom: 2.5em;
+}
+li {
+    color: #ef444d;
+}
+
+
 
 /*Carousel*/
 .carousel {
     position: relative;
-    margin-top: 10em;
+    margin-top: 6em;
     max-width: 42%;
     margin-bottom: 15em;
 }
@@ -233,7 +252,85 @@ section.container.bciBannerImage.bciHandImage {
     border-width: .05em;
 }
 .carousel-control-prev, .carousel-control-next {
-    width: 5%;
+    width: 2%;
     opacity: 1;
     background-color: #ed0744;
+}
+.inPerson h4 {
+    text-transform: uppercase;
+    font-size: .8vw;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    line-height: .3em;
+    letter-spacing: .05em;
+}
+.carousel-inner {
+    margin-bottom: 1em;
+}
+a.callToActionButton.cccDownloadButton {
+    background: #ed0744;
+    padding: 1em 3em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+
+
+/*Do More*/
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h1 {
+    margin-bottom: 1em;
+    color: white;
+}
+section.doMore {
+    background-color: #006889;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+.doMore img {
+    margin-bottom: .5em;
+}
+
+
+/*Video Playlist*/
+section.cccVideoPlaylist {
+    padding-top: 5.75em;
+    padding-bottom: 6.75em;
+}
+.cccVideoPlaylist .col-sm-6 {
+    min-height: 25em;
+}
+iframe {
+    min-width: 100% !important;
+    height: 100%;
+}
+.cccVideoPlaylist h1 {
+    margin-bottom: .75em;
+}
+.cccVideoPlaylist h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-left: .3em;
+}
+.cccVideoPlaylist span {
+    color: #2fae9f;
+    text-transform: uppercase;
+    display: block;
+    font-size: .8em;
+    line-height: .4em;
+    font-style: italic;
+    padding-left: .6em;
 }

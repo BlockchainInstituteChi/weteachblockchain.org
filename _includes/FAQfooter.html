@@ -1,0 +1,16 @@
+<section class="upcomingEventsFooter hasSectionColorTag red">
+	<h1>Got a Question?</h1>
+	<div class="row">
+		{% assign sorted = site.faq | sample: 4 %}
+		{% for faq in sorted limit: 4 %}
+            <div class="tileItem"> 
+                <a target="_blank" href="{{ faq.permalink }}">
+                    <img src="/assets/img/{{ faq.image }}"/>
+                    <h1>{{ faq.title }}</h1>
+                    <span>{{ faq.author }}</span>
+                </a>
+            </div>
+		{% endfor %}
+	</div>
+
+</section>

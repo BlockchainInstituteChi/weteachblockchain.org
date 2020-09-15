@@ -5,8 +5,8 @@ module: 3
 title: 51% Attack / Network Hijack
 permalink: /courses/blockchain-security/3/51-attack-network-hijack/
 ---
-<br>
-<br>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/O2yVD6KyBQo?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <span class="openingParagraph">As we covered in the previous section, public blockchains depend on a network of nodes to maintain the system and store all of the pertinent data.</span>
 
 In the event that a single actor is able to take control of more than 50% of the nodes, it is possible for them to update the history of the chain with new records. This presents a substantial vulnerability for systems such as Bitcoin, in which there is a large amount of wealth available to anyone who can compromise the network.

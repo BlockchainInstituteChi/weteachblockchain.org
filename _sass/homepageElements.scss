@@ -12,6 +12,9 @@ section {
     width: 100%;
     margin-left: 0.5em;
 }
+section.pageHeaderImage .row {
+    background: none;
+}
 
 
 /* Path Options */
@@ -258,4 +261,10 @@ section.faqList {
     display: block;
     float: left;
     margin-top: 1em;
+}
+
+
+/*HIDE EVENTS*/
+section.events {
+    display: none;
 }

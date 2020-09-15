@@ -14,11 +14,42 @@ ogUrl: https://weteachblockchain.org/
 </script>
 
 {% include pageHeader.html 
-	img="Homepage_Banner.jpg" 
-	header="#WeTeachBlockchain" 
-	text="Blockchain is the <b>future</b> but you can’t wait to learn about it. We are a <span class='no-wrap'>501(c)(3)</span> nonprofit organization dedicated to providing educational resources for you no matter who you are. Start your blockchain journey today with one of our <b>free</b> online or in-person courses." 
-	ctaText="Learn More" 
-	ctaLink="/faq/what-is-blockchain/" 
+	img="CCC_HPheader.jpg" 
+	header="The Crypto Curious Course is now available online!" 
+	text="<ul><li>Learn how to store cryptocurrency securely</li><li>Examine the mechanics behind a cryptocurrency transaction</li><li>Know where to look when something goes wrong</li><li>Explain how cryptocurrency is different than cash</li><li>Understand how blockchain technology may impact YOU!</li></ul>"
+	ctaText="Watch the Course" 
+	ctaLink="/crypto-curious/" 
+%}
+
+
+<section class="faq">
+  <div class="row">
+    <h1 class="redBar">Frequently Asked Questions</h1>
+    <span class="descriptionText">
+      Not ready to start a full course? Get answers to commonly asked questions.
+    </span>
+    <div class="faqThumbnailContainer"> 
+      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+        {% include faqTile.html 
+          image=item.image
+          link=item.permalink
+          title=item.title
+          author=item.author
+        %}
+      {% endfor %}
+    </div>
+    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
+  </div>
+</section>
+
+
+{% include factoid.html  
+  bigNumber="39.7"
+  bigNumberSubtext="BILLION"
+  bigNumberSourceText="SOURCE"
+  bigNumberSourceLink="https://www.marketsandmarkets.com/Market-Reports/blockchain-technology-market-90100890.html#:~:text=%5B253%20Pages%20Report%5D%20The%20global,67.3%25%20during%202020%E2%80%932025."
+  explanationText="The global blockchain market is expected to grow from $3B to $39.7B by 2025."  
 %}
 
 
@@ -49,59 +80,6 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-<section class="events" style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
-  <div class="row">
-      <div class="col-sm-6">
-
-      </div>
-      <div class="col-sm-6 ourEvents">
-        <h1 class="blueBar right">
-          Join an Event
-        </h1>
-        <span class="descriptionText eventDescriptionHP">
-          Want to get involved and meet others that share our vision? 
-        </span>
-        <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
-        <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
-        <div class="eventsContainer">
-          {% assign sorted = site.events | sort: 'date' | reverse %}
-          {% for event in sorted limit:4 %}
-  
-              {% include eventTile.html
-                link=event.permalink 
-                image=event.image 
-                title=event.title 
-                date=event.eventdate
-              %}
-  
-          {% endfor %}
-        </div>
-        <a href="/events/" class="callToActionButton">Attend an Event</a>
-      </div>
-      
-  </div>
-</section>
-
-<section class="faq">
-  <div class="row">
-    <h1 class="redBar">Quick Answers</h1>
-    <span class="descriptionText">
-      Not ready to start a full course? Get answers to commonly asked questions.
-    </span>
-    <div class="faqThumbnailContainer"> 
-      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
-      {% for item in faqSample limit:4 %}
-        {% include faqTile.html 
-          image=item.image
-          link=item.permalink
-          title=item.title
-          author=item.author
-        %}
-      {% endfor %}
-    </div>
-    <a href="/faq/" class="callToActionButton faqCTA">Get the FAQs</a>
-  </div>
-</section>
 
 
 <section class="pathsList">
@@ -138,6 +116,50 @@ ogUrl: https://weteachblockchain.org/
     <a href="/courses/" class="callToActionButton">View All Courses</a>
   </div>
 </section>
+
+
+
+
+
+
+
+
+<section class="events" style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
+  <div class="row">
+      <div class="col-sm-6">
+
+      </div>
+      <div class="col-sm-6 ourEvents">
+        <h1 class="blueBar right">
+          Join an Event
+        </h1>
+        <span class="descriptionText eventDescriptionHP">
+          Want to get involved and meet others that share our vision? 
+        </span>
+        <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
+        <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
+        <div class="eventsContainer">
+          {% assign sorted = site.events | sort: 'date' | reverse %}
+          {% for event in sorted limit:4 %}
+  
+              {% include eventTile.html
+                link=event.permalink 
+                image=event.image 
+                title=event.title 
+                date=event.eventdate
+              %}
+  
+          {% endfor %}
+        </div>
+        <a href="/events/" class="callToActionButton">Attend an Event</a>
+      </div>
+      
+  </div>
+</section>
+
+
+
+
 
 
 <section class="ourMission">

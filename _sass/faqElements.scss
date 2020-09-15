@@ -70,6 +70,7 @@ section .row {
 
 .faqTile.column {
     width: 100%;
+    margin-left: 0em;
 }
 .faqMain h1 {
     margin-top: 0.75em;
@@ -104,6 +105,21 @@ span.faqDate {
     font-family: Roboto;
     line-height: 1.9em;
 }
+.faqBody h2 {
+    color: #003449;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+.faqBody h4 {
+    color: #ec0744;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+.faqBody ul li {
+    font-family: Roboto;
+}
+
 .row {
     margin: auto 6em 6em 6em;
 }
@@ -191,4 +207,9 @@ h1.hasColorTag.red {
     margin-left: 0em !important;
     margin-right: 0em !important;
     max-width: 100% !important;
+}
+
+.learnMoreImage {
+    margin-bottom: .75em;
+    margin-top: .5em;
 }

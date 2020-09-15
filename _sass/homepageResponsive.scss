@@ -61,6 +61,17 @@
 	.faqTile h1 {
 		font-size: 1em;
 	}
+	/*CCC*/
+	section.pageHeaderImage {
+		background-size: inherit !important;
+		background-position: inherit !important;
+	}
+.pageHeaderImage .col-sm-6 {
+    margin-left: 6em;
+    padding-left: .5em;
+    margin-top: 3.5em;
+    padding-right: 5em;
+}
 
 }
 
@@ -75,7 +86,11 @@
 	.pathButtons .col-sm-4 {
 		margin-bottom: 1em;
 	}
-
+	.pageHeaderImage .col-sm-6 {
+		min-width: calc(100vw - 2em);
+		margin: auto 1.5em;
+	}
+	
 	/* Fix for overflow scroll bug */
 	body {
 		overflow-x: hidden;
@@ -203,7 +218,19 @@
     		padding-right: .5em;
 	}
 	
-	
+
+
+
+	/*CCC*/
+	element.style {
+		background-size: cover;
+		background-position: unset;
+	}
+	.pageHeaderImage .col-sm-6 {
+		padding-right: .5em;
+	}
+
+
 
 	/* Hide 'recent courses' section on HP */
 	section.upcomingEventsFooter {
