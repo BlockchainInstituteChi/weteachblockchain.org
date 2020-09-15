@@ -101,7 +101,7 @@ const handleLogin = async e => {
       method: "POST"
     });
     renderMagic();
-    location.reload();
+    window.location.href = "/userProfile.html"
   }
 };
 
