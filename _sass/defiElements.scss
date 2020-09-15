@@ -336,27 +336,27 @@ iframe {
 }
 
 
-/* Explain stuff */
-section.cccExplained {
+/* Defi stuff */
+section.defi-explained {
     background: #efefef;
     padding-top: 5.5em;
     padding-bottom: 5.5em;
 }
-.cccExplained span {
+.defi-explained span {
     color: black;
     font-size: .9em;
     font-weight: 300;
     font-family: Roboto;
     line-height: 1.9em;
 }
-.cccExplained li {
+.defi-explained li {
     color: #ed0744;
     font-size: .9em;
     font-weight: 300;
     font-family: Roboto;
     line-height: 1.9em;
 }
-.cccExplained a {
+.defi-explained a {
     padding: 1rem;
     background: #ed0744;
     color: white;
@@ -371,12 +371,15 @@ section.cccExplained {
     font-weight: 600;
     letter-spacing: 0.05em;
 }
-.cccExplained .col-md-6 {
+.defi-explained .col-md-6 {
     padding-left: .75em;
 }
-.cccExplained h1 {
+.defi-explained h1 {
     margin-bottom: .75em;
 }
-.cccExplained ul {
+.defi-explained ul {
     margin-top: 1em;
+}
+section.pageHeaderImage {
+    margin-bottom: 0;
 }
