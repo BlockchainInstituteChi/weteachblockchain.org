@@ -110,6 +110,8 @@ window.handleLogout = async () => {
   renderMagic();
   toggleDisplayAccountBox();
   toggleAccountImage();
+  window.localStorage.set('didToken', null)
+  window.localStorage.set('userData', null)
   location.reload();
 };
 
