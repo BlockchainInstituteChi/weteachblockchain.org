@@ -7,6 +7,7 @@ window.serverUrl = "https://app-staging.weteachblockchain.org/user"
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
   // console.log('magic render triggered')
+  preLoadUserData()
 
   const isLoggedIn = await magic.user.isLoggedIn();
   /* Show login form if user is not logged in */
@@ -20,6 +21,7 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     const userMetadata = await magic.user.getMetadata();
+    localStorage.setItem('userData', JSON.stringify(userMetadata) );
     setGravatarImageUrl( userMetadata.email )
     handlePageNotification()
 
@@ -41,6 +43,23 @@ const renderMagic = async () => {
   }
 };
 
+function preLoadUserData ( ) {
+
+  if ( window.localStorage.userData ) {
+    var user = JSON.parse(window.localStorage.userData)
+    if ( user.email ) {
+      setGravatarImageUrl( user.email )
+      html = `
+      <h1>Logged in as ${user.email}</h1>
+      <a href="/userProfile.html">My Account</a>
+      <button onclick="window.handleLogout()">Logout</button>
+      <br>`;
+    } else {
+      html = `<h1>Could not preload.</h1>`
+    }
+  }
+
+}
 
 // this function hides a prompt for the user to log in if user data is available
 // some pages do not have messages, but for those that do, they will be hidden
@@ -91,6 +110,8 @@ window.handleLogout = async () => {
   renderMagic();
   toggleDisplayAccountBox();
   toggleAccountImage();
+  window.localStorage.set('didToken', null)
+  window.localStorage.set('userData', null)
   location.reload();
 };
 
@@ -239,8 +260,10 @@ var MD5 = function(d){var r = M(V(Y(X(d),8*d.length)));return r.toLowerCase()};f
 function setGravatarImageUrl ( email ) {
   var gravatarUrl = "https://www.gravatar.com/avatar/" + MD5(email);
   var userImg = document.getElementsByClassName('greyswirl')[0];
-  userImg.className += " gravatar"
-  userImg.src = gravatarUrl
+  if ( userImg ) {
+    userImg.className += " gravatar"
+    userImg.src = gravatarUrl
+  }
 
   // then, hide the icon and replace with avatar
   if ( document.getElementsByClassName('fa-user-circle')[0] ) {
