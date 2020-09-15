@@ -1,13 +1,13 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: From Digital Currency to Cryptocurrency
 permalink: /courses/blockchain-101/01/from-digital-currency-to-cryptocurrency
 ---
 
 <iframe src="https://www.youtube.com/embed/maXfDdUlFZ8?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
+ 
 
 <span class="openingParagraph">All the digital currencies that existed prior to Bitcoin had one feature in common, a central server or authority. While these systems worked, they had a serious drawback that was lamented by many in the digital currency community; they were centralized services. </span>
 

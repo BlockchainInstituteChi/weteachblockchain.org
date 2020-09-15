@@ -26,7 +26,11 @@ collections:
     output: false    
 
   faq:
-    output: true        
+    output: true       
+    
+  blog: 
+    layout: blog
+    output: true
 
 sass:
     load_paths:

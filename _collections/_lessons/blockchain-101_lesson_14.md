@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 3
 title: Blockchain in Action
 permalink: /courses/blockchain-101/03/blockchain-in-action

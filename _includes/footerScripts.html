@@ -2,6 +2,7 @@
 <script>
     const checkUserData = async () => {
         const userMetadata = await magic.user.getMetadata();
+        window.user = userMetadata
         console.log('user:', userMetadata)
     }
     checkUserData();

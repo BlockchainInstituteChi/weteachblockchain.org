@@ -145,7 +145,7 @@ ul.navbar-nav.ml-auto {
     margin-right: 1em;
 }
 a.nav-link:hover {
-    color: #2fae9f !important;
+    color: #0b9ba4 !important;
 }
 .navbar-brand img {
     padding-left: 1em;
@@ -159,10 +159,10 @@ ul.navbar-nav.flex-row {
     padding-left: 1em;
 }
 nav i {
-    color: #2fae9f;
+    color: #0b9ba4;
 }
 a.nav-link i:hover {
-    color: #0d72aa;
+    color: #00648c;
 }
 li.nav-item.navbox {
     padding-right: 0.5em;
@@ -241,18 +241,23 @@ li.nav-item.contactUsLink {
 
 /* Account Hoverbox */
 .account .col-sm-3, .account .col-sm-9 {
-    padding: 0;
     margin: 0;
-    min-height: 40px;
+    min-height: 100%;
+    position: relative;
+    display: block;
+    padding: 0.25em;
 }
 .account .row {
     margin: 0;
     padding: 0.5em;
+    position: relative;
+    padding-bottom: 0;
 }
 .hoverNavbox.account {
     background: #e6e6e6;
     width: 30%;
     padding-bottom: .4em;
+    right: 10.6em;
 }
 .account img {
     width: 2em;
@@ -279,6 +284,7 @@ input.emailInput {
     font-family:  $secondary-font;
     font-style: italic;
     padding-left: 0em;
+    margin-top: 1.5px;
 }
 .account span {
     font-size: 3em;
@@ -303,6 +309,8 @@ input.emailInput {
 img.accountLight {
     left: .55em;
     top: .5em;
+    min-width: calc(100% - 3.5rem);
+    height: auto;
 }
 
 /* Search */
@@ -847,12 +855,12 @@ a.buttonStyle:hover {
 
 
 /* Disable Account */
-li#accountToggle {
-    display: none !important;
-}
-div#accountDropdown {
-    display: none !important;
-}
+// li#accountToggle {
+//     display: none !important;
+// }
+// div#accountDropdown {
+//     display: none !important;
+// }
 
 /* Overrides */
 .uppercase {
@@ -913,7 +921,74 @@ div#accountDropdown {
     color: white;
 }
 
+// login functionality
+section.userLoginPrompt {
+    margin-top: 1em;
+    display: none;
+}
+.userLoginPrompt .row {
+    border: 1px solid #ed0744;
+    padding: 1em;
+}
+.userLoginPrompt a {
+    background: #ed0744;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 600;
+    float: left;
+    margin-top: 1em;
+    font-family: kanit, sans-serif;
+    letter-spacing: .05em;
+}
+.userLoginPrompt h3 {
+    text-transform: uppercase;
+    margin-right: 0em;
+}
+.userLoginPrompt span {
+    display: block;
+    position: relative;
+    width: 100%;
+}
 
+.shown {
+    display: block !important;
+}
+
+#app a {
+    padding: .08em 1em;
+    background: #0b9ba4;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    float: right;
+    margin-left: 0.5em;
+    font-family: Kanit, sans-serif;
+}
+
+img.gravatar {
+    border-radius: 50%;
+    width: auto;
+    display: block !important;
+    position: absolute;
+    top: -0.25rem;
+    left: -0.25rem;
+    max-height: 100%;
+}
+
+img#accountImg {
+    height: 1.25em;
+    border: 1px #3cb0a2 solid;
+    border-radius: 50%;
+    margin-top: -0.1em;
+}
+.account .col-sm-3 {
+    position: relative;
+}
+.account img {
+    position: relative;
+    max-height: 80%;
+}
 /* Factoids */
 section.factoid{
     max-width: 90vw;

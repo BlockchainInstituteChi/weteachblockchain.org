@@ -54,6 +54,8 @@ permalink: /courses/
 	</div>
 </section>
 
+{% include loginToTrackProgress.html %}
+
 <section class="coursesList">
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign courseTypes = site.courses | group_by: 'primaryTag' %}
@@ -73,6 +75,10 @@ permalink: /courses/
 		{% endfor %}
 	{% endfor %}
 </section>
+
+{% include coursesMap.html %}
+
+{% include coursesProgressCalculator.html %}
 
 {% include pinkDivider.html %}
 

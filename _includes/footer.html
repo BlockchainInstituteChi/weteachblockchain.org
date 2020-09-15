@@ -62,7 +62,9 @@
 	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
 
 	function inst_handleMenuClick () { 
-	 setTimeout( function() {	
+	 setTimeout( window.toggleNavBarDisplay, 20);
+	}
+	window.toggleNavBarDisplay = function () {	
 		 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
 		 var indicator1 =  menu.className.includes('show');
 		 var indicator2 =  menu.className.includes('collapsing');
@@ -80,8 +82,7 @@
 		    console.log('menu classname: ', menu.className)
 
 		  } 
-	 }, 20);
-	}
+	 }
 </script> 
 
 {% include footerScripts.html %}

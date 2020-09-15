@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 2
 title: 51% Attacks
 permalink: /courses/blockchain-101/02/51-percent-attacks

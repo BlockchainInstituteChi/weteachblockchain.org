@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 1
 title: The Byzantine Generals Problem
 permalink: /courses/blockchain-101/01/the-byzantine-generals-problem

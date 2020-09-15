@@ -1,0 +1,57 @@
+/* Desktop */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px ) {
+    .deleteConfirmation {
+        height: 28vh;
+    }
+} 
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    section.userProfileHeader {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    h1#userEmail {
+        font-size: 1.25em;
+    }
+    span#userPubkey {
+        font-size: 0.85em;
+    }
+    span.separator {
+        display: none;
+    }
+    .userNavigation li {
+        width: 100%;
+    }
+    .userDetails {
+        min-width: 100vw !important;
+    }
+    .courseTile {
+        min-width: 100%;
+        max-width: unset;
+        padding-right: unset;
+    }
+	div#deleteConfirmation {
+	    width: 80vw;
+        left: 10vw;
+        top: 4rem;
+    }
+    a.deleteButton {
+        margin: 2em 1.5em;
+    }
+    div#deleteConfirmation {
+        width: 84vw;
+        left: 8vw;
+        top: 4rem;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+	
+}

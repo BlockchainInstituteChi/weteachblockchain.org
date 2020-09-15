@@ -1,6 +1,6 @@
 ---
 layout: lesson
-course: blockchain101
+course: blockchain-101
 module: 3
 title: Limitations of Blockchains
 permalink: /courses/blockchain-101/03/limitations-of-blockchains

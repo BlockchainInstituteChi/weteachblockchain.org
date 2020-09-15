@@ -1,0 +1,265 @@
+---
+title: User Profile
+layout: default
+stylesheet: userProfile.css
+ogTitle: Blockchain Institute
+ogDesc: We are a nonprofit organization with the mission of educating the world on all things related to blockchain, cryptocurrency, and decentralized technology. Sign up for an in-person class or take a free online course today!
+ogImage: https://weteachblockchain.org/assets/img/headerBackgroundTile.jpg
+ogUrl: https://weteachblockchain.org/
+---
+
+{% include loginToTrackProgress.html %}
+
+{% include loader.html %}
+
+<section class="userProfileHeader mustLogin">
+    <div class="container row spacer">
+
+    </div>
+    <div class="container row">
+        <h1 id="userEmail"></h1>
+        <span id="userPubkey"></span>
+        <!-- <ul class="userNavigation">
+            <li>Course Progress</li>
+            <span class="separator"></span>
+            <li>Delete Account</li>
+        </ul> -->
+    </div>
+</section>
+
+<section id="courseProgress" class="userDetails mustLogin">
+    <div class="container row">
+        <h2>Active Courses</h2>
+        <div id="activeCourses" class="courseList">
+
+        </div>
+    </div>
+    <div class="container row">
+        <h2>Completed Courses</h2>
+        <div id="completedCourses" class="courseList">
+
+        </div>
+    </div>    
+    <a class="deleteButton" onclick="deleteAccount()">Delete Account</a>
+
+    <div id="deleteConfirmation" class="deleteConfirmation">
+        <h2>Are you sure?</h2>
+        <span>Type your email below to delete your account:</span>
+        <input type="text" id="confirmDeleteEmail">
+        <button onclick="confirmDelete()">DELETE</button>
+        <a onclick="cancelDelete()">Cancel</a>
+    </div>
+
+</section>
+
+<script>
+
+    function deleteAccount ( ) {
+        document.getElementById('confirmDeleteEmail').placeholder = window.user.email
+        document.getElementById('deleteConfirmation').className += " shown"
+    }
+
+    function cancelDelete ( ) {
+        document.getElementById('deleteConfirmation').className = document.getElementById('deleteConfirmation').className.replace('shown', '')
+    }
+
+    async function confirmDelete ( ) {
+        console.log('deleting user with email ', window.user.email)
+
+        if ( window.user.email == document.getElementById('confirmDeleteEmail').value ) {
+
+            try {
+                await fetch(`${window.serverUrl}/deleteAccount`, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' +  window.localStorage.didToken,
+                    },
+                    method: "GET"
+                })
+                .then( handleAuthErrors )
+                .then( response => response.json() )
+                .then((responseJSON) => {
+                    console.log('Delete response:', responseJSON);
+                    if ( responseJSON.success == true ) {
+                        window.handleLogout () 
+                    } else {
+                        alert ('Delete user failed - try again.')
+                    }
+                })
+            } catch (err) {
+                console.log('uncaught exception in update call', err)
+            }
+        } else if ( document.getElementById('confirmDeleteEmail').value == "" ) {
+            alert('You must enter your email to delete your account.')
+        } else {
+            alert('Email does not match your account. Try again.')
+        }     
+    }
+
+    function displayUserData ( ) {
+        // console.log('displayUserData triggered')
+
+        if ( window.userData ) {
+
+            console.log('window userdata is good')
+
+            var divsToShow = document.getElementsByClassName('mustLogin')
+            // console.log('showing divs', divsToShow)
+            do {
+                // console.log('showing', divsToShow[0])
+                divsToShow[0].className = divsToShow[0].className.replace('mustLogin', '')
+            } while ( divsToShow.length != 0 )
+
+            // set the user's email in the header
+            document.getElementById('userEmail').innerText = window.user.email
+            document.getElementById('userPubkey').innerText = window.user.publicAddress
+
+            if ( window.toggleLoader ) window.toggleLoader()
+
+            // console.log( 'window.userdata.length', window.userData.length, ( window.userData.length < 1 ) )
+
+            if ( window.userData.length > 0 ) {
+                // console.log( 'userdata', window.userData )
+                // then display course
+
+                var pp = {
+                        inProgress : false,
+                        complete : false
+                    }
+
+                for ( course of window.userData ) {
+                    // console.log('loading course', course)
+                    var slug = course.tag;
+                    course.progress = getCurrentProgress(course);
+
+                    if ( course.progress < 100 ) {
+                        // console.log('in progresss course')
+                        pp.inProgress = true
+                        displayCourseProgress( course, false )
+                    } else {
+                        // console.log('completed course')
+                        pp.complete = true
+                        displayCourseProgress( course, true )
+                    }
+
+                }
+                // console.log(pp)
+                if ( pp.complete != true ) setNoProgressMessage('completedCourses')
+                if ( pp.inProgress != true ) setNoProgressMessage('activeCourses')
+            } else {
+                console.log( 'window.userData.length', window.userData.length )
+                setNoProgressMessage('completedCourses')
+                setNoProgressMessage('activeCourses')
+            }
+        }
+    }
+
+    function setNoProgressMessage ( div ) {
+        console.log('setting no progress message for ', div)
+        var msg = document.createElement('span')    
+            msg.className = "noProgressMessage"
+
+        if ( div != 'completedCourses' ) {
+            msg.innerHTML = `No courses in progress. Visit <a href="/courses/">our courses portal</a> to get started!`;
+        } else {
+            msg.innerHTML = `No courses completed yet. Visit <a href="/courses/">our courses portal</a> to get started!`;
+        }
+        document.getElementById(div).appendChild(msg)
+    } 
+
+    function displayCourseProgress ( course, isComplete ) {
+        var courseDetails = getCourseDetails(course.tag)
+
+        if ( isComplete ) {
+            var container = document.getElementById('completedCourses')
+        } else {
+            var container = document.getElementById( 'activeCourses' )
+            courseDetails.courseCompletion = 0;
+        }
+
+        var e = document.createElement( 'div' )
+            e.className = "courseTile"
+
+        var img = document.createElement( 'img' )
+            img.src = "/assets/img/" + courseDetails.image
+            img.setAttribute( "onclick","window.open('" + courseDetails.permalink + "')" )
+        
+        var title = document.createElement( 'h1' )
+            title.textContent = courseDetails.course
+            title.setAttribute( "onclick","window.open('" + courseDetails.permalink + "')" )
+
+        var author = document.createElement( 'span' )
+            author.className = "courseAuthor"
+            author.innerText = courseDetails.author
+
+        e.appendChild( img )
+        e.appendChild( title )
+        e.appendChild( author )
+
+        var tag = document.createElement( 'a' )
+            tag.className = "courseCategory " + courseDetails.tag
+            tag.innerText = courseDetails.tag
+            tag.target = "_blank"
+            tag.href = "/courses/" + courseDetails.tag + "s/"
+
+        e.appendChild( tag )
+
+        container.appendChild( e )
+
+    }
+
+    function getCurrentProgress ( courseCompletion ) {
+		if ( courseCompletion.pages.includes( 'course-directory' ) ) {
+			var totalPages = (courseCompletion.pages.length - 1)
+		} else {
+			var totalPages = courseCompletion.pages.length
+		}
+
+        // console.log('calculating % progress for ', courseCompletion, 'dividing', totalPages, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
+        return Math.round( totalPages / courseCompletion.totalLessons * 100)
+    }
+
+    function getCourseDetails ( slug ) {
+        for ( course of window.coursesMap ) {
+            if ( course.slug === slug ) {
+                return course
+            }
+        }
+        return null;
+    }
+
+	// this function displays a check mark next to completed lessons
+	function displayCourseCompletion ( course ) {
+
+        // console.log('displaying progress for course', slug, progress)
+        var slug = course.tag;
+        var progress = getCurrentProgress(course);
+
+        if ( progress < 100 ) {
+
+            document.getElementById( 'progress_' + slug ).className += " display"
+            document.getElementById( 'progress_' + slug + '_number').innerHTML = progress + "% Complete"
+
+        } else if ( progress === 100 ) {
+
+            document.getElementById( 'progress_' + slug ).className += " display"
+            document.getElementById( 'progress_' + slug + '_number').innerHTML = "Complete!"
+
+        }
+
+    }
+
+    function getCurrentProgress ( courseCompletion ) {
+        if ( courseCompletion.pages.includes('course-directory') ) {
+            var totalPages = (courseCompletion.pages.length - 1)
+        } else {
+            var totalPages = courseCompletion.pages.length
+        }
+
+        // console.log('calculating % progress for ', courseCompletion, 'dividing', totalPages, 'by', courseCompletion.totalLessons, 'and got', courseCompletion.pages.length / courseCompletion.totalLessons * 100)
+        return Math.round( totalPages / courseCompletion.totalLessons * 100)
+    }    
+
+</script>
+
+{% include coursesMap.html %}
