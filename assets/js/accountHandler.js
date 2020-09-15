@@ -2,7 +2,7 @@
 /* 2️⃣ Initialize Magic Instance */
 const magic = new Magic("pk_test_203D0BB15B42A4C8");
 // window.serverUrl = "http://localhost:8888/user"
-window.serverUrl = "https://app-staging.weteachblockchain.org/user"
+window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
