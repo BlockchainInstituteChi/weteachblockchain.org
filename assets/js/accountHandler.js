@@ -71,18 +71,20 @@ function preLoadUserData ( ) {
 // }
 function showUserLoginPrompt ( ) {
   console.log ( 'please log in to track progress' )
+  if ( !window.localStorage.stopBotheringMe ) {
+    for ( div of document.getElementsByClassName('userLoginPrompt') ) {
+      if ( !div.className.includes('shown') ) {
+        console.log('showing user login prompt')
+        div.className += ' shown';
   
-  for ( div of document.getElementsByClassName('userLoginPrompt') ) {
-    if ( !div.className.includes('shown') ) {
-      console.log('showing user login prompt')
-      div.className += ' shown';
-
-      // the line below hides the loader when the login box has been displayed
-      if ( window.toggleLoader ) window.toggleLoader()
-
-    } else {
-      console.log('already showing user login prompt')
+        // the line below hides the loader when the login box has been displayed
+        if ( window.toggleLoader ) window.toggleLoader()
+  
+      } else {
+        console.log('already showing user login prompt')
+      }
     }
+
   }
 }
 
@@ -283,4 +285,18 @@ function setGravatarImageUrl ( email ) {
 
   }
 
+}
+
+if ( !document.referrer.includes('weteachblockchain.org') ) {
+  window.localStorage.removeItem('stopBotheringMe')
+}
+
+function stopBotheringMe ( ) {
+  window.localStorage.setItem('stopBotheringMe', 'true')
+  for ( div of document.getElementsByClassName('userLoginPrompt') ) {
+    div.remove()
+  }
+  if ( window.location.href.includes( 'userProfile' ) ) {
+    window.location.href = "/"
+  }
 }
