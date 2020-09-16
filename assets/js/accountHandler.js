@@ -296,4 +296,7 @@ function stopBotheringMe ( ) {
   for ( div of document.getElementsByClassName('userLoginPrompt') ) {
     div.remove()
   }
+  if ( window.location.href.includes( 'userProfile' ) ) {
+    window.location.href = "/"
+  }
 }
