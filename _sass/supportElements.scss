@@ -1,0 +1,37 @@
+.row {
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+.supportOption h3 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.supportOption span {
+    color: black;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 1rem;
+}
+.supportOption a {
+    display: block;
+    color: white !important;
+    background: red;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.supportOption a.nav-link.px-2 {
+    background: none;
+    color: red !important;
+    font-size: 1.5rem;
+    margin-left: -0.5rem;
+}
+a.inline {
+    color: #149ba4 !important;
+    background: none;
+    text-transform: capitalize;
+    padding: 0;
+
+}
