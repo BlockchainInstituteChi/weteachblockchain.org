@@ -249,7 +249,7 @@ li.nav-item.contactUsLink {
 }
 .account .row {
     margin: 0;
-    padding: 0.5em;
+    padding: 0.35em;
     position: relative;
     padding-bottom: 0;
 }
@@ -292,7 +292,7 @@ input.emailInput {
     color: black;
     display: block;
     width: 110%;
-    margin-left: -1.4em;
+    margin-left: -1.75em;
     text-align: left;
 }
 .account button {
@@ -969,7 +969,7 @@ section.userLoginPrompt {
 img.gravatar {
     border-radius: 50%;
     width: auto;
-    display: block !important;
+    display: block;
     position: absolute;
     top: -0.25rem;
     left: -0.25rem;
