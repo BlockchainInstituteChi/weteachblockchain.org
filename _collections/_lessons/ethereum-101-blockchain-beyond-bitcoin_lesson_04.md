@@ -7,11 +7,11 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/
 ---
 <br>
 <br>
-<span class="openingParagraph">Anyone can write code that runs on the EVM</span>
+<span class="openingParagraph">Anyone can write code that runs on the World Computer</span>
 One of the main benefits of the Ethereum blockchain is the addition of Smart Contracts. These allow code to be submitted to the State Transition, and to have their output added to the ledger. Contracts and accounts are identical during execution within the EVM, so a peer-to-peer payment is treated just like any other computation. In the Ethereum world, every action that can be registered can be encoded in software, and the entire network is able to compute the outcome simultaneously.
 
 {% include callouts/note.html 
-	bodyText="The Ethereum Virtual Machine executes code called <b>Smart Contracts</b>. When a contract is invoked by paying a fee, the network adds the related state changes to a new transaction, and the system propagates the update."
+	bodyText="The <b>Ethereum Virtual Machine</b> executes code called <b>Smart Contracts</b>. When a contract is invoked by paying a fee, the network adds the related state changes to a new transaction, and the system propagates the update."
 %}
 
 {% include callouts/imageWithCaption.html
