@@ -37,5 +37,4 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <br>
 
-Decentralized networks open many possibilities for users of the internet. In the next lesson, we'll explore the issues with centralized servers and the benefits that peer-to-peer networks can offer.
-</span>
+<span>Decentralized networks open many possibilities for users of the internet. In the next lesson, we'll explore the issues with centralized servers and the benefits that peer-to-peer networks can offer.</span>
