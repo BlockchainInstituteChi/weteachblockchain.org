@@ -1,6 +1,6 @@
 ---
 title: Limitations of Blockchains
-image: large-Limitations.jpg
+image: Limitations.jpg
 permalink: /faq/limitations-of-blockchains.md/
 layout: faq
 tag: CONCEPTS
