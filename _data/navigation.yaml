@@ -64,4 +64,8 @@
   - name: Press
     link: /press-releases/
     class: normal     
-   
+
+  - name: Support Us
+    link: /support-us/
+    class: normal     
+     
