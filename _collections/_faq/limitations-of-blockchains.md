@@ -1,7 +1,7 @@
 ---
 title: Limitations of Blockchains
 image: Limitations.jpg
-permalink: /faq/limitations-of-blockchains.md/
+permalink: /faq/limitations-of-blockchains/
 layout: faq
 tag: CONCEPTS
 focus keyword: blockchain limitations
