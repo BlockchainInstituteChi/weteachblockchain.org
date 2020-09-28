@@ -98,6 +98,10 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+	a.callToActionButton.cccDownloadButton {
+		width: 100%;
+		margin-bottom: 0.1rem;
+	}
 	.nav-link.donateNow {
 	    margin-right: 0.5em;
 	}
