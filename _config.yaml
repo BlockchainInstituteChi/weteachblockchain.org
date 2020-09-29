@@ -42,6 +42,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude :
+ - node_modules/      
       
 plugins:
   - jekyll-seo-tag
