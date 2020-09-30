@@ -30,22 +30,29 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/magic-sdk@0.1.0-beta.14/dist/magic.js"></script> -->
-    <!-- <script>
+    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+    <script>
       unsetLazyImg()
 
       function unsetLazyImg ( ) {
+        console.log('runningunsetlazyimg')
           var imgs = document.getElementsByTagName('img')
+          console.log('imgs', imgs, imgs[0], imgs.length)
           for ( img of imgs ) {
-              // console.log('hiding image', img.src)
-              // the following line can be enabled to prevent lazyloading of a specific class of images
-              // if ( !img.className.includes('headerImage') ) {
-                img.dataSrc = img.src
-                img.src = ""
-              // }
+              console.log('hiding image', img.src)
+              img.setAttribute('data-src', img.src)
+              img.className += " lazy"
+              img.src = ""
           }
+          var lazyLoadInstance = new LazyLoad({
+            // Your custom settings go here
+          });
+          lazyLoadInstance.update()
       }
 
-    </script> -->
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js"></script>
     <script src="/assets/js/accountHandler.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
