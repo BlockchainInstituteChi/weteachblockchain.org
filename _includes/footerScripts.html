@@ -17,3 +17,26 @@ crossorigin="anonymous" async></script>
 <script src="/assets/js/search.js" type="text/javascript" async></script>
 <script src="/assets/js/nav.js" type="text/javascript" async></script>
 <link rel=preload id='fontawesome-css'  href="{{' /node_modules/@fortawesome/fontawesome-free/css/all.css' | prepend: site.baseurl}}">
+
+<script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+<script>
+  unsetLazyImg()
+
+  function unsetLazyImg ( ) {
+    console.log('runningunsetlazyimg')
+      var imgs = document.getElementsByTagName('img')
+      console.log('imgs', imgs, imgs[0], imgs.length)
+      for ( img of imgs ) {
+          console.log('hiding image', img.src)
+          img.setAttribute('data-src', img.src)
+          img.className += " lazy"
+          img.src = ""
+      }
+      var lazyLoadInstance = new LazyLoad({
+        // Your custom settings go here
+      });
+      lazyLoadInstance.update()
+  }
+
+</script>
