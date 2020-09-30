@@ -26,13 +26,6 @@
   {% else %}
     <link rel="stylesheet" href="/assets/css/styles.css">
   {% endif %}
-    <!-- <script src="https://script.crazyegg.com/pages/scripts/0073/9552.js" async="async"></script> -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/magic-sdk@0.1.0-beta.14/dist/magic.js"></script> -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js"></script>
-    <script src="/assets/js/accountHandler.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -42,7 +35,7 @@
       gtag('config', 'UA-121231750-2');
     </script>
       <!-- Facebook Pixel Code -->
-    <script>
+    <!-- <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -53,20 +46,20 @@
       'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '972018369806633');
       fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
+    </script> -->
+    <!-- <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=972018369806633&ev=PageView&noscript=1"
-    /></noscript>
+    /></noscript> -->
     <!-- End Facebook Pixel Code -->
 
     <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
-    <script>
+    <!-- <script>
       function restoreSkippedContent() {
         var hidden = document.querySelector('.onScrollHide');
         hidden.classList.add('unhide');
 
       };
-    </script>
+    </script> -->
     <style>
       .onScrollHide {
         display: none;
@@ -75,6 +68,6 @@
         display: unset !important;
       }
     </style>
-    <script src="/assets/js/nav.js" type="text/javascript"></script>
-    <script src="/assets/js/mobileHandlers.js" type="text/javascript"></script>
+    <script src="/assets/js/nav.js" type="text/javascript" async></script>
+    <script src="/assets/js/mobileHandlers.js" type="text/javascript" async></script>
     

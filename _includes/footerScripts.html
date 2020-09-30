@@ -1,16 +1,32 @@
-<!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
-<script>
-    const checkUserData = async () => {
-        const userMetadata = await magic.user.getMetadata();
-        window.user = userMetadata
-        console.log('user:', userMetadata)
+
+<!-- 1. Install Magic SDK -->
+<script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js" async defer></script>
+<script src="/assets/js/accountHandler.js" async defer></script>
+<script async defer>
+    
+    for ( let i = 0; i < 10; i++ ) {
+        setTimeout(makeMagicHappen, i*500)
     }
-    checkUserData();
+
+    function makeMagicHappen ( ) {
+        if ( typeof(magic) != "undefined" ) {
+            if ( !window.magicLoaded ) {
+                window.magicLoaded = true
+                renderMagic ();
+                const checkUserData = async () => {
+                    const userMetadata = await magic.user.getMetadata();
+                    window.user = userMetadata
+                    console.log('user:', userMetadata)
+                }
+                checkUserData();
+            }
+        } 
+    }
 </script>
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous" async></script>
+crossorigin="anonymous" async defer></script>
 <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}" async></script>
 <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}" async></script>
 <script src="https://unpkg.com/lunr/lunr.js" async></script>
@@ -24,11 +40,11 @@ crossorigin="anonymous" async></script>
   unsetLazyImg()
 
   function unsetLazyImg ( ) {
-    console.log('runningunsetlazyimg')
+    // console.log('runningunsetlazyimg')
       var imgs = document.getElementsByTagName('img')
-      console.log('imgs', imgs, imgs[0], imgs.length)
+    //   console.log('imgs', imgs, imgs[0], imgs.length)
       for ( img of imgs ) {
-          console.log('hiding image', img.src)
+        //   console.log('hiding image', img.src)
           img.setAttribute('data-src', img.src)
           img.className += " lazy"
           img.src = ""
