@@ -56,6 +56,7 @@ crossorigin="anonymous" async defer></script>
     //   console.log('imgs', imgs, imgs[0], imgs.length)
       for ( img of imgs ) {
         //   console.log('hiding image', img.src)
+        if ( !img.className.includes('navbar-brand') )
           img.setAttribute('data-src', img.src)
           img.className += " lazy"
           img.src = ""
