@@ -5,14 +5,14 @@ function initSearch () {
 
     $.getJSON('/map.json', function(data){
 
-        console.log('got map data', data)
+        // console.log('got map data', data)
 
         window.searchData = data;
        
         for ( let i = 0; i < 10; i++ ) {
             setTimeout(
                 function () { 
-                    console.log('lunr' + i)
+                    // console.log('lunr' + i)
                     return setSearchIndex (data) 
                 },
                 i*500
@@ -32,9 +32,9 @@ function initSearch () {
 }
 
 function setSearchIndex ( data ) {
-    console.log('setSearchIndex ran', data)
+    // console.log('setSearchIndex ran', data)
     if ( lunr ) {
-        console.log('lunr is set')
+        // console.log('lunr is set')
         window.searchIndex = lunr(function () {
             // console.log('initializing lunr')
 
