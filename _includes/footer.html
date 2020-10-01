@@ -65,6 +65,9 @@
 	 setTimeout( window.toggleNavBarDisplay, 20);
 	}
 	window.toggleNavBarDisplay = function () {	
+
+		console.log('toggleNavBarDisplay ran', magic)
+		makeMagicHappen()
 		 var menu = document.getElementsByClassName('navbar-collapse')[0]; 
 		 var indicator1 =  menu.className.includes('show');
 		 var indicator2 =  menu.className.includes('collapsing');
