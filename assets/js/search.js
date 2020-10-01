@@ -8,7 +8,33 @@ function initSearch () {
         console.log('got map data', data)
 
         window.searchData = data;
+       
+        for ( let i = 0; i < 10; i++ ) {
+            setTimeout(
+                function () { 
+                    console.log('lunr' + i)
+                    return setSearchIndex (data) 
+                },
+                i*500
+            )
+        }
+        
+    })
+    .done(function(result) {
+        // console.log( "second success", result );
+      })
+    .fail(function(error) {
+        // console.log( "error", error );
+    })
+    .always(function() {
+        // console.log( "complete" );
+    });
+}
 
+function setSearchIndex ( data ) {
+    console.log('setSearchIndex ran', data)
+    if ( lunr ) {
+        console.log('lunr is set')
         window.searchIndex = lunr(function () {
             // console.log('initializing lunr')
 
@@ -29,7 +55,7 @@ function initSearch () {
                 doc.id = 'courses-' + y
                 this.add(doc)
                 y++
-              }, this)
+            }, this)
 
             z = 0;
             data.lessons.forEach(function (doc) {
@@ -37,36 +63,26 @@ function initSearch () {
                 this.add(doc)
                 z++
             }, this)
-  
+
             x = 0
             data.modules.forEach(function (doc) {
                 doc.id = 'modules-' + x
                 this.add(doc)
                 x++
-              }, this)
+            }, this)
 
             r = 0
             data.events.forEach(function (doc) {
                 doc.id = 'events-' + r
                 this.add(doc)
                 r++
-              }, this)
-         
-  
-          })
+            }, this)
+        
 
-    })
-    .done(function(result) {
-        // console.log( "second success", result );
-      })
-    .fail(function(error) {
-        // console.log( "error", error );
-    })
-    .always(function() {
-        // console.log( "complete" );
-    });
+        })
+    }
+
 }
-
 
 function toggleDisplaySearchLightbox () {
 
@@ -79,12 +95,20 @@ function toggleDisplaySearchLightbox () {
 
         closeOtherLightboxBeforeOpening () 
         showLightboxShadow()
+        addLunr()
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className.split('d-none').join('')
 
     } else {
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className + ' d-none'
     }
      
+}
+
+function addLunr () {
+    console.log('adding Lunr')
+    var lunr = document.createElement('script')
+        lunr.src = "https://unpkg.com/lunr/lunr.js"
+    document.head.appendChild(lunr)    
 }
 
 function displayNoResultsMessage ( searchContainer, searchTerm ) {
