@@ -15,7 +15,7 @@ sticky: true
 <span>Our physical and digital worlds are becoming more and more intertwined. The wide availability of fast internet for devices that can fit in our pocket has opened a world of possibilities. Previously <a href="/faq/decentralized-computing/" target="_blank">computers were confined to one place.</a>, usually the home or office. Mobile technology’s rapid advancement allows internet access from almost anywhere.</span>
 
 {% include callouts/note.html
-	bodyText='<b>Physicist Michio Kaku points out</b>, “Today, your cell phone has more computer power than all of NASA back in 1969 when it placed two astronauts on the moon.”'
+	bodyText='“Today, your cell phone has more computer power than all of NASA back in 1969 when it placed two astronauts on the moon.” - Physicist Michio Kaku'
 %}
 
 <span>Increasing digitization integrated with our physical world has been enabled by such advancement. From GPS navigation apps to augmented reality, there has been a steady shift towards incorporating digital technology into our daily lives. QR codes’ increasing popularity is a perfect example.</span>
