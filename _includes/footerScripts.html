@@ -55,11 +55,12 @@ crossorigin="anonymous" async defer></script>
       var imgs = document.getElementsByTagName('img')
     //   console.log('imgs', imgs, imgs[0], imgs.length)
       for ( img of imgs ) {
-        //   console.log('hiding image', img.src)
-        if ( !img.className.includes('navbar-brand') )
+          console.log('hiding image', img.src)
+        if ( !img.className.includes('navbarBrand') ) {
           img.setAttribute('data-src', img.src)
           img.className += " lazy"
           img.src = ""
+        }
       }
       var lazyLoadInstance = new LazyLoad({
         // Your custom settings go here
