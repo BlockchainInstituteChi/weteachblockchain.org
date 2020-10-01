@@ -1,7 +1,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% seo %}
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" onload="this.rel='stylesheet'" rel="preload" as="style" >
     <meta name="og:title" content="{{ page.ogTitle }}">
     <meta name="og:description" content="{{ page.ogDesc }}">
     <meta name="og:image" content="{{ page.ogImage }}">
@@ -19,12 +19,15 @@
     <meta name="twitter:image" content="{{ page.ogImage }}">
     <meta name="twitter:creator" content="@bchaininstitute">
     {% include icons.html %}
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
-    <link rel=stylesheet id=olympus-google-fonts-css  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100i%2C300i%2C400i%2C500i%2C700i%2C900i%7CKanit%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=cyrillic%2Cvietnamese%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Clatin%2Clatin-ext%2Cthai&#038;display=swap&#038;ver=1.9.7' type=text/css media=all>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" onload="this.rel='stylesheet'" rel="preload" as="style" >
+    <link onload="this.rel='stylesheet'" rel="preload" as="style"  id=olympus-google-fonts-css  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C300%2C400%2C500%2C700%2C900%2C100i%2C300i%2C400i%2C500i%2C700i%2C900i%7CKanit%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=cyrillic%2Cvietnamese%2Ccyrillic-ext%2Cgreek-ext%2Cgreek%2Clatin%2Clatin-ext%2Cthai&#038;display=swap&#038;ver=1.9.7' type=text/css media=all>
+  
+    {% include pageHeaderStyle.html %}
+
   {% if page.stylesheet %}
-    <link rel=stylesheet href="/assets/css/{{ page.stylesheet }}">
+    <link onload="this.rel='stylesheet'" rel="preload" as="style" href="/assets/css/{{ page.stylesheet }}">
   {% else %}
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link onload="this.rel='stylesheet'" rel="preload" as="style"  href="/assets/css/styles.css">
   {% endif %}
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121231750-2"></script>
     <script>

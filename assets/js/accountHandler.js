@@ -1,12 +1,18 @@
-
-/* 2️⃣ Initialize Magic Instance */
-const magic = new Magic("pk_live_EA466C1563BC5CFF");
+// var magic = {};
+// /* 2️⃣ Initialize Magic Instance */
+// for ( let i = 0; i < 10; i++ ) {
+//   setTimeout(function() {
+//     if ( Magic ) {
+//       magic = new Magic("pk_live_EA466C1563BC5CFF");
+//     }
+//   }, i*500)
+// }
 // window.serverUrl = "http://localhost:8888/user"
 window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
-  // console.log('magic render triggered')
+  console.log('magic render triggered')
   preLoadUserData()
 
   const isLoggedIn = await magic.user.isLoggedIn();
@@ -34,6 +40,7 @@ const renderMagic = async () => {
   } else {
     showUserLoginPrompt()
   }
+  console.log('html', html)
   if ( window.innerWidth > 992 ) {
     console.log('displaying desktop login')
     document.getElementById("app").innerHTML = html;
