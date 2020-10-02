@@ -12,7 +12,7 @@ weight: 3
 sticky: true
 ---
 <h2>Incorporating The Physical Into Digital Life</h2>
-<span>Our physical and digital worlds are becoming more and more intertwined. The wide availability of fast internet for devices that can fit in our pocket has opened a world of possibilities. Previously <a href="/faq/decentralized-computing/" target="_blank">computers were confined to one place.</a>, usually the home or office. Mobile technology’s rapid advancement allows internet access from almost anywhere.</span>
+<span>Our physical and digital worlds are becoming more and more intertwined. The wide availability of fast internet for devices that can fit in our pockets has opened a world of possibilities. Previously <a href="/faq/decentralized-computing/" target="_blank">computers were confined to one place</a>, usually the home or office. Mobile technology’s rapid advancement allows internet access from almost anywhere.</span>
 
 {% include callouts/note.html
 	bodyText='“Today, your cell phone has more computer power than all of NASA back in 1969 when it placed two astronauts on the moon.” - Physicist Michio Kaku'
@@ -30,7 +30,7 @@ sticky: true
 
 <span>These QR codes are so common that most phones come with QR code detection via a camera. If your phone’s camera does not already have that feature, there are many specific QR code detection apps available. Simply center the QR code on your camera, and your web browser will automatically take you to the QR code’s associated link.</span>
 
-<span>QR codes have proven to be better than traditional barcodes, as they can store and present a lot of information. This could be something as simple as a URL link and or as complex as GPS coordinates. Our mobile internet’s advancement allows us to do more things while we’re away from our computers. QR codes allow these mobile devices to process more complex data.</span>
+<span>QR codes have proven to be better than traditional barcodes, as they can store and present a lot of information. This could be something as simple as a URL link or as complex as GPS coordinates. Our mobile internet’s advancement allows us to do more things while we’re away from our computers. QR codes allow these mobile devices to process more complex data.</span>
 
 <h2>How Do QR Codes Relate To Blockchains?</h2>
 <span>QR codes play an important role in the <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a> ecosystem. These codes essentially simplify a large string of data. 
