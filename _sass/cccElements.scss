@@ -276,9 +276,10 @@ a.callToActionButton.cccDownloadButton {
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
-    width: calc(50% - 0.25rem);
+    width: 100%;
     display: inline-block;
-    margin-left: 0.125rem;
+    margin-left: 0em;
+    margin-bottom: .5em;
 }
 
 
