@@ -31,6 +31,9 @@ collections:
   blog: 
     layout: blog
     output: true
+        
+  factoid: 
+    output: false
 
 sass:
     style: compressed
