@@ -42,15 +42,14 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-{% for thisFactoid in site.factoids %}
-  {% include factoid.html  
-    bigNumber=thisFactoid.bigNumber
-    bigNumberSubtext=thisFactoid.bigNumberSubtext
-    bigNumberSourceText=thisFactoid.bigNumberSourceText
-    bigNumberSourceLink=thisFactoid.bigNumberSourceLink
-    explanationText=thisFactoid.explanationText  
-  %}
-{% endfor %}
+{% assign thisFactoid = site.factoids | page: "homepage" | sample: 1 %}
+{% include factoid.html  
+  bigNumber=thisFactoid.bigNumber
+  bigNumberSubtext=thisFactoid.bigNumberSubtext
+  bigNumberSourceText=thisFactoid.bigNumberSourceText
+  bigNumberSourceLink=thisFactoid.bigNumberSourceLink
+  explanationText=thisFactoid.explanationText  
+%}
 
 <section class="onlineCourses blueDivider">
   <div class="row">

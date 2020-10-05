@@ -5,4 +5,5 @@ bigNumberSubtext: Wallets
 bigNumberSourceText: SOURCE
 bigNumberSourceLink: #
 explanationText: A Bitcoin wallet is created whenever a new user joins the network. On average, 200 a day!
+page: homepage
 ---
