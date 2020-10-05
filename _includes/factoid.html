@@ -1,13 +1,15 @@
+{% assign thisFactoid = site.factoids | page: {{include.page}} | sample: 1 %}
+
 <section class="factoid"> 
     <div class="row">
         <span class="didYouKnow">DID YOU KNOW?</span>
         <div class="col-sm-5 mainFocus">
-            <h1>{{ include.bigNumber }}</h1>
-            <span>{{ include.bigNumberSubtext }}</span>
+            <h1>{{ thisFactoid.bigNumber }}</h1>
+            <span>{{ thisFactoid.bigNumberSubtext }}</span>
         </div>
         <div class="col-sm-7 explanation">
-            <span>{{ include.explanationText }}</span>
-            <a href="{{ include.bigNumberSourceLink }}">{{ include.bigNumberSourceText }}</a>
+            <span>{{ thisFactoid.explanationText }}</span>
+            <a href="{{ thisFactoid.bigNumberSourceLink }}">{{ thisFactoid.bigNumberSourceText }}</a>
         </div>
     </div>
 </section>
