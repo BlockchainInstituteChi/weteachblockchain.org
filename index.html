@@ -42,14 +42,7 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-{% assign thisFactoid = site.factoids | page: "homepage" | sample: 1 %}
-{% include factoid.html  
-  bigNumber=thisFactoid.bigNumber
-  bigNumberSubtext=thisFactoid.bigNumberSubtext
-  bigNumberSourceText=thisFactoid.bigNumberSourceText
-  bigNumberSourceLink=thisFactoid.bigNumberSourceLink
-  explanationText=thisFactoid.explanationText  
-%}
+{% include factoid.html page="homepage" %}
 
 <section class="onlineCourses blueDivider">
   <div class="row">
