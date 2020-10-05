@@ -14,7 +14,8 @@ ogUrl: https://weteachblockchain.org/
 </script>
 
 {% include pageHeader.html 
-	img="CCC_HPheader.jpg" 
+  img="CCC_HPheader.jpg" 
+  imgSm="CCC_HPheader_sm.jpg" 
 	header="The Crypto Curious Course is now available online!" 
 	text="<ul><li>Learn how to store cryptocurrency securely</li><li>Examine the mechanics behind a cryptocurrency transaction</li><li>Know where to look when something goes wrong</li><li>Explain how cryptocurrency is different than cash</li><li>Understand how blockchain technology may impact YOU!</li></ul>"
 	ctaText="Watch the Course" 
@@ -44,14 +45,16 @@ ogUrl: https://weteachblockchain.org/
 </section>
 
 
+{% assign thisFactoid = site.factoids | sample: 1 %}
+{{ site.thisFactoid }}
+{{ site.factoids }}
 {% include factoid.html  
-  bigNumber="39.7"
-  bigNumberSubtext="BILLION"
-  bigNumberSourceText="SOURCE"
-  bigNumberSourceLink="https://www.marketsandmarkets.com/Market-Reports/blockchain-technology-market-90100890.html#:~:text=%5B253%20Pages%20Report%5D%20The%20global,67.3%25%20during%202020%E2%80%932025."
-  explanationText="The global blockchain market is expected to grow from $3B to $39.7B by 2025."  
+  bigNumber=thisFactoid.bigNumber
+  bigNumberSubtext=thisFactoid.bigNumberSubtext
+  bigNumberSourceText=thisFactoid.bigNumberSourceText
+  bigNumberSourceLink=thisFactoid.bigNumberSourceLink
+  explanationText=thisFactoid.explanationText  
 %}
-
 
 <section class="onlineCourses blueDivider">
   <div class="row">

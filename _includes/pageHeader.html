@@ -1,4 +1,35 @@
-<section class="pageHeaderImage" style="background:url(/assets/img/{{include.img}});background-size:cover;background-position:center;">
+<section class="pageHeaderImage">
+    {% if include.img %}
+        <style>
+            .pageHeaderImage {
+                background: url(/assets/img/{{include.img}}) !important;
+                background-size: cover;
+            }
+        </style>
+    {% endif %}
+    {% if include.imgMd %}
+        <style>
+            /* Bootstrap Tablet Trigger */ 
+            @media screen and (max-width: 992px) {
+                .pageHeaderImage {
+                    background: url(/assets/img/{{include.imgMd}}) !important;
+                    background-size: cover;
+                }
+            }
+        </style>
+    {% endif %}
+    {% if include.imgSm %}
+        <style>
+            /* Bootstrap Tablet Trigger */ 
+            @media screen and (max-width: 600px) {
+                .pageHeaderImage {
+                    background: url(/assets/img/{{include.imgSm}}) !important;
+                    background-size: cover;
+                }
+            }
+        </style>
+    {% endif %}    
+    
     {% if include.header %}
     <div class="row">
         <div class="col-sm-6">
