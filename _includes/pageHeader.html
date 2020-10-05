@@ -3,8 +3,8 @@
         <style>
             .pageHeaderImage {
                 background: url(/assets/img/{{include.img}}) !important;
-                background-size: cover;
-                background-position:center;
+                background-size: cover !important;
+                background-position:center !important;
             }
         </style>
     {% endif %}
@@ -14,8 +14,6 @@
             @media screen and (max-width: 992px) {
                 .pageHeaderImage {
                     background: url(/assets/img/{{include.imgMd}}) !important;
-                    background-size: cover;
-                    background-position:center;
                 }
             }
         </style>
@@ -26,8 +24,6 @@
             @media screen and (max-width: 600px) {
                 .pageHeaderImage {
                     background: url(/assets/img/{{include.imgSm}}) !important;
-                    background-size: cover;
-                    background-position:center;
                 }
             }
         </style>
