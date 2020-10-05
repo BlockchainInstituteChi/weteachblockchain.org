@@ -12,7 +12,6 @@ ogUrl: https://weteachblockchain.org/
     console.log('display mc triggered')
   }
 </script>
-
 {% include pageHeader.html 
   img="CCC_HPheader.jpg" 
   imgSm="CCC_HPheader_sm.jpg" 
@@ -44,17 +43,7 @@ ogUrl: https://weteachblockchain.org/
   </div>
 </section>
 
-
-{% assign thisFactoid = site.factoids | sample: 1 %}
-{{ site.thisFactoid }}
-{{ site.factoids }}
-{% include factoid.html  
-  bigNumber=thisFactoid.bigNumber
-  bigNumberSubtext=thisFactoid.bigNumberSubtext
-  bigNumberSourceText=thisFactoid.bigNumberSourceText
-  bigNumberSourceLink=thisFactoid.bigNumberSourceLink
-  explanationText=thisFactoid.explanationText  
-%}
+{% include factoid.html page="homepage" %}
 
 <section class="onlineCourses blueDivider">
   <div class="row">
