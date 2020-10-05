@@ -32,7 +32,7 @@ collections:
     layout: blog
     output: true
         
-  factoid: 
+  factoids: 
     output: false
 
 sass:

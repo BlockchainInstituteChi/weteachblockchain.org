@@ -1,4 +1,5 @@
 ---
+title: Global Market
 bigNumber: 39.7
 bigNumberSubtext: BILLION
 bigNumberSourceText: SOURCE
