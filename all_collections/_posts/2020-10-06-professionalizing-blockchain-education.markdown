@@ -3,8 +3,8 @@ layout: post
 title:  Educating the Next Generation of Experts
 date:   2020-10-06 11:02:58 -0500
 categories: jekyll update
-thumbnail: "althash.png" 
-banner: "althash_banner.png"
+thumbnail: "Althash_square.jpg" 
+banner: "Althash.jpg"
 author: "amando"
 published: true
 permalink: /posts/10/06/professionalizing-the-blockchain-industry

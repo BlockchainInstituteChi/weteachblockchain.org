@@ -3,8 +3,8 @@ layout: post
 title:  "Blockchain in Motion: Ecosystem Integration"
 date:   2020-10-06 11:02:58 -0500
 categories: jekyll update
-thumbnail: "befaster.jpg" 
-banner: "befaster.jpg"
+thumbnail: "BeFaster_square.jpg" 
+banner: "BeFaster.jpg"
 author: "gio"
 published: true
 permalink: /posts/10/07/blockchain-in-motion
