@@ -16,17 +16,7 @@ ogUrl: https://weteachblockchain.org/
 {% include pageHeader.html 
 	img="CCC_HPheader.jpg" 
 	header="The Crypto Curious Course is now available online!" 
-	text="<ul>
-    <li>Learn how to store cryptocurrency securely</li>
-
-<li>Examine the mechanics behind a cryptocurrency transaction</li>
-
-<li>Know where to look when something goes wrong</li>
-
-<li>Explain how cryptocurrency is different than cash</li>
-
-        <li>Understand how blockchain technology may impact YOU!</li>
-</ul>"
+	text="<ul><li>Learn how to store cryptocurrency securely</li><li>Examine the mechanics behind a cryptocurrency transaction</li><li>Know where to look when something goes wrong</li><li>Explain how cryptocurrency is different than cash</li><li>Understand how blockchain technology may impact YOU!</li></ul>"
 	ctaText="Watch the Course" 
 	ctaLink="/crypto-curious/" 
 %}
@@ -70,16 +60,21 @@ ogUrl: https://weteachblockchain.org/
       Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
     </span>
     <div class="coursesThumbnailContainer"> 
-      {% assign sorted = site.courses | sort: 'tags' %}
-      {% for course in sorted %}
-        {% include courseTile.html 
-          image=course.image
-          title=course.title 
-          author=course.author 
-          summary=course.summary 
-          link=course.permalink 
-          tag=course.primaryTag	
-        %}
+      {% assign courseTypes = site.courses | group_by: 'primaryTag' %}
+      {% assign courseTypesSorted = courseTypes | sort: "name" %}
+      {% for group in courseTypesSorted %}
+        {% assign sorted = group.items | sort: 'title'  %}
+        {% for course in sorted %}
+            {% include courseTile.html 
+              image=course.image
+              title=course.title 
+              author=course.author 
+              summary=course.summary 
+              link=course.permalink 
+              tag=course.primaryTag	
+              slug=course.slug
+            %}
+        {% endfor %}
       {% endfor %}
     </div>
     <a href="/courses/" class="callToActionButton">View Course Catalogue</a>

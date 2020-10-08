@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <a class="navbar-brand" href="/">
-      <img src="/assets/img/logo.jpg" width="200px" alt="">
+      <img class="navbarBrand" src="/assets/img/logo.jpg" width="200px" alt="">
     </a>
     <!-- <ul class="navbar-nav flex-row">
       <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
@@ -19,15 +19,18 @@
         </li> -->
         <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
         <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
-        <li class="nav-item ml-auto" id="accountToggle"><a class="nav-link px-s fload-right" onclick="toggleDisplayAccountBox()" ><i class="fas fa-user-circle"></i></a></li>
+        <li class="nav-item ml-auto" id="accountToggle"><a class="nav-link px-s fload-right" id="accountIcon" onclick="toggleDisplayAccountBox()" ><i class="fas fa-user-circle"></i></a></li>
         <li class="nav-item donations">
-          <a class="nav-link donateNow" target="_blank" href="http://donate.weteachblockchain.org">
-          Donate!
+          <a class="nav-link donateNow" href="/support-us/">
+            Support Us
           </a>
         </li>
       </ul>
 
       <div class="mobileNavSidebar">
+        <div class="mobileLogin">
+          <div id="mobileApp">Loading...</div>
+        </div>
         {% for item in site.data.navigation %}
             <h3>{{ item.header }}</h3>
             <ul> 
@@ -70,12 +73,13 @@
             <img class="accountLight greyswirl" src="/assets/img/icon/greyswirl.png">
           </div>
           <div class="col-sm-9">
-            <div id="app">Loading...</div>
+            <div id="app">
+              <div class="loadingMessage">
+                <h1>Loading...</h1>
+              </div>
+            </div>
           </div>
         </div>
-        <script>
-          renderMagic();
-        </script>
       </div>
       
       <div id="navBox" class="hoverNavbox d-none"  tabindex="3" onfocusout="closeOtherLightboxBeforeOpening()">

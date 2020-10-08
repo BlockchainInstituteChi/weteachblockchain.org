@@ -10,7 +10,7 @@ permalink: /courses/
 	header="Course Catalog" 
 	text="Blockchain Institute is proud to offer free educational resources for every student. Whether you're a developer, your industry is looking for blockchain solutions, or you are just curious, we're here to help! All of our courses are 100% FREE. Start now." 
 	ctaText="Learn Blockchain Free Today!" 
-	ctaLink="/courses/blockchain-101/" 
+	ctaLink="/courses/blockchain-101/01/the-birth-of-digital-money" 
 %}
 
 <section class="breadcrumbs">
@@ -54,20 +54,31 @@ permalink: /courses/
 	</div>
 </section>
 
+{% include loginToTrackProgress.html %}
+
 <section class="coursesList">
 	<h1 class="hasColorTag purple">Courses</h1>
-	{% assign sorted = site.courses | sort: 'tags' %}
-	{% for course in sorted %}
-		{% include courseListing.html 
-			image=course.image
-			title=course.title 
-			author=course.author 
-			summary=course.summary 
-			link=course.permalink 
-			tag=course.primaryTag	
-		%}
+	{% assign courseTypes = site.courses | group_by: 'primaryTag' %}
+	{% assign courseTypesSorted = courseTypes | sort: "name" %}
+	{% for group in courseTypesSorted %}
+		{% assign sorted = group.items | sort: 'title'  %}
+		{% for course in sorted %}
+			{% include courseListing.html 
+				image=course.image
+				title=course.title 
+				author=course.author 
+				summary=course.summary 
+				link=course.permalink 
+				tag=course.primaryTag	
+				slug=course.slug
+			%}
+		{% endfor %}
 	{% endfor %}
 </section>
+
+{% include coursesMap.html %}
+
+{% include coursesProgressCalculator.html %}
 
 {% include pinkDivider.html %}
 

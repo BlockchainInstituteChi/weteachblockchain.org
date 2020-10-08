@@ -1,5 +1,5 @@
 ---
-course: blockchain101
+course: blockchain-101
 number: 2
 title: Decentralization and Mining
 summary: 

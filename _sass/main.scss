@@ -1,6 +1,11 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+
+.loaderLoader {
+    display: none !important;
+}
+
 /* Misc */
 .content {
   font-size: $custom-font-size;
@@ -106,7 +111,7 @@ h4 {
     font-size: 1.5rem;
     margin-left: .32em;
     margin-top: 2em;
-    margin-right: 18em;
+    // margin-right: 18em;
     width: 100%;
 }
 
@@ -118,57 +123,6 @@ strong.blue {
     color: #169ea6;
 }
 
-/* Nav */
-nav {
-    background: white;
-    border: 0.025px solid #d3d3d359;
-}
-nav a.nav-link {
-    color: black;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-a.nav-link.donateNow {
-    background: #ed0744;
-    color: white !important;
-    font-weight: 600;
-    padding-left: 1em !important;
-    padding-right: 1em !important;
-    margin-left: 1em;
-    font-family: $primary-font;
-    letter-spacing: .05em;
-}
-
-li.nav-item {
-    margin-left: 0.5em;
-}
-ul.navbar-nav.ml-auto {
-    margin-right: 1em;
-}
-a.nav-link:hover {
-    color: #2fae9f !important;
-}
-.navbar-brand img {
-    padding-left: 1em;
-}
-.nav-item {
-    text-align: center;
-}   
-
-/* Social Nav */
-ul.navbar-nav.flex-row {
-    padding-left: 1em;
-}
-nav i {
-    color: #2fae9f;
-}
-a.nav-link i:hover {
-    color: #0d72aa;
-}
-li.nav-item.navbox {
-    padding-right: 0.5em;
-    padding-left: 0;
-}
 
 /*  Hover Nav Box  */ 
 .hoverNavbox {
@@ -242,18 +196,23 @@ li.nav-item.contactUsLink {
 
 /* Account Hoverbox */
 .account .col-sm-3, .account .col-sm-9 {
-    padding: 0;
     margin: 0;
-    min-height: 40px;
+    min-height: 100%;
+    position: relative;
+    display: block;
+    padding: 0.25em;
 }
 .account .row {
     margin: 0;
-    padding: 0.5em;
+    padding: 0.35em;
+    position: relative;
+    padding-bottom: 0;
 }
 .hoverNavbox.account {
     background: #e6e6e6;
     width: 30%;
     padding-bottom: .4em;
+    right: 10.6em;
 }
 .account img {
     width: 2em;
@@ -280,6 +239,7 @@ input.emailInput {
     font-family:  $secondary-font;
     font-style: italic;
     padding-left: 0em;
+    margin-top: 1.5px;
 }
 .account span {
     font-size: 3em;
@@ -287,11 +247,11 @@ input.emailInput {
     color: black;
     display: block;
     width: 110%;
-    margin-left: -1.4em;
+    margin-left: -1.75em;
     text-align: left;
 }
 .account button {
-    font-size: 2.5em;
+    font-size: 2.45em;
     text-transform: uppercase;
     background: #ed0744;
     border: none;
@@ -304,6 +264,8 @@ input.emailInput {
 img.accountLight {
     left: .55em;
     top: .5em;
+    min-width: calc(100% - 3.5rem);
+    height: auto;
 }
 
 /* Search */
@@ -515,88 +477,6 @@ button.mc_signup:hover {
     min-height: fit-content !important;
 }
 
-
-section.header {
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    height: fit-content;    
-}
-section.headerImage {
-    height: fit-content;
-}
-.headerImage img {
-    min-width: 100vw;
-    height: auto;
-}
-
-/* Headers */
-h5 {
-    text-transform: uppercase;
-}
-
-/* Page Headers */
-section.pageHeaderImage {
-    max-width: 100vw !important;
-    overflow: hidden;
-    text-align: center;
-    background: url(/assets/img/Events-Banner.jpg);
-    background-position: center;
-    background-size: cover;
-    min-height: 50vh;
-    height: fit-content;
-	margin-bottom: 6em
-}
-section.pageHeaderImage.noText {
-    min-height: 50vh;
-}
-section.pageHeaderImage .row {
-    background: #00000094;
-    min-width: 100%;
-    color: white;
-    margin: 0;
-    text-align: left;
-    min-height: 50vh;
-    height: 100%;
-}
-.pageHeaderImage .col-sm-6 {
-    margin-left: 6em;
-    padding-left: .5em;
-}
-.pageHeaderImage .col-sm-6 h1 {
-    margin-top: 2em;
-    color: white;
-    margin-left: 0;
-    padding-left: 0;
-}
-.pageHeaderImage p {
-    padding: 0;
-    font-size: .9em;
-    font-weight: 200;
-    font-family: $default-font;
-    line-height: 1.9;
-    letter-spacing: .1px;
-	margin-top: 1em;
-	max-width: 80%;
-}
-.pageHeaderImage a.callToActionButton {
-    background: #ed0744;
-    padding: 1em 3em;
-    margin-top: 2em;
-    margin-bottom: 6em;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    width: fit-content;
-    margin-left: 0;
-}
-a.callToActionButton {
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    margin: auto;
-    text-align: center;
-    font-family: $primary-font;
-}
 
 /*Paths*/
 .pathButtons h5 {
@@ -818,6 +698,16 @@ section.social {
     padding-bottom: 4em;
     margin-bottom: 0;
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.social::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.social {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 iframe#twitter-widget-0 {
     background: #00000096;
     border-radius: 0.5em;
@@ -843,6 +733,7 @@ button:hover {
 
 a.donateNow:hover {
     background: #0B9BA4 !important;
+    color: white !important;
 }
 
 a.callToActionButton:hover {
@@ -855,12 +746,12 @@ a.buttonStyle:hover {
 
 
 /* Disable Account */
-li#accountToggle {
-    display: none !important;
-}
-div#accountDropdown {
-    display: none !important;
-}
+// li#accountToggle {
+//     display: none !important;
+// }
+// div#accountDropdown {
+//     display: none !important;
+// }
 
 /* Overrides */
 .uppercase {
@@ -921,7 +812,85 @@ div#accountDropdown {
     color: white;
 }
 
+// login functionality
+section.userLoginPrompt {
+    margin-top: 1em;
+    display: none;
+}
+.userLoginPrompt .row {
+    border: 1px solid #ed0744;
+    padding: 1em;
+}
+.userLoginPrompt a {
+    background: #ed0744;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    color: white !important;
+    font-weight: 600;
+    float: left;
+    margin-top: 1em;
+    font-family: kanit, sans-serif;
+    letter-spacing: .05em;
+}
+.userLoginPrompt h3 {
+    text-transform: uppercase;
+    margin-right: 0em;
+}
+.userLoginPrompt span {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.userLoginPrompt a.noThanks {
+    margin-left: 1rem;
+    background: #149ba4;
+}
 
+.shown {
+    display: block !important;
+}
+
+#app a {
+    padding: .08em 1em;
+    background: #0b9ba4;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    float: right;
+    margin-left: 0.5em;
+    font-family: Kanit, sans-serif;
+}
+
+img.gravatar {
+    border-radius: 50%;
+    width: auto;
+    display: block;
+    position: absolute;
+    top: -0.25rem;
+    left: -0.25rem;
+    max-height: 100%;
+}
+
+.loadingMessage {
+    width: 100%;
+    text-align: center;
+    float: right;
+    min-height: 3rem;
+}
+
+img#accountImg {
+    height: 1.25em;
+    border: 1px #3cb0a2 solid;
+    border-radius: 50%;
+    margin-top: -0.1em;
+}
+.account .col-sm-3 {
+    position: relative;
+}
+.account img {
+    position: relative;
+    max-height: 80%;
+}
 /* Factoids */
 section.factoid{
     max-width: 90vw;
@@ -978,7 +947,7 @@ span.didYouKnow{
     font-size: 2vw;
     float: right;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
     margin-top: -1em;
 }
 .explanation a{

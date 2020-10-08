@@ -2,7 +2,7 @@
 layout: course
 title: Ethereum 101
 primaryTag : beginner
-tags: beginner professional
+tags: beginner, professional
 slug: ethereum-101-blockchain-beyond-bitcoin
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 author: Alex Morris

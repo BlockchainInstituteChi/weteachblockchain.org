@@ -7,22 +7,35 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 ---
 <br>
 <br>
-<span class="openingParagraph">In 2013, a cryptocurrency researcher named Vitalik Buterin wrote a whitepaper proposing a wider conceptual version of the blockchain. Buterin labeled his concept as Ethereum, and suggested that it would provide greater utility by allowing block data to include executable code which peers could run for each other in a complete computing environment. </span>
+<span class="openingParagraph">The World Computer</span>
+In 2013, a cryptocurrency researcher named Vitalik Buterin wrote a whitepaper proposing a wider conceptual version of the blockchain. Buterin labeled his concept as Ethereum, and suggested that it would provide greater utility by allowing block data to include executable code which peers could run for each other in a complete computing environment. 
+
+{% include callouts/definition.html
+	title="Ethereum Virtual Machine (EVM)"
+	bodyText="The Ethereum Virtual Machine is the collective system made up of hundreds of thousands of individual nodes around the world."
+%}
+
+{% include callouts/note.html
+	bodyText="The <b>state</b> of the EVM is maintained communally by all nodes, making it essentially tamper-proof."
+%}
 
 {% include callouts/imageWithCaption.html
 	image="/courses/ethereum-101/Vitalik-01.jpg"
-	title=""
-	bodyText="VITALIK BUTERIN // Forbes.com"
+	title="Boy Genius"
+	bodyText="Vitalik Buterin proposed the initial concept of Ethereum at the age of 21. // Forbes.com"
 %}
 
 <h3>BIRTH OF THE MACHINE</h3>
+Because Ethereum is a complete virtual machine, and not simply a data block like Bitcoin, it is possible to store more complex information, and even manipulate it. In particular, when a new address is created on the network, as shown above, the network uses a state transition event to track the changes. 
+
 {% include callouts/imageWithCaption.html
 	image="courses/ethereum-101/EthState-01.jpg"
 	title="The State Machine"
-	bodyText="Because Ethereum is a complete virtual machine, and not simply a data block like Bitcoin, it is possible to store more complex information. In particular, when a new address is created on the network, as shown above, the network uses a state transition event to track the changes. The <b>state</b> of the machine is maintained communally by all notes, making it possible to treat it as essentially tamper-proof."
+	bodyText="In the Ethereum Virtual Machine (EVM), a blockchain tracks the innerworkings, and allows all nodes to participate in the computational process. The network collectively tracks signed payloads from participants, and composes <b>transactions</b> which they collectively agree to. When a transaction is approved, the EVM undergoes a collective state change, and all nodes update their personal record."
 %}
 
 <span >Rather than the blockchain existing as a ledger of transactions, Buterin proposed that the chain might instead serve as a source of communal truth for the results of computations. In this new version, the network of peers collectively transitioned from one state to another, and the ledger recorded these transitions communally. The rules of this transition and functionality are encompassed in the consensus rules, which you may want to </span><a href="https://github.com/ethereumbook/ethereumbook/blob/develop/14consensus.asciidoc"><span >explore on Github</span></a><span >. Collectively, the group of peers are referred to as the </span><b>Ethereum Virtual Machine (EVM).</b>
+
 <h4>Aside: Turing Completeness</h4>
 <span >When a computer is not limited to the execution of a particular type of computation task, we call this Turing complete. Another way of referring to this state is computational universality, because broadly speaking, all Turing complete machines are interchangeable.</span>
 
@@ -30,9 +43,10 @@ permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/1/introducing-ethereu
 
 <span >In a decentralized context, this means that any code submitted to the network can be computed reliably by every node. The EVM is thereby able to operate as a single computer even though it runs on separate devices all around the world.</span>
 
-<h3>FUNDAMENTAL DIFFERENCES</h3>
-
-<span >While Ethereum and Bitcoin are similar, the rules of the EVM have been constructed with different priorities in mind. In particular, Ethereum's blocks are limited in computational effort, while Bitcoin's blocks are limited in storage space. In addition, new Ethereum blocks are mined every 10-19 seconds, whereas new Bitcoin blocks are mined every ten minutes. </span>
+{% include callouts/callout.html
+	title="Bitcoin vs. Ethereum"
+	bodyText="While Ethereum and Bitcoin are similar, the rules of the EVM have been constructed with different priorities in mind.<br><ol><li>Ethereum's blocks are limited in computational effort, while Bitcoin's blocks are limited in storage space.</li><li>New Ethereum blocks are mined every 10-19 seconds, whereas new Bitcoin blocks are mined every ten minutes</li><li>In Ethereum, transaction fees are paid in Gas, which can be purchased using Ether.</li></ol><br>Don't worry - we'll cover all of ths in due time."
+%}
 
 <h3>GROWTH OF THE NETWORK</h3>
 

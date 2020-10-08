@@ -1,0 +1,173 @@
+.container.row.spacer {
+    height: 18vh;
+    background: url(/assets/img/ProfileHeaderBG-01.jpg);
+    background-size: cover;
+    width: 100vw !important;
+    margin: 0;
+    min-width: 100vw;
+}
+section.userProfileHeader {
+    overflow-x: hidden;
+    padding-bottom: 2em;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    padding-left: 0;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.025em;
+    font-size: 1.5em;
+}
+
+ul.userNavigation {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.userNavigation li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    color: $brand-teal;
+}
+span.separator {
+    border-left: 1px solid orange;
+    width: 0;
+    max-width: 0;
+    min-width: 0;
+}
+.courseList {
+    padding-bottom: 2em;
+    overflow-x: hidden;
+}
+span#userPubkey {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+/* Course Tiles */
+.courseTile {
+    max-width: 25%;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 1em;
+    float: left;
+    padding-bottom: 1em;
+}
+.courseTile img {
+    max-width: 100%;
+    cursor: pointer;
+}
+.courseTile h1 {
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 0.25em;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    cursor: pointer;
+    line-height: 1em;
+}
+span.courseAuthor {
+    color: $brand-teal;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 100%;
+    text-align: left;
+    display: block;
+    font-size: .75em;
+}
+a.courseCategory {
+    background: $brand-green;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: .6em;
+}
+a.courseCategory.developer {
+    background: $brand-blue;
+} 
+a.courseCategory.professional {
+    background: $brand-purple;
+} 
+
+.mustLogin {
+    display: none;
+}
+
+section.userLoginPrompt {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+span.noProgressMessage {
+    display: block;
+    width: 100vw;
+    float: left;
+}
+
+/* Delete Functionality */
+a.deleteButton {
+    padding: .5em 2em;
+    background: #ed0744;
+    color: white !important;
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2em;
+    font-family: kanit, sans-serif;
+}
+.deleteConfirmation {
+    position: fixed;
+    width: 50vw;
+    z-index: 100;
+    height: 35vh;
+    top: 25vh;
+    background: white;
+    left: 25vw;
+    text-align: center;
+    display: none;
+    box-shadow: 1px 1px 20px 0px black;
+}
+.deleteConfirmation.shown {
+    display: block;
+}
+.deleteConfirmation h2 {
+    margin-top: 2em;
+}
+.deleteConfirmation span {
+    margin-bottom: 1em;
+    display: block;
+}
+input#confirmDeleteEmail {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 1em;
+}
+.deleteConfirmation button {
+    display: block;
+    margin: auto;
+    border: none;
+    background: #ed0744;
+    color: white;
+    font-weight: 500;
+    padding: 0.25em 2em;
+    margin-bottom: 1em;
+}
+
+section#courseProgress {
+    margin-bottom: 6em;
+}

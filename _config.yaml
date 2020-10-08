@@ -39,9 +39,14 @@ collections:
     output: false    
 
   faq:
-    output: true        
+    output: true       
+    
+  blog: 
+    layout: blog
+    output: true
 
 sass:
+    style: compressed
     load_paths:
         - _sass
         - node_modules
@@ -51,6 +56,13 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude :
+ - node_modules/      
+      
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 include: ["node_modules"]
 exclude: []

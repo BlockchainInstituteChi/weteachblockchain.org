@@ -1,0 +1,58 @@
+.row {
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+.supportOption h3 {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.supportOption span {
+    color: black;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 1rem;
+}
+.supportOption a {
+    display: block;
+    color: white !important;
+    background: #ed0744;
+    padding: 1em 3em;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 2em;
+}
+.supportOption a.nav-link.px-2 {
+    background: none;
+    color: #ed0744 !important;
+    font-size: 1.5rem;
+    margin-left: -0.5rem;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: .75em;
+    padding-bottom: 0em;
+}
+a.inline {
+    color: #149ba4 !important;
+    background: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin-top: 0em;
+}
+h1.hasColorTag.red {
+    margin-left: -1.25em;
+}
+h1.hasColorTag.teal {
+    margin-left: -1.25em;
+}
+ul.navbar-nav.flex-row {
+    padding-left: 0em;
+}
+li.nav-item {
+    margin-left: 0em;
+    margin-right: 1em;
+}
+section {
+    margin-bottom: 4em;
+}

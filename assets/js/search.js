@@ -1,14 +1,40 @@
 
 function initSearch () {
 
-    // console.log('initSearch Ran')
+    console.log('initSearch Ran')
 
     $.getJSON('/map.json', function(data){
 
         // console.log('got map data', data)
 
         window.searchData = data;
+       
+        for ( let i = 0; i < 10; i++ ) {
+            setTimeout(
+                function () { 
+                    // console.log('lunr' + i)
+                    return setSearchIndex (data) 
+                },
+                i*500
+            )
+        }
+        
+    })
+    .done(function(result) {
+        // console.log( "second success", result );
+      })
+    .fail(function(error) {
+        // console.log( "error", error );
+    })
+    .always(function() {
+        // console.log( "complete" );
+    });
+}
 
+function setSearchIndex ( data ) {
+    // console.log('setSearchIndex ran', data)
+    if ( lunr ) {
+        // console.log('lunr is set')
         window.searchIndex = lunr(function () {
             // console.log('initializing lunr')
 
@@ -17,26 +43,33 @@ function initSearch () {
             this.metadataWhitelist = ['title', 'summary', 'permalink']
             // this.field('title')
             
-            z = 0;
-            data.lessons.forEach(function (doc) {
-              doc.id = 'lessons-' + z
-              this.add(doc)
-              z++
-            }, this)
-
+            p = 0
+            data.faq.forEach(function (doc) {
+                doc.id = 'faq-' + p
+                this.add(doc)
+                p++
+            }, this)     
+        
             y = 0
             data.courses.forEach(function (doc) {
                 doc.id = 'courses-' + y
                 this.add(doc)
                 y++
-              }, this)
+            }, this)
+
+            z = 0;
+            data.lessons.forEach(function (doc) {
+                doc.id = 'lessons-' + z
+                this.add(doc)
+                z++
+            }, this)
 
             x = 0
             data.modules.forEach(function (doc) {
                 doc.id = 'modules-' + x
                 this.add(doc)
                 x++
-              }, this)
+            }, this)
 
             r = 0
             data.events.forEach(function (doc) {
@@ -52,20 +85,10 @@ function initSearch () {
                 p++
               }, this)
   
-          })
+        })
+    }
 
-    })
-    .done(function(result) {
-        // console.log( "second success", result );
-      })
-    .fail(function(error) {
-        // console.log( "error", error );
-    })
-    .always(function() {
-        // console.log( "complete" );
-    });
 }
-
 
 function toggleDisplaySearchLightbox () {
 
@@ -78,12 +101,20 @@ function toggleDisplaySearchLightbox () {
 
         closeOtherLightboxBeforeOpening () 
         showLightboxShadow()
+        addLunr()
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className.split('d-none').join('')
 
     } else {
         document.getElementById('searchLightbox').className = document.getElementById('searchLightbox').className + ' d-none'
     }
      
+}
+
+function addLunr () {
+    console.log('adding Lunr')
+    var lunr = document.createElement('script')
+        lunr.src = "https://unpkg.com/lunr/lunr.js"
+    document.head.appendChild(lunr)    
 }
 
 function displayNoResultsMessage ( searchContainer, searchTerm ) {
@@ -101,6 +132,7 @@ function refreshSearchResults (searchResultsContainer, searchInput) {
     
     if ( typeof (window.searchData) != "undefined") {
         var searchTerm = document.getElementById(searchInput).value;
+        // console.log('about to search', searchTerm + " faq^10")
         var searchResult = window.searchIndex.search(searchTerm)
 
         if ( 1 > searchResult.length ) {
@@ -154,7 +186,8 @@ function addResultToResultsContainer (container, data) {
 
     var summary = document.createElement('span')
         summary.className = "summary"
-        summary.textContent = removeHTMLEntities(data.summary)
+        summary.textContent = data.summary
+        // summary.textContent = removeHTMLEntities(data.summary)
 
     var row = document.createElement('div')
         row.className = "row"
@@ -164,7 +197,8 @@ function addResultToResultsContainer (container, data) {
 
     var title = document.createElement('span')
         title.className = "title"
-        title.textContent = removeHTMLEntities(data.title)
+        title.textContent = data.title
+        // title.textContent = removeHTMLEntities(data.title)
 
     // var score = document.createElement('span')
     //     score.className = "score"

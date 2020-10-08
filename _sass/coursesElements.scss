@@ -205,7 +205,6 @@ section.lessonContent {
 .lessonContent h4 {
     margin-left: .32em;
     margin-top: 2em;
-    margin-right: 18em;
 }
 .lessonContent iframe {
     width: 100%;
@@ -258,7 +257,7 @@ iframe#historyIFrame {
 iframe.askAnExpert {
     margin-bottom: 0em;
 }
-topTitle{
+.topTitle{
     margin-top: 2em;
 }
 .lessonContent ul {
@@ -288,4 +287,49 @@ a.courseEndButton.moreCourses {
 .imageWithTextCallout h4 {
     margin-left: 0em;
     margin-right: 0em;
+}
+
+
+// CourseProgress
+span.progressDiv {
+    display: none;
+    color: #0Fa54C;
+    position: relative;
+    float: right;
+    top: 0.5em;
+    right: 0.5em;
+}
+span.progressDiv.display {
+    display: inline-block;
+}
+
+.courseProgress {
+    height: calc(100% - 1em);
+    width: calc(100% - 1em);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+.courseProgress.display {
+    display: block;
+}
+.courseProgress span {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: block;
+    font-size: 1.1em;
+    color: white;
+    font-family: kanit, sans-serif;
+    text-transform: uppercase;
+    background: #ed0744;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+a.startCourseButton.complete {
+    background: #a30071;
+}
+.upsideDown img {
+    margin-top: 0 !important;
+    border: 1px solid #2b2b2b;
 }

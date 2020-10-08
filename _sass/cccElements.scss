@@ -276,7 +276,10 @@ a.callToActionButton.cccDownloadButton {
     letter-spacing: 0.05em;
     text-align: center;
     text-transform: uppercase;
-    display: block;
+    width: 100%;
+    display: inline-block;
+    margin-left: 0em;
+    margin-bottom: .5em;
 }
 
 
@@ -333,4 +336,50 @@ iframe {
     line-height: .4em;
     font-style: italic;
     padding-left: .6em;
+}
+
+
+/* Explain stuff */
+section.cccExplained {
+    background: #efefef;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+.cccExplained span {
+    color: black;
+    font-size: .9em;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.cccExplained li {
+    color: #ed0744;
+    font-size: .9em;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.cccExplained a {
+    padding: 1rem;
+    background: #ed0744;
+    color: white;
+    max-width: fit-content;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 2em;
+    margin-left: .75em;
+    text-transform: uppercase;
+    display: block;
+    font-family: Kanit, serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.cccExplained .col-md-6 {
+    padding-left: .75em;
+}
+.cccExplained h1 {
+    margin-bottom: .75em;
+}
+.cccExplained ul {
+    margin-top: 1em;
 }

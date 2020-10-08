@@ -1,18 +1,71 @@
-<!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
-<script>
-    const checkUserData = async () => {
-        const userMetadata = await magic.user.getMetadata();
-        console.log('user:', userMetadata)
+
+<!-- 1. Install Magic SDK -->
+<script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js" async defer></script>
+<script src="/assets/js/accountHandler.js" async defer></script>
+<script async defer>
+    var magic; 
+    if ( window.innerWidth > 992 ) { // only on desktop - otherwise we lazyload magic
+      for ( let i = 0; i < 10; i++ ) {
+          setTimeout(makeMagicHappen, i*500)
+      }
+
     }
-    checkUserData();
+
+    function makeMagicHappen ( ) {
+        console.log('loading magic')
+        if ( typeof(magic) != "undefined" ) {
+          loadAndSetupMagic()
+        } else if ( window.innerWidth < 992 ) {
+          loadAndSetupMagic()
+        }
+    }
+
+    function loadAndSetupMagic () {
+      if ( !window.magicLoaded ) {
+        magic = new Magic("pk_live_EA466C1563BC5CFF");
+        window.magicLoaded = true
+        renderMagic ();
+        const checkUserData = async () => {
+            const userMetadata = await magic.user.getMetadata();
+            window.user = userMetadata
+            console.log('user:', userMetadata)
+        }
+        checkUserData();
+      }
+    }
 </script>
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous"></script>
-<script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
-<script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="/assets/js/search.js" type="text/javascript"></script>
-<script src="/assets/js/nav.js" type="text/javascript"></script>
-<link rel='stylesheet' id='fontawesome-css'  href="{{' /node_modules/@fortawesome/fontawesome-free/css/all.css' | prepend: site.baseurl}}">
+crossorigin="anonymous" async defer></script>
+<script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}" async></script>
+<script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}" async></script>
+
+<script src="/assets/js/search.js" type="text/javascript" async></script>
+<script src="/assets/js/nav.js" type="text/javascript" async></script>
+<link rel=preload id='fontawesome-css'  href="{{' /node_modules/@fortawesome/fontawesome-free/css/all.css' | prepend: site.baseurl}}">
+
+<script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
+<script>
+  unsetLazyImg()
+
+  function unsetLazyImg ( ) {
+    // console.log('runningunsetlazyimg')
+      var imgs = document.getElementsByTagName('img')
+    //   console.log('imgs', imgs, imgs[0], imgs.length)
+      for ( img of imgs ) {
+          console.log('hiding image', img.src)
+        if ( !img.className.includes('navbarBrand') ) {
+          img.setAttribute('data-src', img.src)
+          img.className += " lazy"
+          img.src = ""
+        }
+      }
+      var lazyLoadInstance = new LazyLoad({
+        // Your custom settings go here
+      });
+      lazyLoadInstance.update()
+  }
+
+</script>

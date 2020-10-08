@@ -10,7 +10,7 @@ permalink: /courses/professionals/
 	header="Professionals" 
 	text="If your industry is adopting Blockchain systems, it's important to ensure you're up to date and understand the language. Our Professional track keeps it simple so you can learn what you need to without taking your whole day.<br>All of our courses are 100% FREE and take less than an hour to complete." 
 	ctaText="Start Blockchain for Business" 
-	ctaLink="/courses/blockchain-for-business/" 
+	ctaLink="/courses/blockchain-for-business/1/public-vs-private-blockchains" 
 %}
 
 <section class="breadcrumbs bcCoursePath">
@@ -20,6 +20,8 @@ permalink: /courses/professionals/
 		</div>
 	</div>
 </section>
+
+{% include loginToTrackProgress.html %}
 
 <section class="coursesList coursePathHeader">
 	<h1 class="hasColorTag purple">Courses</h1>
@@ -35,6 +37,7 @@ permalink: /courses/professionals/
 				summary=course.summary 
 				link=course.permalink 
 				tag="professional"
+				slug=course.slug
 			%}
 		{% endif %}
 	{% endfor %}
@@ -67,6 +70,10 @@ permalink: /courses/professionals/
 		
 	</div>
 </section>
+
+{% include coursesMap.html %}
+
+{% include coursesProgressCalculator.html %}
 
 {% include pinkDivider.html %}
 

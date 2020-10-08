@@ -7,7 +7,7 @@
             {
                 "title" : "{{ course.title | strip_html | strip_newlines | xml_escape }}",
                 "link" : "{{ course.permalink | strip_html | strip_newlines | xml_escape  }}",
-                "summary": "{{ course.summary  | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}",
+                "summary": "{{ course.summary  | strip_html | strip_newlines | truncatewords: 50 | xml_escape }} {{ course.title | strip_html | strip_newlines | xml_escape }} {{ course.title | strip_html | strip_newlines | xml_escape }} {{ course.title | strip_html | strip_newlines | xml_escape }} {{ course.title | strip_html | strip_newlines | xml_escape }}",
                 "image" : "{{ course.image | strip_html | strip_newlines | xml_escape  }}",
                 "author" : "{{ course.author }}",
                 "tags" : "{{ course.tags }}"
@@ -35,7 +35,7 @@
             "title": "{{ event.title  | strip_html | strip_newlines | xml_escape  }}",
             "image" : "{{ event.image | strip_html | strip_newlines | xml_escape  }}",
             "link": "{{ event.permalink  | strip_html | strip_newlines | xml_escape  }}",
-            "summary": "{{ event.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}",
+            "summary": "{{ event.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }} {{ event.title  | strip_html | strip_newlines | xml_escape  }} {{ event.title  | strip_html | strip_newlines | xml_escape  }} {{ event.title  | strip_html | strip_newlines | xml_escape  }}",
             "date" : "{{ event.date }}",
             "eventdate" : "{{ event.eventdate }}"
         }{% unless forloop.last %},{% endunless %}
@@ -49,6 +49,13 @@
                 "date" : "{{ post.date }}",
                 "author" : "{{ post.author }}",
                 "date" : "{{ post.date }}"
-            }{% unless forloop.last %},{% endunless %}
+            }{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "faq" : [{% for faq in site.faq %}
+        {
+            "title": "{{ faq.title  | strip_html | strip_newlines | xml_escape  }}",
+            "image" : "{{ faq.image | strip_html | strip_newlines | xml_escape  }}",
+            "link": "{{ faq.permalink  | strip_html | strip_newlines | xml_escape  }}",
+            "summary": "{{ faq.content | strip_html | strip_newlines | truncatewords: 50 | xml_escape }}"
+        }{% unless forloop.last %},{% endunless %}
         {% endfor %}]
 }
