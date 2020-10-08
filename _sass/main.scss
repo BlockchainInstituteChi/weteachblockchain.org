@@ -9,6 +9,7 @@ body {
     font-family: $primary-font;
     color: darkgrey;
     max-width: 100vw !important;
+    overflow-x: hidden !important;
 }
 
 h1, h2, h3, span, p, a {
@@ -740,13 +741,20 @@ section.upPinkStripesDivider {
     height: 5em;
     background: url(/assets/img/pink-stripes-divider.png);
     margin-top: 2em;
+    min-width: 120%;
     background-size: cover;
+    margin-bottom: -3rem;
+    margin-left: -2rem;
+    min-width: 120%;
 }
 section.downPinkStripesDivider {
     height: 5em;
     background: url(/assets/img/pink-stripes-divider-bottom.png);
     margin-top: 2em;
     background-size: cover;
+    margin-bottom: -3rem;
+    margin-left: -2rem;
+    min-width: 120%;
 }
 
 /* CourseTags */

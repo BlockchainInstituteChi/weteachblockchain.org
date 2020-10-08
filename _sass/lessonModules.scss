@@ -402,16 +402,19 @@ span.quoteBody::after {
 section.upPinkStripesDivider {
     height: 7em;
     background: url(/assets/img/pink-stripes-divider.png);
-    margin-top: 2em;
     background-size: cover;
-    min-width: 100%;
+    margin-bottom: -3rem;
+    margin-left: -2rem;
+    min-width: 120%;
 }
 section.downPinkStripesDivider {
     height: 8em;
     background: url(/assets/img/pink-stripes-divider-bottom.png);
     margin-top: 0em;
     background-size: cover;
-    min-width: 100%;
+    margin-top: -3rem;
+    margin-left: -2rem;
+    min-width: 120%;
     margin-bottom: 2em;
 }
 
@@ -449,4 +452,13 @@ span.imageLightboxCancel {
     right: 0.5em;
     color: #ed0744;
     font-size: 2.5em;
+}
+
+.imageWithTextCallout img {
+    margin: 0 !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin-left: -2.5rem !important;
+    margin-top: 1.5rem !important;
 }

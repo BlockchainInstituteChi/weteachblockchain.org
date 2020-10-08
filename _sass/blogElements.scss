@@ -315,3 +315,13 @@ section.blogOverview {
 .card-columns .card {
     width: 90% !important;
 }
+
+.blogBody img {
+    width: -webkit-fill-available;
+    margin: 3rem;
+}
+
+.blogBody {
+    display: block;
+    overflow: hidden;
+}
