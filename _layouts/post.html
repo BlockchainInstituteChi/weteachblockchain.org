@@ -110,18 +110,21 @@
         <div class="col-md-3 blogSidebar">
           <h3>Recent Posts</h3>
           {% assign sorted = site.posts | sort: 'date' | reverse %}
-          {% for post in sorted limit:3 %}
-  
-            {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
-            {% include blogTile.html
-              link=post.permalink 
-              image=post.thumbnail 
-              title=post.title 
-              author=post.author
-              type=post.Type
-              summary=summary
-            %}
-  
+          {% assign count = 0 %}
+          {% assign maxCount = 3 %}
+          {% for post in sorted %}
+              {% if post.title != page.title and count < maxCount %}
+                {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
+                {% include blogTile.html
+                  link=post.permalink 
+                  image=post.thumbnail 
+                  title=post.title 
+                  author=post.author
+                  type=post.Type
+                  summary=summary
+                %}
+                {% assign count = count | plus : 1 %}
+              {% endif %}
           {% endfor %}
         </div>
       </div>

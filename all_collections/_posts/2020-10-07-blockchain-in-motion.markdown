@@ -9,11 +9,9 @@ author: "gio"
 published: true
 permalink: /posts/10/07/blockchain-in-motion
 ---
-
-# Blockchain, the Story
 When we meet strangers for the first time, it is natural to have a lack of connection but through connecting on a common ground, trust becomes established. Transparency becomes the norm, and the best memories are those experiences that we can recollect and trace back with the utmost clarity, even down to those awkward and not so fun moments.
 
-## Instant Recollection: Transaction Traceability, Governance Decentralization, Encrypted Security
+# Instant Recollection: Transaction Traceability, Governance Decentralization, Encrypted Security
 The best times are when a group of strangers connect, walk through a certain path together with trust, transparency, an unbreakable bond, a common ground based on everyone’s consensus, equal voices at the table, a sibling-like support system to avoid the patches, and an intuitive confidence about who you are, where you are, about the people that you are with, why you are there, and the consciousness about everything that you are doing.
 
 Blockchain provides a cryptographically secured ordering of transactions, and uses a practice known as “triple-entry accounting”. Traditionally, both the creditor and debtor each keep their own ledger of their business transactions. Blockchain transactions come with an additional public receipt that reflects this transfer of funds. Essentially, a transparent receipt with verified details is provided to the entire network.

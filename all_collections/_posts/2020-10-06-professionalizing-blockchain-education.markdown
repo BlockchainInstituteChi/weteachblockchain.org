@@ -9,10 +9,9 @@ author: "amando"
 published: true
 permalink: /posts/10/06/professionalizing-the-blockchain-industry
 ---
-
-# Rationale
 This recent material release about blockchain, "Deloitte’s 2020 Global Blockchain Survey From Promise to Reality," indicated that there is a considerable increase of interest in the utilization of blockchain technology among leading companies world-wide, creating a huge demand for professionals in the blockchain space. Another equality important research result by Gartner in 2020, blockchain-enabled applications will deliver $3.1 trillion dollars in value by 2030. As the blockchain ecosystem expands in the next 10 years, as indicated in these new research results, the industry will be needing specialists, developers, and experts, all over the world. 
 
+# Rationale
 We believed in Althash Education that as early innovators and adaptors in Blockchain Studies, professionalization and standardization is needed to produce qualified professionals. The Blockchain Education sector should respond by offering courses that will prepare the workforce in the institutional shift from centralized oriented to decentralized oriented framework of doing and thinking. This can be best observed in the way we develop software  to the manner we deliver government services.
 
 This looming demand for capable professionals must be addressed to maintain the United States competitiveness in blockchain innovation globally. One way of doing this is by supporting blockchain educational programs run by non-for-profit institutions.
