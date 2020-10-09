@@ -10,6 +10,9 @@
 	    min-width: 100vw;
 	    margin: 2em auto;
 	}
+	.pageHeaderImage p {
+    		max-width: 50%;
+	}
 	h1.hasColorTag.teal {
     		margin-left: -3.65em;
     		margin-bottom: .5em;
@@ -150,6 +153,9 @@
 	.pageHeaderImage .col-sm-6 {
     		margin: 1em 0em;
 	}	
+	.pageHeaderImage p {
+    		max-width: 75%;
+	}
 }
 
 
