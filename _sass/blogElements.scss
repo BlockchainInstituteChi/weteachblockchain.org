@@ -1,6 +1,21 @@
 .pageHeaderImage a.callToActionButton {
     font-weight: 600;
     letter-spacing: 0.05em;
+    background: #ed0744;
+    padding: 1em 3em;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: fit-content;
+    margin-left: .4em;
+}
+.pageHeaderImage {
+    height: 50vh;
+}
+.pageHeaderImage .col-sm-6 {
+    padding-left: 0em;
 }
 .pageHeaderImage p {
     color: white;
@@ -8,6 +23,9 @@
 .container {
     padding-right: 0em;
     padding-left: 0em;
+}
+.col-sm-6 h1 {
+    padding-left: .15em;
 }
 p {
     padding: 0;
@@ -39,7 +57,8 @@ section.blogsList {
 section.breadcrumbs {
     padding-top: 0em;
     margin-left: 0em;
-    padding-left: .65em;
+    padding-left: .5em;
+    margin-top: 6em;
 }
 h1.hasColorTag.teal {
     margin-left: -1.43em;
@@ -294,7 +313,9 @@ h1.hasColorTag.red {
     padding-left: 0em;
 }
 .container.aboutTheAuthor {
-    margin-top: 3em;
+    margin-top: 3em !important;
+    margin-left: 0em !important;
+    margin-bottom: 6em !important;
 }
 section.blogOverview {
     margin-bottom: 6em;
@@ -318,7 +339,7 @@ section.blogOverview {
 
 .blogBody img {
     width: -webkit-fill-available;
-    margin: 3rem;
+    margin: 0em 3em 0em 0em;
 }
 
 .blogBody {
