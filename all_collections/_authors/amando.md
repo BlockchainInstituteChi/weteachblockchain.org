@@ -3,7 +3,7 @@ short_name: amando
 name: Amando R. Boncales, BA, MSEd, MA, PhDc.
 position: CEO, HTMLCOIN
 learnMoreLink: "https://www.linkedin.com/in/amando-boncales/"
-permalink: "/contributors/alexander/"
+permalink: "/contributors/amando/"
 headshot: authors/Amando_square.jpg
 banner: authors/Amando.jpg
 layout: author
