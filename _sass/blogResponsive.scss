@@ -6,6 +6,10 @@
 	section.header {
     		margin-bottom: 2em;
 	}
+	.pageHeaderImage .col-sm-6 {
+	    min-width: 100vw;
+	    margin: 2em auto;
+	}
 	h1.hasColorTag.teal {
     		margin-left: -3.65em;
     		margin-bottom: .5em;
@@ -27,6 +31,9 @@
 	.col-md-3.blogSidebar {
     		margin-top: 0em;
     		padding: 0em;
+	}
+	section.breadcrumbs {
+    		padding-left: .6em;
 	}
 	.blogTile h1 {
     		text-transform: uppercase;
@@ -56,6 +63,10 @@
 	}
 	.blogSidebar .card p {
 		display: none;
+	}
+	.aboutTheAuthor .col-sm-9 {
+    		padding-left: 0em;
+    		padding-top: 1em;
 	}
 }
 
@@ -136,6 +147,9 @@
 	.aboutTheAuthor .col-sm-9 {
 		padding: 0em;
 	}
+	.pageHeaderImage .col-sm-6 {
+    		margin: 1em 0em;
+	}	
 }
 
 
