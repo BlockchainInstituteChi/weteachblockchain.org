@@ -35,8 +35,10 @@ section .row {
     line-height: 1.75em;
 }
 .imageWithTextCallout .col-md-3 {
-    margin-bottom: 14em;
+    min-height: fit-content;
 }
+
+
 
 /* TextCallout */
 .row.textCallout {
@@ -461,4 +463,6 @@ span.imageLightboxCancel {
     max-width: 100% !important;
     margin-left: -2.5rem !important;
     margin-top: 1.5rem !important;
+    display: block;
+    position: relative;
 }
