@@ -1,0 +1,144 @@
+/* Tablet */
+@media screen and (max-width: 800px) {
+	html, body {
+    		overflow-x:hidden;
+	}
+	section.header {
+    		margin-bottom: 2em;
+	}
+	h1.hasColorTag.teal {
+    		margin-left: -3.65em;
+    		margin-bottom: .5em;
+	}
+	.blogMain h1::before {
+    		left: -4.25em;
+	}
+	a.rsvp {
+    		padding: 0.5em 1em 0.5em 1em;
+    		background: #ed0744;
+   		color: white;
+		font-weight: 500;
+		display: block;
+    		float: right;
+    		top: .5em;
+    		position: absolute;
+    		right: 0em;
+	}
+	.col-md-3.blogSidebar {
+    		margin-top: 0em;
+    		padding: 0em;
+	}
+	.blogTile h1 {
+    		text-transform: uppercase;
+    		color: black;
+    		font-size: 1.25em;
+    		padding-top: .5em;
+    		line-height: 1em;
+    		padding-left: 0em;
+    		margin-bottom: 0em;
+    		text-transform: uppercase;
+    		font-size: 1em;
+    		margin-top: 0em;
+    		line-height: 1em;
+	}
+	.card-columns {
+		column-count: 2;
+	}
+	h1.hasColorTag.red {
+		margin-left: -3.7em;
+	}
+	.card h1 {
+		margin: .5em .4em;
+		font-size: 1.25em;
+	}
+	.blogSidebar h3 {
+		font-size: 1.5rem;
+	}
+	.blogSidebar .card p {
+		display: none;
+	}
+}
+
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+	.blogMain h1::before {
+    		left: -4.5em;
+	}
+
+	.blogTile {
+        	width: 100%;
+		margin: .4em;
+    	}
+	section.header {
+	    margin-left: 2em;
+  	    margin-right: 2em;
+	}
+	.blogSidebar .blogTile {
+    		width: 95.5%;
+	}
+	.row.container {
+    		padding: 0em;
+	}
+	.col-md-9.blogMain {
+    		padding: 0em .5em 0em 0.5em;
+	}
+	.breadcrumbs .row {
+	    margin-left: .6em;
+	}
+	a.rsvp {
+    		font-size: .75em;
+	}
+	section.blogOverview {
+	    margin-bottom: 4em;
+	}
+	h1.hasColorTag.teal {
+    		margin-left: -1.8em;
+    		margin-bottom: .5em;
+	}
+	section.breadcrumbs {
+    		padding-top: 0em;
+    		padding-left: 1em;
+	}
+	.blogSidebar .blogTile {
+    		width: 96.4%;
+	}
+	h1.hasColorTag.red {
+		margin-left: -1.75em;
+	}
+	.card-columns {
+		column-count: 1;
+	}
+	.card-columns .card {
+		width: 100% !important;
+	}
+	.container.aboutTheAuthor {
+		margin: 0em;
+	}
+	.aboutTheAuthor .row {
+		max-width: 100%;
+		margin-bottom: 4em;
+	}
+	img.headshot {
+		margin-bottom: 1rem;
+		max-width: 105%;
+		margin-bottom: 2em;
+	}
+	.col-md-3.blogSidebar {
+		margin-left: .5em;
+	}
+	.blogSidebar .card {
+		margin-right: .5em;
+	}
+	.blogSidebar .card p {
+		display: block;
+	}
+	.aboutTheAuthor .col-sm-9 {
+		padding: 0em;
+	}
+}
+
+
+@media screen and (max-width: 330px) {
+
+}

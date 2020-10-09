@@ -1,0 +1,15 @@
+<div class="card {{ include.type }}">        
+    <a href="{{ include.link }}">
+        {% assign filtered_authors = site.authors | where: 'short_name', include.author %}
+        {% for author in filtered_authors %}
+            {% assign authorLongName = author.name %}
+            {% assign authorLink = author.permalink %}
+        {% endfor %}
+        <img src="/assets/img/{{include.image}}"/>
+        <h1>{{ include.title }}</h1>
+        <a target="_blank" class="byAuthor" href="{{ authorLink }}">by {{ authorLongName }}</a>
+        <!-- <span>{{ include.date | date: "%-d %B %Y"}}</span> -->
+        <p>{{ include.summary }}</p>
+        <!-- <a class="readMoreLink" href="{{ include.link }}">Read More</a> -->
+    </a>
+</div>

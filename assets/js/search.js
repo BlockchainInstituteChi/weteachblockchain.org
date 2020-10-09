@@ -76,9 +76,15 @@ function setSearchIndex ( data ) {
                 doc.id = 'events-' + r
                 this.add(doc)
                 r++
-            }, this)
-        
+              }, this)
 
+            p = 0
+            data.posts.forEach(function (doc) {
+                doc.id = 'posts-' + p
+                this.add(doc)
+                p++
+              }, this)
+  
         })
     }
 

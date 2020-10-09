@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    {% include generalSiteHeader.html %}
+    <link rel=stylesheet href='/assets/css/blog.css' type=text/css>
+  </head>
+  <body>
+    <div class="navBarContainer">
+    	{% include navigation.html %}
+    </div>
+
+    {% include pageHeader.html 
+      img=page.banner
+    %}
+    
+    <section class="breadcrumbs container">
+      <div class="row">
+          <a href="/">Home</a> / <a href="/blog/">Blog</a> / <a href="#">{{page.title}}</a>
+      </div>
+    </section>
+    <section class="blogOverview">
+      <div class="row container">
+        <div class="col-md-9 blogMain">
+          <div class="blogBody">
+            <h1>{{ page.title }}</h1>
+            {% assign filtered_authors = site.authors | where: 'short_name', page.author %}
+            {% for contributor in filtered_authors %}
+                {% assign author = contributor %}
+            {% endfor %}
+
+            <a href="{{ author.permalink }}" class="byAuthor">by {{ author.name }}</a>
+            
+            {{ content }}
+
+            {% include aboutTheAuthor.html author=author %}
+            
+            {% include learnMoreSection.html 
+              link=page.learnMoreLink
+              text=page.learnMoreText
+              image=page.learnMoreImage
+            %}
+          </div>
+        </div>
+  
+        <div class="col-md-3 blogSidebar">
+          <h3>Recent Posts</h3>
+          {% assign sorted = site.posts | sort: 'date' | reverse %}
+          {% assign count = 0 %}
+          {% assign maxCount = 3 %}
+          {% for post in sorted %}
+              {% if post.title != page.title and count < maxCount %}
+                {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
+                {% include blogTile.html
+                  link=post.permalink 
+                  image=post.thumbnail 
+                  title=post.title 
+                  author=post.author
+                  type=post.Type
+                  summary=summary
+                %}
+                {% assign count = count | plus : 1 %}
+              {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+    </section>
+    
+    {% include pinkDivider.html %}
+
+    {% include recentCourses.html %}
+    
+    {% include footer.html %}
+    <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  </body>
+</html>

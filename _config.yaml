@@ -1,8 +1,21 @@
-collections_dir: _collections/
+
+collections_dir: all_collections
 
 future: true
 
+keep_files: ['node_modules/']
+unpublished: true
+
 collections:
+  # permalink: /:name
+  authors:
+    layout: author
+    output: true
+
+  posts:
+    layout: post
+    output: true
+
   events: 
     layout: event
     output: true  
