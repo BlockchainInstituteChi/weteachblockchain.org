@@ -1,4 +1,4 @@
-{% assign thisFactoid = site.factoids | page: {{include.page}} | sample: 1 %}
+{% assign thisFactoid = site.factoids | where: 'page', include.page | sample: 1 %}
 
 <section class="factoid"> 
     <div class="row">
