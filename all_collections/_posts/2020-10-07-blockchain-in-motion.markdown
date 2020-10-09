@@ -9,12 +9,12 @@ author: "gio"
 published: true
 permalink: /posts/10/07/blockchain-in-motion
 ---
-When we meet strangers for the first time, it is natural to have a lack of connection but through connecting on a common ground, trust becomes established. Transparency becomes the norm, and the best memories are those experiences that we can recollect and trace back with the utmost clarity, even down to those awkward and not so fun moments.
+When we meet strangers for the first time, it is natural to have a lack of connection, but through connecting on common ground, trust becomes established. Transparency becomes the norm, and the best memories are those experiences that we can recollect and trace back with the utmost clarity, even down to those awkward and not so fun moments.
 
 # Instant Recollection: Transaction Traceability, Governance Decentralization, Encrypted Security
 The best times are when a group of strangers connect, walk through a certain path together with trust, transparency, an unbreakable bond, a common ground based on everyone’s consensus, equal voices at the table, a sibling-like support system to avoid the patches, and an intuitive confidence about who you are, where you are, about the people that you are with, why you are there, and the consciousness about everything that you are doing.
 
-Blockchain provides a cryptographically secured ordering of transactions, and uses a practice known as “triple-entry accounting”. Traditionally, both the creditor and debtor each keep their own ledger of their business transactions. Blockchain transactions come with an additional public receipt that reflects this transfer of funds. Essentially, a transparent receipt with verified details is provided to the entire network.
+Blockchain provides a cryptographically secured ordering of transactions and uses a practice known as “triple-entry accounting”. Traditionally, both the creditor and debtor each keep their own ledger of their business transactions. Blockchain transactions come with an additional public receipt that reflects this transfer of funds. Essentially, a transparent receipt with verified details is provided to the entire network.
 
 {% include callouts/callout.html
     title="Centralization is everywhere- let's decentralize instead."
@@ -65,12 +65,12 @@ Every challenge at BeFaster is a Smart Contract. In the main screen you can see 
 The app explains Alex the core loop of BeFaster: that through running, users generate cryptocoins, the BFC, which can then be used in the app to compete against other users and be used as vouchers for apparels. 
 Alex agrees to get her fitness level. She fills in further user details like age, weight, apparels (shoe, shirt, shorts) size,  and running habits, and is then told that for the evaluation (coin generating process) to start, she needs to take three runs with the app. As a reward for finishing the evaluation, the app promises further Coins. Even though Alex isn’t too sure about the value of the Coins yet, she decides to use the spur of the moment and goes for a run.
 
-When starting the runtracker and putting in the probable distance she wants to run, the app asks her, if she wants to compete informally against a user in the BeFaster blockchain network. Alex is intrigued and agrees. She gets shown an anonymous user with their private profile: somebody who ran Alex’ usual course of 7 km in slightly over half an hour. Alex chooses to compete against that profile and the app asks her if she would like ‘audio prompts’ about her progress. Because she’s unfamiliar with the concept, Alex agrees.
+When starting the runtracker and putting in the probable distance she wants to run, the app asks her, if she wants to compete informally against a user in the BeFaster blockchain network. Alex is intrigued and agrees. She gets shown an anonymous user with their private profile: somebody who ran Alex’s usual course of 7 km in slightly over half an hour. Alex chooses to compete against that profile and the app asks her if she would like ‘audio prompts’ about her progress. Because she’s unfamiliar with the concept, Alex agrees.
 
 ### Off to her run.
 She usually listens to music while running and is slightly surprised when shortly after starting her run, the volume is toned down and a male voice tells her that the competing profile is 150 steps up ahead. Alex grins and picks up her pace to overtake her unknown runner.
 
-After a while, the male is back, telling her that she has indeed overtaken her anonymous rival! But this slightly faster pace than Alex is used to is taking its toll, and even though she manages to maintain her lead and ‘win’ this race, she is more exhausted than usual. But when she realizes that she got rewarded with some coins for the runs, she feels even better about her efforts. When mining  the blockchain, a mining competition occurs whereby the person who mines faster takes the mined currency of the competition. 
+After a while, the male is back, telling her that she has indeed overtaken her anonymous rival! But this slightly faster pace than Alex is used to is taking its toll, and even though she manages to maintain her lead and ‘win’ this race, she is more exhausted than usual. But when she realizes that she got rewarded with some coins for the runs, she feels even better about her efforts. When mining the blockchain, a mining competition occurs whereby the person who mines faster takes the mined currency of the competition. 
 
 The app logs the run and tells Alex that she will need to do two more runs to complete the fitness evaluation. It’s offering to set reminders in the app’s calendar, to send Alex notification so she doesn’t forget. Even though Alex has a regular running schedule and is not likely to forget, she still tries out the calendar function and sets the next two evaluation runs in two and four days. Afterwards, she closes the app and takes a shower. 
 
@@ -87,7 +87,7 @@ BeFaster.fit’s decentralized application is a good example of using blockchain
 
 If you like Alex’s experience, you can have it too by downloading the BeFaster.fit App scheduled to be released in Android Playstore and IOS Appstore near the end of 2020. You can use the App for the holidays to maintain your weight, get fit, and get gifts that your peers, friends, and family will love! In the meantime, remain eager to be faster.
 
-At its core, BeFaster is a runtracker. Users download it to go for runs, to track runs and to be reminded of runs, however, BeFaster.fit goes further than that - BeFaster offers a lifestyle application and a universe of fit-commerce in-app experiences to make running a lifestyle choice. 
+At its core, BeFaster is a runtracker. Users download it to go for runs, to track runs, and to be reminded of runs, however, BeFaster.fit goes further than that - BeFaster offers a lifestyle application and a universe of fit-commerce in-app experiences to make running a lifestyle choice. 
 
 Like, share, comment, and ignite your spark to be faster. 
  
