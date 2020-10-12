@@ -14,7 +14,7 @@ function toggleDisplayNavBox () {
 
 function toggleDisplayAccountBox () {
     console.log( 'attempting to display account box', window.innerWidth )
-
+    makeMagicHappen();
     if ( window.innerWidth > 992 ) {
         window.scrollTo(0,0)
         // console.log('toggle displayNavbOX TRIGGERED')

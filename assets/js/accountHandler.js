@@ -7,8 +7,8 @@
 //     }
 //   }, i*500)
 // }
-// window.serverUrl = "http://localhost:8888/user"
-window.serverUrl = "https://app.weteachblockchain.org/user"
+window.serverUrl = "http://localhost:8888/user"
+// window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 const renderMagic = async () => {
@@ -26,6 +26,7 @@ const renderMagic = async () => {
   `;
   if (isLoggedIn) {
     /* Get user metadata including email */
+    console.log('proceeding with login')
     const userMetadata = await magic.user.getMetadata();
     localStorage.setItem('userData', JSON.stringify(userMetadata) );
     setGravatarImageUrl( userMetadata.email )
@@ -156,7 +157,7 @@ function toggleAccountImage () {
 }
 
 const handlePageNotification = async () => {
-  // console.log('ran page load notification')
+  console.log('ran page load notification')
 
   if ( !window.lessonMap ) {
     var payload = { 
@@ -189,19 +190,20 @@ const handlePageNotification = async () => {
     .then( handleAuthErrors )
     .then( response => response.json() )
     .then((responseJSON) => {
-
+      console.log('page notification received ', responseJSON)
       setUserData(responseJSON)
 
     })
     
   } catch (err) {
-    // console.log('uncaught exception in update call', err)
+    console.log('uncaught exception in update call', err)
     // handleBadPageStatusNotification()
   }
   
 };
 
 function setUserData ( userData ) {
+  console.log('setUserData ran', userData)
   window.userData = userData
   window.localStorage.setItem( 'user', JSON.stringify(userData) )
   
