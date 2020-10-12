@@ -11,6 +11,7 @@
 window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
+console.log('setting RenderMagic')
 const renderMagic = async () => {
   console.log('magic render triggered')
   preLoadUserData()
@@ -307,5 +308,45 @@ function stopBotheringMe ( ) {
   }
   if ( window.location.href.includes( 'userProfile' ) ) {
     window.location.href = "/"
+  }
+}
+
+
+
+
+// Initializing
+var magic; 
+tryToMakeMagicHappen();
+
+function tryToMakeMagicHappen () {
+  if ( window.innerWidth > 992 ) { // only on desktop - otherwise we lazyload magic
+    for ( let i = 0; i < 10; i++ ) {
+        setTimeout(makeMagicHappen, i*1000)
+    }
+  }
+}
+
+function makeMagicHappen ( ) {
+    if ( typeof(Magic) != "undefined" ) {
+      loadAndSetupMagic()
+    } else if ( window.innerWidth < 992 ) {
+      loadAndSetupMagic()
+    }
+}
+
+function loadAndSetupMagic () {
+  console.log('window.magicLoaded', window.magicLoaded)
+  if ( !window.magicLoaded ) {
+    window.magicLoaded = true
+    console.log('window.magicloaded is !true ')
+    magic = new Magic("pk_live_EA466C1563BC5CFF");
+    console.log('about to render magic')
+    renderMagic ();
+    const checkUserData = async () => {
+        const userMetadata = await magic.user.getMetadata();
+        window.user = userMetadata
+        console.log('user:', userMetadata)
+    }
+    checkUserData();
   }
 }

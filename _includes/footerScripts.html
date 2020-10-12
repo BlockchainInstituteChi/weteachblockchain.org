@@ -2,43 +2,6 @@
 <!-- 1. Install Magic SDK -->
 <script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js" async defer></script>
 <script src="/assets/js/accountHandler.js" defer></script>
-<script defer>
-    var magic; 
-    tryToMakeMagicHappen();
-
-    function tryToMakeMagicHappen () {
-      if ( window.innerWidth > 992 ) { // only on desktop - otherwise we lazyload magic
-        for ( let i = 0; i < 10; i++ ) {
-            setTimeout(makeMagicHappen, i*1000)
-        }
-      }
-    }
-
-    function makeMagicHappen ( ) {
-        if ( typeof(Magic) != "undefined" ) {
-          loadAndSetupMagic()
-        } else if ( window.innerWidth < 992 ) {
-          loadAndSetupMagic()
-        }
-    }
-
-    function loadAndSetupMagic () {
-      console.log('window.magicLoaded', window.magicLoaded)
-      if ( !window.magicLoaded ) {
-        window.magicLoaded = true
-        console.log('window.magicloaded is !true ')
-        magic = new Magic("pk_live_EA466C1563BC5CFF");
-        console.log('about to render magic')
-        renderMagic ();
-        const checkUserData = async () => {
-            const userMetadata = await magic.user.getMetadata();
-            window.user = userMetadata
-            console.log('user:', userMetadata)
-        }
-        checkUserData();
-      }
-    }
-</script>
 <script
 src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
