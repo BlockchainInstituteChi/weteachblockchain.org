@@ -11,7 +11,7 @@ permalink: /courses/decentralized-storage/1/decentralized-storage/
 How can you regain control over our account and data? What if a hacker decides that with everyone's information stored on the same set of servers, it would be a valuable target to attack? 
 
 {% include callouts/callout.html 
-    title="What options can secentralized storage offer?"
+    title="What options can cecentralized storage offer?"
     bodyText="Most people in 2020 do not own a photo album. Instead, we trust companies like Facebook, Google, and Apple to store our most cherished memories. The promise of decentralized storage is to enable peer to peer alternatives."
 %}
 
