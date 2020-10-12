@@ -11,6 +11,7 @@
 window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
+console.log('setting RenderMagic')
 const renderMagic = async () => {
   console.log('magic render triggered')
   preLoadUserData()
@@ -26,6 +27,7 @@ const renderMagic = async () => {
   `;
   if (isLoggedIn) {
     /* Get user metadata including email */
+    console.log('proceeding with login')
     const userMetadata = await magic.user.getMetadata();
     localStorage.setItem('userData', JSON.stringify(userMetadata) );
     setGravatarImageUrl( userMetadata.email )
@@ -156,7 +158,7 @@ function toggleAccountImage () {
 }
 
 const handlePageNotification = async () => {
-  // console.log('ran page load notification')
+  console.log('ran page load notification')
 
   if ( !window.lessonMap ) {
     var payload = { 
@@ -189,19 +191,20 @@ const handlePageNotification = async () => {
     .then( handleAuthErrors )
     .then( response => response.json() )
     .then((responseJSON) => {
-
+      console.log('page notification received ', responseJSON)
       setUserData(responseJSON)
 
     })
     
   } catch (err) {
-    // console.log('uncaught exception in update call', err)
+    console.log('uncaught exception in update call', err)
     // handleBadPageStatusNotification()
   }
   
 };
 
 function setUserData ( userData ) {
+  console.log('setUserData ran', userData)
   window.userData = userData
   window.localStorage.setItem( 'user', JSON.stringify(userData) )
   
@@ -305,5 +308,45 @@ function stopBotheringMe ( ) {
   }
   if ( window.location.href.includes( 'userProfile' ) ) {
     window.location.href = "/"
+  }
+}
+
+
+
+
+// Initializing
+var magic; 
+tryToMakeMagicHappen();
+
+function tryToMakeMagicHappen () {
+  if ( window.innerWidth > 992 ) { // only on desktop - otherwise we lazyload magic
+    for ( let i = 0; i < 10; i++ ) {
+        setTimeout(makeMagicHappen, i*1000)
+    }
+  }
+}
+
+function makeMagicHappen ( ) {
+    if ( typeof(Magic) != "undefined" ) {
+      loadAndSetupMagic()
+    } else if ( window.innerWidth < 992 ) {
+      loadAndSetupMagic()
+    }
+}
+
+function loadAndSetupMagic () {
+  console.log('window.magicLoaded', window.magicLoaded)
+  if ( !window.magicLoaded ) {
+    window.magicLoaded = true
+    console.log('window.magicloaded is !true ')
+    magic = new Magic("pk_live_EA466C1563BC5CFF");
+    console.log('about to render magic')
+    renderMagic ();
+    const checkUserData = async () => {
+        const userMetadata = await magic.user.getMetadata();
+        window.user = userMetadata
+        console.log('user:', userMetadata)
+    }
+    checkUserData();
   }
 }
