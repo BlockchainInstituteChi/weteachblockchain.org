@@ -68,9 +68,9 @@ section .row {
     font-style: italic;
 }
 
-.faqTile.column {
-    width: 100%;
-    margin-left: 0em;
+.column .faqTile {
+    width: 100% !important;
+    margin-left: 0em !important;
 }
 .faqMain h1 {
     margin-top: 0.75em;

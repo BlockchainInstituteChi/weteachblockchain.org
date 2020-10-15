@@ -9,8 +9,12 @@
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-    <section class="pageHeaderImage noText" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
-    </section>
+    
+    {% include pageHeader.html 
+      img=page.image
+      imgMd=page.imageMd
+      imgSm=page.imageSm
+    %}
 
     <section class="breadcrumbs">
       <div class="row container bread">
@@ -37,18 +41,20 @@
 
         </div>
   
-        <div class="col-md-3 faqSidebar">
+        <div class="col-md-3 faqSidebar column">
           {% assign maxCount = 3 %}
           {% assign count = 0 %}
           {% for faq in site.faq %}
             {% if faq.title != page.title and count < maxCount %}
-              <div class="faqTile column"> 
-                <a href="{{ faq.permalink }}">
-                  <img src="/assets/img/{{faq.image}}"/>
-                    <h1>{{ faq.title }}</h1>
-                    <span>{{ faq.tag }}</span>
-                </a>
-              </div>
+              {% include faqTile.html 
+                image=faq.image
+                link=faq.permalink
+                title=faq.title
+                author=faq.tag
+                imageSm=faq.imageSm
+                imageMd=faq.imageMd
+                keywords=faq.focusKeyword
+              %}
               {% assign count = count | plus : 1 %}
             {% endif %}
           {% endfor %}

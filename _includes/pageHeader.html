@@ -1,5 +1,5 @@
 <section class="pageHeaderImage">
-    {% if include.img %}
+    {% if include.img and include.img != ""  %}
         <style>
             .pageHeaderImage {
                 background: url(/assets/img/{{include.img}}) !important;
@@ -8,7 +8,7 @@
             }
         </style>
     {% endif %}
-    {% if include.imgMd %}
+    {% if include.imgMd and include.imgMd != ""  %}
         <style>
             /* Bootstrap Tablet Trigger */ 
             @media screen and (max-width: 992px) {
@@ -18,7 +18,7 @@
             }
         </style>
     {% endif %}
-    {% if include.imgSm %}
+    {% if include.imgSm  and include.imgSm != "" %}
         <style>
             /* Bootstrap Tablet Trigger */ 
             @media screen and (max-width: 600px) {

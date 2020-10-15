@@ -21,7 +21,6 @@ ogUrl: https://weteachblockchain.org/
 	ctaLink="/crypto-curious/" 
 %}
 
-
 <section class="faq">
   <div class="row">
     <h1 class="redBar">Frequently Asked Questions</h1>
@@ -33,6 +32,9 @@ ogUrl: https://weteachblockchain.org/
       {% for item in faqSample limit:4 %}
         {% include faqTile.html 
           image=item.image
+          imageSm=item.imageSm
+          imageMd=item.imageMd
+          keywords=item.focusKeyword
           link=item.permalink
           title=item.title
           author=item.author
