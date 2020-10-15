@@ -2,3 +2,127 @@
 html, body {
     overflow-x:hidden;
 }
+
+.pageHeaderImage p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* BTC Explained */
+.btcExplained .col-sm-4 img {
+    width: 100%;
+    text-align: center;
+}
+.btcExplained .col-sm-4 {
+    padding: 3rem;
+}
+span.phoneQRText {
+    color: black;
+    font-size: 1.35rem;
+    width: 100%;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
+img.arrowRight {
+    position: absolute;
+    z-index: 900;
+    max-width: 7rem;
+    right: -4rem;
+    top: 10rem;
+}
+
+/* Explainer Video */
+.cccVideoPlaylist .row {
+    margin: 0;
+    width: 100vw !important;
+    max-width: unset;
+}
+.cccVideoPlaylist h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ee3f37;
+    font-weight: 700 !important;
+}
+.cccVideoPlaylist span {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000000a6;
+    width: 100%;
+    text-align: center;
+}
+.cccVideoPlaylist iframe {
+    width: 100vw;
+    min-height: 50vh;
+    margin-top: 4rem !important;
+    margin-bottom: 2rem;
+}
+.calloutQuestion h1 {
+    text-transform: uppercase;
+    color: red;
+    font-weight: 600;
+    text-align: left;
+    font-size: 3.5rem;
+    width: 100%;
+    margin-left: 6.5rem;
+}
+
+/* MoreOptions */
+.moreOptions h1 {
+    width: 100%;
+    display: block;
+    margin-top: 4rem;
+    text-transform: uppercase;
+}
+.moreOptions span {
+    font-size: 1.25rem;
+    color: black;
+}
+.moreOptions a {
+    color: #0b9ba4 !important;
+}
+.moreOptions {
+    margin-bottom: 4rem;
+}
+
+/*Do More*/
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h1 {
+    margin-bottom: 1em;
+    color: white;
+}
+section.doMore {
+    background-color: #006889;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+.doMore img {
+    margin-bottom: .5em;
+}
+
+
+.followUsFooter h1 {
+    color: red;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+}
+.followUsFooter i {
+    font-size: 2.5rem;
+    color: red;
+}
+ul.navbar-nav.flex-row {
+    margin-bottom: 4rem !important;
+    width: fit-content;
+    margin: auto;
+}

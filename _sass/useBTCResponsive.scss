@@ -5,6 +5,25 @@
 
 /* Tablet */
 @media screen and (max-width: 800px) {
+
+    section.doMore {
+        padding-right: .5em;
+        padding-left: .5em;
+    }
+    .doMore h1 {
+        margin-bottom: 1em;
+        color: white;
+        padding-left: .6em;
+    }
+    .doMore h3 {
+        margin-bottom: 2em;
+    }
+    section.doMore {
+        padding-bottom: 3.5em;
+    }
+    img.arrowRight {
+        display: none !important;
+    }
 } 
 
 /* Mobile */
