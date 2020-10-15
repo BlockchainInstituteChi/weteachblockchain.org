@@ -4,7 +4,7 @@ image: qrcode_ccc.jpg
 permalink: /faq/what-are-qr-codes/
 layout: faq
 tag: CONCEPTS
-focus keyword: QR Code
+focusKeyword: QR Code
 learnMoreLink: /courses/blockchain-for-business/
 learnMoreText: Our Blockchain For Business Course
 learnMoreImage: BlockchainforBusiness.jpg
