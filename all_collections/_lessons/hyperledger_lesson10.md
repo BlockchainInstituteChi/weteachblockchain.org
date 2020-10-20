@@ -17,7 +17,7 @@ Before we move on to interactions with the ledger, it will help to review how th
 
 <h4>Querying the ledger</h4>
 
-When a client queries a Hyperledger node, the state object is returned as the consensus at that time. In section 1 we covered the <a href="https://staging.weteachblockchain.org/courses/hyperledger/1/hyperledger-architecture/">transaction flow</a> in greater detail, but we'll now see how the query object is generated and passed to the network endpoint / SDK.
+When a client queries a Hyperledger node, the state object is returned as the consensus at that time. In section 1 we covered the <a href="/courses/hyperledger/1/hyperledger-architecture/">transaction flow</a> in greater detail, but we'll now see how the query object is generated and passed to the network endpoint / SDK.
 
 {% include callouts/callout.html
     title="Connecting to the Peer SDK"

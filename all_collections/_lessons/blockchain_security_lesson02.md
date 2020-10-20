@@ -27,4 +27,4 @@ Regardless of which blockchain you use, there's no way to avoid key management c
 
 This may seem complicated, but don't worry. In the following lessons, we'll expand on how wallet systems can be used to store your keys, and how you can stay safe while using these emerging technologies.
 
-<em>More information is available about <a href="https://staging.weteachblockchain.org/courses/blockchain-101/02/asymmetric-encryption">Public Key Cryptography</a> in the Blockchain 101 Course.</em>
+<em>More information is available about <a href="/courses/blockchain-101/02/asymmetric-encryption">Public Key Cryptography</a> in the Blockchain 101 Course.</em>

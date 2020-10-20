@@ -69,7 +69,7 @@ To build the site locally, you must first clone the github repo, and then instal
 
 ```
 # clone the repo
-git clone git@github.com:BlockchainInstituteChi/wtb_staging.git
+git clone git@github.com:BlockchainInstituteChi/weteachblockchain.org.git
 
 # enter the directory
 cd wtb_staging
