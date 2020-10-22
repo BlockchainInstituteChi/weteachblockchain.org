@@ -8,6 +8,9 @@ banner: "BeFaster.jpg"
 author: "gio"
 published: true
 permalink: /posts/10/07/blockchain-in-motion
+learnMoreLink: /ambassadors/
+learnMoreText: and apply on our Ambassador Portal
+learnMoreImage: AmbassadorsNewsletterImage.jpg
 ---
 When we meet strangers for the first time, it is natural to have a lack of connection, but through connecting on common ground, trust becomes established. Transparency becomes the norm, and the best memories are those experiences that we can recollect and trace back with the utmost clarity, even down to those awkward and not so fun moments.
 

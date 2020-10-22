@@ -8,6 +8,9 @@ banner: authors/TBI_blogauthorheader.jpg
 author: "clayton"
 published: true
 permalink: /posts/10/22/pickles-defi-and-transparency
+learnMoreLink: /decentralized-finance-course/
+learnMoreText: and RSVP for our DeFi course
+learnMoreImage: DEFI_title_wide.jpg
 ---
 <h2>Are you full of $Sushi and $Kimchi? Did that $Hotdog make you sick? </h2>
 
