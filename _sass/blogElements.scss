@@ -365,3 +365,12 @@ section.pageHeaderImage .row {
 span.quoteBody::before, span.quoteBody::after {
     display: none;
 }
+
+// blogBody styling updates:
+.blogBody h4 {
+    margin-left: 0;
+}
+.blogBody {
+    color: black;
+}
+

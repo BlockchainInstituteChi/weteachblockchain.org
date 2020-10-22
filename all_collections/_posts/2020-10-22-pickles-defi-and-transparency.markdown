@@ -48,10 +48,14 @@ Here’s the problem: this exciting space cannot grow sustainably on the backs o
 	bodyText="Pickle source code (via Github)"
 %}
 
-<h1>Understanding how DeFi projects work is hard work for a newcomer. <h1>
-
+<h1>Understanding how DeFi projects work is hard work for a newcomer. </h1>
 <h4>Here’s the game, in a nut shell:</h4> 
-Earn $PICKLE by staking stablecoin and ethereum pairs within Uniswap liquidity pools. Make sure you’re picking the optimal pool, because $PICKLE distributes based on a stablecoin moving above or below it’s $1 target. Above-peg, less $PICKLE. If USDT is at $1.01, be ready to allocate to USDC at its price of $0.99, since it having below-peg status translates to more $PICKLE. Competitive participants will actively chase the highest yield, and in doing so, regulate the prices of these stablecoins (natural result of supply and demand economics). In theory, this helps to stabilize the rest of the DeFi ecosystem, as stablecoins on other DeFi protocols move off-peg due to large volume moving in and out of numerous projects. This is because sophisticated DeFi participants move money between many projects in order to chase profits. And let’s not forget about Pickle’s vaults, or “pJars”. It’s simple enough: deposit your Pickle rewards earned from staking stablecoins, into the pJar of your choosing. Each pJar is designed to earn you even more money through alpha-seeking strategies that have been encoded into the pJar’s smart contract. Consider the “Leveraged-Short DAI pJar”. Or perhaps you prefer the “pJar 0 - sCRV”? You’re placing funds into what is essentially a hedge fund strategy, programmed into a smart contract, which was definitely not audited when it launched. Got all that? 
+Earn $PICKLE by staking stablecoin and ethereum pairs within Uniswap liquidity pools. Make sure you’re picking the optimal pool, because $PICKLE distributes based on a stablecoin moving above or below it’s $1 target. Above-peg, less $PICKLE. If USDT is at $1.01, be ready to allocate to USDC at its price of $0.99, since it having below-peg status translates to more $PICKLE. Competitive participants will actively chase the highest yield, and in doing so, regulate the prices of these stablecoins (natural result of supply and demand economics). 
+
+In theory, this helps to stabilize the rest of the DeFi ecosystem, as stablecoins on other DeFi protocols move off-peg due to large volume moving in and out of numerous projects. This is because sophisticated DeFi participants move money between many projects in order to chase profits. And let’s not forget about Pickle’s vaults, or “pJars”. It’s simple enough: deposit your Pickle rewards earned from staking stablecoins, into the pJar of your choosing. Each pJar is designed to earn you even more money through alpha-seeking strategies that have been encoded into the pJar’s smart contract. Consider the “Leveraged-Short DAI pJar”. Or perhaps you prefer the “pJar 0 - sCRV”? 
+
+<b>In Summary:</b> You’re placing funds into what is essentially a hedge fund strategy, programmed into a smart contract, which was definitely not audited when it launched. Got all that? 
+
 
 {% include callouts/imageWithCaption.html
 	image="pickleDiagram.png"
