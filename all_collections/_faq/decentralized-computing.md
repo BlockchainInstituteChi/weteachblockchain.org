@@ -1,6 +1,7 @@
 ---
 title: What is Decentralized Computing?
 image: decentralized_computing_open.jpg
+ogImage: decentralized_computing_open.jpg
 permalink: /faq/decentralized-computing/
 layout: faq
 learnMoreLink: /courses/decentralized-storage/

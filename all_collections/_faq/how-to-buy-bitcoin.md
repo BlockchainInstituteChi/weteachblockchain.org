@@ -1,6 +1,7 @@
 ---
 title: How To Buy Bitcoin
 image: HowToBuyFAQ.jpg
+ogImage: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
 tag: CONCEPTS

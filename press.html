@@ -3,6 +3,7 @@ layout: default
 title: Press
 stylesheet: pressReleases.css
 permalink: /press-releases/
+ogImage: Press-01.jpg
 ---
 
 
@@ -18,19 +19,19 @@ permalink: /press-releases/
 
 <section class="pressReleases">
     <div class="row">
-            
-		{% assign sorted = site.pressReleases | sort: 'date' | reverse %}
+
+        {% assign sorted = site.pressReleases | sort: 'date' | reverse %}
         {% for item in sorted %}
-            {% include pressRelease.html 
+        {% include pressRelease.html 
                 date=item.eventdate 
                 content=item.content 
                 title=item.title    
 	        image=item.image
             %}
-            
+
         {% endfor %}
-     
-	</div>
+
+    </div>
 
 </section>
 

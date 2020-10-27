@@ -1,6 +1,7 @@
 ---
 title: What are QR Codes?
 image: qrcode_ccc.jpg
+ogImage: qrcode_ccc.jpg
 permalink: /faq/what-are-qr-codes/
 layout: faq
 tag: CONCEPTS

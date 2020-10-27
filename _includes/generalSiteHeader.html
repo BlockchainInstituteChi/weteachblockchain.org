@@ -5,19 +5,25 @@
   rel="preload" as="style">
 <meta name="og:title" content="{{ page.ogTitle }}">
 <meta name="og:description" content="{{ page.ogDesc }}">
+{% if page.ogImage %}
 <meta name="og:image" content="https://weteachblockchain.org/assets/img/{{ page.ogImage }}">
+<meta property="og:image" content="https://weteachblockchain.org/assets/img/{{ page.ogImage }}">
+<meta name="twitter:image" content="https://weteachblockchain.org/assets/img/{{ page.ogImage }}">
+{% else %}
+<meta name="og:image" content="https://weteachblockchain.org/assets/img/{{ page.image }}">
+<meta property="og:image" content="https://weteachblockchain.org/assets/img/{{ page.image }}">
+<meta name="twitter:image" content="https://weteachblockchain.org/assets/img/{{ page.image }}">
+{% endif %}
 <meta name="og:url" content="{{ page.ogUrl }}">
 <meta name="og:url" content="{{ page.ogUrl }}">
 <meta name="og:type" content="website">
 <meta property="og:title" content="{{ page.ogTitle }}">
 <meta property="og:description" content="{{ page.ogDesc }}">
-<meta property="og:image" content="https://weteachblockchain.org/assets/img/{{ page.ogImage }}">
 <meta property="og:url" content="{{ page.ogUrl }}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ page.ogTitle }}">
 <meta name="twitter:description" content="{{ page.ogDesc }}">
-<meta name="twitter:image" content="https://weteachblockchain.org/assets/img/{{ page.ogImage }}">
 <meta name="twitter:creator" content="@bchaininstitute">
 {% include icons.html %}
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" onload="this.rel='stylesheet'"

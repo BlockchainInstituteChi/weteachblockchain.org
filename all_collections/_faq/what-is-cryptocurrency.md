@@ -1,6 +1,7 @@
 ---
 title: What is Cryptocurrency?
 image: Crypto2.jpg
+ogImage: Crypto2.jpg
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
 tag: CONCEPTS
