@@ -1,6 +1,7 @@
 ---
 title: What is Decentralization?
 image: Decent2.jpg
+ogImage: Decent2.jpg
 permalink: /faq/what-is-decentralization/
 layout: faq
 tag: CONCEPTS

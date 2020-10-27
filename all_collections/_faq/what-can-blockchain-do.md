@@ -1,6 +1,7 @@
 ---
 title: What Can Blockchain Do?
 image: RealWorld.jpg
+ogImage: RealWorld.jpg
 permalink: /faq/what-can-blockchain-do/
 layout: faq
 tag: APPLICATIONS

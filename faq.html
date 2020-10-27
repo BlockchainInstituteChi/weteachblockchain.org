@@ -3,6 +3,7 @@ layout: default
 title: Frequently Asked Questions
 stylesheet: faq.css
 permalink: /faq/
+ogImage: FAQ-banner.jpg
 ---
 
 {% include pageHeader.html 
@@ -20,7 +21,7 @@ permalink: /faq/
 	<div class="row">
 		{% assign faqs = site.faq | sort: 'weight' %}
 		{% for item in faqs  %}
-			{% include faqTile.html 
+		{% include faqTile.html 
 				image=item.image
 				link=item.permalink
 				title=item.title
@@ -32,4 +33,3 @@ permalink: /faq/
 		{% endfor %}
 	</div>
 </section>
-

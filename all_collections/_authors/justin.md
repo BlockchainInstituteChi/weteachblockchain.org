@@ -7,6 +7,7 @@ permalink: "/contributors/justin/"
 headshot: authors/Justin.jpg
 banner: authors/JustinWIDE.jpg
 layout: author
+ogImage: authors/JustinWIDE.jpg
 ---
 Growth is the truth of serenity, and of us.
 By summoning, we exist. You and I are starseeds of the quantum matrix.

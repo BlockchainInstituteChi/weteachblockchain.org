@@ -3,6 +3,7 @@ layout: default
 title: Beginner Courses
 stylesheet: courses.css
 permalink: /courses/beginners/
+ogImage: Beginners-Banner.jpg
 ---
 
 {% include pageHeader.html 
@@ -26,9 +27,9 @@ permalink: /courses/beginners/
 <section class="coursesList coursePathHeader">
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'title' %}
-    {% for course in sorted %}
-		{% if course.tags contains "beginner" %}
-			{% include courseListing.html 
+	{% for course in sorted %}
+	{% if course.tags contains "beginner" %}
+	{% include courseListing.html 
 				image=course.image
 				title=course.title 
 				author=course.author 
@@ -37,7 +38,7 @@ permalink: /courses/beginners/
 				tag="beginner"
 				slug=course.slug
 			%}
-		{% endif %}
+	{% endif %}
 	{% endfor %}
 </section>
 
@@ -63,9 +64,9 @@ permalink: /courses/beginners/
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Professionals</h5>
 			</a>
-			
+
 		</div>
-		
+
 	</div>
 </section>
 

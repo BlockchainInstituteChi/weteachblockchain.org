@@ -3,6 +3,7 @@ layout: default
 title: Developer Courses
 stylesheet: courses.css
 permalink: /courses/developers/
+ogImage: Developers-Banner.jpg
 ---
 
 {% include pageHeader.html 
@@ -29,10 +30,10 @@ permalink: /courses/developers/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-	
-		{% if course.tags contains "developer" %}
 
-			{% include courseListing.html 
+	{% if course.tags contains "developer" %}
+
+	{% include courseListing.html 
 				image=course.image
 				title=course.title 
 				author=course.author 
@@ -41,7 +42,7 @@ permalink: /courses/developers/
 				tag="developer"
 				slug=course.slug
 			%}
-		{% endif %}
+	{% endif %}
 	{% endfor %}
 </section>
 
@@ -67,9 +68,9 @@ permalink: /courses/developers/
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Professionals</h5>
 			</a>
-			
+
 		</div>
-		
+
 	</div>
 </section>
 

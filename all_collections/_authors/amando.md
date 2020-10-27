@@ -7,6 +7,7 @@ permalink: "/contributors/amando/"
 headshot: authors/Amando_square.jpg
 banner: authors/Amando.jpg
 layout: author
+ogImage: authors/Amando.jpg
 ---
 Collective imagination is something I see as essential to the human experience. After all, we humans are equally imaginative, creative, and social. We want to explore and discover, but we want to do it together.
 

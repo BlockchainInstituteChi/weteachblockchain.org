@@ -3,6 +3,7 @@ layout: default
 title: Contact Us
 stylesheet: contact.css
 permalink: /contact-us/
+ogImage: Contact-Banner.jpg
 ---
 
 
@@ -10,29 +11,29 @@ permalink: /contact-us/
 {% include pageHeader.html img="Contact-Banner.jpg" %}
 
 <section class="header">
-    <div class="row">
+	<div class="row">
 		<div class="col-sm-6">
 			<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
 				<img src="/assets/img/map.jpg">
 			</a>
 			<div class="locationDetails">
 				<span>
-					<strong>Address:</strong> 
+					<strong>Address:</strong>
 					<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
 						4649 North Broadway Ave. Chicago, IL 60640 (Click Here)
 					</a>
 				</span>
 				<span>
-					<strong>Email:</strong>  
+					<strong>Email:</strong>
 					<a href="mailto:info@weteachblockchain.org" target="_blank">
 						info@weteachblockchain.org
 					</a>
 				</span>
 			</div>
-			
-			
-        </div>
-        <div class="col-sm-6 contactUsForm">
+
+
+		</div>
+		<div class="col-sm-6 contactUsForm">
 			<h1>Leave a Message</h1>
 			<span class="errorField"></span>
 			<input type="text" placeholder="Name" id="contactUsName">
@@ -43,7 +44,7 @@ permalink: /contact-us/
 			<div class="h-captcha" data-sitekey="3fe93b4a-9521-4c22-a75e-7a573781f75f"></div>
 			<button onclick="submitContactUsForm()">Submit</button>
 		</div>
-    </div>
+	</div>
 </section>
 
 <script src="https://hcaptcha.com/1/api.js" async defer></script>
@@ -51,29 +52,29 @@ permalink: /contact-us/
 <script>
 	function submitContactUsForm() {
 		var formDetails = {
-			name : document.getElementById('contactUsName').value,
-			email : document.getElementById('contactUsEmail').value,
-			subject : document.getElementById('contactUsSubject').value,
-			message : document.getElementById('contactUsMessageBody').value,
-			token : hcaptcha.getResponse(),
-			ambassador : false
+			name: document.getElementById('contactUsName').value,
+			email: document.getElementById('contactUsEmail').value,
+			subject: document.getElementById('contactUsSubject').value,
+			message: document.getElementById('contactUsMessageBody').value,
+			token: hcaptcha.getResponse(),
+			ambassador: false
 		}
 
 		// console.log('formDetails', formDetails)
-		if ( ( formDetails.name == "" ) || ( formDetails.email == "" ) || ( formDetails.subject == "" ) || ( formDetails.message == "" ) ) return handleError ('You must fill all fields to submit the form.')
-		if ( !validateEmail(formDetails.email) ) return handleError('You must submit a valid email.')
-		if ( ( !formDetails.token ) || ( "" == formDetails.token ) ) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
-		
+		if ((formDetails.name == "") || (formDetails.email == "") || (formDetails.subject == "") || (formDetails.message == "")) return handleError('You must fill all fields to submit the form.')
+		if (!validateEmail(formDetails.email)) return handleError('You must submit a valid email.')
+		if ((!formDetails.token) || ("" == formDetails.token)) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
+
 		var xhr = new XMLHttpRequest();
 		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
 		// xhr.open("POST", "http://localhost:8888/contact/", true);
-		xhr.onreadystatechange = function() { 
-        if (xhr.readyState == 4 && xhr.status == 200)
-			// console.log('xhr response:', xhr.responseText)
-			var response = JSON.parse(xhr.responseText)
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200)
+				// console.log('xhr response:', xhr.responseText)
+				var response = JSON.parse(xhr.responseText)
 			if (response.success) {
 				handleSuccess("Your Message has been submitted!");
-				setTimeout ( function () {
+				setTimeout(function () {
 					window.location = "/"
 				}, 3000)
 			} else {
@@ -89,28 +90,28 @@ permalink: /contact-us/
 		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 		return re.test(String(email).toLowerCase());
 	}
-	function handleError ( error ) {
+	function handleError(error) {
 		var errorContainer = document.getElementsByClassName('errorField')[0];
-			errorContainer.textContent = error;
+		errorContainer.textContent = error;
 	}
-	function handleSuccess ( successMessage ) {
+	function handleSuccess(successMessage) {
 		var fieldContainer = document.getElementsByClassName('contactUsForm')[0]
-		
+
 		var container = document.createElement('div')
-			container.className = 'successMessage'
+		container.className = 'successMessage'
 
 		var span = document.createElement('span')
-			span.textContent = successMessage
+		span.textContent = successMessage
 
 		var icon = document.createElement('i')
-			icon.className = "fas fa-check-circle"
+		icon.className = "fas fa-check-circle"
 
 		container.appendChild(icon)
 		container.appendChild(span)
 
 		do {
 			fieldContainer.children[0].remove()
-		} while ( fieldContainer.children.length > 0 )
+		} while (fieldContainer.children.length > 0)
 
 		fieldContainer.appendChild(container)
 

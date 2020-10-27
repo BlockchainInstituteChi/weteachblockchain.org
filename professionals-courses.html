@@ -3,6 +3,7 @@ layout: default
 title: Developer Courses
 stylesheet: courses.css
 permalink: /courses/professionals/
+ogImage: Professionals-Banner.jpg
 ---
 
 {% include pageHeader.html 
@@ -29,10 +30,10 @@ permalink: /courses/professionals/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-	
-		{% if course.tags contains "professional" %}
 
-			{% include courseListing.html 
+	{% if course.tags contains "professional" %}
+
+	{% include courseListing.html 
 				image=course.image
 				title=course.title 
 				author=course.author 
@@ -41,7 +42,7 @@ permalink: /courses/professionals/
 				tag="professional"
 				slug=course.slug
 			%}
-		{% endif %}
+	{% endif %}
 	{% endfor %}
 </section>
 
@@ -69,7 +70,7 @@ permalink: /courses/professionals/
 			</a>
 
 		</div>
-		
+
 	</div>
 </section>
 

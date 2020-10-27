@@ -3,6 +3,7 @@ layout: default
 title: Events
 stylesheet: events.css
 permalink: /events/
+ogImage: Events-Banner.jpg
 ---
 
 {% include pageHeader.html 
@@ -16,8 +17,8 @@ permalink: /events/
 <script>
 	setTimeout(checkEventType, 1000);
 	setTimeout(setEventClickListener, 1000);
-	
-	function setEventClickListener () {
+
+	function setEventClickListener() {
 		var eventsButtons = document.getElementsByClassName('eventsNav')
 		for (button of eventsButtons) {
 			button.addEventListener('click', function () {
@@ -27,31 +28,31 @@ permalink: /events/
 		}
 	}
 
-	function checkEventType () { 
+	function checkEventType() {
 		var currentUrlParts = window.location.href.split('/');
 		var searchString = "";
-	
+
 		// first, remove slashes and header elements
-		for ( var x = 4; x < currentUrlParts.length; x++ ) {
+		for (var x = 4; x < currentUrlParts.length; x++) {
 			searchString += " " + decodeURIComponent(currentUrlParts[x])
 		}
 		searchString.replace(/[^a-zA-Z ]/g, "")
 
-		if ( "#Community" == searchString.trim() ) {
+		if ("#Community" == searchString.trim()) {
 			filterEvents('Community')
-		} else if ( "#Classroom" == searchString.trim() ) {
+		} else if ("#Classroom" == searchString.trim()) {
 			filterEvents('Classroom')
 		} else {
 			// no events filter specified
 		}
-	
+
 	}
-	
+
 	function filterEvents(type) {
 		var events = document.getElementsByClassName('eventTile')
 		for (e of events) {
-			if ( e.className.includes(type) ) {
-	
+			if (e.className.includes(type)) {
+
 			} else {
 				e.className = e.className + " d-none"
 			}
@@ -59,31 +60,40 @@ permalink: /events/
 		setFilterMessage(type)
 	}
 
-	function clearEventFilters () {
+	function clearEventFilters() {
 		var eventTiles = document.getElementsByClassName('eventTile')
-		for ( e of eventTiles ) {
+		for (e of eventTiles) {
 			e.className = e.className.split('d-none').join(' ')
 		}
 		unsetFilterMessage()
 	}
 
-	function setFilterMessage (type) {
-		document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className.replace('d-none','')
+	function setFilterMessage(type) {
+		document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className.replace('d-none', '')
 		document.getElementsByClassName('eventFilter')[0].textContent = type
 	}
 
-	function unsetFilterMessage () {
-		if ( !document.getElementsByClassName('eventFilterNotification')[0].className.includes('d-none') ) {
+	function unsetFilterMessage() {
+		if (!document.getElementsByClassName('eventFilterNotification')[0].className.includes('d-none')) {
 			document.getElementsByClassName('eventFilterNotification')[0].className = document.getElementsByClassName('eventFilterNotification')[0].className + ' d-none'
 			document.getElementsByClassName('eventFilter')[0].textContent = ""
 		}
-	}	
+	}
 
 </script>
 
 
 <section class="header">
-	<p>Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink" href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener" data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink" href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener" data-ce-key="817">The Voice of Blockchain Conference</a>, and online resources like&nbsp;<a class="externaLink" href="https://blockchain.wtf/" target="_blank" rel="noopener">Blockchain.wtf!</a>&nbsp;Get in touch with us about sponsorships, speakers, or running a workshop for your next event. In need of space? Our headquarters at the&nbsp;<a class="externaLink" href="https://hackha.us/" target="_blank" rel="noopener">HackHaus</a>&nbsp;in Chicago provides an environment for a wide range of activities.</p>
+	<p>Blockchain Institute is a proud sponsor of educational endeavors such as&nbsp;<a class="externaLink"
+			href="https://www.meetup.com/Bitcoin-Open-Blockchain-Community-Chicago/" target="_blank" rel="noopener"
+			data-ce-key="816">The Chicago Bitcoin and Open Blockchain Meetup</a>,&nbsp;<a class="externaLink"
+			href="http://chicagoblockchainproject.com/voice-of-blockchain/" target="_blank" rel="noopener"
+			data-ce-key="817">The Voice of Blockchain Conference</a>, and online resources like&nbsp;<a
+			class="externaLink" href="https://blockchain.wtf/" target="_blank"
+			rel="noopener">Blockchain.wtf!</a>&nbsp;Get in touch with us about sponsorships, speakers, or running a
+		workshop for your next event. In need of space? Our headquarters at the&nbsp;<a class="externaLink"
+			href="https://hackha.us/" target="_blank" rel="noopener">HackHaus</a>&nbsp;in Chicago provides an
+		environment for a wide range of activities.</p>
 	<a onclick="clearEventFilters()">
 		<span class="eventFilterNotification d-none">
 			Filter Applied: <strong class="eventFilter"></strong> (click to clear)
@@ -95,20 +105,20 @@ permalink: /events/
 {% assign futureposts = 0 %}
 
 {% for event in sorted %}
-	{% if event.date > site.time  %}
-		{% assign futureposts = futureposts | plus:1 %}
-	{% endif %}
+{% if event.date > site.time  %}
+{% assign futureposts = futureposts | plus:1 %}
+{% endif %}
 {% endfor %}
 
-{% if futureposts > 0 %} 
+{% if futureposts > 0 %}
 
 <section class="eventsList upcoming">
 	<h1 class="hasColorTag red">Upcoming Events</h1>
 	<div class="row">
 		{% for event in sorted %}
-	
-			{% if event.date > site.time  %}
-				{% include eventTile.html
+
+		{% if event.date > site.time  %}
+		{% include eventTile.html
 					link=event.permalink 
 					image=event.image 
 					title=event.title 
@@ -116,7 +126,7 @@ permalink: /events/
 					type=event.eventType
 				%}
 
-			{% endif %}
+		{% endif %}
 		{% endfor %}
 	</div>
 </section>
@@ -127,18 +137,18 @@ permalink: /events/
 	<h1 class="hasColorTag teal">Past Events</h1>
 	<div class="row">
 		{% for event in sorted %}
-			{% if event.date < site.time  %}
-				{% include eventTile.html
+		{% if event.date < site.time  %}
+		{% include eventTile.html
 					link=event.permalink 
 					image=event.image 
 					title=event.title 
 					date=event.eventdate
 					type=event.eventType
 				%}
-			{% endif %}
+		{% endif %}
 		{% endfor %}
 	</div>
-	
+
 </section>
 
 {% include pinkDivider.html %}
