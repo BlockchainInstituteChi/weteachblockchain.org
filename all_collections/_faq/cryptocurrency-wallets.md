@@ -16,15 +16,22 @@ weight: 4
 
 <h2>Which cryptocurrency wallet is right for me?</h2>
 <span>There are many different options when it comes to cryptocurrency wallets. Some are specific to certain tokens, but many have multi-token support, allowing you to keep many different cryptocurrencies in one place.</span>
+
 <span>There are a couple of general classifications when it comes to crypto wallets. The first is what does the user intend to be the primary function of their wallet. For different people, there are going to be different answers.</span>
+
 <span>Some people want their cryptocurrency wallets to be part of their everyday spending. While these people obviously want their funds to be secure, they also don't want to have to jump through hoops every time they are conducting a crypto transaction. These individuals prefer “hot wallets”, which prioritize transactability, or the ease of conducting a transaction. Others simply want to use their wallet as secure storage for their crypto. These individuals tend to use “cold wallets” with the main goal is to keep funds as secure as possible, even if it makes sending and receiving crypto slightly more difficult.</span>
+
 <span>Again, this choice is different for each user, and many decide to use multiple wallets for maximum functionality and security. Once you have decided what you are going to use your crypto wallet for (saving or spending), another choice has to be made. What type of wallet application or interface should you use?</span>
 
 <h2>Even More Choices</h2>
 <h3>Hardware Wallets</h3>
 <span>Hardware wallets are physical devices that provide a secure option for storing cryptocurrency.</span>
-<img src="/assets/img/hardware_wallet_examples.png">
-<span>These wallets are designed to keep your private keys from ever being exposed via the internet. They are usually fairly small but come in different shapes and sizes. Hardware wallets are an example of cold storage, as they are designed for maximum security, even if that means sacrificing some transactability. They do everything they can to make sure your private keys, your crypto master password, never gets exposed.</span>
+{% include callouts/imageWithTextCallout.html 
+    title="Examples of Hardware Wallets"
+    image="hardware_wallet_examples.png"
+    bodyText="These wallets are designed to keep your private keys from ever being exposed via the internet. They are usually fairly small but come in different shapes and sizes."
+%}
+<span>Hardware wallets are an example of cold storage, as they are designed for maximum security, even if that means sacrificing some transactability. They do everything they can to make sure your private keys, your crypto master password, never gets exposed.</span>
 <h3>Software Wallets</h3>
 <span>Software wallets are free, downloadable software that you can use as your cryptocurrency wallet. You are provided a key-pair upon download. These hot wallets are great for transactability and everyday spending. You're even able to download a cryptocurrency wallet to your mobile phone!</span>
 <h3>Web Wallets</h3>
@@ -37,4 +44,5 @@ weight: 4
 <h3>Paper Wallets</h3>
 <span>Paper wallets are a piece of paper containing both a public and private key and often a QR code for each key. The public key acts as a means to deposit, while the private key is needed to spend, or withdraw, the funds. Paper wallets are the ultimate example of a cold wallet, as the funds are essentially taken off-line. The only way to access these funds is to restore them onto another wallet.</span>
 <span>This is the most secure way to store cryptocurrency. No one can get access to your cryptocurrency unless your private keys have been compromised. However, if you lose your paper wallet, those funds are lost as well, as the private key cannot be recovered.</span>
+
 <img src="/assets/img/paper_wallets.png">
