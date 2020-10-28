@@ -1,6 +1,6 @@
 ---
 title: Cryptocurrency Wallets
-image: software_wallets.png
+image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
