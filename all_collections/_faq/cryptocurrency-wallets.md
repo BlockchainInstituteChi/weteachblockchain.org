@@ -4,13 +4,13 @@ image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
-focusKeyword: < The search term that you want the post to rank for most>
-imageSm: < optional - the name of a smaller image for mobile- should be same as image above but with _sm as a suffix before file ending>
-imageMd: < optional - the name of a medium image for mobile- should be same as image above but with _md_ as a suffix before file ending>
+focusKeyword: what are cryptocurrency wallets, cryptocurrency wallet, hot wallets, cold wallets, software wallets, paper wallets, hardware wallets, store cryptocurrency, blockchain education
+imageSm: Wallets_sm.jpg
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
-weight: 4
+weight: 3
+sticky: true
 ---
 <h2>How Do You Securely Store Your Cryptocurrency?</h2>
 <span>One of the most important aspects of holding <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> is keeping it secure. So where do you keep your cryptocurrency? In a wallet, of course. Not a physical wallet, but a digital one. Cryptocurrency wallets are designed to securely “hold” cryptocurrency. Cryptocurrency does not exist in wallets, but rather lives only on the <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a>. While the cryptocurrency is not technically stored in these wallets, they utilize a set of keys in order to allow you, and only you, to securely manage your cryptocurrency.</span>
