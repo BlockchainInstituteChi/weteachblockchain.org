@@ -4,8 +4,7 @@ image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
-focusKeyword: what are cryptocurrency wallets, cryptocurrency wallet, hot wallets, cold wallets, software wallets, paper wallets, hardware wallets, store cryptocurrency, blockchain education
-imageSm: Wallets_sm.jpg
+focusKeyword: 
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
