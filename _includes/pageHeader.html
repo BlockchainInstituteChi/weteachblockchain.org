@@ -1,41 +1,45 @@
 <section class="pageHeaderImage">
     {% if include.img %}
-        <style>
-            .pageHeaderImage {
-                background: url(/assets/img/{{include.img}}) !important;
-                background-size: cover !important;
-                background-position:center !important;
-            }
-        </style>
+    <style>
+        .pageHeaderImage {
+            background: url(/assets/img/{{include.img}}) !important;
+            background-size: cover !important;
+            background-position: center !important;
+        }
+    </style>
     {% endif %}
     {% if include.imgMd %}
-        <style>
-            /* Bootstrap Tablet Trigger */ 
-            @media screen and (max-width: 992px) {
-                .pageHeaderImage {
-                    background: url(/assets/img/{{include.imgMd}}) !important;
-                }
+    <style>
+        /* Bootstrap Tablet Trigger */
+        @media screen and (max-width: 992px) {
+            .pageHeaderImage {
+                background: url(/assets/img/{{include.imgMd}}) !important;
+                background-position: center !important;
+                background-size: cover !important;
             }
-        </style>
+        }
+    </style>
     {% endif %}
     {% if include.imgSm %}
-        <style>
-            /* Bootstrap Tablet Trigger */ 
-            @media screen and (max-width: 600px) {
-                .pageHeaderImage {
-                    background: url(/assets/img/{{include.imgSm}}) !important;
-                }
+    <style>
+        /* Bootstrap Tablet Trigger */
+        @media screen and (max-width: 600px) {
+            .pageHeaderImage {
+                background: url(/assets/img/{{include.imgSm}}) !important;
+                background-position: center !important;
+                background-size: cover !important;
             }
-        </style>
-    {% endif %}    
-    
+        }
+    </style>
+    {% endif %}
+
     {% if include.header %}
     <div class="row">
         <div class="col-sm-6">
             <h1>{{ include.header }}</h1>
             <p>{{ include.text }}</p>
             {% if include.ctaText %}
-                <a href="{{ include.ctaLink }}" class="callToActionButton">{{ include.ctaText }}</a>
+            <a href="{{ include.ctaLink }}" class="callToActionButton">{{ include.ctaText }}</a>
             {% endif %}
         </div>
     </div>

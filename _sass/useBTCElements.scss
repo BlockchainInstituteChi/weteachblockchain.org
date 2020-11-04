@@ -126,3 +126,64 @@ ul.navbar-nav.flex-row {
     width: fit-content;
     margin: auto;
 }
+
+.mobilePhonesSlider {
+    display: none;
+}
+section.youMadeIT {
+    font-size: 1.25rem;
+    text-align: center;
+    font-style: italic;
+}
+section.youMadeIT span {
+    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+    display: block;
+}
+.purpleStrong {
+    color: purple;
+}
+.btcExplained span {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+// @jason - TODO: once this is complete, let's migrate it to main.css so it takes effect sitewide.
+// There seem to be some issues with the color tags on mobile
+h1.hasColorTag.red {
+    max-width: 100%;
+    text-indent: -4rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.navButtons {
+    display: none;
+}
+
+// Header button
+a.quickNav {
+    color: white;
+    font-size: 2.5rem;
+}
+
+// Slider (hidden on desktop)
+.mpSlider {
+    display: none;
+}
+.mpSlider.shown {
+    display: block;
+}
+.row.container.mobilePhonesSlider {
+    min-height: 50vh;
+    background: white;
+}
+.calloutQuestion h1 {
+    margin-left: 0;
+    margin-right: 1rem;
+    display: block;
+    max-width: 95vw;
+}
+section.followUsFooter {
+    text-align: center;
+}

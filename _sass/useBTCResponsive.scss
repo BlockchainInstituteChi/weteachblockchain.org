@@ -1,11 +1,16 @@
 /* Desktop */
 @media screen and (max-width: 1000px) {
-
+    
 }
 
 /* Tablet */
 @media screen and (max-width: 800px) {
-
+    .desktopPhones {
+        display: none;
+    }
+    .mobilePhonesSlider {
+        display: block;
+    }
     section.doMore {
         padding-right: .5em;
         padding-left: .5em;
@@ -24,10 +29,38 @@
     img.arrowRight {
         display: none !important;
     }
+    .navButtons.display {
+        display: block;
+    }
+    .navButtons {
+        position: absolute;
+        height: 100%;
+        float: left;
+        padding-top: calc(50% - 0.5rem);
+        z-index: 500;
+        width: 100vw;
+        left: 0;
+    }
+    .navButtons a {
+        font-size: 2.5rem;
+        display: block;
+        position: absolute;
+    }
+    a#mobileSliderNavLeft {
+        left: 1rem;
+    }
+    a#mobileSliderNavRight {
+        left: unset;
+        right: 1rem;
+    }
+    a.disabled {
+        color: lightgrey;
+    }
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+    
 }
 
 
