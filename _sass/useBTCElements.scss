@@ -187,3 +187,23 @@ a.quickNav {
 section.followUsFooter {
     text-align: center;
 }
+.ambassadors img {
+    max-width: 100%;
+}
+
+// qr code section
+section.qrWithBluebackground {
+    background: #016889;
+    padding-bottom: 1rem;
+}
+img.imgInDiv.lazy.loaded {
+    max-width: 100%;
+}
+
+// On completion, these also need to be moved to main
+h1.hasColorTag.white {
+    color: white;
+}
+h1.hasColorTag.white::before {
+    background: white;
+}
