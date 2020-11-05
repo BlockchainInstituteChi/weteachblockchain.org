@@ -7,6 +7,23 @@ html, body {
     font-size: 1.5rem;
     font-weight: 300;
 }
+.pageHeaderImage h1 {
+    font-family: Open Sans;
+    font-size: 1.9em;
+    font-style: italic;
+    font-weight: 100 !important;
+    margin-top: 3em !important;
+}
+.pageHeaderImage h1 img {
+    margin-top: .4em;
+}
+.col-md-6 {
+    padding: 2em 4em 0em 0em;
+}
+.row.container {
+    padding-left: .5em;
+    padding-right: .5em;
+}
 
 /* BTC Explained */
 .btcExplained .col-sm-4 img {
@@ -16,14 +33,20 @@ html, body {
 .btcExplained .col-sm-4 {
     padding: 3rem;
 }
+.whatDoQRCodes {
+    padding-top: 6em;
+    padding-bottom: 5em;
+    background-color: #efefef;
+}
 span.phoneQRText {
     color: black;
-    font-size: 1.35rem;
+    font-size: 1.75rem;
     width: 100%;
-    padding: 1rem;
+    padding: 0em;
     display: block;
     text-align: center;
     font-weight: 500;
+    margin-top: 3em;
 }
 img.arrowRight {
     position: absolute;
@@ -32,18 +55,25 @@ img.arrowRight {
     right: -4rem;
     top: 10rem;
 }
+.mpSlider.shown {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Explainer Video */
 .cccVideoPlaylist .row {
-    margin: 0;
-    width: 100vw !important;
     max-width: unset;
+}
+section.cccVideoPlaylist {
+    background-color: #efefef;
+    padding-top: 8em;
+    padding-bottom: 8em;
 }
 .cccVideoPlaylist h1 {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    color: #ee3f37;
+    color: #ed0744;
     font-weight: 700 !important;
 }
 .cccVideoPlaylist span {
@@ -55,18 +85,31 @@ img.arrowRight {
 }
 .cccVideoPlaylist iframe {
     width: 100vw;
-    min-height: 50vh;
+    min-height: 75vh;
     margin-top: 4rem !important;
-    margin-bottom: 2rem;
+}
+
+
+/*Callout Question*/
+section.calloutQuestion {
+    margin: 8em 6.5em 2em 6.5em;
 }
 .calloutQuestion h1 {
+    margin-left: 0em;
+    margin-right: 0em;
+    display: block;
+    max-width: 95vw;
+    padding-left: 0em !important;
+}
+.calloutQuestion h4 {
     text-transform: uppercase;
-    color: red;
+    color: #ed0744;
     font-weight: 600;
     text-align: left;
     font-size: 3.5rem;
     width: 100%;
-    margin-left: 6.5rem;
+    margin-left: 0em;
+    margin-top: 0em;
 }
 
 /* MoreOptions */
@@ -74,10 +117,12 @@ img.arrowRight {
     width: 100%;
     display: block;
     margin-top: 4rem;
+    font-size: 2em;
+    padding-left: 0em;
     text-transform: uppercase;
+    font-weight: 700 !important;
 }
 .moreOptions span {
-    font-size: 1.25rem;
     color: black;
 }
 .moreOptions a {
@@ -86,6 +131,26 @@ img.arrowRight {
 .moreOptions {
     margin-bottom: 4rem;
 }
+.moreOptions .col-sm-6 {
+    padding-left: 0em;
+}
+
+
+/*Sponsored*/
+.hasColorTag.gold::before {
+    background-color: #fbb25b;
+}
+h1.hasColorTag.gold {
+    margin-left: -1.45em;
+}
+section.coinflip {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+.coinflip .imgInDiv {
+    margin-bottom: 3em;
+}
+
 
 /*Do More*/
 .doMore h3 {
@@ -109,9 +174,15 @@ section.doMore {
     margin-bottom: .5em;
 }
 
+section.followUsFooter {
+    text-align: center;
+    background-color: #ed0744;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
 
 .followUsFooter h1 {
-    color: red;
+    color: white;
     font-size: 3.5rem;
     text-transform: uppercase;
     text-align: center;
@@ -119,7 +190,7 @@ section.doMore {
 }
 .followUsFooter i {
     font-size: 2.5rem;
-    color: red;
+    color: white;
 }
 ul.navbar-nav.flex-row {
     margin-bottom: 4rem !important;
@@ -127,32 +198,37 @@ ul.navbar-nav.flex-row {
     margin: auto;
 }
 
-.mobilePhonesSlider {
+.desktopPhones {
     display: none;
 }
 section.youMadeIT {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     font-style: italic;
+    margin-bottom: 3.75em;
 }
 section.youMadeIT span {
-    font-weight: 600;
+    font-weight: 300;
     padding: 1rem 0 1rem 0;
     display: block;
+    color: black;
 }
 .purpleStrong {
-    color: purple;
+    color: #b13173 !important;
+    font-weight: 500 !important;
 }
 .btcExplained span {
     display: block;
     margin-bottom: 1rem;
+    color: black;
+    font-weight: 400;
 }
 
 // @jason - TODO: once this is complete, let's migrate it to main.css so it takes effect sitewide.
 // There seem to be some issues with the color tags on mobile
 h1.hasColorTag.red {
     max-width: 100%;
-    text-indent: -4rem;
+    text-indent: -4.5rem;
     margin-left: 1rem;
     margin-right: 0.5rem;
 }
@@ -177,32 +253,48 @@ a.quickNav {
 .row.container.mobilePhonesSlider {
     min-height: 50vh;
     background: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
-.calloutQuestion h1 {
-    margin-left: 0;
-    margin-right: 1rem;
-    display: block;
-    max-width: 95vw;
-}
-section.followUsFooter {
-    text-align: center;
-}
+
+/*Ambassadors*/
 .ambassadors img {
     max-width: 100%;
+}
+section.ambassadors {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: #efefef;
+}
+h1.hasColorTag.purple {
+    margin-left: -1.4em;
+}
+.ambassadors span {
+    color: black;
 }
 
 // qr code section
 section.qrWithBluebackground {
     background: #016889;
-    padding-bottom: 1rem;
+    padding-bottom: 6em;
+    padding-top: 6em;
 }
 img.imgInDiv.lazy.loaded {
     max-width: 100%;
 }
+.qrWithBluebackground span {
+    color: white;
+    font-family: open sans;
+    font-size: 2em;
+    font-weight: 200;
+    font-style: italic;
+}
 
-// On completion, these also need to be moved to main
+// On completion, these also need to be moved to main - Test first, margins might be wonky
 h1.hasColorTag.white {
     color: white;
+    margin-left: -1.4em;
+    margin-bottom: .5em;
 }
 h1.hasColorTag.white::before {
     background: white;
