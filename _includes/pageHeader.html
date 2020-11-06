@@ -1,5 +1,5 @@
 <section class="pageHeaderImage">
-    {% if include.img and include.img != ""  %}
+    {% if include.img %}
     <style>
         .pageHeaderImage {
             background: url(/assets/img/{{include.img}}) !important;
@@ -8,22 +8,26 @@
         }
     </style>
     {% endif %}
-    {% if include.imgMd and include.imgMd != ""  %}
+    {% if include.imgMd %}
     <style>
         /* Bootstrap Tablet Trigger */
         @media screen and (max-width: 992px) {
             .pageHeaderImage {
                 background: url(/assets/img/{{include.imgMd}}) !important;
+                background-position: center !important;
+                background-size: cover !important;
             }
         }
     </style>
     {% endif %}
-    {% if include.imgSm  and include.imgSm != "" %}
+    {% if include.imgSm %}
     <style>
         /* Bootstrap Tablet Trigger */
         @media screen and (max-width: 600px) {
             .pageHeaderImage {
                 background: url(/assets/img/{{include.imgSm}}) !important;
+                background-position: center !important;
+                background-size: cover !important;
             }
         }
     </style>

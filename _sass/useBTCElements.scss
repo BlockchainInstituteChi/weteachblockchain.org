@@ -1,0 +1,333 @@
+/*General*/ 
+html, body {
+    overflow-x:hidden;
+}
+
+.pageHeaderImage p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.pageHeaderImage h1 {
+    font-family: Open Sans;
+    font-size: 1.9em;
+    font-style: italic;
+    font-weight: 100 !important;
+    margin-top: 3em !important;
+}
+.pageHeaderImage h1 img {
+    margin-top: .4em;
+}
+.col-md-6 {
+    padding: 2em 4em 0em 0em;
+}
+.row.container {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+/* BTC Explained */
+.btcExplained .col-sm-4 img {
+    width: 100%;
+    text-align: center;
+}
+.btcExplained .col-sm-4 {
+    padding: 3rem;
+}
+.whatDoQRCodes {
+    padding-top: 6em;
+    padding-bottom: 5em;
+    background-color: #efefef;
+}
+span.phoneQRText {
+    color: black;
+    font-size: 1.75rem;
+    width: 100%;
+    padding: 0em;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3em;
+}
+img.arrowRight {
+    position: absolute;
+    z-index: 900;
+    max-width: 7rem;
+    right: -4rem;
+    top: 10rem;
+}
+.mpSlider.shown {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Explainer Video */
+.cccVideoPlaylist .row {
+    max-width: unset;
+}
+section.cccVideoPlaylist {
+    background-color: #efefef;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.cccVideoPlaylist h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ed0744;
+    font-weight: 700 !important;
+}
+.cccVideoPlaylist span {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000000a6;
+    width: 100%;
+    text-align: center;
+}
+.cccVideoPlaylist iframe {
+    width: 100vw;
+    min-height: 75vh;
+    margin-top: 4rem !important;
+}
+
+section.pageHeaderImage {
+    height: 75vh;
+}
+
+/*Callout Question*/
+section.calloutQuestion {
+    margin: 8em 6.5em 2em 6.5em;
+}
+.calloutQuestion h1 {
+    margin-left: 0em;
+    margin-right: 0em;
+    display: block;
+    max-width: 95vw;
+    padding-left: 0em !important;
+}
+.calloutQuestion h4 {
+    text-transform: uppercase;
+    color: #ed0744;
+    font-weight: 600;
+    text-align: left;
+    font-size: 3.5rem;
+    width: 100%;
+    margin-left: 0em;
+    margin-top: 0em;
+    font-style: italic;
+}
+
+/* MoreOptions */
+.moreOptions h1 {
+    width: 100%;
+    display: block;
+    margin-top: 4rem;
+    font-size: 2em;
+    padding-left: 0em;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+.moreOptions span {
+    color: black;
+}
+.moreOptions a {
+    color: #0b9ba4 !important;
+}
+.moreOptions {
+    margin-bottom: 4rem;
+}
+.moreOptions .col-sm-6 {
+    padding-left: 0em;
+}
+
+
+/*Sponsored*/
+.hasColorTag.gold::before {
+    background-color: #fbb25b;
+}
+h1.hasColorTag.gold {
+    margin-left: -1.45em;
+}
+section.coinflip {
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+.coinflip .imgInDiv {
+    margin-bottom: 3em;
+}
+
+
+/*Do More*/
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h3 {
+    text-transform: uppercase;
+    color: white;
+}
+.doMore h1 {
+    margin-bottom: 1em;
+    color: white;
+}
+section.doMore {
+    background-color: #006889;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+.doMore img {
+    margin-bottom: .5em;
+}
+
+section.followUsFooter {
+    text-align: center;
+    background-color: #ed0744;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.followUsFooter h1 {
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+}
+.followUsFooter i {
+    font-size: 2.5rem;
+    color: white;
+}
+ul.navbar-nav.flex-row {
+    margin-bottom: 4rem !important;
+    width: fit-content;
+    margin: auto;
+}
+
+.desktopPhones {
+    display: none;
+}
+section.youMadeIT {
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3.75em;
+}
+section.youMadeIT span {
+    font-weight: 300;
+    padding: 1rem 0 1rem 0;
+    display: block;
+    color: black;
+}
+.purpleStrong {
+    color: #b13173 !important;
+    font-weight: 500 !important;
+}
+.btcExplained span {
+    display: block;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: 400;
+}
+
+// @jason - TODO: once this is complete, let's migrate it to main.css so it takes effect sitewide.
+// There seem to be some issues with the color tags on mobile
+h1.hasColorTag.red {
+    max-width: 100%;
+    text-indent: -4.5rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.navButtons {
+    display: block;
+}
+
+.navButtons.display {
+    display: block;
+}
+.navButtons {
+    position: absolute;
+    height: 100%;
+    float: left;
+    padding-top: calc(50% - 0.5rem);
+    z-index: 500;
+    width: 100vw;
+    left: 0;
+}
+.navButtons a {
+    font-size: 2.5rem;
+    display: block;
+    position: absolute;
+}
+a#mobileSliderNavLeft {
+    left: 1rem;
+}
+a#mobileSliderNavRight {
+    left: unset;
+    right: 1rem;
+}
+a.disabled {
+    color: lightgrey;
+}
+
+// Header button
+a.quickNav {
+    color: white;
+    font-size: 2.5rem;
+}
+
+// Slider (hidden on desktop)
+.mpSlider {
+    display: none;
+}
+.mpSlider.shown {
+    display: block;
+}
+.row.container.mobilePhonesSlider {
+    min-height: 75vh;
+    background: white;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/*Ambassadors*/
+.ambassadors img {
+    max-width: 100%;
+}
+section.ambassadors {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-color: #efefef;
+}
+h1.hasColorTag.purple {
+    margin-left: -1.4em;
+}
+.ambassadors span {
+    color: black;
+}
+
+// qr code section
+section.qrWithBluebackground {
+    background: #016889;
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+img.imgInDiv.lazy.loaded {
+    max-width: 100%;
+}
+.qrWithBluebackground span {
+    color: white;
+    font-family: open sans;
+    font-size: 2em;
+    font-weight: 200;
+    font-style: italic;
+}
+
+// On completion, these also need to be moved to main - Test first, margins might be wonky
+h1.hasColorTag.white {
+    color: white;
+    margin-left: -1.4em;
+    margin-bottom: .5em;
+}
+h1.hasColorTag.white::before {
+    background: white;
+}
