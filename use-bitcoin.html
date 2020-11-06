@@ -85,13 +85,10 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
   </div>
 
   <script>
-    if (window.innerWidth < 850) {
-      document.getElementById('navButtons').className += ' display'
+    document.getElementById('navButtons').className += ' display'
 
-      window.sliderIndex = 0
-      window.sliderScreens = document.getElementsByClassName('mpSlider')
-
-    }
+    window.sliderIndex = 0
+    window.sliderScreens = document.getElementsByClassName('mpSlider')
 
     function setSlider() {
       for (var i = 0; i < window.sliderScreens.length; i++) {
