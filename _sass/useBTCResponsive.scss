@@ -87,6 +87,21 @@
     .followUsFooter h1 {
         font-size: 2.5rem;
     }
+    .pageHeaderImage .col-sm-6 {
+        margin: 4em 2em;
+    }
+    .fa, .fas {
+        font-weight: 900;
+        margin-right: 3.25em;
+        margin-left: 3.25em;
+        font-size: 1.35em;
+    }
+    .navButtons {
+        padding-top: calc(25% - 0.5rem);
+    }
+    .row.container.mobilePhonesSlider {
+        min-height: 40vh;
+    }
 } 
 
 /* Mobile */
@@ -131,6 +146,15 @@
     .followUsFooter h1 {
         font-size: 2em;
         padding-left: 0em;
+    }
+    .fa, .fas {
+        font-weight: 900;
+        margin-right: 0em;
+        margin-left: 0em;
+        font-size: 1.1em;
+    }
+    .navButtons {
+        padding-top: calc(55% - 0.5rem);
     }
 }
 

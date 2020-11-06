@@ -12,7 +12,7 @@ html, body {
     font-size: 1.9em;
     font-style: italic;
     font-weight: 100 !important;
-    margin-top: 3em !important;
+    margin-top: 6em !important;
 }
 .pageHeaderImage h1 img {
     margin-top: .4em;
@@ -58,6 +58,15 @@ img.arrowRight {
 .mpSlider.shown {
     margin-left: auto;
     margin-right: auto;
+}
+.fa, .fas {
+    font-weight: 900;
+    margin-right: 3em;
+    margin-left: 3em;
+    font-size: 2.25em;
+}
+.navButtons i:hover {
+    color: #ed0744 !important;
 }
 
 /* Explainer Video */
@@ -248,7 +257,7 @@ h1.hasColorTag.red {
     position: absolute;
     height: 100%;
     float: left;
-    padding-top: calc(50% - 0.5rem);
+    padding-top: calc(30% - 0.5rem);
     z-index: 500;
     width: 100vw;
     left: 0;
