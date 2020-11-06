@@ -1,7 +1,7 @@
 <div class="newsletterPopup">
     <span onclick="closePopup()">✕</span>
     <h4>
-        Get first access to our demystifying DeFi, StableCoins, and NFTs webinar by signing up for our newsletter.
+        Get first access to our <em>demystifying DeFi, StableCoins, and NFTs</em> webinar by signing up for our newsletter.
     </h4>
     <a href="https://theblockchaininstitute.us18.list-manage.com/subscribe/post?u=ed27e0082d5f7e8d5cd3e3622&id=d50da5888a"
         target="_blank">
@@ -11,17 +11,17 @@
 
 <style>
     .newsletterPopup {
-        display: none;
-        position: absolute;
-        top: 90vh;
-        z-index: 100;
-        width: 30rem;
-        text-align: center;
-        text-transform: uppercase;
-        background: white;
-        box-shadow: 1px 1px 4px #00000057;
-        left: calc(50% - 15rem);
-    }
+    display: none;
+    position: absolute;
+    top: 73vh;
+    z-index: 100;
+    width: 30rem;
+    text-align: center;
+    text-transform: uppercase;
+    background: white;
+    box-shadow: 1px 1px 4px #00000057;
+    right: calc(21% - 15rem);
+}
 
     .newsletterPopup h4 {
         color: black;
@@ -30,33 +30,58 @@
     }
 
     .newsletterPopup a {
-        background: red;
-        padding: 1rem;
-        width: calc(100% - 1rem);
-        position: relative;
-        display: block;
-        margin: 0.5rem;
-        max-width: 100vw;
-        color: white;
-        font-weight: 500;
-    }
+    background: #ed0744;
+    padding: 1rem;
+    width: calc(100% - 1rem);
+    position: relative;
+    display: block;
+    margin: 0.5rem;
+    max-width: 100vw;
+    color: white;
+    font-weight: 500;
+    font-family: kanit;
+    font-size: 1.25em;
+}
 
-    .newsletterPopup span {
-        right: 0.25rem;
-        position: absolute;
-    }
+.newsletterPopup span {
+    left: 0.25rem;
+    position: absolute;
+}
 
     .newsletterPopup.shown {
         display: block;
     }
 
     /* Mobile */
+
+    @media screen and (max-width: 800px) {
+    .newsletterPopup {
+    display: none;
+    position: absolute;
+    top: 60vh;
+    z-index: 100;
+    width: 30rem;
+    text-align: center;
+    text-transform: uppercase;
+    background: white;
+    box-shadow: 1px 1px 4px #00000057;
+    right: calc(35% - 15rem);
+}
+    }
+
+
     @media screen and (max-width: 600px) {
         .newsletterPopup.shown {
             left: 1rem;
             right: 1rem;
             max-width: calc(100vw - 2rem);
         }
+        .newsletterPopup h4 {
+    font-size: 1.25em;
+}
+.newsletterPopup {
+    top: 75vh;
+}
     }
 </style>
 
