@@ -8,6 +8,7 @@ banner: "authors/JustinWIDE.jpg" // ^
 author: "justin" // Be sure to create an author .md file in collections/authors/
 published: true
 permalink: /posts/08/01/welcome-to-jekyll
+ogImage: "" can be the same as banner, or blank will default to the first image in the post body below
 ---
 
 This life is nothing short of an evolving network of higher being. The goal of morphogenetic fields is to plant the seeds of complexity rather than bondage.

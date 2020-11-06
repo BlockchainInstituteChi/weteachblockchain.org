@@ -1,6 +1,7 @@
 ---
 title: What is Forking?
 image: Forking.jpg
+ogImage: Forking.jpg
 permalink: /faq/what-is-forking/
 layout: faq
 tag: CONCEPTS

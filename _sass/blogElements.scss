@@ -350,3 +350,28 @@ section.blogOverview {
     overflow: hidden;
 }
 
+
+// blog header dropshadow
+section.pageHeaderImage .row {
+    background: #00000047;
+    margin: 0;
+    min-width: 100vw !important;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-height: 100%;
+    min-height: 100%;
+}
+
+// hide quotes on mobile
+span.quoteBody::before, span.quoteBody::after {
+    display: none;
+}
+
+// blogBody styling updates:
+.blogBody h4 {
+    margin-left: 0;
+}
+.blogBody {
+    color: black;
+}
+

@@ -1,6 +1,7 @@
 ---
 title: What is a Blockchain?
 image: blockchain.jpg
+ogImage: Token-Creation-Cycle-01.jpg
 permalink: /faq/what-is-blockchain/
 layout: faq
 tag: CONCEPTS 

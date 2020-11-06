@@ -1,6 +1,7 @@
 ---
 title: Bitcoin vs Ethereum
 image: Difference_BC-Eth.jpg
+ogImage: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
 tag: WHAT'S THE DIFFERENCE? 

@@ -3,10 +3,13 @@ layout: default
 title: Developer Courses
 stylesheet: courses.css
 permalink: /courses/developers/
+ogImage: Developers-Banner.jpg
 ---
 
 {% include pageHeader.html 
 	img="Developers-Banner.jpg" 
+    imgMd=""
+    imgSm=""
 	header="Developers" 
 	text="If we want to build a new internet, we need all the help we can get. Our developer courses can help you begin your career as a blockchain software professional. <br>All of our courses are 100% Free. Don't wait - Start today!" 
 	ctaText="Start Bitcoin for Developers" 
@@ -27,10 +30,10 @@ permalink: /courses/developers/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-	
-		{% if course.tags contains "developer" %}
 
-			{% include courseListing.html 
+	{% if course.tags contains "developer" %}
+
+	{% include courseListing.html 
 				image=course.image
 				title=course.title 
 				author=course.author 
@@ -39,7 +42,7 @@ permalink: /courses/developers/
 				tag="developer"
 				slug=course.slug
 			%}
-		{% endif %}
+	{% endif %}
 	{% endfor %}
 </section>
 
@@ -65,9 +68,9 @@ permalink: /courses/developers/
 				<img src="/assets/img/Professionals_button.jpg">
 				<h5>Professionals</h5>
 			</a>
-			
+
 		</div>
-		
+
 	</div>
 </section>
 

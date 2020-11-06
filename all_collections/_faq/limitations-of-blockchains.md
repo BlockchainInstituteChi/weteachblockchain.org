@@ -1,10 +1,11 @@
 ---
 title: Limitations of Blockchains
 image: Limitations.jpg
+ogImage: Limitations.jpg
 permalink: /faq/limitations-of-blockchains/
 layout: faq
 tag: CONCEPTS
-focus keyword: blockchain limitations
+focusKeyword: blockchain limitations
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg

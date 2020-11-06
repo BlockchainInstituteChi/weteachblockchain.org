@@ -7,6 +7,7 @@ permalink: "/contributors/befaster/"
 headshot: authors/Gio_square.jpg
 banner: authors/Gio.jpg
 layout: author
+ogImage: authors/Gio.jpg
 ---
 Blockchain Institute of Chicago Ambassador, Chief Sales Officer of BeFaster, and social entrepreneur. 
 

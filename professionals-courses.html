@@ -3,11 +3,14 @@ layout: default
 title: Developer Courses
 stylesheet: courses.css
 permalink: /courses/professionals/
+ogImage: Professionals-Banner.jpg
 ---
 
 {% include pageHeader.html 
 	img="Professionals-Banner.jpg" 
-	header="Professionals" 
+	header="Professionals"  
+    imgMd=""
+    imgSm=""
 	text="If your industry is adopting Blockchain systems, it's important to ensure you're up to date and understand the language. Our Professional track keeps it simple so you can learn what you need to without taking your whole day.<br>All of our courses are 100% FREE and take less than an hour to complete." 
 	ctaText="Start Blockchain for Business" 
 	ctaLink="/courses/blockchain-for-business/1/public-vs-private-blockchains" 
@@ -27,10 +30,10 @@ permalink: /courses/professionals/
 	<h1 class="hasColorTag purple">Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
-	
-		{% if course.tags contains "professional" %}
 
-			{% include courseListing.html 
+	{% if course.tags contains "professional" %}
+
+	{% include courseListing.html 
 				image=course.image
 				title=course.title 
 				author=course.author 
@@ -39,7 +42,7 @@ permalink: /courses/professionals/
 				tag="professional"
 				slug=course.slug
 			%}
-		{% endif %}
+	{% endif %}
 	{% endfor %}
 </section>
 
@@ -67,7 +70,7 @@ permalink: /courses/professionals/
 			</a>
 
 		</div>
-		
+
 	</div>
 </section>
 

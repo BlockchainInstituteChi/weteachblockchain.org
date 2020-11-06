@@ -9,8 +9,12 @@
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-    <section class="pageHeaderImage" style="background: url(/assets/img/{{ page.image }}); background-position: center; background-size: cover;">
-    </section>
+    
+    {% include pageHeader.html 
+      img=page.image
+      imgMd=page.imageMd
+      imgSm=page.imageSm
+    %}
 
     <section class="breadcrumbs indvCoursePage">
       <div class="row">

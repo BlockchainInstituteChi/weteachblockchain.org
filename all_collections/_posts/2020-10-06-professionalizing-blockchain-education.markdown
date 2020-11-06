@@ -2,12 +2,16 @@
 layout: post
 title:  Educating the Next Generation of Experts
 date:   2020-10-06 11:02:58 -0500
-categories: jekyll update
+categories: education
 thumbnail: "Althash_square.jpg" 
 banner: "Althash.jpg"
 author: "amando"
 published: true
 permalink: /posts/10/06/professionalizing-the-blockchain-industry
+learnMoreLink: /ambassadors/
+learnMoreText: and apply on our Ambassador Portal
+learnMoreImage: AmbassadorsNewsletterImage.jpg
+ogImage: Althash.jpg
 ---
 This recent material release about blockchain, "Deloitte’s 2020 Global Blockchain Survey From Promise to Reality" indicated that there is a considerable increase of interest in the utilization of blockchain technology among leading companies worldwide, creating a huge demand for professionals in the blockchain space. Another equality important research result by Gartner in 2020, blockchain-enabled applications will deliver 3.1 trillion dollars in value by 2030. As the blockchain ecosystem expands in the next ten years, as indicated in these new research results, the industry will be needing specialists, developers, and experts, all over the world. 
 

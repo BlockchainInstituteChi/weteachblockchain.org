@@ -1,6 +1,7 @@
 ---
 title: Blockchain vs Cryptocurrency
 image: Difference.jpg
+ogImage: Difference.jpg
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?

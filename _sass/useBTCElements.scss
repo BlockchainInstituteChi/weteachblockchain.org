@@ -89,6 +89,9 @@ section.cccVideoPlaylist {
     margin-top: 4rem !important;
 }
 
+section.pageHeaderImage {
+    height: 75vh;
+}
 
 /*Callout Question*/
 section.calloutQuestion {
@@ -110,6 +113,7 @@ section.calloutQuestion {
     width: 100%;
     margin-left: 0em;
     margin-top: 0em;
+    font-style: italic;
 }
 
 /* MoreOptions */
@@ -234,7 +238,35 @@ h1.hasColorTag.red {
 }
 
 .navButtons {
-    display: none;
+    display: block;
+}
+
+.navButtons.display {
+    display: block;
+}
+.navButtons {
+    position: absolute;
+    height: 100%;
+    float: left;
+    padding-top: calc(50% - 0.5rem);
+    z-index: 500;
+    width: 100vw;
+    left: 0;
+}
+.navButtons a {
+    font-size: 2.5rem;
+    display: block;
+    position: absolute;
+}
+a#mobileSliderNavLeft {
+    left: 1rem;
+}
+a#mobileSliderNavRight {
+    left: unset;
+    right: 1rem;
+}
+a.disabled {
+    color: lightgrey;
 }
 
 // Header button

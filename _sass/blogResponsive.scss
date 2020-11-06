@@ -1,5 +1,15 @@
 /* Tablet */
 @media screen and (max-width: 800px) {
+	// turn off header dropshadow padding on mobile
+	section.pageHeaderImage .row {
+		background: #00000047;
+		margin: 0;
+		min-width: 100vw !important;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		max-height: 100%;
+	}
+
 	html, body {
     		overflow-x:hidden;
 	}
