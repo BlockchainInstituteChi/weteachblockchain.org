@@ -55,7 +55,7 @@ ogUrl: https://weteachblockchain.org/
 <script>
 
     function deleteAccount() {
-        document.getElementById('confirmDeleteEmail').placeholder = window.user.email
+        document.getElementById('confirmDeleteEmail').placeholder = window.localStorage.userMetaData.email
         document.getElementById('deleteConfirmation').className += " shown"
     }
 
@@ -64,9 +64,9 @@ ogUrl: https://weteachblockchain.org/
     }
 
     async function confirmDelete() {
-        console.log('deleting user with email ', window.user.email)
+        console.log('deleting user with email ', window.localStorage.userMetaData.email)
 
-        if (window.user.email == document.getElementById('confirmDeleteEmail').value) {
+        if (window.localStorage.userMetaData.email == document.getElementById('confirmDeleteEmail').value) {
 
             try {
                 await fetch(`${window.serverUrl}/deleteAccount`, {
@@ -111,8 +111,8 @@ ogUrl: https://weteachblockchain.org/
             } while (divsToShow.length != 0)
 
             // set the user's email in the header
-            document.getElementById('userEmail').innerText = window.user.email
-            document.getElementById('userPubkey').innerText = window.user.publicAddress
+            document.getElementById('userEmail').innerText = window.localStorage.userMetaData.email
+            document.getElementById('userPubkey').innerText = window.localStorage.userMetaData.publicAddress
 
             if (window.toggleLoader) window.toggleLoader()
 

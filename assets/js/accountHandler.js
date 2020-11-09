@@ -14,9 +14,17 @@ window.serverUrl = "http://localhost:8888/user"
 console.log('setting RenderMagic')
 const renderMagic = async () => {
   console.log('magic render triggered')
+  if (!magic) {
+    console.log('aborting renderMagic since magic !defined')
+    return null;
+  }
+
   preLoadUserData()
 
   const isLoggedIn = await magic.user.isLoggedIn();
+
+  console.log('isLoggedIn', isLoggedIn, magic.user)
+
   /* Show login form if user is not logged in */
   let html = `
     <form class="loginForm" onsubmit="handleLogin(event)">
@@ -28,13 +36,17 @@ const renderMagic = async () => {
   if (isLoggedIn) {
     /* Get user metadata including email */
     console.log('proceeding with login')
-    const userMetadata = await magic.user.getMetadata();
-    localStorage.setItem('userData', JSON.stringify(userMetadata));
-    setGravatarImageUrl(userMetadata.email)
+    const userMetaData = await magic.user.getMetadata();
+    var setLocal = localStorage.setItem('userMetaData', JSON.stringify(userMetaData));
+    console.log('setLocal: ', setLocal)
+    console.log('userMetaData (after login)', userMetaData)
+    console.log('local did set (after login)', window.localStorage.userMetaData)
+
+    setGravatarImageUrl(userMetaData.email)
     handlePageNotification()
 
     html = `
-      <h1>Logged in as ${userMetadata.email}</h1>
+      <h1>Logged in as ${userMetaData.email}</h1>
       <a href="/userProfile.html">My Account</a>
       <button onclick="window.handleLogout()">Logout</button>
       <br>`;
@@ -55,7 +67,8 @@ const renderMagic = async () => {
 function preLoadUserData() {
 
   if (window.localStorage.userData) {
-    var user = JSON.parse(window.localStorage.userData)
+    var user = JSON.parse(window.localStorage.userMetaData)
+    console.log('Preload isUserData?', user, JSON.parse(window.localStorage.userMetaData))
     if (user.email) {
       setGravatarImageUrl(user.email)
       html = `
@@ -100,9 +113,10 @@ function showUserLoginPrompt() {
 const handleLogin = async e => {
   e.preventDefault();
   const email = new FormData(e.target).get("email");
+  console.log('email is ', email)
   if (email) {
     const didToken = await magic.auth.loginWithMagicLink({ email });
-
+    console.log('got did token', didToken)
     window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
 
     await fetch(`${window.serverUrl}/login`, {
@@ -111,10 +125,11 @@ const handleLogin = async e => {
       }),
       method: "POST"
     });
+    console.log('fetch came back!')
     renderMagic();
-    window.location.href = "/userProfile.html"
+    // window.location.href = "/userProfile.html"
   }
-};
+}
 
 window.handleLogout = async () => {
   await magic.user.logout();
@@ -122,7 +137,7 @@ window.handleLogout = async () => {
   toggleDisplayAccountBox();
   toggleAccountImage();
   window.localStorage.set('didToken', null)
-  window.localStorage.set('userData', null)
+  window.localStorage.set('userMetaData', null)
   location.reload();
 };
 
@@ -311,9 +326,6 @@ function stopBotheringMe() {
   }
 }
 
-
-
-
 // Initializing
 var magic;
 tryToMakeMagicHappen();
@@ -343,9 +355,10 @@ function loadAndSetupMagic() {
     console.log('about to render magic')
     renderMagic();
     const checkUserData = async () => {
-      const userMetadata = await magic.user.getMetadata();
-      window.user = userMetadata
-      console.log('user:', userMetadata)
+      const userMetaData = await magic.user.getMetadata();
+      window.userMetaData = userMetaData
+      window.localStorage.set('userMetaData', JSON.stringify(userMetaData))
+      console.log('user:', userMetaData)
     }
     checkUserData();
   }
