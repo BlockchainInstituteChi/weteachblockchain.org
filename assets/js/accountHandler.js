@@ -112,7 +112,7 @@ const handleLogin = async e => {
       method: "POST"
     });
     renderMagic();
-    window.location.href = "/userProfile.html"
+    //window.location.href = "/userProfile.html"
   }
 };
 
