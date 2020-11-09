@@ -45,7 +45,7 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
       </div>
     </div>
   </div>
-  <div class="row container mobilePhonesSlider">
+  <div id="mobilePhonesSlider" class="row container mobilePhonesSlider">
     <div class="navButtons" id="navButtons">
       <a id="mobileSliderNavLeft" href="javascript:void(0)" class="disabled" onclick="navSliderLeft()">
         <i class="fas fa-arrow-circle-left"></i>
@@ -84,11 +84,20 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     </div>
   </div>
 
+  <script src="/assets/js/swiped.min.js"></script>
   <script>
     document.getElementById('navButtons').className += ' display'
 
     window.sliderIndex = 0
     window.sliderScreens = document.getElementsByClassName('mpSlider')
+
+    var sliderArea = document.getElementById('mobilePhonesSlider');
+    sliderArea.addEventListener('swiped-right', function (e) {
+      navSliderLeft()
+    })
+    sliderArea.addEventListener('swiped-left', function (e) {
+      navSliderRight()
+    })
 
     function setSlider() {
       for (var i = 0; i < window.sliderScreens.length; i++) {
