@@ -163,6 +163,22 @@ section.coinflip {
 .coinflip .imgInDiv {
     margin-bottom: 3em;
 }
+.coinflip span {
+    display: block;
+    color: darkgrey;
+    font-family: 'Kanit';
+}
+span.cta_button {
+    padding: 1rem;
+    max-width: 12rem;
+    background: #fbb25b;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    margin-top: 1rem;
+}
 
 
 /*Do More*/
