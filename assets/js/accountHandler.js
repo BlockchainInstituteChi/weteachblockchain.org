@@ -40,7 +40,7 @@ const renderMagic = async () => {
     var setLocal = localStorage.setItem('userMetaData', JSON.stringify(userMetaData));
     console.log('setLocal: ', setLocal)
     console.log('userMetaData (after login)', userMetaData)
-    console.log('local did set (after login)', window.localStorage.userMetaData)
+    console.log('local did set (after login)', JSON.parse(window.localStorage.userMetaData))
 
     setGravatarImageUrl(userMetaData.email)
     handlePageNotification()
@@ -68,7 +68,7 @@ function preLoadUserData() {
 
   if (window.localStorage.userData) {
     var user = JSON.parse(window.localStorage.userMetaData)
-    console.log('Preload isUserData?', user, JSON.parse(window.localStorage.userMetaData))
+    console.log('Preload isUserData?', user)
     if (user.email) {
       setGravatarImageUrl(user.email)
       html = `
@@ -331,11 +331,18 @@ var magic;
 tryToMakeMagicHappen();
 
 function tryToMakeMagicHappen() {
-  if (window.innerWidth > 992) { // only on desktop - otherwise we lazyload magic
-    for (let i = 0; i < 10; i++) {
-      setTimeout(makeMagicHappen, i * 1000)
-    }
-  }
+  // if (window.innerWidth > 992) { // only on desktop - otherwise we lazyload magic
+  //   for (let i = 0; i < 10; i++) {
+  //     setTimeout(makeMagicHappen, i * 1000)
+  //   }
+  // }
+  var script = document.createElement('script');
+  script.onload = function () {
+    loadAndSetupMagic()
+  };
+  script.src = "https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js";
+
+  document.head.appendChild(script); //or something of the likes
 }
 
 function makeMagicHappen() {
@@ -357,7 +364,7 @@ function loadAndSetupMagic() {
     const checkUserData = async () => {
       const userMetaData = await magic.user.getMetadata();
       window.userMetaData = userMetaData
-      window.localStorage.set('userMetaData', JSON.stringify(userMetaData))
+      window.localStorage.setItem('userMetaData', JSON.stringify(userMetaData))
       console.log('user:', userMetaData)
     }
     checkUserData();
