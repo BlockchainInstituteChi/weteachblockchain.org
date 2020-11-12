@@ -1,55 +1,57 @@
+
 <!-- Crazyegg tracking script -->
 <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0073/9552.js" async="async" ></script>
 
-<!-- 1. Install Magic SDK -->
-<script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js" async defer></script>
 <script src="/assets/js/accountHandler.js" async defer></script>
-<script
-src="https://code.jquery.com/jquery-3.4.1.min.js"
-integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-crossorigin="anonymous" async defer></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async defer></script>
 <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}" async defer></script>
 <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}" async defer></script>
 
 <script src="/assets/js/search.js" type="text/javascript" async></script>
 <script src="/assets/js/nav.js" type="text/javascript" async></script>
-<link rel=preload id='fontawesome-css'  href="{{' /node_modules/@fortawesome/fontawesome-free/css/all.css' | prepend: site.baseurl}}">
+<link rel=preload id='fontawesome-css'
+  href="{{' /node_modules/@fortawesome/fontawesome-free/css/all.css' | prepend: site.baseurl}}">
 
 <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.2/dist/lazyload.min.js"></script>
 <script>
   unsetLazyImg()
 
-  function unsetLazyImg ( ) {
+  function unsetLazyImg() {
     // console.log('runningunsetlazyimg')
-      var imgs = document.getElementsByTagName('img')
+    var imgs = document.getElementsByTagName('img')
     //   console.log('imgs', imgs, imgs[0], imgs.length)
-      for ( img of imgs ) {
-          console.log('hiding image', img.src)
-        if ( !img.className.includes('navbarBrand') ) {
-          img.setAttribute('data-src', img.src)
-          img.className += " lazy"
-          img.src = ""
-        }
+    for (img of imgs) {
+      // console.log('hiding image', img.src)
+      if (!img.className.includes('navbarBrand')) {
+        img.setAttribute('data-src', img.src)
+        img.className += " lazy"
+        img.src = ""
       }
-      var lazyLoadInstance = new LazyLoad({
-        // Your custom settings go here
-      });
-      lazyLoadInstance.update()
+    }
+    var lazyLoadInstance = new LazyLoad({
+      // Your custom settings go here
+    });
+    lazyLoadInstance.update()
   }
 
 </script>
 <script type="text/javascript">
-_linkedin_partner_id = "2735980";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-</script><script type="text/javascript">
-(function(){var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})();
+  _linkedin_partner_id = "2735980";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+  (function () {
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript"; b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);
+  })();
 </script>
 <noscript>
-<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2735980&fmt=gif" />
+  <img height="1" width="1" style="display:none;" alt=""
+    src="https://px.ads.linkedin.com/collect/?pid=2735980&fmt=gif" />
 </noscript>

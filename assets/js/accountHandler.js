@@ -14,9 +14,17 @@ window.serverUrl = "https://app.weteachblockchain.org/user"
 console.log('setting RenderMagic')
 const renderMagic = async () => {
   console.log('magic render triggered')
+  if (!magic) {
+    console.log('aborting renderMagic since magic !defined')
+    return null;
+  }
+
   preLoadUserData()
 
   const isLoggedIn = await magic.user.isLoggedIn();
+
+  console.log('isLoggedIn', isLoggedIn, magic.user)
+
   /* Show login form if user is not logged in */
   let html = `
     <form class="loginForm" onsubmit="handleLogin(event)">
@@ -26,15 +34,22 @@ const renderMagic = async () => {
     </form>
   `;
   if (isLoggedIn) {
-    /* Get user metadata including email */
+
+    if (window.toggleLoader) window.toggleLoader()
+    if (window.stopBotheringMe) window.stopBotheringMe()
+
+    /* Get user metadata incdwluding email */
     console.log('proceeding with login')
-    const userMetadata = await magic.user.getMetadata();
-    localStorage.setItem('userData', JSON.stringify(userMetadata));
-    setGravatarImageUrl(userMetadata.email)
+    const userMetaData = await magic.user.getMetadata();
+    localStorage.setItem('userMetaData', JSON.stringify(userMetaData));
+    console.log('userMetaData (after login)', userMetaData)
+    console.log('local did set (after login)', JSON.parse(window.localStorage.userMetaData))
+
+    setGravatarImageUrl(userMetaData.email)
     handlePageNotification()
 
     html = `
-      <h1>Logged in as ${userMetadata.email}</h1>
+      <h1>Logged in as ${userMetaData.email}</h1>
       <a href="/userProfile.html">My Account</a>
       <button onclick="window.handleLogout()">Logout</button>
       <br>`;
@@ -43,6 +58,10 @@ const renderMagic = async () => {
     showUserLoginPrompt()
   }
   console.log('html', html)
+  setUserInfo(html)
+};
+
+function setUserInfo(html) {
   if (window.innerWidth > 992) {
     console.log('displaying desktop login')
     document.getElementById("app").innerHTML = html;
@@ -50,12 +69,13 @@ const renderMagic = async () => {
     console.log('displaying mobile login')
     document.getElementById("mobileApp").innerHTML = html;
   }
-};
+}
 
 function preLoadUserData() {
 
   if (window.localStorage.userData) {
-    var user = JSON.parse(window.localStorage.userData)
+    var user = JSON.parse(window.localStorage.userMetaData)
+    console.log('Preload isUserData?', user)
     if (user.email) {
       setGravatarImageUrl(user.email)
       html = `
@@ -66,7 +86,9 @@ function preLoadUserData() {
     } else {
       html = `<h1>Could not preload.</h1>`
     }
+    setUserInfo(html)
   }
+
 
 }
 
@@ -100,9 +122,10 @@ function showUserLoginPrompt() {
 const handleLogin = async e => {
   e.preventDefault();
   const email = new FormData(e.target).get("email");
+  console.log('email is ', email)
   if (email) {
     const didToken = await magic.auth.loginWithMagicLink({ email });
-
+    console.log('got did token', didToken)
     window.localStorage.setItem('didToken', didToken); // we actually don't need to pass this token except for login. Magic does the rest :) 
 
     await fetch(`${window.serverUrl}/login`, {
@@ -111,18 +134,19 @@ const handleLogin = async e => {
       }),
       method: "POST"
     });
+    console.log('fetch came back!')
     renderMagic();
     //window.location.href = "/userProfile.html"
   }
-};
+}
 
 window.handleLogout = async () => {
   await magic.user.logout();
   renderMagic();
   toggleDisplayAccountBox();
   toggleAccountImage();
-  window.localStorage.setItem('didToken', null)
-  window.localStorage.setItem('userData', null)
+  window.localStorage.removeItem('didToken')
+  window.localStorage.removeItem('userMetaData')
   location.reload();
 };
 
@@ -306,31 +330,36 @@ function stopBotheringMe() {
   for (div of document.getElementsByClassName('userLoginPrompt')) {
     div.remove()
   }
-  if (window.location.href.includes('userProfile')) {
+  if (window.location.href.includes('userProfile') && !magic.user.isLoggedIn) {
     window.location.href = "/"
   }
 }
-
-
-
 
 // Initializing
 var magic;
 tryToMakeMagicHappen();
 
 function tryToMakeMagicHappen() {
-  if (window.innerWidth > 992) { // only on desktop - otherwise we lazyload magic
-    for (let i = 0; i < 10; i++) {
-      setTimeout(makeMagicHappen, i * 1000)
-    }
+
+  loadMagic()
+
+}
+
+function loadMagic() {
+  var script = document.createElement('script')
+  script.onload = function () {
+    loadAndSetupMagic()
   }
+  script.src = "https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js"
+  document.head.appendChild(script)
+
 }
 
 function makeMagicHappen() {
   if (typeof (Magic) != "undefined") {
     loadAndSetupMagic()
   } else if (window.innerWidth < 992) {
-    loadAndSetupMagic()
+    loadMagic()
   }
 }
 
@@ -338,14 +367,15 @@ function loadAndSetupMagic() {
   console.log('window.magicLoaded', window.magicLoaded)
   if (!window.magicLoaded) {
     window.magicLoaded = true
-    console.log('window.magicloaded is !true ')
+    console.log('window.magicloaded is !true ', window.magicLoaded)
     magic = new Magic("pk_live_EA466C1563BC5CFF");
     console.log('about to render magic')
     renderMagic();
     const checkUserData = async () => {
-      const userMetadata = await magic.user.getMetadata();
-      window.user = userMetadata
-      console.log('user:', userMetadata)
+      const userMetaData = await magic.user.getMetadata();
+      window.userMetaData = userMetaData
+      window.localStorage.setItem('userMetaData', JSON.stringify(userMetaData))
+      console.log('user:', userMetaData)
     }
     checkUserData();
   }
