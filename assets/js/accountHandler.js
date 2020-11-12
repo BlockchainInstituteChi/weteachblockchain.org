@@ -34,11 +34,14 @@ const renderMagic = async () => {
     </form>
   `;
   if (isLoggedIn) {
-    /* Get user metadata including email */
+
+    if (window.toggleLoader) window.toggleLoader()
+    if (window.stopBotheringMe) window.stopBotheringMe()
+
+    /* Get user metadata incdwluding email */
     console.log('proceeding with login')
     const userMetaData = await magic.user.getMetadata();
-    var setLocal = localStorage.setItem('userMetaData', JSON.stringify(userMetaData));
-    console.log('setLocal: ', setLocal)
+    localStorage.setItem('userMetaData', JSON.stringify(userMetaData));
     console.log('userMetaData (after login)', userMetaData)
     console.log('local did set (after login)', JSON.parse(window.localStorage.userMetaData))
 
@@ -55,6 +58,10 @@ const renderMagic = async () => {
     showUserLoginPrompt()
   }
   console.log('html', html)
+  setUserInfo(html)
+};
+
+function setUserInfo(html) {
   if (window.innerWidth > 992) {
     console.log('displaying desktop login')
     document.getElementById("app").innerHTML = html;
@@ -62,7 +69,7 @@ const renderMagic = async () => {
     console.log('displaying mobile login')
     document.getElementById("mobileApp").innerHTML = html;
   }
-};
+}
 
 function preLoadUserData() {
 
@@ -79,7 +86,9 @@ function preLoadUserData() {
     } else {
       html = `<h1>Could not preload.</h1>`
     }
+    setUserInfo(html)
   }
+
 
 }
 
@@ -136,8 +145,8 @@ window.handleLogout = async () => {
   renderMagic();
   toggleDisplayAccountBox();
   toggleAccountImage();
-  window.localStorage.set('didToken', null)
-  window.localStorage.set('userMetaData', null)
+  window.localStorage.removeItem('didToken')
+  window.localStorage.removeItem('userMetaData')
   location.reload();
 };
 
@@ -321,7 +330,7 @@ function stopBotheringMe() {
   for (div of document.getElementsByClassName('userLoginPrompt')) {
     div.remove()
   }
-  if (window.location.href.includes('userProfile')) {
+  if (window.location.href.includes('userProfile') && !magic.user.isLoggedIn) {
     window.location.href = "/"
   }
 }
@@ -331,25 +340,26 @@ var magic;
 tryToMakeMagicHappen();
 
 function tryToMakeMagicHappen() {
-  // if (window.innerWidth > 992) { // only on desktop - otherwise we lazyload magic
-  //   for (let i = 0; i < 10; i++) {
-  //     setTimeout(makeMagicHappen, i * 1000)
-  //   }
-  // }
-  var script = document.createElement('script');
+
+  loadMagic()
+
+}
+
+function loadMagic() {
+  var script = document.createElement('script')
   script.onload = function () {
     loadAndSetupMagic()
-  };
-  script.src = "https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js";
+  }
+  script.src = "https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js"
+  document.head.appendChild(script)
 
-  document.head.appendChild(script); //or something of the likes
 }
 
 function makeMagicHappen() {
   if (typeof (Magic) != "undefined") {
     loadAndSetupMagic()
   } else if (window.innerWidth < 992) {
-    loadAndSetupMagic()
+    loadMagic()
   }
 }
 
@@ -357,7 +367,7 @@ function loadAndSetupMagic() {
   console.log('window.magicLoaded', window.magicLoaded)
   if (!window.magicLoaded) {
     window.magicLoaded = true
-    console.log('window.magicloaded is !true ')
+    console.log('window.magicloaded is !true ', window.magicLoaded)
     magic = new Magic("pk_live_EA466C1563BC5CFF");
     console.log('about to render magic')
     renderMagic();
