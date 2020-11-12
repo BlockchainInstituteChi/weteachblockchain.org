@@ -136,7 +136,7 @@ const handleLogin = async e => {
     });
     console.log('fetch came back!')
     renderMagic();
-    // window.location.href = "/userProfile.html"
+    //window.location.href = "/userProfile.html"
   }
 }
 
