@@ -356,3 +356,16 @@ h1.hasColorTag.white {
 h1.hasColorTag.white::before {
     background: white;
 }
+
+.mobilePhonesSlider h1 {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-left: -0.5rem;
+}
+.howToBuy img {
+    max-width: 100%;
+}
+.howToBuy .container h1 {
+    padding-left: 0;
+}
