@@ -55,10 +55,6 @@ img.arrowRight {
     right: -4rem;
     top: 10rem;
 }
-.mpSlider.shown {
-    margin-left: auto;
-    margin-right: auto;
-}
 .btcExplained .fa, .btcExplained .fas {
     font-weight: 900;
     margin-right: 3em;
@@ -300,11 +296,16 @@ a.quickNav {
     font-size: 2.5rem;
 }
 
-// Slider (hidden on desktop)
-.mpSlider {
+.col-sm-4.mpSlider {
+    z-index: 999;
+    padding: 0;
+    margin: 3rem auto 3rem auto;
     display: none;
+    max-width: calc(100% - 8rem);
 }
 .mpSlider.shown {
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 .row.container.mobilePhonesSlider {
@@ -369,3 +370,4 @@ h1.hasColorTag.white::before {
 .howToBuy .container h1 {
     padding-left: 0;
 }
+

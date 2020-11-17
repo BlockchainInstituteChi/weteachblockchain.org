@@ -87,6 +87,40 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     navSliderRight()
   })
 
+  window.sliderStart = 0;
+
+  document.body.onscroll = function () {
+    console.log('onscroll triggered')
+    var slider = document.getElementById("mobilePhonesSlider")
+    var body = document.body
+    if (isElementVisible(slider, body)) {
+      console.log('el is visible')
+      if (window.sliderStart < 1) {
+        navSliderRight()
+        window.sliderStart = 1
+      }
+    } else {
+      console.log('el is invisible')
+    }
+
+  }
+
+  function isElementVisible(el, holder) {
+    console.log('isElVis trig', el, holder)
+    // holder = holder || document.body
+    const { top, bottom, height } = el.getBoundingClientRect()
+    const holderRect = holder.getBoundingClientRect()
+    console.log(top, bottom, height, holderRect, holderRect.top)
+    const cases = {
+      "one": (top <= holderRect.top),
+      "two": (holderRect.top - top <= height),
+      "three": (bottom - holderRect.bottom <= height)
+    }
+    console.log('cases', cases)
+    var result = cases.one
+    console.log('result', result)
+    return result
+  }
   function setSlider() {
     for (var i = 0; i < window.sliderScreens.length; i++) {
       if (window.sliderIndex === i) {
