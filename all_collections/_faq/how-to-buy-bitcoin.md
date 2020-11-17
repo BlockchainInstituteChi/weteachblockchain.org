@@ -11,7 +11,7 @@ learnMoreImage: BC101-01.jpg
 weight: 2
 sticky: true
 ---
-<span>Ready to get started with <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> but not sure how to acquire it in the first place? Whether you want to buy Bitcoin, buy Ethereum, or buy cryptocurrency <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with three different ways to get started!</span>
+<span>Ready to get started with <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> but not sure how to acquire it in the first place? Whether you want to buy Bitcoin, buy Ethereum, or buy cryptocurrency <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with three different ways to buy!</span>
 {% include callouts/callout.html
     bodyText='Not yet feeling confident enough to send & receive blockchain transactions? Enroll in <a href="/crypto-curious/" target="_blank">The Crypto Curious Course</a> and go from Curious to Confident!'
 %}
