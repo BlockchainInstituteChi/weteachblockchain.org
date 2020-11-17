@@ -15,11 +15,8 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     header="Welcome to <br> <img src='/assets/img/WTB_LTAlogo.png'>" 
     text="<a href='#startHere' class='quickNav'><i class='far fa-arrow-alt-circle-down'></i></a>"
 %}
-<section class="row youMadeIT" id="startHere">
 
-</section>
-
-<section class="btcExplained">
+<section class="btcExplained" id="startHere">
   <div class="whatDoQRCodes">
     <h1 class="hasColorTag red">What do QR codes have to do with Bitcoin?</h1>
     <div class="row container">
@@ -73,95 +70,95 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
       <span class="phoneQRText">Hit Send!</span>
     </div>
   </div>
+</section>
 
-  <script src="/assets/js/swiped.min.js"></script>
-  <script>
-    document.getElementById('navButtons').className += ' display'
+<script src="/assets/js/swiped.min.js"></script>
+<script>
+  document.getElementById('navButtons').className += ' display'
 
-    window.sliderIndex = 0
-    window.sliderScreens = document.getElementsByClassName('mpSlider')
+  window.sliderIndex = 0
+  window.sliderScreens = document.getElementsByClassName('mpSlider')
 
-    var sliderArea = document.getElementById('mobilePhonesSlider');
-    sliderArea.addEventListener('swiped-right', function (e) {
-      navSliderLeft()
-    })
-    sliderArea.addEventListener('swiped-left', function (e) {
-      navSliderRight()
-    })
+  var sliderArea = document.getElementById('mobilePhonesSlider');
+  sliderArea.addEventListener('swiped-right', function (e) {
+    navSliderLeft()
+  })
+  sliderArea.addEventListener('swiped-left', function (e) {
+    navSliderRight()
+  })
 
-    function setSlider() {
-      for (var i = 0; i < window.sliderScreens.length; i++) {
-        if (window.sliderIndex === i) {
-          if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
-        } else {
-          window.sliderScreens[i].className = window.sliderScreens[i].className.replace('shown', '')
-        }
-
-        setLeftButton()
-        setRightButton()
-      }
-    }
-
-    function navSliderRight() {
-      if (window.sliderIndex < (window.sliderScreens.length - 1)) {
-        window.sliderIndex++
-        setSlider()
-      }
-    }
-
-    function navSliderLeft() {
-      if (window.sliderIndex > 0) {
-        window.sliderIndex = window.sliderIndex - 1
-        setSlider()
-      }
-    }
-
-    function setLeftButton() {
-      var button = document.getElementById('mobileSliderNavLeft')
-      if (window.sliderIndex == 0) {
-        button.className += " disabled"
+  function setSlider() {
+    for (var i = 0; i < window.sliderScreens.length; i++) {
+      if (window.sliderIndex === i) {
+        if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
       } else {
-        button.className = button.className.replace('disabled', '')
+        window.sliderScreens[i].className = window.sliderScreens[i].className.replace('shown', '')
       }
-    }
-    function setRightButton() {
-      var button = document.getElementById('mobileSliderNavRight')
-      if (window.sliderIndex == (window.sliderScreens.length - 1)) {
-        button.className += " disabled"
-      } else {
-        button.className = button.className.replace('disabled', '')
-      }
-    }      
-  </script>
 
-  <div class="howToBuy">
-    <h1 class="hasColorTag red">How can you get bitcoin of your own?</h1>
-    <a href="/faq/how-to-buy-bitcoin/">
-      <div class="row container">
-        <div class="col-md-6">
-          <img src="/assets/img/HowToBuyFAQ-sm.jpg">
-        </div>
-        <div class="col-md-6">
-          <h1>How to Buy Bitcoin</h1>
-          <span>This quick guide covers the options available, and how to do it the easy way!</span>
-        </div>
+      setLeftButton()
+      setRightButton()
+    }
+  }
+
+  function navSliderRight() {
+    if (window.sliderIndex < (window.sliderScreens.length - 1)) {
+      window.sliderIndex++
+      setSlider()
+    }
+  }
+
+  function navSliderLeft() {
+    if (window.sliderIndex > 0) {
+      window.sliderIndex = window.sliderIndex - 1
+      setSlider()
+    }
+  }
+
+  function setLeftButton() {
+    var button = document.getElementById('mobileSliderNavLeft')
+    if (window.sliderIndex == 0) {
+      button.className += " disabled"
+    } else {
+      button.className = button.className.replace('disabled', '')
+    }
+  }
+  function setRightButton() {
+    var button = document.getElementById('mobileSliderNavRight')
+    if (window.sliderIndex == (window.sliderScreens.length - 1)) {
+      button.className += " disabled"
+    } else {
+      button.className = button.className.replace('disabled', '')
+    }
+  }      
+</script>
+
+<div class="howToBuy">
+  <h1 class="hasColorTag red">How can you get bitcoin of your own?</h1>
+  <a href="/faq/how-to-buy-bitcoin/">
+    <div class="row container">
+      <div class="col-md-6">
+        <img src="/assets/img/HowToBuyFAQ-sm.jpg">
       </div>
-    </a>
+      <div class="col-md-6">
+        <h1>How to Buy Bitcoin</h1>
+        <span>This quick guide covers the options available, and how to do it the easy way!</span>
+      </div>
+    </div>
+  </a>
+</div>
+
+<section class="cccVideoPlaylist">
+  <div class="row">
+    <h1>Using Bitcoin is simple.</h1>
+    <span>To see what is happening behind the scenes, watch the video below.</span>
   </div>
+  <div class="row">
+    <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=82" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
 
-  <section class="cccVideoPlaylist">
-    <div class="row">
-      <h1>Using Bitcoin is simple.</h1>
-      <span>To see what is happening behind the scenes, watch the video below.</span>
-    </div>
-    <div class="row">
-      <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=82"
-        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <!-- <section class="qrWithBluebackground">
+<!-- <section class="qrWithBluebackground">
   <h1 class="hasColorTag white">Share What You’ve Learned</h1>
   <div class="row container">
     <div class="col-md-6">
@@ -173,94 +170,94 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
   </div>
 </section> -->
 
-  <section class="calloutQuestion">
-    <h4>It's that easy!</h4>
-    <h1>Blockchain can be complicated, but we make learning it simple.</h1>
-  </section>
+<section class="calloutQuestion">
+  <h4>It's that easy!</h4>
+  <h1>Blockchain can be complicated, but we make learning it simple.</h1>
+</section>
 
-  <section class="moreOptions">
-    <div class="container row">
-      <h1>Are you curious yet?</h1>
-      <div class="col-sm-6">
-        <a href="/crypto-curious/">
-          <img src="/assets/img/CCC_videoHeader.jpg">
-        </a>
-      </div>
-      <div class="col-sm-6">
-        <span>Get up to speed in under 2 hours with our <a href="/crypto-curious/">Crypto Curious Course.</a> It’s been
-          crafted to explain some of the trickier concepts simply and give you a history of Bitcoin and
-          blockchain.</span>
-      </div>
+<section class="moreOptions">
+  <div class="container row">
+    <h1>Are you curious yet?</h1>
+    <div class="col-sm-6">
+      <a href="/crypto-curious/">
+        <img src="/assets/img/CCC_videoHeader.jpg">
+      </a>
     </div>
-    <div class="container row">
-      <h1>Quick Answers</h1>
-      <div class="col-sm-6">
-        <a href="/faq/">
-          <img src="/assets/img/FAQ-banner.jpg">
-        </a>
-      </div>
-      <div class="col-sm-6">
-        <span>Overwhelmed by all the new concepts and terms? Visit our FAQ page and learn about <a
-            href="/faq/how-to-buy-bitcoin/">the different ways to buy bitcoin</a> and <a
-            href="/faq/what-is-blockchain/">what a blockchain is.</a></span>
-      </div>
+    <div class="col-sm-6">
+      <span>Get up to speed in under 2 hours with our <a href="/crypto-curious/">Crypto Curious Course.</a> It’s been
+        crafted to explain some of the trickier concepts simply and give you a history of Bitcoin and
+        blockchain.</span>
     </div>
-    <div class="container row">
-      <h1>Free Courses</h1>
-      <div class="col-sm-6">
-        <a href="/courses/">
-          <img src="/assets/img/Courses-Banner.jpg">
-        </a>
-      </div>
-      <div class="col-sm-6">
-        <span>Start your blockchain journey! We offer free educational resources for everyone, whether you want to
-          understand how blockchain will change <a href="/courses/blockchain-for-business/">how we do business</a> or <a
-            href="/courses/blockchain-security/"></a>what makes these systems secure.</a></span>
-      </div>
+  </div>
+  <div class="container row">
+    <h1>Quick Answers</h1>
+    <div class="col-sm-6">
+      <a href="/faq/">
+        <img src="/assets/img/FAQ-banner.jpg">
+      </a>
     </div>
-  </section>
+    <div class="col-sm-6">
+      <span>Overwhelmed by all the new concepts and terms? Visit our FAQ page and learn about <a
+          href="/faq/how-to-buy-bitcoin/">the different ways to buy bitcoin</a> and <a
+          href="/faq/what-is-blockchain/">what a blockchain is.</a></span>
+    </div>
+  </div>
+  <div class="container row">
+    <h1>Free Courses</h1>
+    <div class="col-sm-6">
+      <a href="/courses/">
+        <img src="/assets/img/Courses-Banner.jpg">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <span>Start your blockchain journey! We offer free educational resources for everyone, whether you want to
+        understand how blockchain will change <a href="/courses/blockchain-for-business/">how we do business</a> or <a
+          href="/courses/blockchain-security/"></a>what makes these systems secure.</a></span>
+    </div>
+  </div>
+</section>
 
 
-  <section class="coinflip">
-    <a href="https://coinflip.tech">
-      <h1 class="hasColorTag gold">Sponsored By</h1>
-      <div class="row container">
-        <div class="col-md-6">
-          <img class="imgInDiv" src="/assets/img/coinflip_dot_tech.png">
-          <span>Their network of over 500 Bitcoin ATMs offers 10% off to Blockchain Institute students when you enter
-            the
-            code WETEACH. Visit <strong>Coinflip</strong> for help buying your first Bitcoin!</span>
-          <span class="cta_button">Buy Bitcoin Here</span>
-        </div>
-      </div>
-    </a>
-
-  </section>
-
-  <section class="ambassadors">
-    <h1 class="hasColorTag purple">Ambassador Program</h1>
+<section class="coinflip">
+  <a href="https://coinflip.tech">
+    <h1 class="hasColorTag gold">Sponsored By</h1>
     <div class="row container">
       <div class="col-md-6">
-        <img class="imgInDiv" src="/assets/img/Ambassador-Timeline-01.jpg">
-      </div>
-      <div class="col-md-6">
-        <span>Already in the know about Blockchain and Crypto? Join our <a href="/ambassadors/">ambassador community</a>
-          and help make blockchain tech mainstream!
-        </span>
+        <img class="imgInDiv" src="/assets/img/coinflip_dot_tech.png">
+        <span>Their network of over 500 Bitcoin ATMs offers 10% off to Blockchain Institute students when you enter
+          the
+          code WETEACH. Visit <strong>Coinflip</strong> for help buying your first Bitcoin!</span>
+        <span class="cta_button">Buy Bitcoin Here</span>
       </div>
     </div>
-  </section>
+  </a>
 
-  <section class="followUsFooter">
-    <h1>Share this page</h1>
-    <ul class="navbar-nav flex-row">
-      <li class="nav-item"><a target="_blank" class="nav-link px-2"
-          href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i
-            class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2"
-          href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2"
-          href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-  </section>
+</section>
+
+<section class="ambassadors">
+  <h1 class="hasColorTag purple">Ambassador Program</h1>
+  <div class="row container">
+    <div class="col-md-6">
+      <img class="imgInDiv" src="/assets/img/Ambassador-Timeline-01.jpg">
+    </div>
+    <div class="col-md-6">
+      <span>Already in the know about Blockchain and Crypto? Join our <a href="/ambassadors/">ambassador community</a>
+        and help make blockchain tech mainstream!
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="followUsFooter">
+  <h1>Share this page</h1>
+  <ul class="navbar-nav flex-row">
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i
+          class="fab fa-twitter"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+</section>
