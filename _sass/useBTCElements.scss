@@ -33,6 +33,9 @@ html, body {
 .btcExplained .col-sm-4 {
     padding: 3rem;
 }
+.btcExplained {
+    background-color: #efefef;
+}
 .whatDoQRCodes {
     padding-top: 6em;
     padding-bottom: 5em;
@@ -139,6 +142,7 @@ section.calloutQuestion {
 }
 .moreOptions {
     margin-bottom: 4rem;
+    background-color: #efefef;
 }
 .moreOptions .col-sm-6 {
     padding-left: 0em;
@@ -295,7 +299,9 @@ a.quickNav {
     color: white;
     font-size: 2.5rem;
 }
-
+.container img {
+    max-width: 100%;
+}
 .col-sm-4.mpSlider {
     z-index: 999;
     padding: 0;
@@ -307,12 +313,15 @@ a.quickNav {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-color: #efefef;
 }
+
 .row.container.mobilePhonesSlider {
     min-height: 75vh;
-    background: white;
+    background-color: #efefef;
     margin-top: 5em;
     margin-bottom: 5em;
+    padding-bottom: 5rem;
 }
 
 /*Ambassadors*/
@@ -322,7 +331,7 @@ a.quickNav {
 section.ambassadors {
     padding-top: 6em;
     padding-bottom: 6em;
-    background-color: #efefef;
+    background-color: white;
 }
 h1.hasColorTag.purple {
     margin-left: -1.4em;
@@ -371,3 +380,17 @@ h1.hasColorTag.white::before {
     padding-left: 0;
 }
 
+// two col img in row
+.imageTwoCol img, .imageTwoCol span {
+    max-width: calc(50% - 1rem);
+    display: inline-block;
+}
+.imageTwoCol span {
+    color: #149ba4;
+    padding-left: 1rem;
+    font-weight: 500;
+}
+.container li {
+    color: black;
+    margin-left: -0.75rem;
+}
