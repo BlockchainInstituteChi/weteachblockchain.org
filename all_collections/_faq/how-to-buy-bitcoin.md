@@ -11,13 +11,12 @@ learnMoreImage: BC101-01.jpg
 weight: 2
 sticky: true
 ---
-
-<span>One of the biggest problems that has kept the average person from buying <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> has been the previous difficulty of the purchasing process. Simply put, people were too intimidated by the process. As a result, many who were interested in crypto would end up declining to take the leap of purchasing cryptocurrency. Whether you want to buy Bitcoin, buy Ethereum, or buy other cryptocurrencies <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with 3 different ways to trade cryptocurrencies!</span>
-
-<span>These were valid concerns a few years ago, as the cryptocurrency ecosystem and the tools to enter it were still in early development. The past few years have seen a lot of innovation in the space, providing much easier ways to enter the blockchain community by purchasing cryptocurrency. Confusing applications have been improved, resulting in a much easier crypto purchasing process. The idea that it is difficult for the average person to buy bitcoin has now been turned into a misconception. Each purchasing method varies in ease of use, fees, and identity verification. Here are the top ways to buy bitcoin:</span>
+<span>Ready to get started with <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> but not sure how to acquire it in the first place? Whether you want to buy Bitcoin, buy Ethereum, or buy cryptocurrency <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with three different ways to get started!</span>
 {% include callouts/callout.html
     bodyText='Not yet feeling confident enough to send & receive blockchain transactions? Enroll in <a href="/crypto-curious/" target="_blank">The Crypto Curious Course</a> and go from Curious to Confident!'
 %}
+<span>In the not-so-distant past, buying your first bitcoin was a much more intimidating process. The past few years have seen a lot of innovation in the space, providing much easier ways to enter the blockchain community by purchasing cryptocurrency. Each purchasing method varies in ease of use, fees, and identity verification. Here are the top ways to buy bitcoin:</span>
+
 <h2>1. Buy Bitcoin via Online Exchanges</h2>
 <img src="/assets/img/Exchanges.jpg" alt="how to buy bitcoin via online exchanges" title="Buying bitcoin on an exchange">
 <h3>What are cryptocurrency exchanges?</h3> 
@@ -69,7 +68,7 @@ sticky: true
 <img src="/assets/img/PrivateTransaction.jpg" alt="How to buy bitcoin, ethereum and other crypto in a direct private transaction" title="Buying crypto in a private transaction">
 <span>Before exchanges gained traction, a popular way to purchase cryptocurrency had been to find someone willing to sell cryptocurrency in your local area.</span>
 <h3>How do Direct Transactions Work?</h3>
-<span>Services like localbitcoins.com and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
+<span>Services like <a href="https://localbitcoins.com/" target="_blank">LocalBitcoins</a>localbitcoins.com and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
 <h3>Pros & Cons to Buy Bitcoin with Direct Transactions</h3>
 <h4>Pros</h4>
 <ul>
