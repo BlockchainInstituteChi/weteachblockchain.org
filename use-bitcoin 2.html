@@ -1,0 +1,293 @@
+---
+layout: default
+title: Learn to Use Bitcoin (it's easy!)
+stylesheet: use-bitcoin.css
+permalink: /use-bitcoin/
+ogTitle: Use Bitcoin
+ogDesc: You’ve heard about bitcoin, but what is it really? We've got the answers you need.
+ogImage: https://weteachblockchain.org/assets/img/headerBackgroundTile.jpg
+ogUrl: https://weteachblockchain.org/use-bitcoin/
+---
+{% include newsletterPopup.html %}
+{% include pageHeader.html
+    img="CTAadmainheader.jpg" 
+    imgSm="CTAadlandingpageheader.jpg" 
+    header="Welcome to <br> <img src='/assets/img/WTB_LTAlogo.png'>" 
+    text="<a href='#startHere' class='quickNav'><i class='far fa-arrow-alt-circle-down'></i></a>"
+%}
+<section class="row youMadeIT" id="startHere">
+  <div class="container">
+    <div class="col-md-12">
+      <span>You've made it here, and that means you have all the skills needed to transact with Bitcoin—we can show
+        you how easy it is!</span>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="col-md-12">
+      <span class="purpleStrong">You are just a few steps away from being able to conduct your own crypto
+        transaction.</span>
+    </div>
+  </div>
+</section>
+
+<section class="btcExplained">
+  <div class="whatDoQRCodes">
+    <h1 class="hasColorTag red">What do QR codes have to do with Bitcoin?</h1>
+    <div class="row container">
+      <div class="col-md-6">
+        <span>Bitcoin addresses are just long strings of numbers and letters. These addresses can be turned into QR
+          codes to make the withdrawal and sending of funds easy.</span>
+      </div>
+      <div class="col-md-6">
+        <span>Instead of typing out the address of your friend's cryptocurrency wallet, you can simply scan a QR code.
+          This saves time and also prevents any mistakes from happening when trying to manually enter the
+          address.</span>
+      </div>
+    </div>
+  </div>
+  <div id="mobilePhonesSlider" class="row container mobilePhonesSlider">
+    <div class="navButtons" id="navButtons">
+      <a id="mobileSliderNavLeft" href="javascript:void(0)" class="disabled" onclick="navSliderLeft()">
+        <i class="fas fa-arrow-circle-left"></i>
+      </a>
+      <a id="mobileSliderNavRight" href="javascript:void(0)" onclick="navSliderRight()">
+        <i class="fas fa-arrow-circle-right"></i>
+      </a>
+    </div>
+    <div class="col-sm-4 mpSlider shown">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-00.png">
+      <span class="phoneQRText">Most crypto wallets can be downloaded on your phone from the app store!</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-01.png">
+      <span class="phoneQRText">Open your Crypto Wallet, select Bitcoin, and hit Send.</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-02.png">
+      <span class="phoneQRText">Choose the Scan option so you can scan your friend's address as a QR code</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-03.png">
+      <span class="phoneQRText">Your friend opens their crypto wallet and selects Bitcoin and Receive</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-04.png">
+      <span class="phoneQRText">Scan the QR Code displayed on your friend's phone</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-05.png">
+      <span class="phoneQRText">Enter the amount you want to send</span>
+    </div>
+    <div class="col-sm-4 mpSlider">
+      <img class="phoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-06.png">
+      <span class="phoneQRText">Hit Send!</span>
+    </div>
+  </div>
+
+  <script src="/assets/js/swiped.min.js"></script>
+  <script>
+    document.getElementById('navButtons').className += ' display'
+
+    window.sliderIndex = 0
+    window.sliderScreens = document.getElementsByClassName('mpSlider')
+
+    var sliderArea = document.getElementById('mobilePhonesSlider');
+    sliderArea.addEventListener('swiped-right', function (e) {
+      navSliderLeft()
+    })
+    sliderArea.addEventListener('swiped-left', function (e) {
+      navSliderRight()
+    })
+
+    function setSlider() {
+      for (var i = 0; i < window.sliderScreens.length; i++) {
+        if (window.sliderIndex === i) {
+          if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
+        } else {
+          window.sliderScreens[i].className = window.sliderScreens[i].className.replace('shown', '')
+        }
+
+        setLeftButton()
+        setRightButton()
+      }
+    }
+
+    function navSliderRight() {
+      if (window.sliderIndex < (window.sliderScreens.length - 1)) {
+        window.sliderIndex++
+        setSlider()
+      }
+    }
+
+    function navSliderLeft() {
+      if (window.sliderIndex > 0) {
+        window.sliderIndex = window.sliderIndex - 1
+        setSlider()
+      }
+    }
+
+    function setLeftButton() {
+      var button = document.getElementById('mobileSliderNavLeft')
+      if (window.sliderIndex == 0) {
+        button.className += " disabled"
+      } else {
+        button.className = button.className.replace('disabled', '')
+      }
+    }
+    function setRightButton() {
+      var button = document.getElementById('mobileSliderNavRight')
+      if (window.sliderIndex == (window.sliderScreens.length - 1)) {
+        button.className += " disabled"
+      } else {
+        button.className = button.className.replace('disabled', '')
+      }
+    }      
+  </script>
+
+  <div class="row container desktopPhones">
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-01.png">
+      <span class="phoneQRText">Open your Crypto Wallet, select Bitcoin, and hit Send.</span>
+      <img class="arrowRight" src="/assets/img/QRBC_landingpage-07.png">
+    </div>
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-02.png">
+      <span class="phoneQRText">Choose the Scan option so you can scan your friend's address as a QR code</span>
+      <img class="arrowRight" src="/assets/img/QRBC_landingpage-08.png">
+    </div>
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-03.png">
+      <span class="phoneQRText">Your friend opens their crypto wallet and selects Bitcoin and Receive</span>
+    </div>
+  </div>
+  <div class="row container desktopPhones">
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-04.png">
+      <span class="phoneQRText">Scan the QR Code displayed on your friend's phone</span>
+      <img class="arrowRight" src="/assets/img/QRBC_landingpage-07.png">
+    </div>
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-05.png">
+      <span class="phoneQRText">Enter the amount you want to send</span>
+      <img class="arrowRight" src="/assets/img/QRBC_landingpage-08.png">
+    </div>
+    <div class="col-sm-4">
+      <img class="phoneImg" src="/assets/img/QRBC_landingpage-06.png">
+      <span class="phoneQRText">Hit Send!</span>
+    </div>
+  </div>
+</section>
+
+<section class="cccVideoPlaylist">
+  <div class="row">
+    <h1>You just completed a bitcoin transaction.</h1>
+    <span>To see what is happening behind the scenes, watch the video below.</span>
+  </div>
+  <div class="row">
+    <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section class="qrWithBluebackground">
+  <h1 class="hasColorTag white">Share What You’ve Learned</h1>
+  <div class="row container">
+    <div class="col-md-6">
+      <img class="imgInDiv" src="/assets/img/use-bitcoin-share-qr-code.png">
+    </div>
+    <div class="col-md-6">
+      <span>Try it for yourself. Share the above QR code and a friend can scan it!</span>
+    </div>
+  </div>
+</section>
+
+<section class="calloutQuestion">
+  <h4>It's that easy!</h4>
+  <h1>Blockchain can be complicated, but we make learning it simple.</h1>
+</section>
+
+<section class="moreOptions">
+  <div class="container row">
+    <h1>Are you curious yet?</h1>
+    <div class="col-sm-6">
+      <a href="/crypto-curious/">
+        <img src="/assets/img/CCC_videoHeader.jpg">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <span>Get up to speed in under 2 hours with our <a href="/crypto-curious/">Crypto Curious Course.</a> It’s been
+        crafted to explain some of the trickier concepts simply and give you a history of Bitcoin and
+        blockchain.</span>
+    </div>
+  </div>
+  <div class="container row">
+    <h1>FAQs</h1>
+    <div class="col-sm-6">
+      <a href="/faq/">
+        <img src="/assets/img/FAQ-banner.jpg">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <span>Overwhelmed by all the new concepts and terms? Visit our FAQ page and learn about <a
+          href="/faq/how-to-buy-bitcoin/">the different ways to buy bitcoin</a> and <a
+          href="/faq/what-is-blockchain/">what a blockchain is.</a></span>
+    </div>
+  </div>
+  <div class="container row">
+    <h1>Online Courses</h1>
+    <div class="col-sm-6">
+      <a href="/courses/">
+        <img src="/assets/img/Courses-Banner.jpg">
+      </a>
+    </div>
+    <div class="col-sm-6">
+      <span>Start your blockchain journey! We offer free educational resources for everyone, whether you want to
+        understand how blockchain will change <a href="/courses/blockchain-for-business/">how we do business</a> or <a
+          href="/courses/blockchain-security/"></a>what makes these systems secure.</a></span>
+    </div>
+  </div>
+</section>
+
+<section class="ambassadors">
+  <h1 class="hasColorTag purple">Ambassador Program</h1>
+  <div class="row container">
+    <div class="col-md-6">
+      <img class="imgInDiv" src="/assets/img/Ambassador-Timeline-01.jpg">
+    </div>
+    <div class="col-md-6">
+      <span>Already in the know about Blockchain and Crypto? Join our <a href="/ambassadors/">ambassador community</a>
+        and help make blockchain tech mainstream!
+      </span>
+    </div>
+  </div>
+</section>
+
+
+<section class="coinflip">
+  <a href="https://coinflip.tech">
+    <h1 class="hasColorTag gold">Sponsored By</h1>
+    <div class="row container">
+      <div class="col-md-6">
+        <img class="imgInDiv" src="/assets/img/coinflip_dot_tech.png">
+        <span>Their network of over 500 Bitcoin ATMs offers 10% off to Blockchain Institute students when you enter the
+          code WETEACH. Visit <strong>Coinflip</strong> for help buying your first Bitcoin!</span>
+        <span class="cta_button">Buy Bitcoin Here</span>
+      </div>
+    </div>
+  </a>
+
+</section>
+
+<section class="followUsFooter">
+  <h1>Share this page</h1>
+  <ul class="navbar-nav flex-row">
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i
+          class="fab fa-twitter"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
+    <li class="nav-item"><a target="_blank" class="nav-link px-2"
+        href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+</section>
