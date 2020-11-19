@@ -93,6 +93,7 @@ section.cccVideoPlaylist {
     text-transform: uppercase;
     color: #ed0744;
     font-weight: 700 !important;
+    margin-left: -8.25em;
 }
 .cccVideoPlaylist span {
     font-weight: 500;
@@ -302,7 +303,7 @@ h1.hasColorTag.red {
     float: left;
     padding-top: calc(30% - 0.5rem);
     z-index: 500;
-    width: 100vw;
+    width: 88vw;
     left: 0;
 }
 .navButtons a {
@@ -332,7 +333,7 @@ a.quickNav {
 .col-sm-4.mpSlider {
     z-index: 999;
     padding: 0;
-    margin: 3rem auto 3rem auto;
+    margin: 3rem auto 1rem auto;
     display: none;
     max-width: calc(100% - 8rem);
 }
@@ -347,7 +348,7 @@ a.quickNav {
     min-height: 120vh;
     background-color: #efefef;
     margin-top: 2em;
-    margin-bottom: 7em;
+    margin-bottom: 9em;
     padding-bottom: 5rem;
     position: relative;
 
@@ -438,15 +439,23 @@ h1.hasColorTag.white::before {
 .sliderIndex li {
     display: inline-block !important;
     font-size: 5rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
+    font-family: 'Roboto';
 }
 ul.sliderIndex {
-    min-width: 100vw;
+    min-width: 89vw;
     text-align: center;
     position: absolute;
     left: 0;
     margin-left: -0.5rem;
     padding-left: 0;
     z-index: 1000;
-    bottom: -1rem;
+    bottom: 3em;
+}
+
+
+
+
+.cccVideoPlaylist h1.hasColorTag.red {
+    margin-left: -8em;
 }

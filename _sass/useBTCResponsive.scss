@@ -38,7 +38,7 @@
         float: left;
         padding-top: calc(50% - 0.5rem);
         z-index: 500;
-        width: 100vw;
+        width: 92vw;
         left: 0;
     }
     .navButtons a {
@@ -88,15 +88,15 @@
         font-size: 2.5rem;
     }
     .pageHeaderImage .col-sm-6 {
-        margin: 4em 0em;
+        margin: 4em 0em 0em 2em;
     }
     section.pageHeaderImage {
         margin-bottom: 0em;
     }
     .btcExplained .fa, .btcExplained .fas {
         font-weight: 900;
-        margin-right: .5em;
-        margin-left: .5em;
+        margin-right: 0em;
+        margin-left: 0em;
         font-size: 1.35em;
     }
     .row.container.mobilePhonesSlider {
@@ -107,6 +107,15 @@
     }
     .howToBuy .imageTwoCol img {
         margin-top: -9em;
+    }
+    .cccVideoPlaylist h1.hasColorTag.red {
+        margin-left: -5.3em;
+    }
+    .cccVideoPlaylist h1 {
+        margin-left: -6.5em;
+    }
+    .row.container.mobilePhonesSlider {
+        min-height: 108vh !important;
     }
 } 
 
@@ -191,6 +200,19 @@
     }
     .pageHeaderImage .col-sm-6 {
         margin: 4em 1em;
+    }
+    .cccVideoPlaylist h1 {
+        margin-left: -1.4em;
+    }
+    .cccVideoPlaylist h1.hasColorTag.red {
+        margin-left: -.2em;
+    }
+    .row.container.mobilePhonesSlider {
+        min-height: 90vh !important;
+    }
+    ul.sliderIndex {
+        margin-left: -1rem;
+        bottom: 0rem;
     }
 }
 
