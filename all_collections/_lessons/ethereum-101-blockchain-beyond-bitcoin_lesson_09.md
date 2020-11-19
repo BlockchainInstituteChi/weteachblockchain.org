@@ -46,3 +46,5 @@ Throughout this module we've explored how the Ethereum Virtual Machine can be us
 </ol>
 
 <i><span >What should you do if your use case isn't possible yet? </span></i>
+
+One great example of efficient integration of blockchains is the Ethereum Name Service and <a href="https://shareasale.com/r.cfm?b=1380184&u=2618510&m=46483&urllink=&afftrack=">.xyz domain names </a>. A bridge was developed to support the Ethereum Name Service and they can now be used with decentralized identities!
