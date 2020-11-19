@@ -344,11 +344,13 @@ a.quickNav {
 }
 
 .row.container.mobilePhonesSlider {
-    min-height: 75vh;
+    min-height: 120vh;
     background-color: #efefef;
     margin-top: 2em;
     margin-bottom: 7em;
     padding-bottom: 5rem;
+    position: relative;
+
 }
 
 /*Ambassadors*/
@@ -410,6 +412,10 @@ h1.hasColorTag.white::before {
     margin-bottom: .75em;
 }
 
+.current {
+    color: red !important;
+}
+
 // two col img in row
 .imageTwoCol img, .imageTwoCol span {
     max-width: calc(50% - 1rem);
@@ -430,13 +436,17 @@ h1.hasColorTag.white::before {
 
 /* Slider Index */
 .sliderIndex li {
-    display: inline-block;
+    display: inline-block !important;
     font-size: 5rem;
     margin-left: 1rem;
 }
 ul.sliderIndex {
-    min-width: 35vw !important;
+    min-width: 100vw;
+    text-align: center;
     position: absolute;
-    left: auto;
-    right: auto;
+    left: 0;
+    margin-left: -0.5rem;
+    padding-left: 0;
+    z-index: 1000;
+    bottom: -1rem;
 }

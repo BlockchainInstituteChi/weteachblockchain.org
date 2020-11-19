@@ -100,7 +100,7 @@
         font-size: 1.35em;
     }
     .row.container.mobilePhonesSlider {
-        min-height: 40vh;
+        min-height: 120vh !important;
     }
     .imageTwoCol img {
         margin-top: -17em;
@@ -112,6 +112,17 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+    /* temp sliderIndex fix */
+    ul.sliderIndex {
+        min-width: 100vw;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        margin-left: -0.5rem;
+        padding-left: 0;
+        z-index: 1000;
+        bottom: -1rem;
+    }
     h1.hasColorTag.red {
         text-indent: -4.2rem;
         margin-left: .6em;

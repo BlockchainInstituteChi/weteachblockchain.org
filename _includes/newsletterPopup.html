@@ -13,8 +13,8 @@
 <style>
     .newsletterPopup {
         display: none;
-        position: absolute;
-        top: 150vh;
+        position: fixed;
+        top: 75vh;
         z-index: 9999;
         width: 30rem;
         text-align: center;
@@ -89,11 +89,11 @@
 </style>
 
 <script>
-    setTimeout(function () {
-        showPopup()
-    }, 3000)
+    // setTimeout(function () {
+    //     showPopup()
+    // }, 3000)
     function showPopup() {
-        document.getElementsByClassName('newsletterPopup')[0].className += " shown"
+        if (!document.getElementsByClassName('newsletterPopup')[0].className.includes('shown')) document.getElementsByClassName('newsletterPopup')[0].className += " shown"
     }
     function closePopup() {
         document.getElementsByClassName('newsletterPopup')[0].className = document.getElementsByClassName('newsletterPopup')[0].className.replace('shown', '')

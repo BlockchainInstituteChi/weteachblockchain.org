@@ -109,13 +109,17 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 
   window.sliderIndex = 0
   window.sliderScreens = document.getElementsByClassName('mpSlider')
-  setInterval(function () {
-    console.log('auto?', window.autoScrolling)
-    if (!window.autoScrolling) {
+  createSliderIndex()
 
-      navSliderRight()
-    }
-  }, 2500)
+  function startAutoScrolling() {
+    setInterval(function () {
+      console.log('auto?', window.autoScrolling)
+      if (!window.autoScrolling) {
+
+        navSliderRight()
+      }
+    }, 3500)
+  }
 
 
   function stopAutoScrolling() {
@@ -147,41 +151,46 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 
   function setSliderScroller() {
     var element = document.getElementById('mobilePhonesSlider')
-    // document.addEventListener('scroll', function () { return animate(element) })
-
-  }
-
-  function inView(element) {
-    var elementHeight = element.clientHeight;
-    var windowHeight = window.innerHeight;
-    var scrollY = window.scrollY || window.pageYOffset;
-    var scrollPosition = scrollY + windowHeight;
-    var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
-    // console.log('scroll', scrollPosition, 'el', elementPosition, (elementPosition + 0.5 * window.innerHeight))
-    if (scrollPosition > (elementPosition - 0.75 * window.innerHeight)) {
-      return true;
-    }
-
-    return false;
-  }
-
-  function startSliderAuto() {
-    navSliderRight()
-    do {
-
-    } while (!window.sliderStop)
-  }
-
-  function animate(element) {
-    if (inView(element)) {
-      if (!window.sliderAnimate) {
-        startSliderAuto()
-        window.sliderAnimate = true
+    document.addEventListener('scroll', function () {
+      if (window.scrollY > 2 * window.innerHeight) {
+        // console.log('scroll', window.scrollY, 2 * window.innerHeight, window.scrollY, window.innerHeight, !window.sliderStarted)
+        if (showPopup && !window.popUpOpened) {
+          window.popUpOpened = true
+          showPopup()
+        }
+      } else if (window.scrollY > window.innerHeight && !window.sliderStarted) {
+        window.sliderStarted = true
+        startAutoScrolling()
       }
-    }
+    })
+
   }
+
+  // function inView(element) {
+  //   var elementHeight = element.clientHeight;
+  //   var windowHeight = window.innerHeight;
+  //   var scrollY = window.scrollY || window.pageYOffset;
+  //   var scrollPosition = scrollY + windowHeight;
+  //   var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
+  //   // console.log('scroll', scrollPosition, 'el', elementPosition, (elementPosition + 0.5 * window.innerHeight))
+  //   if (scrollPosition > (elementPosition - 0.25 * window.innerHeight)) {
+  //     return true;
+  //   }
+
+  //   return false;
+  // }
+
+  // function animate(element) {
+  //   if (inView(element)) {
+  //     if (!window.sliderAnimate) {
+  //       startSliderAuto()
+  //       window.sliderAnimate = true
+  //     }
+  //   }
+  // }
 
   function setSlider() {
+    console.log('setting slider', window.sliderIndex)
     for (var i = 0; i < window.sliderScreens.length; i++) {
       if (window.sliderIndex === i) {
         if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
@@ -195,7 +204,7 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     }
   }
 
-  function setSliderIndex() {
+  function createSliderIndex() {
     var index = document.createElement('ul')
     index.id = "sliderIndex"
     index.className = "sliderIndex"
@@ -203,36 +212,57 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     for (let i = 0; i < window.sliderScreens.length; i++) {
       const bar = i;
       var link = document.createElement('li')
+      link.className = " sliderIndexBullet "
       link.addEventListener('click', () => {
-        console.log('returning jumpSlider', bar)
+        // console.log('returning jumpSlider', bar)
         var car = bar;
+        window.autoScrolling = true;
         return jumpSlider(car)
       });
+      if (i === window.sliderIndex) {
+        link.className += " current"
+      }
       link.innerHTML = "."
       index.appendChild(link)
     }
 
-    window.sliderScreens[window.sliderIndex].appendChild(index)
+    document.getElementById('mobilePhonesSlider').appendChild(index)
+    window.sliderIndexUl = document.getElementsByClassName('sliderIndexBullet')
   }
+
+  function setSliderIndex(x) {
+    window.sliderIndex = x;
+    console.log('setting slider index', x, window.sliderIndex)
+    for (var i = 0; i < window.sliderIndexUl.length; i++) {
+      if (window.sliderIndex === i) {
+        if (!window.sliderIndexUl[i].className.includes('current')) window.sliderIndexUl[i].className += " current"
+      } else {
+        2
+        window.sliderIndexUl[i].className = window.sliderIndexUl[i].className.replace('current', '')
+      }
+
+    }
+  }
+
+
   function jumpSlider(i) {
-    document.getElementById('sliderIndex').remove()
-    window.sliderIndex = i;
+    setSliderIndex(i)
     setSlider()
   }
 
   function navSliderRight() {
     if (window.sliderIndex < (window.sliderScreens.length - 1)) {
-      window.sliderIndex++
+      setSliderIndex(window.sliderIndex + 1)
       setSlider()
     } else {
-      window.sliderIndex = 0
+      setSliderIndex(0)
       setSlider()
     }
   }
 
   function navSliderLeft() {
     if (window.sliderIndex > 0) {
-      window.sliderIndex = window.sliderIndex - 1
+      setSliderIndex(window.sliderIndex - 1)
       setSlider()
     }
   }
