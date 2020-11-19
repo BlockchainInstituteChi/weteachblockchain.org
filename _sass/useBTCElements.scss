@@ -27,8 +27,9 @@ html, body {
 
 /* BTC Explained */
 .btcExplained .col-sm-4 img {
-    width: 100%;
+    width: 80%;
     text-align: center;
+    margin-left: 10%;
 }
 .btcExplained .col-sm-4 {
     padding: 3rem;
@@ -43,13 +44,14 @@ html, body {
 }
 span.phoneQRText {
     color: black;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     width: 100%;
     padding: 0em;
     display: block;
     text-align: center;
     font-weight: 500;
     margin-top: 3em;
+    font-weight: 300;
 }
 img.arrowRight {
     position: absolute;
@@ -62,10 +64,18 @@ img.arrowRight {
     font-weight: 900;
     margin-right: 3em;
     margin-left: 3em;
-    font-size: 2.25em;
+    font-size: 2em;
 }
 .navButtons i:hover {
     color: #ed0744 !important;
+}
+.sliderHeader {
+    display: contents;
+}
+.sliderHeader h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #ed0744;
 }
 
 /* Explainer Video */
@@ -96,9 +106,22 @@ section.cccVideoPlaylist {
     min-height: 75vh;
     margin-top: 4rem !important;
 }
+h1.usingBitcoinIsSimple {
+    color: black;
+    margin-bottom: 0em;
+}
+.cccVideoPlaylist span {
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
 
 section.pageHeaderImage {
     height: 75vh;
+    margin-bottom: 0em;
 }
 
 /*Callout Question*/
@@ -128,7 +151,7 @@ section.calloutQuestion {
 .moreOptions h1 {
     width: 100%;
     display: block;
-    margin-top: 4rem;
+    margin-top: -2rem;
     font-size: 2em;
     padding-left: 0em;
     text-transform: uppercase;
@@ -146,6 +169,11 @@ section.calloutQuestion {
 }
 .moreOptions .col-sm-6 {
     padding-left: 0em;
+}
+.moreOptions {
+    margin-bottom: 4rem;
+    background-color: #efefef;
+    padding-bottom: 7em;
 }
 
 
@@ -169,13 +197,13 @@ section.coinflip {
     font-family: 'Kanit';
 }
 span.cta_button {
-    padding: 1rem;
-    max-width: 12rem;
+    padding: 1rem 3rem;
+    max-width: 16rem;
     background: #fbb25b;
     text-align: center;
     color: black;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
     letter-spacing: 0.05rem;
     margin-top: 1rem;
 }
@@ -250,7 +278,6 @@ section.youMadeIT span {
     display: block;
     margin-bottom: 1rem;
     color: black;
-    font-weight: 400;
 }
 
 // @jason - TODO: once this is complete, let's migrate it to main.css so it takes effect sitewide.
@@ -319,8 +346,8 @@ a.quickNav {
 .row.container.mobilePhonesSlider {
     min-height: 75vh;
     background-color: #efefef;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 2em;
+    margin-bottom: 7em;
     padding-bottom: 5rem;
 }
 
@@ -329,7 +356,7 @@ a.quickNav {
     max-width: 100%;
 }
 section.ambassadors {
-    padding-top: 6em;
+    padding-top: 3em;
     padding-bottom: 6em;
     background-color: white;
 }
@@ -379,11 +406,17 @@ h1.hasColorTag.white::before {
 .howToBuy .container h1 {
     padding-left: 0;
 }
+.howToBuy h1 {
+    margin-bottom: .75em;
+}
 
 // two col img in row
 .imageTwoCol img, .imageTwoCol span {
     max-width: calc(50% - 1rem);
     display: inline-block;
+}
+.imageTwoCol img {
+    margin-top: 0em;
 }
 .imageTwoCol span {
     color: #149ba4;

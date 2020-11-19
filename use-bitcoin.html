@@ -25,11 +25,6 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
           codes to make the withdrawal and sending of funds easy. Instead of typing out the full address, you only need
           to scan the QR code!</span>
       </div>
-      <div class="col-md-6">
-        <span>Instead of typing out the address of your friend's cryptocurrency wallet, you can simply scan a QR code.
-          This saves time and also prevents any mistakes from happening when trying to manually enter the
-          address.</span>
-      </div>
       <div class="col-md-6 imageTwoCol" onclick="function () { window.location = 'faq/what-are-qr-codes/' }">
         <img class="floatLeft" src="/assets/img/qrcode_ccc-sm.jpg">
         <span>QR codes save time and prevent mistakes. Learn more ways QR codes and blockchain can work together.</span>
@@ -38,11 +33,14 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
   </div>
 
   <div id="mobilePhonesSlider" class="row container mobilePhonesSlider">
+    <div class="sliderHeader">
+      <h3>QR Codes In Action</h3>
+    </div>
     <div class="navButtons" id="navButtons">
-      <a id="mobileSliderNavLeft" href="javascript:void(0)" class="disabled" onclick="navSliderLeft()">
+      <a id="mobileSliderNavLeft" href="javascript:void(0)" class="disabled" onclick="clickSliderLeft()">
         <i class="fas fa-arrow-circle-left"></i>
       </a>
-      <a id="mobileSliderNavRight" href="javascript:void(0)" onclick="navSliderRight()">
+      <a id="mobileSliderNavRight" href="javascript:void(0)" onclick="clickSliderRight()">
         <i class="fas fa-arrow-circle-right"></i>
       </a>
     </div>
@@ -133,6 +131,15 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
   sliderArea.addEventListener('swiped-left', function (e) {
     navSliderRight()
   })
+
+  function clickSliderRight() {
+    stopAutoScrolling()
+    navSliderRight()
+  }
+  function clickSliderLeft() {
+    stopAutoScrolling()
+    navSliderLeft()
+  }
 
   setTimeout(function () {
     setSliderScroller()

@@ -64,7 +64,7 @@
     }
     span.phoneQRText {
         color: black;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .cccVideoPlaylist iframe {
         min-height: 38vh;
@@ -88,19 +88,25 @@
         font-size: 2.5rem;
     }
     .pageHeaderImage .col-sm-6 {
-        margin: 4em 2em;
+        margin: 4em 0em;
+    }
+    section.pageHeaderImage {
+        margin-bottom: 0em;
     }
     .btcExplained .fa, .btcExplained .fas {
         font-weight: 900;
-        margin-right: 3.25em;
-        margin-left: 3.25em;
+        margin-right: .5em;
+        margin-left: .5em;
         font-size: 1.35em;
-    }
-    .navButtons {
-        padding-top: calc(25% - 0.5rem);
     }
     .row.container.mobilePhonesSlider {
         min-height: 40vh;
+    }
+    .imageTwoCol img {
+        margin-top: -17em;
+    }
+    .howToBuy .imageTwoCol img {
+        margin-top: -9em;
     }
 } 
 
@@ -155,6 +161,25 @@
     }
     .navButtons {
         padding-top: calc(55% - 0.5rem);
+    }
+    .imageTwoCol img {
+        margin-top: -10em;
+    }
+    .howToBuy .imageTwoCol img {
+        margin-top: -5em;
+    }
+    .cccVideoPlaylist span {
+        margin-left: .25em;
+        margin-right: .25em;
+    }
+    .col-sm-4.mpSlider {
+        margin: 4.5rem auto 3rem auto;
+    }
+    .sliderHeader h3 {
+        font-size: 1.7em;
+    }
+    .pageHeaderImage .col-sm-6 {
+        margin: 4em 1em;
     }
 }
 
