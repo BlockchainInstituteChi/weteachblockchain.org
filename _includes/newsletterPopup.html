@@ -13,8 +13,8 @@
 <style>
     .newsletterPopup {
         display: none;
-        position: fixed;
-        top: 73vh;
+        position: absolute;
+        top: 150vh;
         z-index: 9999;
         width: 30rem;
         text-align: center;
@@ -98,4 +98,45 @@
     function closePopup() {
         document.getElementsByClassName('newsletterPopup')[0].className = document.getElementsByClassName('newsletterPopup')[0].className.replace('shown', '')
     }
+
+    // var sliderArea = document.getElementById('mobilePhonesSlider');
+    // sliderArea.addEventListener('swiped-right', function (e) {
+    //     navSliderLeft()
+    // })
+    // sliderArea.addEventListener('swiped-left', function (e) {
+    //     navSliderRight()
+    // })
+
+    // setTimeout(function () {
+    //     setSliderScroller()
+    // }, 500)
+
+    // function setSliderScroller() {
+    //     var element = document.getElementById('')
+    //     document.addEventListener('scroll', function () { return animate(element) })
+
+    // }
+
+    // function inView(element) {
+    //     var elementHeight = element.clientHeight;
+    //     var windowHeight = window.innerHeight;
+    //     var scrollY = window.scrollY || window.pageYOffset;
+    //     var scrollPosition = scrollY + windowHeight;
+    //     var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
+    //     console.log('scroll', scrollPosition, 'el', elementPosition, (elementPosition + 0.5 * window.innerHeight))
+    //     if (scrollPosition > (elementPosition - 0.75 * window.innerHeight)) {
+    //         return true;
+    //     }
+
+    //     return false;
+    // }
+
+    // function animate(element) {
+    //     if (inView(element)) {
+    //         if (!window.sliderAnimate) {
+    //             navSliderRight()
+    //             window.sliderAnimate = true
+    //         }
+    //     }
+    // }    
 </script>

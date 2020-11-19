@@ -21,7 +21,9 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     <h1 class="hasColorTag red">What do QR codes have to do with Bitcoin?</h1>
     <div class="row container">
       <div class="col-md-6">
-        <span>Bitcoin addresses are just long strings of numbers and letters. These addresses can be turned into QR codes to make the withdrawal and sending of funds easy. Instead of typing out the full address, you only need to scan the QR code!</span>
+        <span>Bitcoin addresses are just long strings of numbers and letters. These addresses can be turned into QR
+          codes to make the withdrawal and sending of funds easy. Instead of typing out the full address, you only need
+          to scan the QR code!</span>
       </div>
       <div class="col-md-6">
         <span>Instead of typing out the address of your friend's cryptocurrency wallet, you can simply scan a QR code.
@@ -46,31 +48,31 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     </div>
     <!-- <h1>7 Easy Steps to Using Bitcoin</h1> -->
     <div class="col-sm-4 mpSlider shown">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-00.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-00.png">
       <span class="phoneQRText">Most crypto wallets can be downloaded on your phone from the app store!</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-01.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-01.png">
       <span class="phoneQRText">Open your Crypto Wallet, select Bitcoin, and hit Send.</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-02.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-02.png">
       <span class="phoneQRText">Choose the Scan option so you can scan your friend's address as a QR code</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-03.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-03.png">
       <span class="phoneQRText">Your friend opens their crypto wallet and selects Bitcoin and Receive</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-04.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-04.png">
       <span class="phoneQRText">Scan the QR Code displayed on your friend's phone</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-05.png">
+      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-05.png">
       <span class="phoneQRText">Enter the amount you want to send</span>
     </div>
     <div class="col-sm-4 mpSlider">
-      <img class="phoneImg" onclick="navSliderRight()" src="/assets/img/QRBC_landingpage-06.png">
+      <img class="phoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-06.png">
       <span class="phoneQRText">Hit Send!</span>
     </div>
   </div>
@@ -109,6 +111,20 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 
   window.sliderIndex = 0
   window.sliderScreens = document.getElementsByClassName('mpSlider')
+  setInterval(function () {
+    console.log('auto?', window.autoScrolling)
+    if (!window.autoScrolling) {
+
+      navSliderRight()
+    }
+  }, 2500)
+
+
+  function stopAutoScrolling() {
+    if (!window.autoScrolling) {
+      window.autoScrolling = true;
+    }
+  }
 
   var sliderArea = document.getElementById('mobilePhonesSlider');
   sliderArea.addEventListener('swiped-right', function (e) {
@@ -124,7 +140,7 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 
   function setSliderScroller() {
     var element = document.getElementById('mobilePhonesSlider')
-    document.addEventListener('scroll', function () { return animate(element) })
+    // document.addEventListener('scroll', function () { return animate(element) })
 
   }
 
@@ -134,17 +150,25 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     var scrollY = window.scrollY || window.pageYOffset;
     var scrollPosition = scrollY + windowHeight;
     var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
-    if (scrollPosition > elementPosition) {
+    // console.log('scroll', scrollPosition, 'el', elementPosition, (elementPosition + 0.5 * window.innerHeight))
+    if (scrollPosition > (elementPosition - 0.75 * window.innerHeight)) {
       return true;
     }
 
     return false;
   }
 
+  function startSliderAuto() {
+    navSliderRight()
+    do {
+
+    } while (!window.sliderStop)
+  }
+
   function animate(element) {
     if (inView(element)) {
       if (!window.sliderAnimate) {
-        navSliderRight()
+        startSliderAuto()
         window.sliderAnimate = true
       }
     }
@@ -154,6 +178,7 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     for (var i = 0; i < window.sliderScreens.length; i++) {
       if (window.sliderIndex === i) {
         if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
+        setSliderIndex(i)
       } else {
         window.sliderScreens[i].className = window.sliderScreens[i].className.replace('shown', '')
       }
@@ -163,9 +188,37 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
     }
   }
 
+  function setSliderIndex() {
+    var index = document.createElement('ul')
+    index.id = "sliderIndex"
+    index.className = "sliderIndex"
+
+    for (let i = 0; i < window.sliderScreens.length; i++) {
+      const bar = i;
+      var link = document.createElement('li')
+      link.addEventListener('click', () => {
+        console.log('returning jumpSlider', bar)
+        var car = bar;
+        return jumpSlider(car)
+      });
+      link.innerHTML = "."
+      index.appendChild(link)
+    }
+
+    window.sliderScreens[window.sliderIndex].appendChild(index)
+  }
+  function jumpSlider(i) {
+    document.getElementById('sliderIndex').remove()
+    window.sliderIndex = i;
+    setSlider()
+  }
+
   function navSliderRight() {
     if (window.sliderIndex < (window.sliderScreens.length - 1)) {
       window.sliderIndex++
+      setSlider()
+    } else {
+      window.sliderIndex = 0
       setSlider()
     }
   }
@@ -196,11 +249,12 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 </script>
 
 <section class="cccVideoPlaylist">
-  <h1 class="hasColorTag red">Using Bitcoin is simple.</h1>`````````
+  <h1 class="hasColorTag red">Using Bitcoin is simple.</h1>
   <div class="row">
-    <h1>We can teach you</h1> 
-    <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&start=80" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>We can teach you</h1>
+    <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&start=80"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
     <span>Learn what happens behind the scenes of a bitcoin transaction step by step.</span>
   </div>
 </section>

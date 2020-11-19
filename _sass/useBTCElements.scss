@@ -394,3 +394,16 @@ h1.hasColorTag.white::before {
     color: black;
     margin-left: -0.75rem;
 }
+
+/* Slider Index */
+.sliderIndex li {
+    display: inline-block;
+    font-size: 5rem;
+    margin-left: 1rem;
+}
+ul.sliderIndex {
+    min-width: 35vw !important;
+    position: absolute;
+    left: auto;
+    right: auto;
+}
