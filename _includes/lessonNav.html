@@ -2,96 +2,96 @@
   slug=page.course 
 %}
 <script>
-    var thisLesson = {
-      title : "{{ page.title }}",
-      link : "{{ page.permalink }}",
-      module : "{{ page.module }}",
-    };
-    function lastLesson () {
-      var thisModule = window.lessonMap.modules[thisLesson.module - 1];
-      for (var i = 0; i < thisModule.lessons.length; i++ ) {
-        if ( thisModule.lessons[i].link === thisLesson.link ) {
-          // check if last lesson is in the same module
-          if ( typeof(thisModule.lessons[i - 1]) != 'undefined' ){
-            window.location.href = thisModule.lessons[i - 1].link
-          } else {
-            // if not, proceed to last module
-            window.location.href = window.lessonMap.modules[thisLesson.module - 2].lessons[window.lessonMap.modules[thisLesson.module - 2].lessons.length - 1].link
-          }
+  var thisLesson = {
+    title: "{{ page.title }}",
+    link: "{{ page.permalink }}",
+    module: "{{ page.module }}",
+  };
+  function lastLesson() {
+    var thisModule = window.lessonMap.modules[thisLesson.module - 1];
+    for (var i = 0; i < thisModule.lessons.length; i++) {
+      if (thisModule.lessons[i].link === thisLesson.link) {
+        // check if last lesson is in the same module
+        if (typeof (thisModule.lessons[i - 1]) != 'undefined') {
+          window.location.href = thisModule.lessons[i - 1].link
+        } else {
+          // if not, proceed to last module
+          window.location.href = window.lessonMap.modules[thisLesson.module - 2].lessons[window.lessonMap.modules[thisLesson.module - 2].lessons.length - 1].link
         }
       }
     }
-    function nextLesson () {
-      var thisModule = window.lessonMap.modules[thisLesson.module - 1];
-      for (var i = 0; i < thisModule.lessons.length; i++ ) {
-        if ( thisModule.lessons[i].link === thisLesson.link ) {
-          // check if next lesson is in the same module
-          if ( typeof(thisModule.lessons[i + 1]) != 'undefined' ){
-            window.location.href = thisModule.lessons[i + 1].link
-          } else {
-            // if not, proceed to next module
-            window.location.href = window.lessonMap.modules[thisLesson.module].lessons[0].link
-          }
+  }
+  function nextLesson() {
+    var thisModule = window.lessonMap.modules[thisLesson.module - 1];
+    for (var i = 0; i < thisModule.lessons.length; i++) {
+      if (thisModule.lessons[i].link === thisLesson.link) {
+        // check if next lesson is in the same module
+        if (typeof (thisModule.lessons[i + 1]) != 'undefined') {
+          window.location.href = thisModule.lessons[i + 1].link
+        } else {
+          // if not, proceed to next module
+          window.location.href = window.lessonMap.modules[thisLesson.module].lessons[0].link
         }
-
       }
-    }
-    function toggleMenu () {
-      {% for course in site.courses %} 
-        {% if course.slug == page.course %}
-          var permalink = "{{ course.permalink }}";
-        {% endif %}
-      {% endfor %}
-
-      // something weird is going on here... no course object should be available here.
-      window.location.href = permalink
 
     }
+  }
+  function toggleMenu() {
+    {% for course in site.courses %}
+    {% if course.slug == page.course %}
+    var permalink = "{{ course.permalink }}";
+    {% endif %}
+    {% endfor %}
 
-    function hideButtonsIfPageIsFirstOrLast() {
-      var module = thisLesson.module
+    // something weird is going on here... no course object should be available here.
+    window.location.href = permalink
 
-      // First, check if this is the first module
-      if ( "1" === module ) {
+  }
 
-        if ( thisLesson.link === window.lessonMap.modules[module - 1].lessons[0].link ) {
-          // this is the first lesson, so hide the back button
-          hideBackButton()
+  function hideButtonsIfPageIsFirstOrLast() {
+    var module = thisLesson.module
 
-        }
+    // First, check if this is the first module
+    if ("1" === module) {
 
-      } else if ( window.lessonMap.modules.length == module ) {
-
-        // Then, check if this is the last lesson
-        if ( window.lessonMap.modules[module - 1].lessons[window.lessonMap.modules[module - 1].lessons.length - 1].link === thisLesson.link ) {
-          hideForwardButton();
-        }
+      if (thisLesson.link === window.lessonMap.modules[module - 1].lessons[0].link) {
+        // this is the first lesson, so hide the back button
+        hideBackButton()
 
       }
 
+    } else if (window.lessonMap.modules.length == module) {
 
+      // Then, check if this is the last lesson
+      if (window.lessonMap.modules[module - 1].lessons[window.lessonMap.modules[module - 1].lessons.length - 1].link === thisLesson.link) {
+        hideForwardButton();
+      }
 
     }
 
-    function hideBackButton () {
-      document.getElementById('lastLessonButton').className += " d-none"
-    }
 
-    function hideForwardButton () {
-      document.getElementById('nextLessonButton').className += " d-none"
-    }
-  </script>
-  <section class="lessonNav">
-    <div class="row">
-      <div class="col-sm-4">
-        <a href="#" id="lastLessonButton" onclick="lastLesson()"><i class="fas fa-caret-left"></i> Back</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="#" onclick="toggleMenu()">Lessons</a>
-      </div>
-      <div class="col-sm-4">
-        <a href="#" id="nextLessonButton" onclick="nextLesson()">Next <i class="fas fa-caret-right"></i></a>
-      </div>
+
+  }
+
+  function hideBackButton() {
+    document.getElementById('lastLessonButton').className += " d-none"
+  }
+
+  function hideForwardButton() {
+    document.getElementById('nextLessonButton').className += " d-none"
+  }
+</script>
+<section class="lessonNav">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="#" id="lastLessonButton" onclick="lastLesson()"><i class="fa fa-caret-left"></i> Back</a>
     </div>
-    <script defer> hideButtonsIfPageIsFirstOrLast() </script>
-  </section>
+    <div class="col-sm-4">
+      <a href="#" onclick="toggleMenu()">Lessons</a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#" id="nextLessonButton" onclick="nextLesson()">Next <i class="fa fa-caret-right"></i></a>
+    </div>
+  </div>
+  <script defer> hideButtonsIfPageIsFirstOrLast() </script>
+</section>
