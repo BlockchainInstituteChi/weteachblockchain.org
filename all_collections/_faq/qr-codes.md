@@ -2,10 +2,11 @@
 title: What are QR Codes?
 image: qrcode_ccc.jpg
 ogImage: qrcode_ccc.jpg
+ogDescription: QR codes help integrate the digital world with the physical one and incorporate technology into our lives. This FAQ goes over what QR codes are and how blockchain technology is making use of them.
 permalink: /faq/what-are-qr-codes/
 layout: faq
 tag: CONCEPTS
-focusKeyword: QR Code
+focusKeyword: QR Code, public keys, private keys, cryptocurrency wallet, cryptocurrency transaction, supply chain, blockchain technology, learn blockchain, blockchain education
 learnMoreLink: /courses/blockchain-for-business/
 learnMoreText: Our Blockchain For Business Course
 learnMoreImage: BlockchainforBusiness.jpg
