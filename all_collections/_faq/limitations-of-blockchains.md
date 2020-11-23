@@ -2,10 +2,11 @@
 title: Limitations of Blockchains
 image: Limitations.jpg
 ogImage: Limitations.jpg
+ogDescription: We love blockchains, but they aren't perfect. It's essential to understand what the limitations of blockchains are.
 permalink: /faq/limitations-of-blockchains/
 layout: faq
 tag: CONCEPTS
-focusKeyword: blockchain limitations
+focusKeyword: blockchain disadvantages, blockchain problems, blockchain limitations, scaling problem, scaling problems, blockchain technology, scaling, learn blockchain, blockchain education, database
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
