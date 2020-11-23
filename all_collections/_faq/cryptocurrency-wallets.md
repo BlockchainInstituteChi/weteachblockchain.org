@@ -1,10 +1,11 @@
 ---
 title: Cryptocurrency Wallets
 image: Wallets.jpg
+ogDescription: One of the most important aspects of holding cryptocurrency is keeping it secure. So, where do you keep your cryptocurrency? Not in a physical wallet, but a digital one.
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
-focusKeyword: 
+focusKeyword: what are cryptocurrency wallets, cryptocurrency wallet, hot wallets, cold wallets, software wallets, paper wallets, hardware wallets, store cryptocurrency, blockchain education
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
