@@ -2,9 +2,11 @@
 title: Coins vs Tokens
 image: coins-vs-tokens.jpg
 ogImage: coins-vs-tokens.jpg
+ogDescription: When talking about cryptocurrency, the terms “coin” and “token” are often used interchangeably, even though this is not quite correct. There are a few subtle differences between coins and tokens.
 permalink: /faq/coins-vs-tokens/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
+focusKeyword: cryptocurrency, coin, coins, token, tokens, bitcoin, ethereum, blockchain, cryptokitties, cryptographic assets
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
 learnMoreText: the Fungible Tokens section of Ethereum 101
 learnMoreImage: EthereumGrowth-1.jpg
