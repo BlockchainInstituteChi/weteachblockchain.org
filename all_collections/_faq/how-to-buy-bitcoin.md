@@ -2,9 +2,11 @@
 title: How To Buy Bitcoin
 image: HowToBuyFAQ.jpg
 ogImage: HowToBuyFAQ.jpg
+ogDescription: In the not-so-distant past, buying your first bitcoin was a much more intimidating process. The past few years have seen a lot of innovation in the space, providing much easier ways to enter the blockchain community by purchasing cryptocurrency. Each purchasing method varies in ease of use, fees, and identity verification.
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
 tag: CONCEPTS
+focusKeyword: Bitcoin, Cryptocurrency, Ethereum, Tokens, Coins, Crypto Exchanges, Decentralized Exchanges, Cryptocurrency ATMs, Bitcoin ATMs
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
