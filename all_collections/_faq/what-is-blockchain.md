@@ -2,9 +2,11 @@
 title: What is a Blockchain?
 image: blockchain.jpg
 ogImage: Token-Creation-Cycle-01.jpg
+ogDescription: What is a blockchain? It’s a decentralized ledger that records all transactions. Each transaction that is conducted leaves a permanent record that can be referenced at any time.
 permalink: /faq/what-is-blockchain/
 layout: faq
-tag: CONCEPTS 
+tag: CONCEPTS
+focusKeyword: Blockchain, Decentralized Ledger, Distributed Ledger, Learn Blockchain, Blockchain Technology, Blockchain Education, Decentralized, Cryptocurrency, Cryptocurrency Transaction, P2P
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our free Blockchain 101 course
 learnMoreImage: BC101-01.jpg
