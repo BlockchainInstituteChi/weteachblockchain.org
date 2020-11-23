@@ -2,8 +2,10 @@
 title: What is Decentralized Storage?
 image: DStorage.jpg
 ogImage: DStorage.jpg
+ogDescription: Blockchain technology offers an alternative way for information to be stored, known as peer-to-peer storage. Instead of a centralized, vulnerable server, information is duplicated and stored by every single user of the network.
 permalink: /faq/decentralized-storage/
 layout: faq
+focusKeyword: decentralized storage, decentralized, centralized, centralized server, distributed, filecoin, blockchain, IPFS
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
