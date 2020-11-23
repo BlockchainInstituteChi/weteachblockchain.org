@@ -2,9 +2,11 @@
 title: Bitcoin vs Ethereum
 image: Difference_BC-Eth.jpg
 ogImage: Difference_BC-Eth.jpg
+ogDescription: Bitcoin and Ethereum are two of the most popular cryptocurrencies, but how do they compare? Learn about their intended goals and differences.
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
-tag: WHAT'S THE DIFFERENCE? 
+tag: WHAT'S THE DIFFERENCE?
+focusKeyword: bitcoin, ethereum, satoshi nakamoto, cryptocurrency, smart contracts, ethereum virtual machine, ethereum gas
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: our Ethereum 101 course
 learnMoreImage: EthereumGrowth-1.jpg
