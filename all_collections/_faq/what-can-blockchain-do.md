@@ -2,9 +2,11 @@
 title: What Can Blockchain Do?
 image: RealWorld.jpg
 ogImage: RealWorld.jpg
+ogDescription: While blockchain was created as a solution for the Bitcoin payment network, the concept has been adopted across a wide range of sectors.
 permalink: /faq/what-can-blockchain-do/
 layout: faq
 tag: APPLICATIONS
+focusKeyword: blockchain, data storage, decentralization, decentralized, supply chain, self-sovereign Identity, real estate, tokenized asset, use cases
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
