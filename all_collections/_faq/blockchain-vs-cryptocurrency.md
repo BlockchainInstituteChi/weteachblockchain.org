@@ -2,9 +2,11 @@
 title: Blockchain vs Cryptocurrency
 image: Difference.jpg
 ogImage: Difference.jpg
+ogDescription: Blockchain is the technology that serves as the distributed ledger and allows a network to maintain consensus. Cryptocurrencies are the tokens used within these networks to send value and pay for these transactions or to provide network incentives.
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
+focusKeyword: Blockchain, Cryptocurrency, Cryptography, Decentralized Ledger, Distributed Ledger, Database, Bitcoin, Digital Currencies, Coins, Transactions
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
