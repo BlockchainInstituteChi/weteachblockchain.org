@@ -2,9 +2,11 @@
 title: What is Decentralization?
 image: Decent2.jpg
 ogImage: Decent2.jpg
+ogDescription: A system is decentralized if it's participants can connect either directly or through a network of nodes that are not centrally managed. Most blockchains are decentralized networks.
 permalink: /faq/what-is-decentralization/
 layout: faq
 tag: CONCEPTS
+focusKeyword: decentralized, centralization, decentralized network, nodes, p2p, blockchain, consensus mechanism
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
