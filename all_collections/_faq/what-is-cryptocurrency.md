@@ -2,9 +2,11 @@
 title: What is Cryptocurrency?
 image: Crypto2.jpg
 ogImage: Crypto2.jpg
+ogDescription: Cryptocurrencies such as bitcoin or ether are scarce digital assets that exist on a decentralized network of computers. They act as a digital store of value or a medium of exchange. 
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
 tag: CONCEPTS
+focusKeyword:bitcoin, blockchain, cryptocurrency, ethereum, tokens, coins, digital assets, cryptocurrency transaction
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
