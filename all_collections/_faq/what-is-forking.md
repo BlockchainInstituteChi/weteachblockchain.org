@@ -5,6 +5,7 @@ ogImage: Forking.jpg
 permalink: /faq/what-is-forking/
 layout: faq
 tag: CONCEPTS
+focusKeyword: forking, fork, blockchain, open-source, temporary forks, soft forks, hard forks, nodes, proof-of-work
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
