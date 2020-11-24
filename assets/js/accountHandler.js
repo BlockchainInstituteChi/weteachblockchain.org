@@ -7,8 +7,8 @@
 //     }
 //   }, i*500)
 // }
-// window.serverUrl = "http://localhost:8888/user"
-window.serverUrl = "https://app.weteachblockchain.org/user"
+window.serverUrl = "http://localhost:8888/user"
+// window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 console.log('setting RenderMagic')
