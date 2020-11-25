@@ -12,6 +12,15 @@ ogUrl: https://weteachblockchain.org/
 
 {% include loader.html %}
 
+<style>
+    /* badge css*/
+    .col-sm-2.badgeIcon img {
+        max-width: 100%;
+    }
+
+
+</style>
+
 <section class="userProfileHeader mustLogin">
     <div class="container row spacer">
 
@@ -24,6 +33,12 @@ ogUrl: https://weteachblockchain.org/
             <span class="separator"></span>
             <li>Delete Account</li>
         </ul> -->
+    </div>
+</section>
+
+<section >
+    <div class="row container" id="badges">
+        <span>Loading...</span>
     </div>
 </section>
 
@@ -53,6 +68,60 @@ ogUrl: https://weteachblockchain.org/
 </section>
 
 <script>
+
+
+    async function getBadges () {
+        console.log('get badges started ')
+
+        try {   
+                console.log('window.localstorage.didtoken', window.localStorage.didToken, window.serverUrl)
+                if (!window.serverUrl) window.serverUrl = "http://localhost:8888/user"
+                await fetch(`${window.serverUrl}/getBadges`, {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + window.localStorage.didToken,
+                    },
+                    method: "GET"
+                })
+                    .then(handleAuthErrors)
+                    .then(response => response.json())
+                    .then((responseJSON) => {
+                        console.log('Get badges response:', responseJSON);
+                        if (responseJSON) {
+                           window.badges = responseJSON
+                           console.log('set window.badges:', window.badges)
+                           displayBadges()
+                        } else {
+                            console.log('Get user badges failed - try again.')
+                        }
+                    })
+            } catch (err) {
+                console.log('uncaught exception in update call', err)
+            }
+
+    }
+
+    function displayBadges () {
+        document.getElementById('badges').innerHTML = ""
+        
+        for (var badge of window.badges) {
+            var div = document.createElement('div')
+                div.className = "col-sm-2 badgeIcon"
+
+            var img = document.createElement('img')
+                img.src = badge.image
+                img.alt = badge.description
+                img.title = badge.description
+
+            var title = document.createElement('span')
+                title.innerHTML = badge.name
+
+            div.appendChild(img)
+            div.appendChild(title)
+
+            document.getElementById('badges').appendChild(div)
+        } 
+    }
 
     function deleteAccount() {
         document.getElementById('confirmDeleteEmail').placeholder = JSON.parse(window.localStorage.userMetaData).email
@@ -101,6 +170,7 @@ ogUrl: https://weteachblockchain.org/
 
         if (window.userData) {
 
+            setTimeout(getBadges, 1000)
             console.log('window userdata is good')
 
             var divsToShow = document.getElementsByClassName('mustLogin')
