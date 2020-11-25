@@ -7,7 +7,9 @@
 //     }
 //   }, i*500)
 // }
-window.serverUrl = "http://localhost:8888/user"
+const MAGIC_PUBLIC_KEY = "pk_test_4429B9D857E9A6B7";
+
+window.serverUrl = "http://localhost:8888/user";
 // window.serverUrl = "https://app.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
@@ -368,7 +370,7 @@ function loadAndSetupMagic() {
   if (!window.magicLoaded) {
     window.magicLoaded = true
     console.log('window.magicloaded is !true ', window.magicLoaded)
-    magic = new Magic("pk_live_EA466C1563BC5CFF");
+    magic = new Magic(MAGIC_PUBLIC_KEY);
     console.log('about to render magic')
     renderMagic();
     const checkUserData = async () => {

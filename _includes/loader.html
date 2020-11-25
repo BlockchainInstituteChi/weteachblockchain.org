@@ -30,7 +30,8 @@
         var loader = document.getElementById('loader')
 
         if ( loader.className.includes('d-none') ) {
-            loader.className = loader.className.replace('d-none', '')
+            // loader.className = loader.className.replace('d-none', '')
+            console.log('tried to clear loader and loader was already hidden')
         } else {
             loader.className += ' d-none'
         }
