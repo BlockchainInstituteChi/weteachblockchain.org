@@ -4,15 +4,16 @@ html, body {
 }
 
 .pageHeaderImage p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
+    padding-top: .1em;
 }
 .pageHeaderImage h1 {
     font-family: Open Sans;
     font-size: 1.9em;
     font-style: italic;
     font-weight: 100 !important;
-    margin-top: 6em !important;
+    margin-top: 5em !important;
 }
 .pageHeaderImage h1 img {
     margin-top: .4em;
@@ -89,11 +90,10 @@ section.cccVideoPlaylist {
 }
 .cccVideoPlaylist h1 {
     width: 100%;
-    text-align: center;
     text-transform: uppercase;
     color: #ed0744;
     font-weight: 700 !important;
-    margin-left: -8.25em;
+    margin-left: -.25em;
 }
 .cccVideoPlaylist span {
     font-weight: 500;
@@ -106,6 +106,7 @@ section.cccVideoPlaylist {
     width: 100vw;
     min-height: 75vh;
     margin-top: 4rem !important;
+    margin-bottom: 1.5em;
 }
 h1.usingBitcoinIsSimple {
     color: black;
@@ -209,14 +210,15 @@ span.cta_button {
     margin-top: 1rem;
 }
 a.cta_button {
-    padding: 1rem;
-    background: red;
+    padding: 1rem 3em;
+    background: #ed0744;
     color: white;
     display: block;
     max-width: fit-content;
     margin-top: 1rem;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Kanit';
 }
 
 /*Do More*/
@@ -464,15 +466,20 @@ ul.sliderIndex {
 
 
 
-
+span.youtubePlaylistLink {
+    font-size: 1em;
+}
 .cccVideoPlaylist h1.hasColorTag.red {
-    margin-left: -8em;
+    margin-left: .2em;
 }
 
 // newsletter section
 section.newsletter {
-    background: #efefef;
     padding-bottom: 4rem;
+    margin-top: 7em;
+}
+.newsletter span {
+    color: black;
 }
 
 // landing page footer
@@ -486,8 +493,6 @@ section.newsletter {
 }
 .lpfooter .row {
     padding: 0;
-    margin: 0;
-    width: 100%;
     max-width: unset;
 }
 .lpfooter .col-md-3.bciLogo, .lpfooter .col-md-3.bciSocial {
@@ -496,9 +501,26 @@ section.newsletter {
     display: inline-block;
 }
 .lpfooter ul.navbar-nav.flex-row {
-    margin-left: -1rem;
     margin-top: -0.5rem;
 }
 img.madeInUptown.lazy.loaded {
     max-width: 100%;
+}
+.col-md-3.bciSocial {
+    font-size: 1.25em;
+}
+.footer .col-md-3 img {
+    max-width: 80%;
+    margin-top: 1em;
+}
+.footer .col-md-6 {
+    padding: 1em;
+}
+.container-fluid.footer.lpfooter {
+    padding-top: 4em;
+    padding-bottom: 6em;
+}
+img.madeInUptown.lazy.loaded {
+    max-width: 30%;
+    margin: auto;
 }

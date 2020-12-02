@@ -109,13 +109,18 @@
         margin-top: -9em;
     }
     .cccVideoPlaylist h1.hasColorTag.red {
-        margin-left: -5.3em;
-    }
-    .cccVideoPlaylist h1 {
-        margin-left: -6.5em;
+        margin-left: .75em;
     }
     .row.container.mobilePhonesSlider {
         min-height: 108vh !important;
+    }
+    .footer .col-md-6 {
+        min-width: 98%;
+    }
+    ul.navbar-nav.flex-row {
+        margin-bottom: 0rem !important;
+        width: fit-content;
+        float: right;
     }
 } 
 
@@ -201,11 +206,14 @@
     .pageHeaderImage .col-sm-6 {
         margin: 4em 1em;
     }
+    .pageHeaderImage h1 {
+        margin-top: 3em !important;
+    }
     .cccVideoPlaylist h1 {
-        margin-left: -1.4em;
+        margin-left: 0em;
     }
     .cccVideoPlaylist h1.hasColorTag.red {
-        margin-left: -.2em;
+        margin-left: .6em;
     }
     .row.container.mobilePhonesSlider {
         min-height: 90vh !important;
@@ -216,6 +224,26 @@
     }
     #navButtons i {
         font-size: 3.5rem;
+    }
+    .footer li.nav-item {
+        font-size: 1em;
+    }
+    .footer .col-md-3 img {
+        max-width: 95%;
+    }
+    .footer li.nav-item {
+        padding-top: .25em;
+    }
+    .footer .col-md-6 {
+        min-width: 100%;
+        margin: 0em 1em 1em 1em;
+    }
+    .container-fluid.footer.lpfooter {
+        padding-top: 2.5em;
+    }
+    img.madeInUptown.lazy.loaded {
+        max-width: 60%;
+        margin: -.5em auto 2em auto;
     }
 }
 
