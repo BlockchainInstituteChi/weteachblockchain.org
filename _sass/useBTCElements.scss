@@ -208,7 +208,16 @@ span.cta_button {
     letter-spacing: 0.05rem;
     margin-top: 1rem;
 }
-
+a.cta_button {
+    padding: 1rem;
+    background: red;
+    color: white;
+    display: block;
+    max-width: fit-content;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 /*Do More*/
 .doMore h3 {
@@ -458,4 +467,38 @@ ul.sliderIndex {
 
 .cccVideoPlaylist h1.hasColorTag.red {
     margin-left: -8em;
+}
+
+// newsletter section
+section.newsletter {
+    background: #efefef;
+    padding-bottom: 4rem;
+}
+
+// landing page footer
+.lpfooter .col-md-3.bciLogo {
+    max-width: 50%;
+    padding: 0;
+}
+.container-fluid.footer.lpfooter {
+    padding-left: 0;
+    padding-right: 0;
+}
+.lpfooter .row {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: unset;
+}
+.lpfooter .col-md-3.bciLogo, .lpfooter .col-md-3.bciSocial {
+    max-width: calc(50% - 3rem);
+    padding: 0;
+    display: inline-block;
+}
+.lpfooter ul.navbar-nav.flex-row {
+    margin-left: -1rem;
+    margin-top: -0.5rem;
+}
+img.madeInUptown.lazy.loaded {
+    max-width: 100%;
 }

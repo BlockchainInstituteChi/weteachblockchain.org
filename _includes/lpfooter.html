@@ -1,0 +1,111 @@
+<div class="container-fluid footer lpfooter">
+	<div class="row">
+		<div class="col-md-3 bciLogo">
+			<a href="/">
+				<img src="/assets/img/TBI_greylogo.png">
+			</a>
+		</div>
+		<div class="col-md-3 bciSocial">
+			<ul class="navbar-nav flex-row">
+				<li class="nav-item"><a target="_blank" class="nav-link px-2"
+						href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a>
+				</li>
+				<li class="nav-item"><a target="_blank" class="nav-link px-2"
+						href="https://twitter.com/bchaininstitute"><i class="fab fa-twitter"></i></a></li>
+				<li class="nav-item"><a target="_blank" class="nav-link px-2"
+						href="https://www.linkedin.com/company/blockchain-institute-chi/"><i
+							class="fab fa-linkedin"></i></a></li>
+				<li class="nav-item"><a target="_blank" class="nav-link px-2"
+						href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-6 bciNewsletter">
+			<h4 class="float-right">Subscribe To Our Newsletter</h4>
+			<!-- Begin Mailchimp Signup Form -->
+			<div id="mc_embed_signup" class="mc_signup">
+				<form
+					action="https://theblockchaininstitute.us18.list-manage.com/subscribe/post?u=ed27e0082d5f7e8d5cd3e3622&amp;id=d50da5888a"
+					method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+					novalidate>
+					<div id="mc_embed_signup_scroll">
+
+						<div class="mc-field-group">
+							<input type="email" value="" name="EMAIL" placeholder="email@domain.com"
+								class="required email mc_signup_input float-right" id="mce-EMAIL"><button
+								class="mc_signup float-right" type="submit" value="Sign up">Subscribe</button>
+						</div>
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+								name="b_ed27e0082d5f7e8d5cd3e3622_d50da5888a" tabindex="-1" value=""></div>
+					</div>
+				</form>
+			</div>
+
+			<!--End mc_embed_signup-->
+		</div>
+	</div>
+	<div class="row">
+		<img onclick="window.location.href='https://goo.gl/maps/f7nJXRCauwfSz11d8'" class="madeInUptown" src="/assets/img/MadeInUptown.png">
+	</div>
+	<div class="row">
+		<span>Copyright 2020 The Blockchain Institute. All Rights Reserved</span>
+		<div class="linkList">
+			<a href="/press-releases/">Press</a> <a href="/courses/">Courses</a> <a href="/about/">About</a> <a
+				href="/contact-us/">Contact</a> <a href="/events/">Events</a>
+		</div>
+		<div class="sourceDetails">
+			<a target="_blank" href="https://github.com/BlockchainInstituteChi/weteachblockchain.org/"
+				id="editOnGithubButton">
+				<i class="fas fa-pencil-alt"></i>
+			</a>
+			<script>
+				var path = "{{ page.path }}"
+				if ("_" === path.charAt(0)) {
+					path = "all_collections/" + path
+				}
+				path = "https://github.com/BlockchainInstituteChi/weteachblockchain.org/blob/master/" + path
+				console.log(path)
+
+				document.getElementById('editOnGithubButton').href = path;
+			</script>
+		</div>
+	</div>
+</div>
+<script defer async>
+
+	// fix clicks on menu in mobile
+	document.getElementsByClassName('navbar-toggler-icon')[0].addEventListener('click', inst_handleMenuClick)
+
+	function inst_handleMenuClick() {
+		setTimeout(window.toggleNavBarDisplay, 20);
+	}
+	window.toggleNavBarDisplay = function () {
+
+		console.log('toggleNavBarDisplay ran', magic)
+		makeMagicHappen()
+		var menu = document.getElementsByClassName('navbar-collapse')[0];
+		var indicator1 = menu.className.includes('show');
+		var indicator2 = menu.className.includes('collapsing');
+		console.log('menu click', indicator1, indicator2)
+
+		if ((indicator1 === false) && (indicator2 != true)) {
+
+			console.log('menu click while closed, opening', menu.className);
+			menu.className = menu.className + " show"
+
+		} else {
+
+			console.log('menu click while opened, closing', menu.className);
+			menu.className = menu.className.replace('show', '')
+			console.log('menu classname: ', menu.className)
+
+		}
+	}
+</script>
+
+{% include footerScripts.html %}
