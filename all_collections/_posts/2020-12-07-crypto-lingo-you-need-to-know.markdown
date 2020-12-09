@@ -14,7 +14,7 @@ Lost in a sea of new terms as you try to find your way to crypto clarity? If you
 
 {% include callouts/callout.html
   title=""
-	bodyText="Are we missing a word or term? Make sure to <a href='/contact-us/'>send us a message</a> to get it added to this list!"
+	bodyText="Are we missing a term? Make sure to <a href='/contact-us/'>send us a message</a> to get it added to this list!"
 %}
 
 <h2>Cryptocurrency Slang Terms</h2>
@@ -118,8 +118,13 @@ A physical device or computer interface that facilitates the storage of public a
 While most of these are not directly related to crypto, you will see them a lot, so it’s good to know what they stand for!
 
 <b>ATH</b> - All Time High
+
 <b>BTD</b> - Buy The Dip
+
 <b>DYOR</b> - Do Your Own Research 
+
 <b>FOMO</b> - Fear Of Missing Out
+
 <b>FUD</b> - Fear Uncertainty Doubt
+
 <b>ICO</b> - Initial Coin Offering
