@@ -22,13 +22,13 @@ Lost in a sea of new terms as you try to find your way to crypto clarity? If you
 A slang term for “address”, as in a crypto wallet’s address. 
 
 <b>Altcoin</b>
-Altcoin refers to cryptocurrencies that are an alternative to bitcoin, the first cryptocurrency.    
+Altcoin refers to <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrencies</a> that are an alternative to bitcoin, the first cryptocurrency.    
 
 <b>Bagholder</b>
 A trader who missed the opportunity to sell and is left holding onto coins with little to no value.
 	
 <b>HODL</b>
-The practice of amassing and keeping crypto. A typo for “hold” that has come to mean “Hold On for Dear Life”. It became a rallying cry when crypto was having more downs than ups and hold was misspelled in a popular form post.
+The practice of amassing and keeping crypto. A typo for “hold” that has come to mean “Hold On for Dear Life”. It became a rallying cry when crypto was having more downs than ups and hold was <a href="https://youtu.be/_H2ggdmXRgg?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=179" target="_blank">misspelled in a popular form post</a>.
 
 <b>Lambo</b>
 Short for Lamborghini, when someone asks “When Lambo?” they are asking when a particular coin's price will increase and they will profit enough to buy a Lamborghini.
@@ -44,7 +44,7 @@ A person that has no bitcoin or crypto. Can sometimes be used as a derogatory te
 Short for wrecked - or what happens if you lose lots of money on a trade. 
 
 <b>Satoshis or Sats</b>
-The smallest amount of bitcoin that can be sent. Named after Bitcoin’s anonymous creator that used the pseudonym Satoshi Nakamoto. 
+The smallest amount of bitcoin that can be sent. Named after Bitcoin’s anonymous creator that used the pseudonym <a href="/courses/blockchain-101/01/the-enigma-satoshi-nakamoto" target="_blank">Satoshi Nakamoto</a>. 
 
 <b>Shill</b>
 A person hyping altcoins or shitcoins for their own benefit. Don’t be this!
@@ -56,38 +56,38 @@ A coin with no value or purpose.
 Refers to people that panic sell instead of continuing to hodl as the value of a coin or the whole crypto market goes down. 
 
 <b>Whale</b>
-An individual who holds a large amount of bitcoin or another cryptocurrency.
+An individual who holds a large amount of bitcoin or another <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a>.
 
 <h2>Technical Terms</h2>
 <b>Address</b>
-Used to receive and send transactions on a blockchain network. It contains a string of alphanumeric characters, but can also be represented as a scannable QR code.
+Used to receive and send <a href="https://youtu.be/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">transactions on a blockchain network</a>. It contains a string of alphanumeric characters, but can also be represented as a scannable <a href="https://weteachblockchain.org/faq/what-are-qr-codes/" target="_blank">QR code</a>.
 
 <b>Airdrop</b>
 Airdrops are a method of token distribution. Developers will send tokens to a blockchain address in exchange for a task, or even for free, to help decentralize the ownership of their tokens.
 
 <b>Blocks</b>
-Each block on a blockchain represents a collection of transactions that have taken place. As the transactions are validated, they are compiled into the blockchain permanently. Blocks include a timestamp and are built in such a way that they cannot be changed once recorded.
+Each block on a <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a> represents a collection of transactions that have taken place. As the transactions are validated, they are compiled into the blockchain permanently. Blocks include a timestamp and are built in such a way that they cannot be changed once recorded.
 
 <b>Cryptography</b> 
 Mathematics creates codes and ciphers in order to conceal information. Cryptography is used as the basis for the mathematical problems used to verify and secure transactions on the Blockchain.
 
 <b>Decentralization</b>
-The process of moving control of a system from one centralized location to many equal ones that can act on a peer-to-peer basis.
+The process of moving control of a system from one <a href="/faq/what-is-decentralization/" target="_blank">centralized</a> location to many equal ones that can act on a peer-to-peer basis.
 
 <b>DeFi</b>
-Short for Decentralized Finance, an open and modular financial system where you have more control than traditional financial systems. The goal of DeFi is to connect individual users to provide financial services without the need for a centralized bank.
+Short for <a href="/decentralized-finance-course/" target="_blank">Decentralized Finance</a>, an open and modular financial system where you have more control than traditional financial systems. The goal of DeFi is to connect individual users to provide financial services without the need for a centralized bank.
 
 <b>DEX</b>
 Short for Decentralized Exchange. DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party.
 
 <b>Exchange</b> 
-A website or organization that allows and facilitates the transfer of fiat to cryptocurrency as well as the reverse. Some exchanges allow you to trade your crypto for other cryptocurrencies.
+A website or organization that allows and facilitates the <a href="/faq/how-to-buy-bitcoin/" target="_blank">transfer of fiat to cryptocurrency</a> as well as the reverse. Some exchanges allow you to trade your crypto for other cryptocurrencies.
 
 <b>Fiat</b>
 Currency issued by the government. The US Dollar and Euro are examples of fiat currencies.
  
 <b>Mining</b>
-The process of adding transactions to blocks and securing the blockchain. Miners are specialized hardware that race to solve equations and add the next block to the chain. The computer that wins receives the block reward for creating the newly added block.  
+The process of <a href="https://youtu.be/Q_BtAGu5i_c?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">adding transactions to blocks</a> and securing the blockchain. Miners are specialized hardware that race to solve equations and add the next block to the chain. The computer that wins receives the block reward for creating the newly added block.  
 
 <b>Node</b>
 A computer that possesses a copy of the blockchain and is working to maintain it.
@@ -96,9 +96,7 @@ A computer that possesses a copy of the blockchain and is working to maintain it
 A system in which computers talk directly to each other with no centralized system in between.
 
 <b>Private Key</b>
-A private key is a string of data cna digitally prove you have access to the crypto in a specific wallet. Private keys can be thought of as a password; they must never be revealed to
-anyone, as they allow you to spend the bitcoins from your bitcoin wallet through a
-cryptographic signature.
+A private key is a string of data can digitally prove you have access to the crypto in a specific wallet. Private keys can be thought of as a password; they must never be revealed to anyone, as they allow you to spend the bitcoins from your bitcoin wallet through a <a href="/courses/blockchain-101/02/asymmetric-encryption" target="_blank">cryptographic signature</a>.
 
 <b>Public Key</b>
 A cryptographic key that can be obtained and used by anyone to encrypt messages intended for a particular recipient, such that the encrypted messages can be deciphered only by
@@ -114,7 +112,7 @@ An alternative to the proof-of-work system, in which your existing stake in a cr
 A cryptocurrency that attempts to peg it’s value to a fiat currency or commodity in an effort to deal with the volatility of the crypto market. 
 
 <b>Wallet</b>
-A physical device or computer interface that facilitates the storage of public and private keys. Your cryptocurrency is not stored in the wallet itself, it's on the blockchain. It only manages your keys.
+A physical device or computer interface that facilitates the storage of public and private keys. Your cryptocurrency is not stored in the <a href="/faq/cryptocurrency-wallets/" target="_blank">wallet</a> itself, it's on the blockchain. It only manages your keys.
 
 <h2>Acronyms</h2>
 While most of these are not directly related to crypto, you will see them a lot, so it’s good to know what they stand for!
