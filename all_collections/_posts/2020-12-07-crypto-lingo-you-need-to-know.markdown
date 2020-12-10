@@ -8,7 +8,7 @@ banner: "CryptoTerms.jpg"
 author: "corey"
 published: true
 permalink: /posts/12/07/crypto-lingo-you-need-to-know
-ogImage: ""
+ogImage: CryptoTerms.jpg
 ---
 Lost in a sea of new terms as you try to find your way to crypto clarity? If you are brand new to the world of blockchain and cryptocurrency, it's easy to get overwhelmed. There are so many new technical terms and slang you need to digest and understand. We are here to help with a list of crypto vocabulary to make navigating this new world just a little bit more manageable.
 
@@ -18,7 +18,7 @@ Lost in a sea of new terms as you try to find your way to crypto clarity? If you
 %}
 
 <h2>Cryptocurrency Slang Terms</h2>
-<b>Addy</b>
+<h3>Addy</h3>
 A slang term for “address”, as in a crypto wallet’s address. 
 
 <b>Altcoin</b>
