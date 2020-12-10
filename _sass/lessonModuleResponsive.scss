@@ -56,6 +56,9 @@
         bottom: 0.5em;
         top: unset;
     }
+    section.upPinkStripesDivider {
+        min-width: 109%;
+    }
 
 } 
 
@@ -175,6 +178,9 @@
     margin: 1em 0em;
     font-size: 1.2em;
     overflow-wrap: break-word;
+}
+section.upPinkStripesDivider {
+    min-width: 120%;
 }
     
 }

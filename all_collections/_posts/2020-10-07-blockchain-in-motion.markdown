@@ -4,7 +4,7 @@ title:  "Blockchain in Motion: Ecosystem Integration"
 date:   2020-10-06 11:02:58 -0500
 categories: applications
 thumbnail: "BeFaster_square.jpg" 
-banner: "BeFaster.jpg"
+image: "BeFaster.jpg"
 author: "gio"
 published: true
 permalink: /posts/10/07/blockchain-in-motion

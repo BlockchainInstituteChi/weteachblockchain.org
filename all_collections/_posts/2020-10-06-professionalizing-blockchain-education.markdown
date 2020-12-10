@@ -4,7 +4,7 @@ title:  Educating the Next Generation of Experts
 date:   2020-10-06 11:02:58 -0500
 categories: education
 thumbnail: "Althash_square.jpg" 
-banner: "Althash.jpg"
+image: "Althash.jpg"
 author: "amando"
 published: true
 permalink: /posts/10/06/professionalizing-the-blockchain-industry

@@ -45,6 +45,6 @@ Satoshi's thoughts on the banking system give us some clues as to why he built a
 
 In 2010, Satoshi Nakamoto handed over control of Bitcoin to the community members and stopped working on it himself. Until that point, all of Bitcoin's code had been written by Nakamoto.
 
-<span style="font-weight: 400;"> But what problems did Bitcoin solve that were the demise of many digital cash projects? Check out our next lesson to find out!</span>
+<span style="font-weight: 400;">But what problems did Bitcoin solve that were the demise of many digital cash projects? Check out our next lesson to find out!</span>
 
 

@@ -4,8 +4,8 @@ name: Corey DiNardo
 position: Operations and Communications
 learnMoreLink: "/about/"
 permalink: "/contributors/corey/"
-headshot: authors/TBI_author.jpg
-banner: authors/TBI_blogauthorheader.jpg
+headshot: authors/Corey.jpg
+banner: authors/CoreyWIDE.jpg
 layout: author
 ogImage: authors/TBI_blogauthorheader.jpg
 ---

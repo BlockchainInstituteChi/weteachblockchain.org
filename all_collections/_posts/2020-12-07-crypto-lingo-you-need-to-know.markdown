@@ -4,7 +4,7 @@ title: "Crypto Lingo You Need To Know"
 date: 2020-12-07 11:02:58 -0500
 categories: glossary
 thumbnail: "CryptoTerms_square.jpg"
-banner: "CryptoTerms.jpg"
+image: "CryptoTerms.jpg"
 author: "corey"
 published: true
 permalink: /posts/12/07/crypto-lingo-you-need-to-know
