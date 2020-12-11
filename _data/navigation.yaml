@@ -27,9 +27,9 @@
 - header: Engage
   children:
 
-  # - name: Community News
-  #   link: /blog/
-  #   class: normal   
+  - name: Community News
+    link: /blog/
+    class: normal   
 
   - name: Blockchain Ambassadors
     link: /ambassadors/

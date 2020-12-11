@@ -14,6 +14,8 @@ sticky: true
 <h2>How Do You Securely Store Your Cryptocurrency?</h2>
 <span>One of the most important aspects of holding <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> is keeping it secure. So where do you keep your cryptocurrency? In a wallet, of course. Not a physical wallet, but a digital one. Cryptocurrency wallets are designed to securely “hold” cryptocurrency. Cryptocurrency does not exist in wallets, but rather lives only on the <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a>. While the cryptocurrency is not technically stored in these wallets, they utilize a set of keys in order to allow you, and only you, to securely manage your cryptocurrency.</span>
 
+<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.jpg">
+
 <h2>Which cryptocurrency wallet is right for me?</h2>
 <span>There are many different options when it comes to cryptocurrency wallets. Some are specific to certain tokens, but many have multi-token support, allowing you to keep many different cryptocurrencies in one place.</span>
 
