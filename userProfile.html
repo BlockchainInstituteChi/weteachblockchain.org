@@ -116,6 +116,22 @@ ogUrl: https://weteachblockchain.org/
             var title = document.createElement('span')
                 title.innerHTML = badge.name
 
+            if ( !badge.hasBadge ) {
+                var toolTip = document.createElement('div')
+                    toolTip.className = "badgeLock"
+                
+                var tipText = document.createElement('span')
+                    tipText.innerText = badge.description
+
+                var tipLink = document.createElement('a')
+                    tipLink.href = badge.helpLink
+                    tipLink.target = "_blank"
+                    tipLink.innerText = "Get Started"
+                toolTip.appendChild(tipText)
+                toolTip.appendChild(tipLink)
+                div.appendChild(toolTip)
+            }
+
             div.appendChild(img)
             div.appendChild(title)
 
