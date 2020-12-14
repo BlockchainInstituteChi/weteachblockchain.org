@@ -25,12 +25,12 @@ sticky: true
 <img src="/assets/img/Decentralized_ExchangesFAQ.jpg">
 
 <span>As the cryptocurrency and decentralized finance ecosystems have grown, another option has gained traction. A decentralized cryptocurrency exchange (DEX) cuts out the centralized middleman by facilitating deals via <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/" target="_blank">smart contracts</a> and chain to chain swaps. The cryptocurrency is never in the possession of a centralized escrow service; the only individuals that will have access to the cryptocurrency are the buyer and seller.</span>
-	
-<span>Since there is no middleman, fees are lower compared to the ones incurred on centralized exchanges. The platform instead uses liquidity pools where others can lock up their cryptocurrency, making it available to others for swap while collecting a small liquidity pool fee. It really isn’t feasible to find someone who wants to make the exact trade you are looking for. Instead, users interact with a liquidity pool, making swapping quicker and more efficient.</span>
 
 {% include callouts/note.html
 	bodyText="A <b>liquidity pool</b> is a collection of tokens that are locked in smart contracts that help provide a constant level of liquidity for decentralized exchanges."
 %}
+
+<span>Since there is no middleman, fees are lower compared to the ones incurred on centralized exchanges. The platform instead uses liquidity pools where others can lock up their cryptocurrency, making it available to others for swap while collecting a small liquidity pool fee. It really isn’t feasible to find someone who wants to make the exact trade you are looking for. Instead, users interact with a liquidity pool, making swapping quicker and more efficient.</span>
 
 <span>Decentralized exchanges are not controlled by any person or group. Because there is no central authority to hack or shut down, DEX development will likely be the focus as crypto continues to gain popularity. Decentralized exchanges also largely do not have any identity verification, as there is no central entity to maintain such a process.</span>
 
@@ -47,6 +47,6 @@ sticky: true
 
 <span>Uniswap, just like other DeFi dApps, is not governed by people or an organization, but rather by smart contracts.</span>
 
-{% include callouts/note.html
+{% include callouts/callout.html
 	bodyText="There are a variety of options when choosing an exchange. Depending on your confidence in using certain tools and the fees you’re willing to pay, there is an exchange for you!"
 %}
