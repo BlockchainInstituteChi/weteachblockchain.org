@@ -19,7 +19,6 @@ Distributed computing has long been a theoretical concept in computer science, b
 
 Since 2015, Ethereum has risen to have one of the largest cryptocurrency communities, and a range of other similar projects have launched to provide more specialized versions of the Ethereum's unique decentralized computing network. 
 
-
 {% include callouts/imageWithCaption.html
 	image="/EthereumNode_nocaption-01.jpg"
 	title="How do Smart Contracts allow decentralized computing?"
