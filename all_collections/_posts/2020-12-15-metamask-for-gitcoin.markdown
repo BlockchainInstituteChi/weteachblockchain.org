@@ -10,6 +10,7 @@ published: true
 permalink: /posts/12/18/metamask-for-gitcoin
 ogImage: "Metamask.jpg"
 ---
+
 Interested in making a tax-deductible donation to us? Check out our Gitcoin Grant page. There isn't much time left, but it's the future of donation! 
 
 But how to donate? Well you'll need to access web3 (the decentralized, BLOCKCHAIN-oriented) web. How do you access web3? The answer is MetaMask, a portal to web3. Let's keep it simple.
@@ -50,3 +51,13 @@ You're ready to donate! Click in to the grant donation page: https://gitcoin.co/
 14. Standard checkout is fine. Click it.
 
 You've donated! Thanks for helping us educate the world about Blockchain!
+
+<style>
+img.tutorialImage {
+    max-width: 250px;
+    margin: auto;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+</style>
