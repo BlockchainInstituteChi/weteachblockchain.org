@@ -41,7 +41,7 @@ But how to donate? Well you'll need to access web3 (the decentralized, BLOCKCHAI
 
 11. Note: you might need to add more ETH depending on network fees. Avoid high fees by depositing the amount of DAI you want to donate initially, rather than swapping to ETH. You'll need less ETH, as the fee will be lower.
 
-You're ready to donate! Click in to the grant donation page: https://gitcoin.co/grants/1643/weteachblockchain-decentralized-education
+You're ready to donate! Click in to the grant donation page: <a href="https://gitcoin.co/grants/1643/weteachblockchain-decentralized-education" target="_blank">https://gitcoin.co/grants/1643/weteachblockchain-decentralized-education</a>
 
 12. Click the "Add to Cart" button in gitcoin. You will be prompted to connect your MetaMask wallet. Just click the prompt!
 
