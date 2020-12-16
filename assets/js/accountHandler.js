@@ -9,8 +9,8 @@
 // }
 const MAGIC_PUBLIC_KEY = "pk_test_4429B9D857E9A6B7";
 
-window.serverUrl = "http://localhost:8888/user";
-// window.serverUrl = "https://app-staging.weteachblockchain.org/user"
+// window.serverUrl = "http://localhost:8888/user";
+window.serverUrl = "https://app-staging.weteachblockchain.org/user"
 
 /* 3️⃣ Implement Render Function */
 console.log('setting RenderMagic')
@@ -265,7 +265,7 @@ function getCoursePageDetails() {
           slug: lesson.slug,
           title: lesson.title,
           course: window.lessonMap.slug,
-          totalLessons: getTotalLessonsCount()
+          totalLessons: getTotalLessonsCount(setUserData)
         }
     }
   }
