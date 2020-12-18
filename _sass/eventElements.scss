@@ -196,3 +196,6 @@ span.eventFilterNotification {
 .eventBody ::before{
     display: contents;
 }
+iframe {
+    max-width: 100%;
+}

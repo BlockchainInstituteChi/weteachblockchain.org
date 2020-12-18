@@ -17,8 +17,8 @@
     		margin-bottom: 2em;
 	}
 	.pageHeaderImage .col-sm-6 {
-	    min-width: 100vw;
-	    margin: 2em auto;
+		min-width: 100vw;
+		margin: 2em 1.75em;
 	}
 	.pageHeaderImage p {
     		max-width: 50%;
@@ -161,10 +161,13 @@
 		padding: 0em;
 	}
 	.pageHeaderImage .col-sm-6 {
-    		margin: 1em 0em;
+		margin: 1em .5em;
 	}	
 	.pageHeaderImage p {
     		max-width: 75%;
+	}
+	.pageHeaderImage {
+		height: 75vh;
 	}
 }
 

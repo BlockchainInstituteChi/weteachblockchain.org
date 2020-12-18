@@ -12,10 +12,11 @@
     margin-left: .4em;
 }
 .pageHeaderImage {
-    height: 50vh;
+    height: 65vh;
 }
 .pageHeaderImage .col-sm-6 {
     padding-left: 0em;
+    margin-left: 1.75em;
 }
 .pageHeaderImage p {
     color: white;
@@ -332,7 +333,7 @@ section.blogOverview {
 .card-columns {
     column-count: 4;
     column-width: 0.25rem;
-    min-height: 100rem;
+    min-height: 30rem;
     margin: 2em 0em 6em 0em;
     column-gap: .5em;
 }
@@ -374,4 +375,3 @@ span.quoteBody::before, span.quoteBody::after {
 .blogBody {
     color: black;
 }
-
