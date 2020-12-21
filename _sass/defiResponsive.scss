@@ -64,7 +64,7 @@
 		position: relative;
 		margin-top: 4.5em;
 		max-width: 42%;
-		margin-bottom: 35em;
+		margin-bottom: 18em;
 	}
 	section.cccVideoPlaylist {
 		padding-top: 4.2em;
@@ -98,6 +98,17 @@
 	}
 	.defi-explained .col-md-6 {
 		padding-left: .5em;
+	}
+	.inPerson .row {
+		max-width: unset;
+		margin: auto 2.25em;
+	}
+	.col-sm-6.switchAlign {
+		margin-left: 3em;
+		padding-top: 4.25em;
+	}
+	.defiNewsletter a {
+		text-align: center;
 	}
 } 
 
@@ -186,8 +197,14 @@ button.learnMoreButton {
 	}
 
 	.inPerson p {
-	    padding-right: 1em;
+		padding-right: 0em;
+		padding-left: 0em;
 	}
+	.inPerson .row {
+		max-width: unset;
+		margin: auto 1.5em;
+	}
+	
 .bciCallToAction .col-sm-6 {
     margin-top: .5em;
     margin-left: 1.5em;
@@ -247,11 +264,11 @@ button.learnMoreButton {
 
 .carousel {
     position: relative;
-    margin-top: 0em;
+    margin-top: 1em !important;
     max-width: 100%;
     margin-bottom: 5em;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 div#carouselExampleControls {
     padding: 0em;
@@ -270,6 +287,21 @@ div#carouselExampleControls {
     line-height: 2em;
 }
 
+.col-sm-6.switchAlign {
+    margin-left: 0em;
+    padding: 0em;
+    margin-bottom: 3em;
+    margin-top: -2em;
+}
+.col-sm-6.leftWhite {
+    margin-left: 0em;
+    padding-top: 4.25em;
+    padding: 0em;
+    margin-bottom: 2em;
+}
+.leftWhite h1 {
+    padding-left: 0em;
+}
 
 
 .defi-explained .col-md-6 {
@@ -285,6 +317,28 @@ div#carouselExampleControls {
 }
 section.doMore {
     padding-bottom: 3.5em;
+}
+.switchAlign h1 {
+    padding-left: 0em;
+}
+section.defiNewsletter {
+	padding-bottom: 4.5em;
+    margin: auto 1em;
+}
+.defiNewsletter .col-md-6 {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.defiNewsletter h1 {
+    margin-bottom: .75em;
+    padding-right: .5em;
+}
+.defiNewsletter .col-md-6 {
+    margin-bottom: 2em;
+}
+.defiNewsletter a {
+    margin-left: 0em;
+    text-align: center;
 }
 }
 

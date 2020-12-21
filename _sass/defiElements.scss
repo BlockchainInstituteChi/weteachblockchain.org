@@ -99,6 +99,7 @@ section.container {
     margin-top: 0.2em;
 }
 
+
 /* Call to action */
 section.container.bciCallToAction {
     background: url(/assets/img/cta_background.jpg);
@@ -190,7 +191,7 @@ section.container.bciCallToAction {
 /* In Person Section */
 .col-sm-6.leftWhite {
     min-height: calc(100% + 50px);
-    padding: 3em 0em 0em 6em;
+    padding: 3em 0em 0em 0em;
 }
 .inPerson p {
     padding-right: 2em;
@@ -203,15 +204,22 @@ section.container.bciCallToAction {
 }
 .inPerson .row {
     max-width: unset;
-    margin: unset;
+    margin: auto 6.25em;
 }
 section.inPerson {
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
     background-color: #efefef;
 }
 section.container.bciBannerImage.bciHandImage {
     padding-top: 0;
+}
+.col-sm-6.switchAlign {
+    margin-left: 5em;
+    padding-top: 3em;
+}
+.switchColumns {
+    background-color: white !important;
 }
 
 /*Pink Stripe Section*/
@@ -241,7 +249,7 @@ li {
     position: relative;
     margin-top: 6em;
     max-width: 42%;
-    margin-bottom: 15em;
+    margin-bottom: 13em;
 }
 .carousel-item img {
     margin-bottom: 0em;
@@ -382,4 +390,50 @@ section.defi-explained {
 }
 section.pageHeaderImage {
     margin-bottom: 0;
+}
+
+
+/* Newsletter signup stuff */
+section.defiNewsletter {
+    background: white;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+.defiNewsletter span {
+    color: black;
+    font-size: .9em;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.defiNewsletter li {
+    color: #ed0744;
+    font-size: .9em;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.defiNewsletter a {
+    padding: 1rem;
+    background: #ed0744;
+    color: white;
+    max-width: fit-content;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin-top: 0em;
+    margin-left: .75em;
+    text-transform: uppercase;
+    display: block;
+    font-family: Kanit, serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.defiNewsletter .col-md-6 {
+    padding-left: .75em;
+}
+.defiNewsletter h1 {
+    margin-bottom: .75em;
+}
+.defiNewsletter ul {
+    margin-top: 1em;
 }
