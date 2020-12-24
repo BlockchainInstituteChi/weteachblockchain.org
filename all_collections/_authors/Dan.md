@@ -1,0 +1,12 @@
+---
+short_name: Dan
+name: Dan Cecilia
+position: Ambassador 
+learnMoreLink: "https://www.linkedin.com/in/daniel-cecilia/"
+permalink: "/contributors/Dan/"
+headshot: authors/Dan_Square.jpg
+banner: authors/Alex.jpg
+layout: author
+ogImage: authors/Alex.jpg
+---
+Dan currently works in finacnial markets where he has held numerous product development roles working with both retail and institutional clients. His focus is primarily in fiancial market data and technology where he blends his traditional finance knowledge with an innovative approach to investing and risk management.   
