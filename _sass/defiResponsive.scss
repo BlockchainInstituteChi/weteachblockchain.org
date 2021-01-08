@@ -19,7 +19,7 @@
 	    font-family: Roboto;
 	    font-size: 1em;
 	    color: black;
-	    font-weight: 300;
+		font-weight: 300;
 	}
 	#map-2 img {
 	    margin-top: 2em;
@@ -59,11 +59,13 @@
 	}
 	.col-sm-6.leftWhite {
 		background: #efefef;
+		padding-left: 0em;
+		margin-bottom: 0em;
+		padding-bottom: 0em;
 	}
 	.carousel {
 		position: relative;
 		margin-top: 4.5em;
-		max-width: 42%;
 		margin-bottom: 18em;
 	}
 	section.cccVideoPlaylist {
@@ -72,9 +74,6 @@
 	}
 	.cccVideoPlaylist.col-sm-6 {
 		min-height: 14.1em;
-	}
-	section.inPerson {
-		padding-bottom: 1.7em;
 	}
 	.tileItem {
 		width: 23.05%;
@@ -104,11 +103,16 @@
 		margin: auto 2.25em;
 	}
 	.col-sm-6.switchAlign {
-		margin-left: 3em;
+		margin-left: 1em;
 		padding-top: 4.25em;
+		max-width: 100%;
+		margin-bottom: 3em;
 	}
 	.defiNewsletter a {
 		text-align: center;
+	}
+	.defi-explained ul {
+		margin-bottom: 0em;
 	}
 } 
 
@@ -192,13 +196,14 @@ button.learnMoreButton {
 
 	section.inPerson {
 		padding-right: 0;
-		padding-top: 3em;
-		padding-bottom: 0;
+		padding-top: 5em;
+		padding-bottom: 3em;
 	}
 
 	.inPerson p {
 		padding-right: 0em;
 		padding-left: 0em;
+		margin: 0em 0em 0em 0em;
 	}
 	.inPerson .row {
 		max-width: unset;
@@ -266,7 +271,7 @@ button.learnMoreButton {
     position: relative;
     margin-top: 1em !important;
     max-width: 100%;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     margin-left: 0em;
     margin-right: 0em;
 }
@@ -336,9 +341,19 @@ section.defiNewsletter {
 .defiNewsletter .col-md-6 {
     margin-bottom: 2em;
 }
+.defi-explained a {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.leftWhite ul {
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
 .defiNewsletter a {
     margin-left: 0em;
-    text-align: center;
+}
+section.upcomingEventsFooter {
+    margin: 4em 0em 5em 0em !important;
 }
 }
 

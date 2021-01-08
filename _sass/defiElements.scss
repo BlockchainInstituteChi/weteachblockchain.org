@@ -86,7 +86,7 @@ section.container {
 }
 .inPerson p {
     padding-right: 0em;
-    margin: 0em 4.5em 0em 0em;
+    margin: 0em 3em 0em 0em;
     font-family: Roboto;
     font-size: 1em;
     color: black;
@@ -193,11 +193,9 @@ section.container.bciCallToAction {
     min-height: calc(100% + 50px);
     padding: 3em 0em 0em 0em;
 }
-.inPerson p {
-    padding-right: 2em;
-}
 .leftWhite ul {
-    max-width: calc(100% - 10em);
+    margin-right: 3em;
+    margin-bottom: 6em;
 }
 .inPerson {
     padding-left: 0;
@@ -215,8 +213,10 @@ section.container.bciBannerImage.bciHandImage {
     padding-top: 0;
 }
 .col-sm-6.switchAlign {
-    margin-left: 5em;
+    margin-left: 3em;
     padding-top: 3em;
+    max-width: 45%;
+    margin-bottom: 6em;
 }
 .switchColumns {
     background-color: white !important;
@@ -248,7 +248,6 @@ li {
 .carousel {
     position: relative;
     margin-top: 6em;
-    max-width: 42%;
     margin-bottom: 13em;
 }
 .carousel-item img {
@@ -372,7 +371,7 @@ section.defi-explained {
     padding-left: 3em;
     padding-right: 3em;
     margin-top: 2em;
-    margin-left: .75em;
+    margin-left: 0em;
     text-transform: uppercase;
     display: block;
     font-family: Kanit, serif;
