@@ -3,8 +3,8 @@ layout: post
 title:  "Pickles, DeFi, and Transparency"
 date:   2020-10-22 11:02:58 -0500
 categories: defi tools
-thumbnail: authors/TBI_author.jpg
-banner: authors/TBI_blogauthorheader.jpg
+thumbnail: Transparency_Clayton_square.jpg
+image: Transparency_Clayton.jpg
 author: "clayton"
 published: true
 permalink: /posts/10/22/pickles-defi-and-transparency

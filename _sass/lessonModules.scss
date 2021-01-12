@@ -407,7 +407,7 @@ section.upPinkStripesDivider {
     background-size: cover;
     margin-bottom: -3rem;
     margin-left: -2rem;
-    min-width: 120%;
+    min-width: -webkit-fill-available;
 }
 section.downPinkStripesDivider {
     height: 8em;
@@ -416,7 +416,7 @@ section.downPinkStripesDivider {
     background-size: cover;
     margin-top: -3rem;
     margin-left: -2rem;
-    min-width: 120%;
+    min-width: -webkit-fill-available;
     margin-bottom: 2em;
 }
 

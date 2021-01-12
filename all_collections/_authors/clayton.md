@@ -4,8 +4,8 @@ name: Clayton Leslie
 position: Ambassador
 learnMoreLink: "https://reddit.com/r/cryptocurrency/"
 permalink: "/contributors/clayton/"
-headshot: authors/TBI_author.jpg
-banner: authors/TBI_blogauthorheader.jpg
+headshot: authors/Clayton_square.jpg
+banner: authors/Clayton_wide.jpg
 layout: author
 ogImage: authors/TBI_blogauthorheader.jpg
 ---

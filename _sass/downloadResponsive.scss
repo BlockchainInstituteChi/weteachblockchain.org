@@ -9,6 +9,9 @@
     min-height: 6em;
     width: calc(25% - 1em);
 }
+.tileItem h1 {
+    font-size: 1em;
+}
 } 
 
 /* Mobile */
@@ -25,10 +28,13 @@ h1 {
 }
 .tileItem h1 {
     margin-left: 0em;
+    margin-right: 1em;
+    font-size: 1.25em;
 }
 .tileItem img {
     width: calc(100% - 1em);
 }
+
 
 
 }
