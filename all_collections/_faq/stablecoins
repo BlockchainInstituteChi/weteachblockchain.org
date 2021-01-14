@@ -39,14 +39,14 @@ sticky: true
 <span>Fiat backs tokens on a 1:1 ratio. For every unit of currency held there is one token issued. When the token is exchanged for fiat, they are taken out of circulation. When someone wants to buy the stablecoin, their fiat is sent to the reserve and new coins are created and issued. Simply put, these stablecoins are backed by relatively stable fiat currencies. The vast majority of stablecoins either represent the USD or Euro as they are the most popular global currencies.</span>
 {% include callouts/callout.html
    title="Stablecoins Backed By Dollars"
-	bodyText="<ul>
+	bodyText='<ul>
   <li><a href="https://www.paxos.com/pax/">Paxos Standard (PAX)</a></li>
   <li><a href="https://tether.to/">Tether (USDT)</a></li>
   <li><a href="https://www.centre.io/usdc">USD Coin (USDC)</a></li>
   <li><a href="https://www.binance.com/en/busd">Binance USD (BUSD)</a></li>
   <li><a href="https://www.trusttoken.com/">TrueUSD (TUSD)</a></li>
   <li><a href="https://www.gemini.com/dollar">Gemini Dollar (GUSD)</a></li>
-</ul>"
+</ul>'
 %}
 <h4>Tether</h4>
 <span><a href="https://tether.to/">Tether</a> is a cryptocurrency that is designed to mirror the value of one USD. 1USDT=1USD. Basically, Tether is used to turn fiat into a stable, digital token. The original idea was that the company behind Tether would maintain a cash reserve equal to the number of tokens. If Tether is redeemed, those tokens are burned. Tokens are created by contributing to the Tether reserve.</span>
