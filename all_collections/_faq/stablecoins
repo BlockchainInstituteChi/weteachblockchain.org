@@ -32,6 +32,7 @@ sticky: true
 <span>Stablecoins are all designed to hold a consistent price, however, different stablecoins have found different ways of achieving this goal.</span>
 <h3>Fiat Backed</h3>
 <img src="/assets/img/backedbycurrency.jpg">
+
 <span>The simplest of stablecoins. The token is pegged to a fiat currency. For example 1 GUSD (Gemini Dollar) = 1 USD. The tokens value is represented as a digital dollar. Most stablecoins follow this pattern.</span>
 
 <span>Fiat backs tokens on a 1:1 ratio. For every unit of currency held there is one token issued. When the token is exchanged for fiat, they are taken out of circulation. When someone wants to buy the stablecoin, their fiat is sent to the reserve and new coins are created and issued. Simply put, these stablecoins are backed by relatively stable fiat currencies. The vast majority of stablecoins either represent the USD or Euro as they are the most popular global currencies.</span>
@@ -58,11 +59,13 @@ sticky: true
 <span>Additionally, the USD balance of the relevant bank accounts is examined by a registered public accounting firm. Their reports are made public. However, this isn’t the only audit that GUSD has undergone. The code within the GUSD smart contract is public and has been publicly audited.  The approval of this regulatory body and the stringent practices employed by Gemini gives users confidence that their funds are sufficiently backed.</span>
 <h3>Asset Backed</h3>
 <img src="/assets/img/backedbyassets.jpg">
+
 <span>Some cryptocurrencies are backed by the value of physical assets like gold.</span>
 <h4>Digix Gold</h4>
 <span>Each Digix Gold Token is supposed to be backed by a gram of gold in a vault in Singapore. Gold is a notoriously stable asset. This has allowed the Digix Gold Token to fluctuate only 25% since 2016.</span>
 <h3>Crypto Backed</h3>
 <img src="/assets/img/backedbycollateralization.jpg">
+
 <span>Stablecoins can also be backed by other cryptocurrencies. While this seems like an impossible prospect considering the volatility of cryptocurrency, projects have created ecosystems that have been able to maintain a relatively stable value. To ensure some stability this type of stablecoin is usually backed by the more stable cryptocurrencies, mainly bitcoin and ether. To further ensure the price stability of cryptocurrency backed stablecoins they can be backed by more than one cryptocurrency. If you spread your backing assets among several cryptocurrencies, there is less chance of experiencing overall volatility compared to relying on one cryptocurrency to hold its value. However, cryptocurrency backed stablecoins are more likely to see fluctuation in price when compared to stablecoins backed by dollars.</span>
 
 <span>The solution is a practice called over-collateralization. Instead of a fiat backed stablecoin that is backed by a 1:1 token to cash reserve, crypto-backed stablecoins are often backed by a 1:>1 token to cryptocurrency reserve. Simply put, since cryptocurrency is more likely to fluctuate than fiat currency, the reserves have to amount to more than the value of tokens in circulation. With this method, price drops of the backing assets can occur without the stablecoin losing value. Since the backing asset is a cryptocurrency, not only is there transparency within the stablecoin contract, there is also a transparent blockchain that is recording the history of the backing cryptocurrencies. Transparency can be achieved without the help of a third party.</span>
