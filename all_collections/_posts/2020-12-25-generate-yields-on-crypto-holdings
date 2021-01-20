@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  Generate yield on your crypto holdings
-date:   2020-08-27 11:02:58 -0500
-categories: jekyll update
-thumbnail: authors/TBI_author.jpg
-banner: authors/TBI_blogauthorheader.jpg
+date:   2020-12-25 11:02:58 -0500
+categories: defi tools
+thumbnail: Nexoio_square.jpg
+banner: Nexoio.jpg
 author: "dan"
 published: true
-permalink: /posts/12/27/generate-yield-on-crypto-holdings
-ogImage: authors/TBI_blogauthorheader.jpg 
+permalink: /posts/12/25/generate-yield-on-crypto-holdings
+ogImage: Nexoio.jpg 
 ---
 
 # Generate Yields on Crypto Holdings
@@ -53,7 +53,7 @@ The simple reason that Nexo is able to provide such a high APY to savers is that
 
 ### Loan Term
 {% include callouts/imageWithCaption.html
-	image="NEXO loan terms.png"
+	image="NEXO_loan_terms.png"
 	title="Example Loan Term"
 	bodyText="Source: Nexo Platform "
 %}
