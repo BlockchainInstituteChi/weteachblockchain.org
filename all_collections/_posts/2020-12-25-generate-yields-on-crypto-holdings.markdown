@@ -68,13 +68,23 @@ The biggest risks that users of Nexo expose themselves to is the uncertainty aro
 ### Additional Information
 
 For more information on Nexo products check out the below links
+<br>
 [Whitepaper](https://nexo.io/assets/downloads/Nexo-Whitepaper.pdf)
+<br>
 [Business Overview](https://nexo.io/assets/downloads/Business-Overview.pdf)
+<br>
 [Security](https://nexo.io/security)
+<br>
 [Earn Terms](https://nexo.io/earn-crypto)
+<br>
 [Borrow Terms](https://nexo.io/borrow)
+<br>
 [Blog](https://nexo.io/blog)
+<br>
 [Token](https://nexo.io/assets/downloads/NEXO-Token-Terms.pdf)
+<br>
 [Legal](https://nexo.io/terms-and-conditions)
+<br>
 Investor relations: investors@nexo.io
+<br>
 General Inquiries: info@nexo.io
