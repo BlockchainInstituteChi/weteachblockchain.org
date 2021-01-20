@@ -27,7 +27,7 @@ The product I personally use is Nexo which at the time of writing boasts an 8% A
 
 Nexo has been around since 2018 and provides instant crypto-backed loans. It allows digital asset owners the ability to access fiat liquidity without the need to sell their crypto holdings. The loan is secured by the market value of the digital assets in the account and the user avoids tax liabilities, platform fees, market slippage, not to mention the carrying costs to access a margin loan or complexities associated with utilizing swaps.
 
-Nexo provides access to 40+ fiat savings accounts and is available to clients in over 200+ jurisdictions. Its products are secured by BitGo and guarantees custody insurance of up to $100,000,000 through Lloyds of London. AML/KYC is performed by jumio. Check out Nexo security and compliance page [here] https://nexo.io/security.
+Nexo provides access to 40+ fiat savings accounts and is available to clients in over 200+ jurisdictions. Its products are secured by BitGo and guarantees custody insurance of up to $100,000,000 through Lloyds of London. AML/KYC is performed by jumio. Check out Nexo <a href="https://nexo.io/security" target="_blank">security and compliance page</a>.
 
 In short, Nexo users can access liquidity instantly anywhere around the globe to transact in fiat while maintaining the upside exposure to the digital asset in their wallet. You do not lose ownership of your crypto and you are not subject to credit checks because the crypto in your account is used as collateral.
 
@@ -69,12 +69,12 @@ The biggest risks that users of Nexo expose themselves to is the uncertainty aro
 
 For more information on Nexo products check out the below links
 [Whitepaper](https://nexo.io/assets/downloads/Nexo-Whitepaper.pdf)
-[Business Overview] (https://nexo.io/assets/downloads/Business-Overview.pdf)
-[Security] (https://nexo.io/security)
-[Earn Terms] (https://nexo.io/earn-crypto)
-[Borrow Terms] (https://nexo.io/borrow)
-[Blog] (https://nexo.io/blog)
-[Token] (https://nexo.io/assets/downloads/NEXO-Token-Terms.pdf)
-[Legal] (https://nexo.io/terms-and-conditions)
+[Business Overview](https://nexo.io/assets/downloads/Business-Overview.pdf)
+[Security](https://nexo.io/security)
+[Earn Terms](https://nexo.io/earn-crypto)
+[Borrow Terms](https://nexo.io/borrow)
+[Blog](https://nexo.io/blog)
+[Token](https://nexo.io/assets/downloads/NEXO-Token-Terms.pdf)
+[Legal](https://nexo.io/terms-and-conditions)
 Investor relations: investors@nexo.io
 General Inquiries: info@nexo.io
