@@ -49,7 +49,7 @@ sticky: true
 </ul>'
 %}
 <h4>Tether</h4>
-<span><a href="https://tether.to/">Tether</a> is a cryptocurrency that is designed to mirror the value of one USD. 1USDT=1USD. Basically, Tether is used to turn fiat into a stable, digital token. The original idea was that the company behind Tether would maintain a cash reserve equal to the number of tokens. If Tether is redeemed, those tokens are burned. Tokens are created by contributing to the Tether reserve.</span>
+<span><a href="https://tether.to/">Tether</a> (USDT) is a cryptocurrency that is designed to mirror the value of one USD. 1USDT=1USD. Basically, Tether is used to turn fiat into a stable, digital token. The original idea was that the company behind Tether would maintain a cash reserve equal to the number of tokens. If Tether is redeemed, those tokens are burned. Tokens are created by contributing to the Tether reserve.</span>
 <br>
 <br>
 <span>Over the past two years, there has been some controversy surrounding Tether, specifically their cash reserves. The root criticism is based on the fact that Tether is highly centralized. This also means that their reserves didn’t have the transparency needed to instill trust in its users. This led some to question whether Tether had the funds to back their supply. Many called for Tether to be audited. There was also concern about what would happen to the entire cryptocurrency market if it was found that Tether did not have the funds that they claimed they did.</span>
@@ -80,7 +80,7 @@ sticky: true
 -Gregory DiPrisco'
 %}
 <h4>DAI</h4>
-<span><a href="https://makerdao.com/en/">MakerDAO</a> is an ethereum-based project that uses two volatile cryptocurrencies to stabilize a third. MakerDAO uses ether and the Maker token to stabilize the price of a third cryptocurrency, DAI. Despite this somewhat complex ecosystem, DAI is supposed to remain around 1 USD. DAI has been battle-tested; the price of ether saw drastic drops in 2018, however, DAI maintained 93% of its value and quickly returned to 1 USD.</span>
+<span><a href="https://makerdao.com/en/">MakerDAO</a> is an ethereum-based project that uses two volatile cryptocurrencies (ether and the Maker token) to stabilize the price of a third cryptocurrency, DAI. Despite this somewhat complex ecosystem, DAI is supposed to remain around 1 USD. DAI has been battle-tested; the price of ether saw drastic drops in 2018, however, DAI maintained 93% of its value and quickly returned to 1 USD.</span>
 <br>
 <br>
 <span>A key mechanism that allows DAI to maintain enough collateral to back its tokens is what is known as a Collateralized Debt Position (CDP). The amount of ether that has to be staked to create a DAI token is variable. Usually, it takes about 1.5 ether to create a dollar amount of DAI. For example, $150 worth of ether can be leveraged to create 100 DAI. If the price begins to fall, the amount of ether required to create DAI may be decreased in the hopes that more money will be injected into the Maker ecosystem. The Maker token is used to pay for fees on the network. It is not mineable and the token supply is managed in order to stabilize the price of DAI. This process is facilitated through a smart contract that creates collateralized debt positions.</span>
