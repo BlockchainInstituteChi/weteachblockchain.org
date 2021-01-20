@@ -3,7 +3,7 @@ short_name: Dan
 name: Dan Cecilia
 position: Ambassador 
 learnMoreLink: "https://www.linkedin.com/in/daniel-cecilia/"
-permalink: "/contributors/Dan/"
+permalink: "/contributors/dan/"
 headshot: authors/Dan.jpg
 banner: authors/Dan_WIDE.jpg
 layout: author
