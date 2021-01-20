@@ -1,5 +1,5 @@
 ---
-short_name: Dan
+short_name: dan
 name: Dan Cecilia
 position: Ambassador 
 learnMoreLink: "https://www.linkedin.com/in/daniel-cecilia/"
