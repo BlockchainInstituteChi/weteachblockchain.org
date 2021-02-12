@@ -623,7 +623,6 @@ section.upPinkStripesDivider {
     margin-top: 2em;
     min-width: 120%;
     background-size: cover;
-    margin-bottom: -3rem;
     margin-left: -2rem;
     min-width: 120%;
 }
@@ -973,4 +972,22 @@ span.didYouKnow{
 
 img.accountLight.greyswirl.lazy.gravatar.loaded {
     max-height: 4rem;
+}
+
+h4.submitBlog {
+    margin-left: 0em;
+    margin-top: -.35em;
+    width: 90%;
+    color: black;
+    font-weight: 100;
+    line-height: 1.75em;
+    font-family: 'Roboto';
+    font-size: 1.35em;
+}
+.submitBlog a {
+    color: #0b9aa3;
+    font-weight: 100;
+    line-height: 1.75em;
+    font-family: 'Roboto';
+    font-size: 1em;
 }
