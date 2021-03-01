@@ -26,7 +26,7 @@ sticky: true
 
 {% include callouts/callout.html
    title=""
-	bodyText="Non-fungible tokens allow for assets to be represented on the blockchain, opening up several possible decentralized finance applications. With the creation of non-fungible tokens, the terms of a loan could be properly expressed with all of the information living on a blockchain. Learn more about how NFTs enable DeFi by attending our<a href="/decentralized-finance-course/">Demystifying DeFi Course!</a>"
+	bodyText="Non-fungible tokens allow for assets to be represented on the blockchain, opening up several possible decentralized finance applications. With the creation of non-fungible tokens, the terms of a loan could be properly expressed with all of the information living on a blockchain. Learn more about how NFTs enable DeFi by attending our<a href='/decentralized-finance-course/'>Demystifying DeFi Course!</a>"
 %}
 
 <h2>History of NFTs</h2>
@@ -55,7 +55,7 @@ ERC-998 - Allows NFTs to own other tokens"
 
 {% include callouts/callout.html
    title=""
-	bodyText="The <a href="https://www.coindesk.com/axie-infinity-virtual-land-record-eth-sale">most expensive NFT transaction</a> to date took place early in February 2021. A virtual piece of land in Axie Infinity was traded for 888.25 ether (approximately $1.5 million at time of sale)</a>"
+	bodyText="The <a href='https://www.coindesk.com/axie-infinity-virtual-land-record-eth-sale'>most expensive NFT transaction</a> to date took place early in February 2021. A virtual piece of land in Axie Infinity was traded for 888.25 ether (approximately $1.5 million at time of sale)</a>"
 %}
 
 <p>Many different marketplaces have popped up that let you buy and sell digital collectibles and artwork. Want to start creating your own NFTs? Some of these marketplaces also help you turn your digital creations into NFTs and sell them. This process is known as minting, it allows you to tokenize almost any digital file and turn it into a non-fungible token.</p>
