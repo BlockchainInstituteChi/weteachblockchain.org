@@ -15,9 +15,9 @@ sticky: true
 
 <p>Non-Fungible Tokens are a way to represent items on the blockchain. They can bring the benefits of blockchain to both digital and real-world assets. So what does it mean to be fungible, or in this case, non-fungible? Fungibility describes how easily an item can be replaced by an identical item.</p>
 
-<img src="/assets/img/AssetManagement.jpg">
-
 <p>A dollar bill is fungible. All physical currency is. No matter what serial number is on your dollar, it still spends the same. Any single dollar bill can be replaced for another and used without issue.</p>
+
+<img src="/assets/img/AssetManagement.jpg">
 
 <p>If fungible items can easily be replaced by an identical item, then non-fungible items can’t be. They are unique. An example of a non-fungible item is a plane ticket. It contains specific information; what airline, where the flight is going, what time the flight departs, what seat you have. If you swap one plane ticket for another you may end up in a different seat on the plane, land in a different city, or much more likely not be allowed to board the plane at all. Plane tickets are unique, they can not be traded for another and used in the same way. Unlike the dollar, where the result is the same no matter which dollar you use.</p>
 
