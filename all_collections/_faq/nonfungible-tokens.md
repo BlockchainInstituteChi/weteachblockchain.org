@@ -13,7 +13,6 @@ sticky: true
 ---
 <p>Perhaps you’ve heard of digital collectibles living on the blockchain. What makes this possible? Welcome to the world of Non-Fungible Tokens!</p>
 
-<h2>What are Non-Fungible Tokens?</h2>
 <p>Non-Fungible Tokens are a way to represent items on the blockchain. They can bring the benefits of blockchain to both digital and real-world assets. So what does it mean to be fungible, or in this case, non-fungible? Fungibility describes how easily an item can be replaced by an identical item.</p>
 
 <img src="/assets/img/AssetManagement.jpg">
@@ -33,12 +32,15 @@ sticky: true
 <p>Some of the first test cases of NFTs occurred when some municipalities decided they wanted to digitize paper records, mainly the deeds to houses. These paper records are usually kept in storage and could get lost or destroyed over time. That is especially concerning if these deeds are the only proof of who owns that property.</p>
 
 {% include callouts/callout.html
-   title="Different NFT token standards:"
-	bodyText="ERC-721 - Most popular and first NFT standard 
-ERC-1155 - Allows for fungible and non-fungible tokens. Created by Enjin
-ERC-994 - Delegated NFTs, for physical property that requires legal validity   
-ERC-809 - Allows for the renting of NFTs
-ERC-998 - Allows NFTs to own other tokens"
+   title="Different NFT token standards"
+	bodyText="
+	<ul>
+	<li><a href='https://eips.ethereum.org/EIPS/eip-721'>ERC-721</a> - Most popular and first NFT standard</li>
+	<li><a href='https://eips.ethereum.org/EIPS/eip-1155'>ERC-1155</a> - Allows for fungible and non-fungible tokens. Created by Enjin</li>
+	<li><a href='https://github.com/ethereum/EIPs/issues/994'>ERC-994</a> - Delegated NFTs, for physical property that requires legal validity</li>   
+	<li><a href='https://github.com/ethereum/EIPs/issues/809'>ERC-809</a> - Allows for the renting of NFTs</li>
+	<li><a href='https://github.com/ethereum/EIPs/issues/998'>ERC-998</a> - Allows NFTs to own other tokens</li>
+	</ul>"
 %}
 
 <h3>CryptoKitties</h3>
@@ -55,7 +57,7 @@ ERC-998 - Allows NFTs to own other tokens"
 
 {% include callouts/callout.html
    title=""
-	bodyText="The <a href='https://www.coindesk.com/axie-infinity-virtual-land-record-eth-sale'>most expensive NFT transaction</a> to date took place early in February 2021. A virtual piece of land in Axie Infinity was traded for 888.25 ether (approximately $1.5 million at time of sale)</a>"
+	bodyText="The <a href='https://www.coindesk.com/axie-infinity-virtual-land-record-eth-sale'>most expensive NFT transaction</a> to date took place early in February 2021. A virtual piece of land in Axie Infinity was traded for 888.25 ether (approximately $1.5 million at time of sale)"
 %}
 
 <p>Many different marketplaces have popped up that let you buy and sell digital collectibles and artwork. Want to start creating your own NFTs? Some of these marketplaces also help you turn your digital creations into NFTs and sell them. This process is known as minting, it allows you to tokenize almost any digital file and turn it into a non-fungible token.</p>
