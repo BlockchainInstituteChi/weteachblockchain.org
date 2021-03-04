@@ -36,7 +36,7 @@ sticky: true
 	bodyText="
 	<ul>
 	<li><a href='https://eips.ethereum.org/EIPS/eip-721'>ERC-721</a> - Most popular and first NFT standard</li>
-	<li><a href='https://eips.ethereum.org/EIPS/eip-1155'>ERC-1155</a> - Allows for fungible and non-fungible tokens. Created by Enjin</li>
+	<li><a href='https://eips.ethereum.org/EIPS/eip-1155'>ERC-1155</a> - Allows for fungible and non-fungible tokens</li>
 	<li><a href='https://github.com/ethereum/EIPs/issues/994'>ERC-994</a> - Delegated NFTs, for physical property that requires legal validity</li>   
 	<li><a href='https://github.com/ethereum/EIPs/issues/809'>ERC-809</a> - Allows for the renting of NFTs</li>
 	<li><a href='https://github.com/ethereum/EIPs/issues/998'>ERC-998</a> - Allows NFTs to own other tokens</li>
