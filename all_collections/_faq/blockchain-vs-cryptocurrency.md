@@ -30,5 +30,5 @@ weight: 2
 <span><a href='/faq/what-is-cryptocurrency/' target='_blank'>Cryptocurrencies</a> are the tokens used within these networks to send value and pay for these transactions, or to provide network incentives. Furthermore, you can see them as a tool on the blockchain, in some cases serving as a resource or utility, or even to digitize the ownership of an asset.</span>
 
 {% include callouts/note.html
-	bodyText=Learn how to '<a href="/faq/how-to-buy-bitcoin/" target="_blank">buy bitcoin and other cryptocurrencies</a>'
+	bodyText='Learn how to <a href="/faq/how-to-buy-bitcoin/" target="_blank">buy bitcoin and other cryptocurrencies</a>'
 %}
