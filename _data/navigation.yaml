@@ -47,10 +47,6 @@
     link: /crypto-curious/
     class: child
 
-  - name: Developer Bootcamp
-    link: /developer-toolkit/
-    class: child
-
   - name: Decentralized Finance
     link: /decentralized-finance-course/
     class: child    
