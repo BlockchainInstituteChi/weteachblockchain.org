@@ -23,7 +23,7 @@ Traditional financial services are coming to the decentralized world. For the fi
   <li>How to navigate the DeFi ecosystem using MetaMask and Uniswap</li>
 </ul>
 
-<a href="https://www.eventbrite.com/e/143845001271" target="_blank" rel="noopener">Get tickets</a> to join our live webinar on March 19th!
+<h2><a href="https://www.eventbrite.com/e/143845001271" target="_blank" rel="noopener">Get tickets</a> to join our live webinar on March 19th!</h2>
 
 <section id="learnMore" class="container inPerson">
   <div class="row">
