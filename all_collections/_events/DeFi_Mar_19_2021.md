@@ -28,10 +28,8 @@ Traditional financial services are coming to the decentralized world. For the fi
 <br>
 <h1>Grow<br><strong class="red"> Your Crypto</strong></h1>
 <p>Join a more inclusive financial system where you have control. Transparent and fair with no centralized systems to take high fees for the services they provide.</p>
-      <ul>
-        <li><b>Open Financial Instruments:</b> No longer reserved just for banks and select investors</li>
-        <br>
-        <li><b>Yield Farming:</b> A variety of ways to grow your crypto with different levels of risk</li>
-        <br>
-        <li><b>Liquidity Pools:</b> Provide liquidity with your crypto and earn interest</li>
-      </ul>
+<ul>
+  <li><b>Open Financial Instruments:</b> No longer reserved just for banks and select investors</li>
+  <li><b>Yield Farming:</b> A variety of ways to grow your crypto with different levels of risk</li>
+  <li><b>Liquidity Pools:</b> Provide liquidity with your crypto and earn interest</li>
+</ul>
