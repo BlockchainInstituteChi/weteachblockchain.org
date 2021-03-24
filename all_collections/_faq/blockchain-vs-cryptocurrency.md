@@ -5,10 +5,12 @@ ogImage: Difference.jpg
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
+focusKeyword: Blockchain, Cryptocurrency, Bitcoin
 learnMoreLink: /crypto-curious/
 learnMoreText: the Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
-weight: 2
+weight: 1
+sticky: false
 ---
 <h3>What is a Blockchain?</h3>
 <span><a href='/faq/what-is-blockchain/' target='_blank'>Blockchains</a> are distributed ledgers that are secured by cryptography. They are essentially public databases where everyone can add to or view the database at any time. Instead of the data residing on a single <a href='/faq/what-is-decentralization/' target='_blank'>centralized server</a>, the data is copied across thousands and thousands of computers worldwide, allowing each computer access to this database. Transactions are compiled into data-holding vehicles known as "blocks". The consecutive string of every block ever executed makes up a blockchain: a distributed database of chronologically ordered transactions.</span> 
