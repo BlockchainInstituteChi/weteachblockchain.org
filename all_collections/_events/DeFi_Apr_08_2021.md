@@ -1,5 +1,5 @@
 ---
-title: Demystifying DeFi: Part One
+title: Demystifying DeFi Part One
 layout: event
 image: DEFI_p1.jpg
 date: 2021-04-08
@@ -24,4 +24,4 @@ Traditional financial services are coming to the decentralized world. For the fi
   <li>How to navigate the DeFi ecosystem using MetaMask and Uniswap</li>
 </ul>
 
-<h2><a href="https://www.eventbrite.com/e/143845001271" target="_blank" rel="noopener">Get tickets</a> to join our live webinar on April 8th!</h2>
+<h2><a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join our live webinar on April 8th!</h2>
