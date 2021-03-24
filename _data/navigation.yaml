@@ -53,11 +53,11 @@
 
 - header: Contact
   children:
-  - name: About
+  - name: About Us
     link: /about/
     class: normal
 
-  - name: Contact
+  - name: Contact Us
     link: /contact-us/
     class: normal        
 
