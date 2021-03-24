@@ -4,11 +4,13 @@ image: Difference_BC-Eth.jpg
 ogImage: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
-tag: WHAT'S THE DIFFERENCE? 
+tag: WHAT'S THE DIFFERENCE?
+focusKeyword: Bitcoin, Ethereum
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: our Ethereum 101 course
 learnMoreImage: EthereumGrowth-1.jpg
-weight: 4
+weight: 2
+sticky: false
 ---
 <img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg">
 

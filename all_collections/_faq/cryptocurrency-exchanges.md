@@ -9,7 +9,7 @@ learnMoreLink: /courses/decentralized-finance-course/
 learnMoreText: and sign up for our upcoming DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 2
-sticky: true
+sticky: false
 ---
 <span>When it comes to <a href="/faq/how-to-buy-bitcoin/" target="_blank">buying</a> and trading cryptocurrency, there are two main types of exchanges you can use.</span>
 <h2>Exchanging Through a Third Party</h2>

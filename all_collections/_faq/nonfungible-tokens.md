@@ -55,11 +55,6 @@ sticky: true
 <h2>Collectibles beyond CryptoKitties</h2>
 <p>After the success of CryptoKitties, NFTs have seen growth in the form of more digital collectibles, in-game items, and even digital art. You can find popular projects and see the sales volume of the entire NFT market at <a href="https://nonfungible.com/">nonfungible.com</a>. Games like <a href="https://axieinfinity.com/">Axie Infinity</a>, <a href="https://godsunchained.com/">Gods Unchained</a>, <a href="https://decentraland.org/">Decentraland</a>, and many more utilize NFTs to let users actually own in-game items. This gives players a level of control they have never had before.</p>
 
-{% include callouts/callout.html
-   title=""
-	bodyText="The <a href='https://www.coindesk.com/axie-infinity-virtual-land-record-eth-sale'>most expensive NFT transaction</a> to date took place early in February 2021. A virtual piece of land in Axie Infinity was traded for 888.25 ether (approximately $1.5 million at time of sale)."
-%}
-
 <p>Many different marketplaces have popped up that let you buy and sell digital collectibles and artwork. Want to start creating your own NFTs? Some of these marketplaces also help you turn your digital creations into NFTs and sell them. This process is known as minting, it allows you to tokenize almost any digital file and turn it into a non-fungible token.</p>
 
 <img src="/assets/img/NFTsFAQ_Painting.jpg">

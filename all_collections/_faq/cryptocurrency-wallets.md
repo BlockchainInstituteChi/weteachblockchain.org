@@ -4,11 +4,11 @@ image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
-focusKeyword: 
+focusKeyword: Crypto Wallet, Hardware Wallets, Software Wallet, Paper Wallet
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
-weight: 3
+weight: 2
 sticky: true
 ---
 <h2>How Do You Securely Store Your Cryptocurrency?</h2>
