@@ -4,7 +4,7 @@ image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
 tag: CONCEPTS
-focusKeyword: 
+focusKeyword: Crypto Wallet
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
