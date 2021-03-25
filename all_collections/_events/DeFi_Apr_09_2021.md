@@ -8,7 +8,7 @@ permalink: /events/DeFi_Apr_09_2021
 rsvpUrl: https://www.eventbrite.com/e/146631230959
 eventType: Classroom
 ---
-The Demystifying DeFi, Stablecoins, and NFTs Course covers everything you need to know about DeFi. In Parat Two explore DeFi's different applications and learn how to use these tools!
+The Demystifying DeFi, Stablecoins, and NFTs Course covers everything you need to know about DeFi. In Part Two, explore DeFi's different applications and learn how to use these tools!
 
 <a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join Part Two of our live webinar on April 9th!
 
