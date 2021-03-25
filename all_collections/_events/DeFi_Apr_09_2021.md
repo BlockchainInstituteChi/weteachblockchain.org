@@ -8,9 +8,9 @@ permalink: /events/DeFi_Apr_09_2021
 rsvpUrl: https://www.eventbrite.com/e/146631230959
 eventType: Classroom
 ---
-<h4>The Demystifying DeFi, Stablecoins, and NFTs Course covers everything you need to know about DeFi. In Parat Two explore DeFi's different applications and learn how to use these tools!</h4>
+The Demystifying DeFi, Stablecoins, and NFTs Course covers everything you need to know about DeFi. In Parat Two explore DeFi's different applications and learn how to use these tools!
 
-<h2><a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join Part Two of our live webinar on April 9th!</h2>
+<a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join Part Two of our live webinar on April 9th!
 
 <h2>Make Crypto Work For You</h2>
 Traditional financial services are coming to the decentralized world. For the first time, we have the technology to conduct banking services without the need for a third party. This is the vision that DeFi brings to reality.
