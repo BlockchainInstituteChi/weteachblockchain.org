@@ -1,7 +1,7 @@
 ---
 title: Demystifying DeFi Part One
 layout: event
-image: DEFI_p1.jpg
+image: DEFI_title.jpg
 date: 2021-04-08
 eventdate: Thrusday, April 8, 2021
 permalink: /events/DeFi_Apr_08_2021
