@@ -10,7 +10,7 @@ eventType: Classroom
 ---
 The Demystifying DeFi, Stablecoins, and NFTs Course covers everything you need to know about DeFi. In Part One learn about the basics of DeFi by eamxining its unique concepts and properties.
 
-<h3><a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join Part One of our live webinar on April 8th!</h3>
+<a href="https://www.eventbrite.com/e/146631230959" target="_blank" rel="noopener">Get tickets</a> to join Part One of our live webinar on April 8th!
 
 <h2>Make Crypto Work For You</h2>
 Traditional financial services are coming to the decentralized world. For the first time, we have the technology to conduct banking services without the need for a third party. This is the vision that DeFi brings to reality.
