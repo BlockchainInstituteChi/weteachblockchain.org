@@ -3,6 +3,7 @@ title: What are Stablecoins?
 image: StablecoinsFAQ.jpg
 permalink: /faq/stablecoins/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 focusKeyword: Stablecoins, Stablecoin, Volatility, Cryptocurrencies, Tether, Gemini Dollar, DAI, MakerDAO
 learnMoreLink: /decentralized-finance-course/

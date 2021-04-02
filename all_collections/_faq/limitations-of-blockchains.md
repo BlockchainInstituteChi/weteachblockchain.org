@@ -4,6 +4,7 @@ image: Limitations.jpg
 ogImage: Limitations.jpg
 permalink: /faq/limitations-of-blockchains/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 focusKeyword: blockchain limitations
 learnMoreLink: /courses/blockchain-101/

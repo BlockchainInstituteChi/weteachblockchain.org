@@ -4,6 +4,7 @@ image: Decent2.jpg
 ogImage: Decent2.jpg
 permalink: /faq/what-is-decentralization/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course

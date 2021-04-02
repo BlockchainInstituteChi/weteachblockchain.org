@@ -11,6 +11,7 @@ section {
     float: left;
     width: 100%;
     margin-left: 0.5em;
+    font-weight: 300;
 }
 section.pageHeaderImage .row {
     background: none;
@@ -68,33 +69,32 @@ span.descriptionText.pathDescriptionHP {
 }
 
 /* CTA Buttons */
-a.callToActionButton {
-    background: #ed0744;
-    padding: 1em 3em;
-    color: white;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-}
+
 .col-sm-6 a:hover {
     color: #FFFFFF;
 }
 
 /* Mission */
-.col-sm-6.hpMission {
-    left: -6em;
-        min-height: 400px;
-}
+
 section.ourMission {
-    margin-bottom: 0;
-    min-height: 400px;
+    margin-bottom: 5em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
-h1.blueBar.right {
-    padding-left: 0em;
-    font-size: 2.5em;
+span.missionTeal {
+    font-family: 'Open Sans', sans-serif;
+    color: #0B9BA4;
+    font-weight: 900;
+    font-size: 1.5em;
 }
+span.missionBlack {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: black;
+    line-height: 1.75em;
+}
+
 
 /* Events */
 .events h1.blueBar.right {
@@ -206,12 +206,13 @@ span.courseTag {
     float: left;
     font-size: .75em;
 }
+section.onlineCourses {
+    background-color: #efefef;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
 
 /* FAQ Preview */
-h1.redBar {
-    font-size: 2.5em;
-    padding-left: .2em;
-}
 .faqThumbnailContainer {
     width: 100%;
     height: fit-content;
@@ -221,47 +222,17 @@ h1.redBar {
 section.faqList {
     text-align: left;
 }
-.faqTile {
-    width: calc(25% - 1em);
-    display: inline-block;
-    overflow: hidden;
-    margin: 0.5em;
-    text-align: left;
-    float: left;
+section.faq {
+    background: #efefef;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
-.faqTile img {
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 10em;
-    height: auto;
-}
-.faqTile span {
-    bottom: 0;
-    color: grey;
-    text-transform: uppercase;
-    font-size: .8em;
-    line-height: .4em;
-    font-style: italic;
-    display: none;
-}
-.faqTile h3 {
-    text-transform: uppercase;
-    color: black;
-    font-size: 1.25em;
-    padding-left: 0;
-    padding-top: 0.5em;
-    line-height: 1em;
-    margin-bottom: 0rem;
-}
+
 .faqTile.column {
     width: 100%;
 }
 
-.ourMission a.callToActionButton {
-    display: block;
-    float: left;
-    margin-top: 1em;
-}
+
 
 
 /*HIDE EVENTS*/

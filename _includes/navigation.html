@@ -1,33 +1,23 @@
 <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark static-top supportUsNav">
+  <a class="nav-link donateNow" href="/support-us/">
+    Support Us
+  </a>
+</nav>
 <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <a class="navbar-brand" href="/">
-      <img class="navbarBrand" src="/assets/img/logo.jpg" width="200px" alt="">
+      <img class="navbarBrand" src="/assets/img/WTBLogo_oneline.png" width="200px" alt="">
     </a>
-    <!-- <ul class="navbar-nav flex-row">
-      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.facebook.com/TheBlockchainInstitute"><i class="fab fa-facebook-f"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://twitter.com/bchaininstitute"><i class="fab fa-twitter"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.linkedin.com/company/blockchain-institute-chi/"><i class="fab fa-linkedin"></i></a></li>
-      <li class="nav-item"><a target="_blank" class="nav-link px-2" href="https://www.instagram.com/theblockchaininstitute/"><i class="fab fa-instagram"></i></a></li>
-    </ul> -->
     <button class="navbar-toggler" id="normalNavBarToggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto desktopNav">  
-        <!-- <li class="nav-item contactUsLink">
-          <a href="/contact-us/">Contact Us</a>
-        </li> -->
-        <li class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></li>
-        <li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>
+        <!--<li class="nav-item ml-auto navbox" id="navBoxToggle"><a class="nav-link px-2 float-right" onclick="toggleDisplayNavBox()" href="#"><i class="fa fa-bars"></i></a></li>-->
         <li class="nav-item ml-auto" id="accountToggle"><a class="nav-link px-s fload-right" id="accountIcon" onclick="toggleDisplayAccountBox()" ><i class="fas fa-user-circle"></i></a></li>
-        <li class="nav-item donations">
-          <a class="nav-link donateNow" href="/support-us/">
-            Support Us
-          </a>
-        </li>
       </ul>
 
-      <div class="mobileNavSidebar">
+      <!--<div class="mobileNavSidebar">
         <div class="mobileLogin">
           <div id="mobileApp">Loading...</div>
         </div>
@@ -56,14 +46,9 @@
             </li>
           </ul>
       </div>
+    -->
 
-      <div id="searchLightbox" class="searchBox d-none">
-        <span class="cancelSearchButton" onclick="cancelSearch()">✖</span>
-        <input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults('searchResults', 'searchInput')">
-        <div id="searchResults" class="searchResults">
-          <span class="loading">Loading ... </span>
-        </div>
-      </div>
+
 
       <div id="accountDropdown" class="hoverNavbox account d-none">
         <div class="row">
@@ -82,7 +67,7 @@
         </div>
       </div>
       
-      <div id="navBox" class="hoverNavbox d-none"  tabindex="3" onfocusout="closeOtherLightboxBeforeOpening()">
+      <!--<div id="navBox" class="hoverNavbox d-none"  tabindex="3" onfocusout="closeOtherLightboxBeforeOpening()">
         <div class="row">
           {% for item in site.data.navigation %}
           <div class="col-sm-4">
@@ -100,9 +85,31 @@
           {% endfor %}  
         </div>
         
-      </div>
+      </div>-->
     </div>
 
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark static-top menuBar">
+  <a class="nav-link col menuBarItem" href="/faq/">
+    FAQs
+  </a>
+  <a class="nav-link col menuBarItem" href="/courses/">
+    Courses
+  </a>
+  <a class="nav-link col menuBarItem" href="/events/">
+    Events
+  </a>
+  <div class="dropdown col">
+    <button class="dropbtn">More</button>
+    <div class="dropdown-content">
+      <a href="/blog/">Blog</a>
+      <a href="/downloads/">Downloads</a>
+      <a href="/press-releases/">Press</a>
+      <a href="/ambassadors/">Ambassadors</a>
+      <a href="/about/">About Us</a>
+      <a href="/contact-us/">Contact Us</a>
+    </div>
   </div>
 </nav>
 

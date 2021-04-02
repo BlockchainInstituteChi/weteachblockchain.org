@@ -23,73 +23,20 @@ section .row {
 .row.container.bread {
     margin-bottom: 0em;
 }
-.faqTile {
-    min-height: 0px;
-    width: calc(25% - 1em);
-    display: inline-block;
-    overflow: hidden;
-    margin: 1em 0.5em 1em 0.5em;
-    text-align: left;
-}
-.faqTile img {
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 10em;
-    height: auto;
-}
-.faqTile span {
-    bottom: 0;
-    color: grey;
-    text-transform: uppercase;
-}
-.faqTile h1 {
-        text-transform: uppercase;
-    color: black;
-    font-size: 1.25em;
-    padding-top: .5em;
-    line-height: 1em;
-    padding-left: 0em;
-    margin-bottom: 0em;
-}
-.faqTile h3{
-    text-transform: uppercase;
-    font-size: 1.25em;
-    padding-top: .5em;
-    color: black;
-    margin-bottom: 0em;
-    margin-top: 0em;
-}
-.faqTile span {
-    bottom: 0;
-    color: grey;
-    text-transform: uppercase;
-    font-size: .8em;
-    line-height: .4em;
-    font-style: italic;
-}
+
+
 
 .column .faqTile {
     width: 100% !important;
     margin-left: 0em !important;
 }
-.faqMain h1 {
-    margin-top: 0.75em;
-}
+
 span.faqDate {
     margin-left: 0.5em;
     padding-left: 0.1em;
     font-size: 1.25em;
 }
-.faqMain h1::before {
-    background: red;
-    width: 100px;
-    height: 0.75em;
-    content: "_";
-    color: #ff000000;
-    position: absolute;
-    left: -2em;
-    top: 1em;
-}
+
 .faqBody {
     padding: 0.75em;
     margin-bottom: 5em;

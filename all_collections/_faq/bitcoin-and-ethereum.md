@@ -4,6 +4,7 @@ image: Difference_BC-Eth.jpg
 ogImage: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
+readtime: 5 minutes
 tag: WHAT'S THE DIFFERENCE? 
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: our Ethereum 101 course

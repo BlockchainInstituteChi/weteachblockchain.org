@@ -20,6 +20,14 @@
 				</li>
 			</ul>
 		</div>
+		<div class="nav-item ml-auto search"><a class="nav-link px-2 float-right" onclick="toggleDisplaySearchLightbox()" href="#"><i class="fa fa-search"></i></a></div>
+		<div id="searchLightbox" class="searchBox d-none">
+			<span class="cancelSearchButton" onclick="cancelSearch()">✖</span>
+			<input id="searchInput" type="text" placeholder="Start typing..."  onkeyup="refreshSearchResults('searchResults', 'searchInput')">
+			<div id="searchResults" class="searchResults">
+			  <span class="loading">Loading ... </span>
+			</div>
+		  </div>
 		<div class="col-md-6 bciNewsletter">
 			<h4 class="float-right">Subscribe To Our Newsletter</h4>
 			<!-- Begin Mailchimp Signup Form -->

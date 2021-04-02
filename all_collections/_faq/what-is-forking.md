@@ -4,6 +4,7 @@ image: Forking.jpg
 ogImage: Forking.jpg
 permalink: /faq/what-is-forking/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course

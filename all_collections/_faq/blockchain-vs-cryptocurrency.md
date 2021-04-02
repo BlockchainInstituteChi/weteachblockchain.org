@@ -4,6 +4,7 @@ image: Difference.jpg
 ogImage: Difference.jpg
 permalink: /faq/blockchain-vs-cryptocurrency/
 layout: faq
+readtime: 5 minutes
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course

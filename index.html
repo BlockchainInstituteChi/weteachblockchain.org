@@ -21,9 +21,23 @@ ogUrl: https://weteachblockchain.org/
 	ctaLink="/decentralized-finance-course/" 
 %}
 
+<section class="ourMission">
+  <div class="row">
+    <div>
+      <span class="missionTeal">
+        We see a world where digital systems preserve autonomy</span><span class="missionBlack"> and individuals have control of their own assets without
+        intermediaries. The Blockchain Institute was founded to help everyone understand blockchain and further its
+        adoption, development, and use. We teach blockchain, and so can you!
+      </span>
+    </div>
+  </div>
+</section>
+
+
+
 <section class="faq">
   <div class="row">
-    <h1 class="redBar">Frequently Asked Questions</h1>
+    <h1 class="redBar">Blockchain FAQs</h1>
     <span class="descriptionText">
       Not ready to start a full course? Get answers to commonly asked questions.
     </span>
@@ -37,7 +51,8 @@ ogUrl: https://weteachblockchain.org/
           keywords=item.focusKeyword
           link=item.permalink
           title=item.title
-          author=item.author
+          readtime=item.readtime
+				  author=item.tag
         %}
       {% endfor %}
     </div>
@@ -49,7 +64,7 @@ ogUrl: https://weteachblockchain.org/
 
 <section class="onlineCourses blueDivider">
   <div class="row">
-    <h1 class="coursesHeaderHP">Your FREE Blockchain Education Starts NOW!</h1>
+    <h1 class="coursesHeaderHP">Courses</h1>
     <span class="descriptionText">
       Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from
       the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
@@ -66,7 +81,6 @@ ogUrl: https://weteachblockchain.org/
               author=course.author 
               summary=course.summary 
               link=course.permalink 
-              tag=course.primaryTag	
               slug=course.slug
             %}
       {% endfor %}
@@ -78,48 +92,6 @@ ogUrl: https://weteachblockchain.org/
 
 
 
-<section class="pathsList">
-  <h1 class="hasColorTag teal">Not sure where to start?</h1>
-  <div class="row">
-    <div class="col-sm-12">
-      <span class="descriptionText pathDescriptionHP">
-        We have something for everyone no matter your skill level. Begin your blockchain education now.
-      </span>
-    </div>
-  </div>
-  <div class="row pathButtons">
-    <div class="col-sm-4 novText">
-      <a href="/courses/beginners/">
-        <img src="/assets/img/Novice_button.jpg">
-        <h5>Beginners</h5>
-      </a>
-    </div>
-    <div class="col-sm-4 devText">
-      <a href="/courses/developers/">
-        <img src="/assets/img/Developers_button.jpg">
-        <h5>Developers</h5>
-      </a>
-    </div>
-    <div class="col-sm-4 indText">
-      <a href="/courses/professionals/">
-        <img src="/assets/img/Professionals_button.jpg">
-        <h5>Professionals</h5>
-      </a>
-    </div>
-
-  </div>
-  <div class="row ctaCenter">
-    <a href="/courses/" class="callToActionButton">View All Courses</a>
-  </div>
-</section>
-
-
-
-
-
-
-
-
 <section class="events"
   style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
   <div class="row">
@@ -127,7 +99,7 @@ ogUrl: https://weteachblockchain.org/
 
     </div>
     <div class="col-sm-6 ourEvents">
-      <h1 class="blueBar right">
+      <h1>
         Join an Event
       </h1>
       <span class="descriptionText eventDescriptionHP">
@@ -159,27 +131,6 @@ ogUrl: https://weteachblockchain.org/
 
 
 
-<section class="ourMission">
-  <div class="row">
-    <div class="col-sm-6 hpMission"
-      style="background:url(/assets/img/Homepage_Mission.jpg);background-size:cover;background-position:center;">
-
-    </div>
-    <div class="col-sm-6">
-      <h1 class="blueBar right">
-        Our Vision
-      </h1>
-      <span>
-        We see a world where digital systems preserve autonomy and individuals have control of their own assets without
-        intermediaries. The Blockchain Institute was founded to help everyone understand blockchain and further its
-        adoption, development, and use. We teach blockchain, and so can you!
-      </span><br>
-      <a href="/ambassadors/" class="callToActionButton">Become an Ambassador</a>
-    </div>
-  </div>
-</section>
-
-{% include socialFooter.html %}
 
 <script>
 

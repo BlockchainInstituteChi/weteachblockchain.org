@@ -7,6 +7,7 @@ layout: faq
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
+readtime: 5 minutes
 tag: APPLICATIONS
 weight: 5
 ---

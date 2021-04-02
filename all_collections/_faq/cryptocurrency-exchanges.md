@@ -4,6 +4,7 @@ image: ExchangesFAQHeader.jpg
 ogImage: ExchangesFAQHeader.jpg
 permalink: /faq/cryptocurrency-exchanges/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 learnMoreLink: /courses/decentralized-finance-course/
 learnMoreText: and sign up for our upcoming DeFi Course

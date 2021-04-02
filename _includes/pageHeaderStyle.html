@@ -28,7 +28,7 @@ section.pageHeaderImage {
     background-size: cover;
     min-height: 50vh;
     height: fit-content;
-    margin-bottom: 6em;
+    margin-bottom: 5em;
     
 }
 section.pageHeaderImage.noText {
@@ -64,11 +64,11 @@ section.pageHeaderImage .row {
 	max-width: 80%;
 }
 .pageHeaderImage a.callToActionButton {
-    background: #ed0744;
+    background: white;
     padding: 1em 3em;
     margin-top: 2em;
     margin-bottom: 6em;
-    color: white;
+    color: #003449;
     text-transform: uppercase;
     display: block;
     width: fit-content;
@@ -86,7 +86,6 @@ a.callToActionButton {
 /* Nav */
 nav {
     background: white;
-    border: 0.025px solid #d3d3d359;
 }
 nav a.nav-link {
     color: black;
@@ -99,9 +98,19 @@ a.nav-link.donateNow {
     font-weight: 600;
     padding-left: 1em !important;
     padding-right: 1em !important;
-    margin-left: 1em;
     letter-spacing: .05em;
     font-family: Kanit;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline !important;
+}
+
+.supportUsNav {
+    padding: 0em !important;
+}
+
+.nav-link.donateNow {
+    padding: .2rem 1rem .35rem 1rem !important;
 }
 
 li.nav-item {
@@ -114,15 +123,111 @@ a.nav-link:hover {
     color: #0b9ba4 !important;
 }
 .navbar-brand img {
-    padding-left: 1em;
+    width: 17em;
+    padding-top: .35em;
+    padding-bottom: .35em;
 }
 .nav-item {
     text-align: center;
 }   
+a.nav-link.menuBarItem {
+    font-size: .84em;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-align: center;
+}
+.menuBar {
+    border-top: 1px solid #848484;
+}
+
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+}
+
+/* Links inside the navbar */
+..menuBar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: .84em;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: .55em 0em;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 1em;
+  margin: .1em;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: .84em;
+    font-weight: 500;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown.col {
+    text-align: center;
+}
+
+a.nav-link.col.menuBarItem:hover {
+    box-shadow: inset 0 -3px 0 0 #ed0744;
+    color: black !important;
+}
+.dropdown.col:hover {
+    box-shadow: inset 0 -3px 0 0 #ed0744;
+}
+button.dropbtn:hover {
+    background: inherit !important;
+}
 
 /* Social Nav */
 ul.navbar-nav.flex-row {
-    paddiwg-left: 1em;
+    padding-left: 1em;
 }
 nav i {
     color: #0b9ba4;
@@ -134,6 +239,8 @@ li.nav-item.navbox {
     padding-right: 0.5em;
     padding-left: 0;
 }
-
+nav.navbar.navbar-expand-lg.navbar-dark.static-top {
+    padding: 0em 6.5em;
+}
 
 </style>

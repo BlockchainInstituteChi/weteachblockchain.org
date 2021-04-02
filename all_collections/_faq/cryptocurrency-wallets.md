@@ -3,6 +3,7 @@ title: Cryptocurrency Wallets
 image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
+readtime: 5 minutes
 tag: CONCEPTS
 focusKeyword: 
 learnMoreLink: /crypto-curious/
