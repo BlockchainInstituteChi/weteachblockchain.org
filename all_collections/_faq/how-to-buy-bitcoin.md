@@ -68,7 +68,7 @@ sticky: true
 <img src="/assets/img/PrivateTransaction.jpg" alt="How to buy bitcoin, ethereum and other crypto in a direct private transaction" title="Buying crypto in a private transaction">
 <span>Before exchanges gained traction, a popular way to purchase cryptocurrency had been to find someone willing to sell cryptocurrency in your local area.</span>
 <h3>How do Direct Transactions Work?</h3>
-<span>Services like <a href="https://localbitcoins.com/" target="_blank">LocalBitcoins</a>localbitcoins.com and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
+<span>Services like <a href="https://localbitcoins.com/" target="_blank">LocalBitcoins.com</a> and internet forums have allowed buyers and sellers to find each other and conduct private sales. These websites and forums allow buyers and sellers to find each other without the use of an online exchange. This direct transfer takes no additional fees, as users aren't relying on a third party to conduct the transaction.</span>
 <h3>Pros & Cons to Buy Bitcoin with Direct Transactions</h3>
 <h4>Pros</h4>
 <ul>
