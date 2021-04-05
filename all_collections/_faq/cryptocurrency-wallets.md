@@ -1,5 +1,5 @@
 ---
-title: Cryptocurrency Wallets
+title: What are Cryptocurrency Wallets?
 image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
