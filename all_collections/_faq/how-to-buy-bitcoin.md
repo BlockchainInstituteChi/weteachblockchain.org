@@ -1,10 +1,11 @@
 ---
-title: How To Buy Bitcoin
+title: How Do You Buy Bitcoin?
 image: HowToBuyFAQ.jpg
 ogImage: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
 tag: CONCEPTS
+focusKeyword: Cryptocurrency Exchanges, Bitcoin ATMs, Direct Transfer
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
