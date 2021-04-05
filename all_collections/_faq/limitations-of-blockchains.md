@@ -1,11 +1,11 @@
 ---
-title: Limitations of Blockchains
+title: What are Blockchain's Limitations?
 image: Limitations.jpg
 ogImage: Limitations.jpg
 permalink: /faq/limitations-of-blockchains/
 layout: faq
 tag: CONCEPTS
-focusKeyword: blockchain limitations
+focusKeyword: Scaling Problem, User Experience, Lack of Onboarding, Data Management
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
