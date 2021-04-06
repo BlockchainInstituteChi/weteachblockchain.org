@@ -4,6 +4,7 @@ image: DStorage.jpg
 ogImage: DStorage.jpg
 permalink: /faq/decentralized-storage/
 layout: faq
+focusKeyword: Data Storage, Distributed, Filecoin, IPFS  
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
