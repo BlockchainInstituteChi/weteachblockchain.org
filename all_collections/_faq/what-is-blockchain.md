@@ -4,7 +4,8 @@ image: blockchain.jpg
 ogImage: Token-Creation-Cycle-01.jpg
 permalink: /faq/what-is-blockchain/
 layout: faq
-tag: CONCEPTS 
+tag: CONCEPTS
+focusKeyword: Decentralized, Ledger, Transactions, Consensus, Peer-To-Peer
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our free Blockchain 101 course
 learnMoreImage: BC101-01.jpg

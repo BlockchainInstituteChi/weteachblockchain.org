@@ -5,6 +5,7 @@ ogImage: Crypto2.jpg
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
 tag: CONCEPTS
+focusKeyword: Bitcoin, Digital Assets, Tokens, Coins
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
@@ -30,4 +31,6 @@ sticky: true
 
 <span>The original concept of the blockchain was first proposed in the Bitcoin <a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener">whitepaper</a>. The Bitcoin blockchain is used to keep a record of all transactions which have ever occurred in that network, and thereby acts as a communal registry of ownership of all the Bitcoins that have ever been created. When a participant in the network wishes to make a transaction, they must wait for all of the nodes in the network to update their copy of the record before they can spend their assets. Our <a href="/courses/blockchain-security/">free Blockchain Security course</a> covers these issues and more.</span>
 
-<a href="/faq/how-to-buy-bitcoin/" target="_blank">Learn how to buy bitcoin and other cryptocurrencies!</a>
+{% include callouts/note.html
+	bodyText='<a href="/faq/how-to-buy-bitcoin/" target="_blank">Learn how to buy bitcoin and other cryptocurrencies!</a>'
+%}

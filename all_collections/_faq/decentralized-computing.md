@@ -4,6 +4,7 @@ image: decentralized_computing_open.jpg
 ogImage: decentralized_computing_open.jpg
 permalink: /faq/decentralized-computing/
 layout: faq
+focusKeyword: Distributed Computing, Ethereum, Smart Contracts, Nodes
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg

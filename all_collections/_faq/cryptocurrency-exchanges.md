@@ -1,10 +1,11 @@
 ---
-title: Cryptocurrency Exchanges
+title: What are Cryptocurrency Exchanges?
 image: ExchangesFAQHeader.jpg
 ogImage: ExchangesFAQHeader.jpg
 permalink: /faq/cryptocurrency-exchanges/
 layout: faq
 tag: CONCEPTS
+focusKeyword: Trading Crypto, Centralized Exchanges, Coinbase, DEX, Liquidity Pool, Uniswap
 learnMoreLink: /courses/decentralized-finance-course/
 learnMoreText: and sign up for our upcoming DeFi Course
 learnMoreImage: DEFI_title.jpg
