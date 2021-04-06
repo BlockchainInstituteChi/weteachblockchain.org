@@ -5,7 +5,7 @@ ogImage: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
 tag: WHAT'S THE DIFFERENCE?
-focusKeyword: Bitcoin, Ethereum
+focusKeyword: Satoshi Nakamoto, Payments, Turing-Complete, World Computer, Gas
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: our Ethereum 101 course
 learnMoreImage: EthereumGrowth-1.jpg
