@@ -5,6 +5,7 @@ ogImage: Decent2.jpg
 permalink: /faq/what-is-decentralization/
 layout: faq
 tag: CONCEPTS
+focusKeyword: Nodes, P2P, Consensus Mechanism
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
