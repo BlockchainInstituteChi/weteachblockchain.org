@@ -5,6 +5,7 @@ ogImage: RealWorld.jpg
 permalink: /faq/what-can-blockchain-do/
 layout: faq
 tag: APPLICATIONS
+focusKeyword:  Use Cases, Communication, Supply Chain, Self-Sovereign Identity, Real Estate
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
