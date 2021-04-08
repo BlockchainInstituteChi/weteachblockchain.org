@@ -13,7 +13,7 @@ ogUrl: https://weteachblockchain.org/
   }
 </script>
 {% include pageHeader.html 
-  img="DEFI_HEADER.jpg" 
+  img="DemystifyingDefiHEADER.jpg" 
   imgSm="DEFI_HEADER-sm.jpg" 
 	header="Make Crypto Work For You" 
 	text="Learn everything you need to know about decentralized finance with our live <b>Demystifying DeFi, Stablecoins, and NFTs</b> course."
@@ -37,7 +37,7 @@ ogUrl: https://weteachblockchain.org/
 
 <section class="faq">
   <div class="row">
-    <h1 class="redBar">Blockchain FAQs</h1>
+    <h1>Blockchain FAQs</h1>
     <span class="descriptionText">
       Not ready to start a full course? Get answers to commonly asked questions.
     </span>
@@ -62,7 +62,7 @@ ogUrl: https://weteachblockchain.org/
 
 {% include factoid.html page="homepage" %}
 
-<section class="onlineCourses blueDivider">
+<section class="onlineCourses">
   <div class="row">
     <h1 class="coursesHeaderHP">Courses</h1>
     <span class="descriptionText">
@@ -82,6 +82,8 @@ ogUrl: https://weteachblockchain.org/
               summary=course.summary 
               link=course.permalink 
               slug=course.slug
+              blurb=course.blurb
+              readtime=course.readtime
             %}
       {% endfor %}
       {% endfor %}
@@ -92,21 +94,14 @@ ogUrl: https://weteachblockchain.org/
 
 
 
-<section class="events"
-  style="background:url(/assets/img/Homepage_Events.jpg);background-size:cover;background-position:center;">
+<section class="events">
   <div class="row">
-    <div class="col-sm-6">
-
-    </div>
-    <div class="col-sm-6 ourEvents">
       <h1>
-        Join an Event
+        Events
       </h1>
       <span class="descriptionText eventDescriptionHP">
         Want to get involved and meet others that share our vision?
       </span>
-      <i onclick="showLastEvent()" class="fas fa-chevron-left eventNavHandles"></i>
-      <i onclick="showNextEvent()" class="fas fa-chevron-right eventNavHandles"></i>
       <div class="eventsContainer">
         {% assign sorted = site.events | sort: 'date' | reverse %}
         {% for event in sorted limit:4 %}
@@ -121,10 +116,46 @@ ogUrl: https://weteachblockchain.org/
         {% endfor %}
       </div>
       <a href="/events/" class="callToActionButton">Attend an Event</a>
-    </div>
-
   </div>
 </section>
+
+
+
+<section class="getInvolvedFooter">
+  <div class="row">
+    <h1>Get Involved</h1>
+    <span class="descriptionText">
+      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from
+      the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
+    </span>
+    <div class="getInvolvedThumbnailContainer">
+      <div class="giTile"> 
+        <img src="/assets/img/Newsletter.jpg"/>
+        <h3>Sign up for our newsletter</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+      <div class="giTile"> 
+        <img src="/assets/img/Discord.jpg"/>
+        <h3>Join our Discord</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+      <div class="giTile"> 
+        <img src="/assets/img/Ambassadors_HomepageImage-01.jpg"/>
+        <h3>Become an Ambassador</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+      <div class="giTile"> 
+        <img src="/assets/img/BlogsubmissionHEADER.jpg"/>
+        <h3>Write a blog post</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
 
 
@@ -202,6 +233,3 @@ ogUrl: https://weteachblockchain.org/
 	
 </script>
 
-<!-- Testimonials go here -->
-
-<!-- Recent tweets integration goes here -->

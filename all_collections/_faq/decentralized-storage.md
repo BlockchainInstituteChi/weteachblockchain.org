@@ -9,7 +9,8 @@ learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
 readtime: 5 minutes
 tag: APPLICATIONS
-weight: 6
+weight: 10
+sticky: false
 ---
 {% include callouts/callout.html
     title="What is decentralization?"

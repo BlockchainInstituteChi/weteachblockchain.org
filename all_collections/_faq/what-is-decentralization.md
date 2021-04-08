@@ -10,6 +10,7 @@ learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
 weight: 2
+sticky: true
 ---
 
 Decentralized networks are made up of computers, also known as nodes, that interact on a direct, peer-to-peer basis, without the need for third parties. Within a decentralized network, information is distributed to every single “node” on the network. Each node has an updated copy of all recorded data. Decentralized networks can also distribute data so that certain private information can be validated without that information being transferred to a third party. Data is validated by using an agreed-upon consensus mechanism, which often involves the other computers on the network checking the validity of the data before it becomes permanently imprinted onto a blockchain.

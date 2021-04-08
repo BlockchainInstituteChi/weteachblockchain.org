@@ -9,8 +9,8 @@ focusKeyword: Stablecoins, Stablecoin, Volatility, Cryptocurrencies, Tether, Gem
 learnMoreLink: /decentralized-finance-course/
 learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
-weight: 3
-sticky: true
+weight: 10
+sticky: false
 ---
 <span>Anyone familiar with <a href="/faq/what-is-cryptocurrency/">cryptocurrency</a> knows just how volatile they can be. Extreme swings are a regular occurrence, and while volatility is not necessarily bad, it can cause issues for both merchants and investors. As a result, we have seen a push to create reliable, stable cryptocurrencies that hold their value. These cryptocurrencies are known as stablecoins.</span>
 {% include callouts/callout.html

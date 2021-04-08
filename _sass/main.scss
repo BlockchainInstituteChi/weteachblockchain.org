@@ -284,25 +284,24 @@ li.nav-item.search {
     padding-left: 0.5em;
     // border-left: lightgrey 1px solid;
 }
+a.nav-link.float-left {
+    padding-left: 0em;
+    padding-right: 0em;
+}
 .searchBox::-webkit-scrollbar, .searchResults::-webkit-scrollbar {
     display: none !important;
 }
 .searchBox {
-    display: block;
-    position: absolute;
-    width: 50vw;
-    max-width: 100%;
+    min-width: 91.5%;
     float: right;
-    right: 17em;
-    background: white;
-    top: 1.25em;
     z-index: 1000;
 }
 .searchBox input {
     width: 100%;
     border-radius: 0em;
     padding: 0.5em;
-    font-family:  $secondary-font;
+    font-family: "Roboto";
+    border: solid 1px black;
 }
 .searchResults {
     max-height: 50vh;
@@ -395,14 +394,11 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
     padding-top: 2.4em;
 }
 .container-fluid.footer {
-    background: #2b2b2b;
     color: #aeaeae;
-    padding: 1em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding: 0em;
 }
 .footer .col-md-6, .footer .col-md-3 {
-    padding: 2em;
+    padding: .5em;
 }
 .footer h4 {
     text-transform: uppercase;
@@ -423,32 +419,55 @@ button.navbar-toggler.collapsed, button.navbar-toggler, navbar-toggler-icon {
 }
 .footer ul.navbar-nav.flex-row {
     padding-left: 0;
+    float: right;
+}
+.col-md-6.bciLogoFooter img {
+    width: 18em;
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+.bciSocial {
+    display: flow-root;
+}
+.nav-item.ml-auto.search {
+    display: flow-root;
+    margin-top: 2em;
+    width: 85%;
+}
+.copyrightAndLinks {
+    display: flow-root;
+    width: 100%;
+}
+a.nav-link {
+    color: #003449;
 }
 
 /* Footer MC */
 .mc-field-group {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .mc_signup_input {
-    width: 75%;
+    width: 85%;
     height: 40px;
     padding-left: 10px !important;
     box-shadow: none;
-    border: none;
+    border: solid 1px black;
 }
 button.mc_signup {
-    background: #ed0744 !important;
+    background: #003449 !important;
     color: white;
     border: none !important;
     text-transform: uppercase;
     padding-bottom: 0.5em;
     font-weight: 500;
     border-radius: 0;
-    padding-right: 1em;
-    padding-left: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
     box-shadow: none;
     height: 100%;
     padding-top: 0.5em;
+    font-family: 'Kanit';
+    margin-top: .5em;
 }
 .mc_signup i {
     font-size: 20pt;
@@ -459,25 +478,34 @@ button.mc_signup:hover {
 }
 .footer span {
     display: block;
-    width: 100%;
     text-align: center;
-    color: #848484;
+    color: black;
+    float: right;
+    margin-top: 3.5em;
+    font-weight: 400;
+    font-size: .8em;
 }
 .linkList {
     margin: auto;
+    float: right;
 }
 .linkList a {
     display: inline-block;
-    padding: 0.5em;
+    padding-left: 1.5em;
     text-decoration: underline !important;
+    font-weight: 300;
+    color: black;
+    margin-top: 1.65em;
+    font-size: .8em;
 }
 .footer .col-md-3 img {
     max-width: 100%;
     margin-top: 1em;
 }
 .footer li.nav-item {
-    font-size: 1.5em;
-    padding-top: 1.1em;
+    font-size: 1.75em;
+    margin-left: 1.25em;
+    margin-top: 2.5em;
 }
 
 /* Footer alignment issues */
@@ -535,19 +563,6 @@ h1.hasColorTag.red {
 }
 
 /* Section Color Tags */
-section.hasSectionColorTag::before {
-    background: #3dba95;
-    width: 2em;
-    height: 17em;
-    content: "_";
-    color: #ff000000;
-    display: block;
-    margin-bottom: -0.25em;
-    margin-left: 2.5em;
-    margin-right: 0.5em;
-    vertical-align: sub;
-    position: absolute;
-}
 
 section.hasSectionColorTag.red::before {
     background: $brand-red;
@@ -1008,9 +1023,10 @@ h4.submitBlog {
 
 
 /*Tiles*/
+/*FAQ*/
 .faqTile {
     width: calc(25% - 1em);
-    display: inline-block;
+    display: block;
     overflow: hidden;
     margin: 0.5em;
     text-align: left;
@@ -1055,7 +1071,7 @@ h4.submitBlog {
     font-style: italic;
 }
 .faqTile span.readTime {
-    padding-left: 1.2em;
+    padding-left: 1.35em;
     font-style: normal;
     font-weight: 600;
     color: black;
@@ -1063,4 +1079,214 @@ h4.submitBlog {
 span.authorTag {
     padding-left: .4em;
     margin-right: 1.2em;
+}
+
+/*Courses*/
+.courseTile {
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 16em;
+}
+.courseTile img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 10em;
+    height: auto;
+}
+.courseTile h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.25em;
+    padding-top: .5em;
+    line-height: 1em;
+    padding-left: 0em;
+    margin-bottom: 0em;
+    margin-top: 0.75em;
+}
+.courseTile h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+.courseTile span.author {
+    bottom: 0;
+    color: #0B9BA4;
+    text-transform: uppercase;
+    font-size: .745em;
+    line-height: .4em;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 1.35em;
+    display: inline;
+}
+.courseTile span.readTime {
+    padding-left: 1.35em;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: .745em;
+    line-height: .4em;
+    display: inline;
+}
+.courseTile span.blurb {
+    bottom: 0;
+    color: #000000;
+    font-size: .745em;
+    line-height: 1.5em;
+    padding-left: 1.35em;
+    display: block;
+    font-weight: 300;
+    margin-top: .25em;
+    padding-right: 1.35em;
+}
+span.authorTag {
+    padding-left: .4em;
+    margin-right: 1.2em;
+}
+
+/*Event Tiles*/
+span.descriptionText.eventDescriptionHP {
+    margin-left: 0em;
+    color: white;
+}
+.eventTile {
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 14em;
+}
+.eventTile img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 10em;
+    height: auto;
+}
+.eventTile span {
+    bottom: 0;
+    color: #003449;
+    font-size: .8em;
+    line-height: 0em;
+    font-style: italic;
+}
+.eventTile h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.25em;
+    padding-top: .5em;
+    line-height: 1em;
+    padding-left: 0em;
+    margin-bottom: 0em;
+    margin-top: 0.75em;
+}
+.eventTile h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+.eventTile span.eventDate {
+    bottom: 0;
+    color: #0B9BA4;
+    text-transform: uppercase;
+    font-size: .745em;
+    line-height: .4em;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 1.35em;
+    display: inline;
+}
+.courseTile span.eventTime {
+    padding-left: 1.35em;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    font-size: .745em;
+    line-height: .4em;
+    display: inline;
+}
+
+
+
+/*Get Involved*/
+.giTile {
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 14em;
+}
+.giTile img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 10em;
+    height: auto;
+}
+.giTile span {
+    bottom: 0;
+    color: #000000;
+    font-size: .745em;
+    line-height: 1.5em;
+    padding-left: 1.35em;
+    display: block;
+    font-weight: 300;
+    margin-top: .25em;
+    padding-right: 1.35em;
+}
+.giTile h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+.getInvolvedThumbnailContainer {
+    width: 100%;
+    height: fit-content;
+    padding-top: 1.5em;
+}
+section.getInvolvedFooter {
+    background-color: #efefef;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-bottom: 0em;
+}
+
+
+span.missionTeal {
+    font-family: 'Open Sans', sans-serif;
+    color: #0B9BA4;
+    font-weight: 900;
+    font-size: 1.5em;
 }

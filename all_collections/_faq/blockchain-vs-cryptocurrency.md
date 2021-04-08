@@ -9,7 +9,8 @@ tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
-weight: 2
+weight: 10
+sticky: false
 ---
 <img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg">
 

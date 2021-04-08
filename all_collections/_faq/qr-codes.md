@@ -10,8 +10,8 @@ focusKeyword: QR Code
 learnMoreLink: /courses/blockchain-for-business/
 learnMoreText: Our Blockchain For Business Course
 learnMoreImage: BlockchainforBusiness.jpg
-weight: 3
-sticky: true
+weight: 10
+sticky: false
 ---
 <h2>Incorporating The Physical Into Digital Life</h2>
 <span>Our physical and digital worlds are becoming more and more intertwined. The wide availability of fast internet for devices that can fit in our pockets has opened a world of possibilities. Previously <a href="/faq/decentralized-computing/" target="_blank">computers were confined to one place</a>, usually the home or office. Mobile technology’s rapid advancement allows internet access from almost anywhere.</span>

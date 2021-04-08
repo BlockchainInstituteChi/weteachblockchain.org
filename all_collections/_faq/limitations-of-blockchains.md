@@ -10,8 +10,8 @@ focusKeyword: blockchain limitations
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
-weight: 2
-sticky: true
+weight: 10
+sticky: false
 ---
 
 <span>The decentralized and censorship resistant nature of <a href="/faq/what-is-blockchain/" target="_blank">blockchains</a> has led to a booming industry which professes a wide range of applications. Some have touted blockchains as a solution to any problem. While blockchain technology shows much promise, there are both certain limitations inherent to the technology and hurdles that must be overcome for the technology to reach everyday use by the average person. Here are some of the most critical problems the technology has to address before it achieves mass adoption.</span>

@@ -9,7 +9,8 @@ learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
 readtime: 5 minutes
 tag: APPLICATIONS
-weight: 5
+weight: 10
+sticky: false
 ---
 Distributed computing has long been a theoretical concept in computer science, but in 2015 the Ethereum foundation took that theory one step closer to reality. Ethereum’s stated goal and innovation was to create an economic incentive for participants to join this public network and help maintain a global, distributed, computer system.
 

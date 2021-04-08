@@ -9,7 +9,7 @@ tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
-weight: 2
+weight: 4
 sticky: true
 ---
 <span>Ready to get started with <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> but not sure how to acquire it in the first place? Whether you want to buy Bitcoin, buy Ethereum, or buy cryptocurrency <a href="/faq/coins-vs-tokens/" target="_blank">tokens</a> of a different name, we have you covered with three different ways to buy!</span>
