@@ -1232,6 +1232,13 @@ span.descriptionText.eventDescriptionHP {
 
 
 /*Get Involved*/
+.descriptionText {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-left: 0.5em;
+    font-weight: 300;
+}
 .giTile {
     width: calc(25% - 1em);
     display: block;

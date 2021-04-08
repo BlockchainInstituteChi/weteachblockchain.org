@@ -13,6 +13,10 @@ body, html {
     box-sizing: inherit;
 }
 
+
+.pageHeaderImage .col-sm-6 h1 {
+    margin-top: 3em;
+}
 /* About Us*/
 .header .col-sm-5 {
     text-align: left;
@@ -49,11 +53,7 @@ a.callToActionButton {
 .header .row {
     margin-bottom: 8em;
 }
-section.blueBrickDivider {
-    height: 3em;
-    background: #00648c;
-    margin-bottom: 1.5em;
-}
+
 .col-sm-5 h1 {
     margin-top: 0em;
     padding-left: 0em;
@@ -70,24 +70,22 @@ section.blueBrickDivider {
 .col-sm-7 {
     padding: 0em .5em;
 }
-
+.ourMission div {
+    padding: .25em;
+    margin-bottom: 0em;
+}
+section.header {
+    text-align: left;
+}
+.col-sm-6 {
+    padding-left: .5em;
+    padding-right: 2em;
+}
 
 /* Profiles */
-.hasColorTag::before {
-    background: #00648c;
-    width: 150px;
-    height: 1em;
-    content: "_";
-    color: #ff000000;
-    display: inline-block;
-    margin-bottom: -0.25em;
-    margin-left: -1.9em;
-    margin-right: 0.5em;
-    vertical-align: sub;
-}
 .team img, .board img {
-    max-width: calc(100% + 3em);
-    height: 18em;
+    height: 12em;
+    margin-top: 1em;
 }
 .person_team .col-sm-3 {
     padding-left: .5em;
@@ -132,7 +130,7 @@ h1.hasColorTag.redRight {
     margin-bottom: 2.25em;
 }
 section#teamContainer {
-    margin-bottom: 8em;
+    margin-bottom: 10em;
 }
 section#boardContainer {
     margin-bottom: 8em;
@@ -140,4 +138,7 @@ section#boardContainer {
 .col-sm-9 {
     padding-left: 0em;
     padding-top: 2em;
+}
+.row.teamRow, .row.boardRow {
+    margin-bottom: 4em;
 }

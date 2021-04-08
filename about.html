@@ -9,10 +9,7 @@ ogImage: team-banner.jpg
 {% include pageHeader.html 
     img="AboutUsHEADER2.jpg" 
     header="About Us" 
-	text="Blockchain Institute is a <span class="no-wrap">501(c)(3)</span> <a href="/press-releases"
-    target="_blank">Public Charity</a> that provides education focused on <a
-    href="/faq/what-is-blockchain" target="_blank">blockchain</a>, <a href="/faq/what-is-cryptocurrency"
-    target="_blank">cryptocurrency</a>, and distributed ledger technology." 
+	  text="Blockchain Institute is a 501(c)(3) Public Charity that provides education focused on blockchain, cryptocurrency, and distributed ledger technology." 
 %}
 
 
@@ -55,7 +52,7 @@ ogImage: team-banner.jpg
 
 
 <section class="team" id="teamContainer">
-    <h1>Our Team</h1>
+    <div class="row teamRow"><h1>Our Team</h1></div>
 
     {% for person in site.team %}
 
@@ -72,7 +69,7 @@ ogImage: team-banner.jpg
 </section>
 
 <section class="board" id="boardContainer">
-    <h1 class="hasColorTag redRight">Our Board</h1>
+  <div class="row boardRow"><h1>Our Board</h1></div>
 
     {% for person in site.board %}
 
@@ -108,36 +105,43 @@ ogImage: team-banner.jpg
 </script>
 
 <section class="getInvolvedFooter">
-    <div class="row">
-      <h1>Get Involved</h1>
-      <span class="descriptionText">
-        Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from
-        the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
-      </span>
-      <div class="getInvolvedThumbnailContainer">
-        <div class="giTile"> 
-          <img src="/assets/img/Newsletter.jpg"/>
-          <h3>Sign up for our newsletter</h3>
-          <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
-        </div>
-        <div class="giTile"> 
-          <img src="/assets/img/Discord.jpg"/>
-          <h3>Join our Discord</h3>
-          <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
-        </div>
-        <div class="giTile"> 
-          <img src="/assets/img/Ambassadors_HomepageImage-01.jpg"/>
-          <h3>Become an Ambassador</h3>
-          <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
-        </div>
-        <div class="giTile"> 
-          <img src="/assets/img/BlogsubmissionHEADER.jpg"/>
-          <h3>Write a blog post</h3>
-          <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
-        </div>
+  <div class="row">
+    <h1>Get Involved</h1>
+    <span class="descriptionText">
+      Our self-directed courses contain everything you need to get started towards becoming a blockchain expert, from
+      the comfort of your own home! Don't let the blockchain revolution pass you by - try a course today!
+    </span>
+    <div class="getInvolvedThumbnailContainer">
+      <a href="https://theblockchaininstitute.us18.list-manage.com/subscribe/post?u=ed27e0082d5f7e8d5cd3e3622&id=d50da5888a">
+      <div class="giTile"> 
+        <img src="/assets/img/Newsletter.jpg"/>
+        <h3>Sign up for our newsletter</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
       </div>
+    </a>
+    <a href="/discord/">
+      <div class="giTile"> 
+        <img src="/assets/img/Discord.jpg"/>
+        <h3>Join our Discord</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+    </a>
+    <a href="/ambassadors/">
+      <div class="giTile"> 
+        <img src="/assets/img/Ambassadors_HomepageImage-01.jpg"/>
+        <h3>Become an Ambassador</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+    </a>
+    <a href="/blog/">
+      <div class="giTile"> 
+        <img src="/assets/img/BlogsubmissionHEADER.jpg"/>
+        <h3>Write a blog post</h3>
+        <span>Lorem ipsum dolor sit consectuter adipiscing elit.</span>
+      </div>
+    </a>
     </div>
-  </section>
-  
+  </div>
+</section>
 
-{% include FAQfooter.html %}
+  
