@@ -1038,7 +1038,6 @@ h4.submitBlog {
 .faqTile img {
     max-width: 100%;
     min-width: 100%;
-    max-height: 10em;
     height: auto;
 }
 .faqTile h1 {
@@ -1077,8 +1076,9 @@ h4.submitBlog {
     color: black;
 }
 span.authorTag {
-    padding-left: .4em;
+    padding-left: 1.35em;
     margin-right: 1.2em;
+    display: inline-block;
 }
 
 /*Courses*/
