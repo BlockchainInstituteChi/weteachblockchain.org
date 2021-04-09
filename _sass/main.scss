@@ -846,7 +846,7 @@ section.userLoginPrompt {
     padding: 1em;
 }
 .userLoginPrompt a {
-    background: #ed0744;
+    background: ##003449;
     padding: 1em 3em;
     text-transform: uppercase;
     color: white !important;
@@ -864,6 +864,7 @@ section.userLoginPrompt {
     display: block;
     position: relative;
     width: 100%;
+    font-weight: 300;
 }
 .userLoginPrompt a.noThanks {
     margin-left: 1rem;
