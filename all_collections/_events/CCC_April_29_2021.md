@@ -1,7 +1,7 @@
 ---
 title: The Crypto Curious Course Part One
 layout: event
-image: CCC_Apr21.jpg
+image: CCC_April21_tile.jpg
 date: 2021-04-29
 eventdate: Thursday, April 29, 2021
 permalink: /events/CCC_April_29_2021
