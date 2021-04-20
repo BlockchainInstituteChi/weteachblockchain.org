@@ -9,9 +9,7 @@ ogImage: Events-Banner.jpg
 {% include pageHeader.html 
 	img="Events-Banner.jpg" 
 	header="Events" 
-    text="See what we’ve been up to and what we have coming up! We host and attend virtual events of all kinds. Contact us about speaking at your event or teaching a blockchain workshop."	
-    ctaText="Contact us about events" 
-	ctaLink="/contact-us/" 
+    text="See what we’ve been up to and what we have coming up! We host and attend virtual events of all kinds. Contact us about speaking at your event or teaching a blockchain workshop."
 %}
 
 <script>
@@ -113,7 +111,7 @@ ogImage: Events-Banner.jpg
 {% if futureposts > 0 %}
 
 <section class="eventsList upcoming">
-	<h1 class="hasColorTag red">Upcoming Events</h1>
+	<h1>Upcoming Events</h1>
 	<div class="row">
 		{% for event in sorted %}
 
@@ -134,7 +132,7 @@ ogImage: Events-Banner.jpg
 {% endif %}
 
 <section class="eventsList past">
-	<h1 class="hasColorTag teal">Past Events</h1>
+	<h1>Past Events</h1>
 	<div class="row">
 		{% for event in sorted %}
 		{% if event.date < site.time  %}

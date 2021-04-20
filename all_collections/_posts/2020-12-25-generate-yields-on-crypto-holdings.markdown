@@ -3,7 +3,7 @@ layout: post
 title:  Generate Yields on Your Crypto Holdings
 date:   2020-12-25 11:02:58 -0500
 categories: defi tools
-thumbnail: Nexoio_square.jpg
+thumbnail: Nexoio.jpg
 image: Nexoio.jpg
 author: "dan"
 published: true

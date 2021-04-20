@@ -3,7 +3,7 @@ layout: post
 title:  "Blockchain in Motion: Ecosystem Integration"
 date:   2020-10-06 11:02:58 -0500
 categories: applications
-thumbnail: "BeFaster_square.jpg" 
+thumbnail: "BeFaster.jpg" 
 image: "BeFaster.jpg"
 author: "gio"
 published: true

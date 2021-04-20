@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Blockchain for Business
-primaryTag : professional
+primaryTag : user-led
 tags: professional beginner
 slug: blockchain-for-business
 permalink: /courses/blockchain-for-business/

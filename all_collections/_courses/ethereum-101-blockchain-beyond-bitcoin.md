@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Ethereum 101
-primaryTag : beginner
+primaryTag : user-led
 tags: beginner, professional
 slug: ethereum-101-blockchain-beyond-bitcoin
 permalink: /courses/ethereum-101-blockchain-beyond-bitcoin/

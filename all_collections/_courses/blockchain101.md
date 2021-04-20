@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Blockchain 101
-primaryTag: beginner
+primaryTag: online
 tags: beginner professional
 slug: blockchain-101
 permalink: /courses/blockchain-101/

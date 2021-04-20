@@ -3,7 +3,7 @@ layout: post
 title:  Using Metamask, DAI, and Gitcoin Grants!
 date:   2020-12-15 11:02:58 -0500
 categories: blog
-thumbnail: "Metamask_square.jpg"  
+thumbnail: "Metamask.jpg"  
 banner: "Metamask.jpg"
 author: "clayton" 
 published: true

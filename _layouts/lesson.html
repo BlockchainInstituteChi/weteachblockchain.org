@@ -81,9 +81,7 @@
 </head>
 
 <body>
-  <div class="navBarContainer">
     {% include navigation.html %}
-  </div>
   <section class="courseHeader">
     {% for course in site.courses %}
     {% if course.slug == page.course %}
@@ -99,6 +97,7 @@
     </div>
   </section>
   {% include lessonNav.html %}
+  {% include getInvolved.html %}
   {% include footer.html %}
   <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"

@@ -1,16 +1,4 @@
-.pageHeaderImage a.callToActionButton {
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    background: #ed0744;
-    padding: 1em 3em;
-    margin-top: 2em;
-    margin-bottom: 6em;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    width: fit-content;
-    margin-left: .4em;
-}
+
 .pageHeaderImage {
     height: 65vh;
 }
@@ -27,6 +15,9 @@
 }
 .col-sm-6 h1 {
     padding-left: .15em;
+}
+.eventsList h1 {
+    margin-left: 2.4em;
 }
 .pageHeaderImage h1 {
     color: white;
@@ -64,21 +55,20 @@ section.breadcrumbs {
     padding-left: .5em;
     margin-top: 6em;
 }
-h1.hasColorTag.teal {
-    margin-left: -1.43em;
-    margin-bottom: .5em;
-}
 .col-md-9.blogMain {
     padding: 0em 2em 0em .5em;
     margin-bottom: 3em;
 }
 .blogTile {
     width: calc(25% - 1em);
-    display: inline-block;
+    display: block;
     overflow: hidden;
-    margin: .5em;
+    margin: 0.5em;
     text-align: left;
-    margin-bottom: 1em;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 14em;
 }
 .blogTile img {
     max-width: 100%;
@@ -87,20 +77,10 @@ h1.hasColorTag.teal {
     height: auto;
 }
 .blogTile span {
-    color: grey;
     bottom: 0;
     text-transform: uppercase;
-    font-size: .8em;
-    line-height: 0em;
-}
-.blogTile h1 {
-    text-transform: uppercase;
-    color: black;
-    font-size: 1.25em;
-    padding-top: .5em;
-    line-height: 1em;
-    padding-left: 0em;
-    margin-bottom: 0em;
+    font-size: .745em;
+    line-height: .4em;
 }
 
 // sidebar 
@@ -113,7 +93,6 @@ h1.hasColorTag.teal {
     width: 93.1%;
 }
 .blogSidebar .card {
-    margin: 1rem;
     margin-left: 0;
 }
 
@@ -223,9 +202,6 @@ span.blogFilterNotification {
 
 
 /* BLOG Cards*/
-.card {
-    overflow: hidden;
-}
 .card a {
     max-width: 100%;
     width: 100%;
@@ -242,24 +218,46 @@ span.blogFilterNotification {
     padding-top: 0;
 }
 .card p {
-    padding: 0.65rem;
-    padding-top: 0;
-    margin: 0em .25em .5em .25em;
+    bottom: 0;
+    color: #000000;
+    font-size: .745em;
+    line-height: 1.5em;
+    padding-left: 1.35em;
+    display: block;
+    font-weight: 300;
+    margin-top: .25em;
+    padding-right: 1.35em;
 }
 a.readMoreLink {
     width: 100%;
     text-align: center !important;
 }
 .card a.byAuthor {
-    margin-left: 1em;
-    margin-bottom: 1em;
-    font-size: .9em;
+    bottom: 0;
+    color: #0B9BA4;
+    text-transform: uppercase;
+    font-size: .745em;
+    line-height: .4em;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 1.35em;
+    display: inline;
 }
 .card {
-    border-radius: 0;
-    border: 0.25px solid #149ba4;
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 18em;
+    border-radius: 0em;
 }
-
+.blogSidebar .card{
+    width: 100%;
+}
 
 // Card hover effect
 // .card:hover {
@@ -289,14 +287,6 @@ a.byAuthor {
     display: block;
     font-style: italic;
     margin-bottom: 1.5rem;
-}
-
-h1.hasColorTag.red {
-    margin-left: -1.45em;
-}
-.card h1 {
-    margin: .5em .2em;
-    font-size: 1.75em;
 }
 .aboutTheAuthor span {
     padding: 0;
@@ -335,10 +325,18 @@ section.blogOverview {
     column-width: 0.25rem;
     min-height: 30rem;
     margin: 2em 0em 6em 0em;
-    column-gap: .5em;
 }
-.card-columns .card {
-    width: 90% !important;
+
+.card-columns .card{
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 16em;
 }
 
 .blogBody img {
@@ -349,18 +347,6 @@ section.blogOverview {
 .blogBody {
     display: block;
     overflow: hidden;
-}
-
-
-// blog header dropshadow
-section.pageHeaderImage .row {
-    background: #00000047;
-    margin: 0;
-    min-width: 100vw !important;
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
-    max-height: 100%;
-    min-height: 100%;
 }
 
 // hide quotes on mobile
@@ -374,4 +360,27 @@ span.quoteBody::before, span.quoteBody::after {
 }
 .blogBody {
     color: black;
+}
+
+
+
+.card h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+
+
+.pageHeaderImage .col-sm-6 {
+    margin-left: 6em;
+    padding-left: .5em;
+}
+section.eventsList.upcoming {
+    margin-bottom: 6em;
 }

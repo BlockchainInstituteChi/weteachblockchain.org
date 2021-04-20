@@ -3,7 +3,7 @@ layout: post
 title:  Educating the Next Generation of Experts
 date:   2020-10-06 11:02:58 -0500
 categories: education
-thumbnail: "Althash_square.jpg" 
+thumbnail: "Althash.jpg" 
 image: "Althash.jpg"
 author: "amando"
 published: true

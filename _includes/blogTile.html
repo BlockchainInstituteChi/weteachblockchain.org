@@ -6,8 +6,8 @@
             {% assign authorLink = author.permalink %}
         {% endfor %}
         <img src="/assets/img/{{include.image}}"/>
-        <h1>{{ include.title }}</h1>
-        <a target="_blank" class="byAuthor" href="{{ authorLink }}">by {{ authorLongName }}</a>
+        <h3>{{ include.title }}</h3>
+        <a target="_blank" class="byAuthor" href="{{ authorLink }}">{{ authorLongName }}</a>
         <!-- <span>{{ include.date | date: "%-d %B %Y"}}</span> -->
         <p>{{ include.summary }}</p>
         <!-- <a class="readMoreLink" href="{{ include.link }}">Read More</a> -->

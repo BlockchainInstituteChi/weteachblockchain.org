@@ -4,20 +4,25 @@
 <div class="row courseListing"> 
     <div class="col-sm-4">
         <img src="/assets/img/{{include.image}}"/>
-        <div id="progress_{{include.slug}}" class="courseProgress">
-            <span id="progress_{{include.slug}}_number"></span>
+        <div class="courseTypeTag">
+            <a href="/courses/{{include.tag}}">
+            {{ include.tag }}
+            </a>
         </div>
+        <!--<div id="progress_{{include.slug}}" class="courseProgress">
+            <span id="progress_{{include.slug}}_number"></span>
+        </div>-->
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-8">
         <h3>{{ include.title }}</h3>
         <span class="author">{{ include.author }}</span>
         <span class="summary">{{ include.summary }}</span>
         <a id="start_{{include.slug}}" class="startCourseButton" href="{{ include.link }}">Start Course</a>
 
     </div>
-    <div class="col-sm-2 courseTagContainer">
+    <!--<div class="col-sm-2 courseTagContainer">
         <a href="/courses/{{include.tag}}">
             <span class="courseTag {{include.tag}}">{{ include.tag }}</span>
         </a>
-    </div>
+    </div>-->
 </div>

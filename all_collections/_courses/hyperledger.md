@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Intro to Private Blockchains
-primaryTag : developer
+primaryTag : user-led
 tags: developer
 slug: hyperledger
 permalink: /courses/hyperledger/

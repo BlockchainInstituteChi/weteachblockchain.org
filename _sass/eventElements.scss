@@ -96,16 +96,6 @@ span.eventDate {
     color: darkgrey;
     text-align: left;
 }
-.eventMain h1::before {
-    background: #ed0744;
-    width: 120px;
-    height: 1em;
-    content: "_";
-    color: #ff000000;
-    position: absolute;
-    left: -3.5em;
-    top: 0.15em;
-}
 .eventBody {
     padding: 0.75em 0em;
 }
@@ -198,4 +188,19 @@ span.eventFilterNotification {
 }
 iframe {
     max-width: 100%;
+}
+.col-md-9.eventFAQ {
+    padding-left: 0em;
+}
+.col-sm-12 {
+    padding-left: 0em;
+}
+
+.eventsList a {
+    display: contents;
+}
+.eventsList h1 {
+    margin-left: 2.57em;
+    margin-bottom: .75em;
+    padding-left: 0em;
 }

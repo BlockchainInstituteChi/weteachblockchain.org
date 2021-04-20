@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Intro to IPFS
-primaryTag : developer
+primaryTag : user-led
 tags: developer
 slug: ipfs
 permalink: /courses/ipfs/

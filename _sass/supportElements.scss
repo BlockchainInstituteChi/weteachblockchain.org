@@ -40,12 +40,6 @@ a.inline {
     padding: 0;
     margin-top: 0em;
 }
-h1.hasColorTag.red {
-    margin-left: -1.25em;
-}
-h1.hasColorTag.teal {
-    margin-left: -1.25em;
-}
 ul.navbar-nav.flex-row {
     padding-left: 0em;
 }
@@ -55,4 +49,11 @@ li.nav-item {
 }
 section {
     margin-bottom: 4em;
+}
+.col-sm-6.supportOption {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+h1.supportHeadline {
+    margin-left: 2.4em;
 }

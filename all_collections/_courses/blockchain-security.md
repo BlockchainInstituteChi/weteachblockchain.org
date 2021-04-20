@@ -1,7 +1,7 @@
 ---
 layout: course
 title: Blockchain Security
-primaryTag : beginner
+primaryTag : user-led
 tags: beginner professional
 slug: blockchain-security
 permalink: /courses/blockchain-security/
