@@ -1,10 +1,10 @@
 ---
 title: What is Eth 2.0?
-image: NFTsFAQ_Assets.jpg
+image: Eth2_0.jpg
 permalink: /faq/what-is-eth2/
 layout: faq
 tag: CONCEPTS
-focusKeyword: NFTs, Non-Fungible Tokens, Blockchain, ERC-721, CryptoKitties, Collectibles, Digital Collectibles 
+focusKeyword: Ethereum, Eth2, ETH 2.0, Proof of Stake, PoS, Beacon Chain, Sharding
 learnMoreLink: /decentralized-finance-course/
 learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
