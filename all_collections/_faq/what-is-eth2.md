@@ -22,7 +22,7 @@ sticky: true
 <h2>How can I prepare for ETH 2.0?</h2>
 <p>There is nothing you need to do. Your Ethereum tokens will not be affected, certainly. If you have a larger amount of Ethereum, and you are interested in being a network validator through staking, you can do so at this time with a minimum of 32 ETH.</p>
 
-<h2>When will ETH 2.0 be ready?</h>
+<h2>When will ETH 2.0 be ready?</h2>
 <p>ETH 2.0 is being rolled out in phases, the last of which will be the docking upgrade (more on this later). The docking upgrade is estimated to be live in 2022, so ETH 2.0 is expected to be fully functional (all phases incorporated and working properly) in 2022.</p>
 
 <h2>What is The Beacon Chain?</h2>
