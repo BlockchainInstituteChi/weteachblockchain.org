@@ -25,11 +25,17 @@ sticky: true
 <h2>When will ETH 2.0 be ready?</h2>
 <p>ETH 2.0 is being rolled out in phases, the last of which will be the docking upgrade (more on this later). The docking upgrade is estimated to be live in 2022, so ETH 2.0 is expected to be fully functional (all phases incorporated and working properly) in 2022.</p>
 
+<img src="/assets/img/core.png">
+
 <h2>What is The Beacon Chain?</h2>
 <p><a href="https://ethereum.org/en/eth2/beacon-chain/" target="_blank" rel="noopener noreferrer">The Beacon Chain</a> is the first phase of upgrades to the Ethereum protocol. The Beacon Chain brings staking to Ethereum, lays the groundwork for future upgrades, and will eventually coordinate the new system. The beacon chain is already live, and brought the ability to stake ETH and become a network validator for the PoS (Proof of Stake) update.</p>
 
+<img src="/assets/img/newrings.png">
+
 <h2>What are shard chains?</h2>
 <p><a href="https://ethereum.org/en/eth2/shard-chains/" target="_blank" rel="noopener noreferrer">Shard chains</a> will expand Ethereum's capacity to process transactions and store data. By “sharding” the network into 64 new chains, Ethereum will increase its transaction throughput and reduce barriers to entry for node operators by reducing hardware requirements. The process of introducing the shard chains will happen over the course of 2021. By 2022, the process is estimated to be complete.</p>
+
+<img src="/assets/img/docking.png">
 
 <h2>What is The Docking?</h2>
 <p>In 2022, <a href="https://ethereum.org/en/eth2/docking/" target="_blank" rel="noopener noreferrer">the upgrades that occur with ETH 2.0</a> (The Beacon Chain and Sharding) will need to incorporate fully with the current Ethereum mainnet. This is expected to occur in 2022. When this happens, the network will be uniform and will run entirely on Proof of Stake.</p>
