@@ -1,5 +1,5 @@
 
-// Mobile login 
+/*// Mobile login 
 #mobileApp h1 {
     font-size: 0.85em;
 }
@@ -39,7 +39,7 @@ div#mobileApp {
     border-bottom: 1px solid white;
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-}
+}*/
 
 /* Bootstrap Tablet Trigger */ 
 /* Bootstrap collapses the nav at 992px */
@@ -147,6 +147,25 @@ div#mobileApp {
     		padding-bottom: .4em;
     		margin-left: 11em;
 	}
+	dark.static-top.logoNav {
+		padding: 0em 2.5em;
+	}
+	nav.navbar.navbar-expand-lg.navbar-dark.static-top.logoNav {
+		padding: 0em 2.5em;
+	}
+	.navbar-brand {
+		padding-top: .4em;
+		padding-bottom: .4em;
+		font-size: .8em;
+	}
+	.navbar p {
+		width: auto;
+	}
+	.navbar.menuBar {
+		top: 3.4em;
+		padding: .25em 4.75em .24em 2.5em;
+	}
+		
 
     /* Search */
     .searchInterface {
@@ -201,11 +220,11 @@ div#mobileApp {
 	}
 	div#searchLightbox {
 		left: 0;
-		width: 100vw;
+		float: right;
 		z-index: 1001;
-		position: fixed;
+		position: absolute;
 		height: 100vh;
-		top: 0;
+		display: contents;
 	}
 	li.nav-item.ml-auto.search {
 		margin-bottom: -0.5em;
@@ -226,14 +245,25 @@ div#mobileApp {
     /* Page Header */
     .pageHeaderImage .col-sm-6 {
         min-width: calc(100vw - 6em);
-		margin: auto 2em;   
+		width: 100%;
+		margin: 4em 3.5em 1em 2em !important;
+		padding-left: .5em;
+		padding-right: 5em;
 	}
-	.col-sm-6 h1 {
+	.pageHeaderImage .col-sm-6 h1 {
 		margin-top: 0.5em;
+		margin-top: .75em;
 	}
 	
 	.pageHeaderImage p {
-		max-width: 100%;
+		max-width: 80%;
+	}
+	section.pageHeaderImage {
+		background-size: 200% !important;
+		height: 45vh;
+			margin-bottom: 3em;
+			margin-top: 5.5em;
+			min-height: 45vh;
 	}
 	
 	.pageHeaderImage .col-sm-6 h1 {
@@ -241,9 +271,6 @@ div#mobileApp {
 	}
 	.pageHeaderImage a.callToActionButton {
 		padding: 1em 3em; 
-	}
-	section.pageHeaderImage {
-	    margin-bottom: 3em;
 	}
 
 	/*Breadcrumbs*/
@@ -260,9 +287,7 @@ div#mobileApp {
 	/*Sections*/
 	h1{
 		font-size: 2em;
-	}
-	.hasColorTag {
-    		margin-left: -3.46em;
+		padding-left: 0.25em;
 	}
 
     /* Upcoming Events Footer */
@@ -324,6 +349,9 @@ div#mobileApp {
 		margin: auto 2em;
 		max-width: calc(100%);
 	}
+	.eventTile {
+		width: calc(50% - 1em);
+	}
   	.tileItem {
     		width: calc(31.3% - 1em);
     		min-height: 12em;
@@ -349,19 +377,40 @@ div#mobileApp {
     		margin-top: .5em;
 	}
     .footer .col-md-6 {
-        min-width: 100%;
         display: block;
         max-width: unset;
-        margin: 1em;
+        margin: 0em;
         text-align: center;
-        padding-left: 0;
+		min-width: 0%;
+		padding: 0;
     }
+	.footer .row {
+		padding: .5em;
+	}
+	.nav-item.ml-auto.search {
+		margin-top: 1em;
+		width: 100%;
+		margin-left: 0em !important;
+	}
+	.mc-field-group {
+		margin-top: 1em;
+	}
+	.col-md-6.bciLogoFooter img {
+		width: 12em;
+		margin-top: 5em;
+		margin-bottom: 0em;
+		float: left;
+	}
 	.footer li.nav-item {
 		margin-left: 0;
 		font-size: 1.5em;
 		padding: 0.25em;
 		padding-left: 0;
 		padding-top: .5em;
+		margin-top: 1em;
+	}
+	.footer span {
+		margin-top: 0em;
 	}
 	h4.float-right {
     		float: none !important;
@@ -373,9 +422,12 @@ div#mobileApp {
     .mc_signup_input {
         width: 100%;
     }
-    .linkList {
-        text-align: center;
-    }
+	.linkList {
+		width: 70%;
+		text-align: right;
+		line-height: .75em;
+		margin-bottom: 2em;
+	}
 
 	/* Nav Sidebar Adjustments */
 	ul.navbar-nav.ml-auto.desktopNav {
@@ -437,6 +489,13 @@ div#mobileApp {
 	.factoid .row {
 		margin-top: 5.25em;
 		margin-bottom: 3.5em;
+		margin-left: 0em;
+		margin-right: 0em;
+		width: 100%;
+		max-width: 100%;
+	}
+	.col-sm-6.didYouKnow {
+		padding: 1.5em 1.5em;
 	}
 	.mainFocus a {
 		margin-left: 2.44em;
@@ -450,6 +509,13 @@ div#mobileApp {
 	}
 	.explanation span {
 		font-size: 2.55vw;
+	}
+	.faqTile {
+		width: calc(50% - 1em);
+	}
+	.searchBox input {
+		width: 90%;
+		float: right;
 	}
 } 
 
@@ -500,13 +566,32 @@ div#mobileApp {
 	img.accountLight {
 	    top: .4em;
 	}
-    
+	nav.navbar.navbar-expand-lg.navbar-dark.static-top.logoNav {
+		padding: 0em 1.5em;
+	}
+	.navbar.menuBar {
+		padding: .25em 1.5em .24em 1.5em;
+	}
+    .supportUsButton {
+		margin-left: .25em;
+		margin-right: 0em;
+		line-height: 1em;
+	}
+	.dropdown.col {
+		top: -.08em;
+	}
+	.navbar p {
+		display: none;
+	}
+
+
     /* Page Header */
 	
 	.pageHeaderImage .col-sm-6 {
-        	min-width: calc(100vw - 2em);
-		margin: auto 1em;   
-    	}
+		min-width: 120%;
+		margin-top: 1.5em !important;
+		margin-left: 1em !important;
+	}
 	.pageHeaderImage .col-sm-6 h1 {
     		font-size: 2em;
 	}
@@ -517,8 +602,10 @@ div#mobileApp {
     		font-weight: 600;
 	}
 	section.pageHeaderImage {
-	    min-height: 25vh;
+		height: 50vh;
+		min-height: 50vh;
 	}
+
 	
 	
 	/*Sections*/
@@ -528,8 +615,11 @@ div#mobileApp {
 	
 	/*Events*/
 	section.events {
-    		min-height: 850px;
-    		margin-bottom: 0em;
+		margin-bottom: 6em;
+	}
+	.eventsContainer .eventTile {
+		width: calc(100% - 1em) !important;
+		max-width: 100%;
 	}
 	
 	/*Courses*/
@@ -541,23 +631,28 @@ div#mobileApp {
 	a.callToActionButton.faqCTA {
     		margin-left: .5em;
 	}
-	
+	.faqTile {
+		width: calc(100% - 1em) !important;
+		margin-left: .5em !important;
+		padding-left: 0em !important;
+		padding-right: 0em !important;
+		margin-right: .5em;
+	}
+	section.faq {
+		margin-bottom: 5em;
+	}
+
+	/*Get Involved*/
+	.giTile {
+		width: calc(100% - 1em);
+	}
 	/* Row Margins */
 	.row {
     		margin: auto 1em;
 		max-width: calc(100% - 2em);
 	}
 	
-    /* Section Color Tags */
-    section.hasSectionColorTag.red::before {
-        margin-left: -1.5em;
-        height: 100vh;
-    }
 
-    /* Header color tags */
-    .hasColorTag::before {
-        margin-left: -3.5em;
-    }
 
     /* Upcoming Events Footer */
     .upcomingEventsFooter .row {
@@ -574,9 +669,6 @@ div#mobileApp {
 		margin-bottom: 0.5em;
 		width: 10em;
 	}
-	.hasColorTag {
-    		margin-left: -1.5em;
-	}
 	section.hasSectionColorTag.red::before {
     		height: 90vh;
 		margin-left: -2.5em;
@@ -589,7 +681,9 @@ div#mobileApp {
 	
 	/*Mobile Footer*/
 	.footer li.nav-item {
-    		font-size: 1.25em;
+		font-size: 1.35em;
+		padding: .65em;
+		margin-top: 0em;
 	}
 	.footer .col-md-6, .footer .col-md-3 {
     		padding: 1em 2em;
@@ -600,10 +694,30 @@ div#mobileApp {
 	ul.navbar-nav.flex-row {
     		display: inline-flex;
 	}
+	.searchBox input {
+		width: 87%;
+		float: right;
+	}
+	.linkList {
+		width: 100%;
+		text-align: center;
+		line-height: .75em;
+		margin-bottom: 4em;
+	}
+	.linkList a {
+		padding-left: .75em;
+		padding-right: .75em;
+	}
 	
 	.mobileNavSidebar {
 		top: calc(5.05em - 1px);
 		display: block;
+	}
+	.col-md-6.bciLogoFooter img {
+		float: none;
+	}
+	.bciSocial {
+		display: inline-block;
 	}
 	
 	/*NavSideBar*/
@@ -635,32 +749,40 @@ div#mobileApp {
 	}
 	.col-sm-6.explanation {
 		max-width: 100%;
-		margin-top: 4em;
-		margin-left: 2.75em;
+		margin-top: 0em;
+		margin-left: 0em;
+		padding: 0em;
 	}
 	.explanation span {
-		font-size: 5.5vw;
+		font-size: 1.75em;
 		float: right;
 		font-style: italic;
 		font-weight: 200;
-		margin-top: 1.4em;
-		margin-left: -1.1em;
+		margin-top: 1em;
+		line-height: 1.75em;
 	}
 	.explanation a {
-		font-size: 3vw;
+		font-size: .75em;
 		letter-spacing: .1em;
-		margin-left: -2em;
+		margin-left: 0em;
+		line-height: 4em;
 	}
 	.factoid .row {
 		margin-bottom: 4.1em;
-		margin-left: 4em;
 		margin-right: 0em;
+		margin-left: 0em;
+		margin-top: 5em;
 	}
 	.col-sm-7.explanation {
 		margin-left: 0;
 		max-width: 80vw;
 	}
+	.col-sm-6.didYouKnow {
+		font-size: .8em;
+		width: 100%;
+	}
 }
+
 
 
 @media screen and (max-width: 330px) {

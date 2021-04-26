@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  {% include generalSiteHeader.html %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
@@ -61,7 +62,7 @@
   <!-- End Facebook Pixel Code -->
 
   <!-- This script / style combo hides the nav bar on pageload and un-hides it on scroll -->
-  <script>
+  <!--<script>
     function restoreSkippedContent() {
       var hidden = document.querySelector('.onScrollHide');
       hidden.classList.add('unhide');
@@ -77,11 +78,14 @@
       display: unset !important;
     }
   </style>
+  -->
   <link rel=stylesheet href='/assets/css/courses.css' type=text/css>
 </head>
 
 <body>
+  <div class="navBarContainer">
     {% include navigation.html %}
+  </div>
   <section class="courseHeader">
     {% for course in site.courses %}
     {% if course.slug == page.course %}

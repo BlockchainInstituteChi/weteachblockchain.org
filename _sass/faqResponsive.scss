@@ -13,20 +13,37 @@
     		text-transform: uppercase;
     		font-size: 1.25em;
     		margin-top: 0em;
-		text-transform: uppercase;
+			text-transform: uppercase;
     		font-size: 1em;
     		margin-top: 0em;
     		line-height: 1em;
+			padding-left: .7em;
 	}
 	faqTile{
 		min-height: 0em;
 	}
-	section .row {
-		margin-bottom: 3em;
+	.faqTile span.readTime {
+		padding-left: 1em;
 	}
-	.hasColorTag::before {
-	    margin-left: -0.75em;
-    	}
+	section .row {
+		margin-bottom: 5em;
+	}
+	.faqList h1 {
+		margin-left: 1em;
+	}
+	.eventFAQ h1 {
+		padding-left: 0em;
+	}
+	.faqBody {
+		margin-bottom: 0em;
+	}
+	span.authorTag {
+		padding-left: 1em;
+		margin-right: 1.2em;
+		line-height: 1.1em;
+		margin-top: .5em;
+		font-size: .7em;
+	}
 }
 
 
@@ -80,9 +97,8 @@ section .row {
 	section.pageHeaderImage .row {
 	    padding: 0em;
 	}
-	section.faqList {
-	    padding-left: .5em;
-	    padding-right: .5em;
+	.faqList h1 {
+		margin-left: .6em;
 	}
 }
 
