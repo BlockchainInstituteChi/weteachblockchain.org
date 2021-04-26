@@ -220,3 +220,27 @@ h1.hasColorTag.red {
 .col-sm-12 {
     padding-left: 0em;
 }
+.col-md-12.imageWithCredit {
+    margin-bottom: -2.25em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-top: 5em;
+}
+.imageWithCredit img {
+    width: 100%;
+    border: solid 1px #848484;
+    margin-bottom: 6px;
+}
+.imageCredit h4 {
+    display: inline;
+    font-size: 1em;
+}
+.imageCredit a {
+    font-weight: 300;
+    font-size: .9em;
+    position: relative;
+    bottom: .1em;
+}
+h3.topH3 {
+    margin-top: 1.25em;
+}
