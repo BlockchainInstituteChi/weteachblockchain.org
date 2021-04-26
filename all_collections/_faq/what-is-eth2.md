@@ -11,7 +11,7 @@ learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
 ---
-<h3>What is ETH 2.0?</h3>
+<h3 class="topH3">What is ETH 2.0?</h3>
 <p>Eth2 is the name of a set of updates that will improve the <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-proposal" target="_blank" rel="noopener noreferrer">Ethereum protocol</a>. Eth 2.0 aims to make the network more scalable, more secure, and more sustainable. Ethereum is an open-source and decentralized community, so the updates are being carried out by a large group of developers all around the world.</p>
 <h3>What is Proof of Stake?</h3>
 <p>Proof of stake is a <a href="/courses/blockchain-101/02/what-is-cryptocurrency-mining" target="_blank" rel="noopener noreferrer">consensus mechanism</a>. As of now, Ethereum operates on a proof of work consensus mechanism, as does <a href="/faq/bitcoin-and-ethereum/" target="_blank" rel="noopener noreferrer">Bitcoin</a>. Proof of Work requires ALL of its miners to attempt to solve a complex sum, with the winner determined by the person who has the most powerful/quantity of hardware devices. The Proof of Stake model randomly chooses the winner based on the amount they have staked.</p>
