@@ -25,21 +25,36 @@ sticky: true
 <div class="col-md-12 imageWithCredit">
         <img src="/assets/img/core.png">
         <div class="imageCredit">
-            <h4>WHEN WILL ETH 2.0 BE READY? // </h4>
+            <h4>WHAT IS THE BEACON CHAIN? // </h4>
+            <a href="https://www.ethereum.org">ethereum.org</a>
+        </div>
+</div><h3>What is The Beacon Chain?</h3>
+<p><a href="https://ethereum.org/en/eth2/beacon-chain/" target="_blank" rel="noopener noreferrer">The Beacon Chain</a> is the first phase of upgrades to the Ethereum protocol. The Beacon Chain brings staking to Ethereum, lays the groundwork for future upgrades, and will eventually coordinate the new system. The beacon chain is already live, and brought the ability to stake ETH and become a network validator for the PoS (Proof of Stake) update.</p>
+
+
+<div class="col-md-12 imageWithCredit">
+        <img src="/assets/img/newrings.png">
+        <div class="imageCredit">
+            <h4>WHAT ARE SHARD CHAINS? // </h4>
             <a href="https://www.ethereum.org">ethereum.org</a>
         </div>
 </div>
-
-
-
-<h3>What is The Beacon Chain?</h3>
-<p><a href="https://ethereum.org/en/eth2/beacon-chain/" target="_blank" rel="noopener noreferrer">The Beacon Chain</a> is the first phase of upgrades to the Ethereum protocol. The Beacon Chain brings staking to Ethereum, lays the groundwork for future upgrades, and will eventually coordinate the new system. The beacon chain is already live, and brought the ability to stake ETH and become a network validator for the PoS (Proof of Stake) update.</p>
-<img src="/assets/img/newrings.png">
 <h3>What are shard chains?</h3>
 <p><a href="https://ethereum.org/en/eth2/shard-chains/" target="_blank" rel="noopener noreferrer">Shard chains</a> will expand Ethereum's capacity to process transactions and store data. By “sharding” the network into 64 new chains, Ethereum will increase its transaction throughput and reduce barriers to entry for node operators by reducing hardware requirements. The process of introducing the shard chains will happen over the course of 2021. By 2022, the process is estimated to be complete.</p>
-<img src="/assets/img/docking.png">
+
+
+
+<div class="col-md-12 imageWithCredit">
+        <img src="/assets/img/docking.png">
+        <div class="imageCredit">
+            <h4>WHAT IS THE DOCKING? // </h4>
+            <a href="https://www.ethereum.org">ethereum.org</a>
+        </div>
+</div>
 <h3>What is The Docking?</h3>
 <p>In 2022, <a href="https://ethereum.org/en/eth2/docking/" target="_blank" rel="noopener noreferrer">the upgrades that occur with ETH 2.0</a> (The Beacon Chain and Sharding) will need to incorporate fully with the current Ethereum mainnet. This is expected to occur in 2022. When this happens, the network will be uniform and will run entirely on Proof of Stake.</p>
+
+
 <h3>Why should I care about ETH 2.0?</h3>
 <p><b>1. Scalability:</b> Currently the Ethereum network can handle 30 transactions per second. ETH 2.0 boasts 100,000 transactions per second. The ability to increase the amount of transactions per second by this magnitude means that developers can build DApps that are much more effective as the ability to operate smart contracts speeds up greatly.</p>
 <p><b>2. Security:</b> Eth 2.0’s Proof of Stake requires over 16,000 validators. This means that thousands of participants are required to stake large amounts of Ethereum in order to properly execute the code. A large amount of validators lends itself to a more secure network since it increases the <a href="/faq/what-is-decentralization/" target="_blank" rel="noopener noreferrer">decentralization</a> of the network (no one single point of failure).</p>
