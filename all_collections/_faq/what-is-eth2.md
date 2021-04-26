@@ -22,11 +22,11 @@ sticky: true
 <h3>When will ETH 2.0 be ready?</h3>
 <p>ETH 2.0 is being rolled out in phases, the last of which will be the docking upgrade (more on this later). The docking upgrade is estimated to be live in 2022, so ETH 2.0 is expected to be fully functional (all phases incorporated and working properly) in 2022.</p>
 
-<div class="row imageWithCaption">
+<div class="row imageWithCredit">
     <div class="col-md-12">
         <img src="/assets/img/core.png">
-        <div class="caption">
-            <h4>WHEN WILL ETH 2.0 BE READY?</h4>
+        <div class="imageCredit">
+            <h4>WHEN WILL ETH 2.0 BE READY? // </h4>
             <a href="https://www.ethereum.org">ethereum.org</a>
         </div>
     </div>
