@@ -15,17 +15,18 @@
 .supportOption a {
     display: block;
     color: white !important;
-    background: #ed0744;
+    background: #003449;
     padding: 1em 3em;
     width: fit-content;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
     margin-top: 2em;
+    font-family: Kanit, sans-serif;
 }
 .supportOption a.nav-link.px-2 {
     background: none;
-    color: #ed0744 !important;
+    color: #003449 !important;
     font-size: 1.5rem;
     margin-left: -0.5rem;
     margin-top: 0em;

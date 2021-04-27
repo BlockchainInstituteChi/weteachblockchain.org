@@ -77,7 +77,7 @@ Tools are available to help participants make sense of the projects that they in
 {% include callouts/imageWithCaption.html
 	image="pickleTransactions.png"
 	title="Pickle Transactions on Etherscan"
-	bodyText="<a href='https://etherscan.io/address/0x68d14d66B2B0d6E157c06Dc8Fefa3D8ba0e66a89' target='_blank'>View on EtherScan: https://etherscan.io/address/0x68d14d66B2B0d6E157c06Dc8Fefa3D8ba0e66a89</a>"
+	bodyText="<a href='https://etherscan.io/address/0x68d14d66B2B0d6E157c06Dc8Fefa3D8ba0e66a89' target='_blank'>View on EtherScan</a>"
 %}
 
 It’s comforting to know that this data is available and viewable, but is this intuitive for an amateur seeking to optimize his or her first DeFi investment? Who is to say that this is not a money laundering operation? There are about 40 pages to scroll through, and it only represents one part of a greater system. What about the other jars, the staking rewards, the governance contracts? Those are all important components to understand, but to make sense of them via Etherscan you’ll have to open more tabs than you are comfortable with. And that’s if you know what you’re looking for!

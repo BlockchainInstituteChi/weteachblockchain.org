@@ -49,14 +49,8 @@
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	h1.hasColorTag.red {
-    		margin-left: -4.3em;
-	}
-	.hasColorTag::before {
-    	margin-left: -1em;
-	}
 .faqTile {
-    min-height: 0px;
+	min-height: 13.5em;
     width: 100%;
     display: inline-block;
     overflow: hidden;

@@ -5,19 +5,28 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-.tileItem.downloadItem {
-    min-height: 6em;
-    width: calc(25% - 1em);
-}
-.tileItem h1 {
-    font-size: 1em;
-}
+    .tileItem.downloadItem {
+        min-height: 14em;
+        width: calc(50% - 1em);
+    }
+    .tileItem h3 {
+		text-transform: uppercase;
+		font-size: 1.25em;
+		margin-top: 0em;
+		text-transform: uppercase;
+		font-size: 1em;
+		margin-top: 0em;
+		line-height: 1em;
+		padding-left: .7em;
+        padding-top: .7em;
+        padding-right: .5em
+	}
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-	.downloadsRowContainer .tileItem {
-        width: 100%;
+    .downloadsRowContainer .tileItem {
+        width: calc(100% - 1em);
         margin-bottom: 2.5em;
     }
     .downloadsRowContainer {
@@ -31,9 +40,7 @@ h1 {
     margin-right: 1em;
     font-size: 1.25em;
 }
-.tileItem img {
-    width: calc(100% - 1em);
-}
+
 
 
 

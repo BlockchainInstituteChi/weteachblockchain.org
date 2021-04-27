@@ -1,5 +1,6 @@
+<a href="{{ include.link }}">
 <div class="card {{ include.type }}">        
-    <a href="{{ include.link }}">
+    
         {% assign filtered_authors = site.authors | where: 'short_name', include.author %}
         {% for author in filtered_authors %}
             {% assign authorLongName = author.name %}
@@ -7,9 +8,9 @@
         {% endfor %}
         <img src="/assets/img/{{include.image}}"/>
         <h3>{{ include.title }}</h3>
-        <a target="_blank" class="byAuthor" href="{{ authorLink }}">{{ authorLongName }}</a>
+        <p class="authorNameOnCard">{{ authorLongName }}</p>
         <!-- <span>{{ include.date | date: "%-d %B %Y"}}</span> -->
         <p>{{ include.summary }}</p>
         <!-- <a class="readMoreLink" href="{{ include.link }}">Read More</a> -->
-    </a>
 </div>
+</a>

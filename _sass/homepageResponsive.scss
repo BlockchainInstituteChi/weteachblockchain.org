@@ -61,17 +61,6 @@
 	.faqTile h1 {
 		font-size: 1em;
 	}
-	/*CCC*/
-	section.pageHeaderImage {
-		background-size: 200% !important;
-		background-position: inherit !important;
-	}
-.pageHeaderImage .col-sm-6 {
-    margin-left: 6em;
-    padding-left: .5em;
-    margin-top: 3.5em;
-    padding-right: 5em;
-}
 
 }
 
@@ -222,10 +211,10 @@
 
 
 	/*CCC*/
-	element.style {
+	/*element.style {
 		background-size: cover;
 		background-position: unset;
-	}
+	}*/
 	.pageHeaderImage .col-sm-6 {
 		padding-right: .5em;
 	}

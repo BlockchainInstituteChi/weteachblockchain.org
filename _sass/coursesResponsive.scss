@@ -28,7 +28,6 @@
 	    margin: 0em 0em;
 	}
     section.pageHeaderImage {
-        background-size: 100% !important;
         background-position: left !important;
         max-height: 30vh;
         min-height: 30vh;
@@ -41,8 +40,9 @@
     		overflow-x:hidden;
 	}
     section.pageHeaderImage {
-        max-height: 20vh;
-        min-height: 20vh;
+        max-height: 45vh;
+        min-height: 45vh;
+        background-position: center !important;
     }
 
     /* Course path buttons */

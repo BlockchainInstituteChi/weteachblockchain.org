@@ -5,7 +5,13 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-	
+	.h-captcha {
+        transform: scale(0.7);
+        -webkit-transform:scale(0.7);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+		max-width: 13.25em;
+        }
 } 
 
 /* Mobile */
@@ -20,7 +26,13 @@
 	    padding-right: .5em;
 	    padding-left: .5em;
 	}
-	
+	.col-sm-4.tiers {
+		max-width: calc(100% - 1em);
+	}
+	.col-sm-5.contactUsForm {
+		padding: 2em;
+		margin: 0em .5em;
+	}
     
 }
 

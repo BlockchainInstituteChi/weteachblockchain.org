@@ -48,6 +48,9 @@
 	section.breadcrumbs {
     		padding-left: .6em;
 	}
+	.eventsList h1 {
+		margin-left: 1em;
+	}
 	.blogTile h1 {
     		text-transform: uppercase;
     		color: black;
@@ -61,11 +64,12 @@
     		margin-top: 0em;
     		line-height: 1em;
 	}
+	.card {
+		width: calc(50% - 1em);
+		min-height: 12em;
+	}
 	.card-columns {
 		column-count: 2;
-	}
-	h1.hasColorTag.red {
-		margin-left: -3.7em;
 	}
 	.card h1 {
 		margin: .5em .4em;
@@ -81,6 +85,19 @@
     		padding-left: 0em;
     		padding-top: 1em;
 	}
+	.blogBody img {
+				margin: 1em 0em 0em 0em;
+	}
+	.card h3 {
+		text-transform: uppercase;
+		font-size: 1.25em;
+		margin-top: 0em;
+		text-transform: uppercase;
+		font-size: 1em;
+		margin-top: 0em;
+		line-height: 1em;
+		padding-left: .7em;
+}
 }
 
 
@@ -97,6 +114,9 @@
 	section.header {
 	    margin-left: 2em;
   	    margin-right: 2em;
+	}
+	section.pageHeaderImage .row {
+		padding-left: 0em;
 	}
 	.blogSidebar .blogTile {
     		width: 95.5%;
@@ -116,10 +136,6 @@
 	section.blogOverview {
 	    margin-bottom: 4em;
 	}
-	h1.hasColorTag.teal {
-    		margin-left: -1.8em;
-    		margin-bottom: .5em;
-	}
 	section.breadcrumbs {
     		padding-top: 0em;
     		padding-left: 1em;
@@ -127,8 +143,8 @@
 	.blogSidebar .blogTile {
     		width: 96.4%;
 	}
-	h1.hasColorTag.red {
-		margin-left: -1.75em;
+	.card {
+	width: calc(100% - 1.75em);
 	}
 	.card-columns {
 		column-count: 1;
@@ -153,9 +169,11 @@
 	}
 	.blogSidebar .card {
 		margin-right: .5em;
+		width: calc(100% - .5em);
 	}
 	.blogSidebar .card p {
 		display: block;
+		padding-left: 1em;
 	}
 	.aboutTheAuthor .col-sm-9 {
 		padding: 0em;
@@ -168,6 +186,9 @@
 	}
 	.pageHeaderImage {
 		height: 75vh;
+	}
+	.aboutTheAuthor .col-sm-3 {
+		padding-right: 0em;
 	}
 }
 

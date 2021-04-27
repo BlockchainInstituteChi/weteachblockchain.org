@@ -384,3 +384,12 @@ span.quoteBody::before, span.quoteBody::after {
 section.eventsList.upcoming {
     margin-bottom: 6em;
 }
+p.authorNameOnCard {
+    color: #0b9ba4;
+    margin-top: -0.25rem !important;
+    display: block;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: .5em !important;
+    margin-bottom: 1em;
+}

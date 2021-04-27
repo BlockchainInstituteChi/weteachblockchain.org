@@ -4,11 +4,15 @@
     		overflow-x:hidden;
 	}
 	section.header {
-    		margin-bottom: 2em;
+		margin-bottom: 2em;
+		margin-left: 2em;
+		margin-right: 2em;
 	}
-	h1.hasColorTag.teal {
-    		margin-left: -3.65em;
-    		margin-bottom: .5em;
+	section.pageHeaderImage {
+		background-position: center !important;
+	}
+	.eventsList h1 {
+		margin-left: 1.25em;
 	}
 	.eventMain h1::before {
     		left: -4.25em;
@@ -40,6 +44,23 @@
     		font-size: 1em;
     		margin-top: 0em;
     		line-height: 1em;
+	}
+	.eventTile h3 {
+		text-transform: uppercase;
+		font-size: 1.25em;
+		margin-top: 0em;
+		text-transform: uppercase;
+		font-size: 1em;
+		margin-top: 0em;
+		line-height: 1em;
+		padding-left: .7em;
+	}
+	.eventTile span.eventDate {
+		padding-left: 1em;
+		margin-right: 1.2em;
+		line-height: 1.1em;
+		margin-top: .5em;
+		font-size: .7em;
 	}
 }
 
