@@ -27,7 +27,7 @@ ogImage: Developers-Banner.jpg
 {% include loginToTrackProgress.html %}
 
 <section class="coursesList coursePathHeader">
-	<h1 class="hasColorTag purple">Courses</h1>
+	<h1>Courses</h1>
 	{% assign sorted = site.courses | sort: 'tags' %}
 	{% for course in sorted %}
 
@@ -47,7 +47,7 @@ ogImage: Developers-Banner.jpg
 </section>
 
 <section class="pathsList pathPage">
-	<h1 class="hasColorTag teal">Paths</h1>
+	<h1>Paths</h1>
 	<div class="row">
 		<div class="col-sm-12">
 			<span>
@@ -77,7 +77,5 @@ ogImage: Developers-Banner.jpg
 {% include coursesMap.html %}
 
 {% include coursesProgressCalculator.html %}
-
-{% include pinkDivider.html %}
 
 {% include FAQfooter.html %}

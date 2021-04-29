@@ -1,7 +1,13 @@
+/*General*/
 a.callToActionButton {
     font-weight: 600;
     letter-spacing: 0.05em;
 }
+
+/*Header*/
+
+
+/*Body*/
 .ambassadorRow h1 {
     padding-left: 0em;
 }
@@ -16,10 +22,6 @@ a.callToActionButton {
 .row.ambassadorRow {
     margin-bottom: 2em;
 }
-.ambassadorRow img {
-    margin-bottom: 2em;
-    margin-top: 1em;
-}
 .col-sm-4{
     padding-left: .5em;
     padding-right: .5em;
@@ -31,14 +33,6 @@ a.callToActionButton {
 .col-sm-4.educationHeader {
     color: #003449;
 }
-.col-sm-4.communityHeader {
-    text-transform: uppercase;
-    color: #0b9ba4;
-}
-.col-sm-4.promotionHeader {
-    text-transform: uppercase;
-    color: #a30071;
-}
 .educationHeader h4 {
     letter-spacing: .02em;
     margin-left: 0em;
@@ -47,93 +41,10 @@ a.callToActionButton {
     font-family: Kanit, sans-serif;
     text-transform: uppercase;
 }
-.communityHeader h4 {
-    letter-spacing: .02em;
-    margin-left: 0em;
-    margin-top: 0em;
-}
-.promotionHeader h4 {
-    letter-spacing: .02em;
-    margin-left: 0em;
-    margin-top: 0em;
-}
 .ambassadorRow .subtitle {
     padding: 0em;
     margin-bottom: 2em;
 }
-dd {
-    font-family: Roboto;
-    margin-bottom: .5rem;
-    margin-left: 0;
-    text-transform: none;
-    font-size: .9em;
-    color: black;
-    line-height: 1.9em;
-    font-weight: 300;
-}
-.educationHeader dt {
-    color: #003449;
-}
-.promotionHeader dt {
-    color: #a30071;
-}
-section#joinNow {
-    margin-bottom: 0em;
-    background-image: url(/assets/img/AmbassadorJoinBG.jpg);
-    padding-top: 6em;
-    padding-bottom: 6em;
-}
-.container-fluid {
-    width: 100%;
-    padding-right: 0em;
-    padding-left: 0em;
-    margin-right: auto;
-    margin-left: auto;
-}
-.contactUsForm h1 {
-    margin-top: 0em !important;
-    padding-left: 0em;
-    float: right;
-}
-.contactUsForm input, .contactUsForm textarea {
-    width: 100%;
-    padding: 0.75em;
-    font-size: .85em;
-    border: #ed0744 1px solid;
-    margin-bottom: 0.5em;
-    font-family: Open Sans;
-    float: right;
-}
-
-
-.locationDetails span {
-    display: block;
-    font-size: 1em;
-}
-.col-sm-6 a {
-    font-size: 1em;
-}
-.col-sm-6.applyToday h1 {
-    margin-top: 0em;
-    padding-left: 0em;
-    text-align: left;
-}
-.h-captcha {
-    float: right;
-    display: block;
-}
-.contactUsForm button {
-    float: right;
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-}
-
-/*.col-sm-8.contactUsForm {
-    text-align: left;
-    margin: auto;
-}*/
-
 h1.sectionTitle {
     display: block;
     width: 100%;
@@ -146,15 +57,11 @@ h1.sectionTitle {
     float: right;
     width: 100%;
 }
-dt {
-    color: #2fae9f;
+section.header {
+    text-align: end;
 }
 
-p.subtitle {
-    font-size: 75%;
-    color: black;
-    font-style: italic;
-}
+/*Tiers*/
 h4.tierHeader {
     margin-top: 0em;
     margin-left: 0em;
@@ -189,12 +96,48 @@ h4.tierHeader {
 }
 
 
-
-
-section.header {
-    text-align: end;
+/*Contact Form*/
+section#joinNow {
+    margin-bottom: 0em;
+    background-image: url(/assets/img/AmbassadorJoinBG.jpg);
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
-
+.container-fluid {
+    width: 100%;
+    padding-right: 0em;
+    padding-left: 0em;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contactUsForm h1 {
+    margin-top: 0em !important;
+    padding-left: 0em;
+    float: right;
+}
+.contactUsForm input, .contactUsForm textarea {
+    width: 100%;
+    padding: 0.75em;
+    font-size: .85em;
+    border: #ed0744 1px solid;
+    margin-bottom: 0.5em;
+    font-family: Open Sans;
+    float: right;
+}
+.locationDetails span {
+    display: block;
+    font-size: 1em;
+}
+.h-captcha {
+    float: right;
+    display: block;
+}
+.contactUsForm button {
+    float: right;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
 .col-sm-5.contactUsForm {
     background-color: white;
     padding: 2em;

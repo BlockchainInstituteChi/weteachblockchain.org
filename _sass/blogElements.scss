@@ -1,14 +1,23 @@
 
+/*Header*/
 .pageHeaderImage {
     height: 65vh;
-}
-.pageHeaderImage .col-sm-6 {
-    padding-left: 0em;
-    margin-left: 1.75em;
 }
 .pageHeaderImage p {
     color: white;
 }
+.pageHeaderImage h1 {
+    color: white;
+}
+.pageHeaderImage .col-sm-6 {
+    margin-left: 6em;
+    padding-left: .5em;
+}
+a.callToActionButton:hover {
+    color: white;
+}
+
+/*Post Tiles*/
 .container {
     padding-right: 0em;
     padding-left: 0em;
@@ -19,9 +28,7 @@
 .eventsList h1 {
     margin-left: 2.4em;
 }
-.pageHeaderImage h1 {
-    color: white;
-}
+
 p {
     padding: 0;
     padding-left: 0.5em;
@@ -55,10 +62,6 @@ section.breadcrumbs {
     padding-left: .5em;
     margin-top: 6em;
 }
-.col-md-9.blogMain {
-    padding: 0em 2em 0em .5em;
-    margin-bottom: 3em;
-}
 .blogTile {
     width: calc(25% - 1em);
     display: block;
@@ -82,66 +85,6 @@ section.breadcrumbs {
     font-size: .745em;
     line-height: .4em;
 }
-
-// sidebar 
-.blogSidebar h3 {
-    margin-top: 0;
-    text-transform: capitalize;
-    font-size: 1.75rem;
-}
-.blogSidebar .blogTile {
-    width: 93.1%;
-}
-.blogSidebar .card {
-    margin-left: 0;
-}
-
-.blogMain h1 {
-    margin-top: 0em;
-    margin-bottom: 0.2em;
-    padding-left: 0em;
-}
-span.blogDate {
-    margin-left: 0em;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: darkgrey;
-    text-align: left;
-}
-.blogBody {
-    padding: 0.75em 0em;
-}
-.blogBody p {
-    padding: 0;
-    font-size: 1.25em;
-    padding: 0;
-    padding-left: 0em;
-    font-size: .9em;
-    color: black;
-    font-weight: 300;
-    font-family: Roboto;
-    line-height: 1.9em;
-}
-.blogOverview .row {
-    padding-left: 0em;
-    padding-right: 0em;
-}
-.row.photoLightbox {
-    margin: 6em 0em;
-}
-.col-md-12 {
-    padding: 0em;
-}
-
-
-
-.col-md-3.blogSidebar {
-    margin-top: 2.25em;
-    padding: 0em;
-}
-
-
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -153,55 +96,6 @@ h3 {
     font-size: 1.25em;
     margin-top: 1.5em;
 }
-
-.blogBody img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 0em;
-    padding-bottom: 0em;
-}
-.row.photoLightbox {
-    margin-bottom: 6em;
-}
-
-
-section.header {
-    text-align: left;
-}
-
-/* Details section */
-a.rsvp {
-    padding: 0.5em 1em 0.5em 1em;
-    background: #ed0744;
-    color: white;
-    font-weight: 500;
-    display: block;
-    float: right;
-    top: .5em;
-    position: absolute;
-    right: 2em;
-    font-size: .8em;
-}
-a.rsvp:hover {
-    background: $brand-green;
-}
-a.rsvp.disabled {
-    background: grey;
-}
-section.upPinkStripesDivider {
-    margin-top: 0em;
-}
-
-span.blogFilterNotification {
-    padding-left: 0.5em;
-    color: orange;
-}
-.blogBody ::before{
-    display: contents;
-}
-
-
-/* BLOG Cards*/
 .card a {
     max-width: 100%;
     width: 100%;
@@ -255,19 +149,154 @@ a.readMoreLink {
     min-height: 18em;
     border-radius: 0em;
 }
-.blogSidebar .card{
-    width: 100%;
+.row .container {
+    margin: .5em;
+    max-width: 100%;
+}
+.card-columns {
+    column-count: 4;
+    column-width: 0.25rem;
+    min-height: 30rem;
+    margin: 2em 0em 6em 0em;
+}
+.card-columns .card{
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 16em;
+}
+.blogBody img {
+    width: -webkit-fill-available;
+    margin: 0em 3em 0em 0em;
+}
+.blogBody {
+    display: block;
+    overflow: hidden;
+}
+.card h3 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+p.authorNameOnCard {
+    color: #0b9ba4;
+    margin-top: -0.25rem !important;
+    display: block;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: .5em !important;
+    margin-bottom: 1em;
+}
+.blogTileContainer {
+    margin-bottom: 6em;
 }
 
-// Card hover effect
-// .card:hover {
-//     margin-top: 0.25rem;
-// }
 
-// Authors
+
+/*Blog Body*/
+.col-md-9.blogMain {
+    padding: 0em 2em 0em .5em;
+    margin-bottom: 3em;
+}
+.blogMain h1 {
+    margin-top: 0em;
+    margin-bottom: 0.2em;
+    padding-left: 0em;
+}
+span.blogDate {
+    margin-left: 0em;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: darkgrey;
+    text-align: left;
+}
+.blogBody {
+    padding: 0.75em 0em;
+    color: black;
+}
+.blogBody p {
+    padding: 0;
+    font-size: 1.25em;
+    padding: 0;
+    padding-left: 0em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    font-family: Roboto;
+    line-height: 1.9em;
+}
+.blogOverview .row {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+.row.photoLightbox {
+    margin: 6em 0em;
+}
+.col-md-12 {
+    padding: 0em;
+}
+.blogBody img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0em;
+    padding-bottom: 0em;
+}
+.row.photoLightbox {
+    margin-bottom: 6em;
+}
+section.header {
+    text-align: left;
+}
+span.blogFilterNotification {
+    padding-left: 0.5em;
+    color: orange;
+}
 img.headshot {
     margin-bottom: 1rem;
 }
+section.blogOverview {
+    margin-bottom: 6em;
+}
+span.quoteBody::before, span.quoteBody::after {
+    display: none;
+}
+.blogBody h4 {
+    margin-left: 0;
+}
+
+
+/*Sidebar*/
+.blogSidebar h3 {
+    margin-top: 0;
+    text-transform: capitalize;
+    font-size: 1.75rem;
+}
+.blogSidebar .blogTile {
+    width: 93.1%;
+}
+.blogSidebar .card {
+    margin-left: 0;
+    width: 100%;
+}
+.col-md-3.blogSidebar {
+    margin-top: 2.25em;
+    padding: 0em;
+}
+
+
+/*Author Page*/
 a.authorLink {
     margin-left: 0.5rem;
     text-transform: uppercase;
@@ -310,86 +339,4 @@ a.byAuthor {
     margin-top: 3em !important;
     margin-left: 0em !important;
     margin-bottom: 6em !important;
-}
-section.blogOverview {
-    margin-bottom: 6em;
-}
-
-// Tweaks for 4 columns
-.row .container {
-    margin: .5em;
-    max-width: 100%;
-}
-.card-columns {
-    column-count: 4;
-    column-width: 0.25rem;
-    min-height: 30rem;
-    margin: 2em 0em 6em 0em;
-}
-
-.card-columns .card{
-    width: calc(25% - 1em);
-    display: block;
-    overflow: hidden;
-    margin: 0.5em;
-    text-align: left;
-    float: left;
-    background: white;
-    border: 1px solid #848484;
-    min-height: 16em;
-}
-
-.blogBody img {
-    width: -webkit-fill-available;
-    margin: 0em 3em 0em 0em;
-}
-
-.blogBody {
-    display: block;
-    overflow: hidden;
-}
-
-// hide quotes on mobile
-span.quoteBody::before, span.quoteBody::after {
-    display: none;
-}
-
-// blogBody styling updates:
-.blogBody h4 {
-    margin-left: 0;
-}
-.blogBody {
-    color: black;
-}
-
-
-
-.card h3 {
-    text-transform: uppercase;
-    font-size: 1.1em;
-    padding-top: .7em;
-    color: black;
-    margin-bottom: 0em;
-    margin-top: 0em;
-    padding-left: .9em;
-    padding-right: .9em;
-    line-height: 1em;
-}
-
-
-.pageHeaderImage .col-sm-6 {
-    margin-left: 6em;
-    padding-left: .5em;
-}
-section.eventsList.upcoming {
-    margin-bottom: 6em;
-}
-p.authorNameOnCard {
-    color: #0b9ba4;
-    margin-top: -0.25rem !important;
-    display: block;
-    font-style: italic;
-    text-transform: uppercase;
-    margin-top: .5em !important;
-    margin-bottom: 1em;
 }

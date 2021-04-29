@@ -287,65 +287,7 @@ div#mobileApp {
 		padding-left: 0.25em;
 	}
 
-    /* Upcoming Events Footer */
-	section.upcomingEventsFooter {
-    		margin: 0em;
-    		margin-bottom: 7em;
-    		padding: 0em;
-	}
-	.upcomingEventsFooter h1 {
-    		margin-left: 1.08em;
-    		font-size: 2em;
-	}
-	section.hasSectionColorTag::before{
-	    margin-left: -.5em;
-	    height: 15em;
-	}
-	.upcomingEventsFooter .eventTile h1 {
-    		font-size: 1.25em;
-    		font-size: 1.25em;
-    		padding-top: .5em;
-    		line-height: 1em;
-		    margin-left: 0em;
-	}
-	.upcomingEventsFooter .tileItem h1 {
-    		font-size: 1.25em;
-    		font-size: 1.25em;
-    		padding-top: .5em;
-    		line-height: 1em;
-		    margin-left: 0em;
-	}
-	.upcomingEventsFooter .eventTile span {
-    	font-size: 0.8em;
-   	 text-transform: uppercase;
-   	 color: #0b9ba4;
-  	  font-style: italic;
-  	  line-height: .4em;
-	}
-	.upcomingEventsFooter .tileItem span {
-    	font-size: 0.8em;
-   	 text-transform: uppercase;
-   	 color: #0b9ba4;
-  	  font-style: italic;
-  	  line-height: .4em;
-	}
-	.upcomingEventsFooter .eventTile {
-    		width: calc(23% - 1em);
-    		min-height: 12em;
-    		height: fit-content;
-    		margin-right: .5em;
-	}
-	.upcomingEventsFooter .tileItem {
-    		width: calc(23% - 1em);
-    		min-height: 12em;
-    		height: fit-content;
-    		margin-right: .5em;
-	}
-	.upcomingEventsFooter .row {
-		width: 100%;
-		margin: auto 2em;
-		max-width: calc(100%);
-	}
+
 	.eventTile {
 		width: calc(50% - 1em);
 	}
@@ -426,7 +368,7 @@ div#mobileApp {
 		margin-bottom: 2em;
 	}
 
-	/* Nav Sidebar Adjustments */
+	/* Nav Sidebar Adjustments 
 	ul.navbar-nav.ml-auto.desktopNav {
 		display: none;
 	}
@@ -462,6 +404,8 @@ div#mobileApp {
 	    font-weight: 600;
 	    letter-spacing: .05em;
 	}
+	*/
+	
 	/*Factoid*/
 	section.factoid {
 		margin: 2.5em;
@@ -665,10 +609,6 @@ div#mobileApp {
 		padding-left: 0.15em;
 		margin-bottom: 0.5em;
 		width: 10em;
-	}
-	section.hasSectionColorTag.red::before {
-    		height: 90vh;
-		margin-left: -2.5em;
 	}
 	.tileItem h1 {
     		margin-left: -.2em;

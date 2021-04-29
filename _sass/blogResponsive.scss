@@ -23,10 +23,6 @@
 	.pageHeaderImage p {
     		max-width: 50%;
 	}
-	h1.hasColorTag.teal {
-    		margin-left: -3.65em;
-    		margin-bottom: .5em;
-	}
 	.blogMain h1::before {
     		left: -4.25em;
 	}
@@ -144,7 +140,7 @@
     		width: 96.4%;
 	}
 	.card {
-	width: calc(100% - 1.75em);
+	width: calc(100% - 1em);
 	}
 	.card-columns {
 		column-count: 1;

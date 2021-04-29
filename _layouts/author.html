@@ -67,13 +67,16 @@
           display: unset !important;
         }
       </style>
+          
+          {% include generalSiteHeader.html %}
+
       <link rel=stylesheet href='/assets/css/blog.css' type=text/css>
   </head>
   <body>
     <div class="navBarContainer">
     	{% include navigation.html %}
     </div>
-
+ 
     {% include pageHeader.html 
         img=page.banner 
         imgSm=page.imageSm
@@ -90,10 +93,8 @@
       </div>
     </section>
     <section class="authorOverview">
-        <!-- <h1 class="hasColorTag red">Recent Posts</h1> -->
         <div class="row">
-            <div class="container">
-                <div class="card-columns">
+            <div class="blogTileContainer">
                     {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
                     {% for post in filtered_posts %}
                         {% assign summary = post.content | strip_html | strip_newlines | truncatewords: 20 | xml_escape %}
@@ -107,14 +108,11 @@
                             summary=summary
                         %}
                     {% endfor %}
-                </div>
             </div>
         </div>
     </section>
     
-    {% include pinkDivider.html %}
-
-    {% include recentCourses.html %}
+    {% include getInvolved.html %}
     
     {% include footer.html %}
     <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
