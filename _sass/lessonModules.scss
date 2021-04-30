@@ -5,29 +5,39 @@ section .row {
 
 /* Image with Text Callout */
 .row.imageWithTextCallout {
-    margin: 0em .5em 0em .5em;
+    margin: 5em .5em 5em .5em;
     min-width: 90%;
     max-width: 98.5%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-top: solid 1px #848484;
+    border-bottom: solid 1px #848484;
 }
 .imageWithTextCallout .col-md-9 {
     padding-top: 0em;
     margin-bottom: 1em;
 }
+
 .imageWithTextCallout img {
+    margin: 0em auto 0em -2.09em !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    position: relative;
     border-radius: 0%;
     padding: 0em;
     vertical-align: top;
-    max-width: 70%;
-    position: absolute;
     left: 10%;
     height: auto;
-    margin-top: 0em;
 }
+
 .imageWithTextCallout h4 {
     text-transform: uppercase;
-    font-weight: 400;
     color: #dc354f;
     font-size: 1.25em;
+    font-family: Kanit, sans-serif;
+    font-weight: 600;
 }
 .imageWithTextCallout span {
     color: black;
@@ -456,13 +466,3 @@ span.imageLightboxCancel {
     font-size: 2.5em;
 }
 
-.imageWithTextCallout img {
-    margin: 0 !important;
-    width: 100% !important;
-    min-width: 100% !important;
-    max-width: 100% !important;
-    margin-left: -2.5rem !important;
-    margin-top: 1.5rem !important;
-    display: block;
-    position: relative;
-}

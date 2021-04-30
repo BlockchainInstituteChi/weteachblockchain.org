@@ -11,7 +11,6 @@ permalink: /courses/ipfs/3/retrieving-files
 We’re now online, so we can try downloading a file from the network.</span>
 
 {% include callouts/terminal.html
-	title="The title of the example"
 	user="alex@ubuntu"
 	directory="~/"
 	bodyText="ipfs cat /ipfs/QmW2WQi7j6c7UgJTarActp7tDNikE4B2qXtFCfLPdsgaTQ/cat.jpg <br>cat.jpg,open cat.jpg"
@@ -19,7 +18,6 @@ We’re now online, so we can try downloading a file from the network.</span>
 
 {% include callouts/imageWithCaption.html
 	image="/courses/ipfs/cat.jpg"
-	title=""
 	bodyText="Here’s a kitty from the decentralized web!"
 %}
 
@@ -27,7 +25,6 @@ If everything is working properly, you should now see an image file open with a 
 
 
 {% include callouts/terminal.html
-	title="The title of the example"
 	user="alex@ubuntu"
 	directory="~/"
 	bodyText="ipfs init<br>initializing ipfs node at /Users/alexandermorris/.go-ipfs<br>generating 2048-bit RSA keypair...done<br>peer identity: Qmcpo2iLBikrdf1d6QU6vXuNb6P7hwrbNPW9kLAH8eG67z"

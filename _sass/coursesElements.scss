@@ -111,6 +111,10 @@ a.startCourseButton:hover {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+span.disclaimer {
+    width: 100%;
+    margin-bottom: 2em;
+}
 
 /* Course Sections Overview */
     section.breadcrumbs.indvCoursePage {
@@ -146,7 +150,7 @@ section.courseSections {
 }
 a.callToActionButton.coursePageSCButton {
     float: left;
-    margin: 0em 0em 3em 0em;
+    margin: 0em auto 3em 0em;
 }
 
 /* Lesson View */

@@ -1,8 +1,8 @@
+/*Body*/
+
 section.faqHeader {
     text-align: center;
     font-size: 0.75em;
-}
-section.faqHeader {
     padding-top: 1em;
     padding-bottom: 1em;
     height: fit-content;
@@ -15,7 +15,7 @@ section.breadcrumbs {
     margin-left: 0em;
 }
 .row {
-    margin: auto 6em 0em 6em;
+    margin: auto 6em 6em 6em;
 }
 section .row {
     min-height: 0em;
@@ -68,9 +68,6 @@ span.faqDate {
     font-family: Roboto;
 }
 
-.row {
-    margin: auto 6em 6em 6em;
-}
 
 
 
@@ -79,6 +76,11 @@ span.faqDate {
     margin-top: -1em;
 }
 
+
+h1 {
+    padding-left: 0;
+    margin-left: 0;
+}
 
 h2 {
     font-size: 1.5em;
@@ -102,13 +104,26 @@ section.header {
     text-align: left;
 }
 
-h1 {
-    padding-left: 0;
-    margin-left: 0;
-}
-
 .faqBody {
     padding-left: 0;
+}
+.learnMoreImage {
+    margin-bottom: .75em;
+    margin-top: .5em;
+}
+.col-md-9.eventFAQ {
+    padding-left: 0em;
+}
+.col-sm-12 {
+    padding-left: 0em;
+}
+
+.faqList a {
+    display: contents;
+}
+.faqList h1 {
+    margin-left: 2.57em;
+    margin-bottom: .75em;
 }
 
 
@@ -154,21 +169,3 @@ h1 {
     max-width: 100% !important;
 }
 
-.learnMoreImage {
-    margin-bottom: .75em;
-    margin-top: .5em;
-}
-.col-md-9.eventFAQ {
-    padding-left: 0em;
-}
-.col-sm-12 {
-    padding-left: 0em;
-}
-
-.faqList a {
-    display: contents;
-}
-.faqList h1 {
-    margin-left: 2.57em;
-    margin-bottom: .75em;
-}
