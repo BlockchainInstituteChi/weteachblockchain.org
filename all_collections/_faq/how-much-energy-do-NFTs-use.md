@@ -1,6 +1,6 @@
 ---
 title: How much energy does an NFT use?
-image: NFTsFAQ_Assets.jpg
+image: NFTFAQheader.jpg
 permalink: /faq/how-much-energy-do-NFTs-use/
 layout: faq
 tag: CONCEPTS
