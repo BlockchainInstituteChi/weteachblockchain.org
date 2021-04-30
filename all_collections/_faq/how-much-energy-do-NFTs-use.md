@@ -35,9 +35,8 @@ sticky: true
 
 <p>The vast majority of NFTs are not mineable and are actually not created in a decentralized environment. There is no intensive energy process that leads to the minting of these tokens. Rather, they can be instantly created in a matter of seconds for very little energy. Basically, the criticism of cryptocurrencies using too much energy can only be extended to Proof of Work based tokens.</p>
 
-<img src="/assets/img/NFTFAQ2.jpg">
-
 <h2>Where do NFTs live?</h2>
+<img src="/assets/img/NFTFAQ2.jpg">
 <p>This brings us to another misconception that field the first: NFTs are created locally and are stored on a server, not on the blockchain. Some might point out that this is an element of centralization, but complete decentralization isn't necessary or prioritized when creating NFTs. Additionally, ownership is still tracked through a decentralized blockchain where users can utilize their private and public keys in order to store and transfer NFTs like they would with any crypto.</p>
 
 <p>There is fair criticism around the energy usage of energy to create PoW tokens. However, this technology is new and is still developing.  It would be unfair to throw out the world-changing innovation that is blockchain simply because it has yet to address this specific problem. The technology is still in its infancy; there are likely to be many developments that will mitigate network energy consumption. We're already seeing this happen. More blockchains, like Ethereum, are now moving from a PoW system to other consensus mechanisms that don't rely on intense energy consumption.</p>
