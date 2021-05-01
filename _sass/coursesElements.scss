@@ -2,7 +2,7 @@
 
 
 /* Path Options */
-.col-sm-4 {
+/*.col-sm-4 {
     padding-left: .5em;
     padding-right: .5em;
 }
@@ -33,9 +33,34 @@
 section.pathsList.pathPage {
     margin-top: 2em;
     margin-bottom: 6em;
-}
+}*/
+
+
+
 
 /* CourseListing */
+.courseListing .col-sm-4 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.courseTypeTag {
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    color: #003449;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    opacity: .85;
+}
+.courseTypeTag a {
+    font-family: Kanit, sans-serif;
+    font-weight: 600;
+    letter-spacing: .03em;
+    color: #003449;
+    padding: 1em;
+}
 section.coursesList.coursePathHeader {
     margin-top: 0em;
 }
@@ -336,31 +361,3 @@ a.startCourseButton.complete {
     border: 1px solid #2b2b2b;
 }
 
-
-
-
-
-
-
-.courseListing .col-sm-4 {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-.courseTypeTag {
-    text-transform: uppercase;
-    text-align: center;
-    background: white;
-    color: #003449;
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    opacity: .85;
-}
-.courseTypeTag a {
-    font-family: Kanit, sans-serif;
-    font-weight: 600;
-    letter-spacing: .03em;
-    color: #003449;
-    padding: 1em;
-}
