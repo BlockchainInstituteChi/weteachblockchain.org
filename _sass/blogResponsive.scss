@@ -21,7 +21,7 @@
 		margin: 2em 1.75em;
 	}
 	.pageHeaderImage p {
-    		max-width: 50%;
+		max-width: 100%;
 	}
 	.blogMain h1::before {
     		left: -4.25em;
@@ -185,6 +185,12 @@
 	}
 	.aboutTheAuthor .col-sm-3 {
 		padding-right: 0em;
+	}
+	.pageHeaderImage p {
+		min-width: 100%;
+	}
+	.card h3 {
+		padding-left: 1em;
 	}
 }
 

@@ -1,3 +1,4 @@
+/*General*/
 section .row {
     min-height: 0em;
 }
@@ -47,8 +48,6 @@ section .row {
 .imageWithTextCallout .col-md-3 {
     min-height: fit-content;
 }
-
-
 
 /* TextCallout */
 .row.textCallout {
@@ -358,7 +357,6 @@ img#lightBoxImage {
     margin-top: calc(25vh - 5%)
 }
 
-
 /* Big Quotes */
 .row.bigQuote {
     margin-top: 4em;
@@ -368,7 +366,6 @@ img#lightBoxImage {
     margin-left: 0;
     margin-right: 0;
 }
-
 span.quoteBody {
     text-align: center;
     color: grey;
@@ -381,14 +378,12 @@ span.quoteBody {
     margin-left: 2em;
     margin-right: 2em;
 }
-
 a.quoteSource {
     text-align: center;
     width: 100%;
     margin-left: 0em;
     margin-top: 1em;
 }
-
 span.quoteBody::before {
     content: '“';
     z-index: -1;
@@ -410,25 +405,6 @@ span.quoteBody::after {
     font-family: Arial, sans-serif;
 }
 
-/*Pink Strips Divider*/
-section.upPinkStripesDivider {
-    height: 7em;
-    background: url(/assets/img/pink-stripes-divider.png);
-    background-size: cover;
-    margin-bottom: -3rem;
-    margin-left: -2rem;
-    min-width: -webkit-fill-available;
-}
-section.downPinkStripesDivider {
-    height: 8em;
-    background: url(/assets/img/pink-stripes-divider-bottom.png);
-    margin-top: 0em;
-    background-size: cover;
-    margin-top: -3rem;
-    margin-left: -2rem;
-    min-width: -webkit-fill-available;
-    margin-bottom: 2em;
-}
 
 /* Fixing links  */
 .definition a, .note a, .callout a, .terminal a, .codeSnippet a, .imageWithCaption a {

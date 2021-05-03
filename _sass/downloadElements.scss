@@ -1,6 +1,15 @@
+/*General*/
 html, body {
     overflow-x:hidden;
 }
+h1 {
+    font-weight: 500 !important;
+    font-size: 2.5em;
+    padding-left: 0.175em;
+    color: black;
+}
+
+/*Download Tiles*/
 .downloadsRowContainer {
     display: block;
     width: 100%;
@@ -22,12 +31,7 @@ html, body {
     background: grey;
     max-height: 16em;
 }
-h1 {
-    font-weight: 500 !important;
-    font-size: 2.5em;
-    padding-left: 0.175em;
-    color: black;
-}
+
 .downloadItem h3{
     text-transform: uppercase;
     font-size: 1.1em;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Using Metamask, DAI, and Gitcoin Grants!
+title:  Using Metamask, DAI, and Gitcoin Grants
 date:   2020-12-15 11:02:58 -0500
 categories: blog
 thumbnail: "Metamask.jpg"  
@@ -62,5 +62,10 @@ img.tutorialImage {
     display: block;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+section.pageHeaderImage {
+    background: url(/assets/img/Metamask.jpg);
+    background-size: cover;
+    background-position: center;
 }
 </style>

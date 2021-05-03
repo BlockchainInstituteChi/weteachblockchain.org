@@ -348,6 +348,9 @@ nav.navbar.navbar-expand-lg.navbar-dark.static-top.logoNav {
 }
 
 /*Page Headers*/
+section.pageHeaderImage .row {
+    background: none !important;
+}
 section.header {
     text-align: center;
     padding-top: 1em;

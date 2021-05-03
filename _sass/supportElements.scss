@@ -1,7 +1,13 @@
+/*General*/
 .row {
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
 }
+section {
+    margin-bottom: 4em;
+}
+
+/*Body*/
 .supportOption h3 {
     margin-top: 1rem;
     text-transform: uppercase;
@@ -47,9 +53,6 @@ ul.navbar-nav.flex-row {
 li.nav-item {
     margin-left: 0em;
     margin-right: 1em;
-}
-section {
-    margin-bottom: 4em;
 }
 .col-sm-6.supportOption {
     padding-left: .5em;
