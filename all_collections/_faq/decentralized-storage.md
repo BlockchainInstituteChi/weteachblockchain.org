@@ -27,7 +27,7 @@ Data transmitted over the internet is often processed and stored in large-scale 
 However, there are significant issues with storing large amount of data in these centralized servers. There have been many recent hacks and other data breaches of businesses and organizations that have custody of our personal information. This potential for data loss puts customers at risk of their personal information being compromised. Since all customer data is stored in one place, it is an easy target for hackers, as illustrated by the Equifax and Facebook hacks.
 
 {% include callouts/note.html
-    bodyText="Decentralized storage is still in it's infancy, but there are a several teams making amazing progress. <a href='/downloads/filecoin.pdf'>Filecoin's whitepaper</a> was one of the first, but it lays out the concept of a decentralized storage network quite clearly."
+    bodyText="Decentralized storage is still in it's infancy, but there are several teams making amazing progress. <a href='/downloads/filecoin.pdf'>Filecoin's whitepaper</a> was one of the first, but it lays out the concept of a decentralized storage network quite clearly."
 %}
 
 Blockchain technology offers an alternative way for information to be stored, known as peer-to-peer storage. Instead of a centralized, vulnerable server, information is duplicated and stored by every single user of the network.  When information is downloaded by a user, pieces of the desired file are gathered from several users' storage. While there can be efficiency drawbacks to this structure, it is much more secure, and as more members begin to use these standards, efficiency will increase as well!
