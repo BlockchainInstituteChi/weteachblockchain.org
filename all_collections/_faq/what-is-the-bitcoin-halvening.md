@@ -3,7 +3,7 @@ title: What is The Bitcoin Halvening?
 image: Halving-01.jpg
 permalink: /faq/what-is-the-bitcoin-halvening
 layout: faq
-readtime: 5 minutes
+readtime: 2 min read
 tag: CONCEPTS
 weight: 10
 learnMoreLink: /courses/blockchain-101/01/the-birth-of-digital-money
