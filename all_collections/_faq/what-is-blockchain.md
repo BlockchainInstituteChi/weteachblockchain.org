@@ -4,7 +4,7 @@ image: blockchain.jpg
 ogImage: Token-Creation-Cycle-01.jpg
 permalink: /faq/what-is-blockchain/
 layout: faq
-readtime: 5 minutes
+readtime: 1 min read
 tag: CONCEPTS 
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our free Blockchain 101 course
