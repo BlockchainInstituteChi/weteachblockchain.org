@@ -4,7 +4,7 @@ image: RealWorld.jpg
 ogImage: RealWorld.jpg
 permalink: /faq/what-can-blockchain-do/
 layout: faq
-readtime: 5 minutes
+readtime: 2 min read
 tag: APPLICATIONS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
