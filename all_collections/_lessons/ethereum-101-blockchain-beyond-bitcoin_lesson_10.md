@@ -13,9 +13,7 @@ Because the EVM exists exclusively as a peer-to-peer architecture, there are som
 <h3>BLOCK PROPAGATION</h3>
 
 
-<span>Because each node of the network must retain their own copy of the records, the larger the network gets, the more information must constantly be shared. Some projects such as <a href="https://bloxroute.com/">bloXroute</a></span>
-
-<span> have proposed to fix this issue by providing a single channel to transfer new information across the network, but this has limitations as it increases the centralization of the system.</span>
+<span>Because each node of the network must retain their own copy of the records, the larger the network gets, the more information must constantly be shared. Some projects such as <a href="https://bloxroute.com/">bloXroute</a> have proposed to fix this issue by providing a single channel to transfer new information across the network, but this has limitations as it increases the centralization of the system.</span>
 
 <h3>BLOCK RATE</h3>
 
