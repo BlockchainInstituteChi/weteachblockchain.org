@@ -4,7 +4,7 @@ image: HowToBuyFAQ.jpg
 ogImage: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
-readtime: 5 minutes
+readtime: 4 min read
 tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
