@@ -4,7 +4,7 @@ image: Crypto2.jpg
 ogImage: Crypto2.jpg
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
-readtime: 5 minutes
+readtime: 2 min read
 tag: CONCEPTS
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
