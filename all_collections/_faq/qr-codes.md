@@ -4,7 +4,7 @@ image: qrcode_ccc.jpg
 ogImage: qrcode_ccc.jpg
 permalink: /faq/what-are-qr-codes/
 layout: faq
-readtime: 5 minutes
+readtime: 3 min read
 tag: CONCEPTS
 focusKeyword: QR Code
 learnMoreLink: /courses/blockchain-for-business/
