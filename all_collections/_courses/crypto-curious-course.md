@@ -12,4 +12,5 @@ summary: Bridging the education gap for new adopters with a single class designe
         decentralization may impact our lives.
 blurb: Learn about what Bitcoin is, where it came from, and how blockchain and cryptocurrency are connected.
 readtime: 555h 555m
+eventTag: ccc
 ---

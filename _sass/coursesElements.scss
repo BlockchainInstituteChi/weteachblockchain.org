@@ -43,6 +43,7 @@ section.pathsList.pathPage {
     position: relative;
     text-align: center;
     color: white;
+    padding-left: .5em;
 }
 .courseTypeTag {
     text-transform: uppercase;
@@ -51,7 +52,7 @@ section.pathsList.pathPage {
     color: #003449;
     position: absolute;
     top: 8px;
-    left: 24px;
+    left: 16px;
     opacity: .85;
 }
 .courseTypeTag a {
@@ -116,6 +117,9 @@ a.startCourseButton:hover {
     color: white !important;
     background-color: #0B9BA4 !important;
 }
+section.eventsList.upcoming {
+    margin-bottom: 6em;
+}
 
 /* Overview */
 .courseOverview h1 {
@@ -140,17 +144,20 @@ span.disclaimer {
     width: 100%;
     margin-bottom: 2em;
 }
+section.courseOverview {
+    padding-left: .5em;
+    padding-right: .5em;
+}
 
 /* Course Sections Overview */
     section.breadcrumbs.indvCoursePage {
-        margin-left: .1em;
+        margin-left: .5em;
     }
 .moduleInfo {
     width: 100%;
 }
 section.courseSections {
-    padding-top: 2em;
-    padding-bottom: 8em;
+    padding: 0em .5em 6em .5em;
 }
 .moduleInfo h2 {
     padding-top: 2em;

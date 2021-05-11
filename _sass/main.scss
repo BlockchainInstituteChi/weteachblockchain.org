@@ -797,6 +797,11 @@ span.descriptionText.eventDescriptionHP {
     padding-left: 1.35em;
     display: inline;
 }
+.eventsContainer {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
 .courseTile span.eventTime {
     padding-left: 1.35em;
     font-style: normal;
@@ -998,7 +1003,7 @@ button.mc_signup:hover {
 .footer li.nav-item {
     font-size: 1.75em;
     margin-left: 1.25em;
-    margin-top: 2.5em;
+    margin-top: 3.9em;
 }
 .footer .row, .footer .col-md-6, .container-fluid.footer {
     max-height: unset !important;

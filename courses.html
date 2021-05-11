@@ -17,12 +17,13 @@ ogImage: Courses-Banner.jpg
 <!--{% include loginToTrackProgress.html %}-->
 
 <section class="coursesList">
-	<div class="row"><h1>Courses</h1></div>
+	<div class="row"><h1>Instructor-Led Courses</h1></div>
 	{% assign courseTypes = site.courses | group_by: 'primaryTag' %}
 	{% assign courseTypesSorted = courseTypes | sort: "name" %}
 	{% for group in courseTypesSorted %}
 	{% assign sorted = group.items | sort: 'title'  %}
 	{% for course in sorted %}
+	{% if course.primaryTag == "instructor-led" %}
 	{% include courseListing.html 
 				image=course.image
 				title=course.title 
@@ -32,6 +33,29 @@ ogImage: Courses-Banner.jpg
 				tag=course.primaryTag	
 				slug=course.slug
 			%}
+	{% endif %}
+	{% endfor %}
+	{% endfor %}
+</section>
+
+<section class="coursesList">
+	<div class="row"><h1>User-Led Courses</h1></div>
+	{% assign courseTypes = site.courses | group_by: 'primaryTag' %}
+	{% assign courseTypesSorted = courseTypes | sort: "name" %}
+	{% for group in courseTypesSorted %}
+	{% assign sorted = group.items | sort: 'title'  %}
+	{% for course in sorted %}
+	{% if course.primaryTag != "instructor-led" %}
+	{% include courseListing.html 
+				image=course.image
+				title=course.title 
+				author=course.author 
+				summary=course.summary 
+				link=course.permalink 
+				tag=course.primaryTag	
+				slug=course.slug
+			%}
+	{% endif %}
 	{% endfor %}
 	{% endfor %}
 </section>

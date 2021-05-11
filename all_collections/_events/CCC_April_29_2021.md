@@ -7,6 +7,7 @@ eventdate: Thursday, April 29, 2021
 permalink: /events/CCC_April_29_2021
 rsvpUrl: https://www.eventbrite.com/e/150837064721
 eventType: Classroom
+tags: ccc
 ---
 <h2>The Crypto Curious Course is back!</h2>
 

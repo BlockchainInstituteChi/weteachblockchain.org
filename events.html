@@ -114,7 +114,7 @@ ogImage: Events-Banner.jpg
 	<div class="row">
 		{% for event in sorted %}
 
-		{% if event.date > site.time  %}
+		{% if event.date > site.time  %} 
 		{% include eventTile.html
 					link=event.permalink 
 					image=event.image 

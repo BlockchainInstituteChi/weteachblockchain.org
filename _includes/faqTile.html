@@ -2,8 +2,8 @@
     <div class="faqTile"> 
         <img srcset="{% if include.imageSm  and include.imageSm != "" %}/assets/img/{{include.imageSm}},{% endif %}   {% if include.imageMd and include.imageMd != ""  %}/assets/img/{{include.imageMd}} 1.5x,{% endif %} {% if include.image and include.img != ""  %}/assets/img/{{include.image}} 2x{% endif %}"
             src="/assets/img/{{include.image}}"
-            alt="{{ include.keywords }}"
-            title="{{ include.title }} | {{ include.keywords }}">
+            alt="{{ include.title }}"
+            title="{{ include.title }}">
         <h3>{{ include.title }}</h3>
         <span class="readTime">{{ include.readtime }}</span>
         <span class="authorTag">{{ include.author }}</span>
