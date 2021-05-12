@@ -1,7 +1,7 @@
 ---
 title: NFT
 layout: event
-image: CCC_April21_tile.jpg
+image: NavigatingNFTs_EVENT.jpg
 date: 2021-05-26
 eventdate: Wednesday, May 26, 2021
 permalink: /events/NFTs_May_26_2021
