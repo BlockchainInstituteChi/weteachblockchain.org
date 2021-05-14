@@ -9,7 +9,7 @@ rsvpUrl: https://www.eventbrite.com/e/150837064721
 eventType: Classroom
 tags: nft
 ---
-<h2>What is a Non-Fungible Token?/h2>
+<h2>What is a Non-Fungible Token?</h2>
 <span>The popularity of NFTs has blown through the stratosphere in the last few months and brought blockchain to the mainstream like nothing before it.</span>
   
   <span>Learn the history behind NFTs from colored coins on the Bitcoin network to the creation of ERC-721 tokens on Ethereum. See how NFTs make digital uniqueness possible and why that’s valuable.</span>
