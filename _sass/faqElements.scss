@@ -6,7 +6,11 @@ section .row {
     min-height: 0em;
 }
 h1 {
-    margin-left: 0;
+    margin-left: 0em
+
+}
+.col-md-9 h1 {
+    padding-left: 0em;
 }
 
 h2 {
@@ -65,7 +69,7 @@ section.breadcrumbs {
     margin-bottom: 0em;
 }
 .faqBody img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .faqBody {

@@ -12,7 +12,7 @@ learnMoreImage: EthereumGrowth-1.jpg
 weight: 10
 sticky: false
 ---
-<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg">
+<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg" alt="Silhouette of man " title="Who is Satoshi Nakamoto?">
 
 <span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
 

@@ -12,7 +12,8 @@ learnMoreImage: BC101-01.jpg
 weight: 10
 sticky: false
 ---
-<img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg">
+<img src="/assets/img/courses/blockchain-101/Blockchain-01-1.jpg" alt="Illustration representing the blockchain" title="What is a blockchain?"
+>
 
 <h3>What is a Blockchain?</h3>
 <span>Blockchains are distributed ledgers that are secured by cryptography. They are essentially public databases where everyone can add to or view the database at any time. Instead of the data residing on a single centralized server, the data is copied across thousands and thousands of computers worldwide, allowing each computer access to this database. Transactions are compiled into data-holding vehicles known as "blocks". The consecutive string of every block ever executed makes up a blockchain: a distributed database of chronologically ordered transactions.</span> 

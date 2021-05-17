@@ -12,7 +12,7 @@ permalink: /courses/blockchain-for-business/1/public-vs-private-blockchains
 
 <span style="font-weight: 400;">Private blockchains do exactly the opposite. The parties are known, but the information in the transaction is never recorded to a public ledger. Businesses do not want their information displayed publicly, so they are likely to select a private chain where the business maintains control over the data they’ve obtained. To put it simply, public blockchains are open to anyone. By contrast, private blockchains intend to restrict either participant or validator access.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/PrivateDoor-01-1.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/PrivateDoor-01-1.jpg" alt="Door marked 'PRIVATE'" title="PRIVATE"/>
 
 <span style="font-weight: 400;">Private blockchains have significant differences than their public counterparts. Private or permissioned blockchains are an ecosystem comprised of known participants, but the information that is being transferred can only be sent or viewed by an approved party. Additionally, the consensus mechanisms used for private blockchains are quite different than the public blockchain methods we have previously discussed. Some private blockchains utilize consensus mechanisms that allow a central party the ability to confirm or deny transactions. Others use input from multiple parties to reach consensus.</span>
 <h3>SO WHY IS THERE A NEED FOR PRIVATE BLOCKCHAINS?</h3>
@@ -21,7 +21,7 @@ permalink: /courses/blockchain-for-business/1/public-vs-private-blockchains
 
 <span style="font-weight: 400;">Blockchains were created to coordinate data between parties that don’t necessarily trust each other. This is useful when you’re in a situation where you want to exchange data or agree on the validity of data with untrusted parties. Blockchains are great for agreeing on public data; this is what they were created for. </span><span style="font-weight: 400;">There are a few situations where it makes sense to use a private blockchain. For example, some businesses in a specific industry might want to exchange data between themselves, but no individual business wants the responsibility of maintaining that data. Utilizing a shared ledger might make sense.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/WorldMapDecentralized-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/WorldMapDecentralized-01.jpg" alt="Map of the world with decentralized locations" title="A decentralized planet"/>
 
 <span style="font-weight: 400;">It’s tough to go into specifics about distributed ledgers because these private systems can vary greatly as they are designed to meet the needs of a particular organization. Distributed ledgers are a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Even the permissioned distributed ledger software project Hyperledger is designed to be configurable in many different ways to meet a wide variety of needs.</span>
 

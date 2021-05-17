@@ -10,7 +10,7 @@ permalink: /courses/blockchain-security/1/protecting-digital-keys/
 <span class="openingParagraph">While blockchain technology originally emerged as a solution to provide distributed trust within the Bitcoin network, the technology has progressed a long way since 2008.</span>
 While this new architecture has many advantages, the implementation of a blockchain-based system is complex and requires a thorough review to ensure appropriate security.
 
-<img src="/assets/img/courses/blockchain-security/Keys-01.jpg" />
+<img src="/assets/img/courses/blockchain-security/Keys-01.jpg" alt="Keys around the Blockchain Institute logo" title="Keys"/>
 
 Regardless of which blockchain you use, there's no way to avoid key management concerns. The distributed ledger ecosystem requires each user to store and manage their own cryptographic keys. All on-chain interactions are tied to identities using signatures with private keys. In fact, a Bitcoin is nothing more than an IOU, passed from one digital key to another. Everything in a blockchain depends on the keys that are used to sign it, so it is extremely important to keep them secured.
 

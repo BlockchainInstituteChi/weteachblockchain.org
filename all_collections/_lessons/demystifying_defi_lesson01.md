@@ -2,8 +2,8 @@
 layout: lesson
 course: demystifying-defi
 module: 1
-title: Welcome
-permalink: /courses/demystifying_defi/1/welcome
+title: Demystifying Defi
+permalink: /courses/demystifying_defi/1/demystifyingdefi
 ---
 
 <iframe src="https://www.youtube.com/embed/L8Md3K2D_J4" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

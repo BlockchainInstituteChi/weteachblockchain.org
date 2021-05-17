@@ -7,7 +7,7 @@ permalink: /courses/bitcoin-for-developers/3/conclusion
 ---
 
 <span>
-<img src="/assets/img/Conclusion-01-2.jpg" />  
+<img src="/assets/img/Conclusion-01-2.jpg" alt="Congratulations!" title="Congratulations!"/>  
 <h3>YOU'VE COMPLETED PART ONE OF OUR BITCOIN FOR DEVELOPERS COURSE!</h3>
 
 <hr />

@@ -19,7 +19,7 @@ permalink: /courses/blockchain-for-business/2/blockchain-government-and-regulati
 
 <h3>ENVIRONMENTAL CONCERNS</h3>
 
-<img src="/assets/img/courses/blockchain-for-business/Environmental-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Environmental-01.jpg" alt="Factory polluting" title="Environmental concerns"/>
 
 <span style="font-weight: 400;">With reports that the Bitcoin network is using as much energy as a small to medium-sized country, some have criticized the sustainability of Proof-of-Work blockchains. </span><span style="font-weight: 400;">Proponents of Proof-of-Work claim that to achieve any level of security, energy has to be used. The high consumption requirements for mining is a feature rather than a bug. Additionally, they point to the vast amounts of energy used by the banking and finance sectors which could be limited with a greater ability for decentralized banking. </span><span style="font-weight: 400;">Some blockchains have specifically searched for ways to transition to Proof-of-Stake, which consumes significantly less energy. </span><span style="font-weight: 400;">This problem has been brought to legislators. Laws (or the lack of) differ from the municipal to the national level. Regulators are still determining if it is even viable to tackle the energy consumption model.</span>
 
@@ -29,7 +29,7 @@ permalink: /courses/blockchain-for-business/2/blockchain-government-and-regulati
 
 <span style="font-weight: 400;">Many countries are following the United States' lead when it comes to a hands-off approach concerning cryptocurrency. Most of the world has taken that exact approach. They are monitoring this developing ecosystem, being careful not to stifle an emerging industry that may bring their country more wealth. </span><span style="font-weight: 400;">The majority of the top economies all, at the very least, tolerate bitcoin. Some countries that recognize deficiencies in the current banking system have embraced the idea of digital currencies with open arms. Most major geographic areas are comprised of countries that have friendly attitudes towards cryptocurrency. North America, the European Union, Eastern, and Central Europe, and most of East Asia.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Legality-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Legality-01.jpg" alt="A gavel" title="Legality"/>
 
 <span style="font-weight: 400;">The biggest issue surrounding governments that permit the use of cryptocurrency is taxation. Even in countries where cryptocurrency is openly mined and exchanged, it’s still unclear as to what transactions are taxable or the rate at which cryptocurrency will be taxed. </span><span style="font-weight: 400;">Even in America, the IRS is expecting crypto holders to keep a record and report all of their transactions, no matter how small. </span><span style="font-weight: 400;">This is how a lot of countries ended up recognizing bitcoin and other cryptocurrencies.  The legislative bodies were slow to understand this technology, but the tax collectors were ready.  </span>
 
@@ -54,7 +54,7 @@ permalink: /courses/blockchain-for-business/2/blockchain-government-and-regulati
 
 <h3>TAXATION</h3>
 
-<img src="/assets/img/courses/blockchain-for-business/Taxation-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Taxation-01.jpg" alt="A Bitcoin logo being divided" title="Taxation"/>
 
 <span style="font-weight: 400;">Cryptocurrency is currently being taxed in multiple ways. The first is capital gains. When your profits are realized and you cash them in, you’re required to pay taxes on those dividends. The same goes for selling speculative assets, including cryptocurrency. Currently, both utility and security tokens are taxed in the same manner. </span><span style="font-weight: 400;">The second tax that is charged is a sales tax when cryptocurrency is spent. If cryptocurrency is spent on a good or service, both capital gains and sales tax apply. This double taxation has been scrutinized, but the current policy stands. Double taxation and the corresponding records that must be kept are both major deterrents to cryptocurrency adoption.</span>
 

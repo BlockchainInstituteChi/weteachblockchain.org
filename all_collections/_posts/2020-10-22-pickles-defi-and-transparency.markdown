@@ -22,7 +22,7 @@ The Pickle protocol combines common DeFi features such as yield-farming, vaults,
 
 {% include callouts/callout.html
     title="Delicious $PICKLE. A token with no inherent value, according to the protocol’s developers:"
-    bodyText="<a href='https://medium.com/@picklefinance/pickle-finance-launch-beea2eb8eacb' target='_blank'><img src='/assets/img/pickleDisclaimer.png'></a>"
+    bodyText="<a href='https://medium.com/@picklefinance/pickle-finance-launch-beea2eb8eacb' target='_blank'><img src='/assets/img/pickleDisclaimer.png' alt='Disclaimer' title='Disclaimer'></a>"
 %}
 
 You read that correctly...Pickle has 0 financial value and is completely valueless according to its own developers. “Completely valueless” token rewards are actually fairly typical of DeFi projects. Perhaps this nearly universal lack of valuable token features is actually a feature in and of itself...but that is a story for another time. 

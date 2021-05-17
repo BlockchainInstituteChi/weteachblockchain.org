@@ -25,4 +25,4 @@ Part two takes place on <b>April 30th at 12:00 PM</b> and shows you how to condu
  	<li>How a cryptocurrency transaction happens 'Under the Hood'</li>
 </ul>
 
-<img src="/assets/img/Token-Creation-Cycle-01.jpg">
+<img src="/assets/img/Token-Creation-Cycle-01.jpg" alt="Token Creation Cycle" title="Token Creation Cycle">

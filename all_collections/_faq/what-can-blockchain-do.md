@@ -14,7 +14,7 @@ sticky: false
 ---
 <span>While blockchain was created as a solution for the Bitcoin payment network, the concept has been adopted across a range of sectors and is expected to make a major impact in the way that we handle data storage. This technology even has the potential to change the underlying structure of the internet. Currently, there are many projects exploring how blockchain technology can create change.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg">
+<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg" alt="Food supply chain" title="The supply chain">
 
 {% include callouts/callout.html title="Communication" bodyText="By using encryption and decentralization-based technologies, absolute privacy can be achieved in messaging and communication. Currently, communication services rely on central servers that can store your private information, ultimately making it prone to hacks. Decentralized communication offers a more secure alternative, as it does not rely on a central server to transfer messages." %}
 

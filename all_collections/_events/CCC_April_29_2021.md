@@ -26,4 +26,4 @@ Part one takes place on <b>April 29th at 12:00 PM</b> and covers the basics of t
  	<li>How a cryptocurrency transaction happens 'Under the Hood'</li>
 </ul>
 
-<img src="/assets/img/bitcoinphonehandbanner.jpg">
+<img src="/assets/img/bitcoinphonehandbanner.jpg" alt="Hand holding phone with Bitcoin logo" title="Bitcoin">
