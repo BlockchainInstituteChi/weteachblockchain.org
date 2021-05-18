@@ -11,13 +11,13 @@ permalink: /courses/ipfs/2/uploading-and-sharing-files
 The IPFS web portal makes uploading and sharing files using IPFS easy. As a demonstration, we'll store this photo of Alex's dog on IPFS and share it with ourselves. </span>
 
 Here's the image:
-<img src="/assets/img/courses/ipfs/Dog.jpg" />
+<img src="/assets/img/courses/ipfs/Dog.jpg" alt="A dog rolling in the snow" title="Alex's dog"/>
 
 <h3>UPLOADING</h3>
 
 You can now click and drag files onto the drop box on the right to upload them to your node. Once uploaded, you'll see them added to the list as shown below.
 
-<img src="/assets/img/courses/ipfs/FilesUpload.jpg" />
+<img src="/assets/img/courses/ipfs/FilesUpload.jpg" alt="A file upload screen" title="Upload files"/>
 
 <h3>SHARING</h3>
 

@@ -10,30 +10,6 @@ permalink: /courses/hyperledger/1/hyperledger-background/
 <span class="openingParagraph">BACK TO THE BEGINNING</span>
 Blockchain (or Distributed Ledger) technology as we know it provides a unique system of trust within a network. The ledger tracks the events or data generated within a system and is distributed amongst a network of peers to ensure that none of them can tamper with the information once it is saved.
 
-<style>
-    .imageWithTextCallout section {
-        margin: 0;
-        max-height: 4rem;
-    }
-    .imageWithTextCallout .col-md-3 {
-        margin-bottom: unset;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .imageWithTextCallout img {
-        min-width: 100% !important;
-        position: relative;
-        left: 0;
-    }
-    .imageWithTextCallout h4 {
-        margin-top: 0;
-    }
-    section.downPinkStripesDivider {
-        background-position-y: bottom;
-        max-height: 2rem;
-        margin-bottom: 1.5rem;
-    }
-</style>
 {% include callouts/imageWithTextCallout.html
     title="Hyperledger 2020 Panel"
     image="Hyperledger-blockchain-tech-for-business-534x300.jpeg"
@@ -57,7 +33,7 @@ Despite the rapid adoption of public distributed ledger systems, there are some 
 
 In the Bitcoin context, it's required that the blockchain act as a core system of trust. While this is still partially true in the private context, it's possible that in many situations the parties involved are already existing partners. In these cases, it may be better to think of the blockchain as a database with very strict controls that limit who can edit which information, and how different users can act within the system.
 
-<img src="/assets/img/courses/private-blockchains/PrivateBC-01.jpg" />
+<img src="/assets/img/courses/private-blockchains/PrivateBC-01.jpg" alt="Decentralized groups separated from each other" title="Private Blockchains"/>
 
 Many IT systems, especially in privacy or high-risk situations such as healthcare or banking, have already implemented very complex database systems with strict access controls. In these cases, a Hyperledger or other private blockchain solution offers an efficient design pattern to provide system designers and stakeholders with reduced risk and robust privacy integration.
 

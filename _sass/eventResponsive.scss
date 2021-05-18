@@ -12,7 +12,10 @@
 		background-position: center !important;
 	}
 	.eventsList h1 {
-		margin-left: 1.25em;
+		margin-left: .8em;
+	}
+	section.eventsList {
+		padding-top: 0em;
 	}
 	.eventMain h1::before {
     		left: -4.25em;
@@ -75,10 +78,10 @@
         	width: 100%;
 		margin: .4em;
     	}
-	section.header {
-	    margin-left: 2em;
-  	    margin-right: 2em;
-	}
+		section.header {
+			margin-left: 1em;
+			margin-right: 1em;
+		}
 	.eventSidebar .eventTile {
     		width: 95.5%;
 	}

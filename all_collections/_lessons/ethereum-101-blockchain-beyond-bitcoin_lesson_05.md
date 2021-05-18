@@ -33,7 +33,7 @@ One thing which is important to understand about decentralized design patterns i
 
 <h3>LIMITATIONS</h3>
 
-<img src="/assets/img/courses/ethereum-101/Limitations-01.jpg" />
+<img src="/assets/img/courses/ethereum-101/Limitations-01.jpg" alt="No sign over a gas pump nozzle" title="Tokens cannot be used to purchase gas"/>
 
 <span >While the ERC-20 token distribution model was quite popular during 2017, this framework has some structural issues which preclude some interesting use cases. In particular, it's important to note that tokens cannot be used to purchase gas, so the contracts that support these networks still need to hold and pay with Ether for any computations that occur.</span>
 

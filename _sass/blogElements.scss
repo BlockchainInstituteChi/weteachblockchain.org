@@ -281,7 +281,9 @@ span.quoteBody::before, span.quoteBody::after {
 .blogSidebar h3 {
     margin-top: 0;
     text-transform: capitalize;
-    font-size: 1.75rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-top: .7em;
 }
 .blogSidebar .blogTile {
     width: 93.1%;

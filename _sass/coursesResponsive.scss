@@ -41,6 +41,9 @@
         min-height: 45vh;
         background-position: center !important;
     }
+    section.courseHeader {
+        margin-top: 5.9em;
+    }
 
     /* Course path buttons */
     .row.pathButtons .col-sm-4 {
@@ -92,7 +95,7 @@ section.courseOverview {
     margin: .5em;
 }
 section.breadcrumbs.indvCoursePage {
-    margin-left: .5em;
+    margin-left: 1em;
 }
 section.lessonContent {
     margin: 0em 0em;

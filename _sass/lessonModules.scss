@@ -18,9 +18,8 @@ section .row {
     padding-top: 0em;
     margin-bottom: 1em;
 }
-
 .imageWithTextCallout img {
-    margin: 0em auto 0em -2.09em !important;
+    margin: 0em auto 0em -1.8em !important;
     width: 100% !important;
     min-width: 100% !important;
     max-width: 100% !important;
@@ -32,13 +31,13 @@ section .row {
     left: 10%;
     height: auto;
 }
-
 .imageWithTextCallout h4 {
     text-transform: uppercase;
     color: #dc354f;
     font-size: 1.25em;
     font-family: Kanit, sans-serif;
     font-weight: 600;
+    margin-top: 0em;
 }
 .imageWithTextCallout span {
     color: black;

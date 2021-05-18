@@ -39,7 +39,7 @@ Because Ethereum is a complete virtual machine, and not simply a data block like
 <h4>Aside: Turing Completeness</h4>
 <span >When a computer is not limited to the execution of a particular type of computation task, we call this Turing complete. Another way of referring to this state is computational universality, because broadly speaking, all Turing complete machines are interchangeable.</span>
 
-<img src="/assets/img/courses/ethereum-101/Turing-01.jpg" />
+<img src="/assets/img/courses/ethereum-101/Turing-01.jpg" alt="Lots of laptops becoming one" title="Turing Completeness"/>
 
 <span >In a decentralized context, this means that any code submitted to the network can be computed reliably by every node. The EVM is thereby able to operate as a single computer even though it runs on separate devices all around the world.</span>
 
@@ -50,7 +50,7 @@ Because Ethereum is a complete virtual machine, and not simply a data block like
 
 <h3>GROWTH OF THE NETWORK</h3>
 
-<img src="/assets/img/courses/ethereum-101/EthereumGrowth-1.jpg" />
+<img src="/assets/img/courses/ethereum-101/EthereumGrowth-1.jpg" alt="The Ethereum logo" title="Ethereum"/>
 <span >In the weeks and months after the release of the whitepaper, developers across the Bitcoin ecosystem and from other communities quickly proposed a myriad of additional applications and options for this new version of the blockchain.  The subjects that emerged now provide the framework for decentralization and </span><a href="/web3/"><span >Web 3</span></a><span >. Distributed computing and storage are expected to provide a new internet which is governed by a group of collaborating peers.</span>
 
 <h3>PREVENTING SPAM</h3>
@@ -61,7 +61,7 @@ Because Ethereum is a complete virtual machine, and not simply a data block like
 
 <span >Just like in the early days of Bitcoin, Ethereum's initial direction took shape over forums and via Github. As the project progressed, the non-profit Ethereum Foundation was established to provide oversight of the growth of the fledgling currency. </span>
 
-<img src="/assets/img/courses/ethereum-101/Governance-01.jpg" />
+<img src="/assets/img/courses/ethereum-101/Governance-01.jpg" alt="The parts of an Ethereum logo coming together" title="Governance"/>
 
 <span >Once a proposed idea has gained momentum through community discussion, it can be formalized as an Ethereum Request for Comment (ERC). If an ERC is adopted by the community, a clearly defined Ethereum Implementation Proposal (EIP) can be created, and developers can begin to collaborate to build the new feature. Once a formal EIP has been produced, funding is sometimes allocated in the form of a bounty from the Foundation or other parties within the Ethereum community. </span>
 

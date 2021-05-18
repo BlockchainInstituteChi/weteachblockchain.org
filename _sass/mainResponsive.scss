@@ -245,7 +245,7 @@ div#mobileApp {
     /* Page Header */
 	.pageHeaderImage .col-sm-6 {
 		min-width: calc(100vw - 6em);
-		width: 100%;
+		width: 70%;
 		margin: 2em 3.5em 1em 2em !important;
 		padding-left: .5em;
 		padding-right: 5em;
@@ -552,6 +552,9 @@ div#mobileApp {
 	/*Sections*/
 	h1{
 		font-size: 1.75em;
+	}
+	.row.container.bread {
+		padding-left: 1.9em;
 	}
 	
 	/*Events*/

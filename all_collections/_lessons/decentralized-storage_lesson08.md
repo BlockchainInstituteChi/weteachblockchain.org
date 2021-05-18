@@ -29,7 +29,7 @@ When you reach the page, you'll be able to upload and download files from IPFS u
 
 Everything here is working just like it did in the command line interface. Once the node is done initializing, it will have its own ID and addresses and will begin to network with other IPFS peers throughout the network. You can see the connected peers in the lower left portion of the user interface:
 
-<img src="/assets/img/courses/decentralized-storage/Peers.jpg" />
+<img src="/assets/img/courses/decentralized-storage/Peers.jpg" alt="List of connected peers" title="Connected Peers"/>
 
 These are IPFS addresses. They can make things difficult to read, but you’ll notice there are patterns
 depending on the client software being used and the location of the node. When your node uploads or requests a file, these other nodes will receive your request and either serve the file themselves or offer to route information to a node that can serve the file.
