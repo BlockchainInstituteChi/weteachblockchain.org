@@ -2,10 +2,10 @@
 title: Navigating NFTs
 layout: event
 image: NavigatingNFTs_EVENT.jpg
-date: 2021-05-26
-eventdate: Wednesday, May 26, 2021
-permalink: /events/NFTs_May_26_2021
-rsvpUrl: https://www.eventbrite.com/e/150837064721
+date: 2021-06-02
+eventdate: Wednesday, June 02, 2021
+permalink: /events/NFTs_June_02_2021
+rsvpUrl: https://www.eventbrite.com/e/154322024329
 eventType: Classroom
 tags: nft
 ---
@@ -25,5 +25,5 @@ tags: nft
   </ul>
 
 <div class="col-md-6">
-      <a href="https://www.eventbrite.com/o/blockchain-institute-28038625033">Get alerted when tickets are available</a>
+      <a href="https://www.eventbrite.com/e/154322024329">Get Tickets Now</a>
     </div>
