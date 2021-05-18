@@ -454,6 +454,9 @@ div#mobileApp {
 	.faqTile {
 		width: calc(50% - 1em);
 	}
+	.faqTile span.readTime {
+		margin-right: -.4em;
+	}
 	.searchBox input {
 		width: 90%;
 		float: right;
