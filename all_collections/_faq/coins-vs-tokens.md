@@ -4,7 +4,7 @@ image: coins-vs-tokens.jpg
 ogImage: coins-vs-tokens.jpg
 permalink: /faq/coins-vs-tokens/
 layout: faq
-readtime: 1 min read
+readtime: 1m
 tag: WHAT'S THE DIFFERENCE?
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/2/fungible-tokens/
 learnMoreText: the Fungible Tokens section of Ethereum 101

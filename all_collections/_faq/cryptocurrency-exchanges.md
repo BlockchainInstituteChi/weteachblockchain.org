@@ -14,7 +14,7 @@ sticky: false
 ---
 <span>When it comes to <a href="/faq/how-to-buy-bitcoin/" target="_blank">buying</a> and trading cryptocurrency, there are two main types of exchanges you can use.</span>
 <h2>Exchanging Through a Third Party</h2>
-<img src="/assets/img/Centralized_ExchangesFAQ.jpg" alt="Centralization" title="Centralization">
+<img src="/assets/img/Centralized_ExchangesFAQ.jpg">
 
 <span>Centralized exchanges have a third party database acting as a middleman to help facilitate transactions. Because of their popularity and ease of use, centralized exchanges have helped add much-needed liquidity to the cryptocurrency markets.</span>
 
@@ -23,7 +23,7 @@ sticky: false
 	bodyText="Remember not to store your cryptocurrency on exchanges, especially centralized ones where your keys are managed for you."
 %}
 <h2>Decentralized Exchanges: Cut out the Middlemen </h2>
-<img src="/assets/img/Decentralized_ExchangesFAQ.jpg" alt="Decentralization" title="Decentralization">
+<img src="/assets/img/Decentralized_ExchangesFAQ.jpg">
 
 <span>As the cryptocurrency and decentralized finance ecosystems have grown, another option has gained traction. A decentralized cryptocurrency exchange (DEX) cuts out the centralized middleman by facilitating deals via <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/" target="_blank">smart contracts</a> and chain to chain swaps. The cryptocurrency is never in the possession of a centralized escrow service; the only individuals that will have access to the cryptocurrency are the buyer and seller.</span>
 

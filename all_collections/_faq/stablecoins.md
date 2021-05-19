@@ -19,7 +19,7 @@ sticky: false
 %}
 <span><b>Stablecoins</b> are cryptocurrencies that are pegged to a specific value and backed by fiat, assets, or other cryptocurrencies. In an ecosystem full of volatility the goal is for the price of a stablecoin to stay at the pegged value (usually one USD) or as close to it as possible.</span>
 <h2>Why We Need Stablecoins</h2>
-<img src="/assets/img/StablecoinsTetherDai.jpg" alt="The relation of stablecoins to fiat" title="Why we need stablecoins">
+<img src="/assets/img/StablecoinsTetherDai.jpg">
 <h3>Merchants</h3>
 <span>For cryptocurrency to gain widespread adoption in a <a href="/courses/blockchain-for-business/">business setting</a>, merchants and corporations need some guarantee that there will likely be some stability in the value of that cryptocurrency. Simply put, merchants aren’t going to accept a currency that is not likely to hold its value.</span>
 <h3>Markets</h3>
@@ -32,7 +32,7 @@ sticky: false
 <h2>How Stablecoins Stay Stable</h2>
 <span>Stablecoins are all designed to hold a consistent price, however, different stablecoins have found different ways of achieving this goal.</span>
 <h3>Fiat Backed</h3>
-<img src="/assets/img/backedbycurrency.jpg" alt="Fiat" title="Fiat-backed">
+<img src="/assets/img/backedbycurrency.jpg">
 <br>
 <span>The simplest of stablecoins. The token is pegged to a fiat currency. For example 1 GUSD (Gemini Dollar) = 1 USD. The tokens value is represented as a digital dollar. Most stablecoins follow this pattern.</span>
 <br>
@@ -63,13 +63,13 @@ sticky: false
 <br>
 <span>Additionally, the USD balance of the relevant bank accounts is examined by a registered public accounting firm. Their reports are made public. However, this isn’t the only audit that GUSD has undergone. The code within the GUSD smart contract is public and has been publicly audited.  The approval of this regulatory body and the stringent practices employed by Gemini gives users confidence that their funds are sufficiently backed.</span>
 <h3>Asset Backed</h3>
-<img src="/assets/img/backedbyassets.jpg" alt="Assets" title="Asset backed">
+<img src="/assets/img/backedbyassets.jpg">
 <br>
 <span>Some cryptocurrencies are backed by the value of physical assets like gold.</span>
 <h4>Digix Gold</h4>
 <span>Each <a href="https://digix.global/">Digix Gold</a> Token is supposed to be backed by a gram of gold in a vault in Singapore. Gold is a notoriously stable asset. This has allowed the Digix Gold Token to fluctuate only 25% since 2016.</span>
 <h3>Crypto Backed</h3>
-<img src="/assets/img/backedbycollateralization.jpg" alt="Cryptos" title="Crypto backed">
+<img src="/assets/img/backedbycollateralization.jpg">
 <br>
 <span>Stablecoins can also be backed by other cryptocurrencies. While this seems like an impossible prospect considering the volatility of cryptocurrency, projects have created ecosystems that have been able to maintain a relatively stable value. To ensure some stability this type of stablecoin is usually backed by the more stable cryptocurrencies, mainly bitcoin and ether. To further ensure the price stability of cryptocurrency backed stablecoins they can be backed by more than one cryptocurrency. If you spread your backing assets among several cryptocurrencies, there is less chance of experiencing overall volatility compared to relying on one cryptocurrency to hold its value. However, cryptocurrency backed stablecoins are more likely to see fluctuation in price when compared to stablecoins backed by dollars.</span>
 <br>
