@@ -3,7 +3,7 @@ layout: post
 title:  Robinhood, GameStop, and Blockchain
 date:   2021-03-10 11:48:00 -0500
 categories: blockchain
-thumbnail: Gamestop_square.jpg
+thumbnail: Gamestop.jpg
 image: Gamestop.jpg
 author: "jeremy"
 published: true

@@ -3,7 +3,7 @@ layout: post
 title:  What's Behind The NFT Craze?
 date:   2021-03-23 02:00:00 -0500
 categories: NFTs
-thumbnail: NFT_March21_square.jpg
+thumbnail: NFT_March21.jpg
 image: NFT_March21.jpg
 author: "jeremy"
 published: true
