@@ -64,6 +64,7 @@
 		line-height: 1.1em;
 		margin-top: .5em;
 		font-size: .7em;
+		display: block;
 	}
 }
 
@@ -83,7 +84,10 @@
 			margin-right: 1em;
 		}
 	.eventSidebar .eventTile {
-    		width: 95.5%;
+		width: 96.4%;
+	}
+	.col-md-3.eventSidebar {
+		margin-bottom: 2em;
 	}
 	.row.container {
     		padding: 0em;
@@ -103,9 +107,6 @@
 	section.breadcrumbs {
     		padding-top: 0em;
     		padding-left: 1em;
-	}
-	.eventSidebar .eventTile {
-    		width: 96.4%;
 	}
 }
 

@@ -659,6 +659,10 @@ span.authorTag {
     padding-left: 1.35em;
     margin-right: 1.2em;
 }
+.faqTile span.authorTag {
+    margin-left: 1em;
+    display: inline-block;
+}
 
 /*Courses*/
 .courseTile {
@@ -670,7 +674,7 @@ span.authorTag {
     float: left;
     background: white;
     border: 1px solid #848484;
-    min-height: 16em;
+    min-height: 17em;
 }
 .courseTile img {
     max-width: 100%;
@@ -715,7 +719,6 @@ span.authorTag {
     font-style: normal;
     font-weight: 600;
     color: black;
-    text-transform: uppercase;
     font-size: .745em;
     line-height: .4em;
     display: inline;
