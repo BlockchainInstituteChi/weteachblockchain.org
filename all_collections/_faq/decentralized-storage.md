@@ -8,8 +8,10 @@ focusKeyword: Data Storage, Distributed, Filecoin, IPFS
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
+readtime: 2 min read
 tag: APPLICATIONS
-weight: 6
+weight: 10
+sticky: false
 ---
 {% include callouts/callout.html
     title="What is decentralization?"

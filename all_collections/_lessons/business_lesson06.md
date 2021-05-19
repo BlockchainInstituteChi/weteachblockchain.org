@@ -22,7 +22,7 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 
 <span style="font-weight: 400;">A wallet is the cryptocurrency equivalent of a bank account that allows you to send and receive cryptocurrency. Wallets don’t actually store your cryptocurrency. Instead, the funds are stored on a blockchain and the wallet acts as an interface that allows you control of your funds. </span><span style="font-weight: 400;">A wallet is just a graphical interface that easily allows you to manage your address and store your keys. Not all cryptocurrencies can be stored in one wallet. some wallets are currency-specific, and some support multiple currencies. </span><span style="font-weight: 400;">As long as you have control of your private keys, you have full control of your cryptocurrency. It is risky to keep your cryptocurrency on an exchange because they have control of your private keys. There have been several hacked exchanges that have lost significant amounts of money.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Wallets-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Wallets-01.jpg" alt=" Bitcoin and Ethereum logos in a wallet" title="Wallets"/>
 
 <h4>Paper Wallets</h4>
 <span style="font-weight: 400;">Keeping cryptocurrency “offline” is known as cold storage. The cryptocurrency is not stored on a web-based app or computer; it is just suspended until you are ready to restore a wallet using your seed phrase or private keys.</span>
@@ -35,7 +35,7 @@ Getting into cryptocurrency may seem intimidating, but if you have the proper to
 <h4>Web Wallets</h4>
 <span style="font-weight: 400;">Similar to desktop wallets, web wallets provide a website that allows you to interface with the blockchain. While many projects also provide web wallets, several popular websites offer multi-token web wallets such as </span><span style="font-weight: 400;">MEW and </span><span style="font-weight: 400;">MyCrypto</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Phishing-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Phishing-01.jpg" alt="Secure website and an unsafe one" title="Phishing"/>
 
 <span style="font-weight: 400;">A major issue with web wallets is that they are especially susceptible to phishing. Phishing is an exploitative tactic where someone creates a look-alike website, and some of these sites are pretty much clones with very similar URL addresses. These fake sites have a login section that records your username and password. They then take this stolen information and use it to access your funds. There are a couple of ways to defend against phishing. The first is not to click on any unknown links and ALWAYS check the web address you type into the URL bar. </span><span style="font-weight: 400;">If you plan on interacting with the Ethereum network, it’s recommended that you download Metamask, using it together with a web wallet. Metamask automatically blocks these fake websites. Always double-check web addresses, but no one is perfect. Metamask provides an extra layer of security.</span>
 

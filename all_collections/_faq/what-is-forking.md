@@ -4,15 +4,16 @@ image: Forking.jpg
 ogImage: Forking.jpg
 permalink: /faq/what-is-forking/
 layout: faq
+readtime: 1 min read
 tag: CONCEPTS
 focusKeyword: Temporary Forks, Soft Forks, Hard Forks, Open-Source
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
-weight: 5
+weight: 10
 sticky: false
 ---
-<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg">
+<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" alt="Illustration representing forking with boxes splitting and making more boxes over and over" title="Forking">
 
 <span>A public blockchain can only exist by many computers running the same software, which collectively maintains a record of all transactions conducted on the network. Public blockchains offer completely open-source code, which allows any developer to iterate off of the existing code, making any changes that they desire. If either the collective record or the software that maintains it is questioned, there can be a fork in the network.</span> 
 

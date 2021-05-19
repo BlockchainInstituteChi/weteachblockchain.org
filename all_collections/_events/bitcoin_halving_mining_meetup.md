@@ -24,4 +24,4 @@ There will be pizza and soft drinks available, so join us for food, friends and 
 
 <a href="https://www.meetup.com/Chicago-Blockchain-Cryptocurrency-Mining-Meetup/events/264966116" target="_blank">Full Event Details Here</a>
 
-<img src="/assets/img/IMG_20191105_193037.jpg">
+<img src="/assets/img/IMG_20191105_193037.jpg" alt="Group discussion" title="Group discussion">

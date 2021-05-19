@@ -3,7 +3,7 @@ layout: post
 title: "Crypto Lingo You Need To Know"
 date: 2020-12-07 11:02:58 -0500
 categories: glossary
-thumbnail: "CryptoTerms_square.jpg"
+thumbnail: "CryptoTerms.jpg"
 image: "CryptoTerms.jpg"
 author: "corey"
 published: true

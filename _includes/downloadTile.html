@@ -1,7 +1,7 @@
 <div class="tileItem downloadItem"> 
     <a target="_blank" href="{{include.file}}" download>
-        <img src="/assets/img/{{ include.image }}"/>
-        <h1>{{ include.title }}</h1>
+        <img src="/assets/img/{{ include.image }}" alt="{{ include.title }}" title="{{ include.title }}"/>
+        <h3>{{ include.title }}</h3>
         <span>{{ include.detail }}</span>
     </a>
 </div>

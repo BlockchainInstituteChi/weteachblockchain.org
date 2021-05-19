@@ -3,18 +3,19 @@ title: What are Cryptocurrency Wallets?
 image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
+readtime: 3 min read
 tag: CONCEPTS
 focusKeyword: Crypto Wallet, Hardware Wallets, Software Wallet, Paper Wallet
 learnMoreLink: /crypto-curious/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
-weight: 2
-sticky: true
+weight: 10
+sticky: false
 ---
 <h2>How Do You Securely Store Your Cryptocurrency?</h2>
 <span>One of the most important aspects of holding <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a> is keeping it secure. So where do you keep your cryptocurrency? In a wallet, of course. Not a physical wallet, but a digital one. Cryptocurrency wallets are designed to securely “hold” cryptocurrency. Cryptocurrency does not exist in wallets, but rather lives only on the <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a>. While the cryptocurrency is not technically stored in these wallets, they utilize a set of keys in order to allow you, and only you, to securely manage your cryptocurrency.</span>
 
-<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.jpg">
+<img src="/assets/img/courses/bitcoin-for-developers/WalletKeychain-01.jpg" alt="Keys on a wallet" title="Keys to a wallet">
 
 <h2>Which cryptocurrency wallet is right for me?</h2>
 <span>There are many different options when it comes to cryptocurrency wallets. Some are specific to certain tokens, but many have multi-token support, allowing you to keep many different cryptocurrencies in one place.</span>
@@ -47,4 +48,4 @@ sticky: true
 <span>Paper wallets are a piece of paper containing both a public and private key and often a <a href="/faq/what-are-qr-codes/" target="_blank">QR code</a> for each key. The public key acts as a means to deposit, while the private key is needed to spend, or withdraw, the funds. Paper wallets are the ultimate example of a cold wallet, as the funds are essentially taken off-line. The only way to access these funds is to restore them onto another wallet.</span>
 <span>This is the most secure way to store cryptocurrency. No one can get access to your cryptocurrency unless your private keys have been compromised. However, if you lose your paper wallet, those funds are lost as well, as the private key cannot be recovered.</span>
 
-<img src="/assets/img/paper_wallets.png">
+<img src="/assets/img/paper_wallets.png" alt="A paper wallet" title="A paper wallet">

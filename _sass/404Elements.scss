@@ -17,13 +17,13 @@ section.oops {
 .oops input {
     padding-left: 1em;
     width: 90%;
-    border: 1px solid $brand-green;
+    border: 1px solid #ed0744;
     border-right: none;
     outline: none;
 }
 .oops a {
-    color: $brand-green;
-    border: 1px solid $brand-green;
+    color: #ed0744;
+    border: 1px solid #ed0744;
     border-left: none;
     padding-right: 1em !important;
 }
@@ -40,9 +40,7 @@ section.oops {
     font-weight: 500;
     padding: 0.5em;
 }
-h1.hasColorTag.red {
-    margin-left: -1.62em;
-}
+
 
 
 .FourOFourSearchResults {
@@ -61,4 +59,8 @@ a.searchResultLink {
 .searchResults img {
     width: 20%;
     height: 100%;
+}
+
+.oops h1 {
+    margin-left: 2.2em;
 }

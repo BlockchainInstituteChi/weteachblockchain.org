@@ -21,7 +21,7 @@ With disintermediation comes reduced support and increased risk of personal comp
 	bodyText="Your digital signature controls your stake in a blockchain. <br> <br><b>If someone is able to access your Private Key, they can sign your assets over to themselves!</b>"
 %}
 
-<img src="/assets/img/courses/blockchain-security/LaptopX.jpg" />
+<img src="/assets/img/courses/blockchain-security/LaptopX.jpg" alt="Laptop with an X" title="Locked Out"/>
 
 <h3>Businesses and Key Management</h3>
 Especially in public blockchains, proper key management is incredibly important. If your project is running on a public blockchain, a compromised key could mean having your funds hijacked, or smart contracts compromised. Currently, there is little in the way of "undo" functionality for these types of scenarios. In private blockchains, an ecosystem where there may be a greater degree of control, it's still very important to ensure that information can still be securely added and stored on the chain. In the same way that it's important for users to secure their passwords for personal accounts, they should ensure that their keys are stored securely and backed up to minimize risks of being lost or inaccessible.

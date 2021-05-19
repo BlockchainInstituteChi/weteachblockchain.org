@@ -5,7 +5,7 @@
     letter-spacing: 0.05em;
 }
 
-/*Sections*/
+/*General*/
 section.pressReleases {
     margin-top: -4em;
     margin-bottom: 6em;
@@ -15,6 +15,9 @@ section.pressReleases {
 .pressReleases img {
     width: calc(100% - 1em);
     margin-left: .5em;
+}
+.pressReleases p img {
+    margin-left: 0em;
 }
 .pressReleases h1 {
     font-size: 1.5em;
@@ -50,8 +53,10 @@ section.pressReleases {
 .pressReleases .col-md-12 {
     margin-top: 5em;
     padding: 0em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    border-bottom: solid 1px #848484;
 }
-
 .pressReleases span.no-wrap {
     display: inline-block;
     font-size: 1em;

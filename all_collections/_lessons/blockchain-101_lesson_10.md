@@ -26,9 +26,9 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 <span style="font-weight: 400;">In this type of cryptographic system, public keys can be used by anyone to encrypt or verify a message for a particular receiver; they function as addresses. </span><span style="font-weight: 400;">For asymmetric encryption to work, the user must be able to securely generate and store a private key that acts as a password. From this private key, a public key is also generated. Security relies upon the private key staying private, while the public key can be published without compromising the security of the private key. </span>
 
-<img src="/assets/img/courses/blockchain-101/PrivateKey-01-1.jpg" />
+<img src="/assets/img/courses/blockchain-101/PrivateKey-01-1.jpg" alt="Lock and key for message" title="Private Key"/>
 
-<img src="/assets/img/courses/blockchain-101/PublicKey-01-1.jpg" />
+<img src="/assets/img/courses/blockchain-101/PublicKey-01-1.jpg" alt="Message sent to locked location" title="Public Key"/>
 
 <h3><b>HASHING</b></h3>
 
@@ -42,7 +42,7 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 <span style="font-weight: 400;">Encryption and decryption can be represented by keys and lockboxes, allowing the passing of secure messages. These methods have been in use since the time of Caesar. These encryption technologies are integrated into many experiences on the internet and have become more prevalent with the introduction of e-commerce.</span>
 
-<img src="/assets/img/courses/blockchain-101/EstoniaID-01.jpg" />
+<img src="/assets/img/courses/blockchain-101/EstoniaID-01.jpg" alt="Phone over Estonia" title="Estonian E-Residency Program"/>
 
 <span style="font-weight: 400;">Cryptographic signing and verification is a digital representation of signatures that can ultimately replace handwritten signatures. The country of Estonia has transitioned to conducting much of their governance with Smart Chip ID cards, allowing non-residents to establish businesses remotely with their E-Residency program. Without ever visiting Europe, an individual can register a business, establish a bank account, and pay taxes from the comfort of any computer in the world!</span>
 

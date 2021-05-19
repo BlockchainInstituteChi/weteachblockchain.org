@@ -12,7 +12,7 @@ permalink: /courses/blockchain-101/01/the-enigma-satoshi-nakamoto
 
 <h3>WHO IS SATOSHI NAKAMOTO?</h3>
 
-<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg" />
+<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg" alt="Silhouette representing Satoshi Nakamoto" title="Who is Satoshi Nakamoto?"/>
 
 Who is the mysterious creator behind Bitcoin? We don’t know much more than the name, Satoshi Nakamoto, which first appeared on the paper <a href="https://bitcoin.org/bitcoin.pdf">“Bitcoin: A Peer-to-Peer Electronic Cash”</a> which was distributed by a cryptography mailing list in 2008. While there are a few suspects, Nakamoto’s identity remains a mystery.
 
@@ -26,7 +26,7 @@ What we do know of Satoshi comes from his posts on the P2P Foundation and the co
 
 This line references a Times of London article that discussed an additional bailout for the banks after the 2008 financial crisis.
 
-<img src="/assets/img/courses/blockchain-101/Newspaper.jpg" />
+<img src="/assets/img/courses/blockchain-101/Newspaper.jpg" alt="The Times' front page on bailouts" title="The Times' front page"/>
 &nbsp;
 
 {% include callouts/bigQuote.html

@@ -19,7 +19,7 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">A popular way of addressing potential protocol changes is by going through a proposal implementation process. Each blockchain has a different process for addressing community introduced proposals, but each involves a rigorous process before a recommendation is approved for implementation.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/BIP-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/BIP-01.jpg" alt="Bitcoin Improvement Proposal" title="Bitcoin Improvement Proposal"/>
 
 <span style="font-weight: 400;">Bitcoin uses a proposal process through the introduction of BIPs. A Bitcoin Improvement Proposal (BIP) is a design document for introducing new features or upgrades to the Bitcoin software. This is the standard way of communicating ideas since Bitcoin has no central structure or leadership.</span>
 
@@ -34,7 +34,7 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">When there is a protocol change, the blockchain’s software must be updated. This is done through a process known as a </span><b>fork</b><span style="font-weight: 400;">. There are multiple types of forks, but all have the goal of updating the blockchain’s protocols.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" alt="Boxes splitting exponentially" title="Forking"/>
 
 <h4>Hard Fork</h4>
 <ul>

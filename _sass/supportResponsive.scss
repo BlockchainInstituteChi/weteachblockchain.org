@@ -1,22 +1,13 @@
 /* Tablet */
 @media screen and (max-width: 800px) {
-    h1.hasColorTag.teal {
-        margin-left: -3.5em;
-    }
-    h1.hasColorTag.red {
-        margin-left: -3.5em;
+    h1.supportHeadline {
+        margin-left: 1em;
     }
 }
 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-    h1.hasColorTag.teal {
-        margin-left: -1.75em;
-    }
-    h1.hasColorTag.red {
-        margin-left: -1.75em;
-    }
     .col-sm-6.supportOption {
         margin-bottom: 3em;
     }
@@ -29,6 +20,9 @@
     .col-sm-6.supportOption {
         padding-left: .5em;
         padding-right: .5em;
+    }
+    h1.supportHeadline {
+        margin-left: .65em;
     }
 }
 

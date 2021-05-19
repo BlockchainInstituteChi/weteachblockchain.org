@@ -17,7 +17,7 @@ permalink: /courses/blockchain-101/02/centralization-vs-decentralization
 
 <span style="font-weight: 400;">Generally speaking, centralization of power can result in companies like Facebook, Amazon, and Google finding ways to monetize user data and habits in ways that the users may not like and may not even be aware of. Users of popular free online services may think of themselves as the customer, while the service that they’re using the product. But that’s actually backward. Instead, the user's information is the product that is being sold. It’s their data that is valuable, yet most users of these services don’t yet realize this fact. If it’s your data, why are other people profiting off of it? Another of the benefits of decentralization is that it can put that value back in the hands of the user.</span>
 
-<img src="/assets/img/courses/blockchain-101/CvD.jpg" />
+<img src="/assets/img/courses/blockchain-101/CvD.jpg" alt="Infographic on the differences between centralization and decentralization" title="Centralization vs. Decentralization"/>
 
 <h3>BLOCKCHAINS ARE DECENTRALIZED</h3>
 <hr />

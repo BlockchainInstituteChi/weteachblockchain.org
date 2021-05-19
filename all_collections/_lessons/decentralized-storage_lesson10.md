@@ -11,7 +11,7 @@ permalink: /courses/decentralized-storage/3/backbone-of-a-new-web/
 So what does this all mean? Will decentralized storage replace traditional providers like Dropbox? How might all of this impact the way we interact on the internet?
 </span>
 
-<img src="/assets/img/courses/decentralized-storage/WhereWhereHow-01.jpg" />
+<img src="/assets/img/courses/decentralized-storage/WhereWhereHow-01.jpg" alt="Map where X marks the spot" title="Where We're Going"/>
 
 <h3>WHERE WE STAND TODAY</h3>
 Most decentralized storage projects, are still in somewhat nascent stages, experimenting with a variety of data storage and economic protocols. Some of these have been proven over time while others have been refined. As projects move out of the research phase and into the implementation phase, it will make it much easier to start planning infrastructure around a particular set of technologies.

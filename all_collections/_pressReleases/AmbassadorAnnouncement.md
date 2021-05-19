@@ -13,7 +13,7 @@ We believe blockchain education is necessary for the future and want to make it 
 <a href="/ambassadors" target="_blank">Become an Ambassador</a>
 
 <h3>Instructors Wanted!</h3>
-<img src="/assets/img/IMG_20200222_111258-02.jpg">
+<img src="/assets/img/IMG_20200222_111258-02.jpg" alt="Photo of an in-person course being taught" title="Instructors wanted">
 
 Members of our Ambassador Program that want to teach our in-person Crypto Curious Course can interview to become Instructors. Instructors receive a teacher’s guide that goes over how we teach our courses that have been built from the lessons we’ve learned. Additionally, you will be in direct communication with our staff so we can support and advise with any questions or issues you may have.
 

@@ -4,15 +4,15 @@ image: Difference_BC-Eth.jpg
 ogImage: Difference_BC-Eth.jpg
 permalink: /faq/bitcoin-and-ethereum/
 layout: faq
-tag: WHAT'S THE DIFFERENCE?
-focusKeyword: Satoshi Nakamoto, Payments, Turing-Complete, World Computer, Gas
+readtime: 2m
+tag: WHAT'S THE DIFFERENCE? 
 learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
 learnMoreText: our Ethereum 101 course
 learnMoreImage: EthereumGrowth-1.jpg
-weight: 2
+weight: 10
 sticky: false
 ---
-<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg">
+<img src="/assets/img/courses/blockchain-101/WhoisSatoshi-01.jpg" alt="Silhouette of man" title="Who is Satoshi?">
 
 <span>Satoshi Nakamoto is the pseudonym used by the person (or group) that created Bitcoin and wrote the Bitcoin whitepaper.</span>
 

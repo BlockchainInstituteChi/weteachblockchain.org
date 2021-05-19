@@ -23,7 +23,7 @@ Characterized by a lack of appropriate incentives to ensure that participants in
 
 Keeping yourself secure in an online world is becoming increasingly difficult. There are a few basic measures that all security-conscious internet users can take:
 
-<img src="/assets/img/courses/blockchain-security/BCS_Checklist.jpg" />
+<img src="/assets/img/courses/blockchain-security/BCS_Checklist.jpg" alt="Security Checklist" title="Security Checklist"/>
 
 Although none of these recommendations are exclusive to the blockchain industry, these essential checks will help to prevent a variety of compromising situations. Now that money is digitally accessible and can become totally unrecoverable, it's time for us to take careful measures with digital security more generally. The internet and computation were not designed in an adversarial environment, so many devices are simply designed to work rather than to be secure.
 

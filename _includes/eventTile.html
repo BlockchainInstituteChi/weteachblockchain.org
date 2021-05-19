@@ -1,8 +1,11 @@
 
-<div class="eventTile {{ include.type }}"> 
-    <a target="_blank" href="{{ include.link }}">
-        <img src="/assets/img/{{include.image}}"/>
-        <h1>{{ include.title }}</h1>
-        <span>{{ include.date }}</span>
-    </a>
-</div>
+<a target="_blank" href="{{ include.link }}">
+    <div class="eventTile {{ include.type }}"> 
+        <img src="/assets/img/{{include.image}}"
+            alt="{{ include.title }}"
+            title="{{ include.title }}">
+        <h3>{{ include.title }}</h3>
+        <span class="eventTime">{{ include.Time }}</span>
+        <span class="eventDate">{{ include.date }}</span>
+    </div>
+</a>

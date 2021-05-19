@@ -3,14 +3,14 @@ layout: post
 title:  Generate Yields on Your Crypto Holdings
 date:   2020-12-25 11:02:58 -0500
 categories: defi tools
-thumbnail: Nexoio_square.jpg
+thumbnail: Nexoio.jpg
 image: Nexoio.jpg
 author: "dan"
 published: true
 permalink: /posts/12/25/generate-yield-on-crypto-holdings
 ogImage: Nexoio.jpg 
 ---
-<img src="/assets/img/YieldFarmingAbacus.jpg">
+<img src="/assets/img/YieldFarmingAbacus.jpg" alt="An abacus" title="An abacus">
 
 ## A simple guide to choosing the right savings wallet
 

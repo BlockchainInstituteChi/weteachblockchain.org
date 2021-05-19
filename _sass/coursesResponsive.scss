@@ -8,9 +8,6 @@
 	html, body {
     		overflow-x:hidden;
 	}
-	.hasColorTag {
-    		margin-left: -3.7em;
-	}
 	span.courseTag {
 	    font-size: .65em;
 	}
@@ -27,6 +24,11 @@
 	section.lessonContent {
 	    margin: 0em 0em;
 	}
+    section.pageHeaderImage {
+        background-position: left !important;
+        max-height: 30vh;
+        min-height: 30vh;
+    }
 } 
 
 /* Mobile */
@@ -34,6 +36,14 @@
 	html, body {
     		overflow-x:hidden;
 	}
+    section.pageHeaderImage {
+        max-height: 45vh;
+        min-height: 45vh;
+        background-position: center !important;
+    }
+    section.courseHeader {
+        margin-top: 5.9em;
+    }
 
     /* Course path buttons */
     .row.pathButtons .col-sm-4 {
@@ -48,9 +58,7 @@
         margin-right: -1em;
     }
 	
-.hasColorTag {
-    margin-left: -2em;
-}
+
 	.col-sm-6 {
     		padding-left: .5em;
     		padding-right: .5em;
@@ -74,9 +82,6 @@ section .row {
     margin-left: 1em;
     margin-right: 1em;
 }
-.hasColorTag::before {
-    margin-right: 0.75em;
-}
 	iframe#historyIFrame {
     		min-height: 800px;
 	}
@@ -90,7 +95,7 @@ section.courseOverview {
     margin: .5em;
 }
 section.breadcrumbs.indvCoursePage {
-    margin-left: .5em;
+    margin-left: 1em;
 }
 section.lessonContent {
     margin: 0em 0em;
@@ -105,6 +110,10 @@ a.courseEndButton {
 }
 a.courseEndButton.moreCourses {
     margin-left: 0em;
+}
+section.courseSections {
+    margin-right: .5em;
+    margin-left: .5em;
 }
 }
 

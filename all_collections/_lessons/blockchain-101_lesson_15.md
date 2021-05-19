@@ -11,8 +11,8 @@ permalink: /courses/blockchain-101/03/what-is-ethereum
 <p><span class="openingParagraph">Bitcoin has seen success as it has settled as the most popular cryptocurrency. However, others believed they could implement blockchain technology to do more, possibly even to act as a “World Computer”. The Ethereum project was launched in 2015 with this explicit goal. They sought to create a decentralized network complete with smart contracts, programmable agreements that could be used to create decentralized applications (dApps).
 </span>
 
-<p><img src="/assets/img/courses/blockchain-101/Bitcoin-01.jpg" /></p>
-<p><img src="/assets/img/courses/blockchain-101/Ethereum-01.jpg" /></p>
+<p><img src="/assets/img/courses/blockchain-101/Bitcoin-01.jpg" alt="Bitcoin logo" title="Bitcoin"/></p>
+<p><img src="/assets/img/courses/blockchain-101/Ethereum-01.jpg" alt="Ethereum logo" title="Ethereum"/></p>
 
 <h3>WHAT PROBLEM WAS ETHEREUM BUILT TO SOLVE?</h3>
 <p><span style="font-weight: 400;">Bitcoin set out to be a store of value and medium of exchange, and arguably, it has achieved that goal. While it’s price has fluctuated greatly, the lifetime of bitcoin has shown significant net price gains. Bitcoin has proven to be a reliable, relatively cheap, and secure way to transfer value. </span><span style="font-weight: 400;">While Ethereum functions on a blockchain and has its own native currency, ether, the project goal differs greatly from Satoshi Nakamoto's vision for bitcoin and blockchains.</span></p>

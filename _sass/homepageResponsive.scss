@@ -48,6 +48,7 @@
 	.coursesThumbnailContainer .courseTile {
 		width: calc(50% - 1em);
 		margin-bottom: 1em;
+		min-height: 18em;
 	}
 	h1.coursesHeaderHP {
     		padding-left: .25em;
@@ -61,17 +62,6 @@
 	.faqTile h1 {
 		font-size: 1em;
 	}
-	/*CCC*/
-	section.pageHeaderImage {
-		background-size: inherit !important;
-		background-position: inherit !important;
-	}
-.pageHeaderImage .col-sm-6 {
-    margin-left: 6em;
-    padding-left: .5em;
-    margin-top: 3.5em;
-    padding-right: 5em;
-}
 
 }
 
@@ -222,10 +212,10 @@
 
 
 	/*CCC*/
-	element.style {
+	/*element.style {
 		background-size: cover;
 		background-position: unset;
-	}
+	}*/
 	.pageHeaderImage .col-sm-6 {
 		padding-right: .5em;
 	}

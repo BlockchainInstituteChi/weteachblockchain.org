@@ -9,15 +9,13 @@ ogImage: FAQ-banner.jpg
 {% include pageHeader.html 
 	img="FAQ-banner.jpg" 
 	header="Frequently Asked Questions" 
-    text="Not sure where to start? Feeling lost in a world of new terms and concepts? Our FAQs explain information in digestible bits to help you get started."	
-    ctaText="What FAQ should we do next? Let us know!" 
-	ctaLink="/contact-us/" 
+    text="Feeling lost in a world of new terms and concepts? Our FAQs explain information in digestible bits to help you get started."
 %}
 
 {% include factoid.html page="faq" %}
 
 <section class="faqList upcoming">
-	<h1 class="hasColorTag red">FAQs</h1>
+	<h1>FAQs</h1>
 	<div class="row">
 		{% assign faqs = site.faq | sort: 'weight' %}
 		{% for item in faqs  %}
@@ -25,11 +23,15 @@ ogImage: FAQ-banner.jpg
 				image=item.image
 				link=item.permalink
 				title=item.title
+				readtime=item.readtime
 				author=item.tag
 				imageSm=item.imageSm
 				imageMd=item.imageMd
 				keywords=item.focusKeyword
-			%}
+			%} 
 		{% endfor %}
 	</div>
 </section>
+
+
+{% include getInvolved.html %}

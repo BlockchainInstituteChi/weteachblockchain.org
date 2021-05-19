@@ -10,6 +10,6 @@ eventType: Community
 ---
 Amos Alonzo Stagg High School hosted Explore Engineering which is a Chicago-based event aimed to introduce high school students into the vast field of engineering. The Blockchain Institute team provided educational materials and answered questions at the booth throughout the event.
 
-<img src="/assets/img/EE-4-18-19-4892.jpg"> 
+<img src="/assets/img/EE-4-18-19-4892.jpg" alt="Row of tables" title="Participator info tables"> 
 
-<img src="/assets/img/EE-4-18-19-4899.jpg">
+<img src="/assets/img/EE-4-18-19-4899.jpg" alt="Hannah at table" title="Hannah at table">

@@ -4,17 +4,18 @@ image: ExchangesFAQHeader.jpg
 ogImage: ExchangesFAQHeader.jpg
 permalink: /faq/cryptocurrency-exchanges/
 layout: faq
+readtime: 3 min read
 tag: CONCEPTS
 focusKeyword: Trading Crypto, Centralized Exchanges, Coinbase, DEX, Liquidity Pool, Uniswap
 learnMoreLink: /courses/decentralized-finance-course/
 learnMoreText: and sign up for our upcoming DeFi Course
 learnMoreImage: DEFI_title.jpg
-weight: 2
+weight: 10
 sticky: false
 ---
 <span>When it comes to <a href="/faq/how-to-buy-bitcoin/" target="_blank">buying</a> and trading cryptocurrency, there are two main types of exchanges you can use.</span>
 <h2>Exchanging Through a Third Party</h2>
-<img src="/assets/img/Centralized_ExchangesFAQ.jpg">
+<img src="/assets/img/Centralized_ExchangesFAQ.jpg" alt="Centralized nodes" title="Centralized nodes">
 
 <span>Centralized exchanges have a third party database acting as a middleman to help facilitate transactions. Because of their popularity and ease of use, centralized exchanges have helped add much-needed liquidity to the cryptocurrency markets.</span>
 
@@ -23,7 +24,7 @@ sticky: false
 	bodyText="Remember not to store your cryptocurrency on exchanges, especially centralized ones where your keys are managed for you."
 %}
 <h2>Decentralized Exchanges: Cut out the Middlemen </h2>
-<img src="/assets/img/Decentralized_ExchangesFAQ.jpg">
+<img src="/assets/img/Decentralized_ExchangesFAQ.jpg" alt="Decentralized nodes" title="Decentralized nodes">
 
 <span>As the cryptocurrency and decentralized finance ecosystems have grown, another option has gained traction. A decentralized cryptocurrency exchange (DEX) cuts out the centralized middleman by facilitating deals via <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/2/smart-contracts/" target="_blank">smart contracts</a> and chain to chain swaps. The cryptocurrency is never in the possession of a centralized escrow service; the only individuals that will have access to the cryptocurrency are the buyer and seller.</span>
 
@@ -41,7 +42,7 @@ sticky: false
 
 <span>Because decentralized exchanges are harder to use, they do not have the same liquidity that you find in centralized platforms. Additionally, if you lose your private key, there is no central entity to help you recover it. With these exchanges, you have sole control over your cryptocurrency but have little chance of recovering your funds if your private key is lost.</span>
 <h2>Uniswap: a Liquidity Platform</h2>
-<img src="/assets/img/Uniswap_ExchangesFAQ.jpg">
+<img src="/assets/img/Uniswap_ExchangesFAQ.jpg" alt="Uniswap logo" title="Uniswap">
 
 <span>There are several options when it comes to decentralized exchanges. Currently, the most popular decentralized exchange is <a href="https://uniswap.org/" target="_blank">Uniswap</a>.</span>
 <span>Uniswap is a liquidity pool, but more specifically it is a liquidity platform, allowing users the ability to directly make trades. This happens without the use of a centralized order book used by other exchanges.</span>

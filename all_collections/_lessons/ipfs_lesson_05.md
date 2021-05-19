@@ -12,6 +12,6 @@ Once you open the page, an IPFS node will start to run right in your browser. Th
 
 Once the node has finished initializing, you'll see the node details appear in the upper left corner as so:
 
-<img src="/assets/img/courses/ipfs/UsingtheIF.jpg" />
+<img src="/assets/img/courses/ipfs/UsingtheIF.jpg" alt="A node" title="A node"/>
 
 The IPFS client has set up a new node running in your browser window. The <strong>Logs </strong>output shows the last event, which in this case is telling us that the file with ID <code>QmT6s9dZXRFbxGhvSW68BdZEFF9mHaTW6erH3TNMrRGZfX</code><em> (a photo of Alex's dog) </em>has been downloaded successfully to your node.

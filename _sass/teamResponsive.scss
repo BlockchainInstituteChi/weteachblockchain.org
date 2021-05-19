@@ -5,12 +5,24 @@
 
 /* Tablet */
 @media screen and (max-width: 800px ) {
-
+    .team img, .board img {
+        height: 8em;
+        margin-top: 2em;
+    }
+    .row.teamRow, .row.boardRow {
+        margin-bottom: 2em;
+    }
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
-
+    .person_board, .person_team {
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+    .row.teamRow, .row.boardRow {
+        margin-bottom: 1em;
+    }
 }
 
 

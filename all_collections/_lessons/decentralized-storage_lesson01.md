@@ -28,7 +28,7 @@ Welcome to the basics of decentralized storage and why we need it! Before you ge
     <li><a href="/courses/decentralized-storage/3/backbone-of-a-new-web/">The Future of Decentralized Systems</a></li>
 </ul>
 
-<img src="/assets/img/courses/decentralized-storage/DecentralizedStorage.jpg" />
+<img src="/assets/img/courses/decentralized-storage/DecentralizedStorage.jpg" alt="Decentralized array of boxes" title="Decentralized storage"/>
 
 Given the continually decreasing cost of storage, why should we care about decentralized storage at all? Traditional centralized storage has solved many of the engineering problems with storing a large set of data spread over many servers. <a href="https://www.dropbox.com">Dropbox</a> has largely solved the user experience problem of these types of technology and found a successful revenue model in business subscriptions. Is political decentralization really worth achieving?
 

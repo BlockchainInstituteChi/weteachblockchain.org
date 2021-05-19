@@ -1,33 +1,51 @@
+/*General*/
 html, body {
     overflow-x:hidden;
-}
-.downloadsRowContainer {
-    display: block;
-    width: 100%;
-    // overflow-x: scroll;
-    margin-bottom: 3em;
-    margin-top: .5em;
-}
-.downloadItem {
-    margin-left: .5em;
-    margin-right: -.15em;
-    display: inline-flex;
-    width: 23%;
-    margin-bottom: 4em;
-    min-height: 0px;
-    width: calc(25% - 1em);
-    display: inline-flex;
-    overflow: hidden;
-    margin: 1em 0.1em 2em 0.5em;
-    text-align: left;
-}
-.downloadItem img {
-    background: grey;
-    max-height: 16em;
 }
 h1 {
     font-weight: 500 !important;
     font-size: 2.5em;
     padding-left: 0.175em;
     color: black;
+}
+
+/*Download Tiles*/
+.downloadsRowContainer {
+    display: block;
+    width: 100%;
+    margin-bottom: 4em;
+    margin-top: .5em;
+}
+.downloadItem {
+    width: calc(25% - 1em);
+    display: block;
+    overflow: hidden;
+    margin: 0.5em;
+    text-align: left;
+    float: left;
+    background: white;
+    border: 1px solid #848484;
+    min-height: 14em;
+}
+.downloadItem img {
+    background: grey;
+    max-height: 16em;
+}
+
+.downloadItem h3{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding-top: .7em;
+    color: black;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    padding-left: .9em;
+    padding-right: .9em;
+    line-height: 1em;
+}
+.tileItem img {
+    border-style: none;
+}
+section.downloadsList {
+    margin-bottom: 3em;
 }

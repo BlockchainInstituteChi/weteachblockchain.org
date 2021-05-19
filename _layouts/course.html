@@ -28,10 +28,26 @@
         <span class="author">{{ page.author }}</span>
         <span class="summary">{{ page.summary }}</span>
         <span class="disclaimer">We’re here to help. If you have any questions or feedback about this course please email us at info@theblockchaininstitute.org – we’d love to hear from you!</span>
+        
+        {% assign count = 0 %}
+        {% for module in site.modules %}
+            {% if module.course == page.slug %}
+                  {% for lesson in site.lessons %}
+                    {% if lesson.course == page.slug %}
+                      {% if lesson.module == 1 and count < 1 %}
+                      <a class="callToActionButton coursePageSCButton" href="{{ lesson.permalink }}">
+                        Start Course
+                      </a>
+                      {% assign count = 1 %}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+            {% endif %}
+        {% endfor %}
       </div>  
     </section>
 
-    {% include loginToTrackProgress.html %}
+    <!--{% include loginToTrackProgress.html %}-->
     
     <section class="courseSections">
       <div class="row">
@@ -63,6 +79,37 @@
       </div>
     </section>
     
+    {% assign upcomingEvents = "" | split: ',' %}
+
+    {% for event in site.events %}
+        {% if event.date > site.time and event.tags contains page.eventTag %}     
+        {% assign upcomingEvents = upcomingEvents | push: event %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign upcomingEventsLength = upcomingEvents | size %}
+    {% if page.eventTag and upcomingEventsLength > 0 %}
+
+    <section class="eventsList upcoming">
+      <div class="row">
+        <h1>Upcoming In-Person Classes</h1>
+        <div class="eventsContainer">         
+        {% for event in upcomingEvents %}
+          {% include eventTile.html
+            link=event.permalink 
+            image=event.image 
+            title=event.title 
+            date=event.eventdate
+            type=event.eventType
+          %}
+        {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+    
+    {% include getInvolved.html %}
+
     {% include footer.html %}
     <!-- <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script> -->
     <script

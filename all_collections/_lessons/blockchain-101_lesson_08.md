@@ -14,7 +14,7 @@ permalink: /courses/blockchain-101/02/peer-to-peer-networks
 
 <b>Peer-to-peer networks</b><span style="font-weight: 400;">, often shortened as </span><b>P2P</b><span style="font-weight: 400;">, offer an essential component to blockchains because the core values of the network design allow for decentralization. Rather than a typical client-server model in which individual clients request services or information from a central server, a peer-to-peer network is more resilient and allows peers on the network to directly interact with other peers. Peer-to-peer networks are self-organizing and therefore can be self-sustaining. This is a significant component of decentralized systems that allow blockchains to do what they are purposed for.</span>
 
-<img src="/assets/img/courses/blockchain-101/P2P_HTTP_IPFS-01.jpg" />
+<img src="/assets/img/courses/blockchain-101/P2P_HTTP_IPFS-01.jpg" alt="HTTP vs. IPFS" title="HTTP vs. IPFS"/>
 
 <h3>WHY USE PEER-TO-PEER NETWORKS?</h3>
 

@@ -8,13 +8,19 @@ ogImage: Contact-Banner.jpg
 
 
 <!-- events.html -->
-{% include pageHeader.html img="Contact-Banner.jpg" %}
+
+{% include pageHeader.html 
+	img="Contact-Banner.jpg"
+	header="Contact Us" 
+	text="Have a question, comment, or concern? We would love to hear from you. Get in touch with us today!" 
+%}
+
 
 <section class="header">
 	<div class="row">
 		<div class="col-sm-6">
 			<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
-				<img src="/assets/img/map.jpg">
+				<img src="/assets/img/map.jpg" alt="Map of location" title="Where to find the Institute">
 			</a>
 			<div class="locationDetails">
 				<span>
@@ -119,6 +125,4 @@ ogImage: Contact-Banner.jpg
 
 </script>
 
-{% include pinkDivider.html %}
-
-{% include FAQfooter.html %}
+{% include getInvolved.html %}

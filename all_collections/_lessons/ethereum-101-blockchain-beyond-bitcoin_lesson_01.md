@@ -30,7 +30,7 @@ In order to resolve this problem, Satoshi Nakomoto proposed that the new transac
 
 <h3>THE BIG PICTURE</h3>
 
-<img src="/assets/img/TheBigPicture-01.jpg"> 
+<img src="/assets/img/TheBigPicture-01.jpg" alt="Polaroid photos of a Bitcoin logo over the Chicago skyline" title="The Big Picture"> 
 
 {% include callouts/note.html
    bodyText="<h5>The Bitcoin Whitepaper proposed a system wherein</h5><ol><li >All peers are anonymous</li><li >All peers can reach agreement</li><li >Agreements can be resolved without systemic failure or malfunction</li><li >All peers are treated equally</li></ol>"

@@ -6,59 +6,52 @@ permalink: /about/
 ogImage: team-banner.jpg
 ---
 
-{% include pageHeader.html img="team-banner.jpg" %}
+{% include pageHeader.html 
+    img="AboutUsHEADER2.jpg" 
+    header="About Us" 
+	  text="Blockchain Institute is a 501(c)(3) Public Charity that provides education focused on blockchain, cryptocurrency, and distributed ledger technology." 
+%}
+
+
+<section class="ourMission">
+    <div class="row">
+      <div>
+        <span class="missionTeal">
+            We offer online and in-person courses to help onboard those that are curious and help reduce the barriers for everyone to enter the blockchain ecosystem.
+	</div>
+    </div>
+  </section>
+
 
 <section class="header">
     <div class="row">
-        <div class="col-sm-5">
-            <h1>About Us</h1>
-            <p>Blockchain Institute is a <span class="no-wrap">501(c)(3)</span> <a href="/press-releases"
-                    target="_blank">Public Charity</a> that provides education focused on <a
-                    href="/faq/what-is-blockchain" target="_blank">blockchain</a>, <a href="/faq/what-is-cryptocurrency"
-                    target="_blank">cryptocurrency</a>, and distributed ledger technology. We offer <a href="/courses/"
-                    target="_blank">online</a> and <a href="/events/#Classroom" target="_blank">In-person</a> courses to
-                help onboard those that are curious, prepare industry professionals, and support a new generation of
-                developers that will build the internet of trust.</p>
+        <div class="col-sm-6">
             <p>Education is the best tool to light the way forward. We invite you to join us as we show the world why
                 blockchain is here to stay.</p>
-            <a href="/courses/blockchain-101/" target="_blank" class="callToActionButton rightRedBrick">Learn Blockchain
-                for Free Today!</a>
+                <p>Blockchain Institute was founded in June of 2018 to promote the adoption,
+                    development, and use of blockchain technology by providing free education to the public. Throughout the
+                    first few months of our existence, <a href="/events" target="_blank">we taught workshops and attended
+                        conferences</a> such as <a href="/events/girlcon_2018" target="_blank">Girlcon</a>, <a
+                        href="/events/loyalty_live_2018" target="_blank">Loyalty Live</a>, and <a href="/events/VOB_2018"
+                        target="_blank">Voice of Blockchain</a>. Our first online courses were made available in February
+                    2019. Later that year, on March 25th, we were officially granted status as a <span
+                        class="no-wrap">501(c)(3)</span> Public Charity.</p>
         </div>
-        <div class="col-sm-7">
-            <img src="/assets/img/20200125_fjs_ccc_30.jpg">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-7">
-            <img src="/assets/img/building1.jpg">
-        </div>
-        <div class="col-sm-5 leftBlueBrick">
-            <p>We were founded in June of <a href="/press-releases" target="_blank">2018</a> to promote the adoption,
-                development, and use of blockchain technology by providing free education to the public. Throughout the
-                first few months of our existence, <a href="/events" target="_blank">we taught workshops and attended
-                    conferences</a> such as <a href="/events/girlcon_2018" target="_blank">Girlcon</a>, <a
-                    href="/events/loyalty_live_2018" target="_blank">Loyalty Live</a>, and <a href="/events/VOB_2018"
-                    target="_blank">Voice of Blockchain</a>. Our first online courses were made available in February
-                2019. Later that year on March 25 we were officially granted status as a <span
-                    class="no-wrap">501(c)(3)</span> Public Charity.</p>
-            <p>During August 2019 we moved into Hackhaus, a co-working space located in the Uptown neighborhood of
+        <div class="col-sm-6">
+            <p>In August 2019, we moved into Hackhaus, a co-working space located in the Uptown neighborhood of
                 Chicago. The new location gave us the ability to host in-person courses and meetups. Our first in-person
-                class, the Crypto Curious Course, was previewed in November 2019 and premiered on January 25th, 2020.
+                class, the Crypto Curious Course, was previewed in November 2019 and premiered on January 25th, 2020. We launched our ambassador program in June of 2020 to offer people around the world the tools to teach this new technology to others.
             </p>
+		<p>In 2021 we unveiled our Demystifying DeFi Course to explain the traditional financial services that have come to the decentralized world. We also started regularly teaching our courses to an international audience over webinars.</p>
             <p>We will continue to add to our collection of online and in-person classes and look for new ways to
                 provide blockchain education to all.</p>
-            <a href="/crypto-curious/" target="_blank" class="callToActionButton rightRedBrick">More about the Crypto
-                Curious Course!</a>
         </div>
     </div>
 </section>
 
-<section class="blueBrickDivider">
-
-</section>
 
 <section class="team" id="teamContainer">
-    <h1 class="hasColorTag blue">Our Team</h1>
+    <div class="row teamRow"><h1>Our Team</h1></div>
 
     {% for person in site.team %}
 
@@ -75,7 +68,7 @@ ogImage: team-banner.jpg
 </section>
 
 <section class="board" id="boardContainer">
-    <h1 class="hasColorTag redRight">Our Board</h1>
+  <div class="row boardRow"><h1>Our Board</h1></div>
 
     {% for person in site.board %}
 
@@ -110,6 +103,6 @@ ogImage: team-banner.jpg
 
 </script>
 
-{% include pinkDivider.html %}
+{% include getInvolved.html %}
 
-{% include FAQfooter.html %}
+  

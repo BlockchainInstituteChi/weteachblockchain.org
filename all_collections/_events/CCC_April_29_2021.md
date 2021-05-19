@@ -7,6 +7,7 @@ eventdate: Thursday, April 29, 2021
 permalink: /events/CCC_April_29_2021
 rsvpUrl: https://www.eventbrite.com/e/150837064721
 eventType: Classroom
+tags: ccc
 ---
 <h2>The Crypto Curious Course is back!</h2>
 
@@ -25,4 +26,4 @@ Part one takes place on <b>April 29th at 12:00 PM</b> and covers the basics of t
  	<li>How a cryptocurrency transaction happens 'Under the Hood'</li>
 </ul>
 
-<img src="/assets/img/bitcoinphonehandbanner.jpg">
+<img src="/assets/img/bitcoinphonehandbanner.jpg" alt="Hand holding phone with Bitcoin logo" title="Bitcoin">

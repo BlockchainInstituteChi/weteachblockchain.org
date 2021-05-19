@@ -180,12 +180,7 @@ section.calloutQuestion {
 
 
 /*Sponsored*/
-.hasColorTag.gold::before {
-    background-color: #fbb25b;
-}
-h1.hasColorTag.gold {
-    margin-left: -1.45em;
-}
+
 section.coinflip {
     margin-top: 6em;
     margin-bottom: 6em;
@@ -292,15 +287,6 @@ section.youMadeIT span {
     color: black;
 }
 
-// @jason - TODO: once this is complete, let's migrate it to main.css so it takes effect sitewide.
-// There seem to be some issues with the color tags on mobile
-h1.hasColorTag.red {
-    max-width: 100%;
-    text-indent: -4.5rem;
-    margin-left: 1rem;
-    margin-right: 0.5rem;
-}
-
 .navButtons {
     display: block;
 }
@@ -374,9 +360,6 @@ section.ambassadors {
     padding-bottom: 6em;
     background-color: white;
 }
-h1.hasColorTag.purple {
-    margin-left: -1.4em;
-}
 .ambassadors span {
     color: black;
 }
@@ -396,16 +379,6 @@ img.imgInDiv.lazy.loaded {
     font-size: 2em;
     font-weight: 200;
     font-style: italic;
-}
-
-// On completion, these also need to be moved to main - Test first, margins might be wonky
-h1.hasColorTag.white {
-    color: white;
-    margin-left: -1.4em;
-    margin-bottom: .5em;
-}
-h1.hasColorTag.white::before {
-    background: white;
 }
 
 .mobilePhonesSlider h1 {
@@ -468,9 +441,6 @@ ul.sliderIndex {
 
 span.youtubePlaylistLink {
     font-size: 1em;
-}
-.cccVideoPlaylist h1.hasColorTag.red {
-    margin-left: .2em;
 }
 
 // newsletter section

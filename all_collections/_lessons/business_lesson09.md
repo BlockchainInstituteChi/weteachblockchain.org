@@ -17,7 +17,7 @@ Every single transaction you’re a part of needs trust to be executed. You have
 
 <h3>LOTS OF POSSIBILITIES FOR PROBLEMS</h3>
 
-<img src="/assets/img/courses/blockchain-for-business/Problems-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Problems-01.jpg" alt="A board game path with an X blocking it" title="Problems"/>
 
 <span style="font-weight: 400;">All of these problems cost money, and most of that cost will ultimately get passed on to the consumer. It’s a closed system that operates on a lot of faith, and that doesn’t always work out. The blockchain can offer transparency that could reduce recalls, shipping times and cost.</span>
 
@@ -31,7 +31,7 @@ Every single transaction you’re a part of needs trust to be executed. You have
 
 <span style="font-weight: 400;">But how can a blockchain address a “damaged goods” scenario that we described above? The answer is that blockchain alone can’t do this. It can, however, be paired with something called the Internet of Things and act as a permanent immutable ledger. </span><span style="font-weight: 400;">The Internet of Things describes the interconnectivity of everyday objects via the internet. Ever hear about someone using their phone to control their thermostat? That’s the Internet of Things in action. While the term describes everyday objects, the IoT can also describe a network of sensors. And these sensors could be used to transmit data to the blockchain.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg" alt="Truck with different shippable items" title="Supply chain"/>
 
 <span style="font-weight: 400;">Let’s use food as an example. Produce has to be kept at a certain temperature, or the shipment can spoil or even become unsafe. There are thousands of recalls of unsafe products each year and several outbreaks of foodborne disease, with some even resulting in death. By using the IoT paired with a blockchain, temperature data could be constantly monitored. If the temperature could be monitored by sensors, so could other conditions, like humidity, idle time, and any bumps or jostling of cargo. </span><span style="font-weight: 400;">If any of these sensors detect a condition outside of the predetermined range, that data would be permanently recorded on the blockchain, alerting the appropriate parties that the shipment has fallen out of agreed upon range. At that point, the receiver can refuse the shipment. </span><span style="font-weight: 400;">If the shipment meets conditions, it is then accepted with the assurance that the shipping conditions were okay. This transparency given to proper parties can give producers and consumers alike more confidence in their purchases and consumption.</span>
 

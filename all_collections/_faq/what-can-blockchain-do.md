@@ -4,17 +4,18 @@ image: RealWorld.jpg
 ogImage: RealWorld.jpg
 permalink: /faq/what-can-blockchain-do/
 layout: faq
+readtime: 2 min read
 tag: APPLICATIONS
 focusKeyword:  Use Cases, Communication, Supply Chain, Self-Sovereign Identity, Real Estate
 learnMoreLink: /courses/blockchain-101/
 learnMoreText: our Blockchain 101 course
 learnMoreImage: BC101-01.jpg
-weight: 3
+weight: 10
 sticky: false
 ---
 <span>While blockchain was created as a solution for the Bitcoin payment network, the concept has been adopted across a range of sectors and is expected to make a major impact in the way that we handle data storage. This technology even has the potential to change the underlying structure of the internet. Currently, there are many projects exploring how blockchain technology can create change.</span>
 
-<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg">
+<img src="/assets/img/courses/blockchain-for-business/Food-01.jpg" alt="A truck with icons representing supply chain concerns" title="Food supply chain">
 
 {% include callouts/callout.html title="Communication" bodyText="By using encryption and decentralization-based technologies, absolute privacy can be achieved in messaging and communication. Currently, communication services rely on central servers that can store your private information, ultimately making it prone to hacks. Decentralized communication offers a more secure alternative, as it does not rely on a central server to transfer messages." %}
 

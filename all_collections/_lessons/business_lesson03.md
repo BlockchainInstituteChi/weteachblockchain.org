@@ -20,7 +20,7 @@ Proof-of-Work and Proof-of-Stake have proven to be the most popular consensus me
 
 <h3>A CASE STUDY: THE BTC vs BCH SPLIT</h3>
 
-<img src="/assets/img/courses/blockchain-for-business/CaseStudySplit-01.jpg" />
+<img src="/assets/img/courses/blockchain-for-business/CaseStudySplit-01.jpg" alt="BTC and BCH splitting under a magnifying glass" title="BTC and BCH split"/>
 
 <h4>What is the significance of August 1st, 2017 in the Bitcoin community?</h4>
 <span style="font-weight: 400;">One of the most contentious forks in cryptocurrency history occurred when Bitcoin Cash split from the main Bitcoin blockchain, creating a separate chain and cryptocurrency. This happened on August 1st, 2017. That date was the culmination of the scaling debate surrounding blockchain. Essentially, the Bitcoin network had seen a recent increase in activity from the previous year and there had been a huge increase in transaction volume. We’ll talk about scaling in the next lesson but put simply, scaling addresses the question of how the Bitcoin network can handle the extra strain put on the network.</span>

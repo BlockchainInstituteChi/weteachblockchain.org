@@ -1,23 +1,8 @@
-.pageHeaderImage a.callToActionButton {
-    background: #ed0744;
-    padding: 1em 3em;
-    margin-top: 2em;
-    margin-bottom: 6em;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    width: fit-content;
-    margin-left: 0;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-}
-/*Color bars*/
-.hasColorTag {
-    margin-left: -1.43em;
-}
+
+
 
 /* Path Options */
-.col-sm-4 {
+/*.col-sm-4 {
     padding-left: .5em;
     padding-right: .5em;
 }
@@ -48,14 +33,41 @@
 section.pathsList.pathPage {
     margin-top: 2em;
     margin-bottom: 6em;
-}
+}*/
+
+
+
 
 /* CourseListing */
+.courseListing .col-sm-4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-left: .5em;
+}
+.courseTypeTag {
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    color: #003449;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    opacity: .85;
+}
+.courseTypeTag a {
+    font-family: Kanit, sans-serif;
+    font-weight: 600;
+    letter-spacing: .03em;
+    color: #003449;
+    padding: 1em;
+}
 section.coursesList.coursePathHeader {
     margin-top: 0em;
 }
 section.coursesList {
     margin-top: 3em;
+    margin-bottom: 3em;
 }
 .courseListing img {
     max-width: 100%;
@@ -85,9 +97,10 @@ section.coursesList {
 span.summary {
     font-size: 0.9em;
     display: block;
+    font-weight: 300;
 }
 a.startCourseButton {
-    background: #ed0744;
+    background: #003449;
     color: white;
     text-transform: uppercase;
     padding: 1em;
@@ -102,7 +115,10 @@ a.startCourseButton {
 }
 a.startCourseButton:hover {
     color: white !important;
-    background-color: #ed0744 !important;
+    background-color: #0B9BA4 !important;
+}
+section.eventsList.upcoming {
+    margin-bottom: 6em;
 }
 
 /* Overview */
@@ -112,9 +128,10 @@ a.startCourseButton:hover {
 .courseOverview span.author {
     display: block;
     width: 100%;
-    color: $brand-green;
-    font-size: 1.25em;
+    color: #0B9BA4;
+    font-size: 1em;
     text-transform: uppercase;
+    font-style: italic;
 }
 .courseOverview span.summary {
     font-size: 1em;
@@ -123,17 +140,24 @@ a.startCourseButton:hover {
     padding-top: 2em;
     padding-bottom: 2em;
 }
+span.disclaimer {
+    width: 100%;
+    margin-bottom: 2em;
+}
+section.courseOverview {
+    padding-left: .5em;
+    padding-right: .5em;
+}
 
 /* Course Sections Overview */
     section.breadcrumbs.indvCoursePage {
-        margin-left: .1em;
+        margin-left: .5em;
     }
 .moduleInfo {
     width: 100%;
 }
 section.courseSections {
-    padding-top: 2em;
-    padding-bottom: 8em;
+    padding: 0em .5em 6em .5em;
 }
 .moduleInfo h2 {
     padding-top: 2em;
@@ -156,6 +180,10 @@ section.courseSections {
     font-size: 1.25em;
     padding-top: 0.5em;
 }
+a.callToActionButton.coursePageSCButton {
+    float: left;
+    margin: 0em auto 3em 0em;
+}
 
 /* Lesson View */
 section.courseHeader {
@@ -163,6 +191,7 @@ section.courseHeader {
     background-size: cover;
     min-height: 9em;
     height: fit-content;
+    margin-top: 7em;
 }
 .courseHeader a {
     color: white;
@@ -170,13 +199,13 @@ section.courseHeader {
     padding-top: 2.5em;
     display: block;
     font-weight: 400;
-    margin: 0em 1.9em;
+    margin: 0em 6em;
 }
 .courseHeader h1 {
     color: white;
     text-transform: uppercase;
     font-size: 2em;
-    margin-left: 1em;
+    margin-left: 3.1em;
     padding-bottom: 0.5em;
 }
 
@@ -191,7 +220,7 @@ section.lessonNav, section.lessonNav a {
     letter-spacing: .04em;
 }
 section.lessonNav {
-    padding: 2em;
+    padding: 2em 2em 5em 2em;
     font-size: 1.25em;
 }
 .lessonNav a:hover{
@@ -200,7 +229,7 @@ section.lessonNav {
 
 /* Content Element Styles */
 section.lessonContent {
-    margin: 0em 6em;
+    margin: 5em 6em 0em 6em;
 }
 .lessonContent h4 {
     margin-left: .32em;
@@ -226,6 +255,11 @@ section.lessonContent {
     letter-spacing: .02em;
     line-height: 1.75em;
     margin-bottom: 1em;
+}
+.openingParagraph a {
+    color: #003449;
+    font-family: 'Kanit';
+    text-decoration: underline !important;
 }
 .lessonContent span {
     color: black;
@@ -333,3 +367,4 @@ a.startCourseButton.complete {
     margin-top: 0 !important;
     border: 1px solid #2b2b2b;
 }
+
