@@ -10,6 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
+readtime: 2m
 ---
 <p>Eth2 is the name of a set of updates that will improve the <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-proposal" target="_blank" rel="noopener noreferrer">Ethereum protocol</a>. Eth 2.0 aims to make the network more scalable, more secure, and more sustainable. Ethereum is an open-source and decentralized community, so the updates are being carried out by a large group of developers all around the world.</p>
 <h3>What is Proof of Stake?</h3>
@@ -22,7 +23,7 @@ sticky: true
 <p>ETH 2.0 is being rolled out in phases, the last of which will be the docking upgrade (more on this later). The docking upgrade is estimated to be live in 2022, so ETH 2.0 is expected to be fully functional (all phases incorporated and working properly) in 2022.</p>
 
 <div class="col-md-12 imageWithCredit">
-        <img src="/assets/img/core.png">
+        <img src="/assets/img/core.png" alt="A rocket" title="What is the beacon chain?">
         <div class="imageCredit">
             <h4>WHAT IS THE BEACON CHAIN? // </h4>
             <a href="https://www.ethereum.org">ethereum.org</a>
@@ -32,7 +33,7 @@ sticky: true
 
 
 <div class="col-md-12 imageWithCredit">
-        <img src="/assets/img/newrings.png">
+        <img src="/assets/img/newrings.png" alt="Shard chains" title="Shard chains">
         <div class="imageCredit">
             <h4>WHAT ARE SHARD CHAINS? // </h4>
             <a href="https://www.ethereum.org">ethereum.org</a>
@@ -44,7 +45,7 @@ sticky: true
 
 
 <div class="col-md-12 imageWithCredit">
-        <img src="/assets/img/docking.png">
+        <img src="/assets/img/docking.png" alt="A ship docking" title="Docking">
         <div class="imageCredit">
             <h4>WHAT IS THE DOCKING? // </h4>
             <a href="https://www.ethereum.org">ethereum.org</a>

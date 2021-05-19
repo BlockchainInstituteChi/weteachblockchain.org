@@ -4,7 +4,7 @@ image: HowToBuyFAQ.jpg
 ogImage: HowToBuyFAQ.jpg
 permalink: /faq/how-to-buy-bitcoin/
 layout: faq
-readtime: 4 min read
+readtime: 4m
 tag: CONCEPTS
 focusKeyword: Cryptocurrency Exchanges, Bitcoin ATMs, Direct Transfer
 learnMoreLink: /courses/blockchain-101/

@@ -4,7 +4,7 @@ image: ExchangesFAQHeader.jpg
 ogImage: ExchangesFAQHeader.jpg
 permalink: /faq/cryptocurrency-exchanges/
 layout: faq
-readtime: 3 min read
+readtime: 3m
 tag: CONCEPTS
 focusKeyword: Trading Crypto, Centralized Exchanges, Coinbase, DEX, Liquidity Pool, Uniswap
 learnMoreLink: /courses/decentralized-finance-course/

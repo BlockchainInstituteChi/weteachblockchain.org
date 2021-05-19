@@ -4,7 +4,7 @@ image: Forking.jpg
 ogImage: Forking.jpg
 permalink: /faq/what-is-forking/
 layout: faq
-readtime: 1 min read
+readtime: 1m
 tag: CONCEPTS
 focusKeyword: Temporary Forks, Soft Forks, Hard Forks, Open-Source
 learnMoreLink: /courses/blockchain-101/

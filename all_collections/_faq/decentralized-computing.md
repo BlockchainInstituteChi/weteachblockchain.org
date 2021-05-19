@@ -8,7 +8,7 @@ focusKeyword: Distributed Computing, Ethereum, Smart Contracts, Nodes
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
-readtime: 1 min read
+readtime: 1m
 tag: APPLICATIONS
 weight: 10
 sticky: false

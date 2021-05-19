@@ -3,7 +3,7 @@ title: What are Cryptocurrency Wallets?
 image: Wallets.jpg
 permalink: /faq/cryptocurrency-wallets/
 layout: faq
-readtime: 3 min read
+readtime: 3m
 tag: CONCEPTS
 focusKeyword: Crypto Wallet, Hardware Wallets, Software Wallet, Paper Wallet
 learnMoreLink: /crypto-curious/

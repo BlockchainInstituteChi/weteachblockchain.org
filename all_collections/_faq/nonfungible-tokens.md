@@ -10,6 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
+readtime: 2m
 ---
 <p>Perhaps you’ve heard of digital collectibles living on the blockchain. What makes this possible? Welcome to the world of Non-Fungible Tokens!</p>
 
@@ -17,7 +18,7 @@ sticky: true
 
 <p>A dollar bill is fungible. All physical currency is. No matter what serial number is on your dollar, it still spends the same. Any single dollar bill can be replaced for another and used without issue.</p>
 
-<img src="/assets/img/AssetManagement.jpg">
+<img src="/assets/img/AssetManagement.jpg" alt="Different items as tokens" title="Tokens on a blockchain">
 
 <p>If fungible items can easily be replaced by an identical item, then non-fungible items can’t be. They are unique. An example of a non-fungible item is a plane ticket. It contains specific information; what airline, where the flight is going, what time the flight departs, what seat you have. If you swap one plane ticket for another you may end up in a different seat on the plane, land in a different city, or much more likely not be allowed to board the plane at all. Plane tickets are unique, they can not be traded for another and used in the same way. Unlike the dollar, where the result is the same no matter which dollar you use.</p>
 
@@ -46,7 +47,7 @@ sticky: true
 <h3>CryptoKitties</h3>
 <p>Late in 2017, Cryptokitties was a dApp that facilitated the transfer of ERC-721 (a non-fungible token standard) tokens in the form of collectible kitties. Each cat had a unique set of features based on its hash; parts of the embedded transaction data would result in specific physical characteristics, some rarer than others.</p>
 
-<img src="/assets/img/NFTsFAQ_cyptokitties.jpg">
+<img src="/assets/img/NFTsFAQ_cyptokitties.jpg" alt="A cryptokitty over a bunch of Ethereum logos" title="Cryptokitties">
 
 <p>These non-fungible kitties were sold on a market through the <a href="https://www.cryptokitties.co/">CryptoKitties website</a>. People were making actual cryptocurrency from flipping cryptokitties. Later a new feature allowed a pair of cryptokitties to "reproduce" to form a new NFT.</p>
 
@@ -57,7 +58,7 @@ sticky: true
 
 <p>Many different marketplaces have popped up that let you buy and sell digital collectibles and artwork. Want to start creating your own NFTs? Some of these marketplaces also help you turn your digital creations into NFTs and sell them. This process is known as minting, it allows you to tokenize almost any digital file and turn it into a non-fungible token.</p>
 
-<img src="/assets/img/NFTsFAQ_Painting.jpg">
+<img src="/assets/img/NFTsFAQ_Painting.jpg" alt="A hung painting of a blockchain" title="Artists"
 
 <h3>Why are artists turning to NFTs?</h3>
 <p>When it comes to art sales, reputation is everything. NFTs allow potential buyers to independently verify information about an artist's previous physical and digital works. Price, date of the original sale, even a record of all previous owners are digitally attached to the piece. This information is securely stored on the blockchain and is publicly accessible to help build art buyer confidence.</p>

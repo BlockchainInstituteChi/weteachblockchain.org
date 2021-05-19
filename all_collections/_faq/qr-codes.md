@@ -4,7 +4,7 @@ image: qrcode_ccc.jpg
 ogImage: qrcode_ccc.jpg
 permalink: /faq/what-are-qr-codes/
 layout: faq
-readtime: 3 min read
+readtime: 3m
 tag: CONCEPTS
 focusKeyword: Blockchain Addresses, Public Keys, Private Keys
 learnMoreLink: /courses/blockchain-for-business/

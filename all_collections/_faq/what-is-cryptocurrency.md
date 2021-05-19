@@ -4,7 +4,7 @@ image: Crypto2.jpg
 ogImage: Crypto2.jpg
 permalink: /faq/what-is-cryptocurrency/
 layout: faq
-readtime: 2 min read
+readtime: 2m
 tag: CONCEPTS
 focusKeyword: Bitcoin, Digital Assets, Tokens, Coins
 learnMoreLink: /courses/blockchain-101/

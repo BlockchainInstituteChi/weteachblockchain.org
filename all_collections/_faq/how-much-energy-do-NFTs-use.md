@@ -1,5 +1,5 @@
 ---
-title: How much energy does an NFT use?
+title: How much energy do NFTs use?
 image: NFTFAQheader.jpeg
 permalink: /faq/how-much-energy-do-NFTs-use/
 layout: faq
@@ -10,6 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
+readtime: 2m
 ---
 <p>The latest hot crypto trend is here! NFTs have taken the world by storm, with various media outlets bringing attention to the applications using this new technology. SNL, Mark Cuban, and other popular groups have all jumped aboard the NFT train. The rise of NFTs has happened quickly, but there are still a significant amount of people that have heard of NFTs but don't know their characteristics or abilities. As a result, some common misconceptions have occurred surrounding NFTs. We're here to address a couple of these misconceptions in order to better understand NFTs.</p>
 
@@ -22,7 +23,7 @@ sticky: true
 
 <p>The downside? All of the energy expended in PoW adds up. In an era where we are aware of energy consumption's effect on our planet, the message that cryptos like bitcoin harm the environment has already spread. There are several innovative projects that have created solutions to mitigate this problem. EZ Blockchain uses energy from methane that would otherwise be wasted in order to power their Bitcoin miners. As the technology progresses, we're likely to see some more improvements that can mitigate the energy used to mine bitcoin and other PoW coins.</p>
 
-<img src="/assets/img/NFTFAQ1.jpg">
+<img src="/assets/img/NFTFAQ1.jpg" alt="A server in the snow" title="Cooling">
 
 <p>This isn't the only innovative solution being explored. Mining warehouses in Northern Europe are using their natural climate as a means of cooling their miners, a task that usually results in excessive energy costs. These warehouses are open air, letting the natural cold act as a way to cool their heat-producing mining hardware. This is a great alternative to expending energy in order to keep miners cool.</p>
 
@@ -36,7 +37,7 @@ sticky: true
 <p>The vast majority of NFTs are not mineable and are actually not created in a decentralized environment. There is no intensive energy process that leads to the minting of these tokens. Rather, they can be instantly created in a matter of seconds for very little energy. Basically, the criticism of cryptocurrencies using too much energy can only be extended to Proof of Work based tokens.</p>
 
 <h2>Where do NFTs live?</h2>
-<img src="/assets/img/NFTFAQ2.jpg">
+<img src="/assets/img/NFTFAQ2.jpg" alt="NFT location on a street map" title="NFT locations">
 <p>This brings us to another misconception that field the first: NFTs are created locally and are stored on a server, not on the blockchain. Some might point out that this is an element of centralization, but complete decentralization isn't necessary or prioritized when creating NFTs. Additionally, ownership is still tracked through a decentralized blockchain where users can utilize their private and public keys in order to store and transfer NFTs like they would with any crypto.</p>
 
 <p>There is fair criticism around the energy usage of energy to create PoW tokens. However, this technology is new and is still developing.  It would be unfair to throw out the world-changing innovation that is blockchain simply because it has yet to address this specific problem. The technology is still in its infancy; there are likely to be many developments that will mitigate network energy consumption. We're already seeing this happen. More blockchains, like Ethereum, are now moving from a PoW system to other consensus mechanisms that don't rely on intense energy consumption.</p>

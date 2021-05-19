@@ -8,7 +8,7 @@ focusKeyword: Data Storage, Distributed, Filecoin, IPFS
 learnMoreLink: /courses/decentralized-storage/
 learnMoreText: our Decentralized Storage course
 learnMoreImage: DecentralizedStorage.jpg
-readtime: 2 min read
+readtime: 2m
 tag: APPLICATIONS
 weight: 10
 sticky: false

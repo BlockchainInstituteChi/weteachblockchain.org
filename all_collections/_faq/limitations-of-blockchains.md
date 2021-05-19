@@ -4,7 +4,7 @@ image: Limitations.jpg
 ogImage: Limitations.jpg
 permalink: /faq/limitations-of-blockchains/
 layout: faq
-readtime: 4 min read
+readtime: 4m
 tag: CONCEPTS
 focusKeyword: Scaling Problem, User Experience, Lack of Onboarding, Data Management
 learnMoreLink: /courses/blockchain-101/
