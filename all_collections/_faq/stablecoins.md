@@ -19,7 +19,7 @@ sticky: false
 %}
 <span><b>Stablecoins</b> are cryptocurrencies that are pegged to a specific value and backed by fiat, assets, or other cryptocurrencies. In an ecosystem full of volatility the goal is for the price of a stablecoin to stay at the pegged value (usually one USD) or as close to it as possible.</span>
 <h2>Why We Need Stablecoins</h2>
-<img src="/assets/img/StablecoinsTetherDai.jpg">
+<img src="/assets/img/StablecoinsTetherDai.jpg" alt="Crypto logos and fiat maintaining similar values" title="Stablecoins with Tether and Dai">
 <h3>Merchants</h3>
 <span>For cryptocurrency to gain widespread adoption in a <a href="/courses/blockchain-for-business/">business setting</a>, merchants and corporations need some guarantee that there will likely be some stability in the value of that cryptocurrency. Simply put, merchants aren’t going to accept a currency that is not likely to hold its value.</span>
 <h3>Markets</h3>
