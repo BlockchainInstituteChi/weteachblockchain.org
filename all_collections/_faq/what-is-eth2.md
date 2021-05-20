@@ -10,7 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
-readtime: 2m
+readtime: 3m
 ---
 <p>Eth2 is the name of a set of updates that will improve the <a href="/courses/ethereum-101-blockchain-beyond-bitcoin/1/early-bitcoin-proposal" target="_blank" rel="noopener noreferrer">Ethereum protocol</a>. Eth 2.0 aims to make the network more scalable, more secure, and more sustainable. Ethereum is an open-source and decentralized community, so the updates are being carried out by a large group of developers all around the world.</p>
 <h3>What is Proof of Stake?</h3>
