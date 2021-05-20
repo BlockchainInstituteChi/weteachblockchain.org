@@ -10,7 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
-readtime: 2m
+readtime: 4m
 ---
 <p>The latest hot crypto trend is here! NFTs have taken the world by storm, with various media outlets bringing attention to the applications using this new technology. SNL, Mark Cuban, and other popular groups have all jumped aboard the NFT train. The rise of NFTs has happened quickly, but there are still a significant amount of people that have heard of NFTs but don't know their characteristics or abilities. As a result, some common misconceptions have occurred surrounding NFTs. We're here to address a couple of these misconceptions in order to better understand NFTs.</p>
 
