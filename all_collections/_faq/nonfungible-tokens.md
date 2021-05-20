@@ -10,7 +10,7 @@ learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 3
 sticky: true
-readtime: 2m
+readtime: 4m
 ---
 <p>Perhaps you’ve heard of digital collectibles living on the blockchain. What makes this possible? Welcome to the world of Non-Fungible Tokens!</p>
 
