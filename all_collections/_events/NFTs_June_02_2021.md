@@ -26,4 +26,4 @@ tags: nft
         <li>What we think the future holds</li>
   </ul>
 
-<img src="/assets/img/WhatIsAnNFT.jpg" alt="Letters N F and T merged together" title="What is an NFT">
+<img src="/assets/img/WhatIsAnNFT.jpg" alt="Letters N, sF, and T merged together" title="What is an NFT">

@@ -894,6 +894,18 @@ section.getInvolvedFooter {
 }
 
 /*Footer*/
+span.signupPromptTitle {
+    margin-top: 0em !important;
+    margin-bottom: .25em;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    font-size: 1em !important;
+    color: #003449 !important;
+}
+span.visually-hidden {
+    display: none !important;
+}
 .col-md-3.bciLogo {
     padding-top: 2.4em;
 }
