@@ -112,24 +112,29 @@ Refers to people that panic sell instead of continuing to hodl as the value of a
 
 <h3>Whale</h3>
 An individual who holds a large amount of bitcoin or another <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a>.
- 
+
+{% include callouts/callout.html
+   title="<a href="/courses/crypto-curious-course/" target="_blank">Watch The Crypto Curious Course</a>"
+	bodyText="Bridging the education gap for new adopters with a single class designed to take you from curious to confident!"
+%}
+
 <h2>Acronyms</h2>
 While most of these are not directly related to crypto, you will see them a lot, so it’s good to know what they stand for!
 
-<h3>ATH</h3>
-All Time High
+<h3>ATH - All Time High</h3>
+The highest value a coin or token has ever seen.
 
-<h3>BTD</h3>
-Buy The Dip
+<h3>BTD - Buy The Dip</h3>
+Buying a coin as the price drops in the short term in hopes of future profit.
 
-<h3>DYOR</h3>
-Do Your Own Research 
+<h3>DYOR- Do Your Own Research</h3>
+One of the most important concepts in crypto. Don’t just listen to what you hear from others. Take the time to verify for yourself.
 
-<h3>FOMO</h3>
-Fear Of Missing Out
+<h3>FOMO - Fear Of Missing Out</h3>
+That feeling you get in your gut when you think you are about to miss out on a cryptocurrency price increase.
 
-<h3>FUD</h3>
-Fear Uncertainty Doubt
+<h3>FUD - Fear Uncertainty Doubt</h3>
+Spreading negative, misleading, or false info to influence the perception of specific coins or the crypto market as a whole.
 
-<h3>ICO</h3> 
-Initial Coin Offering
+<h3>ICO - Initial Coin Offering</h3> 
+Companies will create a new coin and sell it to raise funding. Similar to how an Initial Public Offering works.
