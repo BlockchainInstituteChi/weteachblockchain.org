@@ -79,7 +79,7 @@ Currency issued by the government. The US Dollar and Euro are examples of fiat c
 A possible future event where Ethereum’s market capitalization overtakes Bitcoin’s. It’s important to note that this has not happened before.
 
 <h3>Gas</h3>
-The fee required to complete a transaction or execute a smart contract on the Ethereum Blockchian. Gas is used to allocate the resources of the EVM.
+The fee required to complete a transaction or execute a smart contract on the Ethereum Blockchain. Gas is used to allocate the resources of the EVM.
 
 <h3>Gwei</h3>
 The denomination of ETH that gas is paid in. Each Gwei is 0.000000001 ETH.
@@ -107,7 +107,7 @@ A computer that possesses a copy of the blockchain and is working to maintain it
 A system in which computers talk directly to each other with no centralized system in between.
 
 <h3>Private Key</h3>
-A private key is a string of data can digitally prove you have access to the crypto in a specific wallet. Private keys can be thought of as a password; they must never be revealed to anyone, as they allow you to spend the bitcoins from your bitcoin wallet through a <a href="/courses/blockchain-101/02/asymmetric-encryption" target="_blank">cryptographic signature</a>.
+A private key is a string of data that can digitally prove you have access to the crypto in a specific wallet. Private keys can be thought of as a password; they must never be revealed to anyone, as they allow you to spend the bitcoins from your bitcoin wallet through a <a href="/courses/blockchain-101/02/asymmetric-encryption" target="_blank">cryptographic signature</a>.
 
 <h3>Proof-of-Work</h3>
 A system that ties mining capability to computational power. Blocks must be hashed, which is in itself an easy computational process, but an additional variable is added to the hashing process to make it more difficult. When a block is successfully hashed, the process must have taken some time and computational effort. Thus, a hashed block is considered proof of work.
@@ -132,7 +132,7 @@ A person hyping altcoins or shitcoins for their own benefit. Don’t be this!
 A coin with no value or purpose.   
 
 <h3>Stablecoin</h3>
-A cryptocurrency that attempts to peg it’s value to a fiat currency or commodity in an effort to deal with the volatility of the crypto market. 
+A cryptocurrency that attempts to attach its value to a fiat currency or commodity in an effort to deal with the volatility of the crypto market. 
 
 <h3>Wallet</h3>
 A physical device or computer interface that facilitates the storage of public and private keys. Your cryptocurrency is not stored in the <a href="/faq/cryptocurrency-wallets/" target="_blank">wallet</a> itself, it's on the blockchain. It only manages your keys.
