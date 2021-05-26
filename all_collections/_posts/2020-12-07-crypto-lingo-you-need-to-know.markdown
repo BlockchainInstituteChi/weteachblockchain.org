@@ -33,11 +33,26 @@ Altcoin refers to <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptoc
 <h3>Bagholder</h3>
 A trader who missed the opportunity to sell and is left holding onto coins with little to no value.
 
+<h3>Bear</h3>
+A trader that has a negative sentiment about the market and expects it to decline. 
+
+<h3>Bearwhale</h3>
+A trader who holds a lot of crypto and thinks that the market is going to fall. 
+
 <h3>Blocks</h3>
 Each block on a <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a> represents a collection of transactions that have taken place. As the transactions are validated, they are compiled into the blockchain permanently. Blocks include a timestamp and are built in such a way that they cannot be changed once recorded.
 
+<h3>Bitcoin Maximalist</h3>
+People that believe Bitcoin is the only cryptocurrency that is needed and that all other cryptos are inferior. 
+
+<h3>Bull</h3>
+A trader that holds positive sentiment about the market and expects it to rise.
+
 <h3>Cryptography</h3> 
 Mathematics creates codes and ciphers in order to conceal information. Cryptography is used as the basis for the mathematical problems used to verify and secure transactions on the Blockchain.
+
+<h3>Cryptojacking</h3>
+The unauthorized use of someone’s computer to mine cryptocurrency. 
 
 <h3>Decentralization</h3>
 The process of moving control of a system from one <a href="/faq/what-is-decentralization/" target="_blank">centralized</a> location to many equal ones that can act on a peer-to-peer basis.
@@ -48,11 +63,26 @@ Short for <a href="/decentralized-finance-course/" target="_blank">Decentralized
 <h3>DEX</h3>
 Short for Decentralized Exchange. DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party.
 
+<h3>EVM (Ethereum Virtual Machine)</h3>
+The Ethereum Virtual Machine is a collective system made up of hundreds of thousands of individual nodes around the world.
+
 <h3>Exchange</h3> 
 A website or organization that allows and facilitates the <a href="/faq/how-to-buy-bitcoin/" target="_blank">transfer of fiat to cryptocurrency</a> as well as the reverse. Some exchanges allow you to trade your crypto for other cryptocurrencies.
 
+<h3>Exit Scam</h3>
+When the creators/promoters of a cryptocurrency disappear with investors’ money after an ICO.
+
 <h3>Fiat</h3>
 Currency issued by the government. The US Dollar and Euro are examples of fiat currencies.
+
+<h3>Flippening</h3>
+A possible future event where Ethereum’s market capitalization overtakes Bitcoin’s. It’s important to note that this has not happened before.
+
+<h3>Gas</h3>
+The fee required to complete a transaction or execute a smart contract on the Ethereum Blockchian. Gas is used to allocate the resources of the EVM.
+
+<h3>Gwei</h3>
+The denomination of ETH that gas is paid in. Each Gwei is 0.000000001 ETH.
 
 <h3>HODL</h3>
 The practice of amassing and keeping crypto. A typo for “hold” that has come to mean “Hold On for Dear Life”. It became a rallying cry when crypto was having more downs than ups and hold was <a href="https://youtu.be/_H2ggdmXRgg?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=179" target="_blank">misspelled in a popular form post</a>.
@@ -114,7 +144,7 @@ Refers to people that panic sell instead of continuing to hodl as the value of a
 An individual who holds a large amount of bitcoin or another <a href="/faq/what-is-cryptocurrency/" target="_blank">cryptocurrency</a>.
 
 {% include callouts/callout.html
-   title="<a href="/courses/crypto-curious-course/" target="_blank">Watch The Crypto Curious Course</a>"
+   title='<a href="/courses/crypto-curious-course/" target="_blank">Watch The Crypto Curious Course</a>'
 	bodyText="Bridging the education gap for new adopters with a single class designed to take you from curious to confident!"
 %}
 
