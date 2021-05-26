@@ -19,7 +19,7 @@ Lost in a sea of new terms as you try to find your way to crypto clarity? If you
 
 <h2>Cryptocurrency Technical and Slang Terms</h2>
 <h3>Address</h3>
-Used to receive and <a href="https://youtu.be/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">transactions on a blockchain network</a>. It contains a string of alphanumeric characters, but can also be represented as a scannable <a href="https://weteachblockchain.org/faq/what-are-qr-codes/" target="_blank">QR code</a>. Anyone can send a transaction to that address, but only the address’ true owner(owner of the corresponding private key) can access these funds or messages.
+Used to receive and <a href="https://youtu.be/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">transactions on a blockchain network</a>. It contains a string of alphanumeric characters, but can also be represented as a scannable <a href="https://weteachblockchain.org/faq/what-are-qr-codes/" target="_blank">QR code</a>. Anyone can send a transaction to that address, but only the address’ true owner (owner of the corresponding private key) can access these funds or messages.
 
 <h3>Addy</h3>
 A slang term for “address”, as in a <a href="/faq/cryptocurrency-wallets/" target="_blank">crypto wallet’s</a> address.
@@ -71,9 +71,6 @@ Short for Decentralized Exchange. DEXs facilitate cryptocurrency transactions pe
 
 <h3>Double-Spend</h3>
 When someone tries to send the same cryptocurrency to two different addresses. Decentralized consensus and mining prevent a user from spending tokens in more than one place at a time. Otherwise, digital assets can be copied and distributed, similar to counterfeiting.
-
-<h3>EVM (Ethereum Virtual Machine)</h3>
-The Ethereum Virtual Machine is a collective system made up of hundreds of thousands of individual nodes around the world.
 
 <h3>Exchange</h3> 
 A website or organization that allows and facilitates the <a href="/faq/how-to-buy-bitcoin/" target="_blank">transfer of fiat to cryptocurrency</a> as well as the reverse. Some exchanges allow you to trade your crypto for other cryptocurrencies.
@@ -183,6 +180,9 @@ Buying a coin as the price drops in the short term in hopes of future profit.
 
 <h3>DYOR - Do Your Own Research</h3>
 One of the most important concepts in crypto. Don’t just listen to what you hear from others. Take the time to verify for yourself.
+
+<h3>EVM - Ethereum Virtual Machine</h3>
+The Ethereum Virtual Machine is a collective system made up of hundreds of thousands of individual nodes around the world.
 
 <h3>FOMO - Fear Of Missing Out</h3>
 That feeling you get in your gut when you think you are about to miss out on a cryptocurrency price increase.
