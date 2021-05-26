@@ -42,7 +42,7 @@ A trader who holds a lot of crypto and thinks that the market is going to fall.
 <h3>Blocks</h3>
 Each block on a <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a> represents a collection of transactions that have taken place. As the transactions are validated, they are compiled into the blockchain permanently. Blocks include a timestamp and are built in such a way that they cannot be changed once recorded.
 
-<h>Block Reward</h3>
+<h3>Block Reward</h3>
 The cryptocurrency reward given to the miner or mining pool which first proposes a new block once it is added to the chain.
 
 <h3>Bitcoin Maximalist</h3>
