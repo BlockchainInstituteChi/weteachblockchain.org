@@ -19,7 +19,7 @@ Lost in a sea of new terms as you try to find your way to crypto clarity? If you
 
 <h2>Cryptocurrency Technical and Slang Terms</h2>
 <h3>Address</h3>
-Used to receive and send <a href="https://youtu.be/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">transactions on a blockchain network</a>. It contains a string of alphanumeric characters, but can also be represented as a scannable <a href="https://weteachblockchain.org/faq/what-are-qr-codes/" target="_blank">QR code</a>.
+Used to receive and <a href="https://youtu.be/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">transactions on a blockchain network</a>. It contains a string of alphanumeric characters, but can also be represented as a scannable <a href="https://weteachblockchain.org/faq/what-are-qr-codes/" target="_blank">QR code</a>. Anyone can send a transaction to that address, but only the address’ true owner(owner of the corresponding private key) can access these funds or messages.
 
 <h3>Addy</h3>
 A slang term for “address”, as in a <a href="/faq/cryptocurrency-wallets/" target="_blank">crypto wallet’s</a> address.
@@ -42,11 +42,17 @@ A trader who holds a lot of crypto and thinks that the market is going to fall.
 <h3>Blocks</h3>
 Each block on a <a href="/faq/what-is-blockchain/" target="_blank">blockchain</a> represents a collection of transactions that have taken place. As the transactions are validated, they are compiled into the blockchain permanently. Blocks include a timestamp and are built in such a way that they cannot be changed once recorded.
 
+<h>Block Reward</h3>
+The cryptocurrency reward given to the miner or mining pool which first proposes a new block once it is added to the chain.
+
 <h3>Bitcoin Maximalist</h3>
 People that believe Bitcoin is the only cryptocurrency that is needed and that all other cryptos are inferior. 
 
 <h3>Bull</h3>
 A trader that holds positive sentiment about the market and expects it to rise.
+
+<h3>Consensus</h3>
+The process that a decentralized network goes through when agreeing upon the validity of transactions and when deciding which transactions should be included in a block.
 
 <h3>Cryptography</h3> 
 Mathematics creates codes and ciphers in order to conceal information. Cryptography is used as the basis for the mathematical problems used to verify and secure transactions on the Blockchain.
@@ -62,6 +68,9 @@ Short for <a href="/decentralized-finance-course/" target="_blank">Decentralized
 
 <h3>DEX</h3>
 Short for Decentralized Exchange. DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party.
+
+<h3>Double-Spend</h3>
+When someone tries to send the same cryptocurrency to two different addresses. Decentralized consensus and mining prevent a user from spending tokens in more than one place at a time. Otherwise, digital assets can be copied and distributed, similar to counterfeiting.
 
 <h3>EVM (Ethereum Virtual Machine)</h3>
 The Ethereum Virtual Machine is a collective system made up of hundreds of thousands of individual nodes around the world.
@@ -84,14 +93,23 @@ The fee required to complete a transaction or execute a smart contract on the Et
 <h3>Gwei</h3>
 The denomination of ETH that gas is paid in. Each Gwei is 0.000000001 ETH.
 
+<h3>Hash</h3>
+A fixed-length string which can represent data of arbitrary size. A hash function converts any data (even images, videos, or an entire website) into an output like 0xdeadb33f and will produce the same output for any input. If the input is changed even slightly, the hash output will change as well.
+
 <h3>HODL</h3>
 The practice of amassing and keeping crypto. A typo for “hold” that has come to mean “Hold On for Dear Life”. It became a rallying cry when crypto was having more downs than ups and hold was <a href="https://youtu.be/_H2ggdmXRgg?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=179" target="_blank">misspelled in a popular form post</a>.
+
+<h3>Immutability</h3>
+The property that describes the fact that information added to the blockchain is final; it cannot be amended. Transactions are irreversible, only an opposite transaction can be executed.
 
 <h3>Lambo</h3>
 Short for Lamborghini, when someone asks “When Lambo?” they are asking when a particular coin's price will increase and they will profit enough to buy a Lamborghini.
 
 <h3>Mining</h3>
 The process of <a href="https://youtu.be/Q_BtAGu5i_c?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&t=3" target="_blank">adding transactions to blocks</a> and securing the blockchain. Miners are specialized hardware that race to solve equations and add the next block to the chain. The computer that wins receives the block reward for creating the newly added block.  
+
+<h3>Mempool</h3>
+The digital waiting room where transactions are sent before they are included in a block by a miner.
 
 <h3>Moon</h3>
 When a cryptocurrency rapidly increases in value, people will say “to the moon” or it’s “mooning” 
@@ -101,7 +119,7 @@ You will also hear the question “When Moon?” asking when will the price of a
 A person that has no bitcoin or crypto. Can sometimes be used as a derogatory term for people outside the crypto community.
 
 <h3>Node</h3>
-A computer that possesses a copy of the blockchain and is working to maintain it.
+A computer that is running a blockchain’s software and is working to maintain it.
 
 <h3>Peer-to-Peer (P2P)</h3>
 A system in which computers talk directly to each other with no centralized system in between.
@@ -109,11 +127,11 @@ A system in which computers talk directly to each other with no centralized syst
 <h3>Private Key</h3>
 A private key is a string of data that can digitally prove you have access to the crypto in a specific wallet. Private keys can be thought of as a password; they must never be revealed to anyone, as they allow you to spend the bitcoins from your bitcoin wallet through a <a href="/courses/blockchain-101/02/asymmetric-encryption" target="_blank">cryptographic signature</a>.
 
-<h3>Proof-of-Work</h3>
-A system that ties mining capability to computational power. Blocks must be hashed, which is in itself an easy computational process, but an additional variable is added to the hashing process to make it more difficult. When a block is successfully hashed, the process must have taken some time and computational effort. Thus, a hashed block is considered proof of work.
-
 <h3>Proof-of-Stake</h3>
 An alternative to the proof-of-work system, in which your existing stake in a cryptocurrency (the amount of that currency that you hold) is used to calculate the amount of that currency that you can mine. The higher your stake, the more likely you are to be selected as a validator and receive a block reward.
+
+<h3>Proof-of-Work</h3>
+A system that ties mining capability to computational power. Blocks must be hashed, which is in itself an easy computational process, but an additional variable is added to the hashing process to make it more difficult. When a block is successfully hashed, the process must have taken some time and computational effort. Thus, a hashed block is considered proof of work.
 
 <h3>Public Key</h3>
 A cryptographic key that can be obtained and used by anyone to encrypt messages intended for a particular recipient, such that the encrypted messages can be deciphered only by
@@ -125,11 +143,17 @@ Short for wrecked - or what happens if you lose lots of money on a trade.
 <h3>Satoshis or Sats</h3>
 The smallest amount of bitcoin that can be sent. Named after Bitcoin’s anonymous creator that used the pseudonym <a href="/courses/blockchain-101/01/the-enigma-satoshi-nakamoto" target="_blank">Satoshi Nakamoto</a>. 
 
+<h3>Seed Phrases</h3>
+An alternate representation of a private key. Private keys are usually expressed as a long string of alphanumeric text, however, a seed phrase simplifies a private key by encoding it as a list of 12, 18, or 24 words. Seed phrases are used to back up and restore cryptocurrency wallets.
+
 <h3>Shill</h3>
 A person hyping altcoins or shitcoins for their own benefit. Don’t be this!
 
 <h3>Shitcoin</h3>
 A coin with no value or purpose.   
+
+<h3>Smart Contract</h3>
+A programmable contract that can be executed on certain blockchains, such as Ethereum.
 
 <h3>Stablecoin</h3>
 A cryptocurrency that attempts to attach its value to a fiat currency or commodity in an effort to deal with the volatility of the crypto market. 
@@ -157,7 +181,7 @@ The highest value a coin or token has ever seen.
 <h3>BTD - Buy The Dip</h3>
 Buying a coin as the price drops in the short term in hopes of future profit.
 
-<h3>DYOR- Do Your Own Research</h3>
+<h3>DYOR - Do Your Own Research</h3>
 One of the most important concepts in crypto. Don’t just listen to what you hear from others. Take the time to verify for yourself.
 
 <h3>FOMO - Fear Of Missing Out</h3>
@@ -166,5 +190,5 @@ That feeling you get in your gut when you think you are about to miss out on a c
 <h3>FUD - Fear Uncertainty Doubt</h3>
 Spreading negative, misleading, or false info to influence the perception of specific coins or the crypto market as a whole.
 
-<h3>ICO - Initial Coin Offering</h3> 
-Companies will create a new coin and sell it to raise funding. Similar to how an Initial Public Offering works.
+<h3>ICO - Initial Coin Offering</h3>
+Startups issue their own token in exchange for ether or bitcoin to raise funding. Similar to how an Initial Public Offering (IPO) works.
