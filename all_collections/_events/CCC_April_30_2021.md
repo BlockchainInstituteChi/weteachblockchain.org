@@ -3,7 +3,7 @@ title: The Crypto Curious Course Part Two
 layout: event
 image: CCC_April21_tile.jpg
 date: 2021-04-30
-eventdate: Thursday, April 30, 2021
+eventdate: Friday, April 30, 2021
 permalink: /events/CCC_April_30_2021
 rsvpUrl: https://www.eventbrite.com/e/150837064721
 eventType: Classroom
