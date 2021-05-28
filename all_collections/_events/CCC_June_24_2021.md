@@ -5,7 +5,7 @@ image: ccc_jan25_2020.jpg
 date: 2021-06-24
 eventdate: Thursday, June 24, 2021
 permalink: /events/CCC_June_24_2021
-rsvpUrl: 
+rsvpUrl: https://www.eventbrite.com/e/157088651385
 eventType: Classroom
 tags: ccc
 ---
@@ -15,7 +15,7 @@ Join us for a two-part webinar with a simple goal. You will log off understandin
 
 Part one takes place on <b>June 24th at 12:00 PM</b> and covers the basics of this new digital currency and the revolutionary technology behind it.
 
-<h3><a href="https://www.eventbrite.com/e/150837064721" target="_blank" rel="noopener">Get Your Tickets Now!</a></h3>
+<h3><a href="https://www.eventbrite.com/e/157088651385" target="_blank" rel="noopener">Get Your Tickets Now!</a></h3>
 
 <b>The Crypto Curious Course Covers:</b>
 <ul>
