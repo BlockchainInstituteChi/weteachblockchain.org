@@ -1,20 +1,20 @@
 ---
 title: The Crypto Curious Course Part Two
 layout: event
-image: CCC_April21_tile.jpg
-date: 2021-04-30
-eventdate: Friday, April 30, 2021
-permalink: /events/CCC_April_30_2021
-rsvpUrl: https://www.eventbrite.com/e/150837064721
+image: ccc_jan25_2020.jpg
+date: 2021-06-25
+eventdate: Friday, June 25, 2021
+permalink: /events/CCC_June_25_2021
+rsvpUrl: https://www.eventbrite.com/e/157088651385
 eventType: Classroom
 ---
-<h2>The Crypto Curious Course is back!</h2>
+<h2>Get Crypto Confident!</h2>
 
 Join us for a two-part webinar with a simple goal. You will log off understanding how transactions work on a blockchain and see the powerful potential of decentralized technology. Learn about what Bitcoin is, where it came from and how blockchain and cryptocurrency are connected.
 
 Part two takes place on <b>April 30th at 12:00 PM</b> and shows you how to conduct a crypto transaction and explores the different ways this new technology can impact several industries.
 
-<h3><a href="https://www.eventbrite.com/e/150837064721" target="_blank" rel="noopener">Get Your Tickets Now!</a></h3>
+<h3><a href="https://www.eventbrite.com/e/157088651385" target="_blank" rel="noopener">Get Your Tickets Now!</a></h3>
 
 <b>The Crypto Curious Course Covers:</b>
 <ul>
