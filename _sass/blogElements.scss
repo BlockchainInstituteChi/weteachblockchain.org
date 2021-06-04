@@ -170,10 +170,7 @@ a.readMoreLink {
     border: 1px solid #848484;
     min-height: 16em;
 }
-.blogBody img {
-    width: -webkit-fill-available;
-    margin: 0em 0em 0em 0em;
-}
+
 .blogBody {
     display: block;
     overflow: hidden;
@@ -252,6 +249,8 @@ span.blogDate {
     height: auto;
     margin-top: 0em;
     padding-bottom: 0em;
+    width: -webkit-fill-available;
+    margin: 1em 0em 2em 0em;
 }
 .row.photoLightbox {
     margin-bottom: 6em;
