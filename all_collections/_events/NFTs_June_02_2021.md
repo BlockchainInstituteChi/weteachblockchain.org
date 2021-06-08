@@ -21,7 +21,7 @@ tags: nft
         <li>What NFTs are and what makes something non-fungible</li>
         <li>The common misconceptions around them</li>
         <li>How to create your own NFTs</li>
-        <li>The different types of NFTs and what they are used for</li>
+        <li>The different types of NFTs (Utility vs. Non-Utility)</li>
         <li>The NFT art and collectible market</li>
         <li>What we think the future holds</li>
   </ul>
