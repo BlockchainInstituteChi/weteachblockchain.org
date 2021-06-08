@@ -63,6 +63,7 @@
     }
     .cccVideoPlaylist iframe {
         min-height: 38vh;
+        margin-top: 2rem !important;
     }
     .qrWithBluebackground span {
         font-size: 1.5em;
@@ -89,26 +90,48 @@
         min-height: 120vh !important;
     }
     .imageTwoCol img {
-        margin-top: -17em;
+        margin-top: .5em;
     }
     .howToBuy .imageTwoCol img {
-        margin-top: -9em;
+        margin-top: .4em;
     }
     .row.container.mobilePhonesSlider {
         min-height: 108vh !important;
-    }
-    .footer .col-md-6 {
-        min-width: 98%;
     }
     ul.navbar-nav.flex-row {
         margin-bottom: 0rem !important;
         width: fit-content;
         float: right;
     }
+    .cccVideoPlaylist h1 {
+        margin-left: .85em;
+    }
+    .coinflip h1 {
+        margin-left: 1em;
+    }
+    .pageHeaderImage .col-sm-6 h1 {
+        margin-top: 1em !important;
+    }
+    .pageHeaderImage h1 img {
+        width: 50%;
+    }
+    .pageHeaderImage p {
+        margin-top: 0em;
+    }
+    section.pageHeaderImage {
+        min-height: 40vh;
+        background-position: center !important;
+    }
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+    .pageHeaderImage .col-sm-6 h1 {
+        font-size: 1.5em;
+    }
+    .pageHeaderImage h1 img {
+        width: 70%;
+    }
     /* temp sliderIndex fix */
     ul.sliderIndex {
         min-width: 100vw;
@@ -158,10 +181,14 @@
         padding-top: calc(55% - 0.5rem);
     }
     .imageTwoCol img {
-        margin-top: -10em;
+        margin-top: -1em;
+        min-width: 100%;
     }
-    .howToBuy .imageTwoCol img {
-        margin-top: -5em;
+    .col-md-4.imageTwoCol {
+        padding-right: 0em;
+    }
+    .col-md-8 {
+        padding: 2em 0em 0em 0em;
     }
     .cccVideoPlaylist span {
         margin-left: .25em;
@@ -180,7 +207,7 @@
         margin-top: 3em !important;
     }
     .cccVideoPlaylist h1 {
-        margin-left: 0em;
+        margin-left: .65em;
     }
     .row.container.mobilePhonesSlider {
         min-height: 90vh !important;
@@ -203,14 +230,12 @@
     }
     .footer .col-md-6 {
         min-width: 100%;
-        margin: 0em 1em 1em 1em;
     }
     .container-fluid.footer.lpfooter {
         padding-top: 2.5em;
     }
-    img.madeInUptown.lazy.loaded {
-        max-width: 60%;
-        margin: -.5em auto 2em auto;
+    .coinflip h1 {
+        margin-left: .65em;
     }
 }
 

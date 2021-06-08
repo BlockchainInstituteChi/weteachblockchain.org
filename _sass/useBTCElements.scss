@@ -13,7 +13,7 @@ html, body {
     font-size: 1.9em;
     font-style: italic;
     font-weight: 100 !important;
-    margin-top: 5em !important;
+    margin-top: 3.5em !important;
 }
 .pageHeaderImage h1 img {
     margin-top: .4em;
@@ -24,6 +24,16 @@ html, body {
 .row.container {
     padding-left: .5em;
     padding-right: .5em;
+}
+h1 {
+    margin-left: 2.4em;
+}
+.getInvolvedFooter h1 {
+    margin-left: 0em;
+}
+.col-md-8 h1 {
+    margin-left: 0em;
+    padding-left: 0em;
 }
 
 /* BTC Explained */
@@ -40,8 +50,8 @@ html, body {
 }
 .whatDoQRCodes {
     padding-top: 6em;
-    padding-bottom: 5em;
-    background-color: #efefef;
+    padding-bottom: 6em;
+    background-color: #ffffff;
 }
 span.phoneQRText {
     color: black;
@@ -78,6 +88,9 @@ img.arrowRight {
     font-size: 2em;
     color: #ed0744;
 }
+section.howToBuy {
+    margin-bottom: 6em;
+}
 
 /* Explainer Video */
 .cccVideoPlaylist .row {
@@ -93,7 +106,7 @@ section.cccVideoPlaylist {
     text-transform: uppercase;
     color: #ed0744;
     font-weight: 700 !important;
-    margin-left: -.25em;
+    margin-left: 2.2em;
 }
 .cccVideoPlaylist span {
     font-weight: 500;
@@ -158,6 +171,7 @@ section.calloutQuestion {
     padding-left: 0em;
     text-transform: uppercase;
     font-weight: 700 !important;
+    margin-left: 0em;
 }
 .moreOptions span {
     color: black;
@@ -344,8 +358,8 @@ a.quickNav {
 .row.container.mobilePhonesSlider {
     min-height: 120vh;
     background-color: #efefef;
-    margin-top: 2em;
-    margin-bottom: 9em;
+    margin-top: 6em;
+    margin-bottom: 6em;
     padding-bottom: 5rem;
     position: relative;
 
@@ -392,9 +406,9 @@ img.imgInDiv.lazy.loaded {
 }
 .howToBuy .container h1 {
     padding-left: 0;
-}
-.howToBuy h1 {
-    margin-bottom: .75em;
+    margin-left: 0em;
+    margin-bottom: .25em;
+
 }
 
 .current {
@@ -403,7 +417,7 @@ img.imgInDiv.lazy.loaded {
 
 // two col img in row
 .imageTwoCol img, .imageTwoCol span {
-    max-width: calc(50% - 1rem);
+    max-width: calc(100% - 1rem);
     display: inline-block;
 }
 .imageTwoCol img {
@@ -411,12 +425,16 @@ img.imgInDiv.lazy.loaded {
 }
 .imageTwoCol span {
     color: #149ba4;
-    padding-left: 1rem;
+    padding-left: 0em;
     font-weight: 500;
+    margin-bottom: 1em;
 }
 .container li {
     color: black;
     margin-left: -0.75rem;
+}
+.col-md-4.imageTwoCol {
+    padding-left: 0em;
 }
 
 /* Slider Index */
