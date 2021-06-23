@@ -32,7 +32,7 @@ sticky: true
 
 {% include callouts/callout.html
     title="Centralized exchanges vs Decentralized exchanges"
-    bodyText="Interested in buying a token that isn’t listed on a centralized exchange? Decentralized exchanges, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party."
+    bodyText="Interested in buying a token that isn’t listed on a centralized exchange? <a href='/faq/decentralized-exchange-comparison/' target='_blank'>Decentralized exchanges</a>, or DEXs, allow for the transfer of cryptocurrencies for other tokens. Centralized exchanges, like Coinbase, process all transactions internally, while DEXs facilitate cryptocurrency transactions peer-to-peer without the need for a third party."
 %}
 <h3>Pros & Cons of buying bitcoin via exchange</h3>
 <h4>Pros</h4>
