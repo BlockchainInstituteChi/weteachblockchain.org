@@ -34,7 +34,7 @@ sticky: false
 
 <span>Since there is no middleman, fees are lower compared to the ones incurred on centralized exchanges. The platform instead uses liquidity pools where others can lock up their cryptocurrency, making it available to others for swap while collecting a small liquidity pool fee. It really isn’t feasible to find someone who wants to make the exact trade you are looking for. Instead, users interact with a liquidity pool, making swapping quicker and more efficient.</span>
 
-<span>Decentralized exchanges are not controlled by any person or group. Because there is no central authority to hack or shut down, DEX development will likely be the focus as crypto continues to gain popularity. Decentralized exchanges also largely do not have any identity verification, as there is no central entity to maintain such a process.</span>
+<span><a href='/faq/decentralized-exchange-comparison/' target='_blank'>Decentralized exchanges</a> are not controlled by any person or group. Because there is no central authority to hack or shut down, DEX development will likely be the focus as crypto continues to gain popularity. Decentralized exchanges also largely do not have any identity verification, as there is no central entity to maintain such a process.</span>
 
 {% include callouts/callout.html
 	bodyText="DEX platforms offer more anonymity, but the trade-off is that they are often harder to use. Also, there is very little chance of a user error being reversed, since there is no central entity that can do so."
