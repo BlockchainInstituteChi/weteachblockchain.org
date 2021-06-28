@@ -1,7 +1,7 @@
 ---
 title: Navigating NFTs
 layout: event
-image: NavigatingNFTs_EVENT.jpg
+image: NFTs_July6_2021_event.jpg
 date: 2021-07-06
 eventdate: Tuesday, July 06, 2021
 permalink: /events/NFTs_July_06_2021
