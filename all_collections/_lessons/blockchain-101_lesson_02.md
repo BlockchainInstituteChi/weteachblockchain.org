@@ -10,7 +10,7 @@ permalink: /courses/blockchain-101/01/the-birth-of-digital-money
  
 <span class="openingParagraph">The creation of Bitcoin combined several technologies in order to solve problems that other digital currencies were not able to address.</span>
 
-Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors" target="_blank" rel="noopener noreferrer">Error 402</a>? It’s an HTTP error message for not enough funds or when payment is required, and it has been there since the inception of the World Wide Web. This is proof that the internet was built with a native currency in mind. This was first addressed by David Chaum, a <a href="https://en.wikipedia.org/wiki/Cypherpunk" target="_blank" rel="noopener noreferrer">"cypherpunk"</a> dedicated to creating anonymous electronic money.
+Ever hear of <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#4xx_Client_errors" target="_blank" rel="noopener noreferrer">Error 402</a>? It’s an HTTP error message describing that insufficient funds were sent when payment is required, and it has been there since the inception of the World Wide Web. This is proof that our modern World Wide Web was built with a native currency in mind, that the internet could be used for the transmission of value. This idea was first addressed by David Chaum, a <a href="https://en.wikipedia.org/wiki/Cypherpunk" target="_blank" rel="noopener noreferrer">"cypherpunk"</a> dedicated to creating anonymous electronic money.
 
 <img src="/assets/img/courses/blockchain-101/error402.jpg" alt="Computer showing Error 402 in list of errors" title="Error 402"/>
 
