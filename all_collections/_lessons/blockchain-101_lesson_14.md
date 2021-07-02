@@ -23,17 +23,17 @@ These plans are already being put into action. ConsenSys, an organization dedica
 {% include callouts/callout.html title="Enterprise" bodyText="Enterprise can be greatly impacted by blockchains by providing secure and transparent ways for tracking transactions within and between businesses, whether that be financial records, customer records, receipts, orders, etc. Blockchains can also change the way contracts are implemented between employees and partners. 
 <br>
 <br>
-Food fraud is a major problem for grocers, with some extreme cases leading to the deaths of consumers. Previously, it took weeks to identify the source of food contamination.  Walmart is using Hyperledger Fabric in order to bring transparency to the food supply chain. Instead of outright rejecting a product that may or may not be harmful, the source of contamination can be much more easily pinpointed, minimizing any disruption to the food supply chain. Walmart currently tracks 25 products using a system built upon Hyperledger Fabric." %}
+Food fraud is a major problem for grocers, with some extreme cases leading to the deaths of consumers. Previously, it took weeks to identify the source of food contamination. Walmart is using Hyperledger Fabric in order to bring transparency to the food supply chain. Instead of outright rejecting a product that may or may not be harmful, the source of contamination can be much more easily pinpointed, minimizing any disruption to the food supply chain. Walmart currently tracks 25 products using a system built upon Hyperledger Fabric." %}
 
 {% include callouts/callout.html title="Finance" bodyText="The finance industry is quite aware of blockchain technology disrupting their field, especially considering that blockchains have their own cryptocurrency integrated into their systems. Many financial institutions have shown their interest by advocating for researching and developing blockchain technology.
 <br>
 <br>
 Blockchains can be utilized to influence any system dedicated to tracking transactions and the flow of money. Financial operations are traditionally done in a very opaque manner, but these open blockchains may challenge the status quo, allowing for greater trust between business partners. These institutions may be more open to using private blockchains, as this could better protect their organization’s interests." %}
 
-{% include callouts/callout.html title="Government" bodyText="Blockchains may challenge some of the current practices we have in place that help with governance. Voting is one system that blockchains can help secure and make fairer. Blockchains can also allow us, as smaller and larger communities, to govern ourselves or at least make decisions regarding our communities.
+{% include callouts/callout.html title="Government" bodyText="Blockchains may challenge some of the current practices we have in place that help with governance. Voting is one system that blockchains can help secure and make more fair. Blockchains can also allow us, as smaller and larger communities, to govern ourselves or at least make decisions regarding our communities.
 <br>
 <br>
-The City of Denver is partnering up with Voatz, a decentralized platform that allows those overseas to reliably cast their vote. Voters use a secure application to cast their ballots." %}
+The City of Denver has previously partnered with Voatz, a decentralized platform that allows those overseas to reliably cast their vote. Voters use a secure application to cast their ballots." %}
 
 {% include callouts/callout.html title="Healthcare" bodyText="The healthcare industry in encumbered with an immense amount of paper records. Additionally, these medical records contain personal information that should only be available to the patient and their doctors. Forward Blockchain is a medical IT system that is currently being developed. Their goal is to secure medical systems by using blockchain technology." %}
 
