@@ -9,7 +9,7 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 <iframe src="https://www.youtube.com/embed/2f-IrPdTOwk?rel=0" width="1024" height="475" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-<span class="openingParagraph">We've gone over the security features of blockchains, but let's look at security on an individual level. What aspects of blockchains ensure personal security?
+<span class="openingParagraph">We've gone over the security features of blockchains, but let's look at security on an personal level. What aspects of blockchains ensure personal security?
 </span>
 
 <span style="font-weight: 400;">Asymmetric encryption is a cryptographic system that uses both </span><b>public keys </b><span style="font-weight: 400;">and </span><b>private keys</b><span style="font-weight: 400;">.</span>
@@ -40,11 +40,11 @@ permalink: /courses/blockchain-101/02/asymmetric-encryption
 
 <span style="font-weight: 400;">By now, you should understand that blockchains are a combination of existing technologies like cryptography and peer-to-peer networking, combined with an incentive layer to power a globally uncensorable network. By overlaying these technologies onto our existing processes, we can build new ways of working digitally.</span>
 
-<span style="font-weight: 400;">Encryption and decryption can be represented by keys and lockboxes, allowing the passing of secure messages. These methods have been in use since the time of Caesar. These encryption technologies are integrated into many experiences on the internet and have become more prevalent with the introduction of e-commerce.</span>
+<span style="font-weight: 400;">Encryption and decryption can be represented by keys and lockboxes, allowing the passing of secure messages. The public key is like your mailbox's address; anyone can deposit funds or a message in the form of a letter, however only the person with the key to the mailbox can open it to retrieve the messages or funds inside. These cryptogrpahic methods have been in use since the time of Caesar. These encryption technologies are integrated into many experiences on the internet and have become more prevalent with the introduction of e-commerce.</span>
 
 <img src="/assets/img/courses/blockchain-101/EstoniaID-01.jpg" alt="Phone over Estonia" title="Estonian E-Residency Program"/>
 
-<span style="font-weight: 400;">Cryptographic signing and verification is a digital representation of signatures that can ultimately replace handwritten signatures. The country of Estonia has transitioned to conducting much of their governance with Smart Chip ID cards, allowing non-residents to establish businesses remotely with their E-Residency program. Without ever visiting Europe, an individual can register a business, establish a bank account, and pay taxes from the comfort of any computer in the world!</span>
+<span style="font-weight: 400;">Cryptographic signing and verification is a digital representation of signatures that can ultimately replace handwritten signatures. The country of Estonia has transitioned to conducting much of their administrative governance with Smart Chip ID cards, allowing non-residents to establish businesses remotely with their E-Residency program. Without ever visiting Europe, an individual can register a business, establish a bank account, and pay taxes from the comfort of any computer in the world!</span>
 
 How does cryptocurrency relate to blockchains? We'll cover that in our next lesson.
 
