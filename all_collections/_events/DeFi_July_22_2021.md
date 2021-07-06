@@ -1,7 +1,7 @@
 ---
 title: Demystifying DeFi Part One
 layout: event
-image: DEFI_title.jpg
+image: DEFI_July_2021_event.jpg
 date: 2021-07-22
 eventdate: Thrusday, July 22, 2021
 permalink: /events/DeFi_July_22_2021
