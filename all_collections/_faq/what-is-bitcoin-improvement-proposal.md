@@ -1,6 +1,6 @@
 ---
 title: What is a BIP (Bitcoin Improvement Proposal)?
-image: BIP_header.jpg
+image: BIP_tile.jpg
 permalink: /faq/what-is-bitcoin-improvement-proposal/
 layout: faq
 tag: CONCEPTS
