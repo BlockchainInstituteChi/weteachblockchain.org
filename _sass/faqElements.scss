@@ -77,6 +77,7 @@ section.breadcrumbs {
     margin-bottom: 5em;
     padding-left: 0em;
     padding-right: 2em;
+    margin-top: 1.5em;
 }
 .faqBody p {
     padding: 0;
@@ -104,7 +105,7 @@ section.breadcrumbs {
 }
 .learnMoreImage {
     margin-bottom: .75em;
-    margin-top: .5em;
+    margin-top: 1.5em;
 }
 .col-md-9.eventFAQ {
     padding-left: 0em;
@@ -114,6 +115,9 @@ section.breadcrumbs {
 .col-md-3.faqSidebar {
     padding: 0em;
     margin-top: -1em;
+}
+.faqSidebar h2 {
+    margin-top: 0em;
 }
 
 /*Components on FAQ pages*/
@@ -190,4 +194,15 @@ section.breadcrumbs {
 }
 h3.topH3 {
     margin-top: 1.25em;
+}
+
+h3 a {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-top: 3em;
+    font-family: 'Kanit';
+    text-decoration-line: underline !important;
+}
+h3.learnMoreCopy {
+    margin-top: .5em;
 }

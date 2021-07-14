@@ -30,12 +30,15 @@
             dateTime=page.date
           %}
 
+          <div class="sharethis-inline-share-buttons"></div>
+
           <div class="eventBody">
             {{ content }}
           </div>
         </div>
   
         <div class="col-md-3 eventSidebar">
+          <h2>Upcoming Events</h2>
           {% assign sorted = site.events | sort: 'date' | reverse %}
           {% for event in sorted limit:3 %}
   

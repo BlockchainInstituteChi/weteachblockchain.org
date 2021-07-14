@@ -115,6 +115,9 @@ span.eventDate {
     color: darkgrey;
     text-align: left;
 }
+div#st-1 {
+    margin-top: 1em;
+}
 .eventBody {
     padding: 0.75em 0em;
 }
@@ -157,9 +160,12 @@ iframe {
     width: 93.1%;
 }
 .col-md-3.eventSidebar {
-    margin-top: 2.25em;
     padding: 0em;
     margin-bottom: 5em;
+}
+.eventSidebar h2 {
+    margin-left: .33em;
+    margin-top: 0em;
 }
 
 /* Details section */

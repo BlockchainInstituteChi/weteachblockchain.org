@@ -28,6 +28,7 @@
       <div class="row container">
         <div class="col-md-9 eventFAQ">
           <h1>{{ page.title }}</h1>
+          <div class="sharethis-inline-share-buttons"></div>
           <div class="faqBody">
             {{ content }}
 
@@ -42,6 +43,7 @@
         </div>
   
         <div class="col-md-3 faqSidebar column">
+          <h2>Related FAQs</h2>
           {% assign maxCount = 3 %}
           {% assign count = 0 %}
           {% for faq in site.faq %}
