@@ -1,6 +1,6 @@
 ---
 title: What is Taproot?
-image: BIP_tile.jpg
+image: Taproot_tile.jpg
 permalink: /faq/what-is-taproot/
 layout: faq
 tag: CONCEPTS
@@ -27,6 +27,8 @@ readtime: 2m
 
 <p>As we discuss in our <a href='/courses/crypto-curious-course/'>Crypto Curious Course</a> and <a href='/courses/demystifying-defi/'>Demystifying DeFi</a>, smart contract capabilities have been relatively limited because of certain features that have been previously adopted by Bitcoin. Taproot looks to change this, all while providing a greater level of privacy when it comes to what's in a smart contract.</p>
 
+<img src="/assets/img/Taproot_1.jpg" alt="A lock hovering above a field of bitcoin and ethereum symbols" title="Taproot 1">
+
 <p>While the upgrade doesn't enhance the anonymity that each individual has, it will make it much harder to distinguish between simple and complex transactions, like a transaction launching a smart contract.</p>
 
 {% include callouts/definition.html
@@ -35,6 +37,8 @@ readtime: 2m
 %}
 
 <p>Taproot is largely enabled by how digital signatures are organized within a transaction. The first effect is the enhanced privacy gained by streamlining and making the deployment of smart contracts less expensive. However, the reorganization of these signatures also opens up Bitcoin to employ tools similar to the ones <a href='/courses/ethereum-101-blockchain-beyond-bitcoin/'>Ethereum</a> has employed.</p>
+
+<img src="/assets/img/Taproot_2.jpg" alt="Contracts" title="Taproot 2">
 
 <p>As we discuss in the mentioned courses, the deployment and running of smart contracts has largely been limited by the technological limitations of the Bitcoin chain. Taproot looks to remove those limitations, opening several possibilities for the network. This includes the running of dApps using the Bitcoin chain and the potential to create a robust, Bitcoin-based DeFi ecosystem that could potentially catch up with Ethereum, in time.</p>
 
