@@ -5,14 +5,14 @@ permalink: /faq/what-is-bitcoin-improvement-proposal/
 layout: faq
 tag: CONCEPTS
 focusKeyword: BIP, Taproot, Bitcoin upgrade, Blockchain 
-learnMoreLink: /courses/blockchain-101/
-learnMoreText: Blockchain 101 course
-learnMoreImage: BC101-01.jpg
+learnMoreLink: /faq/what-is-taproot/
+learnMoreText: Our Taproot FAQ
+learnMoreImage: Taproot_tile.jpg
 weight: 5
 sticky: true
 readtime: 3m
 ---
-<p>As we teach in our <a href='/courses/crypto-curious-course/'>Crypto Curious Course</a>, the Bitcoin blockchain has no central administrators making decisions or changes to the Bitcoin software protocol. This, however, doesn't mean that no changes can ever be made when it comes to establishing and changing Bitcoin's rules. Bitcoin is supposed to be for the people, by the people. So how is "by the people" achieved? A new protocol change that was recently adopted gives us a great opportunity to examine how the community proposes and implements these network adjustments. We'll also explore the details of the first Bitcoin protocol change in four years, an upgrade known as Taproot.</p>
+<p>As we teach in our <a href='/courses/crypto-curious-course/'>Crypto Curious Course</a>, the Bitcoin blockchain has no central administrators making decisions or changes to the Bitcoin software protocol. This, however, doesn't mean that no changes can ever be made when it comes to establishing and changing Bitcoin's rules. Bitcoin is supposed to be for the people, by the people. So how is "by the people" achieved? A new protocol change that was recently adopted gives us a great opportunity to examine how the community proposes and implements these network adjustments. We'll also explore the details of the first Bitcoin protocol change in four years, an upgrade known as <a href='/faq/what-is-taproot/'>Taproot</a>.</p>
 
 <img src="/assets/img/BIP_1.jpg" alt="Bitcoin symbol" title="BIP 1.jpg">
 
@@ -48,4 +48,4 @@ readtime: 3m
 
 <p>Community standards BIPs don't make any actual changes to the codebase. Instead, they help provide guidelines for projects that are utilizing or developing using the Bitcoin blockchain. These suggested standards act as a guide for developers and can also include the best practices for Bitcoin holders. Process BIPs are implemented to refine the development and BIP process. </p>
 
-<p>Now that we know all about the BIP process, let's explore the latest Bitcoin network upgrade, Taproot.</p>
+<p>Now that we know all about the BIP process, let's explore the latest Bitcoin network upgrade, <a href='/faq/what-is-taproot/'>Taproot</a>.</p>
