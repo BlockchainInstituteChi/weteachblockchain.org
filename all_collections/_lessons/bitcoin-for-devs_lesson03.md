@@ -7,11 +7,11 @@ permalink:  /courses/bitcoin-for-developers/1/enter-the-blockchain-part-i
 ---
 <br>
 <br>
-<span class="openingParagraph">The Bitcoin blockchain was created to allow a network to coordinate and reach “consensus,” or agreement on shared data. Blockchains were created to solve the problem of how do users coordinate data with people, around the world, who they don’t know or trust?</span>
+<span class="openingParagraph">The Bitcoin blockchain was created to allow a decentralized network to coordinate and reach “consensus,” or agreement on the confirmation of shared data. Blockchains were created to solve the problem of how users coordinate data with people, around the world, who they don’t know or trust?</span>
 
 In this lesson and the next, we’ll walk through how the Bitcoin network comes to agreement on transaction data.
 
-But first, lets cover hashing as it is an integral part of the Bitcoin “Proof-of-Work consensus mechanism.”
+But first, lets cover hashing as it is an integral part of the Bitcoin Proof-of-Work consensus mechanism.
 
 A hash function takes an input value and creates an output value deterministic of the input value. For any input value X, you will always receive the same output value Y whenever the hash function is run. In this way, every input has a determined output.
 
@@ -23,7 +23,7 @@ A hash function takes an input value and creates an output value deterministic o
  	<li>    No matter the size of the input, the output will be a uniform size</li>
  	<li>    Easy to verify, infeasible to reverse</li>
  	<li>    Any change in the input, no matter how small, will result in a different output</li>
- 	<li>    The output can be called the hash value, digest, or simply hash</li>
+ 	<li>    The output can be called the hash value, digest, or simply a hash</li>
 </ul>
 This is very useful in a number of ways. It allows you to use a hash as a nearly unforgeable identifier of data which can then be used to validate that data. The hash of data can also be used in a table to facilitate the quick lookup of that data.
 
@@ -37,11 +37,9 @@ Bitcoin uses hash in many ways. For example, they are used to create transaction
 	bodyText='The <a href="https://en.bitcoinwiki.org/wiki/SHA-256">SHA-256</a> hash algorithm is used extensively in bitcoin.'
 %}
 
-And now that hashes are out of the way, let's get back to understanding how the Bitcoin network makes decisions on which data is correct, and which is not.
+And now that hashes are out of the way, let's get back to understanding how the Bitcoin network makes decisions on which data is valid, and which is not.
 
-The first thing to keep in mind here is that this is a truly peer-to-peer network. There is no Bitcoin corporation, nor is there any one entity in control.
-
-When trying to visualize this process, it is helpful to keep the picture of nodes (computers) on a distributed network in your head. Remember, bitcoin is not a business or corporation, there is no CEO, no one entity is in control of it. Bitcoin is simply a network of computers all running the same, or compatible, software.
+When trying to visualize this process, it is helpful to keep the picture of nodes (computers) on a distributed network in your head. Remember, Bitcoin is not a business or corporation, there is no CEO, no one entity is in control of it. Bitcoin is simply a network of computers all running the same, or compatible, software.
 
 <img src="/assets/img/courses/bitcoin-for-developers/1_b-03.jpg"  />
 
@@ -56,19 +54,19 @@ Every node on the Bitcoin network contributes to “consensus,” the process by
 
 The Bitcoin software creates a competition between mining nodes who do the work of gathering transaction data into “blocks.” In this competition, the winning miner receives a reward for their work and their block of data becomes a part of the blockchain.
 
-The mining reward plays a very important role in providing economic incentives to do the work of maintaining the network. Miners, who are simply people running computers with a lot of processing power, are competing with each other to create a valid block of Bitcoin transaction data that will be accepted by the network. When a miners block of data is accepted by the network, they are given some bitcoin as a “mining reward” or “block reward” This happens in a special transaction called a coinbase transaction (not to be confused with Coinbase the company).
+The mining reward plays a very important role in providing economic incentives to do the work of maintaining the network. Miners, who are simply people running computers with a lot of processing power, are competing with each other to create a valid block of Bitcoin transaction data that will be accepted by the network. When a miner's block of data is accepted by the network, they are given some bitcoin as a “mining reward” or “block reward”. This happens in a special transaction called a coinbase transaction (not to be confused with Coinbase the company).
 
 <img src="/assets/img/courses/bitcoin-for-developers/Halving-01.jpg"  />
 
-When the Bitcoin network was launched in 2009, the reward was 50 BTC per block. This reward halves (called halving) every 4 years (or 210,000 mined blocks) until it reaches an amount too small to transfer on the Bitcoin network. This was originally scheduled for the year 2140, but due to variations in difficulty adjustments, will likely occur before then.
+When the Bitcoin network was launched in 2009, the reward was 50 BTC per block. This reward halves (called halving) every 4 years (or 210,000 mined blocks) until it reaches an amount too small to transfer on the Bitcoin network. The current block reward is 6.25 bitcoin, as it has halved three times from the original 50 BTC reward. The last Bitcoin was originally scheduled for the year 2140, but due to variations in difficulty adjustments, will likely occur before then.
 
 To create a valid block and win the competition, a miner needs to validate all the transactions in the block and then find a hash for the block that meets with the current network requirements.
 
-The Bitcoin software is designed to self adjust it’s settings so that a block is found roughly every ten minutes. This is done via a network difficulty setting. Roughly every two weeks, every 2016 blocks, all the nodes on the network calculate how quickly valid blocks were “found” or “mined” on the network. If valid blocks of transaction data were mined more frequently than every 10 min, the difficulty requirement will go up. If blocks were minded less often than every 10 min, the difficulty requirement will do down.
+The Bitcoin software is designed to self adjust it’s settings so that a block is found roughly every ten minutes. This is done via a network difficulty setting. Roughly every two weeks, or every 2016 blocks, all the nodes on the network calculate how quickly valid blocks were “found” or “mined” on the network. If valid blocks of transaction data were mined more frequently than every 10 min, the difficulty requirement will go up. If blocks were minded less often than every 10 min, the difficulty requirement will do down.
 
 The difficulty requirement is simply the format of the hash of the block data.
 
-When the difficulty requirement goes up, then the network will only accept hashes that start with a greater number of zeros.
+When the difficulty requirement goes up, then the network will only accept hashes that start with a greater number of zeros. Effectively, an extra digit is added to the variable being sought, making it more difficult to solve and create a block. Difficulty adjustment is changed to keep block production as close to ten minutes as possible.
 
 For example, the first hash below might not be ‘difficult’ enough to meet current network standards, while the second hash might be satisfactory.
 
@@ -99,7 +97,7 @@ This hashing is intentional busy work called “<a href="https://en.wikipedia.or
 
 This competition plays out with a miner winning the competition and receiving a reward roughly every 10min.
 
-In the next lesson, we’ll see how this competition determines which transaction in a double spend is valid and which is rejected. But first, here are some Mining Terms to get familiar with:
+In the next lesson, we’ll see how this competition determines which transaction in a double spend is valid and which is rejected. But first, here are some mining-related terms to get familiar with:
 
 {% include callouts/definition.html
 	title="DIFFICULTY"
