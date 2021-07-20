@@ -12,12 +12,12 @@ permalink: /courses/blockchain-for-business/1/governance-and-forks
 <span class="openingParagraph">
 While private blockchains can be designed or changed to suit the needs of a particular organization, public blockchains have a much more difficult time making changes because of their egalitarian decentralized networks.</span>
 
-Decentralized systems are designed to bring power back to the people. This introduces a unique problem: How do decentralized systems govern themselves? Through a combination of improvement proposals and protocol upgrades via software changes, blockchains can govern themselves with the help and direction of each node on the network.
+Decentralized systems are designed to bring power back to the people. This introduces a unique problem: How do decentralized systems govern themselves? Through a combination of improvement proposals and protocol upgrades via software changes, blockchains are able to govern themselves with the help and direction of each node on the network.
 
-<span style="font-weight: 400;">The goal within a public blockchain is creating a balance of power. Developers, miners, exchanges, users, and merchants all have a role to play in the ecosystem, giving them the ability to have input in the governance of the network and power. Developers write and release the code, but no one has to run that code. Miners can agree to mine blocks to new standards, but individual nodes can refuse to accept and forward blocks that don't meet those standards. Users and merchants have the power to run the software that they feel is best. The public blockchain ecosystem has a set of built-in checks and balances. Each group gets to represent their interests.</span>
+<span style="font-weight: 400;">The goal within a public blockchain is creating a balance of power. Developers, miners, exchanges, users, and merchants all have a role to play in the ecosystem, giving them the ability to have input in the governance of the network and power. Developers write and release the code, but no one has to run that code. Miners can agree to mine blocks to new standards, but individual nodes can refuse to accept and forward blocks that don't meet those standards. Users and merchants have the power to run the version of the  software that they feel is best. The public blockchain ecosystem has a set of built-in checks and balances, with each group gets to represent their interests.</span>
 <h3>PROTOCOL CHANGES</h3>
 
-<span style="font-weight: 400;">A popular way of addressing potential protocol changes is by going through a proposal implementation process. Each blockchain has a different process for addressing community introduced proposals, but each involves a rigorous process before a recommendation is approved for implementation.</span>
+<span style="font-weight: 400;">A popular way of addressing potential protocol changes is by going through a proposal implementation process. Each blockchain has a different process for addressing community introduced proposals, but each involves a long, rigorous process before a recommendation is approved for implementation.</span>
 
 <img src="/assets/img/courses/blockchain-for-business/BIP-01.jpg" alt="Bitcoin Improvement Proposal" title="Bitcoin Improvement Proposal"/>
 
@@ -25,7 +25,7 @@ Decentralized systems are designed to bring power back to the people. This intro
 
 <span style="font-weight: 400;">There are three types of BIPs:</span>
 <ul>
- 	<li>Standards Track BIPs - Changes to the network protocol, block or transaction validation, or anything affecting interoperability.</li>
+ 	<li>Standards Track BIPs - Changes to the code that makes up network protocols, or transaction validation.</li>
  	<li>Informational BIPs - Design issues, general guidelines. This type of BIP is NOT for proposing new features and does not represent a community consensus.</li>
  	<li>Process BIPs - Describes or proposes a change in the blockchain’s processes. Similar to Standards BIPs but apply outside the Bitcoin protocol.</li>
 </ul>
@@ -46,7 +46,7 @@ Decentralized systems are designed to bring power back to the people. This intro
 </ul>
 <h4>Soft Fork</h4>
 <ul>
- 	<li>A protocol change that is backward compatible, and therefore much less problematic to implement. A soft fork is backward compatible; it can still work with previous versions of the blockchains software. New blocks can still be recognized by old software, making soft forks much less contentious than hard forks. Soft forks are a useful tool for minor network changes.</li>
+ 	<li>A protocol change that is backward compatible, and therefore much less problematic to implement. A soft fork is backward compatible; it can still work with previous versions of the blockchains software. New blocks can still be recognized by old software, making soft forks much less contentious than hard forks. Soft forks are a useful tool for minor network changes that not every node needs to adopt.</li>
 </ul>
 <h4>User Activated Soft Fork</h4>
 <ul>
