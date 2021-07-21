@@ -8,7 +8,7 @@ permalink: /courses/bitcoin-for-developers/2/asymmetric-cryptography
 <br>
 <br>
 <span class="openingParagraph">
-Cryptocurrencies are called so because <b>cryptography</b> is the material they are built with. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.</span>
+Cryptocurrencies are called so because <b>cryptography</b> is how these tokens are secured. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.</span>
 
 <b>Asymmetric </b>or public/private key cryptography was developed in the 1970s. Prior to then, the only cryptography available was symmetric. Let’s take a look at how symmetric cryptography works to gain some insight into why asymmetric cryptography was developed and the advantages it has.
 
