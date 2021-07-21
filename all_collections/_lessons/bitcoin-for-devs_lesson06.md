@@ -67,9 +67,7 @@ Bob can also use Alice’s public key to encrypt a message to Alice.
 
 Public keys and encrypted messages can now be transmitted in the open and our key thief here, Charlie, will still be unable to read the contents of the message.
 
-Asymmetric cryptography is an incredibly powerful tool that can be used for a wide variety of applications.
-
-The first use case is using this technology to encrypt and decrypt messages! However, the bitcoin software makes use of this technology to sign and verify messages, or more specifically, transactions.
+The first use case is using this technology to encrypt and decrypt messages. However, the Bitcoin software makes use of this technology to sign and verify messages, or more specifically, transactions.
 
 &nbsp;
 <h3>ENCRYPTING VS. SIGNING VS. HASHING</h3>
