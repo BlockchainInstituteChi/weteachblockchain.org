@@ -8,7 +8,7 @@ permalink: /courses/bitcoin-for-developers/2/asymmetric-cryptography
 <br>
 <br>
 <span class="openingParagraph">
-Cryptocurrencies are called so because <b>cryptography</b> is how these tokens are secured. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.</span>
+Cryptocurrencies are secured by <b>cryptography</b>. Having a basic understanding of asymmetric cryptography is a prerequisite for comprehending how cryptocurrencies work.</span>
 
 <b>Asymmetric </b>or public/private key cryptography was developed in the 1970s. Prior to then, the only cryptography available was symmetric. Let’s take a look at how symmetric cryptography works to gain some insight into why asymmetric cryptography was developed and the advantages it has.
 
@@ -49,6 +49,8 @@ If Bob knows this formula, then Alice can securely transmit this message to Bob,
 This works just fine; the problem is with transmitting the key to Bob. How do you securely transfer the key? Anyone who intercepts it will be able to read all the communication between Alice and Bob.
 
 <img src="/assets/img/courses/bitcoin-for-developers/Hannah2a-05.jpg" />
+
+A real world analogy for asymmetric encryption would be a locked mailbox. Your address is your public key, while the key that unlocked the mailbox is analgous to your private key. Anybody can come along and drop you a letter if they know your address, but only you can retrieve the messages in the mailbox. Anyone can use your private key to send you messges or funds, but they can't access the rest of your cryptocurrency unless they have your private key.
 
 This is a fundamental weakness in symmetric cryptography that was solved by asymmetric cryptography. Lets see how it's done in the next lesson!
 
