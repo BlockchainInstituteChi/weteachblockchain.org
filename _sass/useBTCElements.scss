@@ -6,16 +6,11 @@ html, body {
     font-size: 1rem;
     font-weight: 300;
     padding-top: .1em;
-}
-.pageHeaderImage h1 {
-    font-family: Open Sans;
-    font-size: 1.9em;
-    font-style: italic;
-    font-weight: 100 !important;
-    margin-top: 3.5em !important;
+    min-width: 100% !important;
 }
 .pageHeaderImage h1 img {
     margin-top: .4em;
+    width: 70%;
 }
 .col-md-6 {
     padding: 2em 4em 0em 0em;
@@ -36,59 +31,36 @@ h1 {
 }
 
 /* BTC Explained */
-.btcExplained .col-sm-4 img {
-    width: 80%;
-    text-align: center;
-    margin-left: 10%;
+section.mobileInfo {
+    margin-bottom: 7em;
 }
-.btcExplained .col-sm-4 {
-    padding: 3rem;
+.col-sm-3 img {
+    max-width: 60%;
 }
-.btcExplained {
-    background-color: #efefef;
-}
-.whatDoQRCodes {
-    padding-top: 6em;
-    padding-bottom: 6em;
-    background-color: #ffffff;
-}
-span.phoneQRText {
-    color: black;
-    font-size: 1.6rem;
-    width: 100%;
+.col-sm-6 p {
     padding: 0em;
-    display: block;
-    text-align: center;
-    font-weight: 500;
-    margin-top: 3em;
-    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: .02em;
 }
-img.arrowRight {
-    position: absolute;
-    z-index: 900;
-    max-width: 7rem;
-    right: -4rem;
-    top: 10rem;
-}
-.btcExplained .fa, .btcExplained .fas {
-    font-weight: 900;
-    margin-right: 3em;
-    margin-left: 3em;
-    font-size: 2em;
-}
-.navButtons i:hover {
-    color: #ed0744 !important;
-}
-.sliderHeader {
-    display: contents;
-}
-.sliderHeader h3 {
+.col-sm-6 h2 {
     text-transform: uppercase;
-    font-size: 2em;
-    color: #ed0744;
+    margin-top: 1.35em;
 }
-section.howToBuy {
-    margin-bottom: 6em;
+.rightAlign .col-sm-3 img {
+    float: right;
+}
+.rightAlign h2 {
+    text-align: right;
+    margin-top: 1.77em;
+}
+.rightAlign p {
+    text-align: right;
+}
+.mobileInfo .row {
+    margin-bottom: 1em;
+}
+.row.qrCTA {
+    margin-top: 5em;
 }
 
 /* Explainer Video */
@@ -101,11 +73,8 @@ section.cccVideoPlaylist {
     padding-bottom: 8em;
 }
 .cccVideoPlaylist h1 {
-    width: 100%;
-    text-transform: uppercase;
-    color: #ed0744;
-    font-weight: 700 !important;
-    margin-left: 2.2em;
+    margin-bottom: 1em;
+    margin-left: 0em;
 }
 .cccVideoPlaylist span {
     font-weight: 500;
@@ -115,10 +84,17 @@ section.cccVideoPlaylist {
     text-align: center;
 }
 .cccVideoPlaylist iframe {
-    width: 100vw;
-    min-height: 75vh;
-    margin-top: 4rem !important;
-    margin-bottom: 1.5em;
+    width: 40vw;
+    min-height: 33vh;
+    margin-top: 0em !important;
+    margin-bottom: 3.5em;
+}
+.videoDescription h2 {
+    font-size: 1.5em;
+    margin-top: 0em;
+}
+.col-sm-6.videoPlayer {
+    padding: 0em .5em;
 }
 h1.usingBitcoinIsSimple {
     color: black;
@@ -132,63 +108,23 @@ h1.usingBitcoinIsSimple {
     text-align: center;
     margin-top: 1em;
 }
-
-section.pageHeaderImage {
-    height: 75vh;
-    margin-bottom: 0em;
+.cccVideoPlaylist .col-sm-6 a {
+    color: #0B9BA4;
+    text-decoration: underline !important;
+    font-size: .85em;
 }
-
-/*Callout Question*/
-section.calloutQuestion {
-    margin: 8em 6.5em 2em 6.5em;
-}
-.calloutQuestion h1 {
+h1.faqSubHead {
     margin-left: 0em;
-    margin-right: 0em;
-    display: block;
-    max-width: 95vw;
-    padding-left: 0em !important;
-}
-.calloutQuestion h4 {
     text-transform: uppercase;
-    color: #ed0744;
-    font-weight: 600;
-    text-align: left;
-    font-size: 3.5rem;
-    width: 100%;
-    margin-left: 0em;
-    margin-top: 0em;
-    font-style: italic;
+    font-size: 1.75em;
+    padding-left: .25em;
+    margin-bottom: .75em;
+    margin-top: .5em;
 }
-
-/* MoreOptions */
-.moreOptions h1 {
-    width: 100%;
-    display: block;
-    margin-top: -2rem;
-    font-size: 2em;
-    padding-left: 0em;
-    text-transform: uppercase;
-    font-weight: 700 !important;
-    margin-left: 0em;
-}
-.moreOptions span {
-    color: black;
-}
-.moreOptions a {
-    color: #0b9ba4 !important;
-}
-.moreOptions {
-    margin-bottom: 4rem;
-    background-color: #efefef;
-}
-.moreOptions .col-sm-6 {
-    padding-left: 0em;
-}
-.moreOptions {
-    margin-bottom: 4rem;
-    background-color: #efefef;
-    padding-bottom: 7em;
+section.videoAndFAQs {
+    background: #efefef;
+    padding: 6em 0em;
+    margin-bottom: 7em;
 }
 
 
@@ -229,285 +165,96 @@ a.cta_button {
     font-family: 'Kanit';
 }
 
-/*Do More*/
-.doMore h3 {
-    text-transform: uppercase;
-    color: white;
-}
-.doMore h3 {
-    text-transform: uppercase;
-    color: white;
-}
-.doMore h1 {
-    margin-bottom: 1em;
-    color: white;
-}
-section.doMore {
-    background-color: #006889;
-    padding-top: 5.5em;
-    padding-bottom: 5.5em;
-}
-.doMore img {
-    margin-bottom: .5em;
-}
 
-section.followUsFooter {
-    text-align: center;
-    background-color: #ed0744;
-    padding-top: 4em;
-    padding-bottom: 4em;
+/* Contact Details */
+.col-sm-6 .locationDetails a {
+    color: #003449;
+    font-size: .7em;
 }
-
-.followUsFooter h1 {
-    color: white;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 3rem;
+.col-sm-6 {
+    padding-right: .5em;
+    padding-left: .5em;
 }
-.followUsFooter i {
-    font-size: 2.5rem;
-    color: white;
+.col-sm-6 img {
+    max-width: 98%;
 }
-ul.navbar-nav.flex-row {
-    margin-bottom: 4rem !important;
-    width: fit-content;
-    margin: auto;
-}
-
-.desktopPhones {
-    display: none;
-}
-section.youMadeIT {
-    font-size: 1.5rem;
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 3.75em;
-}
-section.youMadeIT span {
-    font-weight: 300;
-    padding: 1rem 0 1rem 0;
+.locationDetails span {
     display: block;
-    color: black;
-}
-.purpleStrong {
-    color: #b13173 !important;
-    font-weight: 500 !important;
-}
-.btcExplained span {
-    display: block;
-    margin-bottom: 1rem;
-    color: black;
-}
-
-.navButtons {
-    display: block;
-}
-
-.navButtons.display {
-    display: block;
-}
-.navButtons {
-    position: absolute;
-    height: 100%;
+    font-size: 1.35em;
     float: left;
-    padding-top: calc(30% - 0.5rem);
-    z-index: 500;
-    width: 88vw;
-    left: 0;
+    padding-left: .2em;
 }
-.navButtons a {
-    font-size: 2.5rem;
-    display: block;
-    position: absolute;
-}
-a#mobileSliderNavLeft {
-    left: 1rem;
-}
-a#mobileSliderNavRight {
-    left: unset;
-    right: 1rem;
-}
-a.disabled {
-    color: lightgrey;
+.locationDetails strong {
+    color: #0B9BA4;
+    text-transform: uppercase;
+    font-size: .8em;
 }
 
-// Header button
-a.quickNav {
+/* Contact Form */
+.contactUsForm h1 {
+    margin-top: -0.25em;
+    padding-left: 0em;
+    margin-left: 0em;
+    float: left;
+}
+.contactUsForm input, .contactUsForm textarea {
+    width: 100%;
+    padding: .75em;
+    font-size: 1em;
+    border: #ed0744 1px solid;
+    margin-bottom: 0.5em;
+    font-family: Open Sans;
+}
+.contactUsForm textarea {
+    min-height: 9em;
+}
+.contactUsForm button {
+    width: 60%;
+    background: #003449;
     color: white;
-    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-top: 1em;
+    float: left;
 }
-.container img {
-    max-width: 100%;
+.contactUsForm button:hover {
+    background: $brand-teal;
 }
-.col-sm-4.mpSlider {
-    z-index: 999;
-    padding: 0;
-    margin: 3rem auto 1rem auto;
-    display: none;
-    max-width: calc(100% - 8rem);
+.locationDetails {
+    padding-top: .5em;
+    line-height: 1.5em;
 }
-.mpSlider.shown {
-    margin-left: auto;
-    margin-right: auto;
+.h-captcha {
+    float: left;
+}
+
+/* Error and success handling */
+span.errorField {
+    color: red;
+    font-size: 1.25em;
     display: block;
-    background-color: #efefef;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
 }
-
-.row.container.mobilePhonesSlider {
-    min-height: 120vh;
-    background-color: #efefef;
-    margin-top: 6em;
-    margin-bottom: 6em;
-    padding-bottom: 5rem;
-    position: relative;
-
-}
-
-/*Ambassadors*/
-.ambassadors img {
-    max-width: 100%;
-}
-section.ambassadors {
-    padding-top: 3em;
-    padding-bottom: 6em;
-    background-color: white;
-}
-.ambassadors span {
-    color: black;
-}
-
-// qr code section
-section.qrWithBluebackground {
-    background: #016889;
-    padding-bottom: 6em;
-    padding-top: 6em;
-}
-img.imgInDiv.lazy.loaded {
-    max-width: 100%;
-}
-.qrWithBluebackground span {
-    color: white;
-    font-family: open sans;
-    font-size: 2em;
-    font-weight: 200;
-    font-style: italic;
-}
-
-.mobilePhonesSlider h1 {
+.successMessage {
+    font-size: 1.35em;
     text-align: center;
+    display: block;
+    margin-top: 2em;
+}
+.successMessage span {
     width: 100%;
     display: block;
-    margin-left: -0.5rem;
-}
-.howToBuy img {
-    max-width: 100%;
-}
-.howToBuy .container h1 {
-    padding-left: 0;
-    margin-left: 0em;
-    margin-bottom: .25em;
-
-}
-
-.current {
-    color: red !important;
-}
-
-// two col img in row
-.imageTwoCol img, .imageTwoCol span {
-    max-width: calc(100% - 1rem);
-    display: inline-block;
-}
-.imageTwoCol img {
-    margin-top: 0em;
-}
-.imageTwoCol span {
-    color: #149ba4;
-    padding-left: 0em;
-    font-weight: 500;
-    margin-bottom: 1em;
-}
-.container li {
-    color: black;
-    margin-left: -0.75rem;
-}
-.col-md-4.imageTwoCol {
-    padding-left: 0em;
-}
-
-/* Slider Index */
-.sliderIndex li {
-    display: inline-block !important;
-    font-size: 5rem;
-    margin-left: .5rem;
-    font-family: 'Roboto';
-}
-ul.sliderIndex {
-    min-width: 89vw;
     text-align: center;
-    position: absolute;
-    left: 0;
-    margin-left: -0.5rem;
-    padding-left: 0;
-    z-index: 1000;
-    bottom: 3em;
-}
-
-
-
-span.youtubePlaylistLink {
-    font-size: 1em;
-}
-
-// newsletter section
-section.newsletter {
-    padding-bottom: 7rem;
-    margin-top: 7em;
-}
-.newsletter span {
-    color: black;
-}
-
-// landing page footer
-.lpfooter .col-md-3.bciLogo {
-    max-width: 50%;
-    padding: 0;
-}
-.container-fluid.footer.lpfooter {
-    padding-left: 0;
-    padding-right: 0;
-}
-.lpfooter .row {
-    padding: 0;
-    max-width: unset;
-}
-.lpfooter .col-md-3.bciLogo, .lpfooter .col-md-3.bciSocial {
-    max-width: calc(50% - 3rem);
-    padding: 0;
-    display: inline-block;
-}
-.lpfooter ul.navbar-nav.flex-row {
-    margin-top: -0.5rem;
-}
-img.madeInUptown.lazy.loaded {
-    max-width: 100%;
-}
-.col-md-3.bciSocial {
-    font-size: 1.25em;
-}
-.footer .col-md-3 img {
+    margin: 2em;
     max-width: 80%;
-    margin-top: 1em;
 }
-.footer .col-md-6 {
-    padding: 1em;
-}
-.container-fluid.footer.lpfooter {
-    padding-top: 4em;
-    padding-bottom: 6em;
-}
-img.madeInUptown.lazy.loaded {
-    max-width: 30%;
-    margin: auto;
+.successMessage i {
+    font-size: 3.5em;
+    color: #00800096;
 }

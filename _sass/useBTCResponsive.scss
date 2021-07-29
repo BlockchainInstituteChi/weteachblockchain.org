@@ -5,6 +5,12 @@
 
 /* Tablet */
 @media screen and (max-width: 800px) {
+    .locationDetails span {
+        text-align: left;
+    }
+    .col-sm-6 .locationDetails a {
+        text-decoration: underline !important;
+    }
     .desktopPhones {
         display: none;
     }
@@ -62,8 +68,7 @@
         font-size: 1.5em;
     }
     .cccVideoPlaylist iframe {
-        min-height: 38vh;
-        margin-top: 2rem !important;
+        min-height: 22vh;
     }
     .qrWithBluebackground span {
         font-size: 1.5em;
@@ -75,10 +80,7 @@
         font-size: 2.5rem;
     }
     .pageHeaderImage .col-sm-6 {
-        margin: 4em 0em 0em 2em;
-    }
-    section.pageHeaderImage {
-        margin-bottom: 0em;
+        padding-right: 9em;
     }
     .btcExplained .fa, .btcExplained .fas {
         font-weight: 900;
@@ -103,14 +105,12 @@
         width: fit-content;
         float: right;
     }
-    .cccVideoPlaylist h1 {
-        margin-left: .85em;
-    }
     .coinflip h1 {
         margin-left: 1em;
     }
     .pageHeaderImage .col-sm-6 h1 {
         margin-top: 1em !important;
+        margin-right: 3em;
     }
     .pageHeaderImage h1 img {
         width: 50%;
@@ -122,10 +122,27 @@
         min-height: 40vh;
         background-position: center !important;
     }
+    .col-sm-6 h2 {
+        margin-top: .75em;
+        font-size: 1.5em;
+    }
+    .col-sm-6 p {
+        font-size: 1em;
+    }
+    .rightAlign h2 {
+        margin-top: 1em;
+    }
 } 
 
 /* Mobile */
 @media screen and (max-width: 600px) {
+    .col-sm-3 img {
+        display: none;
+    }
+    .row.qrCTA {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
     .pageHeaderImage .col-sm-6 h1 {
         font-size: 1.5em;
     }
@@ -151,8 +168,11 @@
     }
     .cccVideoPlaylist iframe {
         min-height: 22vh;
-        padding-left: .5em;
-        padding-right: .5em;
+        width: 100%;
+        margin-bottom: 0em;
+    }
+    .col-sm-6.videoDescription {
+        margin-bottom: 2em;
     }
     .calloutQuestion h4 {
         line-height: 1em;
@@ -189,9 +209,14 @@
     .col-md-8 {
         padding: 2em 0em 0em 0em;
     }
-    .cccVideoPlaylist span {
-        margin-left: .25em;
-        margin-right: .25em;
+    .faqTile {
+        width: calc(100% - 4em) !important;
+    }
+    .contactUsForm h1 {
+        margin-top: 1em;
+    }
+    .coinflip .imgInDiv {
+        width: 100%;
     }
     .col-sm-4.mpSlider {
         margin: 4.5rem auto 3rem auto;
@@ -204,9 +229,6 @@
     }
     .pageHeaderImage h1 {
         margin-top: 3em !important;
-    }
-    .cccVideoPlaylist h1 {
-        margin-left: .65em;
     }
     .row.container.mobilePhonesSlider {
         min-height: 90vh !important;

@@ -11,281 +11,215 @@ ogUrl: https://weteachblockchain.org/use-bitcoin/
 {% include pageHeader.html
     img="CTAadmainheader.jpg" 
     imgSm="CTAadmainheader-sm.jpg" 
-    header="Welcome to <br> <img src='/assets/img/WTB_LTAlogo.png'>" 
-    text="<p>Blockchain Institute is a Chicago-based 501(c)(3) providing FREE education for blockchain beginners & beyond!</p><br><a href='#startHere' class='quickNav'><i class='far fa-arrow-alt-circle-down'></i></a>"
+    header="Welcome to WeTeachBlockchain.org" 
+    text="Blockchain Institute is a Chicago-based 501(c)(3) providing FREE education for blockchain beginners & beyond!"
+    ctaText="Learn More" 
+    ctaLink="weteachblockchain.org" 
 %}
 
-<section class="btcExplained" id="startHere">
-  <div class="whatDoQRCodes">
-    <div class="row container">
-      <div class="col-md-4 imageTwoCol">
-        <a href="/faq/what-are-qr-codes/"><img class="floatLeft" src="/assets/img/qrcode_ccc-sm.jpg"></a>
-      </div>  
-      <div class="col-md-8">
-        <h1>QR Codes & Bitcoin?</h1>
-        <span>Bitcoin addresses are just long strings of numbers and letters. These addresses can be turned into <a href="/faq/what-are-qr-codes/">QR
-          codes</a> to make the withdrawal and sending of funds easy. Instead of typing out the full address, you only need
-          to scan the QR code!</span>
-          <a href="/faq/what-are-qr-codes" class="cta_button">
-            Explore QR Codes Now
-        </a>
-      </div>
-    
-    </div>
-  </div>
-      
-  <div id="mobilePhonesSlider" class="row container mobilePhonesSlider">
-    <div class="sliderHeader">
-      <h3>QR Codes In Action</h3>
-    </div>
-    <div class="navButtons" id="navButtons">
-      <a id="mobileSliderNavLeft" href="javascript:void(0)" class="disabled" onclick="clickSliderLeft()">
-        <i class="fas fa-arrow-circle-left"></i>
-      </a>
-      <a id="mobileSliderNavRight" href="javascript:void(0)" onclick="clickSliderRight()">
-        <i class="fas fa-arrow-circle-right"></i>
-      </a>
-    </div>
-    <!-- <h1>7 Easy Steps to Using Bitcoin</h1> -->
-    <div class="col-sm-4 mpSlider shown">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-00.png">
-      <span class="phoneQRText">Most <a href="https://weteachblockchain.org/faq/cryptocurrency-wallets/">crypto wallets</a> can be downloaded on your phone from the app store!</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-01.png">
-      <span class="phoneQRText">Open your Crypto Wallet, select Bitcoin, and hit Send.</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-02.png">
-      <span class="phoneQRText">Choose the Scan option so you can scan your friend's address as a QR code</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-03.png">
-      <span class="phoneQRText">Your friend opens their <a href="https://weteachblockchain.org/faq/cryptocurrency-wallets/">crypto wallet</a> and selects Bitcoin and Receive</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-04.png">
-      <span class="phoneQRText">Scan the QR Code displayed on your friend's phone</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="mobiPhoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-05.png">
-      <span class="phoneQRText">Enter the amount you want to send</span>
-    </div>
-    <div class="col-sm-4 mpSlider">
-      <img class="phoneImg" onclick="clickSliderRight()" src="/assets/img/QRBC_landingpage-06.png">
-      <span class="phoneQRText">Hit Send!</span>
-    </div>
-  </div>
-</section>
-
-<section class="howToBuy">
-  <div class="row container">
-    <div class="col-md-4 imageTwoCol">
-      <a href="/faq/how-to-buy-bitcoin/"><img class="floatLeft" src="/assets/img/HowToBuyFAQ-sm.jpg"></a>
-    </div> 
-      <div class="col-md-8 imageTwoCol">
-        <h1>How To Buy Bitcoin</h1>
-        <span>This quick guide covers the three most popular ways to acquire cryptocurrency.</span>
-        <a href="/how-to-buy-bitcoin/" class="cta_button">
-          Learn How To Buy Now
-     </a>
-      </div>
-    </div>
-</section>
-
-<script src="/assets/js/swiped.min.js"></script>
-<script>
-  document.getElementById('navButtons').className += ' display'
-
-  window.sliderIndex = 0
-  window.sliderScreens = document.getElementsByClassName('mpSlider')
-  createSliderIndex()
-
-  function startAutoScrolling() {
-    setInterval(function () {
-      console.log('auto?', window.autoScrolling)
-      if (!window.autoScrolling) {
-
-        navSliderRight()
-      }
-    }, 3500)
-  }
-
-
-  function stopAutoScrolling() {
-    if (!window.autoScrolling) {
-      window.autoScrolling = true;
-    }
-  }
-
-  var sliderArea = document.getElementById('mobilePhonesSlider');
-  sliderArea.addEventListener('swiped-right', function (e) {
-    navSliderLeft()
-  })
-  sliderArea.addEventListener('swiped-left', function (e) {
-    navSliderRight()
-  })
-
-  function clickSliderRight() {
-    stopAutoScrolling()
-    navSliderRight()
-  }
-  function clickSliderLeft() {
-    stopAutoScrolling()
-    navSliderLeft()
-  }
-
-  setTimeout(function () {
-    setSliderScroller()
-  }, 500)
-
-  function setSliderScroller() {
-    var element = document.getElementById('mobilePhonesSlider')
-    document.addEventListener('scroll', function () {
-      if (window.scrollY > 2 * window.innerHeight) {
-        // console.log('scroll', window.scrollY, 2 * window.innerHeight, window.scrollY, window.innerHeight, !window.sliderStarted)
-        if (showPopup && !window.popUpOpened) {
-          window.popUpOpened = true
-          showPopup()
-        }
-      } else if (window.scrollY > window.innerHeight && !window.sliderStarted) {
-        window.sliderStarted = true
-        startAutoScrolling()
-      }
-    })
-
-  }
-
-  // function inView(element) {
-  //   var elementHeight = element.clientHeight;
-  //   var windowHeight = window.innerHeight;
-  //   var scrollY = window.scrollY || window.pageYOffset;
-  //   var scrollPosition = scrollY + windowHeight;
-  //   var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
-  //   // console.log('scroll', scrollPosition, 'el', elementPosition, (elementPosition + 0.5 * window.innerHeight))
-  //   if (scrollPosition > (elementPosition - 0.25 * window.innerHeight)) {
-  //     return true;
-  //   }
-
-  //   return false;
-  // }
-
-  // function animate(element) {
-  //   if (inView(element)) {
-  //     if (!window.sliderAnimate) {
-  //       startSliderAuto()
-  //       window.sliderAnimate = true
-  //     }
-  //   }
-  // }
-
-  function setSlider() {
-    console.log('setting slider', window.sliderIndex)
-    for (var i = 0; i < window.sliderScreens.length; i++) {
-      if (window.sliderIndex === i) {
-        if (!window.sliderScreens[i].className.includes('shown')) window.sliderScreens[i].className += ' shown'
-        setSliderIndex(i)
-      } else {
-        window.sliderScreens[i].className = window.sliderScreens[i].className.replace('shown', '')
-      }
-
-      setLeftButton()
-      setRightButton()
-    }
-  }
-
-  function createSliderIndex() {
-    var index = document.createElement('ul')
-    index.id = "sliderIndex"
-    index.className = "sliderIndex"
-
-    for (let i = 0; i < window.sliderScreens.length; i++) {
-      const bar = i;
-      var link = document.createElement('li')
-      link.className = " sliderIndexBullet "
-      link.addEventListener('click', () => {
-        // console.log('returning jumpSlider', bar)
-        var car = bar;
-        window.autoScrolling = true;
-        return jumpSlider(car)
-      });
-      if (i === window.sliderIndex) {
-        link.className += " current"
-      }
-      link.innerHTML = "."
-      index.appendChild(link)
-    }
-
-    document.getElementById('mobilePhonesSlider').appendChild(index)
-    window.sliderIndexUl = document.getElementsByClassName('sliderIndexBullet')
-  }
-
-  function setSliderIndex(x) {
-    window.sliderIndex = x;
-    console.log('setting slider index', x, window.sliderIndex)
-    for (var i = 0; i < window.sliderIndexUl.length; i++) {
-      if (window.sliderIndex === i) {
-        if (!window.sliderIndexUl[i].className.includes('current')) window.sliderIndexUl[i].className += " current"
-      } else {
-        2
-        window.sliderIndexUl[i].className = window.sliderIndexUl[i].className.replace('current', '')
-      }
-
-    }
-  }
-
-
-  function jumpSlider(i) {
-    setSliderIndex(i)
-    setSlider()
-  }
-
-  function navSliderRight() {
-    if (window.sliderIndex < (window.sliderScreens.length - 1)) {
-      setSliderIndex(window.sliderIndex + 1)
-      setSlider()
-    } else {
-      setSliderIndex(0)
-      setSlider()
-    }
-  }
-
-  function navSliderLeft() {
-    if (window.sliderIndex > 0) {
-      setSliderIndex(window.sliderIndex - 1)
-      setSlider()
-    }
-  }
-
-  function setLeftButton() {
-    var button = document.getElementById('mobileSliderNavLeft')
-    if (window.sliderIndex == 0) {
-      button.className += " disabled"
-    } else {
-      button.className = button.className.replace('disabled', '')
-    }
-  }
-  function setRightButton() {
-    var button = document.getElementById('mobileSliderNavRight')
-    if (window.sliderIndex == (window.sliderScreens.length - 1)) {
-      button.className += " disabled"
-    } else {
-      button.className = button.className.replace('disabled', '')
-    }
-  }      
-</script>
-
-<section class="cccVideoPlaylist">
-  <h1>Using Bitcoin is simple. We can teach you.</h1>
+<section class="ourMission">
   <div class="row">
-    <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&start=80"
+    <div>
+      <span class="missionTeal">
+        Bitcoin addresses are just long strings of numbers and letters.</span><span class="missionBlack"> These addresses can be turned into <a href="/faq/what-are-qr-codes/">QR
+          codes</a> to make the withdrawal and sending of funds easy. Instead of typing out the full address, you only need
+          to scan the QR code!
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="mobileInfo">
+  <div class="row leftAlign">
+    <div class="col-sm-3">
+      <img src="/assets/img/QRBC_landingpage-01.png">
+    </div>
+    <div class="col-sm-6">
+      <h2>Open Wallet</h2>
+      <p>Open your crypto wallet. Select bitcoin and hit the send button.</p>
+    </div>
+  </div>
+  <div class="row rightAlign">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-6">
+      <h2>Find Address</h2>
+      <p>Have the person you want to receive bitcoin open their wallet and select receive. This displays their address as a QR code.</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="/assets/img/QRBC_landingpage-03.png">
+    </div>
+  </div>
+  <div class="row leftAlign">
+    <div class="col-sm-3">
+      <img src="/assets/img/QRBC_landingpage-04.png">
+    </div>
+    <div class="col-sm-6">
+      <h2>Scan Code</h2>
+      <p>Choose the scan option after you hit send and scan the receiver's QR code.</p>
+    </div>
+  </div>
+  <div class="row rightAlign">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-6">
+      <h2>Send Bitcoin</h2>
+      <p>Enter the amount you want to transfer and hit send.</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="/assets/img/QRBC_landingpage-05.png">
+    </div>
+  </div>
+  <div class="row qrCTA">
+    <a href="/faq/what-are-qr-codes/" class="callToActionButton">Learn more about QR codes</a>
+  </div>
+</section>
+
+
+<section class="videoAndFAQs">
+  <div class="row cccVideoPlaylist">
+    <h1>Using Bitcoin is simple. We can teach you.</h1>
+    <div class="col-sm-6 videoPlayer">
+      <iframe src="https://www.youtube.com/embed/oP3bKCa8Rq4?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz&start=80"
       frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
-    <span>Learn what happens behind the scenes of a bitcoin transaction step-by-step.</span>
-   <span class="youtubePlaylistLink"> <a href="https://www.youtube.com/playlist?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz">We also have dozens of individual lessons just like this one. Click here to check them out!</a></span>
+    </div>
+    <div class="col-sm-6 videoDescription">
+      <h2>Learn what happens behind the scenes of a bitcoin transaction step-by-step.</h2>
+      <span class="youtubePlaylistLink"> <a href="https://www.youtube.com/playlist?list=PLVmd1I9lPns-xZJ_jBotqiQdfAxGD8_lz">We also have dozens of individual lessons just like this one. Click here to check them out!</a></span>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="faqSubHead">Learn more with our FAQs</h1>
+    <div class="faqThumbnailContainer">
+      {% assign faqSample = site.faq | where: "sticky", "true" | sample: 4 %}
+      {% for item in faqSample limit:4 %}
+      {% include faqTile.html 
+          image=item.image
+          imageSm=item.imageSm
+          imageMd=item.imageMd
+          keywords=item.focusKeyword
+          link=item.permalink
+          title=item.title
+          readtime=item.readtime
+				  author=item.tag
+        %}
+      {% endfor %}
+    </div>
   </div>
 
 </section>
+
+
+<section class="header">
+	<div class="row">
+		<div class="col-sm-6">
+			<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
+				<img src="/assets/img/map.jpg" alt="Map of location" title="Where to find the Institute">
+			</a>
+			<div class="locationDetails">
+				<span>
+					<strong>Address:</strong>
+					<a href="https://goo.gl/maps/4Xcw3FwdbbTFXNzx6" target="_blank">
+						4649 North Broadway Ave. Chicago, IL 60640
+					</a>
+				</span>
+				<span>
+					<strong>Email:</strong>
+					<a href="mailto:info@weteachblockchain.org" target="_blank">
+						info@weteachblockchain.org
+					</a>
+				</span>
+			</div>
+
+
+		</div>
+		<div class="col-sm-6 contactUsForm">
+			<h1>Leave a Message</h1>
+			<span class="errorField"></span>
+			<input type="text" placeholder="Name" id="contactUsName">
+			<input type="text" placeholder="Email" id="contactUsEmail">
+			<input type="text" placeholder="Subject" id="contactUsSubject">
+			<textarea placeholder="Your message here" id="contactUsMessageBody"></textarea>
+			<!-- <div class="g-recaptcha" data-callback="recaptchaVerify" data-sitekey="6LdlEHkUAAAAAHpHvXxmG1mbtKGq1Pz3T0CbuP2N"></div> -->
+			<div class="h-captcha" data-sitekey="3fe93b4a-9521-4c22-a75e-7a573781f75f"></div>
+			<button onclick="submitContactUsForm()">Submit</button>
+		</div>
+	</div>
+</section>
+
+<script src="https://hcaptcha.com/1/api.js" async defer></script>
+
+<script>
+	function submitContactUsForm() {
+		var formDetails = {
+			name: document.getElementById('contactUsName').value,
+			email: document.getElementById('contactUsEmail').value,
+			subject: document.getElementById('contactUsSubject').value,
+			message: document.getElementById('contactUsMessageBody').value,
+			token: hcaptcha.getResponse(),
+			ambassador: false
+		}
+
+		// console.log('formDetails', formDetails)
+		if ((formDetails.name == "") || (formDetails.email == "") || (formDetails.subject == "") || (formDetails.message == "")) return handleError('You must fill all fields to submit the form.')
+		if (!validateEmail(formDetails.email)) return handleError('You must submit a valid email.')
+		if ((!formDetails.token) || ("" == formDetails.token)) return handleError('You must verify you are not a robot by clicking the reCaptcha.')
+
+		var xhr = new XMLHttpRequest();
+		xhr.open("POST", 'https://app.weteachblockchain.org/contact/', true);
+		// xhr.open("POST", "http://localhost:8888/contact/", true);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200)
+				// console.log('xhr response:', xhr.responseText)
+				var response = JSON.parse(xhr.responseText)
+			if (response.success) {
+				handleSuccess("Your Message has been submitted!");
+				setTimeout(function () {
+					window.location = "/"
+				}, 3000)
+			} else {
+				handleError("Error: " + JSON.stringify(response));
+			}
+		}
+		xhr.setRequestHeader('Content-Type', 'application/json');
+		xhr.setRequestHeader('access-control-allow-origin', '*');
+		xhr.send(JSON.stringify(formDetails));
+
+	}
+	function validateEmail(email) {
+		var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		return re.test(String(email).toLowerCase());
+	}
+	function handleError(error) {
+		var errorContainer = document.getElementsByClassName('errorField')[0];
+		errorContainer.textContent = error;
+	}
+	function handleSuccess(successMessage) {
+		var fieldContainer = document.getElementsByClassName('contactUsForm')[0]
+
+		var container = document.createElement('div')
+		container.className = 'successMessage'
+
+		var span = document.createElement('span')
+		span.textContent = successMessage
+
+		var icon = document.createElement('i')
+		icon.className = "fas fa-check-circle"
+
+		container.appendChild(icon)
+		container.appendChild(span)
+
+		do {
+			fieldContainer.children[0].remove()
+		} while (fieldContainer.children.length > 0)
+
+		fieldContainer.appendChild(container)
+
+	}
+
+</script>
+
 
 <section class="coinflip">
   <a href="https://coinflip.tech">
