@@ -1,10 +1,10 @@
 ---
-title: What is a BIP (Bitcoin Improvement Proposal)?
+title: What is a BIP?
 image: BIP_tile.jpg
 permalink: /faq/what-is-bitcoin-improvement-proposal/
 layout: faq
 tag: CONCEPTS
-focusKeyword: BIP, Taproot, Bitcoin upgrade, Blockchain 
+focusKeyword: BIP, Taproot, Bitcoin upgrade, Blockchain, Bitcoin Improvement Proposal 
 learnMoreLink: /faq/what-is-taproot/
 learnMoreText: Our Taproot FAQ
 learnMoreImage: Taproot_tile.jpg
