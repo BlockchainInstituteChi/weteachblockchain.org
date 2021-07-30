@@ -21,8 +21,8 @@ sticky: false
 
 {% include callouts/definition.html
 	title="NODE"
-	bodyText="A node is a computer that runs a blockchain’s software and is working to maintain it.
-	Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>."
+	bodyText='A node is a computer that runs a blockchain’s software and is working to maintain it.
+	Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>.'
 %}
 
 <p>If groups of nodes are running different software or there are inconsistencies in the record of transactions, it can cause the blockchain to fork.</p>
