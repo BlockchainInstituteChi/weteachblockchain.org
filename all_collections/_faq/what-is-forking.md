@@ -13,8 +13,6 @@ learnMoreImage: BC101-01.jpg
 weight: 10
 sticky: false
 ---
-<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" alt="Illustration representing forking with boxes splitting and making more boxes over and over" title="Forking">
-
 <p>No, we are not talking about everyone’s favorite piece of silverware. Think of it as a fork in the road. The path you were walking down now diverges into two (or more) different paths forward.</p>
 
 <p>Blockchains exist because networks of computers run the same software that follows the same set of rules. The code that makes up this software on a public blockchain is open-source, meaning anyone can copy it and make any changes they want.</p>
@@ -28,6 +26,7 @@ sticky: false
 <p>If groups of nodes are running different software or there are inconsistencies in the record of transactions, it can cause the blockchain to fork.</p>
 
 <h2>Types of Forks</h2>
+<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" alt="Illustration representing forking with boxes splitting and making more boxes over and over" title="Forking">
 
 <h3>Temporary Forks</h3>
 <p>Blockchains collectively maintain a record of all the transactions conducted on the network. The most common type of fork occurs when multiple blocks have the same block height.</p>
@@ -47,9 +46,7 @@ sticky: false
 
 {% include callouts/callout.html
    title="Bitcoin and Bitcoin Cash"
-	bodyText="On August 1st of 2017, Bitcoin experienced a hard fork that created two separate blockchains, Bitcoin and Bitcoin Cash. 
-
-The Bitcoin community had argued for years over whether Bitcoin should be a store of value or medium of exchange. Those that favored bitcoin being a medium of exchange proposed a change to the code that would increase the size limit of each block from one megabyte to eight. 
-
-The nodes that accepted the new upgrade became incompatible with the nodes that did not and two diverging paths were formed. If you held bitcoin before the fork, you would now have an equal amount of coins on both networks that could be used independently of each other."
+	bodyText="On August 1st of 2017, Bitcoin experienced a hard fork that created two separate blockchains, Bitcoin and Bitcoin Cash.<br> 
+	The Bitcoin community had argued for years over whether Bitcoin should be a store of value or medium of exchange. Those that favored bitcoin being a medium of exchange 	proposed a change to the code that would increase the size limit of each block from one megabyte to eight.<br> 
+	The nodes that accepted the new upgrade became incompatible with the nodes that did not and two diverging paths were formed. If you held bitcoin before the fork, you 	would now have an equal amount of coins on both networks that could be used independently of each other."
 %}
