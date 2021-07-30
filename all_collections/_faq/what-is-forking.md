@@ -46,7 +46,9 @@ sticky: false
 
 {% include callouts/callout.html
    title="Bitcoin and Bitcoin Cash"
-	bodyText="On August 1st of 2017, Bitcoin experienced a hard fork that created two separate blockchains, Bitcoin and Bitcoin Cash.<br> 
-	The Bitcoin community had argued for years over whether Bitcoin should be a store of value or medium of exchange. Those that favored bitcoin being a medium of exchange 	proposed a change to the code that would increase the size limit of each block from one megabyte to eight.<br> 
+	bodyText="On August 1st of 2017, Bitcoin experienced a hard fork that created two separate blockchains, Bitcoin and Bitcoin Cash.
+	<br> 
+	The Bitcoin community had argued for years over whether Bitcoin should be a store of value or medium of exchange. Those that favored bitcoin being a medium of exchange 	proposed a change to the code that would increase the size limit of each block from one megabyte to eight.
+	<br> 
 	The nodes that accepted the new upgrade became incompatible with the nodes that did not and two diverging paths were formed. If you held bitcoin before the fork, you 	would now have an equal amount of coins on both networks that could be used independently of each other."
 %}
