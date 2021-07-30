@@ -26,11 +26,9 @@ sticky: false
 %}
 
 <h2>Types of Forks</h2>
-<img src="/assets/img/courses/blockchain-for-business/Fork-01.jpg" alt="Illustration representing forking with boxes splitting and making more boxes over and over" title="Forking">
-
 <h3>Temporary Forks</h3>
 <p>Blockchains collectively maintain a record of all the transactions conducted on the network. The most common type of fork occurs when multiple blocks have the same block height.</p>
-
+<img src="/assets/img/Forks2_BlockHeight.jpg" alt="Illustration representing two blocks at the same height on the blockchain" title="Block Height">
 <p>This can happen when multiple new valid blocks are found and confirmed during times of high transaction volume. Groups of nodes would temporarily have different copies of the blockchain ledger. In proof-of-work consensus models, the longest chain will always win, so the network will ultimately return to a global consensus. The transactions contained in the shorter chain will return to the mempool to be added to a future block.</p>
 
 {% include callouts/definition.html
@@ -49,6 +47,8 @@ sticky: false
 <p>A software upgrade or change that forces nodes on the network to upgrade or results in a permanent split in the network. In this case, the upgraded nodes are not backward compatible and cannot interact with older nodes.</p>
 
 <p>If nodes are running the old version of the software, they will end up with their own version of blockchain data, completely separate from the nodes that upgraded. This situation results in the creation of two separate networks.</p>
+
+<img src="/assets/img/Forks2_BCfork.jpg" alt="Illustration representing the Bitcoin and Bitcoin Cash hard fork" title="Bitcoin Cash hard fork">
 
 {% include callouts/callout.html
    title="Bitcoin and Bitcoin Cash"
