@@ -7,9 +7,9 @@ layout: faq
 readtime: 4m
 tag: CONCEPTS
 focusKeyword: Cryptocurrency Exchanges, Bitcoin ATMs, Direct Transfer
-learnMoreLink: /courses/blockchain-101/
-learnMoreText: our Blockchain 101 course
-learnMoreImage: BC101-01.jpg
+learnMoreLink: /courses/crypto-curious-course/
+learnMoreText: The Crypto Curious Course
+learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
 weight: 4
 sticky: true
 ---
