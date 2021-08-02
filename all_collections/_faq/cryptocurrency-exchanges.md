@@ -7,8 +7,8 @@ layout: faq
 readtime: 3m
 tag: CONCEPTS
 focusKeyword: Trading Crypto, Centralized Exchanges, Coinbase, DEX, Liquidity Pool, Uniswap
-learnMoreLink: /courses/decentralized-finance-course/
-learnMoreText: and sign up for our upcoming DeFi Course
+learnMoreLink: /courses/demystifying-defi/
+learnMoreText: The Demystifying Defi Course
 learnMoreImage: DEFI_title.jpg
 weight: 10
 sticky: false
