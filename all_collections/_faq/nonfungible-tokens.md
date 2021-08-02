@@ -5,9 +5,9 @@ permalink: /faq/nonfungible-tokens/
 layout: faq
 tag: CONCEPTS
 focusKeyword: NFTs, Non-Fungible Tokens, Blockchain, ERC-721, CryptoKitties, Collectibles, Digital Collectibles 
-learnMoreLink: /courses/demystifying-defi/
-learnMoreText: The Demystifying DeFi Course
-learnMoreImage: DEFI_title.jpg
+learnMoreLink: /courses/navigating-nfts/
+learnMoreText: The Navigating NFTs Course
+learnMoreImage: NavigatingNFTs_EVENT.jpg
 weight: 3
 sticky: true
 readtime: 4m
