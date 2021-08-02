@@ -6,7 +6,7 @@ layout: faq
 readtime: 3m
 tag: CONCEPTS
 focusKeyword: Crypto Wallet, Hardware Wallets, Software Wallet, Paper Wallet
-learnMoreLink: /crypto-curious/
+learnMoreLink: /courses/crypto-curious-course/
 learnMoreText: The Crypto Curious Course
 learnMoreImage: crypto_curious_course_no_text-1080x608.jpg
 weight: 10
