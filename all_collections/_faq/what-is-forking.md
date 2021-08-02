@@ -50,7 +50,7 @@ sticky: false
 
 <p>If nodes are running the old version of the software, they will end up with their own version of blockchain data, completely separate from the nodes that upgraded. This situation results in the creation of two separate networks.</p>
 
-<img src="/assets/img/Forks2_BCfork.jpg" alt="Illustration representing the Bitcoin and Bitcoin Cash hard fork" title="Bitcoin Cash hard fork">
+<img src="/assets/img/Forks2_BCfork2.jpg" alt="Illustration representing the Bitcoin and Bitcoin Cash hard fork" title="Bitcoin Cash hard fork">
 
 {% include callouts/callout.html
    title="Bitcoin and Bitcoin Cash"
