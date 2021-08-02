@@ -6,7 +6,7 @@ layout: faq
 readtime: 7m
 tag: CONCEPTS
 focusKeyword: Stablecoins, Stablecoin, Volatility, Cryptocurrencies, Tether, Gemini Dollar, DAI, MakerDAO
-learnMoreLink: /decentralized-finance-course/
+learnMoreLink: /courses/demystifying-defi/
 learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 10
