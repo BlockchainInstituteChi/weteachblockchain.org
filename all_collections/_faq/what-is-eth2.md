@@ -5,9 +5,9 @@ permalink: /faq/what-is-eth2/
 layout: faq
 tag: CONCEPTS
 focusKeyword: Ethereum, Eth2, ETH 2.0, Proof of Stake, PoS, Beacon Chain, Sharding
-learnMoreLink: /decentralized-finance-course/
-learnMoreText: The Demystifying DeFi Course
-learnMoreImage: DEFI_title.jpg
+learnMoreLink: /courses/ethereum-101-blockchain-beyond-bitcoin/
+learnMoreText: Our Ethereum 101 Course
+learnMoreImage: EthereumGrowth-1.jpg
 weight: 3
 sticky: true
 readtime: 3m
