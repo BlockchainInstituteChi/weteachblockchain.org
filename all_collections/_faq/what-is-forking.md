@@ -22,9 +22,11 @@ sticky: false
 {% include callouts/definition.html
 	title="NODE"
 	bodyText='A node is a computer that runs a blockchain’s software and is working to maintain it. <br>
-	Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>.'
+	<em>Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>.</em>'
 %}
 
+<br>
+<br>
 <h2>Types of Forks</h2>
 <h3>Temporary Forks</h3>
 <p>Blockchains collectively maintain a record of all the transactions conducted on the network. The most common type of fork occurs when multiple blocks have the same block height.</p>
@@ -34,16 +36,16 @@ sticky: false
 {% include callouts/definition.html
 	title="MEMPOOL"
 	bodyText='The digital waiting room where transactions are sent before they are included in a block by a miner. <br>
-	Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>.'
+	<em>Learn more blockchain terms with our crypto <a href="/posts/12/07/crypto-lingo-you-need-to-know" target="_blank">crypto slang page</a>.</em>'
 %}
 
 <h3>Permanent Forks</h3>
 <p>While most forks are temporary, <a href="/faq/what-is-bitcoin-improvement-proposal/" target="_blank">software upgrades</a> to the network or changes in the protocol can result in a permanent fork.</p>
 
-<h3>Soft Forks</h3>
+<h4>Soft Forks</h4>
 <p>A type of upgrade which is backward compatible with nodes running older versions of the software. Even if only some of the nodes chose to run the upgraded version of the software they can still interact with and maintain consensus on the network. Soft Forks do not create a new path so there is no new blockchain or currency.</p>
 
-<h3>Hard Fork</h3>
+<h4>Hard Fork</h4>
 <p>A software upgrade or change that forces nodes on the network to upgrade or results in a permanent split in the network. In this case, the upgraded nodes are not backward compatible and cannot interact with older nodes.</p>
 
 <p>If nodes are running the old version of the software, they will end up with their own version of blockchain data, completely separate from the nodes that upgraded. This situation results in the creation of two separate networks.</p>
