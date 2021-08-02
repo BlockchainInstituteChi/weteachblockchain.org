@@ -5,9 +5,9 @@ permalink: /faq/how-much-energy-do-NFTs-use/
 layout: faq
 tag: CONCEPTS
 focusKeyword: Non-fungible Tokens, NFTs, Energy Usage, Proof of work, PoW, Mining
-learnMoreLink: /courses/demystifying-defi/
-learnMoreText: The Demystifying DeFi Course
-learnMoreImage: DEFI_title.jpg
+learnMoreLink: /courses/navigating-nfts/
+learnMoreText: The Navigating NFTs Course
+learnMoreImage: NavigatingNFTs_EVENT.jpg
 weight: 3
 sticky: true
 readtime: 4m
