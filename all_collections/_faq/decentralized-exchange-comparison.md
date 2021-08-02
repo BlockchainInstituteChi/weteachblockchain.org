@@ -5,7 +5,7 @@ permalink: /faq/decentralized-exchange-comparison/
 layout: faq
 tag: What's the difference?
 focusKeyword: DEX, Exchange, Coinbase, Decentralized, Uniswap, SushiSwap, 1Inch, PancakeSwap
-learnMoreLink: /decentralized-finance-course/
+learnMoreLink: /courses/demystifying-defi/
 learnMoreText: The Demystifying DeFi Course
 learnMoreImage: DEFI_title.jpg
 weight: 4
