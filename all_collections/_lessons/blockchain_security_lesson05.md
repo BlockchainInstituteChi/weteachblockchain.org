@@ -5,7 +5,7 @@ module: 2
 title: Cryptocurrency Wallets
 permalink: /courses/blockchain-security/2/cryptocurrency-wallets/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/3aH-HT3rbY0?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/3aH-HT3rbY0?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">It's important to have the right tool for the job.</span>
 

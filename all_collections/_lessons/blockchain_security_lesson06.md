@@ -5,7 +5,7 @@ module: 2
 title: HD Wallets & Seed Phrases
 permalink: /courses/blockchain-security/2/hd-wallets-seed-phrases/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/p-U2hAdOrn4?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/p-U2hAdOrn4?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">Privacy on public blockchains can only be attained through obfuscation.</span>
 

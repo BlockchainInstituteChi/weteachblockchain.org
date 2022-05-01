@@ -5,7 +5,7 @@ module: 1
 title: Protecting Digital Keys
 permalink: /courses/blockchain-security/1/protecting-digital-keys/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ySOBvgc6ntI?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/ySOBvgc6ntI?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">While blockchain technology originally emerged as a solution to provide distributed trust within the Bitcoin network, the technology has progressed a long way since 2008.</span>
 While this new architecture has many advantages, the implementation of a blockchain-based system is complex and requires a thorough review to ensure appropriate security.

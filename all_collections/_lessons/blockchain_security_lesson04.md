@@ -5,7 +5,7 @@ module: 2
 title: Individual Account Compromise
 permalink: /courses/blockchain-security/2/individual-account-compromise/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/45l8Hka5Zxw?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/45l8Hka5Zxw?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">In the past, an 8 digit password was nearly impossible to crack, but in 2020, it's not only possible - it's easy. </span>
 

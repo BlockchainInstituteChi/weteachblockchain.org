@@ -5,7 +5,7 @@ module: 3
 title: Bad Data & DoS
 permalink: /courses/blockchain-security/3/bad-data-dos/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/hwRr4uFrbWI?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/hwRr4uFrbWI?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">In a public blockchain, even valid network congestion can cause issues. </span>
 

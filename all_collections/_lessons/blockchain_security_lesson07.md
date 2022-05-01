@@ -5,7 +5,7 @@ module: 3
 title: Centralized Points of Failure
 permalink: /courses/blockchain-security/3/centralized-points-of-failure/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/AJhQmWn5cdk?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/AJhQmWn5cdk?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">Centralized points of failure represent salacious opportunities for would-be adversaries to attack. </span>
 Think about it this way: if you're barricaded in a room and there is only a single way in and out of the room, where does it make the most sense for your enemy to attack? The single point, of course! In a similar way, when we rely on a single service to a point of reliance, we can say that it is a single point of failure since its loss would mean a major catastrophe for us.

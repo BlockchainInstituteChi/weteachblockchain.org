@@ -6,7 +6,7 @@ title: Independence Is Essential
 permalink: /courses/blockchain-security/1/independence-is-essential/
 
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/VqgISgbnxtg?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/VqgISgbnxtg?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">A blockchain is a way of structuring a collection of digital signatures.</span>
 

@@ -5,7 +5,7 @@ module: 3
 title: 51% Attack / Network Hijack
 permalink: /courses/blockchain-security/3/51-attack-network-hijack/
 ---
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/O2yVD6KyBQo?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="1280" height="720" src="https://www.youtube.com/embed/O2yVD6KyBQo?list=PLVmd1I9lPns9tKLMAYdnUx3oiegbIg7sJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 <span class="openingParagraph">As we covered in the previous section, public blockchains depend on a network of nodes to maintain the system and store all of the pertinent data.</span>
 
